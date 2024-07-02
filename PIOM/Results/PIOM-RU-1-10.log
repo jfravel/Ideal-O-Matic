@@ -1,0 +1,254 @@
+
+Gurobi 9.5.2 (win64) logging started Thu Mar 28 13:50:05 2024
+
+Set parameter LogFile to value "Results/PIOM-RU-1-10.log"
+Set parameter NonConvex to value 2
+Set parameter NumericFocus to value 3
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 47 rows, 43 columns and 162 nonzeros
+Model fingerprint: 0x37950a24
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 157 rows, 68 columns, 470 nonzeros
+Presolved model has 24 bilinear constraint(s)
+Variable types: 49 continuous, 19 integer (19 binary)
+
+Root relaxation: objective 4.000000e+00, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0    5          -    4.00000      -     -    0s
+     0     2    4.00000    0    5          -    4.00000      -     -    0s
+H    4     8                       2.0000000    4.00000   100%   2.5    0s
+ 52506 15929 infeasible   31         2.00000    4.00000   100%   4.8    5s
+ 141415 30006    3.50615   24   18    2.00000    3.79922  90.0%   4.3   10s
+ 227959 37580    3.32477   27   16    2.00000    3.60622  80.3%   4.2   15s
+ 301264 37711 infeasible   28         2.00000    3.36462  68.2%   4.2   20s
+
+Gurobi 9.5.2 (win64) logging started Thu Mar 28 13:53:45 2024
+
+Set parameter LogFile to value "Results/PIOM-RU-1-10.log"
+Set parameter NonConvex to value 2
+Set parameter NumericFocus to value 3
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 47 rows, 43 columns and 162 nonzeros
+Model fingerprint: 0x37950a24
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 157 rows, 68 columns, 470 nonzeros
+Presolved model has 24 bilinear constraint(s)
+Variable types: 49 continuous, 19 integer (19 binary)
+
+Root relaxation: objective 4.000000e+00, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0    5          -    4.00000      -     -    0s
+     0     2    4.00000    0    5          -    4.00000      -     -    0s
+H    4     8                       2.0000000    4.00000   100%   2.5    0s
+ 47845 14677 infeasible   38         2.00000    4.00000   100%   4.8    5s
+
+Gurobi 9.5.2 (win64) logging started Thu Mar 28 14:06:25 2024
+
+Set parameter LogFile to value "Results/PIOM-RU-1-10.log"
+Set parameter NonConvex to value 2
+Set parameter NumericFocus to value 3
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 47 rows, 43 columns and 162 nonzeros
+Model fingerprint: 0x102321bb
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 157 rows, 68 columns, 470 nonzeros
+Presolved model has 24 bilinear constraint(s)
+Variable types: 49 continuous, 19 integer (19 binary)
+
+Root relaxation: objective 4.000000e+00, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0    5          -    4.00000      -     -    0s
+     0     2    4.00000    0    5          -    4.00000      -     -    0s
+H    4     8                       2.0000000    4.00000   100%   2.5    0s
+ 50298 15281    2.72794   31   20    2.00000    4.00000   100%   4.8    5s
+
+Gurobi 9.5.2 (win64) logging started Thu Mar 28 14:09:46 2024
+
+Set parameter LogFile to value "Results/PIOM-RU-1-10.log"
+Set parameter NonConvex to value 2
+Set parameter NumericFocus to value 3
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 47 rows, 43 columns and 162 nonzeros
+Model fingerprint: 0x1d8f8917
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 157 rows, 68 columns, 470 nonzeros
+Presolved model has 24 bilinear constraint(s)
+Variable types: 49 continuous, 19 integer (19 binary)
+
+Root relaxation: objective 4.000000e+00, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0    5          -    4.00000      -     -    0s
+     0     2    4.00000    0    5          -    4.00000      -     -    0s
+H    4     8                       2.0000000    4.00000   100%   2.5    0s
+ 44867 13833 infeasible   31         2.00000    4.00000   100%   4.7    5s
+ 140352 29889 infeasible   33         2.00000    3.79780  89.9%   4.3   10s
+ 227223 37160 infeasible   28         2.00000    3.58511  79.3%   4.2   15s
+ 304160 37011 infeasible   33         2.00000    3.34280  67.1%   4.2   20s
+ 384424 32584    2.69314   29   18    2.00000    3.05162  52.6%   4.2   25s
+*426625 32231             107       2.0000011    3.00000  50.0%   4.2   27s
+*426633 32230             108       2.0000017    3.00000  50.0%   4.2   27s
+*426639 32230             109       2.0000019    3.00000  50.0%   4.2   27s
+*454080 34032             107       2.0000022    3.00000  50.0%   4.2   29s
+*454092 34032             117       2.0000033    3.00000  50.0%   4.2   29s
+*463523 35565             115       2.0000036    3.00000  50.0%   4.2   29s
+ 465643 35712    2.72037   25   15    2.00000    3.00000  50.0%   4.2   30s
+ 542111 35341    2.42741   36   18    2.00000    2.85294  42.6%   4.2   35s
+ 620131 28863    2.45520   31   18    2.00000    2.69491  34.7%   4.2   40s
+ 698542 15658 infeasible   32         2.00000    2.46564  23.3%   4.2   45s
+*749933   598              89       2.0001431    2.00065  0.03%   4.1   48s
+*749963   598              89       2.0001548    2.00065  0.02%   4.1   48s
+*749987   598              89       2.0001606    2.00065  0.02%   4.1   48s
+*750663   598              88       2.0001664    2.00065  0.02%   4.1   48s
+*750692   598              88       2.0001799    2.00065  0.02%   4.1   48s
+
+Cutting planes:
+  Cover: 5
+
+Explored 751382 nodes (3113960 simplex iterations) in 48.46 seconds (12.81 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 2.00018 2 2 ... 2
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000179948898e+00, best bound 2.000182696901e+00, gap 0.0001%
+
+Gurobi 9.5.2 (win64) logging started Thu Mar 28 14:54:06 2024
+
+Set parameter LogFile to value "Results/PIOM-RU-1-10.log"
+Set parameter NonConvex to value 2
+Set parameter NumericFocus to value 3
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 47 rows, 43 columns and 162 nonzeros
+Model fingerprint: 0x2be1569f
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 157 rows, 68 columns, 470 nonzeros
+Presolved model has 24 bilinear constraint(s)
+Variable types: 49 continuous, 19 integer (19 binary)
+
+Root relaxation: objective 4.000000e+00, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0    5          -    4.00000      -     -    0s
+     0     2    4.00000    0    5          -    4.00000      -     -    0s
+H    4     8                       2.0000000    4.00000   100%   2.5    0s
+*37086 12070             107       2.0000011    4.00000   100%   4.9    4s
+ 39322 12939    4.00000   18    4    2.00000    4.00000   100%   4.9    5s
+ 119573 27136    3.50635   26   20    2.00000    3.84820  92.4%   4.6   10s
+
+Gurobi 9.5.2 (win64) logging started Thu Mar 28 14:55:29 2024
+
+Set parameter LogFile to value "Results/PIOM-RU-1-10.log"
+Set parameter NonConvex to value 2
+Set parameter NumericFocus to value 3
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 47 rows, 43 columns and 162 nonzeros
+Model fingerprint: 0xe9fc1047
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 157 rows, 68 columns, 470 nonzeros
+Presolved model has 24 bilinear constraint(s)
+Variable types: 49 continuous, 19 integer (19 binary)
+
+Root relaxation: objective 4.000000e+00, 32 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0    5          -    4.00000      -     -    0s
+     0     2    4.00000    0    5          -    4.00000      -     -    0s
+H 1189   602                      -0.0000000    4.00000      -   7.0    1s
+H 1190   576                       2.0000000    4.00000   100%   7.0    1s
+*45604 13943             108       2.0000011    4.00000   100%   4.9    4s
+ 50734 15239    3.15088   32   14    2.00000    4.00000   100%   4.9    5s
+ 134035 28257    3.65430   22   12    2.00000    3.80000  90.0%   4.4   10s

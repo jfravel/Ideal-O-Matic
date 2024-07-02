@@ -1,0 +1,74 @@
+[
+ {
+  "Model": "SBspL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 10,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBspM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 10,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBspL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 15,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBspM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 15,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBspL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBspM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBspL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 25,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBspM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 25,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ }
+]

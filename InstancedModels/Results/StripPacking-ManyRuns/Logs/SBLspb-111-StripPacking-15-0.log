@@ -1,0 +1,18 @@
+
+Gurobi 11.0.0 (win64) logging started Wed May 22 18:16:34 2024
+
+Set parameter LogFile to value "./Results/StripPacking-ManyRuns/Logs/SBLspb-111-StripPacking-15-0.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Set parameter LPWarmStart to value 2
+
+Gurobi 11.0.0 (win64) logging started Tue Jun 18 20:42:17 2024
+
+Set parameter LogFile to value "./Results/StripPacking-ManyRuns/Logs/SBLspb-111-StripPacking-15-0.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Set parameter LPWarmStart to value 2

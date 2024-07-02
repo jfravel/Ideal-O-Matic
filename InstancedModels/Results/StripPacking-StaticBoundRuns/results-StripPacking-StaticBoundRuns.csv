@@ -1,0 +1,23 @@
+Name,Date,,Model,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SUu-010-StripPacking-10,5/9/2024,,SUu,StripPacking,,10,,0,1,0,0.218326092,,39,39,0,7,9204
+RUu-010-StripPacking-10,5/13/2024,,RUu,StripPacking,,10,,0,1,0,2.800261736,,39,39,0,7,7055
+SBuL-010-StripPacking-10,5/9/2024,,SBuL,StripPacking,,10,,0,1,0,0.155847549,,39,39,0,8,9584
+SBuM-010-StripPacking-10,5/9/2024,,SBuM,StripPacking,,10,,0,1,0,0.296803713,,39,39,0,9,14350
+,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SUu-010-StripPacking-15,5/9/2024,,SUu,StripPacking,,15,,0,1,0,10800.04874,,49.99999999,47,0.06,10,100117666
+RUu-010-StripPacking-15,5/13/2024,,RUu,StripPacking,,15,,0,1,0,6014.865007,,49,49,0,10,8789905
+SBuL-010-StripPacking-15,5/9/2024,,SBuL,StripPacking,,15,,0,1,0,10800.00369,,49,47,0.040816327,10,161347374
+SBuM-010-StripPacking-15,5/9/2024,,SBuM,StripPacking,,15,,0,1,0,10800.06127,,50,45,0.1,10,24242377
+,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SUu-010-StripPacking-20,5/10/2024,,SUu,StripPacking,,20,,0,1,0,10800.63255,,80,47,0.4125,10,12085507
+RUu-010-StripPacking-20,5/13/2024,,RUu,StripPacking,,20,,0,1,0,10800.22595,,84,48,0.428571429,10,3341415
+SBuL-010-StripPacking-20,5/10/2024,,SBuL,StripPacking,,20,,0,1,0,10800.28194,,80,48,0.4,10,11019174
+SBuM-010-StripPacking-20,5/10/2024,,SBuM,StripPacking,,20,,0,1,0,10800.23151,,83,44,0.469879518,10,9523908
+,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SUu-010-StripPacking-25,5/10/2024,,SUu,StripPacking,,25,,0,1,0,10803.73198,,79,37,0.53164557,10,11178242
+RUu-010-StripPacking-25,5/13/2024,,RUu,StripPacking,,25,,0,1,0,10800.29903,,80,37,0.5375,10,3079947
+SBuL-010-StripPacking-25,5/10/2024,,SBuL,StripPacking,,25,,0,1,0,10800.08953,,78,41,0.474358974,10,11873023
+SBuM-010-StripPacking-25,5/10/2024,,SBuM,StripPacking,,25,,0,1,0,10800.1918,,80,35,0.5625,10,8712606

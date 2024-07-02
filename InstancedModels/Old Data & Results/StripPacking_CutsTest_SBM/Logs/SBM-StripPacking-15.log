@@ -1,0 +1,401 @@
+
+Gurobi 11.0.0 (win64) logging started Fri Apr 26 12:39:41 2024
+
+Set parameter LogFile to value "./Results/StripPacking_CutsTest_SBM/Logs/SBM-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros
+Model fingerprint: 0xe536b706
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 324 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 1581 rows, 344 columns, 4963 nonzeros
+Variable types: 135 continuous, 209 integer (209 binary)
+
+Root relaxation: objective 1.690000e+02, 211 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  169.00000    0   26          -  169.00000      -     -    0s
+     0     0  169.00000    0   50          -  169.00000      -     -    0s
+     0     0  169.00000    0   48          -  169.00000      -     -    0s
+     0     0  169.00000    0   24          -  169.00000      -     -    0s
+     0     0  169.00000    0   39          -  169.00000      -     -    0s
+     0     0  169.00000    0   41          -  169.00000      -     -    0s
+     0     0  169.00000    0   51          -  169.00000      -     -    0s
+     0     0  173.06011    0   37          -  173.06011      -     -    0s
+     0     0  173.06011    0   55          -  173.06011      -     -    0s
+     0     0  194.31346    0   40          -  194.31346      -     -    0s
+     0     0  194.31346    0   40          -  194.31346      -     -    0s
+     0     2  194.31346    0   36          -  194.31346      -     -    1s
+* 5194  1405              30     300.0000000  281.00000  6.33%   2.8    4s
+
+Cutting planes:
+  Learned: 1
+  Gomory: 5
+  Cover: 35
+  MIR: 121
+  Flow cover: 268
+  RLT: 5
+  Relax-and-lift: 1
+
+Explored 5310 nodes (85057 simplex iterations) in 4.43 seconds (6.30 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 1: 300 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+02, best bound 3.000000000000e+02, gap 0.0000%
+
+Gurobi 11.0.0 (win64) logging started Fri Apr 26 12:39:45 2024
+
+Set parameter LogFile to value "./Results/StripPacking_CutsTest_SBM/Logs/SBM-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 1
+Set parameter Presolve to value 0
+Set parameter Heuristics to value 0
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros
+Model fingerprint: 0xe536b706
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+Variable types: 136 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 1.500000e+02, 238 iterations, 0.02 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  150.00000    0   28          -  150.00000      -     -    0s
+     0     0  169.00000    0   22          -  169.00000      -     -    0s
+     0     0  169.00000    0   40          -  169.00000      -     -    0s
+     0     0  169.00000    0   40          -  169.00000      -     -    0s
+     0     0  169.00000    0   36          -  169.00000      -     -    0s
+     0     0  169.00000    0   36          -  169.00000      -     -    0s
+     0     0  169.00000    0   28          -  169.00000      -     -    0s
+     0     0  169.00000    0   38          -  169.00000      -     -    0s
+     0     0  175.00000    0   47          -  175.00000      -     -    0s
+     0     0  175.00000    0   46          -  175.00000      -     -    0s
+     0     0  193.05548    0   33          -  193.05548      -     -    0s
+     0     0  193.05548    0   31          -  193.05548      -     -    0s
+     0     2  193.05548    0   29          -  193.05548      -     -    0s
+* 8929  1839              33     300.0000000  281.00000  6.33%  11.5    1s
+
+Cutting planes:
+  Cover: 37
+  MIR: 114
+  Flow cover: 153
+  RLT: 1
+
+Explored 9256 nodes (108816 simplex iterations) in 1.63 seconds (1.12 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 1: 300 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+02, best bound 3.000000000000e+02, gap 0.0000%
+
+Gurobi 11.0.0 (win64) logging started Fri Apr 26 12:39:47 2024
+
+Set parameter LogFile to value "./Results/StripPacking_CutsTest_SBM/Logs/SBM-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 0
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 0
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros
+Model fingerprint: 0xe536b706
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 324 rows and 2 columns
+Presolve time: 0.02s
+Presolved: 1581 rows, 344 columns, 4963 nonzeros
+Variable types: 135 continuous, 209 integer (209 binary)
+
+Root relaxation: objective 1.690000e+02, 211 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  169.00000    0   26          -  169.00000      -     -    0s
+     0     0  169.00000    0   25          -  169.00000      -     -    0s
+     0     2  169.00000    0   25          -  169.00000      -     -    0s
+* 6802  1350              35     300.0000000  272.00000  9.33%   2.0    0s
+
+Explored 7465 nodes (77831 simplex iterations) in 0.72 seconds (0.58 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 1: 300 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+02, best bound 3.000000000000e+02, gap 0.0000%
+
+Gurobi 11.0.0 (win64) logging started Fri Apr 26 12:39:48 2024
+
+Set parameter LogFile to value "./Results/StripPacking_CutsTest_SBM/Logs/SBM-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 0
+Set parameter Presolve to value 0
+Set parameter Heuristics to value 1
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros
+Model fingerprint: 0xe536b706
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+Variable types: 136 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 1.500000e+02, 238 iterations, 0.02 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  150.00000    0   28          -  150.00000      -     -    0s
+     0     0  169.00000    0   22          -  169.00000      -     -    0s
+     0     0  169.00000    0   22          -  169.00000      -     -    0s
+     0     2  169.00000    0   22          -  169.00000      -     -    0s
+* 6848  1551              32     300.0000000  288.00000  4.00%   8.0    0s
+
+Explored 7166 nodes (58962 simplex iterations) in 0.77 seconds (0.71 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 1: 300 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+02, best bound 3.000000000000e+02, gap 0.0000%
+
+Gurobi 11.0.0 (win64) logging started Fri Apr 26 12:39:49 2024
+
+Set parameter LogFile to value "./Results/StripPacking_CutsTest_SBM/Logs/SBM-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 0
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros
+Model fingerprint: 0xe536b706
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 324 rows and 2 columns
+Presolve time: 0.02s
+Presolved: 1581 rows, 344 columns, 4963 nonzeros
+Variable types: 135 continuous, 209 integer (209 binary)
+
+Root relaxation: objective 1.690000e+02, 211 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  169.00000    0   26          -  169.00000      -     -    0s
+     0     0  169.00000    0   50          -  169.00000      -     -    0s
+     0     0  169.00000    0   48          -  169.00000      -     -    0s
+     0     0  169.00000    0   31          -  169.00000      -     -    0s
+     0     0  169.00000    0   32          -  169.00000      -     -    0s
+     0     0  173.06011    0   31          -  173.06011      -     -    0s
+     0     0  173.06011    0   36          -  173.06011      -     -    0s
+     0     0  173.06011    0   24          -  173.06011      -     -    0s
+     0     0  179.54499    0   27          -  179.54499      -     -    0s
+     0     0  197.00000    0   37          -  197.00000      -     -    0s
+     0     0  197.00000    0   29          -  197.00000      -     -    0s
+     0     2  197.00000    0   29          -  197.00000      -     -    0s
+* 8306  1517              37     300.0000000  281.00000  6.33%   2.4    1s
+
+Cutting planes:
+  Gomory: 9
+  Cover: 25
+  MIR: 137
+  Flow cover: 256
+  RLT: 4
+  Relax-and-lift: 1
+
+Explored 8567 nodes (84836 simplex iterations) in 1.31 seconds (0.96 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 1: 300 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+02, best bound 3.000000000000e+02, gap 0.0000%
+
+Gurobi 11.0.0 (win64) logging started Fri Apr 26 12:39:50 2024
+
+Set parameter LogFile to value "./Results/StripPacking_CutsTest_SBM/Logs/SBM-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 1
+Set parameter Presolve to value 0
+Set parameter Heuristics to value 1
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros
+Model fingerprint: 0xe536b706
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+Variable types: 136 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 1.500000e+02, 238 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  150.00000    0   28          -  150.00000      -     -    0s
+     0     0  169.00000    0   22          -  169.00000      -     -    0s
+     0     0  169.00000    0   40          -  169.00000      -     -    0s
+     0     0  169.00000    0   40          -  169.00000      -     -    0s
+     0     0  169.00000    0   38          -  169.00000      -     -    0s
+     0     0  169.00000    0   34          -  169.00000      -     -    0s
+     0     0  169.00000    0   33          -  169.00000      -     -    0s
+     0     0  169.00000    0   43          -  169.00000      -     -    0s
+     0     0  169.00000    0   32          -  169.00000      -     -    0s
+     0     0  169.00000    0   50          -  169.00000      -     -    0s
+     0     0  169.00000    0   45          -  169.00000      -     -    0s
+     0     0  169.00000    0   45          -  169.00000      -     -    0s
+     0     2  169.00000    0   43          -  169.00000      -     -    0s
+* 4370  1473              36     300.0000000  300.00000  0.00%  20.9    1s
+
+Cutting planes:
+  Cover: 34
+  MIR: 38
+  Flow cover: 106
+  RLT: 4
+
+Explored 4461 nodes (96515 simplex iterations) in 1.38 seconds (1.22 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 1: 300 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+02, best bound 3.000000000000e+02, gap 0.0000%
+
+Gurobi 11.0.0 (win64) logging started Fri Apr 26 12:39:52 2024
+
+Set parameter LogFile to value "./Results/StripPacking_CutsTest_SBM/Logs/SBM-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 0
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros
+Model fingerprint: 0xe536b706
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 324 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 1581 rows, 344 columns, 4963 nonzeros
+Variable types: 135 continuous, 209 integer (209 binary)
+
+Root relaxation: objective 1.690000e+02, 211 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  169.00000    0   26          -  169.00000      -     -    0s
+     0     0  169.00000    0   26          -  169.00000      -     -    0s
+     0     2  169.00000    0   26          -  169.00000      -     -    1s
+* 5717  1432              27     300.0000000  272.00000  9.33%   1.9    3s
+
+Explored 5911 nodes (61384 simplex iterations) in 3.79 seconds (5.52 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 1: 300 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+02, best bound 3.000000000000e+02, gap 0.0000%
+
+Gurobi 11.0.0 (win64) logging started Fri Apr 26 12:39:56 2024
+
+Set parameter LogFile to value "./Results/StripPacking_CutsTest_SBM/Logs/SBM-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 0
+Set parameter Presolve to value 0
+Set parameter Heuristics to value 0
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros
+Model fingerprint: 0xe536b706
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 3e+02]
+  RHS range        [1e+00, 3e+02]
+Variable types: 136 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 1.500000e+02, 238 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  150.00000    0   28          -  150.00000      -     -    0s
+     0     0  169.00000    0   22          -  169.00000      -     -    0s
+     0     0  169.00000    0   22          -  169.00000      -     -    0s
+     0     2  169.00000    0   22          -  169.00000      -     -    0s
+* 6255  1274              36     300.0000000  296.00000  1.33%   8.2    0s
+
+Explored 6481 nodes (53188 simplex iterations) in 0.58 seconds (0.52 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 1: 300 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+02, best bound 3.000000000000e+02, gap 0.0000%

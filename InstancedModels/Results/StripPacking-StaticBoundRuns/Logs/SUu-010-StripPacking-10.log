@@ -1,0 +1,54 @@
+
+Gurobi 11.0.0 (win64) logging started Thu May  9 15:57:41 2024
+
+Set parameter LogFile to value "./Results/StripPacking-StaticBoundRuns/Logs/SUu-010-StripPacking-10.log"
+Set parameter TimeLimit to value 10800
+Set parameter Cuts to value 0
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 0
+Set parameter LPWarmStart to value 2
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 18 physical cores, 36 logical processors, using up to 18 threads
+
+Optimize a model with 235 rows, 201 columns and 740 nonzeros
+Model fingerprint: 0xb976ef90
+Variable types: 21 continuous, 180 integer (180 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+
+Warning: Completing partial solution with 180 unfixed non-continuous variables out of 180
+User MIP start produced solution with objective 50 (0.00s)
+Loaded user MIP start with objective 50
+
+Presolve removed 22 rows and 22 columns
+Presolve time: 0.00s
+Presolved: 213 rows, 179 columns, 664 nonzeros
+Variable types: 21 continuous, 158 integer (158 binary)
+
+Root relaxation: objective 3.500000e+01, 81 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   35.00000    0    3   50.00000   35.00000  30.0%     -    0s
+     0     0   35.00000    0    3   50.00000   35.00000  30.0%     -    0s
+     0     2   35.00000    0    3   50.00000   35.00000  30.0%     -    0s
+*  505   604              27      45.0000000   35.00000  22.2%   5.5    0s
+*  509   604              30      44.0000000   35.00000  20.5%   5.5    0s
+*  677   973              67      43.0000000   35.00000  18.6%   5.1    0s
+*  678   973              67      42.0000000   35.00000  16.7%   5.0    0s
+* 2078  1439              26      41.0000000   35.00000  14.6%   4.5    0s
+* 5915  1665              34      39.0000000   35.00000  10.3%   4.2    0s
+
+Explored 9204 nodes (45104 simplex iterations) in 0.20 seconds (0.10 work units)
+Thread count was 18 (of 36 available processors)
+
+Solution count 7: 39 41 42 ... 50
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.900000000000e+01, best bound 3.900000000000e+01, gap 0.0000%
