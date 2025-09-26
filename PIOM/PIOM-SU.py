@@ -1,13 +1,14 @@
 from BuildersIOM import build_DIOM_SU, build_PIOM_SU
-
+from yaml_formatter import format_data, CustomDumper
+import yaml
 
 # PMFlag[r][s][i] = 1   if PM[i,s] = UB[(i+1)%2,s] - LB[i,s]   in case r.
-PMFlags = [((0,0),(0,0)),((1,0),(0,0)),((1,1),(0,0)),((1,0),(1,0)),((1,0),(0,1)),((1,1),(1,0)),((1,1),(1,1))]
-#PMFlags = [((0,0),(0,0)),((1,1),(1,0))]
+#PMFlags = [((0,0),(0,0)),((1,0),(0,0)),((1,1),(0,0)),((1,0),(1,0)),((1,0),(0,1)),((1,1),(1,0)),((1,1),(1,1))]
+PMFlags = [((0,0),(0,0)),((1,1),(1,0))]
 Results = {PMFlag: {}  for PMFlag in PMFlags}
 
 IdealnessTolerance = float("1e-5")
-MaxRuntime = None
+MaxRuntime = 10
 
 
 for PMFlag in PMFlags:
@@ -69,4 +70,16 @@ else:
     for PMFlag in errorFlags:
         Results.update({"Ideal?": False})
         print(f'{PMFlag} is not ideal or did not converge.')
+
+
+formatted_results = format_data(Results)
+with open("Results/P-SU-Results.yaml", "w") as f:
+    yaml.dump(
+        formatted_results,
+        f,
+        Dumper=CustomDumper,
+        default_flow_style=False,
+        sort_keys=False,
+        indent=6
+    )
             

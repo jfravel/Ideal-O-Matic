@@ -8,7 +8,7 @@ def build_DIOM_SU(
         PMFlag=None
      ):
     """
-    Builds and returns DIOM-SU as a Gurobi model.
+    Builds and returns D-SU as a Gurobi model.
 
     Parameters
     ----------
@@ -37,7 +37,7 @@ def build_DIOM_SU(
             return "PMFlag mismatch error."
 
 
-    name = 'DIOM-SU-{PMFlag}'
+    name = f'D-SU-{PMFlag}'
     m = Model(name)
 
 
@@ -129,7 +129,7 @@ def build_PIOM_SU(
         max_runtime=None
      ):
     """
-    Builds and returns PIOM-SU as a Gurobi model.
+    Builds and returns P-SU as a Gurobi model.
 
     Parameters
     ----------
@@ -142,7 +142,7 @@ def build_PIOM_SU(
     gurobipy model instance
 
     """
-    name = f'PIOM-SU-{PMFlag}'
+    name = f'P-SU-{PMFlag}'
     m = Model(name)
 
     ## Parameters ################################################################

@@ -1,0 +1,69 @@
+
+Gurobi 12.0.3 (win64) logging started Fri Sep 26 11:54:10 2025
+
+Set parameter LogFile to value "Results/P-SU-((0, 0), (0, 0)).log"
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  10
+NonConvex  2
+
+Optimize a model with 30 rows, 40 columns and 84 nonzeros
+Model fingerprint: 0x59723f49
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 16 integer (16 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 8 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 126 rows, 61 columns, 400 nonzeros
+Presolved model has 20 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 45 continuous, 16 integer (16 binary)
+
+Root relaxation: objective 2.000000e+00, 19 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    2.00000    0   11          -    2.00000      -     -    0s
+     0     0    2.00000    0   11          -    2.00000      -     -    0s
+     0     0    2.00000    0   18          -    2.00000      -     -    0s
+     0     0    2.00000    0   18          -    2.00000      -     -    0s
+     0     2    2.00000    0   18          -    2.00000      -     -    0s
+* 7099  1347              25      -0.0000000    2.00000      -   5.3    0s
+H14421  1671                       0.0000075    2.00000      -   4.9    0s
+*15305  1671              79       0.0000083    2.00000      -   5.0    0s
+*15306  1671              79       0.0000095    2.00000      -   5.0    0s
+*15309  1671              79       0.0000098    2.00000      -   5.0    0s
+*17945  1896              29       0.0003704    2.00000      -   5.2    0s
+
+Cutting planes:
+  Gomory: 3
+  MIR: 2
+  Flow cover: 10
+  Inf proof: 6
+  RLT: 19
+
+Explored 102364 nodes (637330 simplex iterations) in 2.70 seconds (1.12 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 6: 0.00037037 9.75216e-06 9.5402e-06 ... -0
+No other solutions better than 0.00037037
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.703695112663e-04, best bound 3.703695112663e-04, gap 0.0000%

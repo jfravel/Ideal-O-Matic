@@ -1,0 +1,58 @@
+
+Gurobi 12.0.3 (win64) logging started Fri Sep 26 11:54:13 2025
+
+Set parameter LogFile to value "Results/D-SU-[[0, 0], [0, 0]].log"
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  10
+
+Optimize a model with 46 rows, 28 columns and 116 nonzeros
+Model fingerprint: 0x0e3e881e
+Variable types: 12 continuous, 16 integer (16 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 16 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 30 rows, 28 columns, 100 nonzeros
+Variable types: 12 continuous, 16 integer (16 binary)
+
+Root relaxation: objective 2.000000e+00, 24 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.00000    0    6   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    6   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    6   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    4   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    2   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    2   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    8   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    8   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    6   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    8   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    8   -0.00000    2.00000      -     -    0s
+     0     2    2.00000    0    8   -0.00000    2.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 1
+  MIR: 6
+  Zero half: 1
+
+Explored 164 nodes (543 simplex iterations) in 0.05 seconds (0.01 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 1: -0 
+No other solutions better than -0
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%

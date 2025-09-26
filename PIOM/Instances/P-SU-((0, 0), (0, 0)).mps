@@ -1,11 +1,12 @@
-NAME PIOM-SU
+* Signature: 0x714d7c5f7e9a83a2
+NAME P-SU-((0, 0), (0, 0))
 OBJSENSE MAX
 ROWS
  N  OBJ
- G  R0      
- G  R1      
- G  R2      
- G  R3      
+ L  R0      
+ L  R1      
+ L  R2      
+ L  R3      
  L  R4      
  L  R5      
  L  R6      
@@ -20,10 +21,10 @@ ROWS
  L  DBt[1,0]
  L  DBt[1,1]
  E  Tite    
- L  Covr[0,0]
- L  Covr[0,1]
- L  Covr[1,0]
- L  Covr[1,1]
+ L  Covr1[0,0]
+ L  Covr1[0,1]
+ L  Covr1[1,0]
+ L  Covr1[1,1]
  L  Obj1[0,0]
  L  Obj1[0,1]
  L  Obj1[1,0]
@@ -57,109 +58,109 @@ ROWS
  G  PMt[1,0]
  G  PMt[1,1]
 COLUMNS
-    UB[0,0]   R0        1
-    UB[0,0]   R5        -1
+    UB[0,0]   R2        -1
+    UB[0,0]   R4        -1
     UB[0,0]   UB[0,0]   -1
     UB[0,0]   PM[0,0]   -1
     UB[0,0]   UBt[0,0]  -1
     UB[0,0]   PMt[0,0]  -1
-    UB[0,1]   R2        1
-    UB[0,1]   R7        -1
-    UB[0,1]   UB[1,0]   -1
-    UB[0,1]   PM[1,0]   -1
-    UB[0,1]   UBt[1,0]  -1
-    UB[0,1]   PMt[1,0]  -1
-    UB[1,0]   R1        1
-    UB[1,0]   R4        -1
-    UB[1,0]   UB[0,1]   -1
-    UB[1,0]   PM[0,1]   -1
-    UB[1,0]   UBt[0,1]  -1
-    UB[1,0]   PMt[0,1]  -1
-    UB[1,1]   R3        1
-    UB[1,1]   R6        -1
+    UB[0,1]   R3        -1
+    UB[0,1]   R5        -1
+    UB[0,1]   UB[0,1]   -1
+    UB[0,1]   PM[0,1]   -1
+    UB[0,1]   UBt[0,1]  -1
+    UB[0,1]   PMt[0,1]  -1
+    UB[1,0]   R0        -1
+    UB[1,0]   R6        -1
+    UB[1,0]   UB[1,0]   -1
+    UB[1,0]   PM[1,0]   -1
+    UB[1,0]   UBt[1,0]  -1
+    UB[1,0]   PMt[1,0]  -1
+    UB[1,1]   R1        -1
+    UB[1,1]   R7        -1
     UB[1,1]   UB[1,1]   -1
     UB[1,1]   PM[1,1]   -1
     UB[1,1]   UBt[1,1]  -1
     UB[1,1]   PMt[1,1]  -1
-    LB[0,0]   R0        -1
+    LB[0,0]   R0        1
     LB[0,0]   R4        1
-    LB[0,0]   LB[0,1]   -1
-    LB[0,0]   PM[0,1]   1
-    LB[0,0]   LBt[0,1]  -1
-    LB[0,0]   PMt[0,1]  1
-    LB[0,1]   R2        -1
-    LB[0,1]   R6        1
+    LB[0,0]   LB[1,0]   -1
+    LB[0,0]   PM[1,0]   1
+    LB[0,0]   LBt[1,0]  -1
+    LB[0,0]   PMt[1,0]  1
+    LB[0,1]   R1        1
+    LB[0,1]   R5        1
     LB[0,1]   LB[1,1]   -1
     LB[0,1]   PM[1,1]   1
     LB[0,1]   LBt[1,1]  -1
     LB[0,1]   PMt[1,1]  1
-    LB[1,0]   R1        -1
-    LB[1,0]   R5        1
+    LB[1,0]   R2        1
+    LB[1,0]   R6        1
     LB[1,0]   LB[0,0]   -1
     LB[1,0]   PM[0,0]   1
     LB[1,0]   LBt[0,0]  -1
     LB[1,0]   PMt[0,0]  1
-    LB[1,1]   R3        -1
+    LB[1,1]   R3        1
     LB[1,1]   R7        1
-    LB[1,1]   LB[1,0]   -1
-    LB[1,1]   PM[1,0]   1
-    LB[1,1]   LBt[1,0]  -1
-    LB[1,1]   PMt[1,0]  1
-    PD[0,0]   R4        1
-    PD[0,1]   R6        1
-    PD[1,0]   R5        1
-    PD[1,1]   R7        1
+    LB[1,1]   LB[0,1]   -1
+    LB[1,1]   PM[0,1]   1
+    LB[1,1]   LBt[0,1]  -1
+    LB[1,1]   PMt[0,1]  1
+    PM[0,0]   R0        1
+    PM[0,1]   R1        1
+    PM[1,0]   R2        1
+    PM[1,1]   R3        1
     c[0,0]    OBJ       0
-    c[0,0]    LB[0,1]   1
+    c[0,0]    LB[1,0]   1
     c[0,0]    UB[0,0]   1
     c[0,0]    PM[0,0]   1
-    c[0,0]    PM[0,1]   -1
-    c[0,0]    LBt[0,1]  1
+    c[0,0]    PM[1,0]   -1
+    c[0,0]    LBt[1,0]  1
     c[0,0]    UBt[0,0]  1
     c[0,0]    PMt[0,0]  1
-    c[0,0]    PMt[0,1]  -1
+    c[0,0]    PMt[1,0]  -1
     c[0,1]    OBJ       0
     c[0,1]    LB[1,1]   1
-    c[0,1]    UB[1,0]   1
-    c[0,1]    PM[1,0]   1
+    c[0,1]    UB[0,1]   1
+    c[0,1]    PM[0,1]   1
     c[0,1]    PM[1,1]   -1
     c[0,1]    LBt[1,1]  1
-    c[0,1]    UBt[1,0]  1
-    c[0,1]    PMt[1,0]  1
+    c[0,1]    UBt[0,1]  1
+    c[0,1]    PMt[0,1]  1
     c[0,1]    PMt[1,1]  -1
     c[1,0]    OBJ       0
     c[1,0]    LB[0,0]   1
-    c[1,0]    UB[0,1]   1
+    c[1,0]    UB[1,0]   1
     c[1,0]    PM[0,0]   -1
-    c[1,0]    PM[0,1]   1
+    c[1,0]    PM[1,0]   1
     c[1,0]    LBt[0,0]  1
-    c[1,0]    UBt[0,1]  1
+    c[1,0]    UBt[1,0]  1
     c[1,0]    PMt[0,0]  -1
-    c[1,0]    PMt[0,1]  1
+    c[1,0]    PMt[1,0]  1
     c[1,1]    OBJ       0
-    c[1,1]    LB[1,0]   1
+    c[1,1]    LB[0,1]   1
     c[1,1]    UB[1,1]   1
-    c[1,1]    PM[1,0]   -1
+    c[1,1]    PM[0,1]   -1
     c[1,1]    PM[1,1]   1
-    c[1,1]    LBt[1,0]  1
+    c[1,1]    LBt[0,1]  1
     c[1,1]    UBt[1,1]  1
-    c[1,1]    PMt[1,0]  -1
+    c[1,1]    PMt[0,1]  -1
     c[1,1]    PMt[1,1]  1
     delt[0,0]  DB[0,0]   1
     delt[0,0]  S1        1
     delt[0,0]  DBt[0,0]  1
     delt[0,0]  Obj1[0,0]  -2
     delt[0,0]  Obj2[0,0]  2
-    delt[0,1]  DB[1,0]   1
+    delt[0,1]  DB[0,1]   1
     delt[0,1]  S1        1
-    delt[0,1]  DBt[1,0]  1
-    delt[0,1]  Obj1[1,0]  -2
-    delt[0,1]  Obj2[1,0]  2
-    delt[1,0]  DB[0,1]   1
+    delt[0,1]  DBt[0,1]  1
+    delt[0,1]  Obj1[0,1]  -2
+    delt[0,1]  Obj2[0,1]  2
+    delt[1,0]  DB[1,0]   1
     delt[1,0]  S1        1
-    delt[1,0]  DBt[0,1]  1
-    delt[1,0]  Obj1[0,1]  -2
-    delt[1,0]  Obj2[0,1]  2
+    delt[1,0]  DBt[1,0]  1
+    delt[1,0]  Obj1[1,0]  -2
+    delt[1,0]  Obj2[1,0]  2
     delt[1,1]  DB[1,1]   1
     delt[1,1]  S1        1
     delt[1,1]  DBt[1,1]  1
@@ -167,71 +168,71 @@ COLUMNS
     delt[1,1]  Obj2[1,1]  2
     MARKER    'MARKER'                 'INTORG'
     eta[0,0,0]  Tite      1
-    eta[0,0,0]  Covr[0,0]  1
+    eta[0,0,0]  Covr1[0,0]  1
     eta[0,0,0]  LBt[0,0]  10
     eta[0,0,1]  Tite      1
-    eta[0,0,1]  Covr[1,0]  1
-    eta[0,0,1]  LBt[1,0]  10
+    eta[0,0,1]  Covr1[0,1]  1
+    eta[0,0,1]  LBt[0,1]  10
     eta[0,1,0]  Tite      1
-    eta[0,1,0]  Covr[0,1]  1
-    eta[0,1,0]  LBt[0,1]  10
+    eta[0,1,0]  Covr1[1,0]  1
+    eta[0,1,0]  LBt[1,0]  10
     eta[0,1,1]  Tite      1
-    eta[0,1,1]  Covr[1,1]  1
+    eta[0,1,1]  Covr1[1,1]  1
     eta[0,1,1]  LBt[1,1]  10
     eta[1,0,0]  Tite      1
-    eta[1,0,0]  Covr[0,0]  1
+    eta[1,0,0]  Covr1[0,0]  1
     eta[1,0,0]  UBt[0,0]  -10
     eta[1,0,1]  Tite      1
-    eta[1,0,1]  Covr[1,0]  1
-    eta[1,0,1]  UBt[1,0]  -10
+    eta[1,0,1]  Covr1[0,1]  1
+    eta[1,0,1]  UBt[0,1]  -10
     eta[1,1,0]  Tite      1
-    eta[1,1,0]  Covr[0,1]  1
-    eta[1,1,0]  UBt[0,1]  -10
+    eta[1,1,0]  Covr1[1,0]  1
+    eta[1,1,0]  UBt[1,0]  -10
     eta[1,1,1]  Tite      1
-    eta[1,1,1]  Covr[1,1]  1
+    eta[1,1,1]  Covr1[1,1]  1
     eta[1,1,1]  UBt[1,1]  -10
     eta[2,0,0]  Tite      1
-    eta[2,0,0]  Covr[0,0]  1
+    eta[2,0,0]  Covr1[0,0]  1
     eta[2,0,0]  PMt[0,0]  -10
     eta[2,0,1]  Tite      1
-    eta[2,0,1]  Covr[1,0]  1
-    eta[2,0,1]  PMt[1,0]  -10
+    eta[2,0,1]  Covr1[0,1]  1
+    eta[2,0,1]  PMt[0,1]  -10
     eta[2,1,0]  Tite      1
-    eta[2,1,0]  Covr[0,1]  1
-    eta[2,1,0]  PMt[0,1]  -10
+    eta[2,1,0]  Covr1[1,0]  1
+    eta[2,1,0]  PMt[1,0]  -10
     eta[2,1,1]  Tite      1
-    eta[2,1,1]  Covr[1,1]  1
+    eta[2,1,1]  Covr1[1,1]  1
     eta[2,1,1]  PMt[1,1]  -10
     eta[3,0,0]  DBt[0,0]  1
     eta[3,0,0]  Tite      1
-    eta[3,0,0]  Covr[0,0]  1
-    eta[3,0,1]  DBt[1,0]  1
+    eta[3,0,0]  Covr1[0,0]  1
+    eta[3,0,1]  DBt[0,1]  1
     eta[3,0,1]  Tite      1
-    eta[3,0,1]  Covr[1,0]  1
-    eta[3,1,0]  DBt[0,1]  1
+    eta[3,0,1]  Covr1[0,1]  1
+    eta[3,1,0]  DBt[1,0]  1
     eta[3,1,0]  Tite      1
-    eta[3,1,0]  Covr[0,1]  1
+    eta[3,1,0]  Covr1[1,0]  1
     eta[3,1,1]  DBt[1,1]  1
     eta[3,1,1]  Tite      1
-    eta[3,1,1]  Covr[1,1]  1
+    eta[3,1,1]  Covr1[1,1]  1
     MARKER    'MARKER'                 'INTEND'
     phi[0,0]  OBJ       1
     phi[0,0]  Obj1[0,0]  1
     phi[0,0]  Obj2[0,0]  1
     phi[0,1]  OBJ       1
-    phi[0,1]  Obj1[1,0]  1
-    phi[0,1]  Obj2[1,0]  1
+    phi[0,1]  Obj1[0,1]  1
+    phi[0,1]  Obj2[0,1]  1
     phi[1,0]  OBJ       1
-    phi[1,0]  Obj1[0,1]  1
-    phi[1,0]  Obj2[0,1]  1
+    phi[1,0]  Obj1[1,0]  1
+    phi[1,0]  Obj2[1,0]  1
     phi[1,1]  OBJ       1
     phi[1,1]  Obj1[1,1]  1
     phi[1,1]  Obj2[1,1]  1
 RHS
-    RHS1      R0        1
-    RHS1      R1        1
-    RHS1      R2        1
-    RHS1      R3        1
+    RHS1      R0        -1
+    RHS1      R1        -1
+    RHS1      R2        -1
+    RHS1      R3        -1
     RHS1      R4        -1
     RHS1      R5        -1
     RHS1      R6        -1
@@ -242,10 +243,10 @@ RHS
     RHS1      DBt[1,0]  1
     RHS1      DBt[1,1]  1
     RHS1      Tite      7
-    RHS1      Covr[0,0]  3
-    RHS1      Covr[0,1]  3
-    RHS1      Covr[1,0]  3
-    RHS1      Covr[1,1]  3
+    RHS1      Covr1[0,0]  3
+    RHS1      Covr1[0,1]  3
+    RHS1      Covr1[1,0]  3
+    RHS1      Covr1[1,1]  3
     RHS1      Obj2[0,0]  2
     RHS1      Obj2[0,1]  2
     RHS1      Obj2[1,0]  2
@@ -271,10 +272,10 @@ BOUNDS
  UP BND1      LB[0,1]   10
  UP BND1      LB[1,0]   10
  UP BND1      LB[1,1]   10
- UP BND1      PD[0,0]   10
- UP BND1      PD[0,1]   10
- UP BND1      PD[1,0]   10
- UP BND1      PD[1,1]   10
+ UP BND1      PM[0,0]   10
+ UP BND1      PM[0,1]   10
+ UP BND1      PM[1,0]   10
+ UP BND1      PM[1,1]   10
  UP BND1      c[0,0]    10
  UP BND1      c[0,1]    10
  UP BND1      c[1,0]    10
@@ -304,167 +305,167 @@ QCMATRIX   LB[0,0]
     delt[0,0]  LB[0,0]   -0.5
     LB[1,0]   delt[0,0]  0.5
     delt[0,0]  LB[1,0]   0.5
-    PD[0,0]   delt[0,0]  -0.5
-    delt[0,0]  PD[0,0]   -0.5
+    PM[0,0]   delt[0,0]  -0.5
+    delt[0,0]  PM[0,0]   -0.5
 QCMATRIX   LB[0,1] 
-    LB[0,0]   delt[1,0]  0.5
-    delt[1,0]  LB[0,0]   0.5
-    LB[1,0]   delt[1,0]  -0.5
-    delt[1,0]  LB[1,0]   -0.5
-    PD[1,0]   delt[1,0]  -0.5
-    delt[1,0]  PD[1,0]   -0.5
-QCMATRIX   LB[1,0] 
     LB[0,1]   delt[0,1]  -0.5
     delt[0,1]  LB[0,1]   -0.5
     LB[1,1]   delt[0,1]  0.5
     delt[0,1]  LB[1,1]   0.5
-    PD[0,1]   delt[0,1]  -0.5
-    delt[0,1]  PD[0,1]   -0.5
+    PM[0,1]   delt[0,1]  -0.5
+    delt[0,1]  PM[0,1]   -0.5
+QCMATRIX   LB[1,0] 
+    LB[0,0]   delt[1,0]  0.5
+    delt[1,0]  LB[0,0]   0.5
+    LB[1,0]   delt[1,0]  -0.5
+    delt[1,0]  LB[1,0]   -0.5
+    PM[1,0]   delt[1,0]  -0.5
+    delt[1,0]  PM[1,0]   -0.5
 QCMATRIX   LB[1,1] 
     LB[0,1]   delt[1,1]  0.5
     delt[1,1]  LB[0,1]   0.5
     LB[1,1]   delt[1,1]  -0.5
     delt[1,1]  LB[1,1]   -0.5
-    PD[1,1]   delt[1,1]  -0.5
-    delt[1,1]  PD[1,1]   -0.5
+    PM[1,1]   delt[1,1]  -0.5
+    delt[1,1]  PM[1,1]   -0.5
 QCMATRIX   UB[0,0] 
     UB[0,0]   delt[0,0]  0.5
     delt[0,0]  UB[0,0]   0.5
     UB[1,0]   delt[0,0]  -0.5
     delt[0,0]  UB[1,0]   -0.5
-    PD[0,0]   delt[0,0]  0.5
-    delt[0,0]  PD[0,0]   0.5
+    PM[0,0]   delt[0,0]  0.5
+    delt[0,0]  PM[0,0]   0.5
 QCMATRIX   UB[0,1] 
-    UB[0,0]   delt[1,0]  -0.5
-    delt[1,0]  UB[0,0]   -0.5
-    UB[1,0]   delt[1,0]  0.5
-    delt[1,0]  UB[1,0]   0.5
-    PD[1,0]   delt[1,0]  0.5
-    delt[1,0]  PD[1,0]   0.5
-QCMATRIX   UB[1,0] 
     UB[0,1]   delt[0,1]  0.5
     delt[0,1]  UB[0,1]   0.5
     UB[1,1]   delt[0,1]  -0.5
     delt[0,1]  UB[1,1]   -0.5
-    PD[0,1]   delt[0,1]  0.5
-    delt[0,1]  PD[0,1]   0.5
+    PM[0,1]   delt[0,1]  0.5
+    delt[0,1]  PM[0,1]   0.5
+QCMATRIX   UB[1,0] 
+    UB[0,0]   delt[1,0]  -0.5
+    delt[1,0]  UB[0,0]   -0.5
+    UB[1,0]   delt[1,0]  0.5
+    delt[1,0]  UB[1,0]   0.5
+    PM[1,0]   delt[1,0]  0.5
+    delt[1,0]  PM[1,0]   0.5
 QCMATRIX   UB[1,1] 
     UB[0,1]   delt[1,1]  -0.5
     delt[1,1]  UB[0,1]   -0.5
     UB[1,1]   delt[1,1]  0.5
     delt[1,1]  UB[1,1]   0.5
-    PD[1,1]   delt[1,1]  0.5
-    delt[1,1]  PD[1,1]   0.5
+    PM[1,1]   delt[1,1]  0.5
+    delt[1,1]  PM[1,1]   0.5
 QCMATRIX   PM[0,0] 
     UB[0,0]   delt[0,0]  0.5
     delt[0,0]  UB[0,0]   0.5
     LB[1,0]   delt[0,0]  -0.5
     delt[0,0]  LB[1,0]   -0.5
-    PD[0,0]   delt[0,0]  0.5
-    delt[0,0]  PD[0,0]   0.5
+    PM[0,0]   delt[0,0]  0.5
+    delt[0,0]  PM[0,0]   0.5
 QCMATRIX   PM[0,1] 
-    UB[1,0]   delt[1,0]  0.5
-    delt[1,0]  UB[1,0]   0.5
-    LB[0,0]   delt[1,0]  -0.5
-    delt[1,0]  LB[0,0]   -0.5
-    PD[1,0]   delt[1,0]  0.5
-    delt[1,0]  PD[1,0]   0.5
-QCMATRIX   PM[1,0] 
     UB[0,1]   delt[0,1]  0.5
     delt[0,1]  UB[0,1]   0.5
     LB[1,1]   delt[0,1]  -0.5
     delt[0,1]  LB[1,1]   -0.5
-    PD[0,1]   delt[0,1]  0.5
-    delt[0,1]  PD[0,1]   0.5
+    PM[0,1]   delt[0,1]  0.5
+    delt[0,1]  PM[0,1]   0.5
+QCMATRIX   PM[1,0] 
+    UB[1,0]   delt[1,0]  0.5
+    delt[1,0]  UB[1,0]   0.5
+    LB[0,0]   delt[1,0]  -0.5
+    delt[1,0]  LB[0,0]   -0.5
+    PM[1,0]   delt[1,0]  0.5
+    delt[1,0]  PM[1,0]   0.5
 QCMATRIX   PM[1,1] 
     UB[1,1]   delt[1,1]  0.5
     delt[1,1]  UB[1,1]   0.5
     LB[0,1]   delt[1,1]  -0.5
     delt[1,1]  LB[0,1]   -0.5
-    PD[1,1]   delt[1,1]  0.5
-    delt[1,1]  PD[1,1]   0.5
+    PM[1,1]   delt[1,1]  0.5
+    delt[1,1]  PM[1,1]   0.5
 QCMATRIX   LBt[0,0]
     LB[0,0]   delt[0,0]  -0.5
     delt[0,0]  LB[0,0]   -0.5
     LB[1,0]   delt[0,0]  0.5
     delt[0,0]  LB[1,0]   0.5
-    PD[0,0]   delt[0,0]  -0.5
-    delt[0,0]  PD[0,0]   -0.5
+    PM[0,0]   delt[0,0]  -0.5
+    delt[0,0]  PM[0,0]   -0.5
 QCMATRIX   LBt[0,1]
-    LB[0,0]   delt[1,0]  0.5
-    delt[1,0]  LB[0,0]   0.5
-    LB[1,0]   delt[1,0]  -0.5
-    delt[1,0]  LB[1,0]   -0.5
-    PD[1,0]   delt[1,0]  -0.5
-    delt[1,0]  PD[1,0]   -0.5
-QCMATRIX   LBt[1,0]
     LB[0,1]   delt[0,1]  -0.5
     delt[0,1]  LB[0,1]   -0.5
     LB[1,1]   delt[0,1]  0.5
     delt[0,1]  LB[1,1]   0.5
-    PD[0,1]   delt[0,1]  -0.5
-    delt[0,1]  PD[0,1]   -0.5
+    PM[0,1]   delt[0,1]  -0.5
+    delt[0,1]  PM[0,1]   -0.5
+QCMATRIX   LBt[1,0]
+    LB[0,0]   delt[1,0]  0.5
+    delt[1,0]  LB[0,0]   0.5
+    LB[1,0]   delt[1,0]  -0.5
+    delt[1,0]  LB[1,0]   -0.5
+    PM[1,0]   delt[1,0]  -0.5
+    delt[1,0]  PM[1,0]   -0.5
 QCMATRIX   LBt[1,1]
     LB[0,1]   delt[1,1]  0.5
     delt[1,1]  LB[0,1]   0.5
     LB[1,1]   delt[1,1]  -0.5
     delt[1,1]  LB[1,1]   -0.5
-    PD[1,1]   delt[1,1]  -0.5
-    delt[1,1]  PD[1,1]   -0.5
+    PM[1,1]   delt[1,1]  -0.5
+    delt[1,1]  PM[1,1]   -0.5
 QCMATRIX   UBt[0,0]
     UB[0,0]   delt[0,0]  0.5
     delt[0,0]  UB[0,0]   0.5
     UB[1,0]   delt[0,0]  -0.5
     delt[0,0]  UB[1,0]   -0.5
-    PD[0,0]   delt[0,0]  0.5
-    delt[0,0]  PD[0,0]   0.5
+    PM[0,0]   delt[0,0]  0.5
+    delt[0,0]  PM[0,0]   0.5
 QCMATRIX   UBt[0,1]
-    UB[0,0]   delt[1,0]  -0.5
-    delt[1,0]  UB[0,0]   -0.5
-    UB[1,0]   delt[1,0]  0.5
-    delt[1,0]  UB[1,0]   0.5
-    PD[1,0]   delt[1,0]  0.5
-    delt[1,0]  PD[1,0]   0.5
-QCMATRIX   UBt[1,0]
     UB[0,1]   delt[0,1]  0.5
     delt[0,1]  UB[0,1]   0.5
     UB[1,1]   delt[0,1]  -0.5
     delt[0,1]  UB[1,1]   -0.5
-    PD[0,1]   delt[0,1]  0.5
-    delt[0,1]  PD[0,1]   0.5
+    PM[0,1]   delt[0,1]  0.5
+    delt[0,1]  PM[0,1]   0.5
+QCMATRIX   UBt[1,0]
+    UB[0,0]   delt[1,0]  -0.5
+    delt[1,0]  UB[0,0]   -0.5
+    UB[1,0]   delt[1,0]  0.5
+    delt[1,0]  UB[1,0]   0.5
+    PM[1,0]   delt[1,0]  0.5
+    delt[1,0]  PM[1,0]   0.5
 QCMATRIX   UBt[1,1]
     UB[0,1]   delt[1,1]  -0.5
     delt[1,1]  UB[0,1]   -0.5
     UB[1,1]   delt[1,1]  0.5
     delt[1,1]  UB[1,1]   0.5
-    PD[1,1]   delt[1,1]  0.5
-    delt[1,1]  PD[1,1]   0.5
+    PM[1,1]   delt[1,1]  0.5
+    delt[1,1]  PM[1,1]   0.5
 QCMATRIX   PMt[0,0]
     UB[0,0]   delt[0,0]  0.5
     delt[0,0]  UB[0,0]   0.5
     LB[1,0]   delt[0,0]  -0.5
     delt[0,0]  LB[1,0]   -0.5
-    PD[0,0]   delt[0,0]  0.5
-    delt[0,0]  PD[0,0]   0.5
+    PM[0,0]   delt[0,0]  0.5
+    delt[0,0]  PM[0,0]   0.5
 QCMATRIX   PMt[0,1]
-    UB[1,0]   delt[1,0]  0.5
-    delt[1,0]  UB[1,0]   0.5
-    LB[0,0]   delt[1,0]  -0.5
-    delt[1,0]  LB[0,0]   -0.5
-    PD[1,0]   delt[1,0]  0.5
-    delt[1,0]  PD[1,0]   0.5
-QCMATRIX   PMt[1,0]
     UB[0,1]   delt[0,1]  0.5
     delt[0,1]  UB[0,1]   0.5
     LB[1,1]   delt[0,1]  -0.5
     delt[0,1]  LB[1,1]   -0.5
-    PD[0,1]   delt[0,1]  0.5
-    delt[0,1]  PD[0,1]   0.5
+    PM[0,1]   delt[0,1]  0.5
+    delt[0,1]  PM[0,1]   0.5
+QCMATRIX   PMt[1,0]
+    UB[1,0]   delt[1,0]  0.5
+    delt[1,0]  UB[1,0]   0.5
+    LB[0,0]   delt[1,0]  -0.5
+    delt[1,0]  LB[0,0]   -0.5
+    PM[1,0]   delt[1,0]  0.5
+    delt[1,0]  PM[1,0]   0.5
 QCMATRIX   PMt[1,1]
     UB[1,1]   delt[1,1]  0.5
     delt[1,1]  UB[1,1]   0.5
     LB[0,1]   delt[1,1]  -0.5
     delt[1,1]  LB[0,1]   -0.5
-    PD[1,1]   delt[1,1]  0.5
-    delt[1,1]  PD[1,1]   0.5
+    PM[1,1]   delt[1,1]  0.5
+    delt[1,1]  PM[1,1]   0.5
 ENDATA
