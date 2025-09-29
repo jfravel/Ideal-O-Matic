@@ -1,7 +1,7 @@
 
-Gurobi 12.0.3 (win64) logging started Mon Sep 29 15:15:17 2025
+Gurobi 12.0.3 (win64) logging started Mon Sep 29 15:25:20 2025
 
-Set parameter LogFile to value "Results/D-SU-[[0, 0], [0, 0]].log"
+Set parameter LogFile to value "Results/D-SU-[[1, 0], [0, 0]].log"
 Set parameter DisplayInterval to value 60
 Set parameter NumericFocus to value 3
 Set parameter IntegralityFocus to value 1
@@ -19,34 +19,34 @@ DisplayInterval  60
 NumericFocus  3
 Threads  5
 
-Optimize a model with 46 rows, 28 columns and 124 nonzeros
-Model fingerprint: 0x4a25117d
+Optimize a model with 53 rows, 28 columns and 169 nonzeros
+Model fingerprint: 0x1f728846
 Variable types: 12 continuous, 16 integer (16 binary)
 Coefficient statistics:
-  Matrix range     [3e-01, 1e+02]
+  Matrix range     [1e+00, 6e+01]
   Objective range  [1e+00, 1e+00]
   Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+02]
+  RHS range        [1e+00, 7e+01]
 Found heuristic solution: objective -0.0000000
-Presolve removed 12 rows and 0 columns
+Presolve removed 11 rows and 0 columns
 Presolve time: 0.00s
-Presolved: 34 rows, 28 columns, 113 nonzeros
+Presolved: 42 rows, 28 columns, 156 nonzeros
 Variable types: 12 continuous, 16 integer (16 binary)
 
-Root relaxation: objective 2.000000e+00, 26 iterations, 0.00 seconds (0.00 work units)
+Root relaxation: objective 2.000000e+00, 21 iterations, 0.00 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-     0     0    2.00000    0    4   -0.00000    2.00000      -     -    0s
-     0     2    2.00000    0    4   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    3   -0.00000    2.00000      -     -    0s
+     0     2    2.00000    0    3   -0.00000    2.00000      -     -    0s
 
 Cutting planes:
-  Cover: 4
+  Cover: 3
   Implied bound: 1
-  Inf proof: 6
+  Inf proof: 1
 
-Explored 317 nodes (1214 simplex iterations) in 0.03 seconds (0.01 work units)
+Explored 509 nodes (1757 simplex iterations) in 0.04 seconds (0.01 work units)
 Thread count was 5 (of 20 available processors)
 
 Solution count 1: -0 

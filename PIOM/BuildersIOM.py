@@ -38,14 +38,11 @@ def build_DIOM_SU(
 
 
     name = f'D-SU-{PMFlag}'
-    m = Model(name)
-
+    m = m = Model(name)
 
     ## Model ##################################################
     c = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='c' )
     delt = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='delt' )
-
-
 
     ## Feasibility #############################################
     m.addConstrs((          c[(i+1)%2,s]  >=  LB[(i+1)%2][s] + (LB[i][s] + PM[i][s] - LB[(i+1)%2][s])*delt[i,s]             for i in [0,1]  for s in [0,1] ), name='LB')
@@ -65,7 +62,6 @@ def build_DIOM_SU(
     ## Covers ####################################################################
     #Lemma 1.1
     m.addConstrs((                      sum(eta[c,i,s]  for c in range(4))  <=  3   for i in [0,1]  for s in [0,1] ), name='Covr1' ) #Lemma 1.1
-    
     
     #Lemma 1.2
     m.addConstrs((                                                                                                                       eta[0,i,s] + eta[1,i,s] + eta[2,i,s]  <=  2   for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.a' ) #Lemma 1.2.a      
@@ -105,10 +101,17 @@ def build_DIOM_SU(
     
     m.write(f'Instances/{name}.lp')
     m.write(f'Instances/{name}.mps')
-    m.setParam('LogFile', f'Results/{name}.log')
-    # m.setParam('NumericFocus', 3)
-    # m.setParam('FeasibilityTol', 1e-9)
-    # m.setParam('IntFeasTol', 1e-5)
+    
+    log_path = f"Results/{name}.log"
+    # Erase (truncate) the old log file if it exists
+    with open(log_path, "w"):
+        pass  
+    m.setParam("LogFile", log_path)
+    m.setParam("DisplayInterval", 60)
+    m.setParam('NumericFocus', 3)
+    m.setParam('IntegralityFocus', 1)
+    m.setParam('FeasibilityTol', 1e-9)
+    #m.setParam('IntFeasTol', 1e-5)
     
     m.update()
     return m
@@ -143,7 +146,7 @@ def build_PIOM_SU(
 
     """
     name = f'P-SU-{PMFlag}'
-    m = Model(name)
+    m = Model(name)    
 
     ## Parameters ################################################################
     UB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='UB' )
@@ -207,14 +210,21 @@ def build_PIOM_SU(
     ## Options, Logging, and Solve ###############################################
     if max_runtime is not None:
         m.setParam("TimeLimit", max_runtime)
-        
+    
     m.write(f'Instances/{name}.lp')
     m.write(f'Instances/{name}.mps')
-    m.setParam('LogFile', f'Results/{name}.log')
+    
+    log_path = f"Results/{name}.log"
+    # Erase (truncate) the old log file if it exists
+    with open(log_path, "w"):
+        pass  
+    m.setParam("LogFile", log_path)
     m.setParam('NonConvex', 2)
-    # m.setParam('NumericFocus', 3)
-    # m.setParam('FeasibilityTol', 1e-9)
-    # m.setParam('IntFeasTol', 1e-5)
+    m.setParam("DisplayInterval", 60)
+    #m.setParam('NumericFocus', 3)
+    m.setParam('IntegralityFocus', 1)
+    #m.setParam('FeasibilityTol', 1e-9)
+    #m.setParam('IntFeasTol', 1e-5)
     
     m.update()
     return m

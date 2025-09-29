@@ -1,16 +1,21 @@
 
-Gurobi 12.0.3 (win64) logging started Fri Sep 26 11:54:10 2025
+Gurobi 12.0.3 (win64) logging started Mon Sep 29 15:11:13 2025
 
 Set parameter LogFile to value "Results/P-SU-((0, 0), (0, 0)).log"
 Set parameter NonConvex to value 2
+Set parameter DisplayInterval to value 60
+Set parameter IntegralityFocus to value 1
+Set parameter Threads to value 5
 Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
 
 CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
-Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+Thread count: 10 physical cores, 20 logical processors, using up to 5 threads
 
 Non-default parameters:
-TimeLimit  10
+IntegralityFocus  1
+DisplayInterval  60
 NonConvex  2
+Threads  5
 
 Optimize a model with 30 rows, 40 columns and 84 nonzeros
 Model fingerprint: 0x59723f49
@@ -45,25 +50,33 @@ Root relaxation: objective 2.000000e+00, 19 iterations, 0.00 seconds (0.00 work 
      0     0    2.00000    0   18          -    2.00000      -     -    0s
      0     0    2.00000    0   18          -    2.00000      -     -    0s
      0     2    2.00000    0   18          -    2.00000      -     -    0s
-* 7099  1347              25      -0.0000000    2.00000      -   5.3    0s
-H14421  1671                       0.0000075    2.00000      -   4.9    0s
-*15305  1671              79       0.0000083    2.00000      -   5.0    0s
-*15306  1671              79       0.0000095    2.00000      -   5.0    0s
-*15309  1671              79       0.0000098    2.00000      -   5.0    0s
-*17945  1896              29       0.0003704    2.00000      -   5.2    0s
+H 4488  1179                      -0.0000000    2.00000      -   3.5    0s
+* 5412  1273              68       0.0000036    2.00000      -   3.6    0s
+* 5485  1192              67       0.0000318    2.00000      -   3.5    0s
+H107259  9521                       0.0000373    2.00000      -   6.8    7s
+ 1338071 22364 infeasible  134         0.00004    0.00272  7186%   4.1   60s
+ 2962746 29391    0.00272  128    3    0.00004    0.00272  7186%   3.8  120s
+ 4559717 30874 infeasible  141         0.00004    0.00272  7186%   3.7  180s
+*6045554  7440              92       0.0000379    0.00009   135%   3.7  236s
+*6091524  9005              62       0.0000388    0.00007  92.6%   3.7  238s
+H6109131  8750                       0.0000392    0.00007  76.5%   3.7  239s
+ 6118474  8962 infeasible   67         0.00004    0.00007  70.9%   3.7  240s
+H6161470  8794                       0.0000396    0.00006  49.9%   3.7  241s
+*6200868  1071              88       0.0000565    0.00006  0.05%   3.6  243s
 
 Cutting planes:
   Gomory: 3
-  MIR: 2
-  Flow cover: 10
-  Inf proof: 6
-  RLT: 19
+  Cover: 1
+  Flow cover: 7
+  Inf proof: 2
+  RLT: 24
 
-Explored 102364 nodes (637330 simplex iterations) in 2.70 seconds (1.12 work units)
-Thread count was 20 (of 20 available processors)
+Explored 6201562 nodes (22633554 simplex iterations) in 243.61 seconds (165.21 work units)
+Thread count was 5 (of 20 available processors)
 
-Solution count 6: 0.00037037 9.75216e-06 9.5402e-06 ... -0
-No other solutions better than 0.00037037
+Solution count 10: 5.64984e-05 5.64984e-05 3.95636e-05 ... -0
+No other solutions better than 5.64984e-05
 
 Optimal solution found (tolerance 1.00e-04)
-Best objective 3.703695112663e-04, best bound 3.703695112663e-04, gap 0.0000%
+Warning: max constraint violation (7.2379e-06) exceeds tolerance
+Best objective 5.649835242227e-05, best bound 5.649835242227e-05, gap 0.0000%
