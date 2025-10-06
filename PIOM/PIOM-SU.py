@@ -1,5 +1,5 @@
 from BuildersIOM import build_DIOM_SU, build_PIOM_SU
-from yaml_formatter import format_data, CustomDumper
+from yamlFormatter import format_data, CustomDumper
 import yaml
 
 # PMFlag[r][s][i] = 1   if PM[i,s] = UB[(i+1)%2,s] - LB[i,s]   in case r.

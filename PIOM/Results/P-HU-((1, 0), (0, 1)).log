@@ -1,0 +1,54 @@
+
+Gurobi 12.0.3 (win64) logging started Mon Oct  6 12:05:43 2025
+
+Set parameter LogFile to value "Results/P-HU-((1, 0), (0, 1)).log"
+Set parameter NonConvex to value 2
+Set parameter DisplayInterval to value 60
+Set parameter IntegralityFocus to value 1
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  240
+IntegralityFocus  1
+DisplayInterval  60
+NonConvex  2
+
+Optimize a model with 67 rows, 47 columns and 282 nonzeros
+Model fingerprint: 0x998361be
+Model has 32 quadratic constraints
+Variable types: 24 continuous, 23 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 34 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 161 rows, 68 columns, 536 nonzeros
+Presolved model has 24 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 49 continuous, 19 integer (19 binary)
+
+Root relaxation: infeasible, 19 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (19 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -

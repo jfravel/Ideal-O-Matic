@@ -1,6 +1,6 @@
 import multiprocessing
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from BuildersIOM import build_DIOM_SU, build_PIOM_SU
+from BuildersIOM import build_DIOM_RU, build_PIOM_RU
 from yamlFormatter import format_data, CustomDumper
 import yaml
 
@@ -31,7 +31,7 @@ else:
 def run_case(PMFlag):
     print(f"[Worker] Starting case {PMFlag}")
     case_results = {}
-    m = build_PIOM_SU(PMFlag, max_runtime=MaxRuntime)
+    m = build_PIOM_RU(PMFlag, max_runtime=MaxRuntime)
 
     # --- Solver settings for PIOM ---
     if PMFlag in Hards:   # or 1010, 1110 however you encode them
@@ -51,7 +51,7 @@ def run_case(PMFlag):
         case_results.update({'P_delt': tuple([tuple([m.getVarByName(f'delt[{i},{s}]').x for s in [0,1]]) for i in [0,1]])})
         case_results.update({'P_eta':  tuple([tuple([tuple([m.getVarByName(f'eta[{c},{i},{s}]').x for s in [0,1]]) for i in [0,1]]) for c in range(4)])})
 
-        n = build_DIOM_SU(case_results['x_LB'], case_results['x_UB'], case_results['x_PM'], max_runtime=MaxRuntime)
+        n = build_DIOM_RU(case_results['x_LB'], case_results['x_UB'], case_results['x_PM'], max_runtime=MaxRuntime)
         if n == "PMFlag mismatch error.":
             return (PMFlag, {"Error": f"PMFlag mismatch error at {PMFlag}"})
         else:
@@ -103,7 +103,7 @@ if __name__ == "__main__":
     idealFlags = [PMFlag  for PMFlag in PMFlags if Results[PMFlag]["Ideal?"] == True]
     errorFlags = [PMFlag  for PMFlag in PMFlags if Results[PMFlag]["Ideal?"] != True]
     if idealFlags == len(PMFlags):
-        print("SU is ideal!")
+        print("RU is ideal!")
         Results.update({"Ideal?": True})
     else:
         Results.update({"Errors": errorFlags})
@@ -113,7 +113,7 @@ if __name__ == "__main__":
             
             
     formatted_results = format_data(Results)
-    with open("Results/P-SU-Results.yaml", "w") as f:
+    with open("Results/P-RU-Results.yaml", "w") as f:
         yaml.dump(
             formatted_results,
             f,

@@ -1,0 +1,53 @@
+
+Gurobi 12.0.3 (win64) logging started Mon Oct  6 12:19:57 2025
+
+Set parameter LogFile to value "Results/D-HU-[[1, 0], [1, 0]].log"
+Set parameter DisplayInterval to value 60
+Set parameter NumericFocus to value 3
+Set parameter IntegralityFocus to value 1
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  240
+FeasibilityTol  1e-09
+IntegralityFocus  1
+DisplayInterval  60
+NumericFocus  3
+
+Optimize a model with 85 rows, 35 columns and 322 nonzeros
+Model fingerprint: 0x2304e5f5
+Variable types: 12 continuous, 23 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-01, 1e+02]
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 31 columns, 194 nonzeros
+Variable types: 12 continuous, 19 integer (19 binary)
+Found heuristic solution: objective -0.0000000
+
+Root relaxation: objective 4.000000e+00, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0    3   -0.00000    4.00000      -     -    0s
+     0     2    4.00000    0    3   -0.00000    4.00000      -     -    0s
+H    5     8                       2.0000000    4.00000   100%   4.4    0s
+
+Cutting planes:
+  Implied bound: 1
+
+Explored 104 nodes (509 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 2: 2 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
