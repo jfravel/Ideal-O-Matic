@@ -1,0 +1,94 @@
+
+Gurobi 12.0.3 (win64) logging started Tue Oct 28 17:30:49 2025
+
+Set parameter LogFile to value "Results/P-SU-((1, 0), (0, 0)).log"
+Set parameter NonConvex to value 2
+Set parameter DisplayInterval to value 60
+Set parameter IntegralityFocus to value 1
+Set parameter MIPFocus to value 3
+Set parameter Heuristics to value 0
+Set parameter RINS to value 0
+Set parameter ImproveStartTime to value 10000000000
+Set parameter Presolve to value 2
+Set parameter Aggregate to value 2
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+Heuristics  0
+IntegralityFocus  1
+MIPFocus  3
+RINS  0
+Aggregate  2
+DisplayInterval  60
+NonConvex  2
+Presolve  2
+ImproveStartTime  10000000000
+
+Optimize a model with 37 rows, 40 columns and 125 nonzeros
+Model fingerprint: 0x8e5b3ef9
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 16 integer (16 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 9 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 61 columns, 437 nonzeros
+Presolved model has 20 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 45 continuous, 16 integer (16 binary)
+Root relaxation presolve removed 19 rows and 5 columns
+Root relaxation presolved: 113 rows, 56 columns, 409 nonzeros
+
+
+Root relaxation: objective 2.000000e+00, 26 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.00000    0    4          -    2.00000      -     -    0s
+     0     0    2.00000    0   10          -    2.00000      -     -    0s
+     0     0    2.00000    0    8          -    2.00000      -     -    0s
+     0     0    2.00000    0    7          -    2.00000      -     -    0s
+     0     0    2.00000    0   11          -    2.00000      -     -    0s
+     0     0    2.00000    0   13          -    2.00000      -     -    0s
+     0     0    2.00000    0   13          -    2.00000      -     -    0s
+     0     2    2.00000    0   13          -    2.00000      -     -    0s
+*   93   105              10      -0.0000000    2.00000      -   8.6    0s
+*20620  2629              27       0.0000012    2.00000      -  11.3    0s
+*21668  2675              26       0.0000061    2.00000      -  11.4    0s
+*21679  2675              25       0.0000062    2.00000      -  11.4    0s
+*33089  3539              29       0.0000112    2.00000      -  12.0    1s
+*65972   925              28       0.0000133    0.48520      -   9.4    3s
+*209614 24079              79       0.0000336    0.00005  45.3%   6.9   15s
+*275713  1868              85       0.0000402    0.00004  0.31%   6.6   18s
+
+Cutting planes:
+  Gomory: 17
+  Lift-and-project: 1
+  Cover: 7
+  MIR: 32
+  Flow cover: 197
+  Inf proof: 67
+  RLT: 98
+  Relax-and-lift: 4
+
+Explored 277487 nodes (1824336 simplex iterations) in 18.93 seconds (7.06 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 8: 4.01548e-05 3.35652e-05 1.33322e-05 ... -0
+No other solutions better than 4.01548e-05
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.0432e-05) exceeds tolerance
+Best objective 4.015480501085e-05, best bound 4.015480501085e-05, gap 0.0000%

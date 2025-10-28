@@ -182,6 +182,13 @@ def BuildPIOM_NU(
     #m.setParam('FeasibilityTol', 1e-9)
     #m.setParam('IntFeasTol', 1e-5)
     
+    m.setParam('MIPFocus', 3)
+    m.setParam('Heuristics', 0)
+    m.setParam('RINS', 0)
+    m.setParam('ImproveStartTime', 1e10)
+    m.setParam('Presolve', 2)
+    m.setParam('Aggregate', 2)
+    
     m.update()
     return m
 
@@ -414,6 +421,13 @@ def BuildPIOM_SU(
     m.setParam('IntegralityFocus', 1)
     #m.setParam('FeasibilityTol', 1e-9)
     #m.setParam('IntFeasTol', 1e-5)
+    
+    m.setParam('MIPFocus', 3)
+    m.setParam('Heuristics', 0)
+    m.setParam('RINS', 0)
+    m.setParam('ImproveStartTime', 1e10)
+    m.setParam('Presolve', 2)
+    m.setParam('Aggregate', 2)
     
     m.update()
     return m
@@ -717,6 +731,13 @@ def BuildPIOM_RU(
     m.setParam('IntegralityFocus', 1)
     #m.setParam('FeasibilityTol', 1e-9)
     #m.setParam('IntFeasTol', 1e-5)
+    
+    m.setParam('MIPFocus', 3)
+    m.setParam('Heuristics', 0)
+    m.setParam('RINS', 0)
+    m.setParam('ImproveStartTime', 1e10)
+    m.setParam('Presolve', 2)
+    m.setParam('Aggregate', 2)
     
     m.update()
     return m
@@ -1190,6 +1211,13 @@ def BuildPIOM_HU(
     #m.setParam('FeasibilityTol', 1e-9)
     #m.setParam('IntFeasTol', 1e-5)
     
+    m.setParam('MIPFocus', 3)
+    m.setParam('Heuristics', 0)
+    m.setParam('RINS', 0)
+    m.setParam('ImproveStartTime', 1e10)
+    m.setParam('Presolve', 2)
+    m.setParam('Aggregate', 2)
+    
     m.update()
     return m
 
@@ -1396,6 +1424,13 @@ def BuildPIOM_SBL(
     m.setParam('IntegralityFocus', 1)
     #m.setParam('FeasibilityTol', 1e-9)
     #m.setParam('IntFeasTol', 1e-5)
+    
+    m.setParam('MIPFocus', 3)
+    m.setParam('Heuristics', 0)
+    m.setParam('RINS', 0)
+    m.setParam('ImproveStartTime', 1e10)
+    m.setParam('Presolve', 2)
+    m.setParam('Aggregate', 2)
     
     m.update()
     return m
@@ -1662,5 +1697,12 @@ def BuildPIOM_SBM(
     #m.setParam('FeasibilityTol', 1e-9)
     #m.setParam('IntFeasTol', 1e-5)
     
+    m.setParam('MIPFocus', 3)
+    m.setParam('Heuristics', 0)
+    m.setParam('RINS', 0)
+    m.setParam('ImproveStartTime', 1e10)
+    m.setParam('Presolve', 2)
+    m.setParam('Aggregate', 2)
+
     m.update()
     return m
