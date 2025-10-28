@@ -8,7 +8,7 @@ def main():
     parser.add_argument("form", type=str, default=None, 
                         help="Should be in ['SU','RU','HU','SBM'].")
     parser.add_argument("--Flags",  nargs='+', default=0,
-                        help="A space-sperated list of indices (0-6) corresponding to the PMFlags detailed in ???. e.g. '0 1 3 5'. Instead, 'all' will use all seven flags. Defaults to 0.")
+                        help="A space-sperated list of indices (0-6) corresponding to the PMFlags detailed in Section 5.1. e.g. '0 1 3 5'. Instead, 'all' will use all seven flags. 'ext' will additionally include the remaining elements of {0,1}^(2x2). Defaults to 0.")
     parser.add_argument("--MaxRT", default=20, 
                         help="The maximum runtime for each program in seconds. Defaults to 20.")
     parser.add_argument("--IdealTol", type=float, default=1e-5,
@@ -29,8 +29,12 @@ def main():
         MaxRuntime = int(args.MaxRT)
     
     AllFlags = [((0,0),(0,0)), ((1,0),(0,0)), ((1,1),(0,0)), ((1,0),(1,0)), ((1,0),(0,1)), ((1,1),(1,0)), ((1,1),(1,1))]
+    ExtFlags = [((0,1),(0,0)), ((0,0),(1,0)), ((0,0),(0,1)), ((0,1),(1,0)), ((0,1),(0,1)), ((0,0),(1,1)), ((1,1),(0,1)),
+                ((1,0),(1,1)), ((0,1),(1,1))]
     if args.Flags[0] == 'all':
         PMFlags = AllFlags
+    elif args.Flags[0] == 'ext':
+        PMFlags = AllFlags + ExtFlags
     elif isinstance(args.Flags, int):
         PMFlags = [AllFlags[int(flag)]  for flag in [args.Flags]]
     else:

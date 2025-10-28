@@ -75,7 +75,7 @@ def BuildDIOM_NU(
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[i,s]  <=  2-2*delt[i,s]    for i in [0,1]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[i,s]  for s in [0,1]  for i in [0,1]), GRB.MAXIMIZE )
+    m.setObjective( phi.sum(), GRB.MAXIMIZE )
 
     ## Output #################################################
     if max_runtime is not None:
@@ -129,19 +129,12 @@ def BuildPIOM_NU(
     PM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='PM' )
     m.addConstrs( LB[i,s]  <=  UB[i,s] - t                         for i in [0,1]  for s in [0,1])
     
-    # UB[1] - PM[0] - LB[0] != 0 (unless flagged)
-    cmbPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbPM' )
-    absPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absPM' )
-    m.addConstrs( cmbPM[i,s] == UB[(i+1)%2,s] - PM[i,s] - LB[i,s]  for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] == abs_(cmbPM[i,s])                   for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] >= t                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0)
-    m.addConstrs( absPM[i,s] == 0                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1)
+    # UB[1] - PM[0] - LB[0] > 0 (unless flagged)
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] >=  t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] ==  0      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
     
     # PM[0] + PM[1] != 0
     m.addConstrs( PM[0,s] + PM[1,s]  >=  t                                         for s in [0,1])
-    
-    #m.addConstrs( PM[i,s]  <=  UB[(i+1)%2,s] - LB[i,s] - t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
-    #m.addConstrs( PM[i,s]  ==  UB[(i+1)%2,s] - LB[i,s]      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
     
     ## Feasibility ###############################################################
     c = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='c' )
@@ -168,7 +161,7 @@ def BuildPIOM_NU(
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[i,s]  <=  2-2*delt[i,s]    for i in [0,1]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[i,s]  for s in [0,1]  for i in [0,1]), GRB.MAXIMIZE)
+    m.setObjective( phi.sum(), GRB.MAXIMIZE)
     
     ## Options, Logging, and Solve ###############################################
     if max_runtime is not None:
@@ -293,7 +286,7 @@ def BuildDIOM_SU(
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[i,s]  <=  2-2*delt[i,s]    for i in [0,1]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[i,s]  for s in [0,1]  for i in [0,1]), GRB.MAXIMIZE )
+    m.setObjective( phi.sum(), GRB.MAXIMIZE )    
 
     ## Output #################################################
     if max_runtime is not None:
@@ -347,16 +340,9 @@ def BuildPIOM_SU(
     PM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='PM' )
     m.addConstrs( LB[i,s]  <=  UB[i,s] - t                         for i in [0,1]  for s in [0,1])
     
-    # UB[1] - PM[0] - LB[0] != 0 (unless flagged)
-    cmbPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbPM' )
-    absPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absPM' )
-    m.addConstrs( cmbPM[i,s] == UB[(i+1)%2,s] - PM[i,s] - LB[i,s]  for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] == abs_(cmbPM[i,s])                   for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] >= t                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0)
-    m.addConstrs( absPM[i,s] == 0                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1)
-    
-    #m.addConstrs( PM[i,s]  <=  UB[(i+1)%2,s] - LB[i,s] - t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
-    #m.addConstrs( PM[i,s]  ==  UB[(i+1)%2,s] - LB[i,s]      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
+    # UB[1] - PM[0] - LB[0] > 0 (unless flagged)
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] >=  t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] ==  0      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
     
     ## Feasibility ###############################################################
     c = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='c' )
@@ -407,7 +393,8 @@ def BuildPIOM_SU(
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[i,s]  <=  2-2*delt[i,s]    for i in [0,1]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[i,s]  for s in [0,1]  for i in [0,1]), GRB.MAXIMIZE)
+    m.setObjective( phi.sum(), GRB.MAXIMIZE)
+    
     
     ## Options, Logging, and Solve ###############################################
     if max_runtime is not None:
@@ -559,7 +546,7 @@ def BuildDIOM_RU(
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[i,s]  <=  2-2*delt[i,s]    for i in [0,1]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[i,s]  for s in [0,1]  for i in [0,1]), GRB.MAXIMIZE )
+    m.setObjective( phi.sum(), GRB.MAXIMIZE )
 
     ## Output #################################################
     if max_runtime is not None:
@@ -613,24 +600,20 @@ def BuildPIOM_RU(
     PM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='PM' )
     m.addConstrs( LB[i,s]  <=  UB[i,s] - t                         for i in [0,1]  for s in [0,1])
     
-    # UB[1] - PM[0] - LB[0] != 0 (unless flagged)
-    cmbPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbPM' )
-    absPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absPM' )
-    m.addConstrs( cmbPM[i,s] == UB[(i+1)%2,s] - PM[i,s] - LB[i,s]  for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] == abs_(cmbPM[i,s])                   for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] >= t                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0)
-    m.addConstrs( absPM[i,s] == 0                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1)
+    # UB[1] - PM[0] - LB[0] > 0 (unless flagged)
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] >=  t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] ==  0      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
     
     # PM[0] + LB[0] - LB[1] != 0
-    cmbLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbLB' )
-    absLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absLB' )
+    cmbLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=t-r, ub=2*r-t, name='cmbLB' )
+    absLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=2*r-t, name='absLB' )
     m.addConstrs( cmbLB[i,s] == PM[i,s] + LB[i,s] - LB[(i+1)%2,s]  for i in [0,1]  for s in [0,1])
     m.addConstrs( absLB[i,s] == abs_(cmbLB[i,s])                   for i in [0,1]  for s in [0,1])
     m.addConstrs( absLB[i,s] >= t                                  for i in [0,1]  for s in [0,1])
     
     # PM[0] + UB[0] - UB[1] != 0
-    cmbUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbUB' )
-    absUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absUB' )
+    cmbUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=t-r, ub=2*r-t, name='cmbUB' )
+    absUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=2*r-t, name='absUB' )
     m.addConstrs( cmbUB[i,s] == PM[i,s] + UB[i,s] - UB[(i+1)%2,s]  for i in [0,1]  for s in [0,1])
     m.addConstrs( absUB[i,s] == abs_(cmbUB[i,s])                   for i in [0,1]  for s in [0,1])
     m.addConstrs( absUB[i,s] >= t                                  for i in [0,1]  for s in [0,1])
@@ -714,7 +697,7 @@ def BuildPIOM_RU(
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[i,s]  <=  2-2*delt[i,s]    for i in [0,1]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[i,s]  for s in [0,1]  for i in [0,1]), GRB.MAXIMIZE)
+    m.setObjective( phi.sum(), GRB.MAXIMIZE)
     
     ## Options, Logging, and Solve ###############################################
     if max_runtime is not None:
@@ -950,7 +933,7 @@ def BuildDIOM_HU(
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[i,s]  <=  2-2*delt[i,s]    for i in [0,1]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[i,s]  for s in [0,1]  for i in [0,1]), GRB.MAXIMIZE )
+    m.setObjective( phi.sum(), GRB.MAXIMIZE )
 
     ## Output #################################################
     if max_runtime is not None:
@@ -1004,24 +987,20 @@ def BuildPIOM_HU(
     PM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='PM' )
     m.addConstrs( LB[i,s]  <=  UB[i,s] - t                         for i in [0,1]  for s in [0,1])
     
-    # UB[1] - PM[0] - LB[0] != 0 (unless flagged)
-    cmbPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbPM' )
-    absPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absPM' )
-    m.addConstrs( cmbPM[i,s] == UB[(i+1)%2,s] - PM[i,s] - LB[i,s]  for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] == abs_(cmbPM[i,s])                   for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] >= t                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0)
-    m.addConstrs( absPM[i,s] == 0                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1)
+    # UB[1] - PM[0] - LB[0] > 0 (unless flagged)
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] >=  t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] ==  0      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
     
     # PM[0] + LB[0] - LB[1] != 0
-    cmbLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbLB' )
-    absLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absLB' )
+    cmbLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=t-r, ub=2*r-t, name='cmbLB' )
+    absLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=2*r-t, name='absLB' )
     m.addConstrs( cmbLB[i,s] == PM[i,s] + LB[i,s] - LB[(i+1)%2,s]  for i in [0,1]  for s in [0,1])
     m.addConstrs( absLB[i,s] == abs_(cmbLB[i,s])                   for i in [0,1]  for s in [0,1])
     m.addConstrs( absLB[i,s] >= t                                  for i in [0,1]  for s in [0,1])
     
     # PM[0] + UB[0] - UB[1] != 0
-    cmbUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbUB' )
-    absUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absUB' )
+    cmbUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=t-r, ub=2*r-t, name='cmbUB' )
+    absUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=2*r-t, name='absUB' )
     m.addConstrs( cmbUB[i,s] == PM[i,s] + UB[i,s] - UB[(i+1)%2,s]  for i in [0,1]  for s in [0,1])
     m.addConstrs( absUB[i,s] == abs_(cmbUB[i,s])                   for i in [0,1]  for s in [0,1])
     m.addConstrs( absUB[i,s] >= t                                  for i in [0,1]  for s in [0,1])
@@ -1190,7 +1169,7 @@ def BuildPIOM_HU(
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[i,s]  <=  2-2*delt[i,s]    for i in [0,1]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[i,s]  for s in [0,1]  for i in [0,1]), GRB.MAXIMIZE)
+    m.setObjective( phi.sum(), GRB.MAXIMIZE)
     
     ## Options, Logging, and Solve ###############################################
     if max_runtime is not None:
@@ -1357,16 +1336,9 @@ def BuildPIOM_SBL(
     PM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='PM' )
     m.addConstrs( LB[i,s]  <=  UB[i,s] - t                         for i in [0,1]  for s in [0,1])
     
-    # UB[1] - PM[0] - LB[0] != 0 (unless flagged)
-    cmbPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbPM' )
-    absPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absPM' )
-    m.addConstrs( cmbPM[i,s] == UB[(i+1)%2,s] - PM[i,s] - LB[i,s]  for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] == abs_(cmbPM[i,s])                   for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] >= t                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0)
-    m.addConstrs( absPM[i,s] == 0                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1)
-    
-    #m.addConstrs( PM[i,s]  <=  UB[(i+1)%2,s] - LB[i,s] - t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
-    #m.addConstrs( PM[i,s]  ==  UB[(i+1)%2,s] - LB[i,s]      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
+    # UB[1] - PM[0] - LB[0] > 0 (unless flagged)
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] >=  t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] ==  0      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
     
     ## Feasibility ###############################################################
     c = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='c' )
@@ -1545,7 +1517,7 @@ def BuildDIOM_SBM(
     phi = m.addVars( 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[s]  <=  2*delt[s]    for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[s]  <=  2-2*delt[s]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[s]  for s in [0,1]), GRB.MAXIMIZE)
+    m.setObjective( phi.sum(), GRB.MAXIMIZE)
     
     ## Output #################################################
     if max_runtime is not None:
@@ -1600,16 +1572,9 @@ def BuildPIOM_SBM(
     PM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='PM' )
     m.addConstrs( LB[i,s]  <=  UB[i,s] - t                         for i in [0,1]  for s in [0,1])
     
-    # UB[1] - PM[0] - LB[0] != 0 (unless flagged)
-    cmbPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='cmbPM' )
-    absPM = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='absPM' )
-    m.addConstrs( cmbPM[i,s] == UB[(i+1)%2,s] - PM[i,s] - LB[i,s]  for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] == abs_(cmbPM[i,s])                   for i in [0,1]  for s in [0,1])
-    m.addConstrs( absPM[i,s] >= t                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0)
-    m.addConstrs( absPM[i,s] == 0                                  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1)
-    
-    #m.addConstrs( PM[i,s]  <=  UB[(i+1)%2,s] - LB[i,s] - t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
-    #m.addConstrs( PM[i,s]  ==  UB[(i+1)%2,s] - LB[i,s]      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
+    # UB[1] - PM[0] - LB[0] > 0 (unless flagged)
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] >=  t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
+    m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] ==  0      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
     
     ## Feasibility ###############################################################
     c = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=r, name='c' )
@@ -1676,7 +1641,7 @@ def BuildPIOM_SBM(
     phi = m.addVars( 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[s]  <=  2*delt[s]    for s in [0,1]), name='Obj1' )
     m.addConstrs(( phi[s]  <=  2-2*delt[s]  for s in [0,1]), name='Obj2' )
-    m.setObjective( sum(phi[s]  for s in [0,1]), GRB.MAXIMIZE)
+    m.setObjective( phi.sum(), GRB.MAXIMIZE)
     
     ## Options, Logging, and Solve ###############################################
     if max_runtime is not None:
