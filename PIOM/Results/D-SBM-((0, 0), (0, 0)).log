@@ -1,0 +1,56 @@
+
+Gurobi 12.0.3 (win64) logging started Mon Nov 10 10:24:25 2025
+
+Set parameter LogFile to value "Results/D-SBM-((0, 0), (0, 0)).log"
+Set parameter DisplayInterval to value 60
+Set parameter NumericFocus to value 3
+Set parameter IntegralityFocus to value 1
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  360
+FeasibilityTol  1e-09
+IntegralityFocus  1
+DisplayInterval  60
+NumericFocus  3
+
+Optimize a model with 67 rows, 30 columns and 268 nonzeros
+Model fingerprint: 0xaa6a4cdf
+Variable types: 10 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [6e-07, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 9 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 58 rows, 30 columns, 264 nonzeros
+Variable types: 10 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 3.000000e+00, 24 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    3.00000    0    5   -0.00000    3.00000      -     -    0s
+     0     2    3.00000    0    5   -0.00000    3.00000      -     -    0s
+*  695   168              16       0.0000026    2.80805      -   3.5    0s
+H 1096   108                       0.0000067    2.00000      -   3.6    0s
+
+Cutting planes:
+  Cover: 7
+  Implied bound: 6
+  Inf proof: 9
+
+Explored 1919 nodes (7567 simplex iterations) in 0.11 seconds (0.03 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 4: 6.71112e-06 2.57359e-06 1.57652e-14 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.576516694968e-14, best bound 1.576516694968e-14, gap 0.0000%

@@ -1,0 +1,87 @@
+
+Gurobi 12.0.3 (win64) logging started Tue Oct 28 17:39:12 2025
+
+Set parameter LogFile to value "Results/P-RU-((1, 0), (1, 0)).log"
+Set parameter NonConvex to value 2
+Set parameter DisplayInterval to value 60
+Set parameter IntegralityFocus to value 1
+Set parameter MIPFocus to value 3
+Set parameter Heuristics to value 0
+Set parameter RINS to value 0
+Set parameter ImproveStartTime to value 10000000000
+Set parameter Presolve to value 2
+Set parameter Aggregate to value 2
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+Heuristics  0
+IntegralityFocus  1
+MIPFocus  3
+RINS  0
+Aggregate  2
+DisplayInterval  60
+NonConvex  2
+Presolve  2
+ImproveStartTime  10000000000
+
+Optimize a model with 125 rows, 59 columns and 628 nonzeros
+Model fingerprint: 0x35b9e075
+Model has 24 quadratic constraints
+Model has 8 simple general constraints
+  8 ABS
+Variable types: 40 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve added 0 rows and 16 columns
+Presolve removed 40 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 205 rows, 100 columns, 704 nonzeros
+Presolved model has 24 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 73 continuous, 27 integer (27 binary)
+Root relaxation presolve removed 24 rows and 9 columns
+Root relaxation presolved: 181 rows, 91 columns, 672 nonzeros
+
+
+Root relaxation: objective 4.000000e+00, 65 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0   15          -    4.00000      -     -    0s
+     0     0    4.00000    0    7          -    4.00000      -     -    0s
+     0     0    4.00000    0    9          -    4.00000      -     -    0s
+     0     0    4.00000    0    8          -    4.00000      -     -    0s
+     0     0    4.00000    0   20          -    4.00000      -     -    0s
+     0     0    4.00000    0   20          -    4.00000      -     -    0s
+     0     0    4.00000    0   18          -    4.00000      -     -    0s
+     0     0    4.00000    0   11          -    4.00000      -     -    0s
+     0     0    4.00000    0   10          -    4.00000      -     -    0s
+     0     0    4.00000    0    7          -    4.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     0    4.00000    0   11          -    4.00000      -     -    0s
+
+Cutting planes:
+  Gomory: 6
+  MIR: 2
+  Flow cover: 3
+  RLT: 38
+
+Explored 1 nodes (344 simplex iterations) in 0.14 seconds (0.05 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 0
+
+Solve interrupted
+Best objective -, best bound 4.000000000000e+00, gap -

@@ -82,16 +82,16 @@ def ExtractTightIndices(m, form):
         etas = [m.getVarByName(f'eta[{i},{j},0]').VarName[4:9].replace(',', '')  for i in range(4) for j in [0,1] if m.getVarByName(f'eta[{i},{j},0]').x > 0.5] + [m.getVarByName(f'eta[{i},{j},1]').VarName[4:9].replace(',', '')  for i in range(4) for j in [0,1] if m.getVarByName(f'eta[{i},{j},1]').x > 0.5]
         
     elif form in ['HU']:
-        etas = [m.getVarByName(f'eta[{i},{j},0]').VarName[4:9].replace(',', '')  for i in range(5) for j in [0,1] if m.getVarByName(f'eta[{i},{j},0]').x > 0.5] + [m.getVarByName(f'eta[{i},{j},1]').VarName[4:9].replace(',', '')  for i in range(5) for j in [0,1] if m.getVarByName(f'eta[{i},{j},1]').x > 0.5] + ['5'+m.getVarByName(f'zeta[{s}]').VarName[5]  for s in [0,1,2] if m.getVarByName(f'zeta[{s}]').x > 0.5]  
+        etas = [m.getVarByName(f'eta[{i},{j},0]').VarName[4:9].replace(',', '')  for i in range(5) for j in [0,1] if m.getVarByName(f'eta[{i},{j},0]').x > 0.5] + [m.getVarByName(f'eta[{i},{j},1]').VarName[4:9].replace(',', '')  for i in range(5) for j in [0,1] if m.getVarByName(f'eta[{i},{j},1]').x > 0.5] + ['5'+m.getVarByName(f'zeta[{s}]').VarName[5]  for s in [0,1,2]   if m.getVarByName(f'zeta[{s}]').x > 0.5]  
         
     elif form in ['RU']:
-        etas = [m.getVarByName(f'eta[{i},{j},0]').VarName[4:9].replace(',', '')  for i in range(4) for j in [0,1] if m.getVarByName(f'eta[{i},{j},0]').x > 0.5] + [m.getVarByName(f'eta[{i},{j},1]').VarName[4:9].replace(',', '')  for i in range(4) for j in [0,1] if m.getVarByName(f'eta[{i},{j},1]').x > 0.5] + ['4'+m.getVarByName(f'zeta[{s}]').VarName[5]  for s in [0,1,2] if m.getVarByName(f'zeta[{s}]').x > 0.5]  
+        etas = [m.getVarByName(f'eta[{i},{j},0]').VarName[4:9].replace(',', '')  for i in range(4) for j in [0,1] if m.getVarByName(f'eta[{i},{j},0]').x > 0.5] + [m.getVarByName(f'eta[{i},{j},1]').VarName[4:9].replace(',', '')  for i in range(4) for j in [0,1] if m.getVarByName(f'eta[{i},{j},1]').x > 0.5] + ['4'+m.getVarByName(f'zeta[{s}]').VarName[5]  for s in [0,1,2]   if m.getVarByName(f'zeta[{s}]').x > 0.5]  
       
     elif form in ['SBL']:
-        etas = [m.getVarByName(f'eta[{c},{s},0]').VarName[4:9].replace(',', '')  for c in range(4) for s in [0,1] if m.getVarByName(f'eta[{c},{s},0]').x > 0.5] + [m.getVarByName(f'eta[{c},{s},1]').VarName[4:9].replace(',', '')  for c in range(4) for s in [0,1] if m.getVarByName(f'eta[{c},{s},1]').x > 0.5] + ['4'+m.getVarByName(f'zeta[{s}]').VarName[5]  for s in [0,1,2] if m.getVarByName(f'zeta[{s}]').x > 0.5]
+        etas = [m.getVarByName(f'eta[{c},{s},0]').VarName[4:9].replace(',', '')  for c in range(4) for s in [0,1] if m.getVarByName(f'eta[{c},{s},0]').x > 0.5] + [m.getVarByName(f'eta[{c},{s},1]').VarName[4:9].replace(',', '')  for c in range(4) for s in [0,1] if m.getVarByName(f'eta[{c},{s},1]').x > 0.5] + ['4'+m.getVarByName(f'zeta[{s}]').VarName[5]  for s in [0,1,2]   if m.getVarByName(f'zeta[{s}]').x > 0.5]
        
     elif form in ['SBM']:
-        etas = [m.getVarByName(f'eta[{c},{s},0]').VarName[4:9].replace(',', '')  for c in range(4) for s in [0,1] if m.getVarByName(f'eta[{c},{s},0]').x > 0.5] + [m.getVarByName(f'eta[{c},{s},1]').VarName[4:9].replace(',', '')  for c in range(4) for s in [0,1] if m.getVarByName(f'eta[{c},{s},1]').x > 0.5] + ['4'+m.getVarByName(f'zeta[{s}]').VarName[5]  for s in [0,1,2] if m.getVarByName(f'zeta[{s}]').x > 0.5]
+        etas = [m.getVarByName(f'eta[{c},{s},0]').VarName[4:9].replace(',', '')  for c in range(4) for s in [0,1] if m.getVarByName(f'eta[{c},{s},0]').x > 0.5] + [m.getVarByName(f'eta[{c},{s},1]').VarName[4:9].replace(',', '')  for c in range(4) for s in [0,1] if m.getVarByName(f'eta[{c},{s},1]').x > 0.5] + ['4'+m.getVarByName(f'zeta[{s}]').VarName[5]  for s in [0,1,2,3] if m.getVarByName(f'zeta[{s}]').x > 0.5]
         
     else:
         print('\neExtractResults Error: <form> notin [SU, HU, RU, SBM]\n')

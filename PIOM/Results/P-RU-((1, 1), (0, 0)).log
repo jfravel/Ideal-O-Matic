@@ -81,3 +81,22 @@ Root relaxation: objective 4.000000e+00, 51 iterations, 0.00 seconds (0.00 work 
 * 9168  1997              23       1.4424152    2.00000  38.7%  12.2    1s
  2280367 42529    2.00000   62    2    1.44242    2.00000  38.7%   6.2   60s
  4251981 45416 infeasible  103         1.44242    2.00000  38.7%   6.3  120s
+ 6361402 41997    2.00000   86    4    1.44242    2.00000  38.7%   6.3  180s
+
+Cutting planes:
+  Gomory: 12
+  Lift-and-project: 1
+  Implied bound: 13
+  MIR: 40
+  Flow cover: 153
+  Inf proof: 53
+  RLT: 168
+  Relax-and-lift: 10
+
+Explored 7477888 nodes (46402245 simplex iterations) in 211.16 seconds (99.27 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 3: 1.44242 0.931351 -0 
+
+Solve interrupted
+Best objective 1.442415223487e+00, best bound 2.000000000000e+00, gap 38.6563%

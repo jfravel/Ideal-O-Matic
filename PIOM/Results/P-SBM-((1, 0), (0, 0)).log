@@ -1,0 +1,96 @@
+
+Gurobi 12.0.3 (win64) logging started Mon Nov 10 10:24:25 2025
+
+Set parameter LogFile to value "Results/P-SBM-((1, 0), (0, 0)).log"
+Set parameter NonConvex to value 2
+Set parameter DisplayInterval to value 60
+Set parameter IntegralityFocus to value 1
+Set parameter MIPGapAbs to value 2e-05
+Set parameter MIPFocus to value 3
+Set parameter Heuristics to value 0
+Set parameter RINS to value 0
+Set parameter ImproveStartTime to value 10000000000
+Set parameter Presolve to value 2
+Set parameter Aggregate to value 2
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  360
+MIPGapAbs  2e-05
+Heuristics  0
+IntegralityFocus  1
+MIPFocus  3
+RINS  0
+Aggregate  2
+DisplayInterval  60
+NonConvex  2
+Presolve  2
+ImproveStartTime  10000000000
+
+Optimize a model with 58 rows, 42 columns and 241 nonzeros
+Model fingerprint: 0x18b0d2b5
+Model has 24 quadratic constraints
+Variable types: 22 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e+01, 2e+01]
+Presolve removed 11 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 199 rows, 75 columns, 729 nonzeros
+Presolved model has 32 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 55 continuous, 20 integer (20 binary)
+Root relaxation presolve removed 22 rows and 2 columns
+Root relaxation presolved: 177 rows, 73 columns, 704 nonzeros
+
+
+Root relaxation: objective 3.000000e+00, 48 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    3.00000    0    8          -    3.00000      -     -    0s
+     0     0    3.00000    0   13          -    3.00000      -     -    0s
+     0     0    3.00000    0   19          -    3.00000      -     -    0s
+     0     0    3.00000    0   17          -    3.00000      -     -    0s
+     0     0    3.00000    0   18          -    3.00000      -     -    0s
+     0     0    3.00000    0   18          -    3.00000      -     -    0s
+     0     2    3.00000    0   18          -    3.00000      -     -    0s
+*  199   327              14      -0.0000000    3.00000      -  17.7    0s
+*229373 64273              27       0.0000003    2.00000      -  12.4   13s
+*341213 16090              25       0.0000009    1.52148      -  12.1   18s
+*341850 16090              27       0.0000009    1.52148      -  12.1   18s
+*342981 15721              26       0.0000013    1.51735      -  12.1   18s
+*354137  9770              30       0.0000019    1.44834      -  12.1   19s
+*368544  4398              34       0.0000036    1.08027      -  12.1   20s
+*370762  2925              49       0.0000157    1.00000      -  12.1   20s
+ 638780 29273    0.00006   84    7    0.00002    0.00006   309%  10.2   60s
+*932930 25727             277       0.0000584    0.00006  4.70%   7.9   92s
+
+Cutting planes:
+  Gomory: 14
+  Lift-and-project: 3
+  MIR: 16
+  Flow cover: 65
+  Inf proof: 70
+  RLT: 215
+  Relax-and-lift: 25
+
+Explored 937538 nodes (7341756 simplex iterations) in 92.89 seconds (21.72 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 9: 5.83689e-05 1.56708e-05 3.602e-06 ... -0
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (9.5203e-06) exceeds tolerance
+Best objective 5.836890149107e-05, best bound 6.111287543042e-05, gap 4.7011%
