@@ -1,5 +1,5 @@
 
-Gurobi 12.0.3 (win64) logging started Tue Oct 28 17:35:33 2025
+Gurobi 12.0.3 (win64) logging started Thu Nov 13 13:47:01 2025
 
 Set parameter LogFile to value "Results/P-RU-((1, 0), (0, 0)).log"
 Set parameter NonConvex to value 2
@@ -17,6 +17,7 @@ CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX
 Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
 
 Non-default parameters:
+TimeLimit  120
 Heuristics  0
 IntegralityFocus  1
 MIPFocus  3
@@ -27,66 +28,57 @@ NonConvex  2
 Presolve  2
 ImproveStartTime  10000000000
 
-Optimize a model with 111 rows, 59 columns and 548 nonzeros
-Model fingerprint: 0x0c14f6ec
+Optimize a model with 130 rows, 43 columns and 734 nonzeros
+Model fingerprint: 0xa149406a
 Model has 24 quadratic constraints
-Model has 8 simple general constraints
-  8 ABS
-Variable types: 40 continuous, 19 integer (19 binary)
+Variable types: 24 continuous, 19 integer (19 binary)
 Coefficient statistics:
   Matrix range     [1e+00, 3e+00]
   QMatrix range    [1e+00, 1e+00]
   QLMatrix range   [1e+00, 1e+01]
   Objective range  [1e+00, 1e+00]
-  Bounds range     [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+01]
   RHS range        [1e+00, 8e+00]
   QRHS range       [1e+01, 1e+01]
-Presolve added 0 rows and 16 columns
-Presolve removed 26 rows and 0 columns
+Presolve removed 24 rows and 0 columns
 Presolve time: 0.00s
-Presolved: 205 rows, 100 columns, 723 nonzeros
+Presolved: 226 rows, 68 columns, 996 nonzeros
 Presolved model has 24 bilinear constraint(s)
 
 Solving non-convex MIQCP
 
-Variable types: 73 continuous, 27 integer (27 binary)
-Root relaxation presolve removed 24 rows and 9 columns
-Root relaxation presolved: 181 rows, 91 columns, 691 nonzeros
+Variable types: 49 continuous, 19 integer (19 binary)
+Root relaxation presolve removed 29 rows and 1 columns
+Root relaxation presolved: 197 rows, 67 columns, 904 nonzeros
 
 
-Root relaxation: objective 4.000000e+00, 55 iterations, 0.00 seconds (0.00 work units)
+Root relaxation: objective 4.000000e+00, 42 iterations, 0.00 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
+     0     0    4.00000    0   15          -    4.00000      -     -    0s
      0     0    4.00000    0   14          -    4.00000      -     -    0s
-     0     0    4.00000    0    8          -    4.00000      -     -    0s
-     0     0    4.00000    0   16          -    4.00000      -     -    0s
-     0     0    4.00000    0    6          -    4.00000      -     -    0s
-     0     0    4.00000    0    3          -    4.00000      -     -    0s
-     0     0    4.00000    0    3          -    4.00000      -     -    0s
-     0     2    4.00000    0    3          -    4.00000      -     -    0s
-* 3733  1393              18      -0.0000000    3.00000      -  10.4    0s
-*24893  7298              34       0.7434705    3.00000   304%  11.9    2s
-*27148  5801              25       2.0000000    3.00000  50.0%  12.1    2s
-*78917    35              60       2.0000020    2.00049  0.02%  11.4    6s
+     0     0    4.00000    0    5          -    4.00000      -     -    0s
+     0     0    4.00000    0    7          -    4.00000      -     -    0s
+     0     0    4.00000    0    7          -    4.00000      -     -    0s
+     0     2    4.00000    0    7          -    4.00000      -     -    0s
+*  595   402              15       0.0000000    2.92000      -   9.9    0s
+* 5481  1036              15       0.0000015    1.60000      -  10.7    0s
 
 Cutting planes:
-  Gomory: 22
-  Lift-and-project: 13
-  Cover: 4
-  Implied bound: 13
-  MIR: 29
-  Mixing: 2
-  Flow cover: 108
-  Inf proof: 26
-  RLT: 156
-  Relax-and-lift: 12
+  Gomory: 3
+  Cover: 2
+  MIR: 4
+  Flow cover: 55
+  Inf proof: 16
+  RLT: 121
+  Relax-and-lift: 4
 
-Explored 78999 nodes (897425 simplex iterations) in 6.85 seconds (2.42 work units)
+Explored 7970 nodes (74594 simplex iterations) in 0.48 seconds (0.38 work units)
 Thread count was 20 (of 20 available processors)
 
-Solution count 4: 2 2 0.74347 -0 
+Solution count 3: 1.50588e-06 7.78032e-12 1.02141e-14 
 
 Optimal solution found (tolerance 1.00e-04)
-Best objective 2.000001950698e+00, best bound 2.000178564009e+00, gap 0.0088%
+Best objective 7.780324573865e-12, best bound 7.780324573865e-12, gap 0.0000%

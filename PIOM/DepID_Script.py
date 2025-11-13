@@ -1,9 +1,9 @@
-form = 'SBM'
+form = 'RU'
 
-MaxRuntime = 60  # Make this long enough to find a fractional solution!
+MaxRuntime = 360  # Make this long enough to find a fractional solution!
 
-PMFlag = ((1,1),
-          (1,1))
+PMFlag = ((0,0),
+          (0,0))
 
 
 

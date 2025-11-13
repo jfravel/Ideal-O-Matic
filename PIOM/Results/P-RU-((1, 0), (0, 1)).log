@@ -1,5 +1,5 @@
 
-Gurobi 12.0.3 (win64) logging started Tue Oct 28 17:39:12 2025
+Gurobi 12.0.3 (win64) logging started Thu Nov 13 13:47:04 2025
 
 Set parameter LogFile to value "Results/P-RU-((1, 0), (0, 1)).log"
 Set parameter NonConvex to value 2
@@ -17,6 +17,7 @@ CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX
 Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
 
 Non-default parameters:
+TimeLimit  120
 Heuristics  0
 IntegralityFocus  1
 MIPFocus  3
@@ -27,76 +28,72 @@ NonConvex  2
 Presolve  2
 ImproveStartTime  10000000000
 
-Optimize a model with 125 rows, 59 columns and 628 nonzeros
-Model fingerprint: 0xb313f566
+Optimize a model with 151 rows, 43 columns and 852 nonzeros
+Model fingerprint: 0x75fdfa9a
 Model has 24 quadratic constraints
-Model has 8 simple general constraints
-  8 ABS
-Variable types: 40 continuous, 19 integer (19 binary)
+Variable types: 24 continuous, 19 integer (19 binary)
 Coefficient statistics:
   Matrix range     [1e+00, 3e+00]
   QMatrix range    [1e+00, 1e+00]
   QLMatrix range   [1e+00, 1e+01]
   Objective range  [1e+00, 1e+00]
-  Bounds range     [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+01]
   RHS range        [1e+00, 8e+00]
   QRHS range       [1e+01, 1e+01]
-Presolve added 0 rows and 16 columns
-Presolve removed 40 rows and 0 columns
-Presolve time: 0.01s
-Presolved: 205 rows, 100 columns, 704 nonzeros
+Presolve removed 44 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 227 rows, 68 columns, 1012 nonzeros
 Presolved model has 24 bilinear constraint(s)
 
 Solving non-convex MIQCP
 
-Variable types: 73 continuous, 27 integer (27 binary)
-Root relaxation presolve removed 24 rows and 9 columns
-Root relaxation presolved: 181 rows, 91 columns, 672 nonzeros
+Variable types: 49 continuous, 19 integer (19 binary)
+Root relaxation presolve removed 36 rows and 1 columns
+Root relaxation presolved: 191 rows, 67 columns, 876 nonzeros
 
 
-Root relaxation: objective 4.000000e+00, 70 iterations, 0.00 seconds (0.00 work units)
+Root relaxation: objective 2.666667e+00, 39 iterations, 0.00 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-     0     0    4.00000    0   18          -    4.00000      -     -    0s
-     0     0    4.00000    0   11          -    4.00000      -     -    0s
-     0     0    4.00000    0   18          -    4.00000      -     -    0s
-     0     0    4.00000    0   16          -    4.00000      -     -    0s
-     0     0    4.00000    0   10          -    4.00000      -     -    0s
-     0     0    4.00000    0   10          -    4.00000      -     -    0s
-     0     0    4.00000    0   12          -    4.00000      -     -    0s
-     0     0    4.00000    0    5          -    4.00000      -     -    0s
-     0     0    4.00000    0   12          -    4.00000      -     -    0s
-     0     0    4.00000    0    9          -    4.00000      -     -    0s
-     0     0    4.00000    0   13          -    4.00000      -     -    0s
-     0     0    4.00000    0    6          -    4.00000      -     -    0s
-     0     0    4.00000    0    6          -    4.00000      -     -    0s
-     0     0    4.00000    0   20          -    4.00000      -     -    0s
-     0     0    4.00000    0   16          -    4.00000      -     -    0s
-     0     0    4.00000    0    8          -    4.00000      -     -    0s
-     0     0    4.00000    0    8          -    4.00000      -     -    0s
-     0     0    4.00000    0    9          -    4.00000      -     -    0s
-     0     0    4.00000    0    8          -    4.00000      -     -    0s
-     0     0    4.00000    0   11          -    4.00000      -     -    0s
-     0     0    4.00000    0    4          -    4.00000      -     -    0s
-     0     0    4.00000    0    4          -    4.00000      -     -    0s
-     0     2    4.00000    0    4          -    4.00000      -     -    0s
+     0     0    2.66667    0   14          -    2.66667      -     -    0s
+     0     0    2.00000    0    5          -    2.00000      -     -    0s
+     0     0    2.00000    0    2          -    2.00000      -     -    0s
+     0     0    2.00000    0   16          -    2.00000      -     -    0s
+     0     0    2.00000    0    3          -    2.00000      -     -    0s
+     0     0    2.00000    0    5          -    2.00000      -     -    0s
+     0     0    2.00000    0    6          -    2.00000      -     -    0s
+     0     0    2.00000    0    2          -    2.00000      -     -    0s
+     0     0    2.00000    0    6          -    2.00000      -     -    0s
+     0     0    2.00000    0    6          -    2.00000      -     -    0s
+     0     2    2.00000    0    6          -    2.00000      -     -    0s
+*  547   754              48      -0.0000000    2.00000      -   7.4    0s
+*  587   754              60       0.0000011    2.00000      -   6.9    0s
+*20318  2051              30       0.0000021    1.90547      -  12.8    0s
+*21000  1782              31       0.0000038    1.77121      -  12.7    1s
+*21969  1506              41       0.0000127    1.54243      -  12.6    1s
+*215298 57464             147       0.0000145    0.01778      -   2.6    6s
+*268370 92509             155       0.0000145    0.01778      -   2.4    7s
+ 2301321 147240    0.01778  128    5    0.00001    0.01778      -   2.0   60s
+*3199659 166722             127       0.0000145    0.01778      -   2.0   78s
+*3588863 10655              43       0.0000355    0.00007  86.6%   2.1   88s
+*3626292  3227              52       0.0000364    0.00004  0.27%   2.1   93s
 
 Cutting planes:
-  Gomory: 3
-  Lift-and-project: 1
-  Implied bound: 3
-  MIR: 5
-  Mixing: 1
-  Flow cover: 32
-  RLT: 81
-  Relax-and-lift: 1
+  Gomory: 19
+  Lift-and-project: 2
+  Cover: 10
+  MIR: 2
+  Flow cover: 31
+  Inf proof: 7
+  RLT: 77
+  Relax-and-lift: 2
 
-Explored 335 nodes (3935 simplex iterations) in 0.33 seconds (0.12 work units)
+Explored 3628650 nodes (7794527 simplex iterations) in 93.16 seconds (40.44 work units)
 Thread count was 20 (of 20 available processors)
 
-Solution count 0
+Solution count 10: 3.63968e-05 3.55302e-05 1.4497e-05 ... 1.28716e-11
 
-Solve interrupted
-Best objective -, best bound 4.000000000000e+00, gap -
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.287159424485e-11, best bound 1.287159424485e-11, gap 0.0000%

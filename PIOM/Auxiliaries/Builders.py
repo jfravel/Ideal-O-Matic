@@ -507,55 +507,55 @@ def BuildDIOM_RU(
 
     ## Covers ####################################################################
     #Lemma 2.1
-    m.addConstrs(( eta[3,0,s] + eta[3,1,s] + zeta[(s+1)%2] + zeta[2]  <=  3  for s in [0,1] ), name='Covr2.1.A' )
+    m.addConstrs(( zeta[s] + zeta[2]  +  eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  3  for s in [0,1] ), name='Covr2.1.A' )
+    
+    m.addConstrs(( zeta[s]  +                                             sum(eta[k,i,s]  for k in [0,1,2,3] )  <=  4                      for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.i'      )
+    m.addConstrs(( zeta[s]  +  eta[0+2*i,i,s] + eta[0+2*i,(i+1)%2,s]  +  eta[1+2*i,i,s] + eta[1+2*i,(i+1)%2,s]  <=  4                      for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.ii-iii' )
+    m.addConstrs(( zeta[s]  +  eta[k,i,s] + eta[k,(i+1)%2,s]   +   eta[2-k//2,(i+1)%2,s] + eta[3-3*(k//2),i,s]  <=  4  for k in [0,1,2,3]  for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.iv-vii' )
+    m.addConstrs(( zeta[s]  +                             sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  <=  5                                      for s in [0,1] ), name='Covr2.1.C'        )
+    
+    m.addConstrs(( zeta[s]  +                                             sum(eta[k,i,s]  for k in [0,1,2,3] )  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  6                      for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.i'      )
+    m.addConstrs(( zeta[s]  +  eta[0+2*i,i,s] + eta[0+2*i,(i+1)%2,s]  +  eta[1+2*i,i,s] + eta[1+2*i,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  6                      for i in [0,1]  for s in [0,1] ), name='Covr2.1.D.ii-iii' )
+    m.addConstrs(( zeta[s]  +  eta[k,i,s] + eta[k,(i+1)%2,s]   +   eta[2-k//2,(i+1)%2,s] + eta[3-3*(k//2),i,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  6  for k in [0,1,2,3]  for i in [0,1]  for s in [0,1] ), name='Covr2.1.D.iv-vii' )
+    m.addConstrs(( zeta[s]  +                             sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  7                                      for s in [0,1] ), name='Covr2.1.D.C'      )
+    
+    m.addConstrs(( zeta[s]  +                eta[2,0,s] + eta[2,1,s]  +  eta[3,0,s] + eta[3,1,s]  +  zeta[(1+s)%2] + zeta[2]  <=  5                  for s in [0,1] ), name='Covr2.1.E.iii' )
+    m.addConstrs(( zeta[s]  +  eta[3,i,s] + eta[3,(i+1)%2,s]   +   eta[1,i,s] + eta[0,(i+1)%2,s]  +  zeta[(1+s)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1] ), name='Covr2.1.E.vii' )
+    m.addConstrs(( zeta[s]  +               sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  +  zeta[(1+s)%2] + zeta[2]  <=  6                  for s in [0,1] ), name='Covr2.1.E.C'   )
+    
+    m.addConstrs(( zeta[s]  +                eta[2,0,s] + eta[2,1,s]  +  eta[3,0,s] + eta[3,1,s]  +  zeta[(1+s)%2] + zeta[2]  +  eta[3,0,(1+s)%2] + eta[3,1,(1+s)%2]  <=  6                  for s in [0,1] ), name='Covr2.1.F.iii' )
+    m.addConstrs(( zeta[s]  +  eta[3,i,s] + eta[3,(i+1)%2,s]   +   eta[1,i,s] + eta[0,(i+1)%2,s]  +  zeta[(1+s)%2] + zeta[2]  +  eta[3,0,(1+s)%2] + eta[3,1,(1+s)%2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.vii' )
+    m.addConstrs(( zeta[s]  +               sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  +  zeta[(1+s)%2] + zeta[2]  +  eta[3,0,(1+s)%2] + eta[3,1,(1+s)%2]  <=  7                  for s in [0,1] ), name='Covr2.1.F.C'   )
 
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                 + eta[2,i,s]                                 + eta[3,(i+1)%2,s] + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.i'  )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                              + eta[2,(i+1)%2,s] + eta[3,i,s]                    + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.ii' )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]                                              + eta[3,(i+1)%2,s] + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.C.i'  )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]              + eta[2,(i+1)%2,s] + eta[3,i,s]                    + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.C.ii' )
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                    + eta[3,i,s]                    + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.D'    )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,i,s] + eta[3,(i+1)%2,s] + zeta[s]  <=  5                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.E'    )
-    
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                 + eta[2,i,s]                                 + eta[3,(i+1)%2,s] + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.B.i'  )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                              + eta[2,(i+1)%2,s] + eta[3,i,s]                    + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.B.ii' )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]                                              + eta[3,(i+1)%2,s] + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.C.i'  )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]              + eta[2,(i+1)%2,s] + eta[3,i,s]                    + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.C.ii' )
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                    + eta[3,i,s]                    + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.D'    )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,i,s] + eta[3,(i+1)%2,s] + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  7  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.E'    )
-    
     #Lemma 2.2
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                              + eta[2,(i+1)%2,s]                    + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.A' )
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                                       + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B' )
-    m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + eta[3,(i+1)%2,s] + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.C' )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]              + eta[2,(i+1)%2,s]                    + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D' )
-    m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s] + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.E' )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s] + zeta[s]  <=  4                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.F' )
+    m.addConstrs((        eta[0,(i+1)%2,s] + eta[1,(i+1)%2,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s]  <=  3  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.A.i'  )
+    m.addConstrs(( sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  +  zeta[(1+s)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.A.ii' )
     
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                              + eta[2,(i+1)%2,s]                    + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.A' )
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                                       + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.B' )
-    m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + eta[3,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.C' )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]              + eta[2,(i+1)%2,s]                    + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.D' )
-    m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.E' )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.F' )
+    m.addConstrs(( zeta[s]  +                sum(eta[k,i,s]  for k in [0,1,2] )  <=  3                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.i'    )
+    m.addConstrs(( zeta[s]  +  eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s]  <=  3                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.iii'  )
+    m.addConstrs(( zeta[s]  +  eta[k,i,s] + eta[k,(i+1)%2,s] + eta[2,(i+1)%2,s]  <=  3       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.iv-v' )
+    m.addConstrs(( zeta[s]  +  eta[3,(i+1)%2,s] + eta[1,k,s] + eta[0,(1+k)%2,s]  <=  3       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.vii'  )
+    m.addConstrs(( zeta[s]  +  sum(eta[k,i,s]  for k in [0,1,2]  for i in [0,1] ) + eta[3,(i+1)%2,s]  <=  4  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.1.C'      )
+    
+    m.addConstrs(( zeta[s]  +                sum(eta[k,i,s]  for k in [0,1,2] )  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D.i'    )
+    m.addConstrs(( zeta[s]  +  eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D.iii'  )
+    m.addConstrs(( zeta[s]  +  eta[k,i,s] + eta[k,(i+1)%2,s] + eta[2,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D.iv-v' )
+    m.addConstrs(( zeta[s]  +  eta[3,(i+1)%2,s] + eta[1,k,s] + eta[0,(i+k)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D.vii'  )
+    m.addConstrs(( zeta[s]  +  sum(eta[k,i,s]  for k in [0,1,2]  for i in [0,1] ) + eta[3,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  6  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.1.D.C'    )
     
     #Lemma 2.3
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                               <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.A' )
-    m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.B' )
-    m.addConstrs((              eta[0,(i+1)%2,s] + eta[1,i,s]                                                    + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.C' )
-    m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.D' )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]  <=  3                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.E' )
+    m.addConstrs(( eta[0,(i+1)%2,s] + eta[1,(i+1)%2,s] + eta[2,(i+1)%2,s]  <=  2  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.A'  )
     
-    m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.B' )
-    m.addConstrs((              eta[0,(i+1)%2,s] + eta[1,i,s]                                                    + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.C' ) 
-    m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.D' ) 
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  5   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.E' ) 
+    m.addConstrs(( zeta[s]  +  eta[2,i,s] + eta[2,(i+1)%2,s]  <=  2                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.iii'  )
+    m.addConstrs(( zeta[s]  +  eta[3,(i+1)%2,s] + eta[1,k,s]  <=  2       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.vii'  )
+    m.addConstrs(( zeta[s]  +  sum(eta[k,i,s]  for k in [0,1,2]  for i in [0,1] )  <=  3  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.1.C'      )
     
-    #Lemma 2.4
-    m.addConstrs(( eta[0,i,s] + eta[1,i,s] + eta[2,i,s]  <=  2  for i in [0,1]  for s in [0,1]  if PMFlag[s][(i+1)%2] + PMFlag[(s+1)%2][(i+1)%2] == 2 ), name='Covr2.4' )
+    m.addConstrs(( zeta[s]  +  eta[2,i,s] + eta[2,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  4                       for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.2.D.iii'  )
+    m.addConstrs(( zeta[s]  +  eta[0,(k+1)%2,s] + eta[1,k,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  4       for k in [0,1]  for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.2.D.vii'  )
+    m.addConstrs(( zeta[s]  +  sum(eta[k,i,s]  for k in [0,1,2]  for i in [0,1] )  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5  for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.1.D.C'    )
     
-    #Lemma 2.5
-    m.addConstrs(( eta[0,i,s] + eta[1,i,s] + eta[2,i,s]  <=  2  for i in [0,1]  for s in [0,1]  if PMFlag[s][(i+1)%2] + PMFlag[(s+1)%2][i] == 2 ), name='Covr2.5' )
     
+
     ## Objective #################################################################
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )
     m.addConstrs(( phi[i,s]  <=  2*delt[i,s]      for i in [0,1]  for s in [0,1]), name='Obj1' )
@@ -618,22 +618,50 @@ def BuildPIOM_RU(
     m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] >=  t  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 0 )
     m.addConstrs( UB[(i+1)%2,s] - PM[i,s] - LB[i,s] ==  0      for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 )
     
+# =============================================================================
+#     # PM[0] + PM[1] > 0
+#     m.addConstrs( PM[0,s] + PM[1,s]  >=  t                                  for s in [0,1])
+# =============================================================================
+    
+# =============================================================================
+#     # PM[0] + LB[0] - LB[1] > 0
+#     m.addConstrs( PM[i,s] + LB[i,s] - LB[(i+1)%2,s]  >=  t  for i in [0,1]  for s in [0,1])
+#     
+#     # PM[0] + UB[0] - UB[1] > 0
+#     m.addConstrs( PM[i,s] + UB[i,s] - UB[(i+1)%2,s]  >=  t  for i in [0,1]  for s in [0,1])
+# =============================================================================
+    
+    
+    LBFlags = ((0,0), (0,0)) #0 gives >0, 1 gives <0, 2 gives =0 for that i,s index
     # PM[0] + LB[0] - LB[1] != 0
-    cmbLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=t-r, ub=2*r-t, name='cmbLB' )
-    absLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=2*r-t, name='absLB' )
-    m.addConstrs( cmbLB[i,s] == PM[i,s] + LB[i,s] - LB[(i+1)%2,s]  for i in [0,1]  for s in [0,1])
-    m.addConstrs( absLB[i,s] == abs_(cmbLB[i,s])                   for i in [0,1]  for s in [0,1])
-    m.addConstrs( absLB[i,s] >= t                                  for i in [0,1]  for s in [0,1])
+    m.addConstrs( PM[i,s] + LB[i,s] - LB[(i+1)%2,s] >= t   for i in [0,1]  for s in [0,1]  if LBFlags[s][i] == 0)
+    m.addConstrs( PM[i,s] + LB[i,s] - LB[(i+1)%2,s] <= -t  for i in [0,1]  for s in [0,1]  if LBFlags[s][i] == 1)
+    m.addConstrs( PM[i,s] + LB[i,s] - LB[(i+1)%2,s] == 0   for i in [0,1]  for s in [0,1]  if LBFlags[s][i] == 2)
     
-    # PM[0] + UB[0] - UB[1] != 0
-    cmbUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=t-r, ub=2*r-t, name='cmbUB' )
-    absUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=2*r-t, name='absUB' )
-    m.addConstrs( cmbUB[i,s] == PM[i,s] + UB[i,s] - UB[(i+1)%2,s]  for i in [0,1]  for s in [0,1])
-    m.addConstrs( absUB[i,s] == abs_(cmbUB[i,s])                   for i in [0,1]  for s in [0,1])
-    m.addConstrs( absUB[i,s] >= t                                  for i in [0,1]  for s in [0,1])
+    UBFlags = ((0,0), (0,0))
+    # PM[0] + LB[0] - LB[1] != 0
+    m.addConstrs( PM[i,s] + UB[i,s] - UB[(i+1)%2,s] >= t   for i in [0,1]  for s in [0,1]  if UBFlags[s][i] == 0)
+    m.addConstrs( PM[i,s] + UB[i,s] - UB[(i+1)%2,s] <= -t  for i in [0,1]  for s in [0,1]  if UBFlags[s][i] == 1)
+    m.addConstrs( PM[i,s] + UB[i,s] - UB[(i+1)%2,s] == 0   for i in [0,1]  for s in [0,1]  if UBFlags[s][i] == 2)
+
+# =============================================================================
+#     # PM[0] + LB[0] - LB[1] != 0
+#     cmbLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=t-r, ub=2*r-t, name='cmbLB' )
+#     absLB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=2*r-t, name='absLB' )
+#     m.addConstrs( cmbLB[i,s] == PM[i,s] + LB[i,s] - LB[(i+1)%2,s]  for i in [0,1]  for s in [0,1])
+#     m.addConstrs( absLB[i,s] == abs_(cmbLB[i,s])                   for i in [0,1]  for s in [0,1])
+#     m.addConstrs( absLB[i,s] >= t                                  for i in [0,1]  for s in [0,1])
+#     
+#     # PM[0] + UB[0] - UB[1] != 0
+#     cmbUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=t-r, ub=2*r-t, name='cmbUB' )
+#     absUB = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, lb=0, ub=2*r-t, name='absUB' )
+#     m.addConstrs( cmbUB[i,s] == PM[i,s] + UB[i,s] - UB[(i+1)%2,s]  for i in [0,1]  for s in [0,1])
+#     m.addConstrs( absUB[i,s] == abs_(cmbUB[i,s])                   for i in [0,1]  for s in [0,1])
+#     m.addConstrs( absUB[i,s] >= t                                  for i in [0,1]  for s in [0,1])
+# =============================================================================
     
-    # PM[0] + PM[1] != 0
-    m.addConstrs( PM[0,s] + PM[1,s]  >=  t                                         for s in [0,1])
+    
+    
     
     ## Feasibility #############################################
     c = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='c' )
@@ -658,54 +686,79 @@ def BuildPIOM_RU(
 
     ## Covers ####################################################################
     #Lemma 2.1
-    m.addConstrs(( eta[3,0,s] + eta[3,1,s] + zeta[(s+1)%2] + zeta[2]  <=  3  for s in [0,1] ), name='Covr2.1.A' )
+    m.addConstrs(( zeta[s] + zeta[2]  +  eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  3  for s in [0,1] ), name='Covr2.1.A' )
+    
+    m.addConstrs(( zeta[s]  +                                             sum(eta[k,i,s]  for k in [0,1,2,3] )  <=  4                      for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.i'      )
+    m.addConstrs(( zeta[s]  +  eta[0+2*i,i,s] + eta[0+2*i,(i+1)%2,s]  +  eta[1+2*i,i,s] + eta[1+2*i,(i+1)%2,s]  <=  4                      for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.ii-iii' )
+    m.addConstrs(( zeta[s]  +  eta[k,i,s] + eta[k,(i+1)%2,s]   +   eta[2-k//2,(i+1)%2,s] + eta[3-3*(k//2),i,s]  <=  4  for k in [0,1,2,3]  for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.iv-vii' )
+    m.addConstrs(( zeta[s]  +                             sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  <=  5                                      for s in [0,1] ), name='Covr2.1.C'        )
+    
+    m.addConstrs(( zeta[s]  +                                             sum(eta[k,i,s]  for k in [0,1,2,3] )  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  6                      for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.i'      )
+    m.addConstrs(( zeta[s]  +  eta[0+2*i,i,s] + eta[0+2*i,(i+1)%2,s]  +  eta[1+2*i,i,s] + eta[1+2*i,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  6                      for i in [0,1]  for s in [0,1] ), name='Covr2.1.D.ii-iii' )
+    m.addConstrs(( zeta[s]  +  eta[k,i,s] + eta[k,(i+1)%2,s]   +   eta[2-k//2,(i+1)%2,s] + eta[3-3*(k//2),i,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  6  for k in [0,1,2,3]  for i in [0,1]  for s in [0,1] ), name='Covr2.1.D.iv-vii' )
+    m.addConstrs(( zeta[s]  +                             sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  7                                      for s in [0,1] ), name='Covr2.1.D.C'      )
+    
+    m.addConstrs(( zeta[s]  +                eta[2,0,s] + eta[2,1,s]  +  eta[3,0,s] + eta[3,1,s]  +  zeta[(1+s)%2] + zeta[2]  <=  5                  for s in [0,1] ), name='Covr2.1.E.iii' )
+    m.addConstrs(( zeta[s]  +  eta[3,i,s] + eta[3,(i+1)%2,s]   +   eta[1,i,s] + eta[0,(i+1)%2,s]  +  zeta[(1+s)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1] ), name='Covr2.1.E.vii' )
+    m.addConstrs(( zeta[s]  +               sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  +  zeta[(1+s)%2] + zeta[2]  <=  6                  for s in [0,1] ), name='Covr2.1.E.C'   )
+    
+    m.addConstrs(( zeta[s]  +                eta[2,0,s] + eta[2,1,s]  +  eta[3,0,s] + eta[3,1,s]  +  zeta[(1+s)%2] + zeta[2]  +  eta[3,0,(1+s)%2] + eta[3,1,(1+s)%2]  <=  6                  for s in [0,1] ), name='Covr2.1.F.iii' )
+    m.addConstrs(( zeta[s]  +  eta[3,i,s] + eta[3,(i+1)%2,s]   +   eta[1,i,s] + eta[0,(i+1)%2,s]  +  zeta[(1+s)%2] + zeta[2]  +  eta[3,0,(1+s)%2] + eta[3,1,(1+s)%2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.vii' )
+    m.addConstrs(( zeta[s]  +               sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  +  zeta[(1+s)%2] + zeta[2]  +  eta[3,0,(1+s)%2] + eta[3,1,(1+s)%2]  <=  7                  for s in [0,1] ), name='Covr2.1.F.C'   )
 
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                 + eta[2,i,s]                                 + eta[3,(i+1)%2,s] + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.i'  )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                              + eta[2,(i+1)%2,s] + eta[3,i,s]                    + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.B.ii' )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]                                              + eta[3,(i+1)%2,s] + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.C.i'  )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]              + eta[2,(i+1)%2,s] + eta[3,i,s]                    + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.C.ii' )
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                    + eta[3,i,s]                    + zeta[s]  <=  4                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.D'    )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,i,s] + eta[3,(i+1)%2,s] + zeta[s]  <=  5                                                        for i in [0,1]  for s in [0,1] ), name='Covr2.1.E'    )
-    
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                 + eta[2,i,s]                                 + eta[3,(i+1)%2,s] + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.B.i'  )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                              + eta[2,(i+1)%2,s] + eta[3,i,s]                    + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.B.ii' )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]                                              + eta[3,(i+1)%2,s] + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.C.i'  )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]              + eta[2,(i+1)%2,s] + eta[3,i,s]                    + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.C.ii' )
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                    + eta[3,i,s]                    + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.D'    )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,i,s] + eta[3,(i+1)%2,s] + zeta[s] + eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  7  for i in [0,1]  for s in [0,1] ), name='Covr2.1.F.E'    )
-    
     #Lemma 2.2
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                              + eta[2,(i+1)%2,s]                    + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.A' )
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                                       + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B' )
-    m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + eta[3,(i+1)%2,s] + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.C' )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]              + eta[2,(i+1)%2,s]                    + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D' )
-    m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s] + zeta[s]  <=  3                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.E' )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s] + zeta[s]  <=  4                                                              for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.F' )
+    m.addConstrs((        eta[0,(i+1)%2,s] + eta[1,(i+1)%2,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s]  <=  3  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.A.i'  )
+    m.addConstrs(( sum(eta[k,i,s]  for k in [0,1,2,3]  for i in [0,1] )  +  zeta[(1+s)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.A.ii' )
     
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s]                                              + eta[2,(i+1)%2,s]                    + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.A' )
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                                       + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.B' )
-    m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + eta[3,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.C' )
-    m.addConstrs((                                 eta[1,i,s] + eta[1,(i+1)%2,s]              + eta[2,(i+1)%2,s]                    + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.D' )
-    m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  5  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.E' )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]  <=  6  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.G.F' )
+    m.addConstrs(( zeta[s]  +                sum(eta[k,i,s]  for k in [0,1,2] )  <=  3                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.i'    )
+    m.addConstrs(( zeta[s]  +  eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s]  <=  3                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.iii'  )
+    m.addConstrs(( zeta[s]  +  eta[k,i,s] + eta[k,(i+1)%2,s] + eta[2,(i+1)%2,s]  <=  3       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.iv-v' )
+    m.addConstrs(( zeta[s]  +  eta[3,(i+1)%2,s] + eta[1,k,s] + eta[0,(1+k)%2,s]  <=  3       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.vii'  )
+    m.addConstrs(( zeta[s]  +  sum(eta[k,i,s]  for k in [0,1,2]  for i in [0,1] ) + eta[3,(i+1)%2,s]  <=  4  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.1.C'      )
+    
+    m.addConstrs(( zeta[s]  +                sum(eta[k,i,s]  for k in [0,1,2] )  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D.i'    )
+    m.addConstrs(( zeta[s]  +  eta[2,i,s] + eta[2,(i+1)%2,s] + eta[3,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D.iii'  )
+    m.addConstrs(( zeta[s]  +  eta[k,i,s] + eta[k,(i+1)%2,s] + eta[2,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D.iv-v' )
+    m.addConstrs(( zeta[s]  +  eta[3,(i+1)%2,s] + eta[1,k,s] + eta[0,(i+k)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.D.vii'  )
+    m.addConstrs(( zeta[s]  +  sum(eta[k,i,s]  for k in [0,1,2]  for i in [0,1] ) + eta[3,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  6  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.1.D.C'    )
     
     #Lemma 2.3
-    m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                               <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.A' )
-    m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.B' )
-    m.addConstrs((              eta[0,(i+1)%2,s] + eta[1,i,s]                                                    + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.C' )
-    m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.D' )
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]  <=  3                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.E' )
+    m.addConstrs(( eta[0,(i+1)%2,s] + eta[1,(i+1)%2,s] + eta[2,(i+1)%2,s]  <=  2  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.A'  )
     
-    m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.B' )
-    m.addConstrs((              eta[0,(i+1)%2,s] + eta[1,i,s]                                                    + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.C' ) 
-    m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.D' ) 
-    m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  5   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.E' ) 
+    m.addConstrs(( zeta[s]  +  eta[2,i,s] + eta[2,(i+1)%2,s]  <=  2                       for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.iii'  )
+    m.addConstrs(( zeta[s]  +  eta[3,(i+1)%2,s] + eta[1,k,s]  <=  2       for k in [0,1]  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.2.B.vii'  )
+    m.addConstrs(( zeta[s]  +  sum(eta[k,i,s]  for k in [0,1,2]  for i in [0,1] )  <=  3  for i in [0,1]  for s in [0,1]  if PMFlag[s][i] == 1 ), name='Covr2.1.C'      )
     
-    #Lemma 2.4
-    m.addConstrs(( eta[0,i,s] + eta[1,i,s] + eta[2,i,s]  <=  2  for i in [0,1]  for s in [0,1]  if PMFlag[s][(i+1)%2] + PMFlag[(s+1)%2][(i+1)%2] == 2 ), name='Covr2.4' )
+    m.addConstrs(( zeta[s]  +  eta[2,i,s] + eta[2,(i+1)%2,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  4                       for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.2.D.iii'  )
+    m.addConstrs(( zeta[s]  +  eta[0,(k+1)%2,s] + eta[1,k,s]  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  4       for k in [0,1]  for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.2.D.vii'  )
+    m.addConstrs(( zeta[s]  +  sum(eta[k,i,s]  for k in [0,1,2]  for i in [0,1] )  +  zeta[2] + eta[3,0,(s+1)%2] + eta[3,1,(s+1)%2]  <=  5  for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.1.D.C'    )
     
-    #Lemma 2.5
-    m.addConstrs(( eta[0,i,s] + eta[1,i,s] + eta[2,i,s]  <=  2  for i in [0,1]  for s in [0,1]  if PMFlag[s][(i+1)%2] + PMFlag[(s+1)%2][i] == 2 ), name='Covr2.5' )
+
+
+
+# =============================================================================
+#     #Lemma 2.3
+#     m.addConstrs(( eta[0,i,s]                    + eta[1,i,s]                    + eta[2,i,s]                               <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.A' )
+#     m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.B' )
+#     m.addConstrs((              eta[0,(i+1)%2,s] + eta[1,i,s]                                                    + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.C' )
+#     m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]  <=  2                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.D' )
+#     m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]  <=  3                                                                 for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.E' )
+#     
+#     m.addConstrs(( eta[0,i,s]                                 + eta[1,(i+1)%2,s]                                 + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.B' )
+#     m.addConstrs((              eta[0,(i+1)%2,s] + eta[1,i,s]                                                    + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.C' ) 
+#     m.addConstrs((                                                                 eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  4   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.D' ) 
+#     m.addConstrs(( eta[0,i,s] + eta[0,(i+1)%2,s] + eta[1,i,s] + eta[1,(i+1)%2,s] + eta[2,i,s] + eta[2,(i+1)%2,s] + zeta[s]    +    eta[3,i,(s+1)%2] + eta[3,(i+1)%2,(s+1)%2] + zeta[2]    <=  5   for i in [0,1]  for s in [0,1]  if sum(PMFlag[s])==2 ), name='Covr2.3.F.E' ) 
+#     
+#     #Lemma 2.4
+#     m.addConstrs(( eta[0,i,s] + eta[1,i,s] + eta[2,i,s]  <=  2  for i in [0,1]  for s in [0,1]  if PMFlag[s][(i+1)%2] + PMFlag[(s+1)%2][(i+1)%2] == 2 ), name='Covr2.4' )
+#     
+#     #Lemma 2.5
+#     m.addConstrs(( eta[0,i,s] + eta[1,i,s] + eta[2,i,s]  <=  2  for i in [0,1]  for s in [0,1]  if PMFlag[s][(i+1)%2] + PMFlag[(s+1)%2][i] == 2 ), name='Covr2.5' )
+# =============================================================================
+    
+    
+    
+    
     
     ## Objective #################################################################
     phi = m.addVars( 2, 2, vtype=GRB.CONTINUOUS, name='phi' )

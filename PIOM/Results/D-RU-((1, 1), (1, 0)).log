@@ -1,0 +1,55 @@
+
+Gurobi 12.0.3 (win64) logging started Thu Nov 13 14:21:48 2025
+
+Set parameter LogFile to value "Results/D-RU-((1, 1), (1, 0)).log"
+Set parameter DisplayInterval to value 60
+Set parameter NumericFocus to value 3
+Set parameter IntegralityFocus to value 1
+Set parameter FeasibilityTol to value 1e-09
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  400
+FeasibilityTol  1e-09
+IntegralityFocus  1
+DisplayInterval  60
+NumericFocus  3
+
+Optimize a model with 188 rows, 31 columns and 1052 nonzeros
+Model fingerprint: 0x69210e56
+Variable types: 12 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [9e-02, 1e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 61 rows and 0 columns
+Presolve time: 0.01s
+Presolved: 127 rows, 31 columns, 734 nonzeros
+Variable types: 12 continuous, 19 integer (19 binary)
+
+Root relaxation: objective 2.857143e+00, 33 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.85714    0    6   -0.00000    2.85714      -     -    0s
+     0     2    2.00000    0    6   -0.00000    2.00000      -     -    0s
+H  559   101                       0.0000023    2.00000      -   3.6    0s
+
+Cutting planes:
+  Cover: 2
+  Implied bound: 2
+  Inf proof: 2
+
+Explored 1890 nodes (6573 simplex iterations) in 0.19 seconds (0.05 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 3: 2.26174e-06 -0 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%

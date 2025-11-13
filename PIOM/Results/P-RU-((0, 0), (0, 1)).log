@@ -1,0 +1,79 @@
+
+Gurobi 12.0.3 (win64) logging started Thu Nov 13 13:12:14 2025
+
+Set parameter LogFile to value "Results/P-RU-((0, 0), (0, 1)).log"
+Set parameter NonConvex to value 2
+Set parameter DisplayInterval to value 60
+Set parameter IntegralityFocus to value 1
+Set parameter MIPFocus to value 3
+Set parameter Heuristics to value 0
+Set parameter RINS to value 0
+Set parameter ImproveStartTime to value 10000000000
+Set parameter Presolve to value 2
+Set parameter Aggregate to value 2
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  360
+Heuristics  0
+IntegralityFocus  1
+MIPFocus  3
+RINS  0
+Aggregate  2
+DisplayInterval  60
+NonConvex  2
+Presolve  2
+ImproveStartTime  10000000000
+
+Optimize a model with 127 rows, 43 columns and 719 nonzeros
+Model fingerprint: 0xb4a636cc
+Model has 24 quadratic constraints
+Variable types: 24 continuous, 19 integer (19 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve removed 18 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 229 rows, 68 columns, 1007 nonzeros
+Presolved model has 24 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 49 continuous, 19 integer (19 binary)
+Root relaxation presolve removed 27 rows and 1 columns
+Root relaxation presolved: 202 rows, 67 columns, 925 nonzeros
+
+
+Root relaxation: objective 4.000000e+00, 38 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0   17          -    4.00000      -     -    0s
+     0     0    4.00000    0   10          -    4.00000      -     -    0s
+     0     0    4.00000    0   14          -    4.00000      -     -    0s
+     0     0    4.00000    0   15          -    4.00000      -     -    0s
+     0     0    4.00000    0   12          -    4.00000      -     -    0s
+     0     0    4.00000    0    8          -    4.00000      -     -    0s
+     0     0    4.00000    0    7          -    4.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     0    4.00000    0   16          -    4.00000      -     -    0s
+     0     0    4.00000    0   16          -    4.00000      -     -    0s
+     0     2    4.00000    0   16          -    4.00000      -     -    0s
+*  503   530              12      -0.0000000    3.93254      -  13.1    0s
+*12994  2855              84       0.0000083    2.00000      -  11.8    2s
+*12997  2855              84       0.0000094    2.00000      -  11.8    2s
+*52588  5556              77       0.0000102    2.00000      -   7.5    8s
+*60868 10483             186       0.0000310    2.00000      -   7.0    9s
+*63263 12150             150       0.0000312    2.00000      -   6.9    9s
+*106516 40700             161       0.0000335    2.00000      -   5.4   14s
+*261178 99779             203       0.0000352    2.00000      -   4.6   30s
+ 637781 182809    1.33337  199    8    0.00004    2.00000      -   4.0   60s

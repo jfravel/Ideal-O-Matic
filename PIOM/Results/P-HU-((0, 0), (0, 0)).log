@@ -1,0 +1,96 @@
+
+Gurobi 12.0.3 (win64) logging started Mon Nov 10 12:39:58 2025
+
+Set parameter LogFile to value "Results/P-HU-((0, 0), (0, 0)).log"
+Set parameter NonConvex to value 2
+Set parameter DisplayInterval to value 60
+Set parameter IntegralityFocus to value 1
+Set parameter MIPFocus to value 3
+Set parameter Heuristics to value 0
+Set parameter RINS to value 0
+Set parameter ImproveStartTime to value 10000000000
+Set parameter Presolve to value 2
+Set parameter Aggregate to value 2
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  10
+Heuristics  0
+IntegralityFocus  1
+MIPFocus  3
+RINS  0
+Aggregate  2
+DisplayInterval  60
+NonConvex  2
+Presolve  2
+ImproveStartTime  10000000000
+
+Optimize a model with 137 rows, 63 columns and 662 nonzeros
+Model fingerprint: 0xecdebc65
+Model has 32 quadratic constraints
+Model has 8 simple general constraints
+  8 ABS
+Variable types: 40 continuous, 23 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 8e+00]
+  QRHS range       [1e+01, 1e+01]
+Presolve added 0 rows and 16 columns
+Presolve removed 14 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 251 rows, 104 columns, 982 nonzeros
+Presolved model has 24 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 73 continuous, 31 integer (31 binary)
+Root relaxation presolve removed 24 rows and 9 columns
+Root relaxation presolved: 227 rows, 95 columns, 950 nonzeros
+
+
+Root relaxation: objective 4.000000e+00, 59 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.00000    0   16          -    4.00000      -     -    0s
+     0     0    4.00000    0   16          -    4.00000      -     -    0s
+     0     0    4.00000    0   18          -    4.00000      -     -    0s
+     0     0    4.00000    0    6          -    4.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     0    4.00000    0    4          -    4.00000      -     -    0s
+     0     2    4.00000    0    4          -    4.00000      -     -    0s
+* 1393  1002              17       0.0000000    4.00000      -  11.7    0s
+*51688 19311              29       0.7053351    3.73059   429%  15.5    6s
+*83072 26309              29       0.9241591    3.02212   227%  14.8    9s
+*83479 26302              34       0.9316387    3.01680   224%  14.8    9s
+*83486 26301              37       0.9332937    3.01680   223%  14.8    9s
+*83500 26301              44       0.9333334    3.01680   223%  14.8    9s
+
+Cutting planes:
+  Gomory: 43
+  Lift-and-project: 8
+  Cover: 8
+  Implied bound: 24
+  MIR: 52
+  Mixing: 2
+  Flow cover: 181
+  Inf proof: 62
+  RLT: 207
+  Relax-and-lift: 33
+
+Explored 88281 nodes (1360692 simplex iterations) in 10.02 seconds (4.06 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 6: 0.933333 0.933294 0.931639 ... 8.88178e-16
+
+Time limit reached
+Best objective 9.333334492254e-01, best bound 3.000000000000e+00, gap 221.4285%
