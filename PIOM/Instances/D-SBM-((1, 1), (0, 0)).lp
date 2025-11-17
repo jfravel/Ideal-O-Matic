@@ -1,21 +1,21 @@
 \ Model D-SBM-((1, 1), (0, 0))
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-\ Signature: 0xf71ea978c50e8110
+\ Signature: 0xf71ea978c50ef297
 Maximize
   phi[0] + phi[1] + phi[2]
 Subject To
- LB[0,0]: c[1,0] + delt[0] + delt[1] - DELTA >= 1
- LB[0,1]: c[1,1] >= 0
- LB[1,0]: c[0,0] - DELTA >= 0
+ LB[0,0]: c[1,0] + delt[0] + delt[1] - DELTA >= 9
+ LB[0,1]: c[1,1] - 9 delt[0] + 9 DELTA >= 0
+ LB[1,0]: c[0,0] - DELTA >= 9
  LB[1,1]: c[0,1] >= 0
- UB[0,0]: c[0,0] - delt[0] - delt[1] + DELTA <= 0
- UB[0,1]: c[0,1] + 9 delt[0] - 9 DELTA <= 10
- UB[1,0]: c[1,0] + DELTA <= 1
- UB[1,1]: c[1,1] - 9 delt[1] + 9 DELTA <= 1
- PM[0,0]: - c[0,0] + c[1,0] + 2 delt[0] + 2 delt[1] - 2 DELTA >= 1
- PM[0,1]: - c[0,1] + c[1,1] - 10 delt[0] + 10 DELTA >= -10
- PM[1,0]: c[0,0] - c[1,0] - 2 DELTA >= -1
- PM[1,1]: c[0,1] - c[1,1] - delt[1] + DELTA >= -1
+ UB[0,0]: c[0,0] - delt[0] - delt[1] + DELTA <= 9
+ UB[0,1]: c[0,1] <= 1
+ UB[1,0]: c[1,0] + DELTA <= 9
+ UB[1,1]: c[1,1] + 9 delt[1] - 9 DELTA <= 10
+ PM[0,0]: - c[0,0] + c[1,0] + 2 delt[0] + 2 delt[1] - 2 DELTA >= 0
+ PM[0,1]: - c[0,1] + c[1,1] - 10 delt[0] + 10 DELTA >= -1
+ PM[1,0]: c[0,0] - c[1,0] - 2 DELTA >= 0
+ PM[1,1]: c[0,1] - c[1,1] - 10 delt[1] + 10 DELTA >= -10
  DL[0]: delt[0] >= 0
  DL[1]: delt[1] >= 0
  DU[0]: delt[0] <= 1
@@ -24,20 +24,20 @@ Subject To
  MC[1]: delt[1] - DELTA >= 0
  MC[2]: delt[0] + delt[1] - DELTA <= 1
  MC[3]: DELTA >= 0
- LBt[0,0]: c[1,0] + delt[0] + delt[1] - DELTA + 200 eta[0,0,0] <= 201
- LBt[0,1]: c[1,1] + 200 eta[0,0,1] <= 200
- LBt[1,0]: c[0,0] - DELTA + 200 eta[0,1,0] <= 200
+ LBt[0,0]: c[1,0] + delt[0] + delt[1] - DELTA + 200 eta[0,0,0] <= 209
+ LBt[0,1]: c[1,1] - 9 delt[0] + 9 DELTA + 200 eta[0,0,1] <= 200
+ LBt[1,0]: c[0,0] - DELTA + 200 eta[0,1,0] <= 209
  LBt[1,1]: c[0,1] + 200 eta[0,1,1] <= 200
- UBt[0,0]: c[0,0] - delt[0] - delt[1] + DELTA - 200 eta[1,0,0] >= -200
- UBt[0,1]: c[0,1] + 9 delt[0] - 9 DELTA - 200 eta[1,0,1] >= -190
- UBt[1,0]: c[1,0] + DELTA - 200 eta[1,1,0] >= -199
- UBt[1,1]: c[1,1] - 9 delt[1] + 9 DELTA - 200 eta[1,1,1] >= -199
+ UBt[0,0]: c[0,0] - delt[0] - delt[1] + DELTA - 200 eta[1,0,0] >= -191
+ UBt[0,1]: c[0,1] - 200 eta[1,0,1] >= -199
+ UBt[1,0]: c[1,0] + DELTA - 200 eta[1,1,0] >= -191
+ UBt[1,1]: c[1,1] + 9 delt[1] - 9 DELTA - 200 eta[1,1,1] >= -190
  PMt[0,0]: - c[0,0] + c[1,0] + 2 delt[0] + 2 delt[1] - 2 DELTA
-   + 200 eta[2,0,0] <= 201
+   + 200 eta[2,0,0] <= 200
  PMt[0,1]: - c[0,1] + c[1,1] - 10 delt[0] + 10 DELTA + 200 eta[2,0,1]
-   <= 190
- PMt[1,0]: c[0,0] - c[1,0] - 2 DELTA + 200 eta[2,1,0] <= 199
- PMt[1,1]: c[0,1] - c[1,1] - delt[1] + DELTA + 200 eta[2,1,1] <= 199
+   <= 199
+ PMt[1,0]: c[0,0] - c[1,0] - 2 DELTA + 200 eta[2,1,0] <= 200
+ PMt[1,1]: c[0,1] - c[1,1] - 10 delt[1] + 10 DELTA + 200 eta[2,1,1] <= 190
  DLt[0]: delt[0] + eta[3,0,0] <= 1
  DLt[1]: delt[1] + eta[3,0,1] <= 1
  DUt[0]: delt[0] - eta[3,1,0] >= 0

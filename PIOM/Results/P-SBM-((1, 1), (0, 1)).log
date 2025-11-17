@@ -1,25 +1,30 @@
 
-Gurobi 12.0.3 (win64) logging started Mon Nov 10 10:57:02 2025
+Gurobi 13.0.0 (linux64) logging started Mon Nov 17 15:09:50 2025
 
 Set parameter LogFile to value "Results/P-SBM-((1, 1), (0, 1)).log"
 Set parameter NonConvex to value 2
 Set parameter DisplayInterval to value 60
+Set parameter NumericFocus to value 3
 Set parameter IntegralityFocus to value 1
-Set parameter MIPGapAbs to value 2e-05
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter MIPGapAbs to value 1e-06
 Set parameter MIPFocus to value 3
 Set parameter Heuristics to value 0
 Set parameter RINS to value 0
 Set parameter ImproveStartTime to value 10000000000
 Set parameter Presolve to value 2
 Set parameter Aggregate to value 2
-Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Debian GNU/Linux 12 (bookworm)")
 
-CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
-Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
 
 Non-default parameters:
-TimeLimit  360
-MIPGapAbs  2e-05
+TimeLimit  180
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGapAbs  1e-06
 Heuristics  0
 IntegralityFocus  1
 MIPFocus  3
@@ -27,11 +32,13 @@ RINS  0
 Aggregate  2
 DisplayInterval  60
 NonConvex  2
+NumericFocus  3
 Presolve  2
 ImproveStartTime  10000000000
 
-Optimize a model with 85 rows, 42 columns and 421 nonzeros
+Optimize a model with 85 rows, 42 columns and 421 nonzeros (Max)
 Model fingerprint: 0x687e322b
+Model has 3 linear objective coefficients
 Model has 24 quadratic constraints
 Variable types: 22 continuous, 20 integer (20 binary)
 Coefficient statistics:
@@ -43,51 +50,42 @@ Coefficient statistics:
   RHS range        [1e+00, 7e+00]
   QRHS range       [2e+01, 2e+01]
 Presolve removed 25 rows and 0 columns
-Presolve time: 0.00s
-Presolved: 212 rows, 75 columns, 817 nonzeros
+Presolve time: 0.01s
+Presolved: 212 rows, 75 columns, 781 nonzeros
 Presolved model has 32 bilinear constraint(s)
+Warning: Model contains variables with very large bounds participating
+         in product terms.
+         Presolve was not able to compute smaller bounds for these variables.
+         Consider bounding these variables or reformulating the model.
 
-Solving non-convex MIQCP
+
+Solving non-convex MIQCP to global optimality
 
 Variable types: 55 continuous, 20 integer (20 binary)
 Root relaxation presolve removed 21 rows and 2 columns
 Root relaxation presolved: 191 rows, 73 columns, 796 nonzeros
 
 
-Root relaxation: objective 3.000000e+00, 47 iterations, 0.00 seconds (0.00 work units)
+Root relaxation: objective 3.000000e+00, 54 iterations, 0.00 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-     0     0    3.00000    0   10          -    3.00000      -     -    0s
-     0     0    3.00000    0    5          -    3.00000      -     -    0s
-     0     0    3.00000    0   14          -    3.00000      -     -    0s
-     0     0    3.00000    0    1          -    3.00000      -     -    0s
-     0     0    3.00000    0    1          -    3.00000      -     -    0s
-     0     2    3.00000    0    1          -    3.00000      -     -    0s
-*  298   302              10      -0.0000000    2.95000      -  11.6    0s
-*40603  6273              22       0.0000012    1.54895      -  13.0    5s
-*40838  6269              27       0.0000012    1.54281      -  13.0    5s
-*41515  6267              29       0.0000015    1.54101      -  13.0    5s
-*47460  4804              27       0.0000017    1.36668      -  13.1    6s
-*48968  4413              24       0.0000033    1.29964      -  13.1    6s
-*61081  1096              27       0.0000035    0.76577      -  13.1    8s
-*142392  5581              86       0.0000314    0.00004  14.7%  12.2   21s
+     0     0    3.00000    0   27          -    3.00000      -     -    0s
+     0     2    3.00000    0   27          -    3.00000      -     -    0s
+*  398   351              12      -0.0000000    3.00000      -  10.9    0s
 
 Cutting planes:
-  Gomory: 3
-  Lift-and-project: 2
-  MIR: 17
-  Flow cover: 55
-  Inf proof: 24
-  RLT: 212
-  Relax-and-lift: 30
+  Cover: 1
+  MIR: 2
+  Inf proof: 26
+  RLT: 134
+  Relax-and-lift: 3
 
-Explored 143050 nodes (1740188 simplex iterations) in 21.97 seconds (4.98 work units)
-Thread count was 20 (of 20 available processors)
+Explored 124170 nodes (1525427 simplex iterations) in 23.11 seconds (4.31 work units)
+Thread count was 32 (of 32 available processors)
 
-Solution count 9: 3.13645e-05 3.13645e-05 3.46531e-06 ... -0
+Solution count 1: -0 
 
 Optimal solution found (tolerance 1.00e-04)
-Warning: max constraint violation (7.8411e-06) exceeds tolerance
-Best objective 3.136454630104e-05, best bound 3.598284326957e-05, gap 14.7246%
+Best objective -0.000000000000e+00, best bound 8.734609494173e-07, gap -

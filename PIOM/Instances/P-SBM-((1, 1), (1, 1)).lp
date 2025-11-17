@@ -1,6 +1,6 @@
 \ Model P-SBM-((1, 1), (1, 1))
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-\ Signature: 0x75e440b845309b32
+\ Signature: 0x75e440b845310cb9
 Maximize
   phi[0] + phi[1] + phi[2]
 Subject To

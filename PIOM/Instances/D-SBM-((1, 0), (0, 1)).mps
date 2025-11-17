@@ -1,4 +1,4 @@
-* Signature: 0x28c3a39a8c273744
+* Signature: 0x695245b68714df8b
 NAME D-SBM-((1, 0), (0, 1))
 OBJSENSE MAX
 ROWS
@@ -117,68 +117,72 @@ COLUMNS
     c[1,1]    UBt[1,1]  1
     c[1,1]    PMt[0,1]  1
     c[1,1]    PMt[1,1]  -1
-    delt[0]   LB[0,0]   1
-    delt[0]   UB[0,0]   -5.3174264533435451e+00
-    delt[0]   PM[0,0]   6.3174264533435451e+00
-    delt[0]   PM[0,1]   -1
+    delt[0]   LB[0,0]   4.8236195758646332e+00
+    delt[0]   UB[0,0]   -5.2299085017796330e+00
+    delt[0]   UB[0,1]   9
+    delt[0]   PM[0,0]   1.0053528077644266e+01
+    delt[0]   PM[0,1]   -10
     delt[0]   DL[0]     1
     delt[0]   DU[0]     1
     delt[0]   MC[0]     1
     delt[0]   MC[2]     1
-    delt[0]   LBt[0,0]  1
-    delt[0]   UBt[0,0]  -5.3174264533435451e+00
-    delt[0]   PMt[0,0]  6.3174264533435451e+00
-    delt[0]   PMt[0,1]  -1
+    delt[0]   LBt[0,0]  4.8236195758646332e+00
+    delt[0]   UBt[0,0]  -5.2299085017796330e+00
+    delt[0]   UBt[0,1]  9
+    delt[0]   PMt[0,0]  1.0053528077644266e+01
+    delt[0]   PMt[0,1]  -10
     delt[0]   DLt[0]    1
     delt[0]   DUt[0]    1
     delt[0]   MCt[0]    1
     delt[0]   MCt[2]    1
     delt[0]   Obj1[0]   -2
     delt[0]   Obj2[0]   2
-    delt[1]   LB[0,0]   1
-    delt[1]   LB[1,1]   -1
-    delt[1]   UB[0,0]   -5.3174264533435451e+00
+    delt[1]   LB[0,0]   4.8236195758646332e+00
+    delt[1]   LB[1,1]   -10
+    delt[1]   UB[0,0]   -5.2299085017796330e+00
     delt[1]   UB[1,1]   1
-    delt[1]   PM[0,0]   6.3174264533435451e+00
-    delt[1]   PM[1,1]   -2
+    delt[1]   PM[0,0]   1.0053528077644266e+01
+    delt[1]   PM[1,1]   -11
     delt[1]   DL[1]     1
     delt[1]   DU[1]     1
     delt[1]   MC[1]     1
     delt[1]   MC[2]     1
-    delt[1]   LBt[0,0]  1
-    delt[1]   LBt[1,1]  -1
-    delt[1]   UBt[0,0]  -5.3174264533435451e+00
+    delt[1]   LBt[0,0]  4.8236195758646332e+00
+    delt[1]   LBt[1,1]  -10
+    delt[1]   UBt[0,0]  -5.2299085017796330e+00
     delt[1]   UBt[1,1]  1
-    delt[1]   PMt[0,0]  6.3174264533435451e+00
-    delt[1]   PMt[1,1]  -2
+    delt[1]   PMt[0,0]  1.0053528077644266e+01
+    delt[1]   PMt[1,1]  -11
     delt[1]   DLt[1]    1
     delt[1]   DUt[1]    1
     delt[1]   MCt[1]    1
     delt[1]   MCt[2]    1
     delt[1]   Obj1[1]   -2
     delt[1]   Obj2[1]   2
-    DELTA     LB[0,0]   -1
-    DELTA     LB[1,0]   -4.3174264533435451e+00
-    DELTA     LB[1,1]   1
-    DELTA     UB[0,0]   5.3174264533435451e+00
+    DELTA     LB[0,0]   -4.8236195758646332e+00
+    DELTA     LB[1,0]   -4.0628892591499977e-01
+    DELTA     LB[1,1]   10
+    DELTA     UB[0,0]   5.2299085017796330e+00
+    DELTA     UB[0,1]   -9
     DELTA     UB[1,1]   -1
-    DELTA     PM[0,0]   -6.3174264533435451e+00
-    DELTA     PM[0,1]   1
-    DELTA     PM[1,0]   -5.3174264533435442e+00
-    DELTA     PM[1,1]   2
+    DELTA     PM[0,0]   -1.0053528077644266e+01
+    DELTA     PM[0,1]   10
+    DELTA     PM[1,0]   -5.2299085017796330e+00
+    DELTA     PM[1,1]   11
     DELTA     MC[0]     -1
     DELTA     MC[1]     -1
     DELTA     MC[2]     -1
     DELTA     MC[3]     1
-    DELTA     LBt[0,0]  -1
-    DELTA     LBt[1,0]  -4.3174264533435451e+00
-    DELTA     LBt[1,1]  1
-    DELTA     UBt[0,0]  5.3174264533435451e+00
+    DELTA     LBt[0,0]  -4.8236195758646332e+00
+    DELTA     LBt[1,0]  -4.0628892591499977e-01
+    DELTA     LBt[1,1]  10
+    DELTA     UBt[0,0]  5.2299085017796330e+00
+    DELTA     UBt[0,1]  -9
     DELTA     UBt[1,1]  -1
-    DELTA     PMt[0,0]  -6.3174264533435451e+00
-    DELTA     PMt[0,1]  1
-    DELTA     PMt[1,0]  -5.3174264533435442e+00
-    DELTA     PMt[1,1]  2
+    DELTA     PMt[0,0]  -1.0053528077644266e+01
+    DELTA     PMt[0,1]  10
+    DELTA     PMt[1,0]  -5.2299085017796330e+00
+    DELTA     PMt[1,1]  11
     DELTA     MCt[0]    -1
     DELTA     MCt[1]    -1
     DELTA     MCt[2]    -1
@@ -439,31 +443,32 @@ COLUMNS
     phi[2]    Obj3      1
     phi[2]    Obj4      1
 RHS
-    RHS1      LB[0,0]   6.2266517226236271e+00
-    RHS1      LB[1,0]   4.6825735466564549e+00
-    RHS1      UB[0,0]   4.6825735466564549e+00
-    RHS1      UB[0,1]   1
-    RHS1      UB[1,0]   6.2266517226236271e+00
-    RHS1      UB[1,1]   1
-    RHS1      PM[0,0]   1.5440781759671722e+00
+    RHS1      LB[0,0]   10
+    RHS1      LB[0,1]   9
+    RHS1      LB[1,0]   4.7700914982203670e+00
+    RHS1      UB[0,0]   4.7700914982203670e+00
+    RHS1      UB[0,1]   10
+    RHS1      UB[1,0]   10
+    RHS1      UB[1,1]   10
+    RHS1      PM[0,0]   5.2299085017796330e+00
     RHS1      PM[0,1]   -1
-    RHS1      PM[1,0]   -1.5440781759671722e+00
-    RHS1      PM[1,1]   -1
+    RHS1      PM[1,0]   -5.2299085017796330e+00
+    RHS1      PM[1,1]   -10
     RHS1      DU[0]     1
     RHS1      DU[1]     1
     RHS1      MC[2]     1
-    RHS1      LBt[0,0]  2.0622665172262361e+02
-    RHS1      LBt[0,1]  200
-    RHS1      LBt[1,0]  2.0468257354665644e+02
+    RHS1      LBt[0,0]  210
+    RHS1      LBt[0,1]  209
+    RHS1      LBt[1,0]  2.0477009149822038e+02
     RHS1      LBt[1,1]  200
-    RHS1      UBt[0,0]  -1.9531742645334356e+02
-    RHS1      UBt[0,1]  -199
-    RHS1      UBt[1,0]  -1.9377334827737639e+02
-    RHS1      UBt[1,1]  -199
-    RHS1      PMt[0,0]  2.0154407817596717e+02
+    RHS1      UBt[0,0]  -1.9522990850177962e+02
+    RHS1      UBt[0,1]  -190
+    RHS1      UBt[1,0]  -190
+    RHS1      UBt[1,1]  -190
+    RHS1      PMt[0,0]  2.0522990850177962e+02
     RHS1      PMt[0,1]  199
-    RHS1      PMt[1,0]  1.9845592182403283e+02
-    RHS1      PMt[1,1]  199
+    RHS1      PMt[1,0]  1.9477009149822038e+02
+    RHS1      PMt[1,1]  190
     RHS1      DLt[0]    1
     RHS1      DLt[1]    1
     RHS1      MCt[0]    1

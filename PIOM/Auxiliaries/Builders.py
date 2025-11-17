@@ -779,14 +779,15 @@ def BuildPIOM_RU(
     log_path = f'Results/{name}.log'
     # Erase (truncate) the old log file if it exists
     with open(log_path, 'w'):
-        pass  
+        pass
     m.setParam('LogFile', log_path)
     m.setParam('NonConvex', 2)
     m.setParam('DisplayInterval', 60)
-    #m.setParam('NumericFocus', 3)
+    m.setParam('NumericFocus', 3)
     m.setParam('IntegralityFocus', 1)
-    #m.setParam('FeasibilityTol', 1e-9)
-    #m.setParam('IntFeasTol', 1e-5)
+    m.setParam('FeasibilityTol', 1e-9)
+    m.setParam('IntFeasTol', 1e-9)
+    m.setParam('MIPGapAbs', 1e-9)
     
     m.setParam('MIPFocus', 3)
     m.setParam('Heuristics', 0)
@@ -1262,10 +1263,11 @@ def BuildPIOM_HU(
     m.setParam('LogFile', log_path)
     m.setParam('NonConvex', 2)
     m.setParam('DisplayInterval', 60)
-    #m.setParam('NumericFocus', 3)
+    m.setParam('NumericFocus', 3)
     m.setParam('IntegralityFocus', 1)
-    #m.setParam('FeasibilityTol', 1e-9)
-    #m.setParam('IntFeasTol', 1e-5)
+    m.setParam('FeasibilityTol', 1e-9)
+    m.setParam('IntFeasTol', 1e-9)
+    m.setParam('MIPGapAbs', 1e-9)
     
     m.setParam('MIPFocus', 3)
     m.setParam('Heuristics', 0)
@@ -1476,10 +1478,11 @@ def BuildPIOM_SBL(
     m.setParam('LogFile', log_path)
     m.setParam('NonConvex', 2)
     m.setParam('DisplayInterval', 60)
-    #m.setParam('NumericFocus', 3)
+    m.setParam('NumericFocus', 3)
     m.setParam('IntegralityFocus', 1)
-    #m.setParam('FeasibilityTol', 1e-9)
-    #m.setParam('IntFeasTol', 1e-5)
+    m.setParam('FeasibilityTol', 1e-9)
+    m.setParam('IntFeasTol', 1e-9)
+    m.setParam('MIPGapAbs', 1e-9)
     
     m.setParam('MIPFocus', 3)
     m.setParam('Heuristics', 0)
@@ -1747,11 +1750,11 @@ def BuildPIOM_SBM(
     m.setParam('LogFile', log_path)
     m.setParam('NonConvex', 2)
     m.setParam('DisplayInterval', 60)
-    #m.setParam('NumericFocus', 3)
+    m.setParam('NumericFocus', 3)
     m.setParam('IntegralityFocus', 1)
-    m.setParam('MIPGapAbs', 2e-5)
-    #m.setParam('FeasibilityTol', 1e-9)
-    #m.setParam('IntFeasTol', 1e-5)
+    m.setParam('FeasibilityTol', 1e-9)
+    m.setParam('IntFeasTol', 1e-9)
+    m.setParam('MIPGapAbs', 1e-6)
     
     m.setParam('MIPFocus', 3)
     m.setParam('Heuristics', 0)

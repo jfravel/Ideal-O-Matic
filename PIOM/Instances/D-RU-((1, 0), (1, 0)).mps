@@ -1,4 +1,4 @@
-* Signature: 0xc3e7a92abd5a0c40
+* Signature: 0xc3e7a92abd5a7dc7
 NAME D-RU-((1, 0), (1, 0))
 OBJSENSE MAX
 ROWS
@@ -195,15 +195,15 @@ COLUMNS
     c[1,1]    c26       1
     c[1,1]    c28       -1
     c[1,1]    c30       1
-    delt[0,0]  c0        -10
-    delt[0,0]  c4        4.3173768196798319e+00
-    delt[0,0]  c8        1.3317376819679833e+01
+    delt[0,0]  c0        -2
+    delt[0,0]  c4        2
+    delt[0,0]  c8        3
     delt[0,0]  c12       1
     delt[0,0]  c16       1
     delt[0,0]  c18       1
-    delt[0,0]  c19       -10
-    delt[0,0]  c23       4.3173768196798319e+00
-    delt[0,0]  c27       1.3317376819679833e+01
+    delt[0,0]  c19       -2
+    delt[0,0]  c23       2
+    delt[0,0]  c27       3
     delt[0,0]  c31       1
     delt[0,0]  c35       1
     delt[0,0]  c37       1
@@ -223,17 +223,17 @@ COLUMNS
     delt[0,1]  c37       1
     delt[0,1]  c152      -2
     delt[0,1]  c156      2
-    delt[1,0]  c2        -3.3173768196798319e+00
-    delt[1,0]  c6        9
+    delt[1,0]  c2        -1
+    delt[1,0]  c6        1
     delt[1,0]  c8        -1
-    delt[1,0]  c10       1.3317376819679833e+01
+    delt[1,0]  c10       3
     delt[1,0]  c14       1
     delt[1,0]  c16       1
     delt[1,0]  c18       1
-    delt[1,0]  c21       -3.3173768196798319e+00
-    delt[1,0]  c25       9
+    delt[1,0]  c21       -1
+    delt[1,0]  c25       1
     delt[1,0]  c27       -1
-    delt[1,0]  c29       1.3317376819679833e+01
+    delt[1,0]  c29       3
     delt[1,0]  c33       1
     delt[1,0]  c35       1
     delt[1,0]  c37       1
@@ -256,7 +256,7 @@ COLUMNS
     delt[1,1]  c154      -2
     delt[1,1]  c158      2
     MARKER    'MARKER'                 'INTORG'
-    eta[0,0,0]  c19       100
+    eta[0,0,0]  c19       30
     eta[0,0,0]  c38       1
     eta[0,0,0]  c41       1
     eta[0,0,0]  c45       1
@@ -286,7 +286,7 @@ COLUMNS
     eta[0,0,0]  c135      1
     eta[0,0,0]  c139      1
     eta[0,0,0]  c149      1
-    eta[0,0,1]  c20       100
+    eta[0,0,1]  c20       30
     eta[0,0,1]  c38       1
     eta[0,0,1]  c42       1
     eta[0,0,1]  c46       1
@@ -316,7 +316,7 @@ COLUMNS
     eta[0,0,1]  c136      1
     eta[0,0,1]  c140      1
     eta[0,0,1]  c150      1
-    eta[0,1,0]  c21       100
+    eta[0,1,0]  c21       30
     eta[0,1,0]  c38       1
     eta[0,1,0]  c43       1
     eta[0,1,0]  c45       1
@@ -346,7 +346,7 @@ COLUMNS
     eta[0,1,0]  c139      1
     eta[0,1,0]  c141      1
     eta[0,1,0]  c149      1
-    eta[0,1,1]  c22       100
+    eta[0,1,1]  c22       30
     eta[0,1,1]  c38       1
     eta[0,1,1]  c44       1
     eta[0,1,1]  c46       1
@@ -376,7 +376,7 @@ COLUMNS
     eta[0,1,1]  c140      1
     eta[0,1,1]  c142      1
     eta[0,1,1]  c150      1
-    eta[1,0,0]  c23       -100
+    eta[1,0,0]  c23       -30
     eta[1,0,0]  c38       1
     eta[1,0,0]  c41       1
     eta[1,0,0]  c45       1
@@ -407,7 +407,7 @@ COLUMNS
     eta[1,0,0]  c139      1
     eta[1,0,0]  c145      1
     eta[1,0,0]  c149      1
-    eta[1,0,1]  c24       -100
+    eta[1,0,1]  c24       -30
     eta[1,0,1]  c38       1
     eta[1,0,1]  c42       1
     eta[1,0,1]  c46       1
@@ -438,7 +438,7 @@ COLUMNS
     eta[1,0,1]  c140      1
     eta[1,0,1]  c146      1
     eta[1,0,1]  c150      1
-    eta[1,1,0]  c25       -100
+    eta[1,1,0]  c25       -30
     eta[1,1,0]  c38       1
     eta[1,1,0]  c43       1
     eta[1,1,0]  c45       1
@@ -469,7 +469,7 @@ COLUMNS
     eta[1,1,0]  c141      1
     eta[1,1,0]  c147      1
     eta[1,1,0]  c149      1
-    eta[1,1,1]  c26       -100
+    eta[1,1,1]  c26       -30
     eta[1,1,1]  c38       1
     eta[1,1,1]  c44       1
     eta[1,1,1]  c46       1
@@ -500,7 +500,7 @@ COLUMNS
     eta[1,1,1]  c142      1
     eta[1,1,1]  c148      1
     eta[1,1,1]  c150      1
-    eta[2,0,0]  c27       -100
+    eta[2,0,0]  c27       -30
     eta[2,0,0]  c38       1
     eta[2,0,0]  c41       1
     eta[2,0,0]  c47       1
@@ -529,7 +529,7 @@ COLUMNS
     eta[2,0,0]  c139      1
     eta[2,0,0]  c143      1
     eta[2,0,0]  c149      1
-    eta[2,0,1]  c28       -100
+    eta[2,0,1]  c28       -30
     eta[2,0,1]  c38       1
     eta[2,0,1]  c42       1
     eta[2,0,1]  c48       1
@@ -558,7 +558,7 @@ COLUMNS
     eta[2,0,1]  c140      1
     eta[2,0,1]  c144      1
     eta[2,0,1]  c150      1
-    eta[2,1,0]  c29       -100
+    eta[2,1,0]  c29       -30
     eta[2,1,0]  c38       1
     eta[2,1,0]  c43       1
     eta[2,1,0]  c47       1
@@ -591,7 +591,7 @@ COLUMNS
     eta[2,1,0]  c141      1
     eta[2,1,0]  c143      1
     eta[2,1,0]  c149      1
-    eta[2,1,1]  c30       -100
+    eta[2,1,1]  c30       -30
     eta[2,1,1]  c38       1
     eta[2,1,1]  c44       1
     eta[2,1,1]  c48       1
@@ -1050,31 +1050,29 @@ COLUMNS
     phi[1,1]  c154      1
     phi[1,1]  c158      1
 RHS
-    RHS1      c1        8
-    RHS1      c2        5.6826231803201681e+00
-    RHS1      c3        7
-    RHS1      c4        10
-    RHS1      c5        9
-    RHS1      c6        10
-    RHS1      c7        10
-    RHS1      c8        9
-    RHS1      c10       4.3173768196798319e+00
+    RHS1      c0        1
+    RHS1      c1        1
+    RHS1      c4        2
+    RHS1      c5        2
+    RHS1      c6        3
+    RHS1      c7        3
+    RHS1      c10       3
     RHS1      c11       3
     RHS1      c16       1
     RHS1      c17       1
     RHS1      c18       1
-    RHS1      c19       100
-    RHS1      c20       108
-    RHS1      c21       1.0568262318032016e+02
-    RHS1      c22       107
-    RHS1      c23       -90
-    RHS1      c24       -91
-    RHS1      c25       -90
-    RHS1      c26       -90
-    RHS1      c27       -91
-    RHS1      c28       -100
-    RHS1      c29       -9.5682623180320164e+01
-    RHS1      c30       -97
+    RHS1      c19       31
+    RHS1      c20       31
+    RHS1      c21       30
+    RHS1      c22       30
+    RHS1      c23       -28
+    RHS1      c24       -28
+    RHS1      c25       -27
+    RHS1      c26       -27
+    RHS1      c27       -30
+    RHS1      c28       -30
+    RHS1      c29       -27
+    RHS1      c30       -27
     RHS1      c31       1
     RHS1      c32       1
     RHS1      c33       1

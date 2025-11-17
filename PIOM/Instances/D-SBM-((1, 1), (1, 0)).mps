@@ -1,4 +1,4 @@
-* Signature: 0xf2bd4e640f86accc
+* Signature: 0xb22eac481499e793
 NAME D-SBM-((1, 1), (1, 0))
 OBJSENSE MAX
 ROWS
@@ -137,78 +137,74 @@ COLUMNS
     c[1,1]    UBt[1,1]  1
     c[1,1]    PMt[0,1]  1
     c[1,1]    PMt[1,1]  -1
-    delt[0]   LB[0,0]   7.6547891078389574e+00
-    delt[0]   LB[0,1]   -3.5157274835388890e+00
-    delt[0]   UB[0,0]   -2.3452108921610426e+00
-    delt[0]   UB[0,1]   1.0654773438316774e+00
-    delt[0]   PM[0,0]   10
-    delt[0]   PM[0,1]   -4.5812048273705663e+00
+    delt[0]   LB[0,0]   1
+    delt[0]   LB[0,1]   -10
+    delt[0]   UB[0,0]   -1
+    delt[0]   UB[0,1]   1
+    delt[0]   PM[0,0]   2
+    delt[0]   PM[0,1]   -11
     delt[0]   DL[0]     1
     delt[0]   DU[0]     1
     delt[0]   MC[0]     1
     delt[0]   MC[2]     1
-    delt[0]   LBt[0,0]  7.6547891078389574e+00
-    delt[0]   LBt[0,1]  -3.5157274835388890e+00
-    delt[0]   UBt[0,0]  -2.3452108921610426e+00
-    delt[0]   UBt[0,1]  1.0654773438316774e+00
-    delt[0]   PMt[0,0]  10
-    delt[0]   PMt[0,1]  -4.5812048273705663e+00
+    delt[0]   LBt[0,0]  1
+    delt[0]   LBt[0,1]  -10
+    delt[0]   UBt[0,0]  -1
+    delt[0]   UBt[0,1]  1
+    delt[0]   PMt[0,0]  2
+    delt[0]   PMt[0,1]  -11
     delt[0]   DLt[0]    1
     delt[0]   DUt[0]    1
     delt[0]   MCt[0]    1
     delt[0]   MCt[2]    1
     delt[0]   Obj1[0]   -2
     delt[0]   Obj2[0]   2
-    delt[1]   LB[0,0]   7.6547891078389574e+00
-    delt[1]   LB[1,1]   -6.5477343831678247e-02
-    delt[1]   UB[0,0]   -2.3452108921610426e+00
-    delt[1]   UB[1,1]   2.5157274835388890e+00
-    delt[1]   PM[0,0]   10
-    delt[1]   PM[1,1]   -3.5812048273705663e+00
+    delt[1]   LB[0,0]   1
+    delt[1]   UB[0,0]   -1
+    delt[1]   UB[1,1]   9
+    delt[1]   PM[0,0]   2
+    delt[1]   PM[1,1]   -10
     delt[1]   DL[1]     1
     delt[1]   DU[1]     1
     delt[1]   MC[1]     1
     delt[1]   MC[2]     1
-    delt[1]   LBt[0,0]  7.6547891078389574e+00
-    delt[1]   LBt[1,1]  -6.5477343831678247e-02
-    delt[1]   UBt[0,0]  -2.3452108921610426e+00
-    delt[1]   UBt[1,1]  2.5157274835388890e+00
-    delt[1]   PMt[0,0]  10
-    delt[1]   PMt[1,1]  -3.5812048273705663e+00
+    delt[1]   LBt[0,0]  1
+    delt[1]   UBt[0,0]  -1
+    delt[1]   UBt[1,1]  9
+    delt[1]   PMt[0,0]  2
+    delt[1]   PMt[1,1]  -10
     delt[1]   DLt[1]    1
     delt[1]   DUt[1]    1
     delt[1]   MCt[1]    1
     delt[1]   MCt[2]    1
     delt[1]   Obj1[1]   -2
     delt[1]   Obj2[1]   2
-    DELTA     LB[0,0]   -7.6547891078389574e+00
-    DELTA     LB[0,1]   3.5157274835388890e+00
-    DELTA     LB[1,0]   -2.3452108921610426e+00
-    DELTA     LB[1,1]   6.5477343831678247e-02
-    DELTA     UB[0,0]   2.3452108921610426e+00
-    DELTA     UB[0,1]   -1.0654773438316774e+00
-    DELTA     UB[1,0]   7.6547891078389574e+00
-    DELTA     UB[1,1]   -2.5157274835388890e+00
-    DELTA     PM[0,0]   -10
-    DELTA     PM[0,1]   4.5812048273705663e+00
-    DELTA     PM[1,0]   -10
-    DELTA     PM[1,1]   3.5812048273705663e+00
+    DELTA     LB[0,0]   -1
+    DELTA     LB[0,1]   10
+    DELTA     LB[1,0]   -1
+    DELTA     UB[0,0]   1
+    DELTA     UB[0,1]   -1
+    DELTA     UB[1,0]   1
+    DELTA     UB[1,1]   -9
+    DELTA     PM[0,0]   -2
+    DELTA     PM[0,1]   11
+    DELTA     PM[1,0]   -2
+    DELTA     PM[1,1]   10
     DELTA     MC[0]     -1
     DELTA     MC[1]     -1
     DELTA     MC[2]     -1
     DELTA     MC[3]     1
-    DELTA     LBt[0,0]  -7.6547891078389574e+00
-    DELTA     LBt[0,1]  3.5157274835388890e+00
-    DELTA     LBt[1,0]  -2.3452108921610426e+00
-    DELTA     LBt[1,1]  6.5477343831678247e-02
-    DELTA     UBt[0,0]  2.3452108921610426e+00
-    DELTA     UBt[0,1]  -1.0654773438316774e+00
-    DELTA     UBt[1,0]  7.6547891078389574e+00
-    DELTA     UBt[1,1]  -2.5157274835388890e+00
-    DELTA     PMt[0,0]  -10
-    DELTA     PMt[0,1]  4.5812048273705663e+00
-    DELTA     PMt[1,0]  -10
-    DELTA     PMt[1,1]  3.5812048273705663e+00
+    DELTA     LBt[0,0]  -1
+    DELTA     LBt[0,1]  10
+    DELTA     LBt[1,0]  -1
+    DELTA     UBt[0,0]  1
+    DELTA     UBt[0,1]  -1
+    DELTA     UBt[1,0]  1
+    DELTA     UBt[1,1]  -9
+    DELTA     PMt[0,0]  -2
+    DELTA     PMt[0,1]  11
+    DELTA     PMt[1,0]  -2
+    DELTA     PMt[1,1]  10
     DELTA     MCt[0]    -1
     DELTA     MCt[1]    -1
     DELTA     MCt[2]    -1
@@ -604,31 +600,30 @@ COLUMNS
     phi[2]    Obj3      1
     phi[2]    Obj4      1
 RHS
-    RHS1      LB[0,0]   7.6547891078389574e+00
-    RHS1      LB[0,1]   3.6168212432332982e+00
-    RHS1      LB[1,0]   7.6547891078389574e+00
-    RHS1      LB[1,1]   5.6442491297124455e+00
-    RHS1      UB[0,0]   7.6547891078389574e+00
-    RHS1      UB[0,1]   6.7097264735441229e+00
-    RHS1      UB[1,0]   7.6547891078389574e+00
-    RHS1      UB[1,1]   7.1325487267721863e+00
-    RHS1      PM[0,1]   -3.0929052303108251e+00
-    RHS1      PM[1,1]   -1.4882995970597408e+00
+    RHS1      LB[0,0]   1
+    RHS1      LB[1,1]   9
+    RHS1      UB[0,1]   10
+    RHS1      UB[1,0]   1
+    RHS1      UB[1,1]   10
+    RHS1      PM[0,0]   1
+    RHS1      PM[0,1]   -10
+    RHS1      PM[1,0]   -1
+    RHS1      PM[1,1]   -1
     RHS1      DU[0]     1
     RHS1      DU[1]     1
     RHS1      MC[2]     1
-    RHS1      LBt[0,0]  2.0765478910783895e+02
-    RHS1      LBt[0,1]  2.0361682124323329e+02
-    RHS1      LBt[1,0]  2.0765478910783895e+02
-    RHS1      LBt[1,1]  2.0564424912971245e+02
-    RHS1      UBt[0,0]  -1.9234521089216105e+02
-    RHS1      UBt[0,1]  -1.9329027352645588e+02
-    RHS1      UBt[1,0]  -1.9234521089216105e+02
-    RHS1      UBt[1,1]  -1.9286745127322780e+02
-    RHS1      PMt[0,0]  200
-    RHS1      PMt[0,1]  1.9690709476968917e+02
-    RHS1      PMt[1,0]  200
-    RHS1      PMt[1,1]  1.9851170040294025e+02
+    RHS1      LBt[0,0]  201
+    RHS1      LBt[0,1]  200
+    RHS1      LBt[1,0]  200
+    RHS1      LBt[1,1]  209
+    RHS1      UBt[0,0]  -200
+    RHS1      UBt[0,1]  -190
+    RHS1      UBt[1,0]  -199
+    RHS1      UBt[1,1]  -190
+    RHS1      PMt[0,0]  201
+    RHS1      PMt[0,1]  190
+    RHS1      PMt[1,0]  199
+    RHS1      PMt[1,1]  199
     RHS1      DLt[0]    1
     RHS1      DLt[1]    1
     RHS1      MCt[0]    1
