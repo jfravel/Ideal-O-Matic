@@ -1,53 +1,55 @@
 
-Gurobi 12.0.3 (win64) logging started Tue Oct 28 17:31:08 2025
+Gurobi 13.0.0 (linux64) logging started Mon Nov 17 14:21:18 2025
 
 Set parameter LogFile to value "Results/D-SU-((1, 0), (0, 0)).log"
 Set parameter DisplayInterval to value 60
 Set parameter NumericFocus to value 3
 Set parameter IntegralityFocus to value 1
 Set parameter FeasibilityTol to value 1e-09
-Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Debian GNU/Linux 12 (bookworm)")
 
-CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
-Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
 
 Non-default parameters:
+TimeLimit  360
 FeasibilityTol  1e-09
 IntegralityFocus  1
 DisplayInterval  60
 NumericFocus  3
 
-Optimize a model with 53 rows, 28 columns and 165 nonzeros
-Model fingerprint: 0xfdec69be
+Optimize a model with 53 rows, 28 columns and 173 nonzeros (Max)
+Model fingerprint: 0xde5771b0
+Model has 4 linear objective coefficients
 Variable types: 12 continuous, 16 integer (16 binary)
 Coefficient statistics:
-  Matrix range     [1e-06, 6e+01]
+  Matrix range     [6e-01, 1e+02]
   Objective range  [1e+00, 1e+00]
   Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 6e+01]
+  RHS range        [1e+00, 1e+02]
 Found heuristic solution: objective -0.0000000
-Presolve removed 13 rows and 0 columns
+Presolve removed 9 rows and 0 columns
 Presolve time: 0.00s
-Presolved: 40 rows, 28 columns, 149 nonzeros
+Presolved: 44 rows, 28 columns, 165 nonzeros
 Variable types: 12 continuous, 16 integer (16 binary)
 
-Root relaxation: objective 2.000000e+00, 22 iterations, 0.00 seconds (0.00 work units)
+Root relaxation: objective 2.000000e+00, 23 iterations, 0.00 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-     0     0    2.00000    0    4   -0.00000    2.00000      -     -    0s
-     0     2    2.00000    0    4   -0.00000    2.00000      -     -    0s
-H  231     6                       0.0000000    2.00000      -   3.5    0s
+     0     0    2.00000    0    2   -0.00000    2.00000      -     -    0s
+     0     2    2.00000    0    2   -0.00000    2.00000      -     -    0s
 
 Cutting planes:
-  Cover: 1
-  Implied bound: 1
+  Cover: 4
+  Implied bound: 5
 
-Explored 248 nodes (917 simplex iterations) in 0.03 seconds (0.01 work units)
-Thread count was 20 (of 20 available processors)
+Explored 374 nodes (1362 simplex iterations) in 0.08 seconds (0.01 work units)
+Thread count was 32 (of 32 available processors)
 
-Solution count 3: 1.55642e-09 -0 -0 
+Solution count 1: -0 
+No other solutions better than -0
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%

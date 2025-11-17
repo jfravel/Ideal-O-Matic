@@ -1,15 +1,15 @@
 
-Gurobi 12.0.3 (win64) logging started Tue Oct 28 17:32:04 2025
+Gurobi 12.0.4 (linux64) logging started Tue Oct 28 17:52:19 2025
 
 Set parameter LogFile to value "Results/D-SU-((1, 0), (0, 1)).log"
 Set parameter DisplayInterval to value 60
 Set parameter NumericFocus to value 3
 Set parameter IntegralityFocus to value 1
 Set parameter FeasibilityTol to value 1e-09
-Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+Gurobi Optimizer version 12.0.4 build v12.0.4a2 (linux64 - "Debian GNU/Linux 12 (bookworm)")
 
-CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
-Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
 
 Non-default parameters:
 FeasibilityTol  1e-09
@@ -17,34 +17,35 @@ IntegralityFocus  1
 DisplayInterval  60
 NumericFocus  3
 
-Optimize a model with 60 rows, 28 columns and 210 nonzeros
-Model fingerprint: 0x73370e83
+Optimize a model with 60 rows, 28 columns and 212 nonzeros
+Model fingerprint: 0xd3f4177c
 Variable types: 12 continuous, 16 integer (16 binary)
 Coefficient statistics:
-  Matrix range     [4e-01, 8e+01]
+  Matrix range     [2e-01, 1e+02]
   Objective range  [1e+00, 1e+00]
   Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 8e+01]
+  RHS range        [1e+00, 1e+02]
 Found heuristic solution: objective -0.0000000
-Presolve removed 16 rows and 0 columns
+Presolve removed 14 rows and 0 columns
 Presolve time: 0.00s
-Presolved: 44 rows, 28 columns, 164 nonzeros
+Presolved: 46 rows, 28 columns, 168 nonzeros
 Variable types: 12 continuous, 16 integer (16 binary)
 
-Root relaxation: objective 2.000000e+00, 24 iterations, 0.00 seconds (0.00 work units)
+Root relaxation: objective 2.000000e+00, 27 iterations, 0.00 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-     0     0    2.00000    0    4   -0.00000    2.00000      -     -    0s
-     0     2    2.00000    0    4   -0.00000    2.00000      -     -    0s
+     0     0    2.00000    0    6   -0.00000    2.00000      -     -    0s
+     0     2    2.00000    0    6   -0.00000    2.00000      -     -    0s
 
 Cutting planes:
-  Cover: 2
-  Implied bound: 1
+  Cover: 5
+  Implied bound: 4
+  Inf proof: 1
 
-Explored 528 nodes (1749 simplex iterations) in 0.04 seconds (0.01 work units)
-Thread count was 20 (of 20 available processors)
+Explored 876 nodes (3551 simplex iterations) in 0.07 seconds (0.01 work units)
+Thread count was 32 (of 32 available processors)
 
 Solution count 1: -0 
 No other solutions better than -0
