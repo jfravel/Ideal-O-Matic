@@ -1,5 +1,5 @@
 
-Gurobi 13.0.0 (linux64) logging started Mon Nov 17 14:56:46 2025
+Gurobi 13.0.0 (linux64) logging started Wed Nov 19 13:01:27 2025
 
 Set parameter LogFile to value "Results/P-SBM-((1, 1), (1, 1)).log"
 Set parameter NonConvex to value 2
@@ -8,7 +8,7 @@ Set parameter NumericFocus to value 3
 Set parameter IntegralityFocus to value 1
 Set parameter FeasibilityTol to value 1e-09
 Set parameter IntFeasTol to value 1e-09
-Set parameter MIPGapAbs to value 1e-06
+Set parameter MIPGapAbs to value 1e-09
 Set parameter MIPFocus to value 3
 Set parameter Heuristics to value 0
 Set parameter RINS to value 0
@@ -21,10 +21,10 @@ CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|
 Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
 
 Non-default parameters:
-TimeLimit  180
+TimeLimit  3600
 FeasibilityTol  1e-09
 IntFeasTol  1e-09
-MIPGapAbs  1e-06
+MIPGapAbs  1e-09
 Heuristics  0
 IntegralityFocus  1
 MIPFocus  3
@@ -82,7 +82,7 @@ Cutting planes:
   RLT: 89
   Relax-and-lift: 2
 
-Explored 6642 nodes (58913 simplex iterations) in 0.52 seconds (0.26 work units)
+Explored 6642 nodes (58913 simplex iterations) in 0.54 seconds (0.26 work units)
 Thread count was 32 (of 32 available processors)
 
 Solution count 1: -0 

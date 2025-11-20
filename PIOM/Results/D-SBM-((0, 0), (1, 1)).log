@@ -1,5 +1,5 @@
 
-Gurobi 13.0.0 (linux64) logging started Mon Nov 17 15:09:50 2025
+Gurobi 13.0.0 (linux64) logging started Wed Nov 19 19:01:52 2025
 
 Set parameter LogFile to value "Results/D-SBM-((0, 0), (1, 1)).log"
 Set parameter DisplayInterval to value 60
@@ -12,7 +12,7 @@ CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|
 Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
 
 Non-default parameters:
-TimeLimit  180
+TimeLimit  3600
 FeasibilityTol  1e-09
 IntegralityFocus  1
 DisplayInterval  60
@@ -46,7 +46,7 @@ Cutting planes:
   Cover: 2
   Inf proof: 1
 
-Explored 2129 nodes (6738 simplex iterations) in 0.20 seconds (0.03 work units)
+Explored 2129 nodes (6738 simplex iterations) in 0.17 seconds (0.03 work units)
 Thread count was 32 (of 32 available processors)
 
 Solution count 3: 2e-06 -0 -0 

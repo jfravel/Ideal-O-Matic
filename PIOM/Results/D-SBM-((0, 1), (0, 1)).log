@@ -1,5 +1,5 @@
 
-Gurobi 13.0.0 (linux64) logging started Mon Nov 17 15:09:42 2025
+Gurobi 13.0.0 (linux64) logging started Wed Nov 19 19:01:41 2025
 
 Set parameter LogFile to value "Results/D-SBM-((0, 1), (0, 1)).log"
 Set parameter DisplayInterval to value 60
@@ -12,40 +12,41 @@ CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|
 Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
 
 Non-default parameters:
-TimeLimit  180
+TimeLimit  3600
 FeasibilityTol  1e-09
 IntegralityFocus  1
 DisplayInterval  60
 NumericFocus  3
 
-Optimize a model with 81 rows, 30 columns and 350 nonzeros (Max)
-Model fingerprint: 0x8168f5b6
+Optimize a model with 81 rows, 30 columns and 354 nonzeros (Max)
+Model fingerprint: 0x44dffc09
 Model has 3 linear objective coefficients
 Variable types: 10 continuous, 20 integer (20 binary)
 Coefficient statistics:
-  Matrix range     [1e+00, 2e+02]
+  Matrix range     [2e-01, 2e+02]
   Objective range  [1e+00, 1e+00]
   Bounds range     [1e+00, 1e+00]
   RHS range        [1e+00, 2e+02]
 Found heuristic solution: objective -0.0000000
-Presolve removed 14 rows and 0 columns
+Presolve removed 12 rows and 0 columns
 Presolve time: 0.00s
-Presolved: 67 rows, 30 columns, 330 nonzeros
+Presolved: 69 rows, 30 columns, 336 nonzeros
 Variable types: 10 continuous, 20 integer (20 binary)
 
-Root relaxation: objective 3.000000e+00, 25 iterations, 0.00 seconds (0.00 work units)
+Root relaxation: objective 3.000000e+00, 27 iterations, 0.00 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-     0     0    3.00000    0    3   -0.00000    3.00000      -     -    0s
-     0     2    3.00000    0    3   -0.00000    3.00000      -     -    0s
+     0     0    3.00000    0    5   -0.00000    3.00000      -     -    0s
+     0     2    3.00000    0    5   -0.00000    3.00000      -     -    0s
 
 Cutting planes:
-  Implied bound: 1
-  Inf proof: 4
+  Cover: 1
+  Implied bound: 3
+  Inf proof: 6
 
-Explored 2423 nodes (7640 simplex iterations) in 0.14 seconds (0.03 work units)
+Explored 2876 nodes (9492 simplex iterations) in 0.21 seconds (0.04 work units)
 Thread count was 32 (of 32 available processors)
 
 Solution count 1: -0 

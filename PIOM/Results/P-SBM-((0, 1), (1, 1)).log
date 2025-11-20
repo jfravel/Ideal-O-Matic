@@ -1,5 +1,5 @@
 
-Gurobi 13.0.0 (linux64) logging started Mon Nov 17 15:10:41 2025
+Gurobi 13.0.0 (linux64) logging started Wed Nov 19 19:03:53 2025
 
 Set parameter LogFile to value "Results/P-SBM-((0, 1), (1, 1)).log"
 Set parameter NonConvex to value 2
@@ -8,7 +8,7 @@ Set parameter NumericFocus to value 3
 Set parameter IntegralityFocus to value 1
 Set parameter FeasibilityTol to value 1e-09
 Set parameter IntFeasTol to value 1e-09
-Set parameter MIPGapAbs to value 1e-06
+Set parameter MIPGapAbs to value 1e-09
 Set parameter MIPFocus to value 3
 Set parameter Heuristics to value 0
 Set parameter RINS to value 0
@@ -21,10 +21,10 @@ CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|
 Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
 
 Non-default parameters:
-TimeLimit  180
+TimeLimit  3600
 FeasibilityTol  1e-09
 IntFeasTol  1e-09
-MIPGapAbs  1e-06
+MIPGapAbs  1e-09
 Heuristics  0
 IntegralityFocus  1
 MIPFocus  3
@@ -50,7 +50,7 @@ Coefficient statistics:
   RHS range        [1e+00, 7e+00]
   QRHS range       [2e+01, 2e+01]
 Presolve removed 25 rows and 0 columns
-Presolve time: 0.01s
+Presolve time: 0.00s
 Presolved: 212 rows, 75 columns, 781 nonzeros
 Presolved model has 32 bilinear constraint(s)
 Warning: Model contains variables with very large bounds participating
@@ -74,19 +74,22 @@ Root relaxation: objective 3.000000e+00, 46 iterations, 0.00 seconds (0.00 work 
      0     0    3.00000    0   13          -    3.00000      -     -    0s
      0     2    3.00000    0   13          -    3.00000      -     -    0s
 *   14    14               3      -0.0000000    3.00000      -  15.1    0s
-*300277  3943             126       0.0000000    0.00000      -  15.3   54s
+*300277  3943             126       0.0000000    0.00000      -  15.3   52s
+*333728  5696              93       0.0000000    0.00000      -  15.3   57s
+ 345660  6115    0.00000   96   16    0.00000    0.00000      -  15.2   60s
 
 Cutting planes:
   Cover: 3
   Flow cover: 3
-  Inf proof: 43
+  Inf proof: 44
   RLT: 143
   Relax-and-lift: 6
 
-Explored 307102 nodes (4760369 simplex iterations) in 55.87 seconds (10.59 work units)
+Explored 684630 nodes (8906895 simplex iterations) in 113.43 seconds (25.71 work units)
 Thread count was 32 (of 32 available processors)
 
-Solution count 3: 1.59785e-10 1.26839e-10 -0 
+Solution count 3: 1.14421e-09 1.26839e-10 -0 
+No other solutions better than 1.14421e-09
 
 Optimal solution found (tolerance 1.00e-04)
-Best objective 1.597848520163e-10, best bound 9.842675094946e-07, gap -
+Best objective 1.122796300379e-09, best bound 1.122796300379e-09, gap 0.0000%

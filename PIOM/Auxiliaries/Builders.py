@@ -1754,7 +1754,7 @@ def BuildPIOM_SBM(
     m.setParam('IntegralityFocus', 1)
     m.setParam('FeasibilityTol', 1e-9)
     m.setParam('IntFeasTol', 1e-9)
-    m.setParam('MIPGapAbs', 1e-6)
+    m.setParam('MIPGapAbs', 1e-9)
     
     m.setParam('MIPFocus', 3)
     m.setParam('Heuristics', 0)
