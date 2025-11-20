@@ -1,6 +1,6 @@
 \ Model P-SU-((1, 1), (0, 0))
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-\ Signature: 0x3a5437ea5674f2ee
+\ Signature: 0x3a5437ea56756475
 Maximize
   phi[0,0] + phi[0,1] + phi[1,0] + phi[1,1]
 Subject To

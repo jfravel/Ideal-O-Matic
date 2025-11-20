@@ -1,6 +1,6 @@
 \ Model P-RU-((1, 0), (0, 0))
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-\ Signature: 0x322f7c9f96198ec8
+\ Signature: 0x322f7c9f961a004f
 Maximize
   phi[0,0] + phi[0,1] + phi[1,0] + phi[1,1]
 Subject To
