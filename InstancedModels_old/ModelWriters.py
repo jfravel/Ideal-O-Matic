@@ -42,52 +42,23 @@ def addObjective(m, Objective, Subobjective): #Adds the objective variables and 
             m.setObjective( m._alph[0] * m._alph[1], GRB.MAXIMIZE )
 
 
-def NU_StripPacking(m): #Adds the indicators and constraints called for by NU under the strip packing objective.
-    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  ==  1  for i,j in combinations(m._objects,2) ), name='S1' )
-
-def NUb_StripPacking(m): #"" NU under the strip packing objective with custom branching.
-    dmax = [max([m._objects[i]['dim'][0]  for i in m._objects]), max([m._objects[i]['dim'][1]  for i in m._objects])]
-    clears = {i : [m._objects[i]['clr'][0] + m._objects[i]['clr'][2], m._objects[i]['clr'][1] + m._objects[i]['clr'][3]]  for i in m._objects}
-    cmax = [max([clears[i][0]  for i in m._objects]), max([clears[i][1]  for i in m._objects])]
-    areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
-    priority = { (i,j,s) : min([clears[i][s],clears[j][s]]) + (cmax[s]+1)*(min([m._objects[i]['dim'][s],m._objects[j]['dim'][s]]) + (dmax[s]+1)*min([areas[i],areas[j]]) )  for i,j in permutations(m._objects,2)  for s in [0,1] }
-    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
-    for (i,j,s) in  m._PM.keys():
-        m._delt[i,j,s].setAttr("BranchPriority",priority[i,j,s])
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  ==  1  for i,j in combinations(m._objects,2) ), name='S1' )
-
-def NUsp_StripPacking(m): #"" NU under the strip packing objective with sequence-pair inequalities
-    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  ==  1  for i,j in combinations(m._objects,2) ), name='S1' )
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,k,s] - m._delt[i,k,s]  <=  1  for i,j,k in permutations(m._objects,3)  for s in [0,1] ), name='SeqPair')
-
-def NUspb_StripPacking(m): #"" NU under the strip packing objective with custom branching and sequence-pair inequalities.
-    dmax = [max([m._objects[i]['dim'][0]  for i in m._objects]), max([m._objects[i]['dim'][1]  for i in m._objects])]
-    clears = {i : [m._objects[i]['clr'][0] + m._objects[i]['clr'][2], m._objects[i]['clr'][1] + m._objects[i]['clr'][3]]  for i in m._objects}
-    cmax = [max([clears[i][0]  for i in m._objects]), max([clears[i][1]  for i in m._objects])]
-    areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
-    priority = { (i,j,s) : min([clears[i][s],clears[j][s]]) + (cmax[s]+1)*(min([m._objects[i]['dim'][s],m._objects[j]['dim'][s]]) + (dmax[s]+1)*min([areas[i],areas[j]]) )  for i,j in permutations(m._objects,2)  for s in [0,1] }
-    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
-    for (i,j,s) in  m._PM.keys():
-        m._delt[i,j,s].setAttr("BranchPriority",priority[i,j,s])
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  ==  1  for i,j in combinations(m._objects,2) ), name='S1' )
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,k,s] - m._delt[i,k,s]  <=  1  for i,j,k in permutations(m._objects,3)  for s in [0,1] ), name='SeqPair')
 
 
-
-def SU_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective.
+def SU_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective
     m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
     m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
     m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
     m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  ==  1  for i,j in combinations(m._objects,2) ), name='S1' )
 
-def SUb_StripPacking(m): #"" SU under the strip packing objective with custom branching.
+
+def SUu_StripPacking(m): #Same as above sans the variable bound constraints
+    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
+    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
+    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  ==  1  for i,j in combinations(m._objects,2) ), name='S1' )
+
+
+def SUb_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective
     dmax = [max([m._objects[i]['dim'][0]  for i in m._objects]), max([m._objects[i]['dim'][1]  for i in m._objects])]
     clears = {i : [m._objects[i]['clr'][0] + m._objects[i]['clr'][2], m._objects[i]['clr'][1] + m._objects[i]['clr'][3]]  for i in m._objects}
     cmax = [max([clears[i][0]  for i in m._objects]), max([clears[i][1]  for i in m._objects])]
@@ -101,7 +72,8 @@ def SUb_StripPacking(m): #"" SU under the strip packing objective with custom br
     m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
     m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  ==  1  for i,j in combinations(m._objects,2) ), name='S1' )
 
-def SUsp_StripPacking(m): #"" SU under the strip packing objective with sequence-pair inequalities
+
+def SUsp_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective
     m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
     m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
     m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
@@ -109,7 +81,8 @@ def SUsp_StripPacking(m): #"" SU under the strip packing objective with sequence
     m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  ==  1  for i,j in combinations(m._objects,2) ), name='S1' )
     m.addConstrs(( m._delt[i,j,s] + m._delt[j,k,s] - m._delt[i,k,s]  <=  1  for i,j,k in permutations(m._objects,3)  for s in [0,1] ), name='SeqPair')
 
-def SUspb_StripPacking(m): #"" SU under the strip packing objective with custom branching and sequence-pair inequalities.
+
+def SUspb_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective
     dmax = [max([m._objects[i]['dim'][0]  for i in m._objects]), max([m._objects[i]['dim'][1]  for i in m._objects])]
     clears = {i : [m._objects[i]['clr'][0] + m._objects[i]['clr'][2], m._objects[i]['clr'][1] + m._objects[i]['clr'][3]]  for i in m._objects}
     cmax = [max([clears[i][0]  for i in m._objects]), max([clears[i][1]  for i in m._objects])]
@@ -126,15 +99,24 @@ def SUspb_StripPacking(m): #"" SU under the strip packing objective with custom 
 
 
 
-def RU_StripPacking(m): #Adds the indicators and constraints called for by RU under the strip packing objective.
+
+def RU_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective
     m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
     m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]                                                   for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
     m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]                                                   for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
+    m.addConstrs((m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
     m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
 
-def RUb_StripPacking(m): #"" RU under the strip packing objective with custom branching.
+
+def RUu_StripPacking(m): #Same as above sans the variable bound constraints
+    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
+    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
+    m.addConstrs((m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
+    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
+
+
+def RUb_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective
     dmax = [max([m._objects[i]['dim'][0]  for i in m._objects]), max([m._objects[i]['dim'][1]  for i in m._objects])]
     clears = {i : [m._objects[i]['clr'][0] + m._objects[i]['clr'][2], m._objects[i]['clr'][1] + m._objects[i]['clr'][3]]  for i in m._objects}
     cmax = [max([clears[i][0]  for i in m._objects]), max([clears[i][1]  for i in m._objects])]
@@ -146,19 +128,21 @@ def RUb_StripPacking(m): #"" RU under the strip packing objective with custom br
     m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]                                                   for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
     m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]                                                   for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
+    m.addConstrs((m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
     m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
 
-def RUsp_StripPacking(m): #"" RU under the strip packing objective with sequence-pair inequalities.
+
+def RUsp_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective
     m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
     m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]                                                   for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
     m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]                                                   for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
+    m.addConstrs((m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
     m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
     m.addConstrs(( m._delt[i,j,s] + m._delt[j,k,s] - m._delt[i,k,s]  <=  1  for i,j,k in permutations(m._objects,3)  for s in [0,1] ), name='SeqPair')
 
-def RUspb_StripPacking(m): #"" RU under the strip packing objective with custom branching and sequence-pair inequalities.
+
+def RUspb_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective
     dmax = [max([m._objects[i]['dim'][0]  for i in m._objects]), max([m._objects[i]['dim'][1]  for i in m._objects])]
     clears = {i : [m._objects[i]['clr'][0] + m._objects[i]['clr'][2], m._objects[i]['clr'][1] + m._objects[i]['clr'][3]]  for i in m._objects}
     cmax = [max([clears[i][0]  for i in m._objects]), max([clears[i][1]  for i in m._objects])]
@@ -170,68 +154,14 @@ def RUspb_StripPacking(m): #"" RU under the strip packing objective with custom 
     m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]                                                   for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
     m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]                                                   for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
-    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,k,s] - m._delt[i,k,s]  <=  1  for i,j,k in permutations(m._objects,3)  for s in [0,1] ), name='SeqPair')
-
-
-
-def HU_StripPacking(m): #Adds the indicators and constraints called for by HU under the strip packing objective.
-    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
-    m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]                                                      for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
-    m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]                                                      for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]     for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
-    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
-
-def HUb_StripPacking(m): #"" HU under the strip packing objective with custom branching.
-    dmax = [max([m._objects[i]['dim'][0]  for i in m._objects]), max([m._objects[i]['dim'][1]  for i in m._objects])]
-    clears = {i : [m._objects[i]['clr'][0] + m._objects[i]['clr'][2], m._objects[i]['clr'][1] + m._objects[i]['clr'][3]]  for i in m._objects}
-    cmax = [max([clears[i][0]  for i in m._objects]), max([clears[i][1]  for i in m._objects])]
-    areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
-    priority = { (i,j,s) : min([clears[i][s],clears[j][s]]) + (cmax[s]+1)*(min([m._objects[i]['dim'][s],m._objects[j]['dim'][s]]) + (dmax[s]+1)*min([areas[i],areas[j]]) )  for i,j in permutations(m._objects,2)  for s in [0,1] }
-    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
-    for (i,j,s) in  m._PM.keys():
-        m._delt[i,j,s].setAttr("BranchPriority",priority[i,j,s])
-    m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]                                                      for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
-    m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]                                                      for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]     for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
-    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
-
-def HUsp_StripPacking(m): #"" HU under the strip packing objective with sequence-pair inequalities.
-    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
-    m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]                                                      for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
-    m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]                                                      for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]     for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
-    m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,k,s] - m._delt[i,k,s]  <=  1  for i,j,k in permutations(m._objects,3)  for s in [0,1] ), name='SeqPair')
-
-def HUspb_StripPacking(m): #"" HU under the strip packing objective with custom branching and sequence-pair inequalities.
-    dmax = [max([m._objects[i]['dim'][0]  for i in m._objects]), max([m._objects[i]['dim'][1]  for i in m._objects])]
-    clears = {i : [m._objects[i]['clr'][0] + m._objects[i]['clr'][2], m._objects[i]['clr'][1] + m._objects[i]['clr'][3]]  for i in m._objects}
-    cmax = [max([clears[i][0]  for i in m._objects]), max([clears[i][1]  for i in m._objects])]
-    areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
-    priority = { (i,j,s) : min([clears[i][s],clears[j][s]]) + (cmax[s]+1)*(min([m._objects[i]['dim'][s],m._objects[j]['dim'][s]]) + (dmax[s]+1)*min([areas[i],areas[j]]) )  for i,j in permutations(m._objects,2)  for s in [0,1] }
-    m._delt = m.addVars( m._PM, vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
-    for (i,j,s) in  m._PM.keys():
-        m._delt[i,j,s].setAttr("BranchPriority",priority[i,j,s])
-    m.addConstrs((             m._c[j,s]  >=  m._LB[j,s] + (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*m._delt[i,j,s]                                                      for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
-    m.addConstrs((             m._c[i,s]  <=  m._UB[i,s] + (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]                                                      for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._UB[i,s] - m._LB[j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*m._delt[i,j,s]  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._c[i,s] - m._c[j,s]  <=  m._PM[j,i,s] - (m._PM[i,j,s] + m._PM[j,i,s])*m._delt[i,j,s] + (m._UB[i,s] - m._PM[j,i,s] - m._LB[j,s])*m._delt[j,i,s]     for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
+    m.addConstrs((m._delt[i,j,s] + m._delt[j,i,s]  <=  1  for i,j in combinations(m._objects,2)  for s in [0,1] ), name='tight')
     m.addConstrs(( m._delt[i,j,0] + m._delt[i,j,1] + m._delt[j,i,0] + m._delt[j,i,1]  >=  1  for i,j in combinations(m._objects,2) ), name='S1' )
     m.addConstrs(( m._delt[i,j,s] + m._delt[j,k,s] - m._delt[i,k,s]  <=  1  for i,j,k in permutations(m._objects,3)  for s in [0,1] ), name='SeqPair')
 
 
 
 
-def SBL_StripPacking(m): #Adds the indicators and constraints called for by SB-L under the strip packing objective.
+def SBL_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a linear bcf approximation.
     m._delt = m.addVars( permutations(m._objects,2), vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
     def bcf(i, j, code): return code[0] + code[1] + (1 - 2*code[0])*m._delt[i,j] + (1 - 2*code[1])*m._delt[j,i] #Linear over-approximation of boolean comparison function for {0,1}^2.
     def h(i, j, s): #Assigns codes according (i,j,x)->(0,0); (i,j,y)->(1,0); (j,i,x)->(1,1); and (j,i,y)->(0,1) where i < j.
@@ -241,7 +171,17 @@ def SBL_StripPacking(m): #Adds the indicators and constraints called for by SB-L
     m.addConstrs((             m._c[i,s]  <=  m._UB[j,s] - m._PM[i,j,s] - (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[j,s] - m._c[i,s]  >=  m._PM[i,j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
 
-def SBbL_StripPacking(m): #"" SB-L under the strip packing objective with custom branching inequalities.
+
+def SBuL_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a linear bcf approximation.
+    m._delt = m.addVars( permutations(m._objects,2), vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
+    def bcf(i, j, code): return code[0] + code[1] + (1 - 2*code[0])*m._delt[i,j] + (1 - 2*code[1])*m._delt[j,i] #Linear over-approximation of boolean comparison function for {0,1}^2.
+    def h(i, j, s): #Assigns codes according (i,j,x)->(0,0); (i,j,y)->(1,0); (j,i,x)->(1,1); and (j,i,y)->(0,1) where i < j.
+        if i < j: return bcf(i, j, [s,0])
+        else: return bcf(j, i, [(s+1)%2,1])
+    m.addConstrs(( m._c[j,s] - m._c[i,s]  >=  m._PM[i,j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
+
+
+def SBbL_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a linear bcf approximation.
     clears = {i : m._objects[i]['clr'][0] + m._objects[i]['clr'][2] + m._objects[i]['clr'][1] + m._objects[i]['clr'][3]  for i in m._objects}
     cmax = max([clears[i]  for i in m._objects])
     areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
@@ -257,7 +197,8 @@ def SBbL_StripPacking(m): #"" SB-L under the strip packing objective with custom
     m.addConstrs((             m._c[i,s]  <=  m._UB[j,s] - m._PM[i,j,s] - (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[j,s] - m._c[i,s]  >=  m._PM[i,j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
 
-def SBspL_StripPacking(m): #"" SB-L under the strip packing objective with sequence-pair inequalities.
+
+def SBspL_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a linear bcf approximation.
     m._delt = m.addVars( permutations(m._objects,2), vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
     def bcf(i, j, code): return code[0] + code[1] + (1 - 2*code[0])*m._delt[i,j] + (1 - 2*code[1])*m._delt[j,i] #Linear over-approximation of boolean comparison function for {0,1}^2.
     def h(i, j, s): #Assigns codes according (i,j,x)->(0,0); (i,j,y)->(1,0); (j,i,x)->(1,1); and (j,i,y)->(0,1) where i < j.
@@ -271,7 +212,8 @@ def SBspL_StripPacking(m): #"" SB-L under the strip packing objective with seque
     m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLR')
     m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUR')
     
-def SBspbL_StripPacking(m): #"" SB-L under the strip packing objective with custom branching and sequence-pair inequalities.
+    
+def SBspbL_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a linear bcf approximation.
     clears = {i : m._objects[i]['clr'][0] + m._objects[i]['clr'][2] + m._objects[i]['clr'][1] + m._objects[i]['clr'][3]  for i in m._objects}
     cmax = max([clears[i]  for i in m._objects])
     areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
@@ -294,7 +236,7 @@ def SBspbL_StripPacking(m): #"" SB-L under the strip packing objective with cust
 
 
 
-def SBM_StripPacking(m): #Adds the indicators and constraints called for by SB-M under the strip packing objective.
+def SBM_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a multilinear bcf approximation.
     m._delt = m.addVars( permutations(m._objects,2), vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
     m._DELT = m.addVars( combinations(m._objects,2), vtype=GRB.CONTINUOUS, lb=0, ub=1,  name='DELTA' ) #Auxiliary variable for multilinear terms
     def mysort(i,j): return tuple(x  for x in m._objects  if x in [i,j])
@@ -309,7 +251,28 @@ def SBM_StripPacking(m): #Adds the indicators and constraints called for by SB-M
     m.addConstrs((                m._delt[i,j] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick2')
     m.addConstrs((                m._delt[j,i] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick3')
 
-def SBbM_StripPacking(m): #"" SB-M under the strip packing objective with custom branching inequalities.
+
+def SBuM_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a multilinear bcf approximation.
+    clears = {i : m._objects[i]['clr'][0] + m._objects[i]['clr'][2] + m._objects[i]['clr'][1] + m._objects[i]['clr'][3]  for i in m._objects}
+    cmax = max([clears[i]  for i in m._objects])
+    areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
+    priority = { (i,j) : min([clears[i],clears[j]]) + (cmax+1)*min([areas[i],areas[j]])  for i,j in permutations(m._objects,2) }
+    m._delt = m.addVars( permutations(m._objects,2), vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
+    for (i,j) in  permutations(m._objects,2):
+        m._delt[i,j].setAttr("BranchPriority",priority[i,j])
+    m._DELT = m.addVars( combinations(m._objects,2), vtype=GRB.CONTINUOUS, lb=0, ub=1,  name='DELTA' ) #Auxiliary variable for multilinear terms
+    def mysort(i,j): return tuple(x  for x in m._objects  if x in [i,j])
+    def bcf(i, j, code): return (1-code[0])*(1-code[1])*(m._delt[i,j] + m._delt[j,i] - m._DELT[mysort(i,j)])   +   code[0]*(1-code[1])*(1 - m._delt[i,j] + m._DELT[mysort(i,j)])   +   (1-code[0])*code[1]*(1 - m._delt[j,i] + m._DELT[mysort(i,j)])   +   code[0]*code[1]*(1 - m._DELT[mysort(i,j)]) #McCormick envelope of multilinear approximation of boolean comparison function for {0,1}^2.
+    def h(i, j, s): #Assigns codes according (i,j,x)->(0,0); (i,j,y)->(1,0); (j,i,x)->(1,1); and (j,i,y)->(0,1) where i < j.
+        if i < j: return bcf(i, j, [s,0])
+        else: return bcf(j, i, [(s+1)%2,1])
+    m.addConstrs(( m._c[j,s] - m._c[i,s]  >=  m._PM[i,j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
+    m.addConstrs(( m._delt[i,j] + m._delt[j,i] - m._DELT[mysort(i,j)]  <=  1  for i,j in permutations(m._objects,2) ), name='McCormick1')
+    m.addConstrs((                m._delt[i,j] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick2')
+    m.addConstrs((                m._delt[j,i] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick3')
+
+
+def SBbM_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a multilinear bcf approximation.
     clears = {i : m._objects[i]['clr'][0] + m._objects[i]['clr'][2] + m._objects[i]['clr'][1] + m._objects[i]['clr'][3]  for i in m._objects}
     cmax = max([clears[i]  for i in m._objects])
     areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
@@ -330,7 +293,8 @@ def SBbM_StripPacking(m): #"" SB-M under the strip packing objective with custom
     m.addConstrs((                m._delt[i,j] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick2')
     m.addConstrs((                m._delt[j,i] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick3')
 
-def SBspM_StripPacking(m): #"" SB-M under the strip packing objective with sequence-pair inequalities.
+
+def SBspM_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a multilinear bcf approximation.
     m._delt = m.addVars( permutations(m._objects,2), vtype=GRB.BINARY,  name='delta' ) #Object precidence indicators
     m._DELT = m.addVars( combinations(m._objects,2), vtype=GRB.CONTINUOUS, lb=0, ub=1,  name='DELTA' ) #Auxiliary variable for multilinear terms
     def mysort(i,j): return tuple(x  for x in m._objects  if x in [i,j])
@@ -349,7 +313,8 @@ def SBspM_StripPacking(m): #"" SB-M under the strip packing objective with seque
     m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLR')
     m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUR')
 
-def SBspbM_StripPacking(m): #"" SB-M under the strip packing objective with custom branching and sequence-pair inequalities.
+
+def SBspbM_StripPacking(m): #Adds the indicators and constraints called for by SU under the strip packing objective with a multilinear bcf approximation.
     clears = {i : m._objects[i]['clr'][0] + m._objects[i]['clr'][2] + m._objects[i]['clr'][1] + m._objects[i]['clr'][3]  for i in m._objects}
     cmax = max([clears[i]  for i in m._objects])
     areas = {i : m._objects[i]['dim'][0] * m._objects[i]['dim'][1]  for i in m._objects}
@@ -376,7 +341,49 @@ def SBspbM_StripPacking(m): #"" SB-M under the strip packing objective with cust
 
 
 
-def WarmStart_StripPacking(m): #Packs objects in order of decreasing height.
+
+def WarmStart_StripPacking(m):
+    # #A trivial warm start (Pack the objects in a column along the left wall)
+    # Floor = 0
+    # for i in m._objects:
+    #     m._c[i,0].start = m._LB[i,0]
+    #     m._c[i,1].start = Floor + m._objects[i]['dim'][1]/2 + m._objects[i]['clr'][3]
+    #     Floor += m._objects[i]['clr'][1] + m._objects[i]['dim'][1] + m._objects[i]['clr'][3]
+    
+    # #A better warm start (Treating clearances as hard; stack boxes in a row until it would break the bound, then add a new row)
+    # Wall, Flor, Ceil = 0, 0, 0
+    # for i in m._objects:
+    #     if Wall + m._objects[i]['clr'][2] + m._objects[i]['dim'][0] + m._objects[i]['clr'][0]  >  m._bounds[0]:
+    #         Wall = 0
+    #         Flor = Ceil
+    #     m._c[i,0].start = Wall + m._objects[i]['clr'][2] + m._objects[i]['dim'][0]/2
+    #     Wall += m._objects[i]['clr'][2] + m._objects[i]['dim'][0] + m._objects[i]['clr'][0]
+    #     if Flor + m._objects[i]['clr'][3] + m._objects[i]['dim'][1] + m._objects[i]['clr'][1]  >  Ceil:
+    #         Ceil = Flor + m._objects[i]['clr'][3] + m._objects[i]['dim'][1] + m._objects[i]['clr'][1]
+    #     m._c[i,1].start = Flor + m._objects[i]['clr'][3] + m._objects[i]['dim'][1]/2
+    
+    # #An even better warm start (Treating clearances as soft; pack the objects in a row until it would break the bound, then add a new row)
+    # FlorH, FlorM, CeilH, CeilM = 0, 0, 0, 0
+    # i = list(m._objects.keys())[0]
+    # m._c[i,0].start = m._objects[i]['clr'][2] + m._objects[i]['dim'][0]/2
+    # m._c[i,1].start = m._objects[i]['clr'][3] + m._objects[i]['dim'][1]/2 
+    # for k in range(len(m._objects)-1):
+    #     m.update()
+    #     i = list(m._objects.keys())[k]
+    #     j = list(m._objects.keys())[k+1]
+    #     CeilH = max(CeilH, m._c[i,1].start + m._objects[i]['dim'][1]/2)
+    #     CeilM = max(CeilM, m._c[i,1].start + m._objects[i]['dim'][1]/2 + m._objects[i]['clr'][1]) + 0.1
+    #     if m._c[i,0].start + m._PM[i,j,0] + m._objects[j]['dim'][0]/2 + m._objects[j]['clr'][0]  >  m._bounds[0]:
+    #         m._c[j,0].start = m._objects[j]['clr'][2] + m._objects[j]['dim'][0]/2
+    #         FlorH = CeilH
+    #         FlorM = CeilM
+    #     else: m._c[j,0].start = m._c[i,0].start + m._PM[i,j,0]
+    #     Marg = FlorM - FlorH
+    #     if m._objects[j]['clr'][3] > Marg:
+    #         m._c[j,1].start = FlorH + m._objects[j]['clr'][3] + m._objects[j]['dim'][1]/2
+    #     else: m._c[j,1].start = FlorM + m._objects[j]['dim'][1]/2
+   
+    #Another even better warm start (Same as above, but packs in order of decreasing height)  
     FlorH, FlorM, CeilH, CeilM = 0, 0, 0, 0
     Heights = {obj : val['clr'][3] + val['dim'][1] + val['clr'][1]  for obj,val in m._objects.items()}
     HeightSortedObjects = sorted(Heights, key=Heights.get, reverse=True)

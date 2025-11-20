@@ -1,0 +1,83 @@
+***2D Rectangular Problem***
+***Problem tests for the Open Dimension Problem (ODP/S)***
+Input parameter file: C:\Users\jfravel\OneDrive\Research\Packing\InstancedModels\Data\2DCPG-Input.txt
+***********************************************************************
+Total number of instances 
+Number of different large objects (j)
+LargeObject[j].Width	LargeObject[j].Value
+Number of different item types (i)
+Item[i].Length	Item[i].Width	Item[i].Demand
+***********************************************************************
+4
+1
+100	100
+15
+9	11	0
+16	13	0
+6	11	0
+16	13	0
+6	13	0
+6	6	0
+15	8	0
+15	8	0
+7	16	0
+11	9	0
+10	10	0
+9	10	0
+19	12	0
+14	8	0
+14	9	0
+1
+100	100
+15
+8	13	0
+19	13	0
+7	10	0
+10	16	0
+10	11	0
+8	9	0
+14	15	0
+16	6	0
+17	13	0
+9	15	0
+7	22	0
+19	10	0
+7	15	0
+15	7	0
+20	10	0
+1
+100	100
+15
+12	15	0
+10	5	0
+11	12	0
+19	10	0
+13	6	0
+9	17	0
+16	18	0
+14	10	0
+14	9	0
+7	15	0
+8	16	0
+15	16	0
+9	10	0
+8	9	0
+10	12	0
+1
+100	100
+15
+12	7	0
+9	7	0
+10	12	0
+12	21	0
+17	19	0
+7	10	0
+12	9	0
+11	12	0
+17	12	0
+5	15	0
+18	11	0
+8	10	0
+8	13	0
+8	12	0
+13	12	0

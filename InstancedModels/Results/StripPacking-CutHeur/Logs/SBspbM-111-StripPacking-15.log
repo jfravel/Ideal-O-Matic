@@ -1,0 +1,66 @@
+
+Gurobi 13.0.0 (win64) logging started Wed Nov 19 10:48:53 2025
+
+Set parameter LogFile to value "./Results/StripPacking-CutHeur/Logs/SBspbM-111-StripPacking-15.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Set parameter LogToConsole to value 0
+Set parameter LPWarmStart to value 2
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  3600
+LPWarmStart  2
+Heuristics  1
+Cuts  1
+LogToConsole  0
+Presolve  1
+
+Optimize a model with 3725 rows, 346 columns and 11160 nonzeros (Min)
+Model fingerprint: 0x7e7c0e27
+Model has 1 linear objective coefficients
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+Using branch priorities.
+
+Warning: Completing partial solution with 210 unfixed non-continuous variables out of 210
+User MIP start did not produce a new incumbent solution
+
+Found heuristic solution: objective 85.0000000
+Presolve removed 525 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 3200 rows, 346 columns, 9795 nonzeros
+Variable types: 136 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 3.700000e+01, 358 iterations, 0.02 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   37.00000    0   40   85.00000   37.00000  56.5%     -    0s
+H    0     0                      83.0000000   37.00000  55.4%     -    0s
+     0     0          -    0        83.00000   37.00000  55.4%     -    0s
+
+Cutting planes:
+  Gomory: 5
+  Cover: 1
+  MIR: 41
+  Flow cover: 73
+  RLT: 5
+
+Explored 1 nodes (1037 simplex iterations) in 0.06 seconds (0.09 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 2: 83 85 
+
+Solve interrupted
+Best objective 8.300000000000e+01, best bound 3.700000000000e+01, gap 55.4217%
