@@ -1,0 +1,69 @@
+Name,Date,,Model,Submodel,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime(s),,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-StripPacking-10,4/21/2024,,SU,,StripPacking,,10,,1,1,1,1.916269064,,143,143,0,3,1059
+SU-StripPacking-10,4/21/2024,,SU,,StripPacking,,10,,1,0,0,0.260606289,,143,143,0,2,1686
+SU-StripPacking-10,4/21/2024,,SU,,StripPacking,,10,,0,1,0,0.093361855,,143,143,0,2,1893
+SU-StripPacking-10,4/21/2024,,SU,,StripPacking,,10,,0,0,1,0.108978271,,143,143,0,2,895
+SU-StripPacking-10,4/21/2024,,SU,,StripPacking,,10,,1,1,0,0.265201092,,143,143,0,2,1442
+SU-StripPacking-10,4/21/2024,,SU,,StripPacking,,10,,1,0,1,0.782154799,,143,143,0,3,800
+SU-StripPacking-10,4/21/2024,,SU,,StripPacking,,10,,0,1,1,0.853040934,,143,143,0,2,1850
+SU-StripPacking-10,4/21/2024,,SU,,StripPacking,,10,,0,0,0,0.077742577,,143,143,0,1,1248
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Submodel,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-StripPacking-15,4/18/2024,,SU,,StripPacking,,15,,1,1,1,5.745121956,,300,300,0,1,5509
+SU-StripPacking-15,4/18/2024,,SU,,StripPacking,,15,,1,0,0,1.712227821,,300,300,0,1,6506
+SU-StripPacking-15,4/18/2024,,SU,,StripPacking,,15,,0,1,0,0.565001488,,300,300,0,1,11280
+SU-StripPacking-15,4/18/2024,,SU,,StripPacking,,15,,0,0,1,0.937149048,,300,300,0,1,12888
+SU-StripPacking-15,4/18/2024,,SU,,StripPacking,,15,,1,1,0,2.186977863,,300,300,0,1,7031
+SU-StripPacking-15,4/18/2024,,SU,,StripPacking,,15,,1,0,1,1.671475172,,300,300,0,1,5216
+SU-StripPacking-15,4/18/2024,,SU,,StripPacking,,15,,0,1,1,2.252681971,,300,300,0,1,9643
+SU-StripPacking-15,4/18/2024,,SU,,StripPacking,,15,,0,0,0,0.437395573,,300,300,0,1,5580
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Submodel,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-StripPacking-18,4/18/2024,,SU,,StripPacking,,18,,1,1,1,20.38643408,,238,238,0,10,5836
+SU-StripPacking-18,4/18/2024,,SU,,StripPacking,,18,,1,0,0,3.594822645,,238,238,0,10,7369
+SU-StripPacking-18,4/18/2024,,SU,,StripPacking,,18,,0,1,0,1.515265226,,238,238,0,10,12810
+SU-StripPacking-18,4/18/2024,,SU,,StripPacking,,18,,0,0,1,8.148399353,,238,238,0,10,4925
+SU-StripPacking-18,4/18/2024,,SU,,StripPacking,,18,,1,1,0,2.648749113,,238,238,0,10,7247
+SU-StripPacking-18,4/18/2024,,SU,,StripPacking,,18,,1,0,1,22.63423252,,238,238,0,10,2668
+SU-StripPacking-18,4/18/2024,,SU,,StripPacking,,18,,0,1,1,13.16358137,,238,238,0,10,7156
+SU-StripPacking-18,4/18/2024,,SU,,StripPacking,,18,,0,0,0,1.417074919,,238,238,0,10,10488
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Submodel,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-StripPacking-19,4/18/2024,,SU,,StripPacking,,19,,1,1,1,66.38720489,,338,338,0,7,8674
+SU-StripPacking-19,4/18/2024,,SU,,StripPacking,,19,,1,0,0,11.89927006,,338,338,0,8,15523
+SU-StripPacking-19,4/18/2024,,SU,,StripPacking,,19,,0,1,0,2.862144709,,338,338,0,6,15057
+SU-StripPacking-19,4/18/2024,,SU,,StripPacking,,19,,0,0,1,18.47526217,,338,338,0,6,8712
+SU-StripPacking-19,4/18/2024,,SU,,StripPacking,,19,,1,1,0,10.17391062,,338,338,0,6,17562
+SU-StripPacking-19,4/18/2024,,SU,,StripPacking,,19,,1,0,1,146.2222197,,338,338,0,8,14063
+SU-StripPacking-19,4/18/2024,,SU,,StripPacking,,19,,0,1,1,26.71084547,,338,338,0,10,9565
+SU-StripPacking-19,4/18/2024,,SU,,StripPacking,,19,,0,0,0,4.060779333,,338,338,0,7,17577
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Submodel,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-StripPacking-20,4/18/2024,,SU,,StripPacking,,20,,1,1,1,107.9833124,,299,299,0,10,14513
+SU-StripPacking-20,4/18/2024,,SU,,StripPacking,,20,,1,0,0,25.20580101,,299,299,0,10,54138
+SU-StripPacking-20,4/18/2024,,SU,,StripPacking,,20,,0,1,0,15.51738405,,299,299,0,10,94899
+SU-StripPacking-20,4/18/2024,,SU,,StripPacking,,20,,0,0,1,85.31756997,,299,299,0,10,33709
+SU-StripPacking-20,4/18/2024,,SU,,StripPacking,,20,,1,1,0,17.90259695,,299,299,0,10,40029
+SU-StripPacking-20,4/18/2024,,SU,,StripPacking,,20,,1,0,1,112.9616225,,299,299,0,10,12491
+SU-StripPacking-20,4/18/2024,,SU,,StripPacking,,20,,0,1,1,47.03960299,,299,299,0,10,10018
+SU-StripPacking-20,4/18/2024,,SU,,StripPacking,,20,,0,0,0,18.96818924,,299,299,0,10,110755
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Submodel,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-StripPacking-21,4/18/2024,,SU,,StripPacking,,21,,1,1,1,77.45325446,,282,282,0,9,6874
+SU-StripPacking-21,4/18/2024,,SU,,StripPacking,,21,,1,0,0,6.25073719,,282,282,0,10,8980
+SU-StripPacking-21,4/18/2024,,SU,,StripPacking,,21,,0,1,0,4.186510086,,282,282,0,10,25821
+SU-StripPacking-21,4/18/2024,,SU,,StripPacking,,21,,0,0,1,11.99064994,,282,282,0,10,5612
+SU-StripPacking-21,4/18/2024,,SU,,StripPacking,,21,,1,1,0,6.53151536,,282,282,0,10,10739
+SU-StripPacking-21,4/18/2024,,SU,,StripPacking,,21,,1,0,1,86.47640753,,282,282,0,7,10864
+SU-StripPacking-21,4/18/2024,,SU,,StripPacking,,21,,0,1,1,11.92048645,,282,282,0,7,4583
+SU-StripPacking-21,4/18/2024,,SU,,StripPacking,,21,,0,0,0,21.23110151,,282,282,0,10,96340
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Submodel,Objective,Subobjective,N,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-StripPacking-22,4/18/2024,,SU,,StripPacking,,22,,1,1,1,3600.261261,,241,230,0.045643154,10,441767
+SU-StripPacking-22,4/18/2024,,SU,,StripPacking,,22,,1,0,0,3600.094191,,241,230,0.045643154,10,992006
+SU-StripPacking-22,4/18/2024,,SU,,StripPacking,,22,,0,1,0,3600.056843,,243,230,0.053497942,10,5417584
+SU-StripPacking-22,4/18/2024,,SU,,StripPacking,,22,,0,0,1,3602.199298,,244,230,0.057377049,10,753592
+SU-StripPacking-22,4/18/2024,,SU,,StripPacking,,22,,1,1,0,3600.219865,,241,230,0.045643154,10,889429
+SU-StripPacking-22,4/18/2024,,SU,,StripPacking,,22,,1,0,1,3600.365217,,240,215,0.104166667,10,323332
+SU-StripPacking-22,4/18/2024,,SU,,StripPacking,,22,,0,1,1,3602.764705,,243,230,0.053497942,10,643926
+SU-StripPacking-22,4/18/2024,,SU,,StripPacking,,22,,0,0,0,3600.078564,,242,230,0.049586777,10,3147692

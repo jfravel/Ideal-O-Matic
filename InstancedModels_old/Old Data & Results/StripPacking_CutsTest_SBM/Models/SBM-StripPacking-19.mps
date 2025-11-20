@@ -1,0 +1,15383 @@
+NAME SBM-StripPacking-19
+ROWS
+ N  OBJ
+ G  Height[0]
+ G  Height[1]
+ G  Height[2]
+ G  Height[3]
+ G  Height[4]
+ G  Height[5]
+ G  Height[6]
+ G  Height[7]
+ G  Height[8]
+ G  Height[9]
+ G  Height[10]
+ G  Height[11]
+ G  Height[12]
+ G  Height[13]
+ G  Height[14]
+ G  Height[15]
+ G  Height[16]
+ G  Height[17]
+ G  Height[18]
+ G  LB[0,1,0]
+ G  LB[0,1,1]
+ G  LB[0,2,0]
+ G  LB[0,2,1]
+ G  LB[0,3,0]
+ G  LB[0,3,1]
+ G  LB[0,4,0]
+ G  LB[0,4,1]
+ G  LB[0,5,0]
+ G  LB[0,5,1]
+ G  LB[0,6,0]
+ G  LB[0,6,1]
+ G  LB[0,7,0]
+ G  LB[0,7,1]
+ G  LB[0,8,0]
+ G  LB[0,8,1]
+ G  LB[0,9,0]
+ G  LB[0,9,1]
+ G  LB[0,10,0]
+ G  LB[0,10,1]
+ G  LB[0,11,0]
+ G  LB[0,11,1]
+ G  LB[0,12,0]
+ G  LB[0,12,1]
+ G  LB[0,13,0]
+ G  LB[0,13,1]
+ G  LB[0,14,0]
+ G  LB[0,14,1]
+ G  LB[0,15,0]
+ G  LB[0,15,1]
+ G  LB[0,16,0]
+ G  LB[0,16,1]
+ G  LB[0,17,0]
+ G  LB[0,17,1]
+ G  LB[0,18,0]
+ G  LB[0,18,1]
+ G  LB[1,0,0]
+ G  LB[1,0,1]
+ G  LB[1,2,0]
+ G  LB[1,2,1]
+ G  LB[1,3,0]
+ G  LB[1,3,1]
+ G  LB[1,4,0]
+ G  LB[1,4,1]
+ G  LB[1,5,0]
+ G  LB[1,5,1]
+ G  LB[1,6,0]
+ G  LB[1,6,1]
+ G  LB[1,7,0]
+ G  LB[1,7,1]
+ G  LB[1,8,0]
+ G  LB[1,8,1]
+ G  LB[1,9,0]
+ G  LB[1,9,1]
+ G  LB[1,10,0]
+ G  LB[1,10,1]
+ G  LB[1,11,0]
+ G  LB[1,11,1]
+ G  LB[1,12,0]
+ G  LB[1,12,1]
+ G  LB[1,13,0]
+ G  LB[1,13,1]
+ G  LB[1,14,0]
+ G  LB[1,14,1]
+ G  LB[1,15,0]
+ G  LB[1,15,1]
+ G  LB[1,16,0]
+ G  LB[1,16,1]
+ G  LB[1,17,0]
+ G  LB[1,17,1]
+ G  LB[1,18,0]
+ G  LB[1,18,1]
+ G  LB[2,0,0]
+ G  LB[2,0,1]
+ G  LB[2,1,0]
+ G  LB[2,1,1]
+ G  LB[2,3,0]
+ G  LB[2,3,1]
+ G  LB[2,4,0]
+ G  LB[2,4,1]
+ G  LB[2,5,0]
+ G  LB[2,5,1]
+ G  LB[2,6,0]
+ G  LB[2,6,1]
+ G  LB[2,7,0]
+ G  LB[2,7,1]
+ G  LB[2,8,0]
+ G  LB[2,8,1]
+ G  LB[2,9,0]
+ G  LB[2,9,1]
+ G  LB[2,10,0]
+ G  LB[2,10,1]
+ G  LB[2,11,0]
+ G  LB[2,11,1]
+ G  LB[2,12,0]
+ G  LB[2,12,1]
+ G  LB[2,13,0]
+ G  LB[2,13,1]
+ G  LB[2,14,0]
+ G  LB[2,14,1]
+ G  LB[2,15,0]
+ G  LB[2,15,1]
+ G  LB[2,16,0]
+ G  LB[2,16,1]
+ G  LB[2,17,0]
+ G  LB[2,17,1]
+ G  LB[2,18,0]
+ G  LB[2,18,1]
+ G  LB[3,0,0]
+ G  LB[3,0,1]
+ G  LB[3,1,0]
+ G  LB[3,1,1]
+ G  LB[3,2,0]
+ G  LB[3,2,1]
+ G  LB[3,4,0]
+ G  LB[3,4,1]
+ G  LB[3,5,0]
+ G  LB[3,5,1]
+ G  LB[3,6,0]
+ G  LB[3,6,1]
+ G  LB[3,7,0]
+ G  LB[3,7,1]
+ G  LB[3,8,0]
+ G  LB[3,8,1]
+ G  LB[3,9,0]
+ G  LB[3,9,1]
+ G  LB[3,10,0]
+ G  LB[3,10,1]
+ G  LB[3,11,0]
+ G  LB[3,11,1]
+ G  LB[3,12,0]
+ G  LB[3,12,1]
+ G  LB[3,13,0]
+ G  LB[3,13,1]
+ G  LB[3,14,0]
+ G  LB[3,14,1]
+ G  LB[3,15,0]
+ G  LB[3,15,1]
+ G  LB[3,16,0]
+ G  LB[3,16,1]
+ G  LB[3,17,0]
+ G  LB[3,17,1]
+ G  LB[3,18,0]
+ G  LB[3,18,1]
+ G  LB[4,0,0]
+ G  LB[4,0,1]
+ G  LB[4,1,0]
+ G  LB[4,1,1]
+ G  LB[4,2,0]
+ G  LB[4,2,1]
+ G  LB[4,3,0]
+ G  LB[4,3,1]
+ G  LB[4,5,0]
+ G  LB[4,5,1]
+ G  LB[4,6,0]
+ G  LB[4,6,1]
+ G  LB[4,7,0]
+ G  LB[4,7,1]
+ G  LB[4,8,0]
+ G  LB[4,8,1]
+ G  LB[4,9,0]
+ G  LB[4,9,1]
+ G  LB[4,10,0]
+ G  LB[4,10,1]
+ G  LB[4,11,0]
+ G  LB[4,11,1]
+ G  LB[4,12,0]
+ G  LB[4,12,1]
+ G  LB[4,13,0]
+ G  LB[4,13,1]
+ G  LB[4,14,0]
+ G  LB[4,14,1]
+ G  LB[4,15,0]
+ G  LB[4,15,1]
+ G  LB[4,16,0]
+ G  LB[4,16,1]
+ G  LB[4,17,0]
+ G  LB[4,17,1]
+ G  LB[4,18,0]
+ G  LB[4,18,1]
+ G  LB[5,0,0]
+ G  LB[5,0,1]
+ G  LB[5,1,0]
+ G  LB[5,1,1]
+ G  LB[5,2,0]
+ G  LB[5,2,1]
+ G  LB[5,3,0]
+ G  LB[5,3,1]
+ G  LB[5,4,0]
+ G  LB[5,4,1]
+ G  LB[5,6,0]
+ G  LB[5,6,1]
+ G  LB[5,7,0]
+ G  LB[5,7,1]
+ G  LB[5,8,0]
+ G  LB[5,8,1]
+ G  LB[5,9,0]
+ G  LB[5,9,1]
+ G  LB[5,10,0]
+ G  LB[5,10,1]
+ G  LB[5,11,0]
+ G  LB[5,11,1]
+ G  LB[5,12,0]
+ G  LB[5,12,1]
+ G  LB[5,13,0]
+ G  LB[5,13,1]
+ G  LB[5,14,0]
+ G  LB[5,14,1]
+ G  LB[5,15,0]
+ G  LB[5,15,1]
+ G  LB[5,16,0]
+ G  LB[5,16,1]
+ G  LB[5,17,0]
+ G  LB[5,17,1]
+ G  LB[5,18,0]
+ G  LB[5,18,1]
+ G  LB[6,0,0]
+ G  LB[6,0,1]
+ G  LB[6,1,0]
+ G  LB[6,1,1]
+ G  LB[6,2,0]
+ G  LB[6,2,1]
+ G  LB[6,3,0]
+ G  LB[6,3,1]
+ G  LB[6,4,0]
+ G  LB[6,4,1]
+ G  LB[6,5,0]
+ G  LB[6,5,1]
+ G  LB[6,7,0]
+ G  LB[6,7,1]
+ G  LB[6,8,0]
+ G  LB[6,8,1]
+ G  LB[6,9,0]
+ G  LB[6,9,1]
+ G  LB[6,10,0]
+ G  LB[6,10,1]
+ G  LB[6,11,0]
+ G  LB[6,11,1]
+ G  LB[6,12,0]
+ G  LB[6,12,1]
+ G  LB[6,13,0]
+ G  LB[6,13,1]
+ G  LB[6,14,0]
+ G  LB[6,14,1]
+ G  LB[6,15,0]
+ G  LB[6,15,1]
+ G  LB[6,16,0]
+ G  LB[6,16,1]
+ G  LB[6,17,0]
+ G  LB[6,17,1]
+ G  LB[6,18,0]
+ G  LB[6,18,1]
+ G  LB[7,0,0]
+ G  LB[7,0,1]
+ G  LB[7,1,0]
+ G  LB[7,1,1]
+ G  LB[7,2,0]
+ G  LB[7,2,1]
+ G  LB[7,3,0]
+ G  LB[7,3,1]
+ G  LB[7,4,0]
+ G  LB[7,4,1]
+ G  LB[7,5,0]
+ G  LB[7,5,1]
+ G  LB[7,6,0]
+ G  LB[7,6,1]
+ G  LB[7,8,0]
+ G  LB[7,8,1]
+ G  LB[7,9,0]
+ G  LB[7,9,1]
+ G  LB[7,10,0]
+ G  LB[7,10,1]
+ G  LB[7,11,0]
+ G  LB[7,11,1]
+ G  LB[7,12,0]
+ G  LB[7,12,1]
+ G  LB[7,13,0]
+ G  LB[7,13,1]
+ G  LB[7,14,0]
+ G  LB[7,14,1]
+ G  LB[7,15,0]
+ G  LB[7,15,1]
+ G  LB[7,16,0]
+ G  LB[7,16,1]
+ G  LB[7,17,0]
+ G  LB[7,17,1]
+ G  LB[7,18,0]
+ G  LB[7,18,1]
+ G  LB[8,0,0]
+ G  LB[8,0,1]
+ G  LB[8,1,0]
+ G  LB[8,1,1]
+ G  LB[8,2,0]
+ G  LB[8,2,1]
+ G  LB[8,3,0]
+ G  LB[8,3,1]
+ G  LB[8,4,0]
+ G  LB[8,4,1]
+ G  LB[8,5,0]
+ G  LB[8,5,1]
+ G  LB[8,6,0]
+ G  LB[8,6,1]
+ G  LB[8,7,0]
+ G  LB[8,7,1]
+ G  LB[8,9,0]
+ G  LB[8,9,1]
+ G  LB[8,10,0]
+ G  LB[8,10,1]
+ G  LB[8,11,0]
+ G  LB[8,11,1]
+ G  LB[8,12,0]
+ G  LB[8,12,1]
+ G  LB[8,13,0]
+ G  LB[8,13,1]
+ G  LB[8,14,0]
+ G  LB[8,14,1]
+ G  LB[8,15,0]
+ G  LB[8,15,1]
+ G  LB[8,16,0]
+ G  LB[8,16,1]
+ G  LB[8,17,0]
+ G  LB[8,17,1]
+ G  LB[8,18,0]
+ G  LB[8,18,1]
+ G  LB[9,0,0]
+ G  LB[9,0,1]
+ G  LB[9,1,0]
+ G  LB[9,1,1]
+ G  LB[9,2,0]
+ G  LB[9,2,1]
+ G  LB[9,3,0]
+ G  LB[9,3,1]
+ G  LB[9,4,0]
+ G  LB[9,4,1]
+ G  LB[9,5,0]
+ G  LB[9,5,1]
+ G  LB[9,6,0]
+ G  LB[9,6,1]
+ G  LB[9,7,0]
+ G  LB[9,7,1]
+ G  LB[9,8,0]
+ G  LB[9,8,1]
+ G  LB[9,10,0]
+ G  LB[9,10,1]
+ G  LB[9,11,0]
+ G  LB[9,11,1]
+ G  LB[9,12,0]
+ G  LB[9,12,1]
+ G  LB[9,13,0]
+ G  LB[9,13,1]
+ G  LB[9,14,0]
+ G  LB[9,14,1]
+ G  LB[9,15,0]
+ G  LB[9,15,1]
+ G  LB[9,16,0]
+ G  LB[9,16,1]
+ G  LB[9,17,0]
+ G  LB[9,17,1]
+ G  LB[9,18,0]
+ G  LB[9,18,1]
+ G  LB[10,0,0]
+ G  LB[10,0,1]
+ G  LB[10,1,0]
+ G  LB[10,1,1]
+ G  LB[10,2,0]
+ G  LB[10,2,1]
+ G  LB[10,3,0]
+ G  LB[10,3,1]
+ G  LB[10,4,0]
+ G  LB[10,4,1]
+ G  LB[10,5,0]
+ G  LB[10,5,1]
+ G  LB[10,6,0]
+ G  LB[10,6,1]
+ G  LB[10,7,0]
+ G  LB[10,7,1]
+ G  LB[10,8,0]
+ G  LB[10,8,1]
+ G  LB[10,9,0]
+ G  LB[10,9,1]
+ G  LB[10,11,0]
+ G  LB[10,11,1]
+ G  LB[10,12,0]
+ G  LB[10,12,1]
+ G  LB[10,13,0]
+ G  LB[10,13,1]
+ G  LB[10,14,0]
+ G  LB[10,14,1]
+ G  LB[10,15,0]
+ G  LB[10,15,1]
+ G  LB[10,16,0]
+ G  LB[10,16,1]
+ G  LB[10,17,0]
+ G  LB[10,17,1]
+ G  LB[10,18,0]
+ G  LB[10,18,1]
+ G  LB[11,0,0]
+ G  LB[11,0,1]
+ G  LB[11,1,0]
+ G  LB[11,1,1]
+ G  LB[11,2,0]
+ G  LB[11,2,1]
+ G  LB[11,3,0]
+ G  LB[11,3,1]
+ G  LB[11,4,0]
+ G  LB[11,4,1]
+ G  LB[11,5,0]
+ G  LB[11,5,1]
+ G  LB[11,6,0]
+ G  LB[11,6,1]
+ G  LB[11,7,0]
+ G  LB[11,7,1]
+ G  LB[11,8,0]
+ G  LB[11,8,1]
+ G  LB[11,9,0]
+ G  LB[11,9,1]
+ G  LB[11,10,0]
+ G  LB[11,10,1]
+ G  LB[11,12,0]
+ G  LB[11,12,1]
+ G  LB[11,13,0]
+ G  LB[11,13,1]
+ G  LB[11,14,0]
+ G  LB[11,14,1]
+ G  LB[11,15,0]
+ G  LB[11,15,1]
+ G  LB[11,16,0]
+ G  LB[11,16,1]
+ G  LB[11,17,0]
+ G  LB[11,17,1]
+ G  LB[11,18,0]
+ G  LB[11,18,1]
+ G  LB[12,0,0]
+ G  LB[12,0,1]
+ G  LB[12,1,0]
+ G  LB[12,1,1]
+ G  LB[12,2,0]
+ G  LB[12,2,1]
+ G  LB[12,3,0]
+ G  LB[12,3,1]
+ G  LB[12,4,0]
+ G  LB[12,4,1]
+ G  LB[12,5,0]
+ G  LB[12,5,1]
+ G  LB[12,6,0]
+ G  LB[12,6,1]
+ G  LB[12,7,0]
+ G  LB[12,7,1]
+ G  LB[12,8,0]
+ G  LB[12,8,1]
+ G  LB[12,9,0]
+ G  LB[12,9,1]
+ G  LB[12,10,0]
+ G  LB[12,10,1]
+ G  LB[12,11,0]
+ G  LB[12,11,1]
+ G  LB[12,13,0]
+ G  LB[12,13,1]
+ G  LB[12,14,0]
+ G  LB[12,14,1]
+ G  LB[12,15,0]
+ G  LB[12,15,1]
+ G  LB[12,16,0]
+ G  LB[12,16,1]
+ G  LB[12,17,0]
+ G  LB[12,17,1]
+ G  LB[12,18,0]
+ G  LB[12,18,1]
+ G  LB[13,0,0]
+ G  LB[13,0,1]
+ G  LB[13,1,0]
+ G  LB[13,1,1]
+ G  LB[13,2,0]
+ G  LB[13,2,1]
+ G  LB[13,3,0]
+ G  LB[13,3,1]
+ G  LB[13,4,0]
+ G  LB[13,4,1]
+ G  LB[13,5,0]
+ G  LB[13,5,1]
+ G  LB[13,6,0]
+ G  LB[13,6,1]
+ G  LB[13,7,0]
+ G  LB[13,7,1]
+ G  LB[13,8,0]
+ G  LB[13,8,1]
+ G  LB[13,9,0]
+ G  LB[13,9,1]
+ G  LB[13,10,0]
+ G  LB[13,10,1]
+ G  LB[13,11,0]
+ G  LB[13,11,1]
+ G  LB[13,12,0]
+ G  LB[13,12,1]
+ G  LB[13,14,0]
+ G  LB[13,14,1]
+ G  LB[13,15,0]
+ G  LB[13,15,1]
+ G  LB[13,16,0]
+ G  LB[13,16,1]
+ G  LB[13,17,0]
+ G  LB[13,17,1]
+ G  LB[13,18,0]
+ G  LB[13,18,1]
+ G  LB[14,0,0]
+ G  LB[14,0,1]
+ G  LB[14,1,0]
+ G  LB[14,1,1]
+ G  LB[14,2,0]
+ G  LB[14,2,1]
+ G  LB[14,3,0]
+ G  LB[14,3,1]
+ G  LB[14,4,0]
+ G  LB[14,4,1]
+ G  LB[14,5,0]
+ G  LB[14,5,1]
+ G  LB[14,6,0]
+ G  LB[14,6,1]
+ G  LB[14,7,0]
+ G  LB[14,7,1]
+ G  LB[14,8,0]
+ G  LB[14,8,1]
+ G  LB[14,9,0]
+ G  LB[14,9,1]
+ G  LB[14,10,0]
+ G  LB[14,10,1]
+ G  LB[14,11,0]
+ G  LB[14,11,1]
+ G  LB[14,12,0]
+ G  LB[14,12,1]
+ G  LB[14,13,0]
+ G  LB[14,13,1]
+ G  LB[14,15,0]
+ G  LB[14,15,1]
+ G  LB[14,16,0]
+ G  LB[14,16,1]
+ G  LB[14,17,0]
+ G  LB[14,17,1]
+ G  LB[14,18,0]
+ G  LB[14,18,1]
+ G  LB[15,0,0]
+ G  LB[15,0,1]
+ G  LB[15,1,0]
+ G  LB[15,1,1]
+ G  LB[15,2,0]
+ G  LB[15,2,1]
+ G  LB[15,3,0]
+ G  LB[15,3,1]
+ G  LB[15,4,0]
+ G  LB[15,4,1]
+ G  LB[15,5,0]
+ G  LB[15,5,1]
+ G  LB[15,6,0]
+ G  LB[15,6,1]
+ G  LB[15,7,0]
+ G  LB[15,7,1]
+ G  LB[15,8,0]
+ G  LB[15,8,1]
+ G  LB[15,9,0]
+ G  LB[15,9,1]
+ G  LB[15,10,0]
+ G  LB[15,10,1]
+ G  LB[15,11,0]
+ G  LB[15,11,1]
+ G  LB[15,12,0]
+ G  LB[15,12,1]
+ G  LB[15,13,0]
+ G  LB[15,13,1]
+ G  LB[15,14,0]
+ G  LB[15,14,1]
+ G  LB[15,16,0]
+ G  LB[15,16,1]
+ G  LB[15,17,0]
+ G  LB[15,17,1]
+ G  LB[15,18,0]
+ G  LB[15,18,1]
+ G  LB[16,0,0]
+ G  LB[16,0,1]
+ G  LB[16,1,0]
+ G  LB[16,1,1]
+ G  LB[16,2,0]
+ G  LB[16,2,1]
+ G  LB[16,3,0]
+ G  LB[16,3,1]
+ G  LB[16,4,0]
+ G  LB[16,4,1]
+ G  LB[16,5,0]
+ G  LB[16,5,1]
+ G  LB[16,6,0]
+ G  LB[16,6,1]
+ G  LB[16,7,0]
+ G  LB[16,7,1]
+ G  LB[16,8,0]
+ G  LB[16,8,1]
+ G  LB[16,9,0]
+ G  LB[16,9,1]
+ G  LB[16,10,0]
+ G  LB[16,10,1]
+ G  LB[16,11,0]
+ G  LB[16,11,1]
+ G  LB[16,12,0]
+ G  LB[16,12,1]
+ G  LB[16,13,0]
+ G  LB[16,13,1]
+ G  LB[16,14,0]
+ G  LB[16,14,1]
+ G  LB[16,15,0]
+ G  LB[16,15,1]
+ G  LB[16,17,0]
+ G  LB[16,17,1]
+ G  LB[16,18,0]
+ G  LB[16,18,1]
+ G  LB[17,0,0]
+ G  LB[17,0,1]
+ G  LB[17,1,0]
+ G  LB[17,1,1]
+ G  LB[17,2,0]
+ G  LB[17,2,1]
+ G  LB[17,3,0]
+ G  LB[17,3,1]
+ G  LB[17,4,0]
+ G  LB[17,4,1]
+ G  LB[17,5,0]
+ G  LB[17,5,1]
+ G  LB[17,6,0]
+ G  LB[17,6,1]
+ G  LB[17,7,0]
+ G  LB[17,7,1]
+ G  LB[17,8,0]
+ G  LB[17,8,1]
+ G  LB[17,9,0]
+ G  LB[17,9,1]
+ G  LB[17,10,0]
+ G  LB[17,10,1]
+ G  LB[17,11,0]
+ G  LB[17,11,1]
+ G  LB[17,12,0]
+ G  LB[17,12,1]
+ G  LB[17,13,0]
+ G  LB[17,13,1]
+ G  LB[17,14,0]
+ G  LB[17,14,1]
+ G  LB[17,15,0]
+ G  LB[17,15,1]
+ G  LB[17,16,0]
+ G  LB[17,16,1]
+ G  LB[17,18,0]
+ G  LB[17,18,1]
+ G  LB[18,0,0]
+ G  LB[18,0,1]
+ G  LB[18,1,0]
+ G  LB[18,1,1]
+ G  LB[18,2,0]
+ G  LB[18,2,1]
+ G  LB[18,3,0]
+ G  LB[18,3,1]
+ G  LB[18,4,0]
+ G  LB[18,4,1]
+ G  LB[18,5,0]
+ G  LB[18,5,1]
+ G  LB[18,6,0]
+ G  LB[18,6,1]
+ G  LB[18,7,0]
+ G  LB[18,7,1]
+ G  LB[18,8,0]
+ G  LB[18,8,1]
+ G  LB[18,9,0]
+ G  LB[18,9,1]
+ G  LB[18,10,0]
+ G  LB[18,10,1]
+ G  LB[18,11,0]
+ G  LB[18,11,1]
+ G  LB[18,12,0]
+ G  LB[18,12,1]
+ G  LB[18,13,0]
+ G  LB[18,13,1]
+ G  LB[18,14,0]
+ G  LB[18,14,1]
+ G  LB[18,15,0]
+ G  LB[18,15,1]
+ G  LB[18,16,0]
+ G  LB[18,16,1]
+ G  LB[18,17,0]
+ G  LB[18,17,1]
+ L  UB[0,1,0]
+ L  UB[0,1,1]
+ L  UB[0,2,0]
+ L  UB[0,2,1]
+ L  UB[0,3,0]
+ L  UB[0,3,1]
+ L  UB[0,4,0]
+ L  UB[0,4,1]
+ L  UB[0,5,0]
+ L  UB[0,5,1]
+ L  UB[0,6,0]
+ L  UB[0,6,1]
+ L  UB[0,7,0]
+ L  UB[0,7,1]
+ L  UB[0,8,0]
+ L  UB[0,8,1]
+ L  UB[0,9,0]
+ L  UB[0,9,1]
+ L  UB[0,10,0]
+ L  UB[0,10,1]
+ L  UB[0,11,0]
+ L  UB[0,11,1]
+ L  UB[0,12,0]
+ L  UB[0,12,1]
+ L  UB[0,13,0]
+ L  UB[0,13,1]
+ L  UB[0,14,0]
+ L  UB[0,14,1]
+ L  UB[0,15,0]
+ L  UB[0,15,1]
+ L  UB[0,16,0]
+ L  UB[0,16,1]
+ L  UB[0,17,0]
+ L  UB[0,17,1]
+ L  UB[0,18,0]
+ L  UB[0,18,1]
+ L  UB[1,0,0]
+ L  UB[1,0,1]
+ L  UB[1,2,0]
+ L  UB[1,2,1]
+ L  UB[1,3,0]
+ L  UB[1,3,1]
+ L  UB[1,4,0]
+ L  UB[1,4,1]
+ L  UB[1,5,0]
+ L  UB[1,5,1]
+ L  UB[1,6,0]
+ L  UB[1,6,1]
+ L  UB[1,7,0]
+ L  UB[1,7,1]
+ L  UB[1,8,0]
+ L  UB[1,8,1]
+ L  UB[1,9,0]
+ L  UB[1,9,1]
+ L  UB[1,10,0]
+ L  UB[1,10,1]
+ L  UB[1,11,0]
+ L  UB[1,11,1]
+ L  UB[1,12,0]
+ L  UB[1,12,1]
+ L  UB[1,13,0]
+ L  UB[1,13,1]
+ L  UB[1,14,0]
+ L  UB[1,14,1]
+ L  UB[1,15,0]
+ L  UB[1,15,1]
+ L  UB[1,16,0]
+ L  UB[1,16,1]
+ L  UB[1,17,0]
+ L  UB[1,17,1]
+ L  UB[1,18,0]
+ L  UB[1,18,1]
+ L  UB[2,0,0]
+ L  UB[2,0,1]
+ L  UB[2,1,0]
+ L  UB[2,1,1]
+ L  UB[2,3,0]
+ L  UB[2,3,1]
+ L  UB[2,4,0]
+ L  UB[2,4,1]
+ L  UB[2,5,0]
+ L  UB[2,5,1]
+ L  UB[2,6,0]
+ L  UB[2,6,1]
+ L  UB[2,7,0]
+ L  UB[2,7,1]
+ L  UB[2,8,0]
+ L  UB[2,8,1]
+ L  UB[2,9,0]
+ L  UB[2,9,1]
+ L  UB[2,10,0]
+ L  UB[2,10,1]
+ L  UB[2,11,0]
+ L  UB[2,11,1]
+ L  UB[2,12,0]
+ L  UB[2,12,1]
+ L  UB[2,13,0]
+ L  UB[2,13,1]
+ L  UB[2,14,0]
+ L  UB[2,14,1]
+ L  UB[2,15,0]
+ L  UB[2,15,1]
+ L  UB[2,16,0]
+ L  UB[2,16,1]
+ L  UB[2,17,0]
+ L  UB[2,17,1]
+ L  UB[2,18,0]
+ L  UB[2,18,1]
+ L  UB[3,0,0]
+ L  UB[3,0,1]
+ L  UB[3,1,0]
+ L  UB[3,1,1]
+ L  UB[3,2,0]
+ L  UB[3,2,1]
+ L  UB[3,4,0]
+ L  UB[3,4,1]
+ L  UB[3,5,0]
+ L  UB[3,5,1]
+ L  UB[3,6,0]
+ L  UB[3,6,1]
+ L  UB[3,7,0]
+ L  UB[3,7,1]
+ L  UB[3,8,0]
+ L  UB[3,8,1]
+ L  UB[3,9,0]
+ L  UB[3,9,1]
+ L  UB[3,10,0]
+ L  UB[3,10,1]
+ L  UB[3,11,0]
+ L  UB[3,11,1]
+ L  UB[3,12,0]
+ L  UB[3,12,1]
+ L  UB[3,13,0]
+ L  UB[3,13,1]
+ L  UB[3,14,0]
+ L  UB[3,14,1]
+ L  UB[3,15,0]
+ L  UB[3,15,1]
+ L  UB[3,16,0]
+ L  UB[3,16,1]
+ L  UB[3,17,0]
+ L  UB[3,17,1]
+ L  UB[3,18,0]
+ L  UB[3,18,1]
+ L  UB[4,0,0]
+ L  UB[4,0,1]
+ L  UB[4,1,0]
+ L  UB[4,1,1]
+ L  UB[4,2,0]
+ L  UB[4,2,1]
+ L  UB[4,3,0]
+ L  UB[4,3,1]
+ L  UB[4,5,0]
+ L  UB[4,5,1]
+ L  UB[4,6,0]
+ L  UB[4,6,1]
+ L  UB[4,7,0]
+ L  UB[4,7,1]
+ L  UB[4,8,0]
+ L  UB[4,8,1]
+ L  UB[4,9,0]
+ L  UB[4,9,1]
+ L  UB[4,10,0]
+ L  UB[4,10,1]
+ L  UB[4,11,0]
+ L  UB[4,11,1]
+ L  UB[4,12,0]
+ L  UB[4,12,1]
+ L  UB[4,13,0]
+ L  UB[4,13,1]
+ L  UB[4,14,0]
+ L  UB[4,14,1]
+ L  UB[4,15,0]
+ L  UB[4,15,1]
+ L  UB[4,16,0]
+ L  UB[4,16,1]
+ L  UB[4,17,0]
+ L  UB[4,17,1]
+ L  UB[4,18,0]
+ L  UB[4,18,1]
+ L  UB[5,0,0]
+ L  UB[5,0,1]
+ L  UB[5,1,0]
+ L  UB[5,1,1]
+ L  UB[5,2,0]
+ L  UB[5,2,1]
+ L  UB[5,3,0]
+ L  UB[5,3,1]
+ L  UB[5,4,0]
+ L  UB[5,4,1]
+ L  UB[5,6,0]
+ L  UB[5,6,1]
+ L  UB[5,7,0]
+ L  UB[5,7,1]
+ L  UB[5,8,0]
+ L  UB[5,8,1]
+ L  UB[5,9,0]
+ L  UB[5,9,1]
+ L  UB[5,10,0]
+ L  UB[5,10,1]
+ L  UB[5,11,0]
+ L  UB[5,11,1]
+ L  UB[5,12,0]
+ L  UB[5,12,1]
+ L  UB[5,13,0]
+ L  UB[5,13,1]
+ L  UB[5,14,0]
+ L  UB[5,14,1]
+ L  UB[5,15,0]
+ L  UB[5,15,1]
+ L  UB[5,16,0]
+ L  UB[5,16,1]
+ L  UB[5,17,0]
+ L  UB[5,17,1]
+ L  UB[5,18,0]
+ L  UB[5,18,1]
+ L  UB[6,0,0]
+ L  UB[6,0,1]
+ L  UB[6,1,0]
+ L  UB[6,1,1]
+ L  UB[6,2,0]
+ L  UB[6,2,1]
+ L  UB[6,3,0]
+ L  UB[6,3,1]
+ L  UB[6,4,0]
+ L  UB[6,4,1]
+ L  UB[6,5,0]
+ L  UB[6,5,1]
+ L  UB[6,7,0]
+ L  UB[6,7,1]
+ L  UB[6,8,0]
+ L  UB[6,8,1]
+ L  UB[6,9,0]
+ L  UB[6,9,1]
+ L  UB[6,10,0]
+ L  UB[6,10,1]
+ L  UB[6,11,0]
+ L  UB[6,11,1]
+ L  UB[6,12,0]
+ L  UB[6,12,1]
+ L  UB[6,13,0]
+ L  UB[6,13,1]
+ L  UB[6,14,0]
+ L  UB[6,14,1]
+ L  UB[6,15,0]
+ L  UB[6,15,1]
+ L  UB[6,16,0]
+ L  UB[6,16,1]
+ L  UB[6,17,0]
+ L  UB[6,17,1]
+ L  UB[6,18,0]
+ L  UB[6,18,1]
+ L  UB[7,0,0]
+ L  UB[7,0,1]
+ L  UB[7,1,0]
+ L  UB[7,1,1]
+ L  UB[7,2,0]
+ L  UB[7,2,1]
+ L  UB[7,3,0]
+ L  UB[7,3,1]
+ L  UB[7,4,0]
+ L  UB[7,4,1]
+ L  UB[7,5,0]
+ L  UB[7,5,1]
+ L  UB[7,6,0]
+ L  UB[7,6,1]
+ L  UB[7,8,0]
+ L  UB[7,8,1]
+ L  UB[7,9,0]
+ L  UB[7,9,1]
+ L  UB[7,10,0]
+ L  UB[7,10,1]
+ L  UB[7,11,0]
+ L  UB[7,11,1]
+ L  UB[7,12,0]
+ L  UB[7,12,1]
+ L  UB[7,13,0]
+ L  UB[7,13,1]
+ L  UB[7,14,0]
+ L  UB[7,14,1]
+ L  UB[7,15,0]
+ L  UB[7,15,1]
+ L  UB[7,16,0]
+ L  UB[7,16,1]
+ L  UB[7,17,0]
+ L  UB[7,17,1]
+ L  UB[7,18,0]
+ L  UB[7,18,1]
+ L  UB[8,0,0]
+ L  UB[8,0,1]
+ L  UB[8,1,0]
+ L  UB[8,1,1]
+ L  UB[8,2,0]
+ L  UB[8,2,1]
+ L  UB[8,3,0]
+ L  UB[8,3,1]
+ L  UB[8,4,0]
+ L  UB[8,4,1]
+ L  UB[8,5,0]
+ L  UB[8,5,1]
+ L  UB[8,6,0]
+ L  UB[8,6,1]
+ L  UB[8,7,0]
+ L  UB[8,7,1]
+ L  UB[8,9,0]
+ L  UB[8,9,1]
+ L  UB[8,10,0]
+ L  UB[8,10,1]
+ L  UB[8,11,0]
+ L  UB[8,11,1]
+ L  UB[8,12,0]
+ L  UB[8,12,1]
+ L  UB[8,13,0]
+ L  UB[8,13,1]
+ L  UB[8,14,0]
+ L  UB[8,14,1]
+ L  UB[8,15,0]
+ L  UB[8,15,1]
+ L  UB[8,16,0]
+ L  UB[8,16,1]
+ L  UB[8,17,0]
+ L  UB[8,17,1]
+ L  UB[8,18,0]
+ L  UB[8,18,1]
+ L  UB[9,0,0]
+ L  UB[9,0,1]
+ L  UB[9,1,0]
+ L  UB[9,1,1]
+ L  UB[9,2,0]
+ L  UB[9,2,1]
+ L  UB[9,3,0]
+ L  UB[9,3,1]
+ L  UB[9,4,0]
+ L  UB[9,4,1]
+ L  UB[9,5,0]
+ L  UB[9,5,1]
+ L  UB[9,6,0]
+ L  UB[9,6,1]
+ L  UB[9,7,0]
+ L  UB[9,7,1]
+ L  UB[9,8,0]
+ L  UB[9,8,1]
+ L  UB[9,10,0]
+ L  UB[9,10,1]
+ L  UB[9,11,0]
+ L  UB[9,11,1]
+ L  UB[9,12,0]
+ L  UB[9,12,1]
+ L  UB[9,13,0]
+ L  UB[9,13,1]
+ L  UB[9,14,0]
+ L  UB[9,14,1]
+ L  UB[9,15,0]
+ L  UB[9,15,1]
+ L  UB[9,16,0]
+ L  UB[9,16,1]
+ L  UB[9,17,0]
+ L  UB[9,17,1]
+ L  UB[9,18,0]
+ L  UB[9,18,1]
+ L  UB[10,0,0]
+ L  UB[10,0,1]
+ L  UB[10,1,0]
+ L  UB[10,1,1]
+ L  UB[10,2,0]
+ L  UB[10,2,1]
+ L  UB[10,3,0]
+ L  UB[10,3,1]
+ L  UB[10,4,0]
+ L  UB[10,4,1]
+ L  UB[10,5,0]
+ L  UB[10,5,1]
+ L  UB[10,6,0]
+ L  UB[10,6,1]
+ L  UB[10,7,0]
+ L  UB[10,7,1]
+ L  UB[10,8,0]
+ L  UB[10,8,1]
+ L  UB[10,9,0]
+ L  UB[10,9,1]
+ L  UB[10,11,0]
+ L  UB[10,11,1]
+ L  UB[10,12,0]
+ L  UB[10,12,1]
+ L  UB[10,13,0]
+ L  UB[10,13,1]
+ L  UB[10,14,0]
+ L  UB[10,14,1]
+ L  UB[10,15,0]
+ L  UB[10,15,1]
+ L  UB[10,16,0]
+ L  UB[10,16,1]
+ L  UB[10,17,0]
+ L  UB[10,17,1]
+ L  UB[10,18,0]
+ L  UB[10,18,1]
+ L  UB[11,0,0]
+ L  UB[11,0,1]
+ L  UB[11,1,0]
+ L  UB[11,1,1]
+ L  UB[11,2,0]
+ L  UB[11,2,1]
+ L  UB[11,3,0]
+ L  UB[11,3,1]
+ L  UB[11,4,0]
+ L  UB[11,4,1]
+ L  UB[11,5,0]
+ L  UB[11,5,1]
+ L  UB[11,6,0]
+ L  UB[11,6,1]
+ L  UB[11,7,0]
+ L  UB[11,7,1]
+ L  UB[11,8,0]
+ L  UB[11,8,1]
+ L  UB[11,9,0]
+ L  UB[11,9,1]
+ L  UB[11,10,0]
+ L  UB[11,10,1]
+ L  UB[11,12,0]
+ L  UB[11,12,1]
+ L  UB[11,13,0]
+ L  UB[11,13,1]
+ L  UB[11,14,0]
+ L  UB[11,14,1]
+ L  UB[11,15,0]
+ L  UB[11,15,1]
+ L  UB[11,16,0]
+ L  UB[11,16,1]
+ L  UB[11,17,0]
+ L  UB[11,17,1]
+ L  UB[11,18,0]
+ L  UB[11,18,1]
+ L  UB[12,0,0]
+ L  UB[12,0,1]
+ L  UB[12,1,0]
+ L  UB[12,1,1]
+ L  UB[12,2,0]
+ L  UB[12,2,1]
+ L  UB[12,3,0]
+ L  UB[12,3,1]
+ L  UB[12,4,0]
+ L  UB[12,4,1]
+ L  UB[12,5,0]
+ L  UB[12,5,1]
+ L  UB[12,6,0]
+ L  UB[12,6,1]
+ L  UB[12,7,0]
+ L  UB[12,7,1]
+ L  UB[12,8,0]
+ L  UB[12,8,1]
+ L  UB[12,9,0]
+ L  UB[12,9,1]
+ L  UB[12,10,0]
+ L  UB[12,10,1]
+ L  UB[12,11,0]
+ L  UB[12,11,1]
+ L  UB[12,13,0]
+ L  UB[12,13,1]
+ L  UB[12,14,0]
+ L  UB[12,14,1]
+ L  UB[12,15,0]
+ L  UB[12,15,1]
+ L  UB[12,16,0]
+ L  UB[12,16,1]
+ L  UB[12,17,0]
+ L  UB[12,17,1]
+ L  UB[12,18,0]
+ L  UB[12,18,1]
+ L  UB[13,0,0]
+ L  UB[13,0,1]
+ L  UB[13,1,0]
+ L  UB[13,1,1]
+ L  UB[13,2,0]
+ L  UB[13,2,1]
+ L  UB[13,3,0]
+ L  UB[13,3,1]
+ L  UB[13,4,0]
+ L  UB[13,4,1]
+ L  UB[13,5,0]
+ L  UB[13,5,1]
+ L  UB[13,6,0]
+ L  UB[13,6,1]
+ L  UB[13,7,0]
+ L  UB[13,7,1]
+ L  UB[13,8,0]
+ L  UB[13,8,1]
+ L  UB[13,9,0]
+ L  UB[13,9,1]
+ L  UB[13,10,0]
+ L  UB[13,10,1]
+ L  UB[13,11,0]
+ L  UB[13,11,1]
+ L  UB[13,12,0]
+ L  UB[13,12,1]
+ L  UB[13,14,0]
+ L  UB[13,14,1]
+ L  UB[13,15,0]
+ L  UB[13,15,1]
+ L  UB[13,16,0]
+ L  UB[13,16,1]
+ L  UB[13,17,0]
+ L  UB[13,17,1]
+ L  UB[13,18,0]
+ L  UB[13,18,1]
+ L  UB[14,0,0]
+ L  UB[14,0,1]
+ L  UB[14,1,0]
+ L  UB[14,1,1]
+ L  UB[14,2,0]
+ L  UB[14,2,1]
+ L  UB[14,3,0]
+ L  UB[14,3,1]
+ L  UB[14,4,0]
+ L  UB[14,4,1]
+ L  UB[14,5,0]
+ L  UB[14,5,1]
+ L  UB[14,6,0]
+ L  UB[14,6,1]
+ L  UB[14,7,0]
+ L  UB[14,7,1]
+ L  UB[14,8,0]
+ L  UB[14,8,1]
+ L  UB[14,9,0]
+ L  UB[14,9,1]
+ L  UB[14,10,0]
+ L  UB[14,10,1]
+ L  UB[14,11,0]
+ L  UB[14,11,1]
+ L  UB[14,12,0]
+ L  UB[14,12,1]
+ L  UB[14,13,0]
+ L  UB[14,13,1]
+ L  UB[14,15,0]
+ L  UB[14,15,1]
+ L  UB[14,16,0]
+ L  UB[14,16,1]
+ L  UB[14,17,0]
+ L  UB[14,17,1]
+ L  UB[14,18,0]
+ L  UB[14,18,1]
+ L  UB[15,0,0]
+ L  UB[15,0,1]
+ L  UB[15,1,0]
+ L  UB[15,1,1]
+ L  UB[15,2,0]
+ L  UB[15,2,1]
+ L  UB[15,3,0]
+ L  UB[15,3,1]
+ L  UB[15,4,0]
+ L  UB[15,4,1]
+ L  UB[15,5,0]
+ L  UB[15,5,1]
+ L  UB[15,6,0]
+ L  UB[15,6,1]
+ L  UB[15,7,0]
+ L  UB[15,7,1]
+ L  UB[15,8,0]
+ L  UB[15,8,1]
+ L  UB[15,9,0]
+ L  UB[15,9,1]
+ L  UB[15,10,0]
+ L  UB[15,10,1]
+ L  UB[15,11,0]
+ L  UB[15,11,1]
+ L  UB[15,12,0]
+ L  UB[15,12,1]
+ L  UB[15,13,0]
+ L  UB[15,13,1]
+ L  UB[15,14,0]
+ L  UB[15,14,1]
+ L  UB[15,16,0]
+ L  UB[15,16,1]
+ L  UB[15,17,0]
+ L  UB[15,17,1]
+ L  UB[15,18,0]
+ L  UB[15,18,1]
+ L  UB[16,0,0]
+ L  UB[16,0,1]
+ L  UB[16,1,0]
+ L  UB[16,1,1]
+ L  UB[16,2,0]
+ L  UB[16,2,1]
+ L  UB[16,3,0]
+ L  UB[16,3,1]
+ L  UB[16,4,0]
+ L  UB[16,4,1]
+ L  UB[16,5,0]
+ L  UB[16,5,1]
+ L  UB[16,6,0]
+ L  UB[16,6,1]
+ L  UB[16,7,0]
+ L  UB[16,7,1]
+ L  UB[16,8,0]
+ L  UB[16,8,1]
+ L  UB[16,9,0]
+ L  UB[16,9,1]
+ L  UB[16,10,0]
+ L  UB[16,10,1]
+ L  UB[16,11,0]
+ L  UB[16,11,1]
+ L  UB[16,12,0]
+ L  UB[16,12,1]
+ L  UB[16,13,0]
+ L  UB[16,13,1]
+ L  UB[16,14,0]
+ L  UB[16,14,1]
+ L  UB[16,15,0]
+ L  UB[16,15,1]
+ L  UB[16,17,0]
+ L  UB[16,17,1]
+ L  UB[16,18,0]
+ L  UB[16,18,1]
+ L  UB[17,0,0]
+ L  UB[17,0,1]
+ L  UB[17,1,0]
+ L  UB[17,1,1]
+ L  UB[17,2,0]
+ L  UB[17,2,1]
+ L  UB[17,3,0]
+ L  UB[17,3,1]
+ L  UB[17,4,0]
+ L  UB[17,4,1]
+ L  UB[17,5,0]
+ L  UB[17,5,1]
+ L  UB[17,6,0]
+ L  UB[17,6,1]
+ L  UB[17,7,0]
+ L  UB[17,7,1]
+ L  UB[17,8,0]
+ L  UB[17,8,1]
+ L  UB[17,9,0]
+ L  UB[17,9,1]
+ L  UB[17,10,0]
+ L  UB[17,10,1]
+ L  UB[17,11,0]
+ L  UB[17,11,1]
+ L  UB[17,12,0]
+ L  UB[17,12,1]
+ L  UB[17,13,0]
+ L  UB[17,13,1]
+ L  UB[17,14,0]
+ L  UB[17,14,1]
+ L  UB[17,15,0]
+ L  UB[17,15,1]
+ L  UB[17,16,0]
+ L  UB[17,16,1]
+ L  UB[17,18,0]
+ L  UB[17,18,1]
+ L  UB[18,0,0]
+ L  UB[18,0,1]
+ L  UB[18,1,0]
+ L  UB[18,1,1]
+ L  UB[18,2,0]
+ L  UB[18,2,1]
+ L  UB[18,3,0]
+ L  UB[18,3,1]
+ L  UB[18,4,0]
+ L  UB[18,4,1]
+ L  UB[18,5,0]
+ L  UB[18,5,1]
+ L  UB[18,6,0]
+ L  UB[18,6,1]
+ L  UB[18,7,0]
+ L  UB[18,7,1]
+ L  UB[18,8,0]
+ L  UB[18,8,1]
+ L  UB[18,9,0]
+ L  UB[18,9,1]
+ L  UB[18,10,0]
+ L  UB[18,10,1]
+ L  UB[18,11,0]
+ L  UB[18,11,1]
+ L  UB[18,12,0]
+ L  UB[18,12,1]
+ L  UB[18,13,0]
+ L  UB[18,13,1]
+ L  UB[18,14,0]
+ L  UB[18,14,1]
+ L  UB[18,15,0]
+ L  UB[18,15,1]
+ L  UB[18,16,0]
+ L  UB[18,16,1]
+ L  UB[18,17,0]
+ L  UB[18,17,1]
+ G  PM[0,1,0]
+ G  PM[0,1,1]
+ G  PM[0,2,0]
+ G  PM[0,2,1]
+ G  PM[0,3,0]
+ G  PM[0,3,1]
+ G  PM[0,4,0]
+ G  PM[0,4,1]
+ G  PM[0,5,0]
+ G  PM[0,5,1]
+ G  PM[0,6,0]
+ G  PM[0,6,1]
+ G  PM[0,7,0]
+ G  PM[0,7,1]
+ G  PM[0,8,0]
+ G  PM[0,8,1]
+ G  PM[0,9,0]
+ G  PM[0,9,1]
+ G  PM[0,10,0]
+ G  PM[0,10,1]
+ G  PM[0,11,0]
+ G  PM[0,11,1]
+ G  PM[0,12,0]
+ G  PM[0,12,1]
+ G  PM[0,13,0]
+ G  PM[0,13,1]
+ G  PM[0,14,0]
+ G  PM[0,14,1]
+ G  PM[0,15,0]
+ G  PM[0,15,1]
+ G  PM[0,16,0]
+ G  PM[0,16,1]
+ G  PM[0,17,0]
+ G  PM[0,17,1]
+ G  PM[0,18,0]
+ G  PM[0,18,1]
+ G  PM[1,0,0]
+ G  PM[1,0,1]
+ G  PM[1,2,0]
+ G  PM[1,2,1]
+ G  PM[1,3,0]
+ G  PM[1,3,1]
+ G  PM[1,4,0]
+ G  PM[1,4,1]
+ G  PM[1,5,0]
+ G  PM[1,5,1]
+ G  PM[1,6,0]
+ G  PM[1,6,1]
+ G  PM[1,7,0]
+ G  PM[1,7,1]
+ G  PM[1,8,0]
+ G  PM[1,8,1]
+ G  PM[1,9,0]
+ G  PM[1,9,1]
+ G  PM[1,10,0]
+ G  PM[1,10,1]
+ G  PM[1,11,0]
+ G  PM[1,11,1]
+ G  PM[1,12,0]
+ G  PM[1,12,1]
+ G  PM[1,13,0]
+ G  PM[1,13,1]
+ G  PM[1,14,0]
+ G  PM[1,14,1]
+ G  PM[1,15,0]
+ G  PM[1,15,1]
+ G  PM[1,16,0]
+ G  PM[1,16,1]
+ G  PM[1,17,0]
+ G  PM[1,17,1]
+ G  PM[1,18,0]
+ G  PM[1,18,1]
+ G  PM[2,0,0]
+ G  PM[2,0,1]
+ G  PM[2,1,0]
+ G  PM[2,1,1]
+ G  PM[2,3,0]
+ G  PM[2,3,1]
+ G  PM[2,4,0]
+ G  PM[2,4,1]
+ G  PM[2,5,0]
+ G  PM[2,5,1]
+ G  PM[2,6,0]
+ G  PM[2,6,1]
+ G  PM[2,7,0]
+ G  PM[2,7,1]
+ G  PM[2,8,0]
+ G  PM[2,8,1]
+ G  PM[2,9,0]
+ G  PM[2,9,1]
+ G  PM[2,10,0]
+ G  PM[2,10,1]
+ G  PM[2,11,0]
+ G  PM[2,11,1]
+ G  PM[2,12,0]
+ G  PM[2,12,1]
+ G  PM[2,13,0]
+ G  PM[2,13,1]
+ G  PM[2,14,0]
+ G  PM[2,14,1]
+ G  PM[2,15,0]
+ G  PM[2,15,1]
+ G  PM[2,16,0]
+ G  PM[2,16,1]
+ G  PM[2,17,0]
+ G  PM[2,17,1]
+ G  PM[2,18,0]
+ G  PM[2,18,1]
+ G  PM[3,0,0]
+ G  PM[3,0,1]
+ G  PM[3,1,0]
+ G  PM[3,1,1]
+ G  PM[3,2,0]
+ G  PM[3,2,1]
+ G  PM[3,4,0]
+ G  PM[3,4,1]
+ G  PM[3,5,0]
+ G  PM[3,5,1]
+ G  PM[3,6,0]
+ G  PM[3,6,1]
+ G  PM[3,7,0]
+ G  PM[3,7,1]
+ G  PM[3,8,0]
+ G  PM[3,8,1]
+ G  PM[3,9,0]
+ G  PM[3,9,1]
+ G  PM[3,10,0]
+ G  PM[3,10,1]
+ G  PM[3,11,0]
+ G  PM[3,11,1]
+ G  PM[3,12,0]
+ G  PM[3,12,1]
+ G  PM[3,13,0]
+ G  PM[3,13,1]
+ G  PM[3,14,0]
+ G  PM[3,14,1]
+ G  PM[3,15,0]
+ G  PM[3,15,1]
+ G  PM[3,16,0]
+ G  PM[3,16,1]
+ G  PM[3,17,0]
+ G  PM[3,17,1]
+ G  PM[3,18,0]
+ G  PM[3,18,1]
+ G  PM[4,0,0]
+ G  PM[4,0,1]
+ G  PM[4,1,0]
+ G  PM[4,1,1]
+ G  PM[4,2,0]
+ G  PM[4,2,1]
+ G  PM[4,3,0]
+ G  PM[4,3,1]
+ G  PM[4,5,0]
+ G  PM[4,5,1]
+ G  PM[4,6,0]
+ G  PM[4,6,1]
+ G  PM[4,7,0]
+ G  PM[4,7,1]
+ G  PM[4,8,0]
+ G  PM[4,8,1]
+ G  PM[4,9,0]
+ G  PM[4,9,1]
+ G  PM[4,10,0]
+ G  PM[4,10,1]
+ G  PM[4,11,0]
+ G  PM[4,11,1]
+ G  PM[4,12,0]
+ G  PM[4,12,1]
+ G  PM[4,13,0]
+ G  PM[4,13,1]
+ G  PM[4,14,0]
+ G  PM[4,14,1]
+ G  PM[4,15,0]
+ G  PM[4,15,1]
+ G  PM[4,16,0]
+ G  PM[4,16,1]
+ G  PM[4,17,0]
+ G  PM[4,17,1]
+ G  PM[4,18,0]
+ G  PM[4,18,1]
+ G  PM[5,0,0]
+ G  PM[5,0,1]
+ G  PM[5,1,0]
+ G  PM[5,1,1]
+ G  PM[5,2,0]
+ G  PM[5,2,1]
+ G  PM[5,3,0]
+ G  PM[5,3,1]
+ G  PM[5,4,0]
+ G  PM[5,4,1]
+ G  PM[5,6,0]
+ G  PM[5,6,1]
+ G  PM[5,7,0]
+ G  PM[5,7,1]
+ G  PM[5,8,0]
+ G  PM[5,8,1]
+ G  PM[5,9,0]
+ G  PM[5,9,1]
+ G  PM[5,10,0]
+ G  PM[5,10,1]
+ G  PM[5,11,0]
+ G  PM[5,11,1]
+ G  PM[5,12,0]
+ G  PM[5,12,1]
+ G  PM[5,13,0]
+ G  PM[5,13,1]
+ G  PM[5,14,0]
+ G  PM[5,14,1]
+ G  PM[5,15,0]
+ G  PM[5,15,1]
+ G  PM[5,16,0]
+ G  PM[5,16,1]
+ G  PM[5,17,0]
+ G  PM[5,17,1]
+ G  PM[5,18,0]
+ G  PM[5,18,1]
+ G  PM[6,0,0]
+ G  PM[6,0,1]
+ G  PM[6,1,0]
+ G  PM[6,1,1]
+ G  PM[6,2,0]
+ G  PM[6,2,1]
+ G  PM[6,3,0]
+ G  PM[6,3,1]
+ G  PM[6,4,0]
+ G  PM[6,4,1]
+ G  PM[6,5,0]
+ G  PM[6,5,1]
+ G  PM[6,7,0]
+ G  PM[6,7,1]
+ G  PM[6,8,0]
+ G  PM[6,8,1]
+ G  PM[6,9,0]
+ G  PM[6,9,1]
+ G  PM[6,10,0]
+ G  PM[6,10,1]
+ G  PM[6,11,0]
+ G  PM[6,11,1]
+ G  PM[6,12,0]
+ G  PM[6,12,1]
+ G  PM[6,13,0]
+ G  PM[6,13,1]
+ G  PM[6,14,0]
+ G  PM[6,14,1]
+ G  PM[6,15,0]
+ G  PM[6,15,1]
+ G  PM[6,16,0]
+ G  PM[6,16,1]
+ G  PM[6,17,0]
+ G  PM[6,17,1]
+ G  PM[6,18,0]
+ G  PM[6,18,1]
+ G  PM[7,0,0]
+ G  PM[7,0,1]
+ G  PM[7,1,0]
+ G  PM[7,1,1]
+ G  PM[7,2,0]
+ G  PM[7,2,1]
+ G  PM[7,3,0]
+ G  PM[7,3,1]
+ G  PM[7,4,0]
+ G  PM[7,4,1]
+ G  PM[7,5,0]
+ G  PM[7,5,1]
+ G  PM[7,6,0]
+ G  PM[7,6,1]
+ G  PM[7,8,0]
+ G  PM[7,8,1]
+ G  PM[7,9,0]
+ G  PM[7,9,1]
+ G  PM[7,10,0]
+ G  PM[7,10,1]
+ G  PM[7,11,0]
+ G  PM[7,11,1]
+ G  PM[7,12,0]
+ G  PM[7,12,1]
+ G  PM[7,13,0]
+ G  PM[7,13,1]
+ G  PM[7,14,0]
+ G  PM[7,14,1]
+ G  PM[7,15,0]
+ G  PM[7,15,1]
+ G  PM[7,16,0]
+ G  PM[7,16,1]
+ G  PM[7,17,0]
+ G  PM[7,17,1]
+ G  PM[7,18,0]
+ G  PM[7,18,1]
+ G  PM[8,0,0]
+ G  PM[8,0,1]
+ G  PM[8,1,0]
+ G  PM[8,1,1]
+ G  PM[8,2,0]
+ G  PM[8,2,1]
+ G  PM[8,3,0]
+ G  PM[8,3,1]
+ G  PM[8,4,0]
+ G  PM[8,4,1]
+ G  PM[8,5,0]
+ G  PM[8,5,1]
+ G  PM[8,6,0]
+ G  PM[8,6,1]
+ G  PM[8,7,0]
+ G  PM[8,7,1]
+ G  PM[8,9,0]
+ G  PM[8,9,1]
+ G  PM[8,10,0]
+ G  PM[8,10,1]
+ G  PM[8,11,0]
+ G  PM[8,11,1]
+ G  PM[8,12,0]
+ G  PM[8,12,1]
+ G  PM[8,13,0]
+ G  PM[8,13,1]
+ G  PM[8,14,0]
+ G  PM[8,14,1]
+ G  PM[8,15,0]
+ G  PM[8,15,1]
+ G  PM[8,16,0]
+ G  PM[8,16,1]
+ G  PM[8,17,0]
+ G  PM[8,17,1]
+ G  PM[8,18,0]
+ G  PM[8,18,1]
+ G  PM[9,0,0]
+ G  PM[9,0,1]
+ G  PM[9,1,0]
+ G  PM[9,1,1]
+ G  PM[9,2,0]
+ G  PM[9,2,1]
+ G  PM[9,3,0]
+ G  PM[9,3,1]
+ G  PM[9,4,0]
+ G  PM[9,4,1]
+ G  PM[9,5,0]
+ G  PM[9,5,1]
+ G  PM[9,6,0]
+ G  PM[9,6,1]
+ G  PM[9,7,0]
+ G  PM[9,7,1]
+ G  PM[9,8,0]
+ G  PM[9,8,1]
+ G  PM[9,10,0]
+ G  PM[9,10,1]
+ G  PM[9,11,0]
+ G  PM[9,11,1]
+ G  PM[9,12,0]
+ G  PM[9,12,1]
+ G  PM[9,13,0]
+ G  PM[9,13,1]
+ G  PM[9,14,0]
+ G  PM[9,14,1]
+ G  PM[9,15,0]
+ G  PM[9,15,1]
+ G  PM[9,16,0]
+ G  PM[9,16,1]
+ G  PM[9,17,0]
+ G  PM[9,17,1]
+ G  PM[9,18,0]
+ G  PM[9,18,1]
+ G  PM[10,0,0]
+ G  PM[10,0,1]
+ G  PM[10,1,0]
+ G  PM[10,1,1]
+ G  PM[10,2,0]
+ G  PM[10,2,1]
+ G  PM[10,3,0]
+ G  PM[10,3,1]
+ G  PM[10,4,0]
+ G  PM[10,4,1]
+ G  PM[10,5,0]
+ G  PM[10,5,1]
+ G  PM[10,6,0]
+ G  PM[10,6,1]
+ G  PM[10,7,0]
+ G  PM[10,7,1]
+ G  PM[10,8,0]
+ G  PM[10,8,1]
+ G  PM[10,9,0]
+ G  PM[10,9,1]
+ G  PM[10,11,0]
+ G  PM[10,11,1]
+ G  PM[10,12,0]
+ G  PM[10,12,1]
+ G  PM[10,13,0]
+ G  PM[10,13,1]
+ G  PM[10,14,0]
+ G  PM[10,14,1]
+ G  PM[10,15,0]
+ G  PM[10,15,1]
+ G  PM[10,16,0]
+ G  PM[10,16,1]
+ G  PM[10,17,0]
+ G  PM[10,17,1]
+ G  PM[10,18,0]
+ G  PM[10,18,1]
+ G  PM[11,0,0]
+ G  PM[11,0,1]
+ G  PM[11,1,0]
+ G  PM[11,1,1]
+ G  PM[11,2,0]
+ G  PM[11,2,1]
+ G  PM[11,3,0]
+ G  PM[11,3,1]
+ G  PM[11,4,0]
+ G  PM[11,4,1]
+ G  PM[11,5,0]
+ G  PM[11,5,1]
+ G  PM[11,6,0]
+ G  PM[11,6,1]
+ G  PM[11,7,0]
+ G  PM[11,7,1]
+ G  PM[11,8,0]
+ G  PM[11,8,1]
+ G  PM[11,9,0]
+ G  PM[11,9,1]
+ G  PM[11,10,0]
+ G  PM[11,10,1]
+ G  PM[11,12,0]
+ G  PM[11,12,1]
+ G  PM[11,13,0]
+ G  PM[11,13,1]
+ G  PM[11,14,0]
+ G  PM[11,14,1]
+ G  PM[11,15,0]
+ G  PM[11,15,1]
+ G  PM[11,16,0]
+ G  PM[11,16,1]
+ G  PM[11,17,0]
+ G  PM[11,17,1]
+ G  PM[11,18,0]
+ G  PM[11,18,1]
+ G  PM[12,0,0]
+ G  PM[12,0,1]
+ G  PM[12,1,0]
+ G  PM[12,1,1]
+ G  PM[12,2,0]
+ G  PM[12,2,1]
+ G  PM[12,3,0]
+ G  PM[12,3,1]
+ G  PM[12,4,0]
+ G  PM[12,4,1]
+ G  PM[12,5,0]
+ G  PM[12,5,1]
+ G  PM[12,6,0]
+ G  PM[12,6,1]
+ G  PM[12,7,0]
+ G  PM[12,7,1]
+ G  PM[12,8,0]
+ G  PM[12,8,1]
+ G  PM[12,9,0]
+ G  PM[12,9,1]
+ G  PM[12,10,0]
+ G  PM[12,10,1]
+ G  PM[12,11,0]
+ G  PM[12,11,1]
+ G  PM[12,13,0]
+ G  PM[12,13,1]
+ G  PM[12,14,0]
+ G  PM[12,14,1]
+ G  PM[12,15,0]
+ G  PM[12,15,1]
+ G  PM[12,16,0]
+ G  PM[12,16,1]
+ G  PM[12,17,0]
+ G  PM[12,17,1]
+ G  PM[12,18,0]
+ G  PM[12,18,1]
+ G  PM[13,0,0]
+ G  PM[13,0,1]
+ G  PM[13,1,0]
+ G  PM[13,1,1]
+ G  PM[13,2,0]
+ G  PM[13,2,1]
+ G  PM[13,3,0]
+ G  PM[13,3,1]
+ G  PM[13,4,0]
+ G  PM[13,4,1]
+ G  PM[13,5,0]
+ G  PM[13,5,1]
+ G  PM[13,6,0]
+ G  PM[13,6,1]
+ G  PM[13,7,0]
+ G  PM[13,7,1]
+ G  PM[13,8,0]
+ G  PM[13,8,1]
+ G  PM[13,9,0]
+ G  PM[13,9,1]
+ G  PM[13,10,0]
+ G  PM[13,10,1]
+ G  PM[13,11,0]
+ G  PM[13,11,1]
+ G  PM[13,12,0]
+ G  PM[13,12,1]
+ G  PM[13,14,0]
+ G  PM[13,14,1]
+ G  PM[13,15,0]
+ G  PM[13,15,1]
+ G  PM[13,16,0]
+ G  PM[13,16,1]
+ G  PM[13,17,0]
+ G  PM[13,17,1]
+ G  PM[13,18,0]
+ G  PM[13,18,1]
+ G  PM[14,0,0]
+ G  PM[14,0,1]
+ G  PM[14,1,0]
+ G  PM[14,1,1]
+ G  PM[14,2,0]
+ G  PM[14,2,1]
+ G  PM[14,3,0]
+ G  PM[14,3,1]
+ G  PM[14,4,0]
+ G  PM[14,4,1]
+ G  PM[14,5,0]
+ G  PM[14,5,1]
+ G  PM[14,6,0]
+ G  PM[14,6,1]
+ G  PM[14,7,0]
+ G  PM[14,7,1]
+ G  PM[14,8,0]
+ G  PM[14,8,1]
+ G  PM[14,9,0]
+ G  PM[14,9,1]
+ G  PM[14,10,0]
+ G  PM[14,10,1]
+ G  PM[14,11,0]
+ G  PM[14,11,1]
+ G  PM[14,12,0]
+ G  PM[14,12,1]
+ G  PM[14,13,0]
+ G  PM[14,13,1]
+ G  PM[14,15,0]
+ G  PM[14,15,1]
+ G  PM[14,16,0]
+ G  PM[14,16,1]
+ G  PM[14,17,0]
+ G  PM[14,17,1]
+ G  PM[14,18,0]
+ G  PM[14,18,1]
+ G  PM[15,0,0]
+ G  PM[15,0,1]
+ G  PM[15,1,0]
+ G  PM[15,1,1]
+ G  PM[15,2,0]
+ G  PM[15,2,1]
+ G  PM[15,3,0]
+ G  PM[15,3,1]
+ G  PM[15,4,0]
+ G  PM[15,4,1]
+ G  PM[15,5,0]
+ G  PM[15,5,1]
+ G  PM[15,6,0]
+ G  PM[15,6,1]
+ G  PM[15,7,0]
+ G  PM[15,7,1]
+ G  PM[15,8,0]
+ G  PM[15,8,1]
+ G  PM[15,9,0]
+ G  PM[15,9,1]
+ G  PM[15,10,0]
+ G  PM[15,10,1]
+ G  PM[15,11,0]
+ G  PM[15,11,1]
+ G  PM[15,12,0]
+ G  PM[15,12,1]
+ G  PM[15,13,0]
+ G  PM[15,13,1]
+ G  PM[15,14,0]
+ G  PM[15,14,1]
+ G  PM[15,16,0]
+ G  PM[15,16,1]
+ G  PM[15,17,0]
+ G  PM[15,17,1]
+ G  PM[15,18,0]
+ G  PM[15,18,1]
+ G  PM[16,0,0]
+ G  PM[16,0,1]
+ G  PM[16,1,0]
+ G  PM[16,1,1]
+ G  PM[16,2,0]
+ G  PM[16,2,1]
+ G  PM[16,3,0]
+ G  PM[16,3,1]
+ G  PM[16,4,0]
+ G  PM[16,4,1]
+ G  PM[16,5,0]
+ G  PM[16,5,1]
+ G  PM[16,6,0]
+ G  PM[16,6,1]
+ G  PM[16,7,0]
+ G  PM[16,7,1]
+ G  PM[16,8,0]
+ G  PM[16,8,1]
+ G  PM[16,9,0]
+ G  PM[16,9,1]
+ G  PM[16,10,0]
+ G  PM[16,10,1]
+ G  PM[16,11,0]
+ G  PM[16,11,1]
+ G  PM[16,12,0]
+ G  PM[16,12,1]
+ G  PM[16,13,0]
+ G  PM[16,13,1]
+ G  PM[16,14,0]
+ G  PM[16,14,1]
+ G  PM[16,15,0]
+ G  PM[16,15,1]
+ G  PM[16,17,0]
+ G  PM[16,17,1]
+ G  PM[16,18,0]
+ G  PM[16,18,1]
+ G  PM[17,0,0]
+ G  PM[17,0,1]
+ G  PM[17,1,0]
+ G  PM[17,1,1]
+ G  PM[17,2,0]
+ G  PM[17,2,1]
+ G  PM[17,3,0]
+ G  PM[17,3,1]
+ G  PM[17,4,0]
+ G  PM[17,4,1]
+ G  PM[17,5,0]
+ G  PM[17,5,1]
+ G  PM[17,6,0]
+ G  PM[17,6,1]
+ G  PM[17,7,0]
+ G  PM[17,7,1]
+ G  PM[17,8,0]
+ G  PM[17,8,1]
+ G  PM[17,9,0]
+ G  PM[17,9,1]
+ G  PM[17,10,0]
+ G  PM[17,10,1]
+ G  PM[17,11,0]
+ G  PM[17,11,1]
+ G  PM[17,12,0]
+ G  PM[17,12,1]
+ G  PM[17,13,0]
+ G  PM[17,13,1]
+ G  PM[17,14,0]
+ G  PM[17,14,1]
+ G  PM[17,15,0]
+ G  PM[17,15,1]
+ G  PM[17,16,0]
+ G  PM[17,16,1]
+ G  PM[17,18,0]
+ G  PM[17,18,1]
+ G  PM[18,0,0]
+ G  PM[18,0,1]
+ G  PM[18,1,0]
+ G  PM[18,1,1]
+ G  PM[18,2,0]
+ G  PM[18,2,1]
+ G  PM[18,3,0]
+ G  PM[18,3,1]
+ G  PM[18,4,0]
+ G  PM[18,4,1]
+ G  PM[18,5,0]
+ G  PM[18,5,1]
+ G  PM[18,6,0]
+ G  PM[18,6,1]
+ G  PM[18,7,0]
+ G  PM[18,7,1]
+ G  PM[18,8,0]
+ G  PM[18,8,1]
+ G  PM[18,9,0]
+ G  PM[18,9,1]
+ G  PM[18,10,0]
+ G  PM[18,10,1]
+ G  PM[18,11,0]
+ G  PM[18,11,1]
+ G  PM[18,12,0]
+ G  PM[18,12,1]
+ G  PM[18,13,0]
+ G  PM[18,13,1]
+ G  PM[18,14,0]
+ G  PM[18,14,1]
+ G  PM[18,15,0]
+ G  PM[18,15,1]
+ G  PM[18,16,0]
+ G  PM[18,16,1]
+ G  PM[18,17,0]
+ G  PM[18,17,1]
+ L  McCormick1[0,1]
+ L  McCormick1[0,2]
+ L  McCormick1[0,3]
+ L  McCormick1[0,4]
+ L  McCormick1[0,5]
+ L  McCormick1[0,6]
+ L  McCormick1[0,7]
+ L  McCormick1[0,8]
+ L  McCormick1[0,9]
+ L  McCormick1[0,10]
+ L  McCormick1[0,11]
+ L  McCormick1[0,12]
+ L  McCormick1[0,13]
+ L  McCormick1[0,14]
+ L  McCormick1[0,15]
+ L  McCormick1[0,16]
+ L  McCormick1[0,17]
+ L  McCormick1[0,18]
+ L  McCormick1[1,0]
+ L  McCormick1[1,2]
+ L  McCormick1[1,3]
+ L  McCormick1[1,4]
+ L  McCormick1[1,5]
+ L  McCormick1[1,6]
+ L  McCormick1[1,7]
+ L  McCormick1[1,8]
+ L  McCormick1[1,9]
+ L  McCormick1[1,10]
+ L  McCormick1[1,11]
+ L  McCormick1[1,12]
+ L  McCormick1[1,13]
+ L  McCormick1[1,14]
+ L  McCormick1[1,15]
+ L  McCormick1[1,16]
+ L  McCormick1[1,17]
+ L  McCormick1[1,18]
+ L  McCormick1[2,0]
+ L  McCormick1[2,1]
+ L  McCormick1[2,3]
+ L  McCormick1[2,4]
+ L  McCormick1[2,5]
+ L  McCormick1[2,6]
+ L  McCormick1[2,7]
+ L  McCormick1[2,8]
+ L  McCormick1[2,9]
+ L  McCormick1[2,10]
+ L  McCormick1[2,11]
+ L  McCormick1[2,12]
+ L  McCormick1[2,13]
+ L  McCormick1[2,14]
+ L  McCormick1[2,15]
+ L  McCormick1[2,16]
+ L  McCormick1[2,17]
+ L  McCormick1[2,18]
+ L  McCormick1[3,0]
+ L  McCormick1[3,1]
+ L  McCormick1[3,2]
+ L  McCormick1[3,4]
+ L  McCormick1[3,5]
+ L  McCormick1[3,6]
+ L  McCormick1[3,7]
+ L  McCormick1[3,8]
+ L  McCormick1[3,9]
+ L  McCormick1[3,10]
+ L  McCormick1[3,11]
+ L  McCormick1[3,12]
+ L  McCormick1[3,13]
+ L  McCormick1[3,14]
+ L  McCormick1[3,15]
+ L  McCormick1[3,16]
+ L  McCormick1[3,17]
+ L  McCormick1[3,18]
+ L  McCormick1[4,0]
+ L  McCormick1[4,1]
+ L  McCormick1[4,2]
+ L  McCormick1[4,3]
+ L  McCormick1[4,5]
+ L  McCormick1[4,6]
+ L  McCormick1[4,7]
+ L  McCormick1[4,8]
+ L  McCormick1[4,9]
+ L  McCormick1[4,10]
+ L  McCormick1[4,11]
+ L  McCormick1[4,12]
+ L  McCormick1[4,13]
+ L  McCormick1[4,14]
+ L  McCormick1[4,15]
+ L  McCormick1[4,16]
+ L  McCormick1[4,17]
+ L  McCormick1[4,18]
+ L  McCormick1[5,0]
+ L  McCormick1[5,1]
+ L  McCormick1[5,2]
+ L  McCormick1[5,3]
+ L  McCormick1[5,4]
+ L  McCormick1[5,6]
+ L  McCormick1[5,7]
+ L  McCormick1[5,8]
+ L  McCormick1[5,9]
+ L  McCormick1[5,10]
+ L  McCormick1[5,11]
+ L  McCormick1[5,12]
+ L  McCormick1[5,13]
+ L  McCormick1[5,14]
+ L  McCormick1[5,15]
+ L  McCormick1[5,16]
+ L  McCormick1[5,17]
+ L  McCormick1[5,18]
+ L  McCormick1[6,0]
+ L  McCormick1[6,1]
+ L  McCormick1[6,2]
+ L  McCormick1[6,3]
+ L  McCormick1[6,4]
+ L  McCormick1[6,5]
+ L  McCormick1[6,7]
+ L  McCormick1[6,8]
+ L  McCormick1[6,9]
+ L  McCormick1[6,10]
+ L  McCormick1[6,11]
+ L  McCormick1[6,12]
+ L  McCormick1[6,13]
+ L  McCormick1[6,14]
+ L  McCormick1[6,15]
+ L  McCormick1[6,16]
+ L  McCormick1[6,17]
+ L  McCormick1[6,18]
+ L  McCormick1[7,0]
+ L  McCormick1[7,1]
+ L  McCormick1[7,2]
+ L  McCormick1[7,3]
+ L  McCormick1[7,4]
+ L  McCormick1[7,5]
+ L  McCormick1[7,6]
+ L  McCormick1[7,8]
+ L  McCormick1[7,9]
+ L  McCormick1[7,10]
+ L  McCormick1[7,11]
+ L  McCormick1[7,12]
+ L  McCormick1[7,13]
+ L  McCormick1[7,14]
+ L  McCormick1[7,15]
+ L  McCormick1[7,16]
+ L  McCormick1[7,17]
+ L  McCormick1[7,18]
+ L  McCormick1[8,0]
+ L  McCormick1[8,1]
+ L  McCormick1[8,2]
+ L  McCormick1[8,3]
+ L  McCormick1[8,4]
+ L  McCormick1[8,5]
+ L  McCormick1[8,6]
+ L  McCormick1[8,7]
+ L  McCormick1[8,9]
+ L  McCormick1[8,10]
+ L  McCormick1[8,11]
+ L  McCormick1[8,12]
+ L  McCormick1[8,13]
+ L  McCormick1[8,14]
+ L  McCormick1[8,15]
+ L  McCormick1[8,16]
+ L  McCormick1[8,17]
+ L  McCormick1[8,18]
+ L  McCormick1[9,0]
+ L  McCormick1[9,1]
+ L  McCormick1[9,2]
+ L  McCormick1[9,3]
+ L  McCormick1[9,4]
+ L  McCormick1[9,5]
+ L  McCormick1[9,6]
+ L  McCormick1[9,7]
+ L  McCormick1[9,8]
+ L  McCormick1[9,10]
+ L  McCormick1[9,11]
+ L  McCormick1[9,12]
+ L  McCormick1[9,13]
+ L  McCormick1[9,14]
+ L  McCormick1[9,15]
+ L  McCormick1[9,16]
+ L  McCormick1[9,17]
+ L  McCormick1[9,18]
+ L  McCormick1[10,0]
+ L  McCormick1[10,1]
+ L  McCormick1[10,2]
+ L  McCormick1[10,3]
+ L  McCormick1[10,4]
+ L  McCormick1[10,5]
+ L  McCormick1[10,6]
+ L  McCormick1[10,7]
+ L  McCormick1[10,8]
+ L  McCormick1[10,9]
+ L  McCormick1[10,11]
+ L  McCormick1[10,12]
+ L  McCormick1[10,13]
+ L  McCormick1[10,14]
+ L  McCormick1[10,15]
+ L  McCormick1[10,16]
+ L  McCormick1[10,17]
+ L  McCormick1[10,18]
+ L  McCormick1[11,0]
+ L  McCormick1[11,1]
+ L  McCormick1[11,2]
+ L  McCormick1[11,3]
+ L  McCormick1[11,4]
+ L  McCormick1[11,5]
+ L  McCormick1[11,6]
+ L  McCormick1[11,7]
+ L  McCormick1[11,8]
+ L  McCormick1[11,9]
+ L  McCormick1[11,10]
+ L  McCormick1[11,12]
+ L  McCormick1[11,13]
+ L  McCormick1[11,14]
+ L  McCormick1[11,15]
+ L  McCormick1[11,16]
+ L  McCormick1[11,17]
+ L  McCormick1[11,18]
+ L  McCormick1[12,0]
+ L  McCormick1[12,1]
+ L  McCormick1[12,2]
+ L  McCormick1[12,3]
+ L  McCormick1[12,4]
+ L  McCormick1[12,5]
+ L  McCormick1[12,6]
+ L  McCormick1[12,7]
+ L  McCormick1[12,8]
+ L  McCormick1[12,9]
+ L  McCormick1[12,10]
+ L  McCormick1[12,11]
+ L  McCormick1[12,13]
+ L  McCormick1[12,14]
+ L  McCormick1[12,15]
+ L  McCormick1[12,16]
+ L  McCormick1[12,17]
+ L  McCormick1[12,18]
+ L  McCormick1[13,0]
+ L  McCormick1[13,1]
+ L  McCormick1[13,2]
+ L  McCormick1[13,3]
+ L  McCormick1[13,4]
+ L  McCormick1[13,5]
+ L  McCormick1[13,6]
+ L  McCormick1[13,7]
+ L  McCormick1[13,8]
+ L  McCormick1[13,9]
+ L  McCormick1[13,10]
+ L  McCormick1[13,11]
+ L  McCormick1[13,12]
+ L  McCormick1[13,14]
+ L  McCormick1[13,15]
+ L  McCormick1[13,16]
+ L  McCormick1[13,17]
+ L  McCormick1[13,18]
+ L  McCormick1[14,0]
+ L  McCormick1[14,1]
+ L  McCormick1[14,2]
+ L  McCormick1[14,3]
+ L  McCormick1[14,4]
+ L  McCormick1[14,5]
+ L  McCormick1[14,6]
+ L  McCormick1[14,7]
+ L  McCormick1[14,8]
+ L  McCormick1[14,9]
+ L  McCormick1[14,10]
+ L  McCormick1[14,11]
+ L  McCormick1[14,12]
+ L  McCormick1[14,13]
+ L  McCormick1[14,15]
+ L  McCormick1[14,16]
+ L  McCormick1[14,17]
+ L  McCormick1[14,18]
+ L  McCormick1[15,0]
+ L  McCormick1[15,1]
+ L  McCormick1[15,2]
+ L  McCormick1[15,3]
+ L  McCormick1[15,4]
+ L  McCormick1[15,5]
+ L  McCormick1[15,6]
+ L  McCormick1[15,7]
+ L  McCormick1[15,8]
+ L  McCormick1[15,9]
+ L  McCormick1[15,10]
+ L  McCormick1[15,11]
+ L  McCormick1[15,12]
+ L  McCormick1[15,13]
+ L  McCormick1[15,14]
+ L  McCormick1[15,16]
+ L  McCormick1[15,17]
+ L  McCormick1[15,18]
+ L  McCormick1[16,0]
+ L  McCormick1[16,1]
+ L  McCormick1[16,2]
+ L  McCormick1[16,3]
+ L  McCormick1[16,4]
+ L  McCormick1[16,5]
+ L  McCormick1[16,6]
+ L  McCormick1[16,7]
+ L  McCormick1[16,8]
+ L  McCormick1[16,9]
+ L  McCormick1[16,10]
+ L  McCormick1[16,11]
+ L  McCormick1[16,12]
+ L  McCormick1[16,13]
+ L  McCormick1[16,14]
+ L  McCormick1[16,15]
+ L  McCormick1[16,17]
+ L  McCormick1[16,18]
+ L  McCormick1[17,0]
+ L  McCormick1[17,1]
+ L  McCormick1[17,2]
+ L  McCormick1[17,3]
+ L  McCormick1[17,4]
+ L  McCormick1[17,5]
+ L  McCormick1[17,6]
+ L  McCormick1[17,7]
+ L  McCormick1[17,8]
+ L  McCormick1[17,9]
+ L  McCormick1[17,10]
+ L  McCormick1[17,11]
+ L  McCormick1[17,12]
+ L  McCormick1[17,13]
+ L  McCormick1[17,14]
+ L  McCormick1[17,15]
+ L  McCormick1[17,16]
+ L  McCormick1[17,18]
+ L  McCormick1[18,0]
+ L  McCormick1[18,1]
+ L  McCormick1[18,2]
+ L  McCormick1[18,3]
+ L  McCormick1[18,4]
+ L  McCormick1[18,5]
+ L  McCormick1[18,6]
+ L  McCormick1[18,7]
+ L  McCormick1[18,8]
+ L  McCormick1[18,9]
+ L  McCormick1[18,10]
+ L  McCormick1[18,11]
+ L  McCormick1[18,12]
+ L  McCormick1[18,13]
+ L  McCormick1[18,14]
+ L  McCormick1[18,15]
+ L  McCormick1[18,16]
+ L  McCormick1[18,17]
+ G  McCormick2[0,1]
+ G  McCormick2[0,2]
+ G  McCormick2[0,3]
+ G  McCormick2[0,4]
+ G  McCormick2[0,5]
+ G  McCormick2[0,6]
+ G  McCormick2[0,7]
+ G  McCormick2[0,8]
+ G  McCormick2[0,9]
+ G  McCormick2[0,10]
+ G  McCormick2[0,11]
+ G  McCormick2[0,12]
+ G  McCormick2[0,13]
+ G  McCormick2[0,14]
+ G  McCormick2[0,15]
+ G  McCormick2[0,16]
+ G  McCormick2[0,17]
+ G  McCormick2[0,18]
+ G  McCormick2[1,0]
+ G  McCormick2[1,2]
+ G  McCormick2[1,3]
+ G  McCormick2[1,4]
+ G  McCormick2[1,5]
+ G  McCormick2[1,6]
+ G  McCormick2[1,7]
+ G  McCormick2[1,8]
+ G  McCormick2[1,9]
+ G  McCormick2[1,10]
+ G  McCormick2[1,11]
+ G  McCormick2[1,12]
+ G  McCormick2[1,13]
+ G  McCormick2[1,14]
+ G  McCormick2[1,15]
+ G  McCormick2[1,16]
+ G  McCormick2[1,17]
+ G  McCormick2[1,18]
+ G  McCormick2[2,0]
+ G  McCormick2[2,1]
+ G  McCormick2[2,3]
+ G  McCormick2[2,4]
+ G  McCormick2[2,5]
+ G  McCormick2[2,6]
+ G  McCormick2[2,7]
+ G  McCormick2[2,8]
+ G  McCormick2[2,9]
+ G  McCormick2[2,10]
+ G  McCormick2[2,11]
+ G  McCormick2[2,12]
+ G  McCormick2[2,13]
+ G  McCormick2[2,14]
+ G  McCormick2[2,15]
+ G  McCormick2[2,16]
+ G  McCormick2[2,17]
+ G  McCormick2[2,18]
+ G  McCormick2[3,0]
+ G  McCormick2[3,1]
+ G  McCormick2[3,2]
+ G  McCormick2[3,4]
+ G  McCormick2[3,5]
+ G  McCormick2[3,6]
+ G  McCormick2[3,7]
+ G  McCormick2[3,8]
+ G  McCormick2[3,9]
+ G  McCormick2[3,10]
+ G  McCormick2[3,11]
+ G  McCormick2[3,12]
+ G  McCormick2[3,13]
+ G  McCormick2[3,14]
+ G  McCormick2[3,15]
+ G  McCormick2[3,16]
+ G  McCormick2[3,17]
+ G  McCormick2[3,18]
+ G  McCormick2[4,0]
+ G  McCormick2[4,1]
+ G  McCormick2[4,2]
+ G  McCormick2[4,3]
+ G  McCormick2[4,5]
+ G  McCormick2[4,6]
+ G  McCormick2[4,7]
+ G  McCormick2[4,8]
+ G  McCormick2[4,9]
+ G  McCormick2[4,10]
+ G  McCormick2[4,11]
+ G  McCormick2[4,12]
+ G  McCormick2[4,13]
+ G  McCormick2[4,14]
+ G  McCormick2[4,15]
+ G  McCormick2[4,16]
+ G  McCormick2[4,17]
+ G  McCormick2[4,18]
+ G  McCormick2[5,0]
+ G  McCormick2[5,1]
+ G  McCormick2[5,2]
+ G  McCormick2[5,3]
+ G  McCormick2[5,4]
+ G  McCormick2[5,6]
+ G  McCormick2[5,7]
+ G  McCormick2[5,8]
+ G  McCormick2[5,9]
+ G  McCormick2[5,10]
+ G  McCormick2[5,11]
+ G  McCormick2[5,12]
+ G  McCormick2[5,13]
+ G  McCormick2[5,14]
+ G  McCormick2[5,15]
+ G  McCormick2[5,16]
+ G  McCormick2[5,17]
+ G  McCormick2[5,18]
+ G  McCormick2[6,0]
+ G  McCormick2[6,1]
+ G  McCormick2[6,2]
+ G  McCormick2[6,3]
+ G  McCormick2[6,4]
+ G  McCormick2[6,5]
+ G  McCormick2[6,7]
+ G  McCormick2[6,8]
+ G  McCormick2[6,9]
+ G  McCormick2[6,10]
+ G  McCormick2[6,11]
+ G  McCormick2[6,12]
+ G  McCormick2[6,13]
+ G  McCormick2[6,14]
+ G  McCormick2[6,15]
+ G  McCormick2[6,16]
+ G  McCormick2[6,17]
+ G  McCormick2[6,18]
+ G  McCormick2[7,0]
+ G  McCormick2[7,1]
+ G  McCormick2[7,2]
+ G  McCormick2[7,3]
+ G  McCormick2[7,4]
+ G  McCormick2[7,5]
+ G  McCormick2[7,6]
+ G  McCormick2[7,8]
+ G  McCormick2[7,9]
+ G  McCormick2[7,10]
+ G  McCormick2[7,11]
+ G  McCormick2[7,12]
+ G  McCormick2[7,13]
+ G  McCormick2[7,14]
+ G  McCormick2[7,15]
+ G  McCormick2[7,16]
+ G  McCormick2[7,17]
+ G  McCormick2[7,18]
+ G  McCormick2[8,0]
+ G  McCormick2[8,1]
+ G  McCormick2[8,2]
+ G  McCormick2[8,3]
+ G  McCormick2[8,4]
+ G  McCormick2[8,5]
+ G  McCormick2[8,6]
+ G  McCormick2[8,7]
+ G  McCormick2[8,9]
+ G  McCormick2[8,10]
+ G  McCormick2[8,11]
+ G  McCormick2[8,12]
+ G  McCormick2[8,13]
+ G  McCormick2[8,14]
+ G  McCormick2[8,15]
+ G  McCormick2[8,16]
+ G  McCormick2[8,17]
+ G  McCormick2[8,18]
+ G  McCormick2[9,0]
+ G  McCormick2[9,1]
+ G  McCormick2[9,2]
+ G  McCormick2[9,3]
+ G  McCormick2[9,4]
+ G  McCormick2[9,5]
+ G  McCormick2[9,6]
+ G  McCormick2[9,7]
+ G  McCormick2[9,8]
+ G  McCormick2[9,10]
+ G  McCormick2[9,11]
+ G  McCormick2[9,12]
+ G  McCormick2[9,13]
+ G  McCormick2[9,14]
+ G  McCormick2[9,15]
+ G  McCormick2[9,16]
+ G  McCormick2[9,17]
+ G  McCormick2[9,18]
+ G  McCormick2[10,0]
+ G  McCormick2[10,1]
+ G  McCormick2[10,2]
+ G  McCormick2[10,3]
+ G  McCormick2[10,4]
+ G  McCormick2[10,5]
+ G  McCormick2[10,6]
+ G  McCormick2[10,7]
+ G  McCormick2[10,8]
+ G  McCormick2[10,9]
+ G  McCormick2[10,11]
+ G  McCormick2[10,12]
+ G  McCormick2[10,13]
+ G  McCormick2[10,14]
+ G  McCormick2[10,15]
+ G  McCormick2[10,16]
+ G  McCormick2[10,17]
+ G  McCormick2[10,18]
+ G  McCormick2[11,0]
+ G  McCormick2[11,1]
+ G  McCormick2[11,2]
+ G  McCormick2[11,3]
+ G  McCormick2[11,4]
+ G  McCormick2[11,5]
+ G  McCormick2[11,6]
+ G  McCormick2[11,7]
+ G  McCormick2[11,8]
+ G  McCormick2[11,9]
+ G  McCormick2[11,10]
+ G  McCormick2[11,12]
+ G  McCormick2[11,13]
+ G  McCormick2[11,14]
+ G  McCormick2[11,15]
+ G  McCormick2[11,16]
+ G  McCormick2[11,17]
+ G  McCormick2[11,18]
+ G  McCormick2[12,0]
+ G  McCormick2[12,1]
+ G  McCormick2[12,2]
+ G  McCormick2[12,3]
+ G  McCormick2[12,4]
+ G  McCormick2[12,5]
+ G  McCormick2[12,6]
+ G  McCormick2[12,7]
+ G  McCormick2[12,8]
+ G  McCormick2[12,9]
+ G  McCormick2[12,10]
+ G  McCormick2[12,11]
+ G  McCormick2[12,13]
+ G  McCormick2[12,14]
+ G  McCormick2[12,15]
+ G  McCormick2[12,16]
+ G  McCormick2[12,17]
+ G  McCormick2[12,18]
+ G  McCormick2[13,0]
+ G  McCormick2[13,1]
+ G  McCormick2[13,2]
+ G  McCormick2[13,3]
+ G  McCormick2[13,4]
+ G  McCormick2[13,5]
+ G  McCormick2[13,6]
+ G  McCormick2[13,7]
+ G  McCormick2[13,8]
+ G  McCormick2[13,9]
+ G  McCormick2[13,10]
+ G  McCormick2[13,11]
+ G  McCormick2[13,12]
+ G  McCormick2[13,14]
+ G  McCormick2[13,15]
+ G  McCormick2[13,16]
+ G  McCormick2[13,17]
+ G  McCormick2[13,18]
+ G  McCormick2[14,0]
+ G  McCormick2[14,1]
+ G  McCormick2[14,2]
+ G  McCormick2[14,3]
+ G  McCormick2[14,4]
+ G  McCormick2[14,5]
+ G  McCormick2[14,6]
+ G  McCormick2[14,7]
+ G  McCormick2[14,8]
+ G  McCormick2[14,9]
+ G  McCormick2[14,10]
+ G  McCormick2[14,11]
+ G  McCormick2[14,12]
+ G  McCormick2[14,13]
+ G  McCormick2[14,15]
+ G  McCormick2[14,16]
+ G  McCormick2[14,17]
+ G  McCormick2[14,18]
+ G  McCormick2[15,0]
+ G  McCormick2[15,1]
+ G  McCormick2[15,2]
+ G  McCormick2[15,3]
+ G  McCormick2[15,4]
+ G  McCormick2[15,5]
+ G  McCormick2[15,6]
+ G  McCormick2[15,7]
+ G  McCormick2[15,8]
+ G  McCormick2[15,9]
+ G  McCormick2[15,10]
+ G  McCormick2[15,11]
+ G  McCormick2[15,12]
+ G  McCormick2[15,13]
+ G  McCormick2[15,14]
+ G  McCormick2[15,16]
+ G  McCormick2[15,17]
+ G  McCormick2[15,18]
+ G  McCormick2[16,0]
+ G  McCormick2[16,1]
+ G  McCormick2[16,2]
+ G  McCormick2[16,3]
+ G  McCormick2[16,4]
+ G  McCormick2[16,5]
+ G  McCormick2[16,6]
+ G  McCormick2[16,7]
+ G  McCormick2[16,8]
+ G  McCormick2[16,9]
+ G  McCormick2[16,10]
+ G  McCormick2[16,11]
+ G  McCormick2[16,12]
+ G  McCormick2[16,13]
+ G  McCormick2[16,14]
+ G  McCormick2[16,15]
+ G  McCormick2[16,17]
+ G  McCormick2[16,18]
+ G  McCormick2[17,0]
+ G  McCormick2[17,1]
+ G  McCormick2[17,2]
+ G  McCormick2[17,3]
+ G  McCormick2[17,4]
+ G  McCormick2[17,5]
+ G  McCormick2[17,6]
+ G  McCormick2[17,7]
+ G  McCormick2[17,8]
+ G  McCormick2[17,9]
+ G  McCormick2[17,10]
+ G  McCormick2[17,11]
+ G  McCormick2[17,12]
+ G  McCormick2[17,13]
+ G  McCormick2[17,14]
+ G  McCormick2[17,15]
+ G  McCormick2[17,16]
+ G  McCormick2[17,18]
+ G  McCormick2[18,0]
+ G  McCormick2[18,1]
+ G  McCormick2[18,2]
+ G  McCormick2[18,3]
+ G  McCormick2[18,4]
+ G  McCormick2[18,5]
+ G  McCormick2[18,6]
+ G  McCormick2[18,7]
+ G  McCormick2[18,8]
+ G  McCormick2[18,9]
+ G  McCormick2[18,10]
+ G  McCormick2[18,11]
+ G  McCormick2[18,12]
+ G  McCormick2[18,13]
+ G  McCormick2[18,14]
+ G  McCormick2[18,15]
+ G  McCormick2[18,16]
+ G  McCormick2[18,17]
+ G  McCormick3[0,1]
+ G  McCormick3[0,2]
+ G  McCormick3[0,3]
+ G  McCormick3[0,4]
+ G  McCormick3[0,5]
+ G  McCormick3[0,6]
+ G  McCormick3[0,7]
+ G  McCormick3[0,8]
+ G  McCormick3[0,9]
+ G  McCormick3[0,10]
+ G  McCormick3[0,11]
+ G  McCormick3[0,12]
+ G  McCormick3[0,13]
+ G  McCormick3[0,14]
+ G  McCormick3[0,15]
+ G  McCormick3[0,16]
+ G  McCormick3[0,17]
+ G  McCormick3[0,18]
+ G  McCormick3[1,0]
+ G  McCormick3[1,2]
+ G  McCormick3[1,3]
+ G  McCormick3[1,4]
+ G  McCormick3[1,5]
+ G  McCormick3[1,6]
+ G  McCormick3[1,7]
+ G  McCormick3[1,8]
+ G  McCormick3[1,9]
+ G  McCormick3[1,10]
+ G  McCormick3[1,11]
+ G  McCormick3[1,12]
+ G  McCormick3[1,13]
+ G  McCormick3[1,14]
+ G  McCormick3[1,15]
+ G  McCormick3[1,16]
+ G  McCormick3[1,17]
+ G  McCormick3[1,18]
+ G  McCormick3[2,0]
+ G  McCormick3[2,1]
+ G  McCormick3[2,3]
+ G  McCormick3[2,4]
+ G  McCormick3[2,5]
+ G  McCormick3[2,6]
+ G  McCormick3[2,7]
+ G  McCormick3[2,8]
+ G  McCormick3[2,9]
+ G  McCormick3[2,10]
+ G  McCormick3[2,11]
+ G  McCormick3[2,12]
+ G  McCormick3[2,13]
+ G  McCormick3[2,14]
+ G  McCormick3[2,15]
+ G  McCormick3[2,16]
+ G  McCormick3[2,17]
+ G  McCormick3[2,18]
+ G  McCormick3[3,0]
+ G  McCormick3[3,1]
+ G  McCormick3[3,2]
+ G  McCormick3[3,4]
+ G  McCormick3[3,5]
+ G  McCormick3[3,6]
+ G  McCormick3[3,7]
+ G  McCormick3[3,8]
+ G  McCormick3[3,9]
+ G  McCormick3[3,10]
+ G  McCormick3[3,11]
+ G  McCormick3[3,12]
+ G  McCormick3[3,13]
+ G  McCormick3[3,14]
+ G  McCormick3[3,15]
+ G  McCormick3[3,16]
+ G  McCormick3[3,17]
+ G  McCormick3[3,18]
+ G  McCormick3[4,0]
+ G  McCormick3[4,1]
+ G  McCormick3[4,2]
+ G  McCormick3[4,3]
+ G  McCormick3[4,5]
+ G  McCormick3[4,6]
+ G  McCormick3[4,7]
+ G  McCormick3[4,8]
+ G  McCormick3[4,9]
+ G  McCormick3[4,10]
+ G  McCormick3[4,11]
+ G  McCormick3[4,12]
+ G  McCormick3[4,13]
+ G  McCormick3[4,14]
+ G  McCormick3[4,15]
+ G  McCormick3[4,16]
+ G  McCormick3[4,17]
+ G  McCormick3[4,18]
+ G  McCormick3[5,0]
+ G  McCormick3[5,1]
+ G  McCormick3[5,2]
+ G  McCormick3[5,3]
+ G  McCormick3[5,4]
+ G  McCormick3[5,6]
+ G  McCormick3[5,7]
+ G  McCormick3[5,8]
+ G  McCormick3[5,9]
+ G  McCormick3[5,10]
+ G  McCormick3[5,11]
+ G  McCormick3[5,12]
+ G  McCormick3[5,13]
+ G  McCormick3[5,14]
+ G  McCormick3[5,15]
+ G  McCormick3[5,16]
+ G  McCormick3[5,17]
+ G  McCormick3[5,18]
+ G  McCormick3[6,0]
+ G  McCormick3[6,1]
+ G  McCormick3[6,2]
+ G  McCormick3[6,3]
+ G  McCormick3[6,4]
+ G  McCormick3[6,5]
+ G  McCormick3[6,7]
+ G  McCormick3[6,8]
+ G  McCormick3[6,9]
+ G  McCormick3[6,10]
+ G  McCormick3[6,11]
+ G  McCormick3[6,12]
+ G  McCormick3[6,13]
+ G  McCormick3[6,14]
+ G  McCormick3[6,15]
+ G  McCormick3[6,16]
+ G  McCormick3[6,17]
+ G  McCormick3[6,18]
+ G  McCormick3[7,0]
+ G  McCormick3[7,1]
+ G  McCormick3[7,2]
+ G  McCormick3[7,3]
+ G  McCormick3[7,4]
+ G  McCormick3[7,5]
+ G  McCormick3[7,6]
+ G  McCormick3[7,8]
+ G  McCormick3[7,9]
+ G  McCormick3[7,10]
+ G  McCormick3[7,11]
+ G  McCormick3[7,12]
+ G  McCormick3[7,13]
+ G  McCormick3[7,14]
+ G  McCormick3[7,15]
+ G  McCormick3[7,16]
+ G  McCormick3[7,17]
+ G  McCormick3[7,18]
+ G  McCormick3[8,0]
+ G  McCormick3[8,1]
+ G  McCormick3[8,2]
+ G  McCormick3[8,3]
+ G  McCormick3[8,4]
+ G  McCormick3[8,5]
+ G  McCormick3[8,6]
+ G  McCormick3[8,7]
+ G  McCormick3[8,9]
+ G  McCormick3[8,10]
+ G  McCormick3[8,11]
+ G  McCormick3[8,12]
+ G  McCormick3[8,13]
+ G  McCormick3[8,14]
+ G  McCormick3[8,15]
+ G  McCormick3[8,16]
+ G  McCormick3[8,17]
+ G  McCormick3[8,18]
+ G  McCormick3[9,0]
+ G  McCormick3[9,1]
+ G  McCormick3[9,2]
+ G  McCormick3[9,3]
+ G  McCormick3[9,4]
+ G  McCormick3[9,5]
+ G  McCormick3[9,6]
+ G  McCormick3[9,7]
+ G  McCormick3[9,8]
+ G  McCormick3[9,10]
+ G  McCormick3[9,11]
+ G  McCormick3[9,12]
+ G  McCormick3[9,13]
+ G  McCormick3[9,14]
+ G  McCormick3[9,15]
+ G  McCormick3[9,16]
+ G  McCormick3[9,17]
+ G  McCormick3[9,18]
+ G  McCormick3[10,0]
+ G  McCormick3[10,1]
+ G  McCormick3[10,2]
+ G  McCormick3[10,3]
+ G  McCormick3[10,4]
+ G  McCormick3[10,5]
+ G  McCormick3[10,6]
+ G  McCormick3[10,7]
+ G  McCormick3[10,8]
+ G  McCormick3[10,9]
+ G  McCormick3[10,11]
+ G  McCormick3[10,12]
+ G  McCormick3[10,13]
+ G  McCormick3[10,14]
+ G  McCormick3[10,15]
+ G  McCormick3[10,16]
+ G  McCormick3[10,17]
+ G  McCormick3[10,18]
+ G  McCormick3[11,0]
+ G  McCormick3[11,1]
+ G  McCormick3[11,2]
+ G  McCormick3[11,3]
+ G  McCormick3[11,4]
+ G  McCormick3[11,5]
+ G  McCormick3[11,6]
+ G  McCormick3[11,7]
+ G  McCormick3[11,8]
+ G  McCormick3[11,9]
+ G  McCormick3[11,10]
+ G  McCormick3[11,12]
+ G  McCormick3[11,13]
+ G  McCormick3[11,14]
+ G  McCormick3[11,15]
+ G  McCormick3[11,16]
+ G  McCormick3[11,17]
+ G  McCormick3[11,18]
+ G  McCormick3[12,0]
+ G  McCormick3[12,1]
+ G  McCormick3[12,2]
+ G  McCormick3[12,3]
+ G  McCormick3[12,4]
+ G  McCormick3[12,5]
+ G  McCormick3[12,6]
+ G  McCormick3[12,7]
+ G  McCormick3[12,8]
+ G  McCormick3[12,9]
+ G  McCormick3[12,10]
+ G  McCormick3[12,11]
+ G  McCormick3[12,13]
+ G  McCormick3[12,14]
+ G  McCormick3[12,15]
+ G  McCormick3[12,16]
+ G  McCormick3[12,17]
+ G  McCormick3[12,18]
+ G  McCormick3[13,0]
+ G  McCormick3[13,1]
+ G  McCormick3[13,2]
+ G  McCormick3[13,3]
+ G  McCormick3[13,4]
+ G  McCormick3[13,5]
+ G  McCormick3[13,6]
+ G  McCormick3[13,7]
+ G  McCormick3[13,8]
+ G  McCormick3[13,9]
+ G  McCormick3[13,10]
+ G  McCormick3[13,11]
+ G  McCormick3[13,12]
+ G  McCormick3[13,14]
+ G  McCormick3[13,15]
+ G  McCormick3[13,16]
+ G  McCormick3[13,17]
+ G  McCormick3[13,18]
+ G  McCormick3[14,0]
+ G  McCormick3[14,1]
+ G  McCormick3[14,2]
+ G  McCormick3[14,3]
+ G  McCormick3[14,4]
+ G  McCormick3[14,5]
+ G  McCormick3[14,6]
+ G  McCormick3[14,7]
+ G  McCormick3[14,8]
+ G  McCormick3[14,9]
+ G  McCormick3[14,10]
+ G  McCormick3[14,11]
+ G  McCormick3[14,12]
+ G  McCormick3[14,13]
+ G  McCormick3[14,15]
+ G  McCormick3[14,16]
+ G  McCormick3[14,17]
+ G  McCormick3[14,18]
+ G  McCormick3[15,0]
+ G  McCormick3[15,1]
+ G  McCormick3[15,2]
+ G  McCormick3[15,3]
+ G  McCormick3[15,4]
+ G  McCormick3[15,5]
+ G  McCormick3[15,6]
+ G  McCormick3[15,7]
+ G  McCormick3[15,8]
+ G  McCormick3[15,9]
+ G  McCormick3[15,10]
+ G  McCormick3[15,11]
+ G  McCormick3[15,12]
+ G  McCormick3[15,13]
+ G  McCormick3[15,14]
+ G  McCormick3[15,16]
+ G  McCormick3[15,17]
+ G  McCormick3[15,18]
+ G  McCormick3[16,0]
+ G  McCormick3[16,1]
+ G  McCormick3[16,2]
+ G  McCormick3[16,3]
+ G  McCormick3[16,4]
+ G  McCormick3[16,5]
+ G  McCormick3[16,6]
+ G  McCormick3[16,7]
+ G  McCormick3[16,8]
+ G  McCormick3[16,9]
+ G  McCormick3[16,10]
+ G  McCormick3[16,11]
+ G  McCormick3[16,12]
+ G  McCormick3[16,13]
+ G  McCormick3[16,14]
+ G  McCormick3[16,15]
+ G  McCormick3[16,17]
+ G  McCormick3[16,18]
+ G  McCormick3[17,0]
+ G  McCormick3[17,1]
+ G  McCormick3[17,2]
+ G  McCormick3[17,3]
+ G  McCormick3[17,4]
+ G  McCormick3[17,5]
+ G  McCormick3[17,6]
+ G  McCormick3[17,7]
+ G  McCormick3[17,8]
+ G  McCormick3[17,9]
+ G  McCormick3[17,10]
+ G  McCormick3[17,11]
+ G  McCormick3[17,12]
+ G  McCormick3[17,13]
+ G  McCormick3[17,14]
+ G  McCormick3[17,15]
+ G  McCormick3[17,16]
+ G  McCormick3[17,18]
+ G  McCormick3[18,0]
+ G  McCormick3[18,1]
+ G  McCormick3[18,2]
+ G  McCormick3[18,3]
+ G  McCormick3[18,4]
+ G  McCormick3[18,5]
+ G  McCormick3[18,6]
+ G  McCormick3[18,7]
+ G  McCormick3[18,8]
+ G  McCormick3[18,9]
+ G  McCormick3[18,10]
+ G  McCormick3[18,11]
+ G  McCormick3[18,12]
+ G  McCormick3[18,13]
+ G  McCormick3[18,14]
+ G  McCormick3[18,15]
+ G  McCormick3[18,16]
+ G  McCormick3[18,17]
+COLUMNS
+    c[0,0]    LB[1,0,0]  1
+    c[0,0]    LB[2,0,0]  1
+    c[0,0]    LB[3,0,0]  1
+    c[0,0]    LB[4,0,0]  1
+    c[0,0]    LB[5,0,0]  1
+    c[0,0]    LB[6,0,0]  1
+    c[0,0]    LB[7,0,0]  1
+    c[0,0]    LB[8,0,0]  1
+    c[0,0]    LB[9,0,0]  1
+    c[0,0]    LB[10,0,0]  1
+    c[0,0]    LB[11,0,0]  1
+    c[0,0]    LB[12,0,0]  1
+    c[0,0]    LB[13,0,0]  1
+    c[0,0]    LB[14,0,0]  1
+    c[0,0]    LB[15,0,0]  1
+    c[0,0]    LB[16,0,0]  1
+    c[0,0]    LB[17,0,0]  1
+    c[0,0]    LB[18,0,0]  1
+    c[0,0]    UB[0,1,0]  1
+    c[0,0]    UB[0,2,0]  1
+    c[0,0]    UB[0,3,0]  1
+    c[0,0]    UB[0,4,0]  1
+    c[0,0]    UB[0,5,0]  1
+    c[0,0]    UB[0,6,0]  1
+    c[0,0]    UB[0,7,0]  1
+    c[0,0]    UB[0,8,0]  1
+    c[0,0]    UB[0,9,0]  1
+    c[0,0]    UB[0,10,0]  1
+    c[0,0]    UB[0,11,0]  1
+    c[0,0]    UB[0,12,0]  1
+    c[0,0]    UB[0,13,0]  1
+    c[0,0]    UB[0,14,0]  1
+    c[0,0]    UB[0,15,0]  1
+    c[0,0]    UB[0,16,0]  1
+    c[0,0]    UB[0,17,0]  1
+    c[0,0]    UB[0,18,0]  1
+    c[0,0]    PM[0,1,0]  -1
+    c[0,0]    PM[0,2,0]  -1
+    c[0,0]    PM[0,3,0]  -1
+    c[0,0]    PM[0,4,0]  -1
+    c[0,0]    PM[0,5,0]  -1
+    c[0,0]    PM[0,6,0]  -1
+    c[0,0]    PM[0,7,0]  -1
+    c[0,0]    PM[0,8,0]  -1
+    c[0,0]    PM[0,9,0]  -1
+    c[0,0]    PM[0,10,0]  -1
+    c[0,0]    PM[0,11,0]  -1
+    c[0,0]    PM[0,12,0]  -1
+    c[0,0]    PM[0,13,0]  -1
+    c[0,0]    PM[0,14,0]  -1
+    c[0,0]    PM[0,15,0]  -1
+    c[0,0]    PM[0,16,0]  -1
+    c[0,0]    PM[0,17,0]  -1
+    c[0,0]    PM[0,18,0]  -1
+    c[0,0]    PM[1,0,0]  1
+    c[0,0]    PM[2,0,0]  1
+    c[0,0]    PM[3,0,0]  1
+    c[0,0]    PM[4,0,0]  1
+    c[0,0]    PM[5,0,0]  1
+    c[0,0]    PM[6,0,0]  1
+    c[0,0]    PM[7,0,0]  1
+    c[0,0]    PM[8,0,0]  1
+    c[0,0]    PM[9,0,0]  1
+    c[0,0]    PM[10,0,0]  1
+    c[0,0]    PM[11,0,0]  1
+    c[0,0]    PM[12,0,0]  1
+    c[0,0]    PM[13,0,0]  1
+    c[0,0]    PM[14,0,0]  1
+    c[0,0]    PM[15,0,0]  1
+    c[0,0]    PM[16,0,0]  1
+    c[0,0]    PM[17,0,0]  1
+    c[0,0]    PM[18,0,0]  1
+    c[0,1]    Height[0]  -1
+    c[0,1]    LB[1,0,1]  1
+    c[0,1]    LB[2,0,1]  1
+    c[0,1]    LB[3,0,1]  1
+    c[0,1]    LB[4,0,1]  1
+    c[0,1]    LB[5,0,1]  1
+    c[0,1]    LB[6,0,1]  1
+    c[0,1]    LB[7,0,1]  1
+    c[0,1]    LB[8,0,1]  1
+    c[0,1]    LB[9,0,1]  1
+    c[0,1]    LB[10,0,1]  1
+    c[0,1]    LB[11,0,1]  1
+    c[0,1]    LB[12,0,1]  1
+    c[0,1]    LB[13,0,1]  1
+    c[0,1]    LB[14,0,1]  1
+    c[0,1]    LB[15,0,1]  1
+    c[0,1]    LB[16,0,1]  1
+    c[0,1]    LB[17,0,1]  1
+    c[0,1]    LB[18,0,1]  1
+    c[0,1]    UB[0,1,1]  1
+    c[0,1]    UB[0,2,1]  1
+    c[0,1]    UB[0,3,1]  1
+    c[0,1]    UB[0,4,1]  1
+    c[0,1]    UB[0,5,1]  1
+    c[0,1]    UB[0,6,1]  1
+    c[0,1]    UB[0,7,1]  1
+    c[0,1]    UB[0,8,1]  1
+    c[0,1]    UB[0,9,1]  1
+    c[0,1]    UB[0,10,1]  1
+    c[0,1]    UB[0,11,1]  1
+    c[0,1]    UB[0,12,1]  1
+    c[0,1]    UB[0,13,1]  1
+    c[0,1]    UB[0,14,1]  1
+    c[0,1]    UB[0,15,1]  1
+    c[0,1]    UB[0,16,1]  1
+    c[0,1]    UB[0,17,1]  1
+    c[0,1]    UB[0,18,1]  1
+    c[0,1]    PM[0,1,1]  -1
+    c[0,1]    PM[0,2,1]  -1
+    c[0,1]    PM[0,3,1]  -1
+    c[0,1]    PM[0,4,1]  -1
+    c[0,1]    PM[0,5,1]  -1
+    c[0,1]    PM[0,6,1]  -1
+    c[0,1]    PM[0,7,1]  -1
+    c[0,1]    PM[0,8,1]  -1
+    c[0,1]    PM[0,9,1]  -1
+    c[0,1]    PM[0,10,1]  -1
+    c[0,1]    PM[0,11,1]  -1
+    c[0,1]    PM[0,12,1]  -1
+    c[0,1]    PM[0,13,1]  -1
+    c[0,1]    PM[0,14,1]  -1
+    c[0,1]    PM[0,15,1]  -1
+    c[0,1]    PM[0,16,1]  -1
+    c[0,1]    PM[0,17,1]  -1
+    c[0,1]    PM[0,18,1]  -1
+    c[0,1]    PM[1,0,1]  1
+    c[0,1]    PM[2,0,1]  1
+    c[0,1]    PM[3,0,1]  1
+    c[0,1]    PM[4,0,1]  1
+    c[0,1]    PM[5,0,1]  1
+    c[0,1]    PM[6,0,1]  1
+    c[0,1]    PM[7,0,1]  1
+    c[0,1]    PM[8,0,1]  1
+    c[0,1]    PM[9,0,1]  1
+    c[0,1]    PM[10,0,1]  1
+    c[0,1]    PM[11,0,1]  1
+    c[0,1]    PM[12,0,1]  1
+    c[0,1]    PM[13,0,1]  1
+    c[0,1]    PM[14,0,1]  1
+    c[0,1]    PM[15,0,1]  1
+    c[0,1]    PM[16,0,1]  1
+    c[0,1]    PM[17,0,1]  1
+    c[0,1]    PM[18,0,1]  1
+    c[1,0]    LB[0,1,0]  1
+    c[1,0]    LB[2,1,0]  1
+    c[1,0]    LB[3,1,0]  1
+    c[1,0]    LB[4,1,0]  1
+    c[1,0]    LB[5,1,0]  1
+    c[1,0]    LB[6,1,0]  1
+    c[1,0]    LB[7,1,0]  1
+    c[1,0]    LB[8,1,0]  1
+    c[1,0]    LB[9,1,0]  1
+    c[1,0]    LB[10,1,0]  1
+    c[1,0]    LB[11,1,0]  1
+    c[1,0]    LB[12,1,0]  1
+    c[1,0]    LB[13,1,0]  1
+    c[1,0]    LB[14,1,0]  1
+    c[1,0]    LB[15,1,0]  1
+    c[1,0]    LB[16,1,0]  1
+    c[1,0]    LB[17,1,0]  1
+    c[1,0]    LB[18,1,0]  1
+    c[1,0]    UB[1,0,0]  1
+    c[1,0]    UB[1,2,0]  1
+    c[1,0]    UB[1,3,0]  1
+    c[1,0]    UB[1,4,0]  1
+    c[1,0]    UB[1,5,0]  1
+    c[1,0]    UB[1,6,0]  1
+    c[1,0]    UB[1,7,0]  1
+    c[1,0]    UB[1,8,0]  1
+    c[1,0]    UB[1,9,0]  1
+    c[1,0]    UB[1,10,0]  1
+    c[1,0]    UB[1,11,0]  1
+    c[1,0]    UB[1,12,0]  1
+    c[1,0]    UB[1,13,0]  1
+    c[1,0]    UB[1,14,0]  1
+    c[1,0]    UB[1,15,0]  1
+    c[1,0]    UB[1,16,0]  1
+    c[1,0]    UB[1,17,0]  1
+    c[1,0]    UB[1,18,0]  1
+    c[1,0]    PM[0,1,0]  1
+    c[1,0]    PM[1,0,0]  -1
+    c[1,0]    PM[1,2,0]  -1
+    c[1,0]    PM[1,3,0]  -1
+    c[1,0]    PM[1,4,0]  -1
+    c[1,0]    PM[1,5,0]  -1
+    c[1,0]    PM[1,6,0]  -1
+    c[1,0]    PM[1,7,0]  -1
+    c[1,0]    PM[1,8,0]  -1
+    c[1,0]    PM[1,9,0]  -1
+    c[1,0]    PM[1,10,0]  -1
+    c[1,0]    PM[1,11,0]  -1
+    c[1,0]    PM[1,12,0]  -1
+    c[1,0]    PM[1,13,0]  -1
+    c[1,0]    PM[1,14,0]  -1
+    c[1,0]    PM[1,15,0]  -1
+    c[1,0]    PM[1,16,0]  -1
+    c[1,0]    PM[1,17,0]  -1
+    c[1,0]    PM[1,18,0]  -1
+    c[1,0]    PM[2,1,0]  1
+    c[1,0]    PM[3,1,0]  1
+    c[1,0]    PM[4,1,0]  1
+    c[1,0]    PM[5,1,0]  1
+    c[1,0]    PM[6,1,0]  1
+    c[1,0]    PM[7,1,0]  1
+    c[1,0]    PM[8,1,0]  1
+    c[1,0]    PM[9,1,0]  1
+    c[1,0]    PM[10,1,0]  1
+    c[1,0]    PM[11,1,0]  1
+    c[1,0]    PM[12,1,0]  1
+    c[1,0]    PM[13,1,0]  1
+    c[1,0]    PM[14,1,0]  1
+    c[1,0]    PM[15,1,0]  1
+    c[1,0]    PM[16,1,0]  1
+    c[1,0]    PM[17,1,0]  1
+    c[1,0]    PM[18,1,0]  1
+    c[1,1]    Height[1]  -1
+    c[1,1]    LB[0,1,1]  1
+    c[1,1]    LB[2,1,1]  1
+    c[1,1]    LB[3,1,1]  1
+    c[1,1]    LB[4,1,1]  1
+    c[1,1]    LB[5,1,1]  1
+    c[1,1]    LB[6,1,1]  1
+    c[1,1]    LB[7,1,1]  1
+    c[1,1]    LB[8,1,1]  1
+    c[1,1]    LB[9,1,1]  1
+    c[1,1]    LB[10,1,1]  1
+    c[1,1]    LB[11,1,1]  1
+    c[1,1]    LB[12,1,1]  1
+    c[1,1]    LB[13,1,1]  1
+    c[1,1]    LB[14,1,1]  1
+    c[1,1]    LB[15,1,1]  1
+    c[1,1]    LB[16,1,1]  1
+    c[1,1]    LB[17,1,1]  1
+    c[1,1]    LB[18,1,1]  1
+    c[1,1]    UB[1,0,1]  1
+    c[1,1]    UB[1,2,1]  1
+    c[1,1]    UB[1,3,1]  1
+    c[1,1]    UB[1,4,1]  1
+    c[1,1]    UB[1,5,1]  1
+    c[1,1]    UB[1,6,1]  1
+    c[1,1]    UB[1,7,1]  1
+    c[1,1]    UB[1,8,1]  1
+    c[1,1]    UB[1,9,1]  1
+    c[1,1]    UB[1,10,1]  1
+    c[1,1]    UB[1,11,1]  1
+    c[1,1]    UB[1,12,1]  1
+    c[1,1]    UB[1,13,1]  1
+    c[1,1]    UB[1,14,1]  1
+    c[1,1]    UB[1,15,1]  1
+    c[1,1]    UB[1,16,1]  1
+    c[1,1]    UB[1,17,1]  1
+    c[1,1]    UB[1,18,1]  1
+    c[1,1]    PM[0,1,1]  1
+    c[1,1]    PM[1,0,1]  -1
+    c[1,1]    PM[1,2,1]  -1
+    c[1,1]    PM[1,3,1]  -1
+    c[1,1]    PM[1,4,1]  -1
+    c[1,1]    PM[1,5,1]  -1
+    c[1,1]    PM[1,6,1]  -1
+    c[1,1]    PM[1,7,1]  -1
+    c[1,1]    PM[1,8,1]  -1
+    c[1,1]    PM[1,9,1]  -1
+    c[1,1]    PM[1,10,1]  -1
+    c[1,1]    PM[1,11,1]  -1
+    c[1,1]    PM[1,12,1]  -1
+    c[1,1]    PM[1,13,1]  -1
+    c[1,1]    PM[1,14,1]  -1
+    c[1,1]    PM[1,15,1]  -1
+    c[1,1]    PM[1,16,1]  -1
+    c[1,1]    PM[1,17,1]  -1
+    c[1,1]    PM[1,18,1]  -1
+    c[1,1]    PM[2,1,1]  1
+    c[1,1]    PM[3,1,1]  1
+    c[1,1]    PM[4,1,1]  1
+    c[1,1]    PM[5,1,1]  1
+    c[1,1]    PM[6,1,1]  1
+    c[1,1]    PM[7,1,1]  1
+    c[1,1]    PM[8,1,1]  1
+    c[1,1]    PM[9,1,1]  1
+    c[1,1]    PM[10,1,1]  1
+    c[1,1]    PM[11,1,1]  1
+    c[1,1]    PM[12,1,1]  1
+    c[1,1]    PM[13,1,1]  1
+    c[1,1]    PM[14,1,1]  1
+    c[1,1]    PM[15,1,1]  1
+    c[1,1]    PM[16,1,1]  1
+    c[1,1]    PM[17,1,1]  1
+    c[1,1]    PM[18,1,1]  1
+    c[2,0]    LB[0,2,0]  1
+    c[2,0]    LB[1,2,0]  1
+    c[2,0]    LB[3,2,0]  1
+    c[2,0]    LB[4,2,0]  1
+    c[2,0]    LB[5,2,0]  1
+    c[2,0]    LB[6,2,0]  1
+    c[2,0]    LB[7,2,0]  1
+    c[2,0]    LB[8,2,0]  1
+    c[2,0]    LB[9,2,0]  1
+    c[2,0]    LB[10,2,0]  1
+    c[2,0]    LB[11,2,0]  1
+    c[2,0]    LB[12,2,0]  1
+    c[2,0]    LB[13,2,0]  1
+    c[2,0]    LB[14,2,0]  1
+    c[2,0]    LB[15,2,0]  1
+    c[2,0]    LB[16,2,0]  1
+    c[2,0]    LB[17,2,0]  1
+    c[2,0]    LB[18,2,0]  1
+    c[2,0]    UB[2,0,0]  1
+    c[2,0]    UB[2,1,0]  1
+    c[2,0]    UB[2,3,0]  1
+    c[2,0]    UB[2,4,0]  1
+    c[2,0]    UB[2,5,0]  1
+    c[2,0]    UB[2,6,0]  1
+    c[2,0]    UB[2,7,0]  1
+    c[2,0]    UB[2,8,0]  1
+    c[2,0]    UB[2,9,0]  1
+    c[2,0]    UB[2,10,0]  1
+    c[2,0]    UB[2,11,0]  1
+    c[2,0]    UB[2,12,0]  1
+    c[2,0]    UB[2,13,0]  1
+    c[2,0]    UB[2,14,0]  1
+    c[2,0]    UB[2,15,0]  1
+    c[2,0]    UB[2,16,0]  1
+    c[2,0]    UB[2,17,0]  1
+    c[2,0]    UB[2,18,0]  1
+    c[2,0]    PM[0,2,0]  1
+    c[2,0]    PM[1,2,0]  1
+    c[2,0]    PM[2,0,0]  -1
+    c[2,0]    PM[2,1,0]  -1
+    c[2,0]    PM[2,3,0]  -1
+    c[2,0]    PM[2,4,0]  -1
+    c[2,0]    PM[2,5,0]  -1
+    c[2,0]    PM[2,6,0]  -1
+    c[2,0]    PM[2,7,0]  -1
+    c[2,0]    PM[2,8,0]  -1
+    c[2,0]    PM[2,9,0]  -1
+    c[2,0]    PM[2,10,0]  -1
+    c[2,0]    PM[2,11,0]  -1
+    c[2,0]    PM[2,12,0]  -1
+    c[2,0]    PM[2,13,0]  -1
+    c[2,0]    PM[2,14,0]  -1
+    c[2,0]    PM[2,15,0]  -1
+    c[2,0]    PM[2,16,0]  -1
+    c[2,0]    PM[2,17,0]  -1
+    c[2,0]    PM[2,18,0]  -1
+    c[2,0]    PM[3,2,0]  1
+    c[2,0]    PM[4,2,0]  1
+    c[2,0]    PM[5,2,0]  1
+    c[2,0]    PM[6,2,0]  1
+    c[2,0]    PM[7,2,0]  1
+    c[2,0]    PM[8,2,0]  1
+    c[2,0]    PM[9,2,0]  1
+    c[2,0]    PM[10,2,0]  1
+    c[2,0]    PM[11,2,0]  1
+    c[2,0]    PM[12,2,0]  1
+    c[2,0]    PM[13,2,0]  1
+    c[2,0]    PM[14,2,0]  1
+    c[2,0]    PM[15,2,0]  1
+    c[2,0]    PM[16,2,0]  1
+    c[2,0]    PM[17,2,0]  1
+    c[2,0]    PM[18,2,0]  1
+    c[2,1]    Height[2]  -1
+    c[2,1]    LB[0,2,1]  1
+    c[2,1]    LB[1,2,1]  1
+    c[2,1]    LB[3,2,1]  1
+    c[2,1]    LB[4,2,1]  1
+    c[2,1]    LB[5,2,1]  1
+    c[2,1]    LB[6,2,1]  1
+    c[2,1]    LB[7,2,1]  1
+    c[2,1]    LB[8,2,1]  1
+    c[2,1]    LB[9,2,1]  1
+    c[2,1]    LB[10,2,1]  1
+    c[2,1]    LB[11,2,1]  1
+    c[2,1]    LB[12,2,1]  1
+    c[2,1]    LB[13,2,1]  1
+    c[2,1]    LB[14,2,1]  1
+    c[2,1]    LB[15,2,1]  1
+    c[2,1]    LB[16,2,1]  1
+    c[2,1]    LB[17,2,1]  1
+    c[2,1]    LB[18,2,1]  1
+    c[2,1]    UB[2,0,1]  1
+    c[2,1]    UB[2,1,1]  1
+    c[2,1]    UB[2,3,1]  1
+    c[2,1]    UB[2,4,1]  1
+    c[2,1]    UB[2,5,1]  1
+    c[2,1]    UB[2,6,1]  1
+    c[2,1]    UB[2,7,1]  1
+    c[2,1]    UB[2,8,1]  1
+    c[2,1]    UB[2,9,1]  1
+    c[2,1]    UB[2,10,1]  1
+    c[2,1]    UB[2,11,1]  1
+    c[2,1]    UB[2,12,1]  1
+    c[2,1]    UB[2,13,1]  1
+    c[2,1]    UB[2,14,1]  1
+    c[2,1]    UB[2,15,1]  1
+    c[2,1]    UB[2,16,1]  1
+    c[2,1]    UB[2,17,1]  1
+    c[2,1]    UB[2,18,1]  1
+    c[2,1]    PM[0,2,1]  1
+    c[2,1]    PM[1,2,1]  1
+    c[2,1]    PM[2,0,1]  -1
+    c[2,1]    PM[2,1,1]  -1
+    c[2,1]    PM[2,3,1]  -1
+    c[2,1]    PM[2,4,1]  -1
+    c[2,1]    PM[2,5,1]  -1
+    c[2,1]    PM[2,6,1]  -1
+    c[2,1]    PM[2,7,1]  -1
+    c[2,1]    PM[2,8,1]  -1
+    c[2,1]    PM[2,9,1]  -1
+    c[2,1]    PM[2,10,1]  -1
+    c[2,1]    PM[2,11,1]  -1
+    c[2,1]    PM[2,12,1]  -1
+    c[2,1]    PM[2,13,1]  -1
+    c[2,1]    PM[2,14,1]  -1
+    c[2,1]    PM[2,15,1]  -1
+    c[2,1]    PM[2,16,1]  -1
+    c[2,1]    PM[2,17,1]  -1
+    c[2,1]    PM[2,18,1]  -1
+    c[2,1]    PM[3,2,1]  1
+    c[2,1]    PM[4,2,1]  1
+    c[2,1]    PM[5,2,1]  1
+    c[2,1]    PM[6,2,1]  1
+    c[2,1]    PM[7,2,1]  1
+    c[2,1]    PM[8,2,1]  1
+    c[2,1]    PM[9,2,1]  1
+    c[2,1]    PM[10,2,1]  1
+    c[2,1]    PM[11,2,1]  1
+    c[2,1]    PM[12,2,1]  1
+    c[2,1]    PM[13,2,1]  1
+    c[2,1]    PM[14,2,1]  1
+    c[2,1]    PM[15,2,1]  1
+    c[2,1]    PM[16,2,1]  1
+    c[2,1]    PM[17,2,1]  1
+    c[2,1]    PM[18,2,1]  1
+    c[3,0]    LB[0,3,0]  1
+    c[3,0]    LB[1,3,0]  1
+    c[3,0]    LB[2,3,0]  1
+    c[3,0]    LB[4,3,0]  1
+    c[3,0]    LB[5,3,0]  1
+    c[3,0]    LB[6,3,0]  1
+    c[3,0]    LB[7,3,0]  1
+    c[3,0]    LB[8,3,0]  1
+    c[3,0]    LB[9,3,0]  1
+    c[3,0]    LB[10,3,0]  1
+    c[3,0]    LB[11,3,0]  1
+    c[3,0]    LB[12,3,0]  1
+    c[3,0]    LB[13,3,0]  1
+    c[3,0]    LB[14,3,0]  1
+    c[3,0]    LB[15,3,0]  1
+    c[3,0]    LB[16,3,0]  1
+    c[3,0]    LB[17,3,0]  1
+    c[3,0]    LB[18,3,0]  1
+    c[3,0]    UB[3,0,0]  1
+    c[3,0]    UB[3,1,0]  1
+    c[3,0]    UB[3,2,0]  1
+    c[3,0]    UB[3,4,0]  1
+    c[3,0]    UB[3,5,0]  1
+    c[3,0]    UB[3,6,0]  1
+    c[3,0]    UB[3,7,0]  1
+    c[3,0]    UB[3,8,0]  1
+    c[3,0]    UB[3,9,0]  1
+    c[3,0]    UB[3,10,0]  1
+    c[3,0]    UB[3,11,0]  1
+    c[3,0]    UB[3,12,0]  1
+    c[3,0]    UB[3,13,0]  1
+    c[3,0]    UB[3,14,0]  1
+    c[3,0]    UB[3,15,0]  1
+    c[3,0]    UB[3,16,0]  1
+    c[3,0]    UB[3,17,0]  1
+    c[3,0]    UB[3,18,0]  1
+    c[3,0]    PM[0,3,0]  1
+    c[3,0]    PM[1,3,0]  1
+    c[3,0]    PM[2,3,0]  1
+    c[3,0]    PM[3,0,0]  -1
+    c[3,0]    PM[3,1,0]  -1
+    c[3,0]    PM[3,2,0]  -1
+    c[3,0]    PM[3,4,0]  -1
+    c[3,0]    PM[3,5,0]  -1
+    c[3,0]    PM[3,6,0]  -1
+    c[3,0]    PM[3,7,0]  -1
+    c[3,0]    PM[3,8,0]  -1
+    c[3,0]    PM[3,9,0]  -1
+    c[3,0]    PM[3,10,0]  -1
+    c[3,0]    PM[3,11,0]  -1
+    c[3,0]    PM[3,12,0]  -1
+    c[3,0]    PM[3,13,0]  -1
+    c[3,0]    PM[3,14,0]  -1
+    c[3,0]    PM[3,15,0]  -1
+    c[3,0]    PM[3,16,0]  -1
+    c[3,0]    PM[3,17,0]  -1
+    c[3,0]    PM[3,18,0]  -1
+    c[3,0]    PM[4,3,0]  1
+    c[3,0]    PM[5,3,0]  1
+    c[3,0]    PM[6,3,0]  1
+    c[3,0]    PM[7,3,0]  1
+    c[3,0]    PM[8,3,0]  1
+    c[3,0]    PM[9,3,0]  1
+    c[3,0]    PM[10,3,0]  1
+    c[3,0]    PM[11,3,0]  1
+    c[3,0]    PM[12,3,0]  1
+    c[3,0]    PM[13,3,0]  1
+    c[3,0]    PM[14,3,0]  1
+    c[3,0]    PM[15,3,0]  1
+    c[3,0]    PM[16,3,0]  1
+    c[3,0]    PM[17,3,0]  1
+    c[3,0]    PM[18,3,0]  1
+    c[3,1]    Height[3]  -1
+    c[3,1]    LB[0,3,1]  1
+    c[3,1]    LB[1,3,1]  1
+    c[3,1]    LB[2,3,1]  1
+    c[3,1]    LB[4,3,1]  1
+    c[3,1]    LB[5,3,1]  1
+    c[3,1]    LB[6,3,1]  1
+    c[3,1]    LB[7,3,1]  1
+    c[3,1]    LB[8,3,1]  1
+    c[3,1]    LB[9,3,1]  1
+    c[3,1]    LB[10,3,1]  1
+    c[3,1]    LB[11,3,1]  1
+    c[3,1]    LB[12,3,1]  1
+    c[3,1]    LB[13,3,1]  1
+    c[3,1]    LB[14,3,1]  1
+    c[3,1]    LB[15,3,1]  1
+    c[3,1]    LB[16,3,1]  1
+    c[3,1]    LB[17,3,1]  1
+    c[3,1]    LB[18,3,1]  1
+    c[3,1]    UB[3,0,1]  1
+    c[3,1]    UB[3,1,1]  1
+    c[3,1]    UB[3,2,1]  1
+    c[3,1]    UB[3,4,1]  1
+    c[3,1]    UB[3,5,1]  1
+    c[3,1]    UB[3,6,1]  1
+    c[3,1]    UB[3,7,1]  1
+    c[3,1]    UB[3,8,1]  1
+    c[3,1]    UB[3,9,1]  1
+    c[3,1]    UB[3,10,1]  1
+    c[3,1]    UB[3,11,1]  1
+    c[3,1]    UB[3,12,1]  1
+    c[3,1]    UB[3,13,1]  1
+    c[3,1]    UB[3,14,1]  1
+    c[3,1]    UB[3,15,1]  1
+    c[3,1]    UB[3,16,1]  1
+    c[3,1]    UB[3,17,1]  1
+    c[3,1]    UB[3,18,1]  1
+    c[3,1]    PM[0,3,1]  1
+    c[3,1]    PM[1,3,1]  1
+    c[3,1]    PM[2,3,1]  1
+    c[3,1]    PM[3,0,1]  -1
+    c[3,1]    PM[3,1,1]  -1
+    c[3,1]    PM[3,2,1]  -1
+    c[3,1]    PM[3,4,1]  -1
+    c[3,1]    PM[3,5,1]  -1
+    c[3,1]    PM[3,6,1]  -1
+    c[3,1]    PM[3,7,1]  -1
+    c[3,1]    PM[3,8,1]  -1
+    c[3,1]    PM[3,9,1]  -1
+    c[3,1]    PM[3,10,1]  -1
+    c[3,1]    PM[3,11,1]  -1
+    c[3,1]    PM[3,12,1]  -1
+    c[3,1]    PM[3,13,1]  -1
+    c[3,1]    PM[3,14,1]  -1
+    c[3,1]    PM[3,15,1]  -1
+    c[3,1]    PM[3,16,1]  -1
+    c[3,1]    PM[3,17,1]  -1
+    c[3,1]    PM[3,18,1]  -1
+    c[3,1]    PM[4,3,1]  1
+    c[3,1]    PM[5,3,1]  1
+    c[3,1]    PM[6,3,1]  1
+    c[3,1]    PM[7,3,1]  1
+    c[3,1]    PM[8,3,1]  1
+    c[3,1]    PM[9,3,1]  1
+    c[3,1]    PM[10,3,1]  1
+    c[3,1]    PM[11,3,1]  1
+    c[3,1]    PM[12,3,1]  1
+    c[3,1]    PM[13,3,1]  1
+    c[3,1]    PM[14,3,1]  1
+    c[3,1]    PM[15,3,1]  1
+    c[3,1]    PM[16,3,1]  1
+    c[3,1]    PM[17,3,1]  1
+    c[3,1]    PM[18,3,1]  1
+    c[4,0]    LB[0,4,0]  1
+    c[4,0]    LB[1,4,0]  1
+    c[4,0]    LB[2,4,0]  1
+    c[4,0]    LB[3,4,0]  1
+    c[4,0]    LB[5,4,0]  1
+    c[4,0]    LB[6,4,0]  1
+    c[4,0]    LB[7,4,0]  1
+    c[4,0]    LB[8,4,0]  1
+    c[4,0]    LB[9,4,0]  1
+    c[4,0]    LB[10,4,0]  1
+    c[4,0]    LB[11,4,0]  1
+    c[4,0]    LB[12,4,0]  1
+    c[4,0]    LB[13,4,0]  1
+    c[4,0]    LB[14,4,0]  1
+    c[4,0]    LB[15,4,0]  1
+    c[4,0]    LB[16,4,0]  1
+    c[4,0]    LB[17,4,0]  1
+    c[4,0]    LB[18,4,0]  1
+    c[4,0]    UB[4,0,0]  1
+    c[4,0]    UB[4,1,0]  1
+    c[4,0]    UB[4,2,0]  1
+    c[4,0]    UB[4,3,0]  1
+    c[4,0]    UB[4,5,0]  1
+    c[4,0]    UB[4,6,0]  1
+    c[4,0]    UB[4,7,0]  1
+    c[4,0]    UB[4,8,0]  1
+    c[4,0]    UB[4,9,0]  1
+    c[4,0]    UB[4,10,0]  1
+    c[4,0]    UB[4,11,0]  1
+    c[4,0]    UB[4,12,0]  1
+    c[4,0]    UB[4,13,0]  1
+    c[4,0]    UB[4,14,0]  1
+    c[4,0]    UB[4,15,0]  1
+    c[4,0]    UB[4,16,0]  1
+    c[4,0]    UB[4,17,0]  1
+    c[4,0]    UB[4,18,0]  1
+    c[4,0]    PM[0,4,0]  1
+    c[4,0]    PM[1,4,0]  1
+    c[4,0]    PM[2,4,0]  1
+    c[4,0]    PM[3,4,0]  1
+    c[4,0]    PM[4,0,0]  -1
+    c[4,0]    PM[4,1,0]  -1
+    c[4,0]    PM[4,2,0]  -1
+    c[4,0]    PM[4,3,0]  -1
+    c[4,0]    PM[4,5,0]  -1
+    c[4,0]    PM[4,6,0]  -1
+    c[4,0]    PM[4,7,0]  -1
+    c[4,0]    PM[4,8,0]  -1
+    c[4,0]    PM[4,9,0]  -1
+    c[4,0]    PM[4,10,0]  -1
+    c[4,0]    PM[4,11,0]  -1
+    c[4,0]    PM[4,12,0]  -1
+    c[4,0]    PM[4,13,0]  -1
+    c[4,0]    PM[4,14,0]  -1
+    c[4,0]    PM[4,15,0]  -1
+    c[4,0]    PM[4,16,0]  -1
+    c[4,0]    PM[4,17,0]  -1
+    c[4,0]    PM[4,18,0]  -1
+    c[4,0]    PM[5,4,0]  1
+    c[4,0]    PM[6,4,0]  1
+    c[4,0]    PM[7,4,0]  1
+    c[4,0]    PM[8,4,0]  1
+    c[4,0]    PM[9,4,0]  1
+    c[4,0]    PM[10,4,0]  1
+    c[4,0]    PM[11,4,0]  1
+    c[4,0]    PM[12,4,0]  1
+    c[4,0]    PM[13,4,0]  1
+    c[4,0]    PM[14,4,0]  1
+    c[4,0]    PM[15,4,0]  1
+    c[4,0]    PM[16,4,0]  1
+    c[4,0]    PM[17,4,0]  1
+    c[4,0]    PM[18,4,0]  1
+    c[4,1]    Height[4]  -1
+    c[4,1]    LB[0,4,1]  1
+    c[4,1]    LB[1,4,1]  1
+    c[4,1]    LB[2,4,1]  1
+    c[4,1]    LB[3,4,1]  1
+    c[4,1]    LB[5,4,1]  1
+    c[4,1]    LB[6,4,1]  1
+    c[4,1]    LB[7,4,1]  1
+    c[4,1]    LB[8,4,1]  1
+    c[4,1]    LB[9,4,1]  1
+    c[4,1]    LB[10,4,1]  1
+    c[4,1]    LB[11,4,1]  1
+    c[4,1]    LB[12,4,1]  1
+    c[4,1]    LB[13,4,1]  1
+    c[4,1]    LB[14,4,1]  1
+    c[4,1]    LB[15,4,1]  1
+    c[4,1]    LB[16,4,1]  1
+    c[4,1]    LB[17,4,1]  1
+    c[4,1]    LB[18,4,1]  1
+    c[4,1]    UB[4,0,1]  1
+    c[4,1]    UB[4,1,1]  1
+    c[4,1]    UB[4,2,1]  1
+    c[4,1]    UB[4,3,1]  1
+    c[4,1]    UB[4,5,1]  1
+    c[4,1]    UB[4,6,1]  1
+    c[4,1]    UB[4,7,1]  1
+    c[4,1]    UB[4,8,1]  1
+    c[4,1]    UB[4,9,1]  1
+    c[4,1]    UB[4,10,1]  1
+    c[4,1]    UB[4,11,1]  1
+    c[4,1]    UB[4,12,1]  1
+    c[4,1]    UB[4,13,1]  1
+    c[4,1]    UB[4,14,1]  1
+    c[4,1]    UB[4,15,1]  1
+    c[4,1]    UB[4,16,1]  1
+    c[4,1]    UB[4,17,1]  1
+    c[4,1]    UB[4,18,1]  1
+    c[4,1]    PM[0,4,1]  1
+    c[4,1]    PM[1,4,1]  1
+    c[4,1]    PM[2,4,1]  1
+    c[4,1]    PM[3,4,1]  1
+    c[4,1]    PM[4,0,1]  -1
+    c[4,1]    PM[4,1,1]  -1
+    c[4,1]    PM[4,2,1]  -1
+    c[4,1]    PM[4,3,1]  -1
+    c[4,1]    PM[4,5,1]  -1
+    c[4,1]    PM[4,6,1]  -1
+    c[4,1]    PM[4,7,1]  -1
+    c[4,1]    PM[4,8,1]  -1
+    c[4,1]    PM[4,9,1]  -1
+    c[4,1]    PM[4,10,1]  -1
+    c[4,1]    PM[4,11,1]  -1
+    c[4,1]    PM[4,12,1]  -1
+    c[4,1]    PM[4,13,1]  -1
+    c[4,1]    PM[4,14,1]  -1
+    c[4,1]    PM[4,15,1]  -1
+    c[4,1]    PM[4,16,1]  -1
+    c[4,1]    PM[4,17,1]  -1
+    c[4,1]    PM[4,18,1]  -1
+    c[4,1]    PM[5,4,1]  1
+    c[4,1]    PM[6,4,1]  1
+    c[4,1]    PM[7,4,1]  1
+    c[4,1]    PM[8,4,1]  1
+    c[4,1]    PM[9,4,1]  1
+    c[4,1]    PM[10,4,1]  1
+    c[4,1]    PM[11,4,1]  1
+    c[4,1]    PM[12,4,1]  1
+    c[4,1]    PM[13,4,1]  1
+    c[4,1]    PM[14,4,1]  1
+    c[4,1]    PM[15,4,1]  1
+    c[4,1]    PM[16,4,1]  1
+    c[4,1]    PM[17,4,1]  1
+    c[4,1]    PM[18,4,1]  1
+    c[5,0]    LB[0,5,0]  1
+    c[5,0]    LB[1,5,0]  1
+    c[5,0]    LB[2,5,0]  1
+    c[5,0]    LB[3,5,0]  1
+    c[5,0]    LB[4,5,0]  1
+    c[5,0]    LB[6,5,0]  1
+    c[5,0]    LB[7,5,0]  1
+    c[5,0]    LB[8,5,0]  1
+    c[5,0]    LB[9,5,0]  1
+    c[5,0]    LB[10,5,0]  1
+    c[5,0]    LB[11,5,0]  1
+    c[5,0]    LB[12,5,0]  1
+    c[5,0]    LB[13,5,0]  1
+    c[5,0]    LB[14,5,0]  1
+    c[5,0]    LB[15,5,0]  1
+    c[5,0]    LB[16,5,0]  1
+    c[5,0]    LB[17,5,0]  1
+    c[5,0]    LB[18,5,0]  1
+    c[5,0]    UB[5,0,0]  1
+    c[5,0]    UB[5,1,0]  1
+    c[5,0]    UB[5,2,0]  1
+    c[5,0]    UB[5,3,0]  1
+    c[5,0]    UB[5,4,0]  1
+    c[5,0]    UB[5,6,0]  1
+    c[5,0]    UB[5,7,0]  1
+    c[5,0]    UB[5,8,0]  1
+    c[5,0]    UB[5,9,0]  1
+    c[5,0]    UB[5,10,0]  1
+    c[5,0]    UB[5,11,0]  1
+    c[5,0]    UB[5,12,0]  1
+    c[5,0]    UB[5,13,0]  1
+    c[5,0]    UB[5,14,0]  1
+    c[5,0]    UB[5,15,0]  1
+    c[5,0]    UB[5,16,0]  1
+    c[5,0]    UB[5,17,0]  1
+    c[5,0]    UB[5,18,0]  1
+    c[5,0]    PM[0,5,0]  1
+    c[5,0]    PM[1,5,0]  1
+    c[5,0]    PM[2,5,0]  1
+    c[5,0]    PM[3,5,0]  1
+    c[5,0]    PM[4,5,0]  1
+    c[5,0]    PM[5,0,0]  -1
+    c[5,0]    PM[5,1,0]  -1
+    c[5,0]    PM[5,2,0]  -1
+    c[5,0]    PM[5,3,0]  -1
+    c[5,0]    PM[5,4,0]  -1
+    c[5,0]    PM[5,6,0]  -1
+    c[5,0]    PM[5,7,0]  -1
+    c[5,0]    PM[5,8,0]  -1
+    c[5,0]    PM[5,9,0]  -1
+    c[5,0]    PM[5,10,0]  -1
+    c[5,0]    PM[5,11,0]  -1
+    c[5,0]    PM[5,12,0]  -1
+    c[5,0]    PM[5,13,0]  -1
+    c[5,0]    PM[5,14,0]  -1
+    c[5,0]    PM[5,15,0]  -1
+    c[5,0]    PM[5,16,0]  -1
+    c[5,0]    PM[5,17,0]  -1
+    c[5,0]    PM[5,18,0]  -1
+    c[5,0]    PM[6,5,0]  1
+    c[5,0]    PM[7,5,0]  1
+    c[5,0]    PM[8,5,0]  1
+    c[5,0]    PM[9,5,0]  1
+    c[5,0]    PM[10,5,0]  1
+    c[5,0]    PM[11,5,0]  1
+    c[5,0]    PM[12,5,0]  1
+    c[5,0]    PM[13,5,0]  1
+    c[5,0]    PM[14,5,0]  1
+    c[5,0]    PM[15,5,0]  1
+    c[5,0]    PM[16,5,0]  1
+    c[5,0]    PM[17,5,0]  1
+    c[5,0]    PM[18,5,0]  1
+    c[5,1]    Height[5]  -1
+    c[5,1]    LB[0,5,1]  1
+    c[5,1]    LB[1,5,1]  1
+    c[5,1]    LB[2,5,1]  1
+    c[5,1]    LB[3,5,1]  1
+    c[5,1]    LB[4,5,1]  1
+    c[5,1]    LB[6,5,1]  1
+    c[5,1]    LB[7,5,1]  1
+    c[5,1]    LB[8,5,1]  1
+    c[5,1]    LB[9,5,1]  1
+    c[5,1]    LB[10,5,1]  1
+    c[5,1]    LB[11,5,1]  1
+    c[5,1]    LB[12,5,1]  1
+    c[5,1]    LB[13,5,1]  1
+    c[5,1]    LB[14,5,1]  1
+    c[5,1]    LB[15,5,1]  1
+    c[5,1]    LB[16,5,1]  1
+    c[5,1]    LB[17,5,1]  1
+    c[5,1]    LB[18,5,1]  1
+    c[5,1]    UB[5,0,1]  1
+    c[5,1]    UB[5,1,1]  1
+    c[5,1]    UB[5,2,1]  1
+    c[5,1]    UB[5,3,1]  1
+    c[5,1]    UB[5,4,1]  1
+    c[5,1]    UB[5,6,1]  1
+    c[5,1]    UB[5,7,1]  1
+    c[5,1]    UB[5,8,1]  1
+    c[5,1]    UB[5,9,1]  1
+    c[5,1]    UB[5,10,1]  1
+    c[5,1]    UB[5,11,1]  1
+    c[5,1]    UB[5,12,1]  1
+    c[5,1]    UB[5,13,1]  1
+    c[5,1]    UB[5,14,1]  1
+    c[5,1]    UB[5,15,1]  1
+    c[5,1]    UB[5,16,1]  1
+    c[5,1]    UB[5,17,1]  1
+    c[5,1]    UB[5,18,1]  1
+    c[5,1]    PM[0,5,1]  1
+    c[5,1]    PM[1,5,1]  1
+    c[5,1]    PM[2,5,1]  1
+    c[5,1]    PM[3,5,1]  1
+    c[5,1]    PM[4,5,1]  1
+    c[5,1]    PM[5,0,1]  -1
+    c[5,1]    PM[5,1,1]  -1
+    c[5,1]    PM[5,2,1]  -1
+    c[5,1]    PM[5,3,1]  -1
+    c[5,1]    PM[5,4,1]  -1
+    c[5,1]    PM[5,6,1]  -1
+    c[5,1]    PM[5,7,1]  -1
+    c[5,1]    PM[5,8,1]  -1
+    c[5,1]    PM[5,9,1]  -1
+    c[5,1]    PM[5,10,1]  -1
+    c[5,1]    PM[5,11,1]  -1
+    c[5,1]    PM[5,12,1]  -1
+    c[5,1]    PM[5,13,1]  -1
+    c[5,1]    PM[5,14,1]  -1
+    c[5,1]    PM[5,15,1]  -1
+    c[5,1]    PM[5,16,1]  -1
+    c[5,1]    PM[5,17,1]  -1
+    c[5,1]    PM[5,18,1]  -1
+    c[5,1]    PM[6,5,1]  1
+    c[5,1]    PM[7,5,1]  1
+    c[5,1]    PM[8,5,1]  1
+    c[5,1]    PM[9,5,1]  1
+    c[5,1]    PM[10,5,1]  1
+    c[5,1]    PM[11,5,1]  1
+    c[5,1]    PM[12,5,1]  1
+    c[5,1]    PM[13,5,1]  1
+    c[5,1]    PM[14,5,1]  1
+    c[5,1]    PM[15,5,1]  1
+    c[5,1]    PM[16,5,1]  1
+    c[5,1]    PM[17,5,1]  1
+    c[5,1]    PM[18,5,1]  1
+    c[6,0]    LB[0,6,0]  1
+    c[6,0]    LB[1,6,0]  1
+    c[6,0]    LB[2,6,0]  1
+    c[6,0]    LB[3,6,0]  1
+    c[6,0]    LB[4,6,0]  1
+    c[6,0]    LB[5,6,0]  1
+    c[6,0]    LB[7,6,0]  1
+    c[6,0]    LB[8,6,0]  1
+    c[6,0]    LB[9,6,0]  1
+    c[6,0]    LB[10,6,0]  1
+    c[6,0]    LB[11,6,0]  1
+    c[6,0]    LB[12,6,0]  1
+    c[6,0]    LB[13,6,0]  1
+    c[6,0]    LB[14,6,0]  1
+    c[6,0]    LB[15,6,0]  1
+    c[6,0]    LB[16,6,0]  1
+    c[6,0]    LB[17,6,0]  1
+    c[6,0]    LB[18,6,0]  1
+    c[6,0]    UB[6,0,0]  1
+    c[6,0]    UB[6,1,0]  1
+    c[6,0]    UB[6,2,0]  1
+    c[6,0]    UB[6,3,0]  1
+    c[6,0]    UB[6,4,0]  1
+    c[6,0]    UB[6,5,0]  1
+    c[6,0]    UB[6,7,0]  1
+    c[6,0]    UB[6,8,0]  1
+    c[6,0]    UB[6,9,0]  1
+    c[6,0]    UB[6,10,0]  1
+    c[6,0]    UB[6,11,0]  1
+    c[6,0]    UB[6,12,0]  1
+    c[6,0]    UB[6,13,0]  1
+    c[6,0]    UB[6,14,0]  1
+    c[6,0]    UB[6,15,0]  1
+    c[6,0]    UB[6,16,0]  1
+    c[6,0]    UB[6,17,0]  1
+    c[6,0]    UB[6,18,0]  1
+    c[6,0]    PM[0,6,0]  1
+    c[6,0]    PM[1,6,0]  1
+    c[6,0]    PM[2,6,0]  1
+    c[6,0]    PM[3,6,0]  1
+    c[6,0]    PM[4,6,0]  1
+    c[6,0]    PM[5,6,0]  1
+    c[6,0]    PM[6,0,0]  -1
+    c[6,0]    PM[6,1,0]  -1
+    c[6,0]    PM[6,2,0]  -1
+    c[6,0]    PM[6,3,0]  -1
+    c[6,0]    PM[6,4,0]  -1
+    c[6,0]    PM[6,5,0]  -1
+    c[6,0]    PM[6,7,0]  -1
+    c[6,0]    PM[6,8,0]  -1
+    c[6,0]    PM[6,9,0]  -1
+    c[6,0]    PM[6,10,0]  -1
+    c[6,0]    PM[6,11,0]  -1
+    c[6,0]    PM[6,12,0]  -1
+    c[6,0]    PM[6,13,0]  -1
+    c[6,0]    PM[6,14,0]  -1
+    c[6,0]    PM[6,15,0]  -1
+    c[6,0]    PM[6,16,0]  -1
+    c[6,0]    PM[6,17,0]  -1
+    c[6,0]    PM[6,18,0]  -1
+    c[6,0]    PM[7,6,0]  1
+    c[6,0]    PM[8,6,0]  1
+    c[6,0]    PM[9,6,0]  1
+    c[6,0]    PM[10,6,0]  1
+    c[6,0]    PM[11,6,0]  1
+    c[6,0]    PM[12,6,0]  1
+    c[6,0]    PM[13,6,0]  1
+    c[6,0]    PM[14,6,0]  1
+    c[6,0]    PM[15,6,0]  1
+    c[6,0]    PM[16,6,0]  1
+    c[6,0]    PM[17,6,0]  1
+    c[6,0]    PM[18,6,0]  1
+    c[6,1]    Height[6]  -1
+    c[6,1]    LB[0,6,1]  1
+    c[6,1]    LB[1,6,1]  1
+    c[6,1]    LB[2,6,1]  1
+    c[6,1]    LB[3,6,1]  1
+    c[6,1]    LB[4,6,1]  1
+    c[6,1]    LB[5,6,1]  1
+    c[6,1]    LB[7,6,1]  1
+    c[6,1]    LB[8,6,1]  1
+    c[6,1]    LB[9,6,1]  1
+    c[6,1]    LB[10,6,1]  1
+    c[6,1]    LB[11,6,1]  1
+    c[6,1]    LB[12,6,1]  1
+    c[6,1]    LB[13,6,1]  1
+    c[6,1]    LB[14,6,1]  1
+    c[6,1]    LB[15,6,1]  1
+    c[6,1]    LB[16,6,1]  1
+    c[6,1]    LB[17,6,1]  1
+    c[6,1]    LB[18,6,1]  1
+    c[6,1]    UB[6,0,1]  1
+    c[6,1]    UB[6,1,1]  1
+    c[6,1]    UB[6,2,1]  1
+    c[6,1]    UB[6,3,1]  1
+    c[6,1]    UB[6,4,1]  1
+    c[6,1]    UB[6,5,1]  1
+    c[6,1]    UB[6,7,1]  1
+    c[6,1]    UB[6,8,1]  1
+    c[6,1]    UB[6,9,1]  1
+    c[6,1]    UB[6,10,1]  1
+    c[6,1]    UB[6,11,1]  1
+    c[6,1]    UB[6,12,1]  1
+    c[6,1]    UB[6,13,1]  1
+    c[6,1]    UB[6,14,1]  1
+    c[6,1]    UB[6,15,1]  1
+    c[6,1]    UB[6,16,1]  1
+    c[6,1]    UB[6,17,1]  1
+    c[6,1]    UB[6,18,1]  1
+    c[6,1]    PM[0,6,1]  1
+    c[6,1]    PM[1,6,1]  1
+    c[6,1]    PM[2,6,1]  1
+    c[6,1]    PM[3,6,1]  1
+    c[6,1]    PM[4,6,1]  1
+    c[6,1]    PM[5,6,1]  1
+    c[6,1]    PM[6,0,1]  -1
+    c[6,1]    PM[6,1,1]  -1
+    c[6,1]    PM[6,2,1]  -1
+    c[6,1]    PM[6,3,1]  -1
+    c[6,1]    PM[6,4,1]  -1
+    c[6,1]    PM[6,5,1]  -1
+    c[6,1]    PM[6,7,1]  -1
+    c[6,1]    PM[6,8,1]  -1
+    c[6,1]    PM[6,9,1]  -1
+    c[6,1]    PM[6,10,1]  -1
+    c[6,1]    PM[6,11,1]  -1
+    c[6,1]    PM[6,12,1]  -1
+    c[6,1]    PM[6,13,1]  -1
+    c[6,1]    PM[6,14,1]  -1
+    c[6,1]    PM[6,15,1]  -1
+    c[6,1]    PM[6,16,1]  -1
+    c[6,1]    PM[6,17,1]  -1
+    c[6,1]    PM[6,18,1]  -1
+    c[6,1]    PM[7,6,1]  1
+    c[6,1]    PM[8,6,1]  1
+    c[6,1]    PM[9,6,1]  1
+    c[6,1]    PM[10,6,1]  1
+    c[6,1]    PM[11,6,1]  1
+    c[6,1]    PM[12,6,1]  1
+    c[6,1]    PM[13,6,1]  1
+    c[6,1]    PM[14,6,1]  1
+    c[6,1]    PM[15,6,1]  1
+    c[6,1]    PM[16,6,1]  1
+    c[6,1]    PM[17,6,1]  1
+    c[6,1]    PM[18,6,1]  1
+    c[7,0]    LB[0,7,0]  1
+    c[7,0]    LB[1,7,0]  1
+    c[7,0]    LB[2,7,0]  1
+    c[7,0]    LB[3,7,0]  1
+    c[7,0]    LB[4,7,0]  1
+    c[7,0]    LB[5,7,0]  1
+    c[7,0]    LB[6,7,0]  1
+    c[7,0]    LB[8,7,0]  1
+    c[7,0]    LB[9,7,0]  1
+    c[7,0]    LB[10,7,0]  1
+    c[7,0]    LB[11,7,0]  1
+    c[7,0]    LB[12,7,0]  1
+    c[7,0]    LB[13,7,0]  1
+    c[7,0]    LB[14,7,0]  1
+    c[7,0]    LB[15,7,0]  1
+    c[7,0]    LB[16,7,0]  1
+    c[7,0]    LB[17,7,0]  1
+    c[7,0]    LB[18,7,0]  1
+    c[7,0]    UB[7,0,0]  1
+    c[7,0]    UB[7,1,0]  1
+    c[7,0]    UB[7,2,0]  1
+    c[7,0]    UB[7,3,0]  1
+    c[7,0]    UB[7,4,0]  1
+    c[7,0]    UB[7,5,0]  1
+    c[7,0]    UB[7,6,0]  1
+    c[7,0]    UB[7,8,0]  1
+    c[7,0]    UB[7,9,0]  1
+    c[7,0]    UB[7,10,0]  1
+    c[7,0]    UB[7,11,0]  1
+    c[7,0]    UB[7,12,0]  1
+    c[7,0]    UB[7,13,0]  1
+    c[7,0]    UB[7,14,0]  1
+    c[7,0]    UB[7,15,0]  1
+    c[7,0]    UB[7,16,0]  1
+    c[7,0]    UB[7,17,0]  1
+    c[7,0]    UB[7,18,0]  1
+    c[7,0]    PM[0,7,0]  1
+    c[7,0]    PM[1,7,0]  1
+    c[7,0]    PM[2,7,0]  1
+    c[7,0]    PM[3,7,0]  1
+    c[7,0]    PM[4,7,0]  1
+    c[7,0]    PM[5,7,0]  1
+    c[7,0]    PM[6,7,0]  1
+    c[7,0]    PM[7,0,0]  -1
+    c[7,0]    PM[7,1,0]  -1
+    c[7,0]    PM[7,2,0]  -1
+    c[7,0]    PM[7,3,0]  -1
+    c[7,0]    PM[7,4,0]  -1
+    c[7,0]    PM[7,5,0]  -1
+    c[7,0]    PM[7,6,0]  -1
+    c[7,0]    PM[7,8,0]  -1
+    c[7,0]    PM[7,9,0]  -1
+    c[7,0]    PM[7,10,0]  -1
+    c[7,0]    PM[7,11,0]  -1
+    c[7,0]    PM[7,12,0]  -1
+    c[7,0]    PM[7,13,0]  -1
+    c[7,0]    PM[7,14,0]  -1
+    c[7,0]    PM[7,15,0]  -1
+    c[7,0]    PM[7,16,0]  -1
+    c[7,0]    PM[7,17,0]  -1
+    c[7,0]    PM[7,18,0]  -1
+    c[7,0]    PM[8,7,0]  1
+    c[7,0]    PM[9,7,0]  1
+    c[7,0]    PM[10,7,0]  1
+    c[7,0]    PM[11,7,0]  1
+    c[7,0]    PM[12,7,0]  1
+    c[7,0]    PM[13,7,0]  1
+    c[7,0]    PM[14,7,0]  1
+    c[7,0]    PM[15,7,0]  1
+    c[7,0]    PM[16,7,0]  1
+    c[7,0]    PM[17,7,0]  1
+    c[7,0]    PM[18,7,0]  1
+    c[7,1]    Height[7]  -1
+    c[7,1]    LB[0,7,1]  1
+    c[7,1]    LB[1,7,1]  1
+    c[7,1]    LB[2,7,1]  1
+    c[7,1]    LB[3,7,1]  1
+    c[7,1]    LB[4,7,1]  1
+    c[7,1]    LB[5,7,1]  1
+    c[7,1]    LB[6,7,1]  1
+    c[7,1]    LB[8,7,1]  1
+    c[7,1]    LB[9,7,1]  1
+    c[7,1]    LB[10,7,1]  1
+    c[7,1]    LB[11,7,1]  1
+    c[7,1]    LB[12,7,1]  1
+    c[7,1]    LB[13,7,1]  1
+    c[7,1]    LB[14,7,1]  1
+    c[7,1]    LB[15,7,1]  1
+    c[7,1]    LB[16,7,1]  1
+    c[7,1]    LB[17,7,1]  1
+    c[7,1]    LB[18,7,1]  1
+    c[7,1]    UB[7,0,1]  1
+    c[7,1]    UB[7,1,1]  1
+    c[7,1]    UB[7,2,1]  1
+    c[7,1]    UB[7,3,1]  1
+    c[7,1]    UB[7,4,1]  1
+    c[7,1]    UB[7,5,1]  1
+    c[7,1]    UB[7,6,1]  1
+    c[7,1]    UB[7,8,1]  1
+    c[7,1]    UB[7,9,1]  1
+    c[7,1]    UB[7,10,1]  1
+    c[7,1]    UB[7,11,1]  1
+    c[7,1]    UB[7,12,1]  1
+    c[7,1]    UB[7,13,1]  1
+    c[7,1]    UB[7,14,1]  1
+    c[7,1]    UB[7,15,1]  1
+    c[7,1]    UB[7,16,1]  1
+    c[7,1]    UB[7,17,1]  1
+    c[7,1]    UB[7,18,1]  1
+    c[7,1]    PM[0,7,1]  1
+    c[7,1]    PM[1,7,1]  1
+    c[7,1]    PM[2,7,1]  1
+    c[7,1]    PM[3,7,1]  1
+    c[7,1]    PM[4,7,1]  1
+    c[7,1]    PM[5,7,1]  1
+    c[7,1]    PM[6,7,1]  1
+    c[7,1]    PM[7,0,1]  -1
+    c[7,1]    PM[7,1,1]  -1
+    c[7,1]    PM[7,2,1]  -1
+    c[7,1]    PM[7,3,1]  -1
+    c[7,1]    PM[7,4,1]  -1
+    c[7,1]    PM[7,5,1]  -1
+    c[7,1]    PM[7,6,1]  -1
+    c[7,1]    PM[7,8,1]  -1
+    c[7,1]    PM[7,9,1]  -1
+    c[7,1]    PM[7,10,1]  -1
+    c[7,1]    PM[7,11,1]  -1
+    c[7,1]    PM[7,12,1]  -1
+    c[7,1]    PM[7,13,1]  -1
+    c[7,1]    PM[7,14,1]  -1
+    c[7,1]    PM[7,15,1]  -1
+    c[7,1]    PM[7,16,1]  -1
+    c[7,1]    PM[7,17,1]  -1
+    c[7,1]    PM[7,18,1]  -1
+    c[7,1]    PM[8,7,1]  1
+    c[7,1]    PM[9,7,1]  1
+    c[7,1]    PM[10,7,1]  1
+    c[7,1]    PM[11,7,1]  1
+    c[7,1]    PM[12,7,1]  1
+    c[7,1]    PM[13,7,1]  1
+    c[7,1]    PM[14,7,1]  1
+    c[7,1]    PM[15,7,1]  1
+    c[7,1]    PM[16,7,1]  1
+    c[7,1]    PM[17,7,1]  1
+    c[7,1]    PM[18,7,1]  1
+    c[8,0]    LB[0,8,0]  1
+    c[8,0]    LB[1,8,0]  1
+    c[8,0]    LB[2,8,0]  1
+    c[8,0]    LB[3,8,0]  1
+    c[8,0]    LB[4,8,0]  1
+    c[8,0]    LB[5,8,0]  1
+    c[8,0]    LB[6,8,0]  1
+    c[8,0]    LB[7,8,0]  1
+    c[8,0]    LB[9,8,0]  1
+    c[8,0]    LB[10,8,0]  1
+    c[8,0]    LB[11,8,0]  1
+    c[8,0]    LB[12,8,0]  1
+    c[8,0]    LB[13,8,0]  1
+    c[8,0]    LB[14,8,0]  1
+    c[8,0]    LB[15,8,0]  1
+    c[8,0]    LB[16,8,0]  1
+    c[8,0]    LB[17,8,0]  1
+    c[8,0]    LB[18,8,0]  1
+    c[8,0]    UB[8,0,0]  1
+    c[8,0]    UB[8,1,0]  1
+    c[8,0]    UB[8,2,0]  1
+    c[8,0]    UB[8,3,0]  1
+    c[8,0]    UB[8,4,0]  1
+    c[8,0]    UB[8,5,0]  1
+    c[8,0]    UB[8,6,0]  1
+    c[8,0]    UB[8,7,0]  1
+    c[8,0]    UB[8,9,0]  1
+    c[8,0]    UB[8,10,0]  1
+    c[8,0]    UB[8,11,0]  1
+    c[8,0]    UB[8,12,0]  1
+    c[8,0]    UB[8,13,0]  1
+    c[8,0]    UB[8,14,0]  1
+    c[8,0]    UB[8,15,0]  1
+    c[8,0]    UB[8,16,0]  1
+    c[8,0]    UB[8,17,0]  1
+    c[8,0]    UB[8,18,0]  1
+    c[8,0]    PM[0,8,0]  1
+    c[8,0]    PM[1,8,0]  1
+    c[8,0]    PM[2,8,0]  1
+    c[8,0]    PM[3,8,0]  1
+    c[8,0]    PM[4,8,0]  1
+    c[8,0]    PM[5,8,0]  1
+    c[8,0]    PM[6,8,0]  1
+    c[8,0]    PM[7,8,0]  1
+    c[8,0]    PM[8,0,0]  -1
+    c[8,0]    PM[8,1,0]  -1
+    c[8,0]    PM[8,2,0]  -1
+    c[8,0]    PM[8,3,0]  -1
+    c[8,0]    PM[8,4,0]  -1
+    c[8,0]    PM[8,5,0]  -1
+    c[8,0]    PM[8,6,0]  -1
+    c[8,0]    PM[8,7,0]  -1
+    c[8,0]    PM[8,9,0]  -1
+    c[8,0]    PM[8,10,0]  -1
+    c[8,0]    PM[8,11,0]  -1
+    c[8,0]    PM[8,12,0]  -1
+    c[8,0]    PM[8,13,0]  -1
+    c[8,0]    PM[8,14,0]  -1
+    c[8,0]    PM[8,15,0]  -1
+    c[8,0]    PM[8,16,0]  -1
+    c[8,0]    PM[8,17,0]  -1
+    c[8,0]    PM[8,18,0]  -1
+    c[8,0]    PM[9,8,0]  1
+    c[8,0]    PM[10,8,0]  1
+    c[8,0]    PM[11,8,0]  1
+    c[8,0]    PM[12,8,0]  1
+    c[8,0]    PM[13,8,0]  1
+    c[8,0]    PM[14,8,0]  1
+    c[8,0]    PM[15,8,0]  1
+    c[8,0]    PM[16,8,0]  1
+    c[8,0]    PM[17,8,0]  1
+    c[8,0]    PM[18,8,0]  1
+    c[8,1]    Height[8]  -1
+    c[8,1]    LB[0,8,1]  1
+    c[8,1]    LB[1,8,1]  1
+    c[8,1]    LB[2,8,1]  1
+    c[8,1]    LB[3,8,1]  1
+    c[8,1]    LB[4,8,1]  1
+    c[8,1]    LB[5,8,1]  1
+    c[8,1]    LB[6,8,1]  1
+    c[8,1]    LB[7,8,1]  1
+    c[8,1]    LB[9,8,1]  1
+    c[8,1]    LB[10,8,1]  1
+    c[8,1]    LB[11,8,1]  1
+    c[8,1]    LB[12,8,1]  1
+    c[8,1]    LB[13,8,1]  1
+    c[8,1]    LB[14,8,1]  1
+    c[8,1]    LB[15,8,1]  1
+    c[8,1]    LB[16,8,1]  1
+    c[8,1]    LB[17,8,1]  1
+    c[8,1]    LB[18,8,1]  1
+    c[8,1]    UB[8,0,1]  1
+    c[8,1]    UB[8,1,1]  1
+    c[8,1]    UB[8,2,1]  1
+    c[8,1]    UB[8,3,1]  1
+    c[8,1]    UB[8,4,1]  1
+    c[8,1]    UB[8,5,1]  1
+    c[8,1]    UB[8,6,1]  1
+    c[8,1]    UB[8,7,1]  1
+    c[8,1]    UB[8,9,1]  1
+    c[8,1]    UB[8,10,1]  1
+    c[8,1]    UB[8,11,1]  1
+    c[8,1]    UB[8,12,1]  1
+    c[8,1]    UB[8,13,1]  1
+    c[8,1]    UB[8,14,1]  1
+    c[8,1]    UB[8,15,1]  1
+    c[8,1]    UB[8,16,1]  1
+    c[8,1]    UB[8,17,1]  1
+    c[8,1]    UB[8,18,1]  1
+    c[8,1]    PM[0,8,1]  1
+    c[8,1]    PM[1,8,1]  1
+    c[8,1]    PM[2,8,1]  1
+    c[8,1]    PM[3,8,1]  1
+    c[8,1]    PM[4,8,1]  1
+    c[8,1]    PM[5,8,1]  1
+    c[8,1]    PM[6,8,1]  1
+    c[8,1]    PM[7,8,1]  1
+    c[8,1]    PM[8,0,1]  -1
+    c[8,1]    PM[8,1,1]  -1
+    c[8,1]    PM[8,2,1]  -1
+    c[8,1]    PM[8,3,1]  -1
+    c[8,1]    PM[8,4,1]  -1
+    c[8,1]    PM[8,5,1]  -1
+    c[8,1]    PM[8,6,1]  -1
+    c[8,1]    PM[8,7,1]  -1
+    c[8,1]    PM[8,9,1]  -1
+    c[8,1]    PM[8,10,1]  -1
+    c[8,1]    PM[8,11,1]  -1
+    c[8,1]    PM[8,12,1]  -1
+    c[8,1]    PM[8,13,1]  -1
+    c[8,1]    PM[8,14,1]  -1
+    c[8,1]    PM[8,15,1]  -1
+    c[8,1]    PM[8,16,1]  -1
+    c[8,1]    PM[8,17,1]  -1
+    c[8,1]    PM[8,18,1]  -1
+    c[8,1]    PM[9,8,1]  1
+    c[8,1]    PM[10,8,1]  1
+    c[8,1]    PM[11,8,1]  1
+    c[8,1]    PM[12,8,1]  1
+    c[8,1]    PM[13,8,1]  1
+    c[8,1]    PM[14,8,1]  1
+    c[8,1]    PM[15,8,1]  1
+    c[8,1]    PM[16,8,1]  1
+    c[8,1]    PM[17,8,1]  1
+    c[8,1]    PM[18,8,1]  1
+    c[9,0]    LB[0,9,0]  1
+    c[9,0]    LB[1,9,0]  1
+    c[9,0]    LB[2,9,0]  1
+    c[9,0]    LB[3,9,0]  1
+    c[9,0]    LB[4,9,0]  1
+    c[9,0]    LB[5,9,0]  1
+    c[9,0]    LB[6,9,0]  1
+    c[9,0]    LB[7,9,0]  1
+    c[9,0]    LB[8,9,0]  1
+    c[9,0]    LB[10,9,0]  1
+    c[9,0]    LB[11,9,0]  1
+    c[9,0]    LB[12,9,0]  1
+    c[9,0]    LB[13,9,0]  1
+    c[9,0]    LB[14,9,0]  1
+    c[9,0]    LB[15,9,0]  1
+    c[9,0]    LB[16,9,0]  1
+    c[9,0]    LB[17,9,0]  1
+    c[9,0]    LB[18,9,0]  1
+    c[9,0]    UB[9,0,0]  1
+    c[9,0]    UB[9,1,0]  1
+    c[9,0]    UB[9,2,0]  1
+    c[9,0]    UB[9,3,0]  1
+    c[9,0]    UB[9,4,0]  1
+    c[9,0]    UB[9,5,0]  1
+    c[9,0]    UB[9,6,0]  1
+    c[9,0]    UB[9,7,0]  1
+    c[9,0]    UB[9,8,0]  1
+    c[9,0]    UB[9,10,0]  1
+    c[9,0]    UB[9,11,0]  1
+    c[9,0]    UB[9,12,0]  1
+    c[9,0]    UB[9,13,0]  1
+    c[9,0]    UB[9,14,0]  1
+    c[9,0]    UB[9,15,0]  1
+    c[9,0]    UB[9,16,0]  1
+    c[9,0]    UB[9,17,0]  1
+    c[9,0]    UB[9,18,0]  1
+    c[9,0]    PM[0,9,0]  1
+    c[9,0]    PM[1,9,0]  1
+    c[9,0]    PM[2,9,0]  1
+    c[9,0]    PM[3,9,0]  1
+    c[9,0]    PM[4,9,0]  1
+    c[9,0]    PM[5,9,0]  1
+    c[9,0]    PM[6,9,0]  1
+    c[9,0]    PM[7,9,0]  1
+    c[9,0]    PM[8,9,0]  1
+    c[9,0]    PM[9,0,0]  -1
+    c[9,0]    PM[9,1,0]  -1
+    c[9,0]    PM[9,2,0]  -1
+    c[9,0]    PM[9,3,0]  -1
+    c[9,0]    PM[9,4,0]  -1
+    c[9,0]    PM[9,5,0]  -1
+    c[9,0]    PM[9,6,0]  -1
+    c[9,0]    PM[9,7,0]  -1
+    c[9,0]    PM[9,8,0]  -1
+    c[9,0]    PM[9,10,0]  -1
+    c[9,0]    PM[9,11,0]  -1
+    c[9,0]    PM[9,12,0]  -1
+    c[9,0]    PM[9,13,0]  -1
+    c[9,0]    PM[9,14,0]  -1
+    c[9,0]    PM[9,15,0]  -1
+    c[9,0]    PM[9,16,0]  -1
+    c[9,0]    PM[9,17,0]  -1
+    c[9,0]    PM[9,18,0]  -1
+    c[9,0]    PM[10,9,0]  1
+    c[9,0]    PM[11,9,0]  1
+    c[9,0]    PM[12,9,0]  1
+    c[9,0]    PM[13,9,0]  1
+    c[9,0]    PM[14,9,0]  1
+    c[9,0]    PM[15,9,0]  1
+    c[9,0]    PM[16,9,0]  1
+    c[9,0]    PM[17,9,0]  1
+    c[9,0]    PM[18,9,0]  1
+    c[9,1]    Height[9]  -1
+    c[9,1]    LB[0,9,1]  1
+    c[9,1]    LB[1,9,1]  1
+    c[9,1]    LB[2,9,1]  1
+    c[9,1]    LB[3,9,1]  1
+    c[9,1]    LB[4,9,1]  1
+    c[9,1]    LB[5,9,1]  1
+    c[9,1]    LB[6,9,1]  1
+    c[9,1]    LB[7,9,1]  1
+    c[9,1]    LB[8,9,1]  1
+    c[9,1]    LB[10,9,1]  1
+    c[9,1]    LB[11,9,1]  1
+    c[9,1]    LB[12,9,1]  1
+    c[9,1]    LB[13,9,1]  1
+    c[9,1]    LB[14,9,1]  1
+    c[9,1]    LB[15,9,1]  1
+    c[9,1]    LB[16,9,1]  1
+    c[9,1]    LB[17,9,1]  1
+    c[9,1]    LB[18,9,1]  1
+    c[9,1]    UB[9,0,1]  1
+    c[9,1]    UB[9,1,1]  1
+    c[9,1]    UB[9,2,1]  1
+    c[9,1]    UB[9,3,1]  1
+    c[9,1]    UB[9,4,1]  1
+    c[9,1]    UB[9,5,1]  1
+    c[9,1]    UB[9,6,1]  1
+    c[9,1]    UB[9,7,1]  1
+    c[9,1]    UB[9,8,1]  1
+    c[9,1]    UB[9,10,1]  1
+    c[9,1]    UB[9,11,1]  1
+    c[9,1]    UB[9,12,1]  1
+    c[9,1]    UB[9,13,1]  1
+    c[9,1]    UB[9,14,1]  1
+    c[9,1]    UB[9,15,1]  1
+    c[9,1]    UB[9,16,1]  1
+    c[9,1]    UB[9,17,1]  1
+    c[9,1]    UB[9,18,1]  1
+    c[9,1]    PM[0,9,1]  1
+    c[9,1]    PM[1,9,1]  1
+    c[9,1]    PM[2,9,1]  1
+    c[9,1]    PM[3,9,1]  1
+    c[9,1]    PM[4,9,1]  1
+    c[9,1]    PM[5,9,1]  1
+    c[9,1]    PM[6,9,1]  1
+    c[9,1]    PM[7,9,1]  1
+    c[9,1]    PM[8,9,1]  1
+    c[9,1]    PM[9,0,1]  -1
+    c[9,1]    PM[9,1,1]  -1
+    c[9,1]    PM[9,2,1]  -1
+    c[9,1]    PM[9,3,1]  -1
+    c[9,1]    PM[9,4,1]  -1
+    c[9,1]    PM[9,5,1]  -1
+    c[9,1]    PM[9,6,1]  -1
+    c[9,1]    PM[9,7,1]  -1
+    c[9,1]    PM[9,8,1]  -1
+    c[9,1]    PM[9,10,1]  -1
+    c[9,1]    PM[9,11,1]  -1
+    c[9,1]    PM[9,12,1]  -1
+    c[9,1]    PM[9,13,1]  -1
+    c[9,1]    PM[9,14,1]  -1
+    c[9,1]    PM[9,15,1]  -1
+    c[9,1]    PM[9,16,1]  -1
+    c[9,1]    PM[9,17,1]  -1
+    c[9,1]    PM[9,18,1]  -1
+    c[9,1]    PM[10,9,1]  1
+    c[9,1]    PM[11,9,1]  1
+    c[9,1]    PM[12,9,1]  1
+    c[9,1]    PM[13,9,1]  1
+    c[9,1]    PM[14,9,1]  1
+    c[9,1]    PM[15,9,1]  1
+    c[9,1]    PM[16,9,1]  1
+    c[9,1]    PM[17,9,1]  1
+    c[9,1]    PM[18,9,1]  1
+    c[10,0]   LB[0,10,0]  1
+    c[10,0]   LB[1,10,0]  1
+    c[10,0]   LB[2,10,0]  1
+    c[10,0]   LB[3,10,0]  1
+    c[10,0]   LB[4,10,0]  1
+    c[10,0]   LB[5,10,0]  1
+    c[10,0]   LB[6,10,0]  1
+    c[10,0]   LB[7,10,0]  1
+    c[10,0]   LB[8,10,0]  1
+    c[10,0]   LB[9,10,0]  1
+    c[10,0]   LB[11,10,0]  1
+    c[10,0]   LB[12,10,0]  1
+    c[10,0]   LB[13,10,0]  1
+    c[10,0]   LB[14,10,0]  1
+    c[10,0]   LB[15,10,0]  1
+    c[10,0]   LB[16,10,0]  1
+    c[10,0]   LB[17,10,0]  1
+    c[10,0]   LB[18,10,0]  1
+    c[10,0]   UB[10,0,0]  1
+    c[10,0]   UB[10,1,0]  1
+    c[10,0]   UB[10,2,0]  1
+    c[10,0]   UB[10,3,0]  1
+    c[10,0]   UB[10,4,0]  1
+    c[10,0]   UB[10,5,0]  1
+    c[10,0]   UB[10,6,0]  1
+    c[10,0]   UB[10,7,0]  1
+    c[10,0]   UB[10,8,0]  1
+    c[10,0]   UB[10,9,0]  1
+    c[10,0]   UB[10,11,0]  1
+    c[10,0]   UB[10,12,0]  1
+    c[10,0]   UB[10,13,0]  1
+    c[10,0]   UB[10,14,0]  1
+    c[10,0]   UB[10,15,0]  1
+    c[10,0]   UB[10,16,0]  1
+    c[10,0]   UB[10,17,0]  1
+    c[10,0]   UB[10,18,0]  1
+    c[10,0]   PM[0,10,0]  1
+    c[10,0]   PM[1,10,0]  1
+    c[10,0]   PM[2,10,0]  1
+    c[10,0]   PM[3,10,0]  1
+    c[10,0]   PM[4,10,0]  1
+    c[10,0]   PM[5,10,0]  1
+    c[10,0]   PM[6,10,0]  1
+    c[10,0]   PM[7,10,0]  1
+    c[10,0]   PM[8,10,0]  1
+    c[10,0]   PM[9,10,0]  1
+    c[10,0]   PM[10,0,0]  -1
+    c[10,0]   PM[10,1,0]  -1
+    c[10,0]   PM[10,2,0]  -1
+    c[10,0]   PM[10,3,0]  -1
+    c[10,0]   PM[10,4,0]  -1
+    c[10,0]   PM[10,5,0]  -1
+    c[10,0]   PM[10,6,0]  -1
+    c[10,0]   PM[10,7,0]  -1
+    c[10,0]   PM[10,8,0]  -1
+    c[10,0]   PM[10,9,0]  -1
+    c[10,0]   PM[10,11,0]  -1
+    c[10,0]   PM[10,12,0]  -1
+    c[10,0]   PM[10,13,0]  -1
+    c[10,0]   PM[10,14,0]  -1
+    c[10,0]   PM[10,15,0]  -1
+    c[10,0]   PM[10,16,0]  -1
+    c[10,0]   PM[10,17,0]  -1
+    c[10,0]   PM[10,18,0]  -1
+    c[10,0]   PM[11,10,0]  1
+    c[10,0]   PM[12,10,0]  1
+    c[10,0]   PM[13,10,0]  1
+    c[10,0]   PM[14,10,0]  1
+    c[10,0]   PM[15,10,0]  1
+    c[10,0]   PM[16,10,0]  1
+    c[10,0]   PM[17,10,0]  1
+    c[10,0]   PM[18,10,0]  1
+    c[10,1]   Height[10]  -1
+    c[10,1]   LB[0,10,1]  1
+    c[10,1]   LB[1,10,1]  1
+    c[10,1]   LB[2,10,1]  1
+    c[10,1]   LB[3,10,1]  1
+    c[10,1]   LB[4,10,1]  1
+    c[10,1]   LB[5,10,1]  1
+    c[10,1]   LB[6,10,1]  1
+    c[10,1]   LB[7,10,1]  1
+    c[10,1]   LB[8,10,1]  1
+    c[10,1]   LB[9,10,1]  1
+    c[10,1]   LB[11,10,1]  1
+    c[10,1]   LB[12,10,1]  1
+    c[10,1]   LB[13,10,1]  1
+    c[10,1]   LB[14,10,1]  1
+    c[10,1]   LB[15,10,1]  1
+    c[10,1]   LB[16,10,1]  1
+    c[10,1]   LB[17,10,1]  1
+    c[10,1]   LB[18,10,1]  1
+    c[10,1]   UB[10,0,1]  1
+    c[10,1]   UB[10,1,1]  1
+    c[10,1]   UB[10,2,1]  1
+    c[10,1]   UB[10,3,1]  1
+    c[10,1]   UB[10,4,1]  1
+    c[10,1]   UB[10,5,1]  1
+    c[10,1]   UB[10,6,1]  1
+    c[10,1]   UB[10,7,1]  1
+    c[10,1]   UB[10,8,1]  1
+    c[10,1]   UB[10,9,1]  1
+    c[10,1]   UB[10,11,1]  1
+    c[10,1]   UB[10,12,1]  1
+    c[10,1]   UB[10,13,1]  1
+    c[10,1]   UB[10,14,1]  1
+    c[10,1]   UB[10,15,1]  1
+    c[10,1]   UB[10,16,1]  1
+    c[10,1]   UB[10,17,1]  1
+    c[10,1]   UB[10,18,1]  1
+    c[10,1]   PM[0,10,1]  1
+    c[10,1]   PM[1,10,1]  1
+    c[10,1]   PM[2,10,1]  1
+    c[10,1]   PM[3,10,1]  1
+    c[10,1]   PM[4,10,1]  1
+    c[10,1]   PM[5,10,1]  1
+    c[10,1]   PM[6,10,1]  1
+    c[10,1]   PM[7,10,1]  1
+    c[10,1]   PM[8,10,1]  1
+    c[10,1]   PM[9,10,1]  1
+    c[10,1]   PM[10,0,1]  -1
+    c[10,1]   PM[10,1,1]  -1
+    c[10,1]   PM[10,2,1]  -1
+    c[10,1]   PM[10,3,1]  -1
+    c[10,1]   PM[10,4,1]  -1
+    c[10,1]   PM[10,5,1]  -1
+    c[10,1]   PM[10,6,1]  -1
+    c[10,1]   PM[10,7,1]  -1
+    c[10,1]   PM[10,8,1]  -1
+    c[10,1]   PM[10,9,1]  -1
+    c[10,1]   PM[10,11,1]  -1
+    c[10,1]   PM[10,12,1]  -1
+    c[10,1]   PM[10,13,1]  -1
+    c[10,1]   PM[10,14,1]  -1
+    c[10,1]   PM[10,15,1]  -1
+    c[10,1]   PM[10,16,1]  -1
+    c[10,1]   PM[10,17,1]  -1
+    c[10,1]   PM[10,18,1]  -1
+    c[10,1]   PM[11,10,1]  1
+    c[10,1]   PM[12,10,1]  1
+    c[10,1]   PM[13,10,1]  1
+    c[10,1]   PM[14,10,1]  1
+    c[10,1]   PM[15,10,1]  1
+    c[10,1]   PM[16,10,1]  1
+    c[10,1]   PM[17,10,1]  1
+    c[10,1]   PM[18,10,1]  1
+    c[11,0]   LB[0,11,0]  1
+    c[11,0]   LB[1,11,0]  1
+    c[11,0]   LB[2,11,0]  1
+    c[11,0]   LB[3,11,0]  1
+    c[11,0]   LB[4,11,0]  1
+    c[11,0]   LB[5,11,0]  1
+    c[11,0]   LB[6,11,0]  1
+    c[11,0]   LB[7,11,0]  1
+    c[11,0]   LB[8,11,0]  1
+    c[11,0]   LB[9,11,0]  1
+    c[11,0]   LB[10,11,0]  1
+    c[11,0]   LB[12,11,0]  1
+    c[11,0]   LB[13,11,0]  1
+    c[11,0]   LB[14,11,0]  1
+    c[11,0]   LB[15,11,0]  1
+    c[11,0]   LB[16,11,0]  1
+    c[11,0]   LB[17,11,0]  1
+    c[11,0]   LB[18,11,0]  1
+    c[11,0]   UB[11,0,0]  1
+    c[11,0]   UB[11,1,0]  1
+    c[11,0]   UB[11,2,0]  1
+    c[11,0]   UB[11,3,0]  1
+    c[11,0]   UB[11,4,0]  1
+    c[11,0]   UB[11,5,0]  1
+    c[11,0]   UB[11,6,0]  1
+    c[11,0]   UB[11,7,0]  1
+    c[11,0]   UB[11,8,0]  1
+    c[11,0]   UB[11,9,0]  1
+    c[11,0]   UB[11,10,0]  1
+    c[11,0]   UB[11,12,0]  1
+    c[11,0]   UB[11,13,0]  1
+    c[11,0]   UB[11,14,0]  1
+    c[11,0]   UB[11,15,0]  1
+    c[11,0]   UB[11,16,0]  1
+    c[11,0]   UB[11,17,0]  1
+    c[11,0]   UB[11,18,0]  1
+    c[11,0]   PM[0,11,0]  1
+    c[11,0]   PM[1,11,0]  1
+    c[11,0]   PM[2,11,0]  1
+    c[11,0]   PM[3,11,0]  1
+    c[11,0]   PM[4,11,0]  1
+    c[11,0]   PM[5,11,0]  1
+    c[11,0]   PM[6,11,0]  1
+    c[11,0]   PM[7,11,0]  1
+    c[11,0]   PM[8,11,0]  1
+    c[11,0]   PM[9,11,0]  1
+    c[11,0]   PM[10,11,0]  1
+    c[11,0]   PM[11,0,0]  -1
+    c[11,0]   PM[11,1,0]  -1
+    c[11,0]   PM[11,2,0]  -1
+    c[11,0]   PM[11,3,0]  -1
+    c[11,0]   PM[11,4,0]  -1
+    c[11,0]   PM[11,5,0]  -1
+    c[11,0]   PM[11,6,0]  -1
+    c[11,0]   PM[11,7,0]  -1
+    c[11,0]   PM[11,8,0]  -1
+    c[11,0]   PM[11,9,0]  -1
+    c[11,0]   PM[11,10,0]  -1
+    c[11,0]   PM[11,12,0]  -1
+    c[11,0]   PM[11,13,0]  -1
+    c[11,0]   PM[11,14,0]  -1
+    c[11,0]   PM[11,15,0]  -1
+    c[11,0]   PM[11,16,0]  -1
+    c[11,0]   PM[11,17,0]  -1
+    c[11,0]   PM[11,18,0]  -1
+    c[11,0]   PM[12,11,0]  1
+    c[11,0]   PM[13,11,0]  1
+    c[11,0]   PM[14,11,0]  1
+    c[11,0]   PM[15,11,0]  1
+    c[11,0]   PM[16,11,0]  1
+    c[11,0]   PM[17,11,0]  1
+    c[11,0]   PM[18,11,0]  1
+    c[11,1]   Height[11]  -1
+    c[11,1]   LB[0,11,1]  1
+    c[11,1]   LB[1,11,1]  1
+    c[11,1]   LB[2,11,1]  1
+    c[11,1]   LB[3,11,1]  1
+    c[11,1]   LB[4,11,1]  1
+    c[11,1]   LB[5,11,1]  1
+    c[11,1]   LB[6,11,1]  1
+    c[11,1]   LB[7,11,1]  1
+    c[11,1]   LB[8,11,1]  1
+    c[11,1]   LB[9,11,1]  1
+    c[11,1]   LB[10,11,1]  1
+    c[11,1]   LB[12,11,1]  1
+    c[11,1]   LB[13,11,1]  1
+    c[11,1]   LB[14,11,1]  1
+    c[11,1]   LB[15,11,1]  1
+    c[11,1]   LB[16,11,1]  1
+    c[11,1]   LB[17,11,1]  1
+    c[11,1]   LB[18,11,1]  1
+    c[11,1]   UB[11,0,1]  1
+    c[11,1]   UB[11,1,1]  1
+    c[11,1]   UB[11,2,1]  1
+    c[11,1]   UB[11,3,1]  1
+    c[11,1]   UB[11,4,1]  1
+    c[11,1]   UB[11,5,1]  1
+    c[11,1]   UB[11,6,1]  1
+    c[11,1]   UB[11,7,1]  1
+    c[11,1]   UB[11,8,1]  1
+    c[11,1]   UB[11,9,1]  1
+    c[11,1]   UB[11,10,1]  1
+    c[11,1]   UB[11,12,1]  1
+    c[11,1]   UB[11,13,1]  1
+    c[11,1]   UB[11,14,1]  1
+    c[11,1]   UB[11,15,1]  1
+    c[11,1]   UB[11,16,1]  1
+    c[11,1]   UB[11,17,1]  1
+    c[11,1]   UB[11,18,1]  1
+    c[11,1]   PM[0,11,1]  1
+    c[11,1]   PM[1,11,1]  1
+    c[11,1]   PM[2,11,1]  1
+    c[11,1]   PM[3,11,1]  1
+    c[11,1]   PM[4,11,1]  1
+    c[11,1]   PM[5,11,1]  1
+    c[11,1]   PM[6,11,1]  1
+    c[11,1]   PM[7,11,1]  1
+    c[11,1]   PM[8,11,1]  1
+    c[11,1]   PM[9,11,1]  1
+    c[11,1]   PM[10,11,1]  1
+    c[11,1]   PM[11,0,1]  -1
+    c[11,1]   PM[11,1,1]  -1
+    c[11,1]   PM[11,2,1]  -1
+    c[11,1]   PM[11,3,1]  -1
+    c[11,1]   PM[11,4,1]  -1
+    c[11,1]   PM[11,5,1]  -1
+    c[11,1]   PM[11,6,1]  -1
+    c[11,1]   PM[11,7,1]  -1
+    c[11,1]   PM[11,8,1]  -1
+    c[11,1]   PM[11,9,1]  -1
+    c[11,1]   PM[11,10,1]  -1
+    c[11,1]   PM[11,12,1]  -1
+    c[11,1]   PM[11,13,1]  -1
+    c[11,1]   PM[11,14,1]  -1
+    c[11,1]   PM[11,15,1]  -1
+    c[11,1]   PM[11,16,1]  -1
+    c[11,1]   PM[11,17,1]  -1
+    c[11,1]   PM[11,18,1]  -1
+    c[11,1]   PM[12,11,1]  1
+    c[11,1]   PM[13,11,1]  1
+    c[11,1]   PM[14,11,1]  1
+    c[11,1]   PM[15,11,1]  1
+    c[11,1]   PM[16,11,1]  1
+    c[11,1]   PM[17,11,1]  1
+    c[11,1]   PM[18,11,1]  1
+    c[12,0]   LB[0,12,0]  1
+    c[12,0]   LB[1,12,0]  1
+    c[12,0]   LB[2,12,0]  1
+    c[12,0]   LB[3,12,0]  1
+    c[12,0]   LB[4,12,0]  1
+    c[12,0]   LB[5,12,0]  1
+    c[12,0]   LB[6,12,0]  1
+    c[12,0]   LB[7,12,0]  1
+    c[12,0]   LB[8,12,0]  1
+    c[12,0]   LB[9,12,0]  1
+    c[12,0]   LB[10,12,0]  1
+    c[12,0]   LB[11,12,0]  1
+    c[12,0]   LB[13,12,0]  1
+    c[12,0]   LB[14,12,0]  1
+    c[12,0]   LB[15,12,0]  1
+    c[12,0]   LB[16,12,0]  1
+    c[12,0]   LB[17,12,0]  1
+    c[12,0]   LB[18,12,0]  1
+    c[12,0]   UB[12,0,0]  1
+    c[12,0]   UB[12,1,0]  1
+    c[12,0]   UB[12,2,0]  1
+    c[12,0]   UB[12,3,0]  1
+    c[12,0]   UB[12,4,0]  1
+    c[12,0]   UB[12,5,0]  1
+    c[12,0]   UB[12,6,0]  1
+    c[12,0]   UB[12,7,0]  1
+    c[12,0]   UB[12,8,0]  1
+    c[12,0]   UB[12,9,0]  1
+    c[12,0]   UB[12,10,0]  1
+    c[12,0]   UB[12,11,0]  1
+    c[12,0]   UB[12,13,0]  1
+    c[12,0]   UB[12,14,0]  1
+    c[12,0]   UB[12,15,0]  1
+    c[12,0]   UB[12,16,0]  1
+    c[12,0]   UB[12,17,0]  1
+    c[12,0]   UB[12,18,0]  1
+    c[12,0]   PM[0,12,0]  1
+    c[12,0]   PM[1,12,0]  1
+    c[12,0]   PM[2,12,0]  1
+    c[12,0]   PM[3,12,0]  1
+    c[12,0]   PM[4,12,0]  1
+    c[12,0]   PM[5,12,0]  1
+    c[12,0]   PM[6,12,0]  1
+    c[12,0]   PM[7,12,0]  1
+    c[12,0]   PM[8,12,0]  1
+    c[12,0]   PM[9,12,0]  1
+    c[12,0]   PM[10,12,0]  1
+    c[12,0]   PM[11,12,0]  1
+    c[12,0]   PM[12,0,0]  -1
+    c[12,0]   PM[12,1,0]  -1
+    c[12,0]   PM[12,2,0]  -1
+    c[12,0]   PM[12,3,0]  -1
+    c[12,0]   PM[12,4,0]  -1
+    c[12,0]   PM[12,5,0]  -1
+    c[12,0]   PM[12,6,0]  -1
+    c[12,0]   PM[12,7,0]  -1
+    c[12,0]   PM[12,8,0]  -1
+    c[12,0]   PM[12,9,0]  -1
+    c[12,0]   PM[12,10,0]  -1
+    c[12,0]   PM[12,11,0]  -1
+    c[12,0]   PM[12,13,0]  -1
+    c[12,0]   PM[12,14,0]  -1
+    c[12,0]   PM[12,15,0]  -1
+    c[12,0]   PM[12,16,0]  -1
+    c[12,0]   PM[12,17,0]  -1
+    c[12,0]   PM[12,18,0]  -1
+    c[12,0]   PM[13,12,0]  1
+    c[12,0]   PM[14,12,0]  1
+    c[12,0]   PM[15,12,0]  1
+    c[12,0]   PM[16,12,0]  1
+    c[12,0]   PM[17,12,0]  1
+    c[12,0]   PM[18,12,0]  1
+    c[12,1]   Height[12]  -1
+    c[12,1]   LB[0,12,1]  1
+    c[12,1]   LB[1,12,1]  1
+    c[12,1]   LB[2,12,1]  1
+    c[12,1]   LB[3,12,1]  1
+    c[12,1]   LB[4,12,1]  1
+    c[12,1]   LB[5,12,1]  1
+    c[12,1]   LB[6,12,1]  1
+    c[12,1]   LB[7,12,1]  1
+    c[12,1]   LB[8,12,1]  1
+    c[12,1]   LB[9,12,1]  1
+    c[12,1]   LB[10,12,1]  1
+    c[12,1]   LB[11,12,1]  1
+    c[12,1]   LB[13,12,1]  1
+    c[12,1]   LB[14,12,1]  1
+    c[12,1]   LB[15,12,1]  1
+    c[12,1]   LB[16,12,1]  1
+    c[12,1]   LB[17,12,1]  1
+    c[12,1]   LB[18,12,1]  1
+    c[12,1]   UB[12,0,1]  1
+    c[12,1]   UB[12,1,1]  1
+    c[12,1]   UB[12,2,1]  1
+    c[12,1]   UB[12,3,1]  1
+    c[12,1]   UB[12,4,1]  1
+    c[12,1]   UB[12,5,1]  1
+    c[12,1]   UB[12,6,1]  1
+    c[12,1]   UB[12,7,1]  1
+    c[12,1]   UB[12,8,1]  1
+    c[12,1]   UB[12,9,1]  1
+    c[12,1]   UB[12,10,1]  1
+    c[12,1]   UB[12,11,1]  1
+    c[12,1]   UB[12,13,1]  1
+    c[12,1]   UB[12,14,1]  1
+    c[12,1]   UB[12,15,1]  1
+    c[12,1]   UB[12,16,1]  1
+    c[12,1]   UB[12,17,1]  1
+    c[12,1]   UB[12,18,1]  1
+    c[12,1]   PM[0,12,1]  1
+    c[12,1]   PM[1,12,1]  1
+    c[12,1]   PM[2,12,1]  1
+    c[12,1]   PM[3,12,1]  1
+    c[12,1]   PM[4,12,1]  1
+    c[12,1]   PM[5,12,1]  1
+    c[12,1]   PM[6,12,1]  1
+    c[12,1]   PM[7,12,1]  1
+    c[12,1]   PM[8,12,1]  1
+    c[12,1]   PM[9,12,1]  1
+    c[12,1]   PM[10,12,1]  1
+    c[12,1]   PM[11,12,1]  1
+    c[12,1]   PM[12,0,1]  -1
+    c[12,1]   PM[12,1,1]  -1
+    c[12,1]   PM[12,2,1]  -1
+    c[12,1]   PM[12,3,1]  -1
+    c[12,1]   PM[12,4,1]  -1
+    c[12,1]   PM[12,5,1]  -1
+    c[12,1]   PM[12,6,1]  -1
+    c[12,1]   PM[12,7,1]  -1
+    c[12,1]   PM[12,8,1]  -1
+    c[12,1]   PM[12,9,1]  -1
+    c[12,1]   PM[12,10,1]  -1
+    c[12,1]   PM[12,11,1]  -1
+    c[12,1]   PM[12,13,1]  -1
+    c[12,1]   PM[12,14,1]  -1
+    c[12,1]   PM[12,15,1]  -1
+    c[12,1]   PM[12,16,1]  -1
+    c[12,1]   PM[12,17,1]  -1
+    c[12,1]   PM[12,18,1]  -1
+    c[12,1]   PM[13,12,1]  1
+    c[12,1]   PM[14,12,1]  1
+    c[12,1]   PM[15,12,1]  1
+    c[12,1]   PM[16,12,1]  1
+    c[12,1]   PM[17,12,1]  1
+    c[12,1]   PM[18,12,1]  1
+    c[13,0]   LB[0,13,0]  1
+    c[13,0]   LB[1,13,0]  1
+    c[13,0]   LB[2,13,0]  1
+    c[13,0]   LB[3,13,0]  1
+    c[13,0]   LB[4,13,0]  1
+    c[13,0]   LB[5,13,0]  1
+    c[13,0]   LB[6,13,0]  1
+    c[13,0]   LB[7,13,0]  1
+    c[13,0]   LB[8,13,0]  1
+    c[13,0]   LB[9,13,0]  1
+    c[13,0]   LB[10,13,0]  1
+    c[13,0]   LB[11,13,0]  1
+    c[13,0]   LB[12,13,0]  1
+    c[13,0]   LB[14,13,0]  1
+    c[13,0]   LB[15,13,0]  1
+    c[13,0]   LB[16,13,0]  1
+    c[13,0]   LB[17,13,0]  1
+    c[13,0]   LB[18,13,0]  1
+    c[13,0]   UB[13,0,0]  1
+    c[13,0]   UB[13,1,0]  1
+    c[13,0]   UB[13,2,0]  1
+    c[13,0]   UB[13,3,0]  1
+    c[13,0]   UB[13,4,0]  1
+    c[13,0]   UB[13,5,0]  1
+    c[13,0]   UB[13,6,0]  1
+    c[13,0]   UB[13,7,0]  1
+    c[13,0]   UB[13,8,0]  1
+    c[13,0]   UB[13,9,0]  1
+    c[13,0]   UB[13,10,0]  1
+    c[13,0]   UB[13,11,0]  1
+    c[13,0]   UB[13,12,0]  1
+    c[13,0]   UB[13,14,0]  1
+    c[13,0]   UB[13,15,0]  1
+    c[13,0]   UB[13,16,0]  1
+    c[13,0]   UB[13,17,0]  1
+    c[13,0]   UB[13,18,0]  1
+    c[13,0]   PM[0,13,0]  1
+    c[13,0]   PM[1,13,0]  1
+    c[13,0]   PM[2,13,0]  1
+    c[13,0]   PM[3,13,0]  1
+    c[13,0]   PM[4,13,0]  1
+    c[13,0]   PM[5,13,0]  1
+    c[13,0]   PM[6,13,0]  1
+    c[13,0]   PM[7,13,0]  1
+    c[13,0]   PM[8,13,0]  1
+    c[13,0]   PM[9,13,0]  1
+    c[13,0]   PM[10,13,0]  1
+    c[13,0]   PM[11,13,0]  1
+    c[13,0]   PM[12,13,0]  1
+    c[13,0]   PM[13,0,0]  -1
+    c[13,0]   PM[13,1,0]  -1
+    c[13,0]   PM[13,2,0]  -1
+    c[13,0]   PM[13,3,0]  -1
+    c[13,0]   PM[13,4,0]  -1
+    c[13,0]   PM[13,5,0]  -1
+    c[13,0]   PM[13,6,0]  -1
+    c[13,0]   PM[13,7,0]  -1
+    c[13,0]   PM[13,8,0]  -1
+    c[13,0]   PM[13,9,0]  -1
+    c[13,0]   PM[13,10,0]  -1
+    c[13,0]   PM[13,11,0]  -1
+    c[13,0]   PM[13,12,0]  -1
+    c[13,0]   PM[13,14,0]  -1
+    c[13,0]   PM[13,15,0]  -1
+    c[13,0]   PM[13,16,0]  -1
+    c[13,0]   PM[13,17,0]  -1
+    c[13,0]   PM[13,18,0]  -1
+    c[13,0]   PM[14,13,0]  1
+    c[13,0]   PM[15,13,0]  1
+    c[13,0]   PM[16,13,0]  1
+    c[13,0]   PM[17,13,0]  1
+    c[13,0]   PM[18,13,0]  1
+    c[13,1]   Height[13]  -1
+    c[13,1]   LB[0,13,1]  1
+    c[13,1]   LB[1,13,1]  1
+    c[13,1]   LB[2,13,1]  1
+    c[13,1]   LB[3,13,1]  1
+    c[13,1]   LB[4,13,1]  1
+    c[13,1]   LB[5,13,1]  1
+    c[13,1]   LB[6,13,1]  1
+    c[13,1]   LB[7,13,1]  1
+    c[13,1]   LB[8,13,1]  1
+    c[13,1]   LB[9,13,1]  1
+    c[13,1]   LB[10,13,1]  1
+    c[13,1]   LB[11,13,1]  1
+    c[13,1]   LB[12,13,1]  1
+    c[13,1]   LB[14,13,1]  1
+    c[13,1]   LB[15,13,1]  1
+    c[13,1]   LB[16,13,1]  1
+    c[13,1]   LB[17,13,1]  1
+    c[13,1]   LB[18,13,1]  1
+    c[13,1]   UB[13,0,1]  1
+    c[13,1]   UB[13,1,1]  1
+    c[13,1]   UB[13,2,1]  1
+    c[13,1]   UB[13,3,1]  1
+    c[13,1]   UB[13,4,1]  1
+    c[13,1]   UB[13,5,1]  1
+    c[13,1]   UB[13,6,1]  1
+    c[13,1]   UB[13,7,1]  1
+    c[13,1]   UB[13,8,1]  1
+    c[13,1]   UB[13,9,1]  1
+    c[13,1]   UB[13,10,1]  1
+    c[13,1]   UB[13,11,1]  1
+    c[13,1]   UB[13,12,1]  1
+    c[13,1]   UB[13,14,1]  1
+    c[13,1]   UB[13,15,1]  1
+    c[13,1]   UB[13,16,1]  1
+    c[13,1]   UB[13,17,1]  1
+    c[13,1]   UB[13,18,1]  1
+    c[13,1]   PM[0,13,1]  1
+    c[13,1]   PM[1,13,1]  1
+    c[13,1]   PM[2,13,1]  1
+    c[13,1]   PM[3,13,1]  1
+    c[13,1]   PM[4,13,1]  1
+    c[13,1]   PM[5,13,1]  1
+    c[13,1]   PM[6,13,1]  1
+    c[13,1]   PM[7,13,1]  1
+    c[13,1]   PM[8,13,1]  1
+    c[13,1]   PM[9,13,1]  1
+    c[13,1]   PM[10,13,1]  1
+    c[13,1]   PM[11,13,1]  1
+    c[13,1]   PM[12,13,1]  1
+    c[13,1]   PM[13,0,1]  -1
+    c[13,1]   PM[13,1,1]  -1
+    c[13,1]   PM[13,2,1]  -1
+    c[13,1]   PM[13,3,1]  -1
+    c[13,1]   PM[13,4,1]  -1
+    c[13,1]   PM[13,5,1]  -1
+    c[13,1]   PM[13,6,1]  -1
+    c[13,1]   PM[13,7,1]  -1
+    c[13,1]   PM[13,8,1]  -1
+    c[13,1]   PM[13,9,1]  -1
+    c[13,1]   PM[13,10,1]  -1
+    c[13,1]   PM[13,11,1]  -1
+    c[13,1]   PM[13,12,1]  -1
+    c[13,1]   PM[13,14,1]  -1
+    c[13,1]   PM[13,15,1]  -1
+    c[13,1]   PM[13,16,1]  -1
+    c[13,1]   PM[13,17,1]  -1
+    c[13,1]   PM[13,18,1]  -1
+    c[13,1]   PM[14,13,1]  1
+    c[13,1]   PM[15,13,1]  1
+    c[13,1]   PM[16,13,1]  1
+    c[13,1]   PM[17,13,1]  1
+    c[13,1]   PM[18,13,1]  1
+    c[14,0]   LB[0,14,0]  1
+    c[14,0]   LB[1,14,0]  1
+    c[14,0]   LB[2,14,0]  1
+    c[14,0]   LB[3,14,0]  1
+    c[14,0]   LB[4,14,0]  1
+    c[14,0]   LB[5,14,0]  1
+    c[14,0]   LB[6,14,0]  1
+    c[14,0]   LB[7,14,0]  1
+    c[14,0]   LB[8,14,0]  1
+    c[14,0]   LB[9,14,0]  1
+    c[14,0]   LB[10,14,0]  1
+    c[14,0]   LB[11,14,0]  1
+    c[14,0]   LB[12,14,0]  1
+    c[14,0]   LB[13,14,0]  1
+    c[14,0]   LB[15,14,0]  1
+    c[14,0]   LB[16,14,0]  1
+    c[14,0]   LB[17,14,0]  1
+    c[14,0]   LB[18,14,0]  1
+    c[14,0]   UB[14,0,0]  1
+    c[14,0]   UB[14,1,0]  1
+    c[14,0]   UB[14,2,0]  1
+    c[14,0]   UB[14,3,0]  1
+    c[14,0]   UB[14,4,0]  1
+    c[14,0]   UB[14,5,0]  1
+    c[14,0]   UB[14,6,0]  1
+    c[14,0]   UB[14,7,0]  1
+    c[14,0]   UB[14,8,0]  1
+    c[14,0]   UB[14,9,0]  1
+    c[14,0]   UB[14,10,0]  1
+    c[14,0]   UB[14,11,0]  1
+    c[14,0]   UB[14,12,0]  1
+    c[14,0]   UB[14,13,0]  1
+    c[14,0]   UB[14,15,0]  1
+    c[14,0]   UB[14,16,0]  1
+    c[14,0]   UB[14,17,0]  1
+    c[14,0]   UB[14,18,0]  1
+    c[14,0]   PM[0,14,0]  1
+    c[14,0]   PM[1,14,0]  1
+    c[14,0]   PM[2,14,0]  1
+    c[14,0]   PM[3,14,0]  1
+    c[14,0]   PM[4,14,0]  1
+    c[14,0]   PM[5,14,0]  1
+    c[14,0]   PM[6,14,0]  1
+    c[14,0]   PM[7,14,0]  1
+    c[14,0]   PM[8,14,0]  1
+    c[14,0]   PM[9,14,0]  1
+    c[14,0]   PM[10,14,0]  1
+    c[14,0]   PM[11,14,0]  1
+    c[14,0]   PM[12,14,0]  1
+    c[14,0]   PM[13,14,0]  1
+    c[14,0]   PM[14,0,0]  -1
+    c[14,0]   PM[14,1,0]  -1
+    c[14,0]   PM[14,2,0]  -1
+    c[14,0]   PM[14,3,0]  -1
+    c[14,0]   PM[14,4,0]  -1
+    c[14,0]   PM[14,5,0]  -1
+    c[14,0]   PM[14,6,0]  -1
+    c[14,0]   PM[14,7,0]  -1
+    c[14,0]   PM[14,8,0]  -1
+    c[14,0]   PM[14,9,0]  -1
+    c[14,0]   PM[14,10,0]  -1
+    c[14,0]   PM[14,11,0]  -1
+    c[14,0]   PM[14,12,0]  -1
+    c[14,0]   PM[14,13,0]  -1
+    c[14,0]   PM[14,15,0]  -1
+    c[14,0]   PM[14,16,0]  -1
+    c[14,0]   PM[14,17,0]  -1
+    c[14,0]   PM[14,18,0]  -1
+    c[14,0]   PM[15,14,0]  1
+    c[14,0]   PM[16,14,0]  1
+    c[14,0]   PM[17,14,0]  1
+    c[14,0]   PM[18,14,0]  1
+    c[14,1]   Height[14]  -1
+    c[14,1]   LB[0,14,1]  1
+    c[14,1]   LB[1,14,1]  1
+    c[14,1]   LB[2,14,1]  1
+    c[14,1]   LB[3,14,1]  1
+    c[14,1]   LB[4,14,1]  1
+    c[14,1]   LB[5,14,1]  1
+    c[14,1]   LB[6,14,1]  1
+    c[14,1]   LB[7,14,1]  1
+    c[14,1]   LB[8,14,1]  1
+    c[14,1]   LB[9,14,1]  1
+    c[14,1]   LB[10,14,1]  1
+    c[14,1]   LB[11,14,1]  1
+    c[14,1]   LB[12,14,1]  1
+    c[14,1]   LB[13,14,1]  1
+    c[14,1]   LB[15,14,1]  1
+    c[14,1]   LB[16,14,1]  1
+    c[14,1]   LB[17,14,1]  1
+    c[14,1]   LB[18,14,1]  1
+    c[14,1]   UB[14,0,1]  1
+    c[14,1]   UB[14,1,1]  1
+    c[14,1]   UB[14,2,1]  1
+    c[14,1]   UB[14,3,1]  1
+    c[14,1]   UB[14,4,1]  1
+    c[14,1]   UB[14,5,1]  1
+    c[14,1]   UB[14,6,1]  1
+    c[14,1]   UB[14,7,1]  1
+    c[14,1]   UB[14,8,1]  1
+    c[14,1]   UB[14,9,1]  1
+    c[14,1]   UB[14,10,1]  1
+    c[14,1]   UB[14,11,1]  1
+    c[14,1]   UB[14,12,1]  1
+    c[14,1]   UB[14,13,1]  1
+    c[14,1]   UB[14,15,1]  1
+    c[14,1]   UB[14,16,1]  1
+    c[14,1]   UB[14,17,1]  1
+    c[14,1]   UB[14,18,1]  1
+    c[14,1]   PM[0,14,1]  1
+    c[14,1]   PM[1,14,1]  1
+    c[14,1]   PM[2,14,1]  1
+    c[14,1]   PM[3,14,1]  1
+    c[14,1]   PM[4,14,1]  1
+    c[14,1]   PM[5,14,1]  1
+    c[14,1]   PM[6,14,1]  1
+    c[14,1]   PM[7,14,1]  1
+    c[14,1]   PM[8,14,1]  1
+    c[14,1]   PM[9,14,1]  1
+    c[14,1]   PM[10,14,1]  1
+    c[14,1]   PM[11,14,1]  1
+    c[14,1]   PM[12,14,1]  1
+    c[14,1]   PM[13,14,1]  1
+    c[14,1]   PM[14,0,1]  -1
+    c[14,1]   PM[14,1,1]  -1
+    c[14,1]   PM[14,2,1]  -1
+    c[14,1]   PM[14,3,1]  -1
+    c[14,1]   PM[14,4,1]  -1
+    c[14,1]   PM[14,5,1]  -1
+    c[14,1]   PM[14,6,1]  -1
+    c[14,1]   PM[14,7,1]  -1
+    c[14,1]   PM[14,8,1]  -1
+    c[14,1]   PM[14,9,1]  -1
+    c[14,1]   PM[14,10,1]  -1
+    c[14,1]   PM[14,11,1]  -1
+    c[14,1]   PM[14,12,1]  -1
+    c[14,1]   PM[14,13,1]  -1
+    c[14,1]   PM[14,15,1]  -1
+    c[14,1]   PM[14,16,1]  -1
+    c[14,1]   PM[14,17,1]  -1
+    c[14,1]   PM[14,18,1]  -1
+    c[14,1]   PM[15,14,1]  1
+    c[14,1]   PM[16,14,1]  1
+    c[14,1]   PM[17,14,1]  1
+    c[14,1]   PM[18,14,1]  1
+    c[15,0]   LB[0,15,0]  1
+    c[15,0]   LB[1,15,0]  1
+    c[15,0]   LB[2,15,0]  1
+    c[15,0]   LB[3,15,0]  1
+    c[15,0]   LB[4,15,0]  1
+    c[15,0]   LB[5,15,0]  1
+    c[15,0]   LB[6,15,0]  1
+    c[15,0]   LB[7,15,0]  1
+    c[15,0]   LB[8,15,0]  1
+    c[15,0]   LB[9,15,0]  1
+    c[15,0]   LB[10,15,0]  1
+    c[15,0]   LB[11,15,0]  1
+    c[15,0]   LB[12,15,0]  1
+    c[15,0]   LB[13,15,0]  1
+    c[15,0]   LB[14,15,0]  1
+    c[15,0]   LB[16,15,0]  1
+    c[15,0]   LB[17,15,0]  1
+    c[15,0]   LB[18,15,0]  1
+    c[15,0]   UB[15,0,0]  1
+    c[15,0]   UB[15,1,0]  1
+    c[15,0]   UB[15,2,0]  1
+    c[15,0]   UB[15,3,0]  1
+    c[15,0]   UB[15,4,0]  1
+    c[15,0]   UB[15,5,0]  1
+    c[15,0]   UB[15,6,0]  1
+    c[15,0]   UB[15,7,0]  1
+    c[15,0]   UB[15,8,0]  1
+    c[15,0]   UB[15,9,0]  1
+    c[15,0]   UB[15,10,0]  1
+    c[15,0]   UB[15,11,0]  1
+    c[15,0]   UB[15,12,0]  1
+    c[15,0]   UB[15,13,0]  1
+    c[15,0]   UB[15,14,0]  1
+    c[15,0]   UB[15,16,0]  1
+    c[15,0]   UB[15,17,0]  1
+    c[15,0]   UB[15,18,0]  1
+    c[15,0]   PM[0,15,0]  1
+    c[15,0]   PM[1,15,0]  1
+    c[15,0]   PM[2,15,0]  1
+    c[15,0]   PM[3,15,0]  1
+    c[15,0]   PM[4,15,0]  1
+    c[15,0]   PM[5,15,0]  1
+    c[15,0]   PM[6,15,0]  1
+    c[15,0]   PM[7,15,0]  1
+    c[15,0]   PM[8,15,0]  1
+    c[15,0]   PM[9,15,0]  1
+    c[15,0]   PM[10,15,0]  1
+    c[15,0]   PM[11,15,0]  1
+    c[15,0]   PM[12,15,0]  1
+    c[15,0]   PM[13,15,0]  1
+    c[15,0]   PM[14,15,0]  1
+    c[15,0]   PM[15,0,0]  -1
+    c[15,0]   PM[15,1,0]  -1
+    c[15,0]   PM[15,2,0]  -1
+    c[15,0]   PM[15,3,0]  -1
+    c[15,0]   PM[15,4,0]  -1
+    c[15,0]   PM[15,5,0]  -1
+    c[15,0]   PM[15,6,0]  -1
+    c[15,0]   PM[15,7,0]  -1
+    c[15,0]   PM[15,8,0]  -1
+    c[15,0]   PM[15,9,0]  -1
+    c[15,0]   PM[15,10,0]  -1
+    c[15,0]   PM[15,11,0]  -1
+    c[15,0]   PM[15,12,0]  -1
+    c[15,0]   PM[15,13,0]  -1
+    c[15,0]   PM[15,14,0]  -1
+    c[15,0]   PM[15,16,0]  -1
+    c[15,0]   PM[15,17,0]  -1
+    c[15,0]   PM[15,18,0]  -1
+    c[15,0]   PM[16,15,0]  1
+    c[15,0]   PM[17,15,0]  1
+    c[15,0]   PM[18,15,0]  1
+    c[15,1]   Height[15]  -1
+    c[15,1]   LB[0,15,1]  1
+    c[15,1]   LB[1,15,1]  1
+    c[15,1]   LB[2,15,1]  1
+    c[15,1]   LB[3,15,1]  1
+    c[15,1]   LB[4,15,1]  1
+    c[15,1]   LB[5,15,1]  1
+    c[15,1]   LB[6,15,1]  1
+    c[15,1]   LB[7,15,1]  1
+    c[15,1]   LB[8,15,1]  1
+    c[15,1]   LB[9,15,1]  1
+    c[15,1]   LB[10,15,1]  1
+    c[15,1]   LB[11,15,1]  1
+    c[15,1]   LB[12,15,1]  1
+    c[15,1]   LB[13,15,1]  1
+    c[15,1]   LB[14,15,1]  1
+    c[15,1]   LB[16,15,1]  1
+    c[15,1]   LB[17,15,1]  1
+    c[15,1]   LB[18,15,1]  1
+    c[15,1]   UB[15,0,1]  1
+    c[15,1]   UB[15,1,1]  1
+    c[15,1]   UB[15,2,1]  1
+    c[15,1]   UB[15,3,1]  1
+    c[15,1]   UB[15,4,1]  1
+    c[15,1]   UB[15,5,1]  1
+    c[15,1]   UB[15,6,1]  1
+    c[15,1]   UB[15,7,1]  1
+    c[15,1]   UB[15,8,1]  1
+    c[15,1]   UB[15,9,1]  1
+    c[15,1]   UB[15,10,1]  1
+    c[15,1]   UB[15,11,1]  1
+    c[15,1]   UB[15,12,1]  1
+    c[15,1]   UB[15,13,1]  1
+    c[15,1]   UB[15,14,1]  1
+    c[15,1]   UB[15,16,1]  1
+    c[15,1]   UB[15,17,1]  1
+    c[15,1]   UB[15,18,1]  1
+    c[15,1]   PM[0,15,1]  1
+    c[15,1]   PM[1,15,1]  1
+    c[15,1]   PM[2,15,1]  1
+    c[15,1]   PM[3,15,1]  1
+    c[15,1]   PM[4,15,1]  1
+    c[15,1]   PM[5,15,1]  1
+    c[15,1]   PM[6,15,1]  1
+    c[15,1]   PM[7,15,1]  1
+    c[15,1]   PM[8,15,1]  1
+    c[15,1]   PM[9,15,1]  1
+    c[15,1]   PM[10,15,1]  1
+    c[15,1]   PM[11,15,1]  1
+    c[15,1]   PM[12,15,1]  1
+    c[15,1]   PM[13,15,1]  1
+    c[15,1]   PM[14,15,1]  1
+    c[15,1]   PM[15,0,1]  -1
+    c[15,1]   PM[15,1,1]  -1
+    c[15,1]   PM[15,2,1]  -1
+    c[15,1]   PM[15,3,1]  -1
+    c[15,1]   PM[15,4,1]  -1
+    c[15,1]   PM[15,5,1]  -1
+    c[15,1]   PM[15,6,1]  -1
+    c[15,1]   PM[15,7,1]  -1
+    c[15,1]   PM[15,8,1]  -1
+    c[15,1]   PM[15,9,1]  -1
+    c[15,1]   PM[15,10,1]  -1
+    c[15,1]   PM[15,11,1]  -1
+    c[15,1]   PM[15,12,1]  -1
+    c[15,1]   PM[15,13,1]  -1
+    c[15,1]   PM[15,14,1]  -1
+    c[15,1]   PM[15,16,1]  -1
+    c[15,1]   PM[15,17,1]  -1
+    c[15,1]   PM[15,18,1]  -1
+    c[15,1]   PM[16,15,1]  1
+    c[15,1]   PM[17,15,1]  1
+    c[15,1]   PM[18,15,1]  1
+    c[16,0]   LB[0,16,0]  1
+    c[16,0]   LB[1,16,0]  1
+    c[16,0]   LB[2,16,0]  1
+    c[16,0]   LB[3,16,0]  1
+    c[16,0]   LB[4,16,0]  1
+    c[16,0]   LB[5,16,0]  1
+    c[16,0]   LB[6,16,0]  1
+    c[16,0]   LB[7,16,0]  1
+    c[16,0]   LB[8,16,0]  1
+    c[16,0]   LB[9,16,0]  1
+    c[16,0]   LB[10,16,0]  1
+    c[16,0]   LB[11,16,0]  1
+    c[16,0]   LB[12,16,0]  1
+    c[16,0]   LB[13,16,0]  1
+    c[16,0]   LB[14,16,0]  1
+    c[16,0]   LB[15,16,0]  1
+    c[16,0]   LB[17,16,0]  1
+    c[16,0]   LB[18,16,0]  1
+    c[16,0]   UB[16,0,0]  1
+    c[16,0]   UB[16,1,0]  1
+    c[16,0]   UB[16,2,0]  1
+    c[16,0]   UB[16,3,0]  1
+    c[16,0]   UB[16,4,0]  1
+    c[16,0]   UB[16,5,0]  1
+    c[16,0]   UB[16,6,0]  1
+    c[16,0]   UB[16,7,0]  1
+    c[16,0]   UB[16,8,0]  1
+    c[16,0]   UB[16,9,0]  1
+    c[16,0]   UB[16,10,0]  1
+    c[16,0]   UB[16,11,0]  1
+    c[16,0]   UB[16,12,0]  1
+    c[16,0]   UB[16,13,0]  1
+    c[16,0]   UB[16,14,0]  1
+    c[16,0]   UB[16,15,0]  1
+    c[16,0]   UB[16,17,0]  1
+    c[16,0]   UB[16,18,0]  1
+    c[16,0]   PM[0,16,0]  1
+    c[16,0]   PM[1,16,0]  1
+    c[16,0]   PM[2,16,0]  1
+    c[16,0]   PM[3,16,0]  1
+    c[16,0]   PM[4,16,0]  1
+    c[16,0]   PM[5,16,0]  1
+    c[16,0]   PM[6,16,0]  1
+    c[16,0]   PM[7,16,0]  1
+    c[16,0]   PM[8,16,0]  1
+    c[16,0]   PM[9,16,0]  1
+    c[16,0]   PM[10,16,0]  1
+    c[16,0]   PM[11,16,0]  1
+    c[16,0]   PM[12,16,0]  1
+    c[16,0]   PM[13,16,0]  1
+    c[16,0]   PM[14,16,0]  1
+    c[16,0]   PM[15,16,0]  1
+    c[16,0]   PM[16,0,0]  -1
+    c[16,0]   PM[16,1,0]  -1
+    c[16,0]   PM[16,2,0]  -1
+    c[16,0]   PM[16,3,0]  -1
+    c[16,0]   PM[16,4,0]  -1
+    c[16,0]   PM[16,5,0]  -1
+    c[16,0]   PM[16,6,0]  -1
+    c[16,0]   PM[16,7,0]  -1
+    c[16,0]   PM[16,8,0]  -1
+    c[16,0]   PM[16,9,0]  -1
+    c[16,0]   PM[16,10,0]  -1
+    c[16,0]   PM[16,11,0]  -1
+    c[16,0]   PM[16,12,0]  -1
+    c[16,0]   PM[16,13,0]  -1
+    c[16,0]   PM[16,14,0]  -1
+    c[16,0]   PM[16,15,0]  -1
+    c[16,0]   PM[16,17,0]  -1
+    c[16,0]   PM[16,18,0]  -1
+    c[16,0]   PM[17,16,0]  1
+    c[16,0]   PM[18,16,0]  1
+    c[16,1]   Height[16]  -1
+    c[16,1]   LB[0,16,1]  1
+    c[16,1]   LB[1,16,1]  1
+    c[16,1]   LB[2,16,1]  1
+    c[16,1]   LB[3,16,1]  1
+    c[16,1]   LB[4,16,1]  1
+    c[16,1]   LB[5,16,1]  1
+    c[16,1]   LB[6,16,1]  1
+    c[16,1]   LB[7,16,1]  1
+    c[16,1]   LB[8,16,1]  1
+    c[16,1]   LB[9,16,1]  1
+    c[16,1]   LB[10,16,1]  1
+    c[16,1]   LB[11,16,1]  1
+    c[16,1]   LB[12,16,1]  1
+    c[16,1]   LB[13,16,1]  1
+    c[16,1]   LB[14,16,1]  1
+    c[16,1]   LB[15,16,1]  1
+    c[16,1]   LB[17,16,1]  1
+    c[16,1]   LB[18,16,1]  1
+    c[16,1]   UB[16,0,1]  1
+    c[16,1]   UB[16,1,1]  1
+    c[16,1]   UB[16,2,1]  1
+    c[16,1]   UB[16,3,1]  1
+    c[16,1]   UB[16,4,1]  1
+    c[16,1]   UB[16,5,1]  1
+    c[16,1]   UB[16,6,1]  1
+    c[16,1]   UB[16,7,1]  1
+    c[16,1]   UB[16,8,1]  1
+    c[16,1]   UB[16,9,1]  1
+    c[16,1]   UB[16,10,1]  1
+    c[16,1]   UB[16,11,1]  1
+    c[16,1]   UB[16,12,1]  1
+    c[16,1]   UB[16,13,1]  1
+    c[16,1]   UB[16,14,1]  1
+    c[16,1]   UB[16,15,1]  1
+    c[16,1]   UB[16,17,1]  1
+    c[16,1]   UB[16,18,1]  1
+    c[16,1]   PM[0,16,1]  1
+    c[16,1]   PM[1,16,1]  1
+    c[16,1]   PM[2,16,1]  1
+    c[16,1]   PM[3,16,1]  1
+    c[16,1]   PM[4,16,1]  1
+    c[16,1]   PM[5,16,1]  1
+    c[16,1]   PM[6,16,1]  1
+    c[16,1]   PM[7,16,1]  1
+    c[16,1]   PM[8,16,1]  1
+    c[16,1]   PM[9,16,1]  1
+    c[16,1]   PM[10,16,1]  1
+    c[16,1]   PM[11,16,1]  1
+    c[16,1]   PM[12,16,1]  1
+    c[16,1]   PM[13,16,1]  1
+    c[16,1]   PM[14,16,1]  1
+    c[16,1]   PM[15,16,1]  1
+    c[16,1]   PM[16,0,1]  -1
+    c[16,1]   PM[16,1,1]  -1
+    c[16,1]   PM[16,2,1]  -1
+    c[16,1]   PM[16,3,1]  -1
+    c[16,1]   PM[16,4,1]  -1
+    c[16,1]   PM[16,5,1]  -1
+    c[16,1]   PM[16,6,1]  -1
+    c[16,1]   PM[16,7,1]  -1
+    c[16,1]   PM[16,8,1]  -1
+    c[16,1]   PM[16,9,1]  -1
+    c[16,1]   PM[16,10,1]  -1
+    c[16,1]   PM[16,11,1]  -1
+    c[16,1]   PM[16,12,1]  -1
+    c[16,1]   PM[16,13,1]  -1
+    c[16,1]   PM[16,14,1]  -1
+    c[16,1]   PM[16,15,1]  -1
+    c[16,1]   PM[16,17,1]  -1
+    c[16,1]   PM[16,18,1]  -1
+    c[16,1]   PM[17,16,1]  1
+    c[16,1]   PM[18,16,1]  1
+    c[17,0]   LB[0,17,0]  1
+    c[17,0]   LB[1,17,0]  1
+    c[17,0]   LB[2,17,0]  1
+    c[17,0]   LB[3,17,0]  1
+    c[17,0]   LB[4,17,0]  1
+    c[17,0]   LB[5,17,0]  1
+    c[17,0]   LB[6,17,0]  1
+    c[17,0]   LB[7,17,0]  1
+    c[17,0]   LB[8,17,0]  1
+    c[17,0]   LB[9,17,0]  1
+    c[17,0]   LB[10,17,0]  1
+    c[17,0]   LB[11,17,0]  1
+    c[17,0]   LB[12,17,0]  1
+    c[17,0]   LB[13,17,0]  1
+    c[17,0]   LB[14,17,0]  1
+    c[17,0]   LB[15,17,0]  1
+    c[17,0]   LB[16,17,0]  1
+    c[17,0]   LB[18,17,0]  1
+    c[17,0]   UB[17,0,0]  1
+    c[17,0]   UB[17,1,0]  1
+    c[17,0]   UB[17,2,0]  1
+    c[17,0]   UB[17,3,0]  1
+    c[17,0]   UB[17,4,0]  1
+    c[17,0]   UB[17,5,0]  1
+    c[17,0]   UB[17,6,0]  1
+    c[17,0]   UB[17,7,0]  1
+    c[17,0]   UB[17,8,0]  1
+    c[17,0]   UB[17,9,0]  1
+    c[17,0]   UB[17,10,0]  1
+    c[17,0]   UB[17,11,0]  1
+    c[17,0]   UB[17,12,0]  1
+    c[17,0]   UB[17,13,0]  1
+    c[17,0]   UB[17,14,0]  1
+    c[17,0]   UB[17,15,0]  1
+    c[17,0]   UB[17,16,0]  1
+    c[17,0]   UB[17,18,0]  1
+    c[17,0]   PM[0,17,0]  1
+    c[17,0]   PM[1,17,0]  1
+    c[17,0]   PM[2,17,0]  1
+    c[17,0]   PM[3,17,0]  1
+    c[17,0]   PM[4,17,0]  1
+    c[17,0]   PM[5,17,0]  1
+    c[17,0]   PM[6,17,0]  1
+    c[17,0]   PM[7,17,0]  1
+    c[17,0]   PM[8,17,0]  1
+    c[17,0]   PM[9,17,0]  1
+    c[17,0]   PM[10,17,0]  1
+    c[17,0]   PM[11,17,0]  1
+    c[17,0]   PM[12,17,0]  1
+    c[17,0]   PM[13,17,0]  1
+    c[17,0]   PM[14,17,0]  1
+    c[17,0]   PM[15,17,0]  1
+    c[17,0]   PM[16,17,0]  1
+    c[17,0]   PM[17,0,0]  -1
+    c[17,0]   PM[17,1,0]  -1
+    c[17,0]   PM[17,2,0]  -1
+    c[17,0]   PM[17,3,0]  -1
+    c[17,0]   PM[17,4,0]  -1
+    c[17,0]   PM[17,5,0]  -1
+    c[17,0]   PM[17,6,0]  -1
+    c[17,0]   PM[17,7,0]  -1
+    c[17,0]   PM[17,8,0]  -1
+    c[17,0]   PM[17,9,0]  -1
+    c[17,0]   PM[17,10,0]  -1
+    c[17,0]   PM[17,11,0]  -1
+    c[17,0]   PM[17,12,0]  -1
+    c[17,0]   PM[17,13,0]  -1
+    c[17,0]   PM[17,14,0]  -1
+    c[17,0]   PM[17,15,0]  -1
+    c[17,0]   PM[17,16,0]  -1
+    c[17,0]   PM[17,18,0]  -1
+    c[17,0]   PM[18,17,0]  1
+    c[17,1]   Height[17]  -1
+    c[17,1]   LB[0,17,1]  1
+    c[17,1]   LB[1,17,1]  1
+    c[17,1]   LB[2,17,1]  1
+    c[17,1]   LB[3,17,1]  1
+    c[17,1]   LB[4,17,1]  1
+    c[17,1]   LB[5,17,1]  1
+    c[17,1]   LB[6,17,1]  1
+    c[17,1]   LB[7,17,1]  1
+    c[17,1]   LB[8,17,1]  1
+    c[17,1]   LB[9,17,1]  1
+    c[17,1]   LB[10,17,1]  1
+    c[17,1]   LB[11,17,1]  1
+    c[17,1]   LB[12,17,1]  1
+    c[17,1]   LB[13,17,1]  1
+    c[17,1]   LB[14,17,1]  1
+    c[17,1]   LB[15,17,1]  1
+    c[17,1]   LB[16,17,1]  1
+    c[17,1]   LB[18,17,1]  1
+    c[17,1]   UB[17,0,1]  1
+    c[17,1]   UB[17,1,1]  1
+    c[17,1]   UB[17,2,1]  1
+    c[17,1]   UB[17,3,1]  1
+    c[17,1]   UB[17,4,1]  1
+    c[17,1]   UB[17,5,1]  1
+    c[17,1]   UB[17,6,1]  1
+    c[17,1]   UB[17,7,1]  1
+    c[17,1]   UB[17,8,1]  1
+    c[17,1]   UB[17,9,1]  1
+    c[17,1]   UB[17,10,1]  1
+    c[17,1]   UB[17,11,1]  1
+    c[17,1]   UB[17,12,1]  1
+    c[17,1]   UB[17,13,1]  1
+    c[17,1]   UB[17,14,1]  1
+    c[17,1]   UB[17,15,1]  1
+    c[17,1]   UB[17,16,1]  1
+    c[17,1]   UB[17,18,1]  1
+    c[17,1]   PM[0,17,1]  1
+    c[17,1]   PM[1,17,1]  1
+    c[17,1]   PM[2,17,1]  1
+    c[17,1]   PM[3,17,1]  1
+    c[17,1]   PM[4,17,1]  1
+    c[17,1]   PM[5,17,1]  1
+    c[17,1]   PM[6,17,1]  1
+    c[17,1]   PM[7,17,1]  1
+    c[17,1]   PM[8,17,1]  1
+    c[17,1]   PM[9,17,1]  1
+    c[17,1]   PM[10,17,1]  1
+    c[17,1]   PM[11,17,1]  1
+    c[17,1]   PM[12,17,1]  1
+    c[17,1]   PM[13,17,1]  1
+    c[17,1]   PM[14,17,1]  1
+    c[17,1]   PM[15,17,1]  1
+    c[17,1]   PM[16,17,1]  1
+    c[17,1]   PM[17,0,1]  -1
+    c[17,1]   PM[17,1,1]  -1
+    c[17,1]   PM[17,2,1]  -1
+    c[17,1]   PM[17,3,1]  -1
+    c[17,1]   PM[17,4,1]  -1
+    c[17,1]   PM[17,5,1]  -1
+    c[17,1]   PM[17,6,1]  -1
+    c[17,1]   PM[17,7,1]  -1
+    c[17,1]   PM[17,8,1]  -1
+    c[17,1]   PM[17,9,1]  -1
+    c[17,1]   PM[17,10,1]  -1
+    c[17,1]   PM[17,11,1]  -1
+    c[17,1]   PM[17,12,1]  -1
+    c[17,1]   PM[17,13,1]  -1
+    c[17,1]   PM[17,14,1]  -1
+    c[17,1]   PM[17,15,1]  -1
+    c[17,1]   PM[17,16,1]  -1
+    c[17,1]   PM[17,18,1]  -1
+    c[17,1]   PM[18,17,1]  1
+    c[18,0]   LB[0,18,0]  1
+    c[18,0]   LB[1,18,0]  1
+    c[18,0]   LB[2,18,0]  1
+    c[18,0]   LB[3,18,0]  1
+    c[18,0]   LB[4,18,0]  1
+    c[18,0]   LB[5,18,0]  1
+    c[18,0]   LB[6,18,0]  1
+    c[18,0]   LB[7,18,0]  1
+    c[18,0]   LB[8,18,0]  1
+    c[18,0]   LB[9,18,0]  1
+    c[18,0]   LB[10,18,0]  1
+    c[18,0]   LB[11,18,0]  1
+    c[18,0]   LB[12,18,0]  1
+    c[18,0]   LB[13,18,0]  1
+    c[18,0]   LB[14,18,0]  1
+    c[18,0]   LB[15,18,0]  1
+    c[18,0]   LB[16,18,0]  1
+    c[18,0]   LB[17,18,0]  1
+    c[18,0]   UB[18,0,0]  1
+    c[18,0]   UB[18,1,0]  1
+    c[18,0]   UB[18,2,0]  1
+    c[18,0]   UB[18,3,0]  1
+    c[18,0]   UB[18,4,0]  1
+    c[18,0]   UB[18,5,0]  1
+    c[18,0]   UB[18,6,0]  1
+    c[18,0]   UB[18,7,0]  1
+    c[18,0]   UB[18,8,0]  1
+    c[18,0]   UB[18,9,0]  1
+    c[18,0]   UB[18,10,0]  1
+    c[18,0]   UB[18,11,0]  1
+    c[18,0]   UB[18,12,0]  1
+    c[18,0]   UB[18,13,0]  1
+    c[18,0]   UB[18,14,0]  1
+    c[18,0]   UB[18,15,0]  1
+    c[18,0]   UB[18,16,0]  1
+    c[18,0]   UB[18,17,0]  1
+    c[18,0]   PM[0,18,0]  1
+    c[18,0]   PM[1,18,0]  1
+    c[18,0]   PM[2,18,0]  1
+    c[18,0]   PM[3,18,0]  1
+    c[18,0]   PM[4,18,0]  1
+    c[18,0]   PM[5,18,0]  1
+    c[18,0]   PM[6,18,0]  1
+    c[18,0]   PM[7,18,0]  1
+    c[18,0]   PM[8,18,0]  1
+    c[18,0]   PM[9,18,0]  1
+    c[18,0]   PM[10,18,0]  1
+    c[18,0]   PM[11,18,0]  1
+    c[18,0]   PM[12,18,0]  1
+    c[18,0]   PM[13,18,0]  1
+    c[18,0]   PM[14,18,0]  1
+    c[18,0]   PM[15,18,0]  1
+    c[18,0]   PM[16,18,0]  1
+    c[18,0]   PM[17,18,0]  1
+    c[18,0]   PM[18,0,0]  -1
+    c[18,0]   PM[18,1,0]  -1
+    c[18,0]   PM[18,2,0]  -1
+    c[18,0]   PM[18,3,0]  -1
+    c[18,0]   PM[18,4,0]  -1
+    c[18,0]   PM[18,5,0]  -1
+    c[18,0]   PM[18,6,0]  -1
+    c[18,0]   PM[18,7,0]  -1
+    c[18,0]   PM[18,8,0]  -1
+    c[18,0]   PM[18,9,0]  -1
+    c[18,0]   PM[18,10,0]  -1
+    c[18,0]   PM[18,11,0]  -1
+    c[18,0]   PM[18,12,0]  -1
+    c[18,0]   PM[18,13,0]  -1
+    c[18,0]   PM[18,14,0]  -1
+    c[18,0]   PM[18,15,0]  -1
+    c[18,0]   PM[18,16,0]  -1
+    c[18,0]   PM[18,17,0]  -1
+    c[18,1]   Height[18]  -1
+    c[18,1]   LB[0,18,1]  1
+    c[18,1]   LB[1,18,1]  1
+    c[18,1]   LB[2,18,1]  1
+    c[18,1]   LB[3,18,1]  1
+    c[18,1]   LB[4,18,1]  1
+    c[18,1]   LB[5,18,1]  1
+    c[18,1]   LB[6,18,1]  1
+    c[18,1]   LB[7,18,1]  1
+    c[18,1]   LB[8,18,1]  1
+    c[18,1]   LB[9,18,1]  1
+    c[18,1]   LB[10,18,1]  1
+    c[18,1]   LB[11,18,1]  1
+    c[18,1]   LB[12,18,1]  1
+    c[18,1]   LB[13,18,1]  1
+    c[18,1]   LB[14,18,1]  1
+    c[18,1]   LB[15,18,1]  1
+    c[18,1]   LB[16,18,1]  1
+    c[18,1]   LB[17,18,1]  1
+    c[18,1]   UB[18,0,1]  1
+    c[18,1]   UB[18,1,1]  1
+    c[18,1]   UB[18,2,1]  1
+    c[18,1]   UB[18,3,1]  1
+    c[18,1]   UB[18,4,1]  1
+    c[18,1]   UB[18,5,1]  1
+    c[18,1]   UB[18,6,1]  1
+    c[18,1]   UB[18,7,1]  1
+    c[18,1]   UB[18,8,1]  1
+    c[18,1]   UB[18,9,1]  1
+    c[18,1]   UB[18,10,1]  1
+    c[18,1]   UB[18,11,1]  1
+    c[18,1]   UB[18,12,1]  1
+    c[18,1]   UB[18,13,1]  1
+    c[18,1]   UB[18,14,1]  1
+    c[18,1]   UB[18,15,1]  1
+    c[18,1]   UB[18,16,1]  1
+    c[18,1]   UB[18,17,1]  1
+    c[18,1]   PM[0,18,1]  1
+    c[18,1]   PM[1,18,1]  1
+    c[18,1]   PM[2,18,1]  1
+    c[18,1]   PM[3,18,1]  1
+    c[18,1]   PM[4,18,1]  1
+    c[18,1]   PM[5,18,1]  1
+    c[18,1]   PM[6,18,1]  1
+    c[18,1]   PM[7,18,1]  1
+    c[18,1]   PM[8,18,1]  1
+    c[18,1]   PM[9,18,1]  1
+    c[18,1]   PM[10,18,1]  1
+    c[18,1]   PM[11,18,1]  1
+    c[18,1]   PM[12,18,1]  1
+    c[18,1]   PM[13,18,1]  1
+    c[18,1]   PM[14,18,1]  1
+    c[18,1]   PM[15,18,1]  1
+    c[18,1]   PM[16,18,1]  1
+    c[18,1]   PM[17,18,1]  1
+    c[18,1]   PM[18,0,1]  -1
+    c[18,1]   PM[18,1,1]  -1
+    c[18,1]   PM[18,2,1]  -1
+    c[18,1]   PM[18,3,1]  -1
+    c[18,1]   PM[18,4,1]  -1
+    c[18,1]   PM[18,5,1]  -1
+    c[18,1]   PM[18,6,1]  -1
+    c[18,1]   PM[18,7,1]  -1
+    c[18,1]   PM[18,8,1]  -1
+    c[18,1]   PM[18,9,1]  -1
+    c[18,1]   PM[18,10,1]  -1
+    c[18,1]   PM[18,11,1]  -1
+    c[18,1]   PM[18,12,1]  -1
+    c[18,1]   PM[18,13,1]  -1
+    c[18,1]   PM[18,14,1]  -1
+    c[18,1]   PM[18,15,1]  -1
+    c[18,1]   PM[18,16,1]  -1
+    c[18,1]   PM[18,17,1]  -1
+    h         OBJ       1
+    h         Height[0]  1
+    h         Height[1]  1
+    h         Height[2]  1
+    h         Height[3]  1
+    h         Height[4]  1
+    h         Height[5]  1
+    h         Height[6]  1
+    h         Height[7]  1
+    h         Height[8]  1
+    h         Height[9]  1
+    h         Height[10]  1
+    h         Height[11]  1
+    h         Height[12]  1
+    h         Height[13]  1
+    h         Height[14]  1
+    h         Height[15]  1
+    h         Height[16]  1
+    h         Height[17]  1
+    h         Height[18]  1
+    MARKER    'MARKER'                 'INTORG'
+    delta[0,1]  LB[0,1,0]  21
+    delta[0,1]  LB[0,1,1]  -12
+    delta[0,1]  UB[0,1,0]  -59
+    delta[0,1]  UB[0,1,1]  49
+    delta[0,1]  PM[0,1,0]  350
+    delta[0,1]  PM[0,1,1]  -346
+    delta[0,1]  McCormick1[0,1]  1
+    delta[0,1]  McCormick1[1,0]  1
+    delta[0,1]  McCormick2[0,1]  1
+    delta[0,1]  McCormick3[1,0]  1
+    delta[0,2]  LB[0,2,0]  15
+    delta[0,2]  LB[0,2,1]  -12
+    delta[0,2]  UB[0,2,0]  -93
+    delta[0,2]  UB[0,2,1]  52
+    delta[0,2]  PM[0,2,0]  344
+    delta[0,2]  PM[0,2,1]  -346
+    delta[0,2]  McCormick1[0,2]  1
+    delta[0,2]  McCormick1[2,0]  1
+    delta[0,2]  McCormick2[0,2]  1
+    delta[0,2]  McCormick3[2,0]  1
+    delta[0,3]  LB[0,3,0]  21
+    delta[0,3]  LB[0,3,1]  -12
+    delta[0,3]  UB[0,3,0]  -44
+    delta[0,3]  UB[0,3,1]  52
+    delta[0,3]  PM[0,3,0]  350
+    delta[0,3]  PM[0,3,1]  -346
+    delta[0,3]  McCormick1[0,3]  1
+    delta[0,3]  McCormick1[3,0]  1
+    delta[0,3]  McCormick2[0,3]  1
+    delta[0,3]  McCormick3[3,0]  1
+    delta[0,4]  LB[0,4,0]  15
+    delta[0,4]  LB[0,4,1]  -16
+    delta[0,4]  UB[0,4,0]  -17
+    delta[0,4]  UB[0,4,1]  16
+    delta[0,4]  PM[0,4,0]  344
+    delta[0,4]  PM[0,4,1]  -350
+    delta[0,4]  McCormick1[0,4]  1
+    delta[0,4]  McCormick1[4,0]  1
+    delta[0,4]  McCormick2[0,4]  1
+    delta[0,4]  McCormick3[4,0]  1
+    delta[0,5]  LB[0,5,0]  15
+    delta[0,5]  LB[0,5,1]  -16
+    delta[0,5]  UB[0,5,0]  -71
+    delta[0,5]  UB[0,5,1]  50
+    delta[0,5]  PM[0,5,0]  344
+    delta[0,5]  PM[0,5,1]  -350
+    delta[0,5]  McCormick1[0,5]  1
+    delta[0,5]  McCormick1[5,0]  1
+    delta[0,5]  McCormick2[0,5]  1
+    delta[0,5]  McCormick3[5,0]  1
+    delta[0,6]  LB[0,6,0]  15
+    delta[0,6]  LB[0,6,1]  -16
+    delta[0,6]  UB[0,6,0]  -117
+    delta[0,6]  UB[0,6,1]  118
+    delta[0,6]  PM[0,6,0]  344
+    delta[0,6]  PM[0,6,1]  -350
+    delta[0,6]  McCormick1[0,6]  1
+    delta[0,6]  McCormick1[6,0]  1
+    delta[0,6]  McCormick2[0,6]  1
+    delta[0,6]  McCormick3[6,0]  1
+    delta[0,7]  LB[0,7,0]  15
+    delta[0,7]  LB[0,7,1]  -12
+    delta[0,7]  UB[0,7,0]  -24
+    delta[0,7]  UB[0,7,1]  29
+    delta[0,7]  PM[0,7,0]  344
+    delta[0,7]  PM[0,7,1]  -346
+    delta[0,7]  McCormick1[0,7]  1
+    delta[0,7]  McCormick1[7,0]  1
+    delta[0,7]  McCormick2[0,7]  1
+    delta[0,7]  McCormick3[7,0]  1
+    delta[0,8]  LB[0,8,0]  21
+    delta[0,8]  LB[0,8,1]  -16
+    delta[0,8]  UB[0,8,0]  -118
+    delta[0,8]  UB[0,8,1]  41
+    delta[0,8]  PM[0,8,0]  350
+    delta[0,8]  PM[0,8,1]  -350
+    delta[0,8]  McCormick1[0,8]  1
+    delta[0,8]  McCormick1[8,0]  1
+    delta[0,8]  McCormick2[0,8]  1
+    delta[0,8]  McCormick3[8,0]  1
+    delta[0,9]  LB[0,9,0]  15
+    delta[0,9]  LB[0,9,1]  -12
+    delta[0,9]  UB[0,9,0]  -88
+    delta[0,9]  UB[0,9,1]  143
+    delta[0,9]  PM[0,9,0]  344
+    delta[0,9]  PM[0,9,1]  -346
+    delta[0,9]  McCormick1[0,9]  1
+    delta[0,9]  McCormick1[9,0]  1
+    delta[0,9]  McCormick2[0,9]  1
+    delta[0,9]  McCormick3[9,0]  1
+    delta[0,10]  LB[0,10,0]  15
+    delta[0,10]  LB[0,10,1]  -16
+    delta[0,10]  UB[0,10,0]  -25
+    delta[0,10]  UB[0,10,1]  12
+    delta[0,10]  PM[0,10,0]  344
+    delta[0,10]  PM[0,10,1]  -350
+    delta[0,10]  McCormick1[0,10]  1
+    delta[0,10]  McCormick1[10,0]  1
+    delta[0,10]  McCormick2[0,10]  1
+    delta[0,10]  McCormick3[10,0]  1
+    delta[0,11]  LB[0,11,0]  15
+    delta[0,11]  LB[0,11,1]  -16
+    delta[0,11]  UB[0,11,0]  -228
+    delta[0,11]  UB[0,11,1]  55
+    delta[0,11]  PM[0,11,0]  344
+    delta[0,11]  PM[0,11,1]  -350
+    delta[0,11]  McCormick1[0,11]  1
+    delta[0,11]  McCormick1[11,0]  1
+    delta[0,11]  McCormick2[0,11]  1
+    delta[0,11]  McCormick3[11,0]  1
+    delta[0,12]  LB[0,12,0]  21
+    delta[0,12]  LB[0,12,1]  -12
+    delta[0,12]  UB[0,12,0]  -94
+    delta[0,12]  UB[0,12,1]  139
+    delta[0,12]  PM[0,12,0]  350
+    delta[0,12]  PM[0,12,1]  -346
+    delta[0,12]  McCormick1[0,12]  1
+    delta[0,12]  McCormick1[12,0]  1
+    delta[0,12]  McCormick2[0,12]  1
+    delta[0,12]  McCormick3[12,0]  1
+    delta[0,13]  LB[0,13,0]  21
+    delta[0,13]  LB[0,13,1]  -16
+    delta[0,13]  UB[0,13,0]  -90
+    delta[0,13]  UB[0,13,1]  97
+    delta[0,13]  PM[0,13,0]  350
+    delta[0,13]  PM[0,13,1]  -350
+    delta[0,13]  McCormick1[0,13]  1
+    delta[0,13]  McCormick1[13,0]  1
+    delta[0,13]  McCormick2[0,13]  1
+    delta[0,13]  McCormick3[13,0]  1
+    delta[0,14]  LB[0,14,0]  15
+    delta[0,14]  LB[0,14,1]  -16
+    delta[0,14]  UB[0,14,0]  -20
+    delta[0,14]  UB[0,14,1]  14
+    delta[0,14]  PM[0,14,0]  344
+    delta[0,14]  PM[0,14,1]  -350
+    delta[0,14]  McCormick1[0,14]  1
+    delta[0,14]  McCormick1[14,0]  1
+    delta[0,14]  McCormick2[0,14]  1
+    delta[0,14]  McCormick3[14,0]  1
+    delta[0,15]  LB[0,15,0]  21
+    delta[0,15]  LB[0,15,1]  -12
+    delta[0,15]  UB[0,15,0]  -85
+    delta[0,15]  UB[0,15,1]  171
+    delta[0,15]  PM[0,15,0]  350
+    delta[0,15]  PM[0,15,1]  -346
+    delta[0,15]  McCormick1[0,15]  1
+    delta[0,15]  McCormick1[15,0]  1
+    delta[0,15]  McCormick2[0,15]  1
+    delta[0,15]  McCormick3[15,0]  1
+    delta[0,16]  LB[0,16,0]  21
+    delta[0,16]  LB[0,16,1]  -16
+    delta[0,16]  UB[0,16,0]  -132
+    delta[0,16]  UB[0,16,1]  123
+    delta[0,16]  PM[0,16,0]  350
+    delta[0,16]  PM[0,16,1]  -350
+    delta[0,16]  McCormick1[0,16]  1
+    delta[0,16]  McCormick1[16,0]  1
+    delta[0,16]  McCormick2[0,16]  1
+    delta[0,16]  McCormick3[16,0]  1
+    delta[0,17]  LB[0,17,0]  21
+    delta[0,17]  LB[0,17,1]  -12
+    delta[0,17]  UB[0,17,0]  -153
+    delta[0,17]  UB[0,17,1]  138
+    delta[0,17]  PM[0,17,0]  350
+    delta[0,17]  PM[0,17,1]  -346
+    delta[0,17]  McCormick1[0,17]  1
+    delta[0,17]  McCormick1[17,0]  1
+    delta[0,17]  McCormick2[0,17]  1
+    delta[0,17]  McCormick3[17,0]  1
+    delta[0,18]  LB[0,18,0]  21
+    delta[0,18]  LB[0,18,1]  -16
+    delta[0,18]  UB[0,18,0]  -12
+    delta[0,18]  UB[0,18,1]  10
+    delta[0,18]  PM[0,18,0]  350
+    delta[0,18]  PM[0,18,1]  -350
+    delta[0,18]  McCormick1[0,18]  1
+    delta[0,18]  McCormick1[18,0]  1
+    delta[0,18]  McCormick2[0,18]  1
+    delta[0,18]  McCormick3[18,0]  1
+    delta[1,0]  LB[0,1,0]  21
+    delta[1,0]  LB[1,0,1]  -53
+    delta[1,0]  UB[0,1,0]  -59
+    delta[1,0]  UB[1,0,1]  16
+    delta[1,0]  PM[0,1,0]  350
+    delta[1,0]  PM[1,0,1]  -350
+    delta[1,0]  McCormick1[0,1]  1
+    delta[1,0]  McCormick1[1,0]  1
+    delta[1,0]  McCormick2[1,0]  1
+    delta[1,0]  McCormick3[0,1]  1
+    delta[1,2]  LB[1,2,0]  59
+    delta[1,2]  LB[1,2,1]  -53
+    delta[1,2]  UB[1,2,0]  -99
+    delta[1,2]  UB[1,2,1]  56
+    delta[1,2]  PM[1,2,0]  350
+    delta[1,2]  PM[1,2,1]  -350
+    delta[1,2]  McCormick1[1,2]  1
+    delta[1,2]  McCormick1[2,1]  1
+    delta[1,2]  McCormick2[1,2]  1
+    delta[1,2]  McCormick3[2,1]  1
+    delta[1,3]  LB[1,3,0]  59
+    delta[1,3]  LB[1,3,1]  -53
+    delta[1,3]  UB[1,3,0]  -44
+    delta[1,3]  UB[1,3,1]  56
+    delta[1,3]  PM[1,3,0]  350
+    delta[1,3]  PM[1,3,1]  -350
+    delta[1,3]  McCormick1[1,3]  1
+    delta[1,3]  McCormick1[3,1]  1
+    delta[1,3]  McCormick2[1,3]  1
+    delta[1,3]  McCormick3[3,1]  1
+    delta[1,4]  LB[1,4,0]  59
+    delta[1,4]  LB[1,4,1]  -53
+    delta[1,4]  UB[1,4,0]  -23
+    delta[1,4]  UB[1,4,1]  16
+    delta[1,4]  PM[1,4,0]  350
+    delta[1,4]  PM[1,4,1]  -350
+    delta[1,4]  McCormick1[1,4]  1
+    delta[1,4]  McCormick1[4,1]  1
+    delta[1,4]  McCormick2[1,4]  1
+    delta[1,4]  McCormick3[4,1]  1
+    delta[1,5]  LB[1,5,0]  59
+    delta[1,5]  LB[1,5,1]  -53
+    delta[1,5]  UB[1,5,0]  -77
+    delta[1,5]  UB[1,5,1]  50
+    delta[1,5]  PM[1,5,0]  350
+    delta[1,5]  PM[1,5,1]  -350
+    delta[1,5]  McCormick1[1,5]  1
+    delta[1,5]  McCormick1[5,1]  1
+    delta[1,5]  McCormick2[1,5]  1
+    delta[1,5]  McCormick3[5,1]  1
+    delta[1,6]  LB[1,6,0]  59
+    delta[1,6]  LB[1,6,1]  -53
+    delta[1,6]  UB[1,6,0]  -123
+    delta[1,6]  UB[1,6,1]  118
+    delta[1,6]  PM[1,6,0]  350
+    delta[1,6]  PM[1,6,1]  -350
+    delta[1,6]  McCormick1[1,6]  1
+    delta[1,6]  McCormick1[6,1]  1
+    delta[1,6]  McCormick2[1,6]  1
+    delta[1,6]  McCormick3[6,1]  1
+    delta[1,7]  LB[1,7,0]  59
+    delta[1,7]  LB[1,7,1]  -53
+    delta[1,7]  UB[1,7,0]  -30
+    delta[1,7]  UB[1,7,1]  33
+    delta[1,7]  PM[1,7,0]  350
+    delta[1,7]  PM[1,7,1]  -350
+    delta[1,7]  McCormick1[1,7]  1
+    delta[1,7]  McCormick1[7,1]  1
+    delta[1,7]  McCormick2[1,7]  1
+    delta[1,7]  McCormick3[7,1]  1
+    delta[1,8]  LB[1,8,0]  59
+    delta[1,8]  LB[1,8,1]  -53
+    delta[1,8]  UB[1,8,0]  -118
+    delta[1,8]  UB[1,8,1]  41
+    delta[1,8]  PM[1,8,0]  350
+    delta[1,8]  PM[1,8,1]  -350
+    delta[1,8]  McCormick1[1,8]  1
+    delta[1,8]  McCormick1[8,1]  1
+    delta[1,8]  McCormick2[1,8]  1
+    delta[1,8]  McCormick3[8,1]  1
+    delta[1,9]  LB[1,9,0]  59
+    delta[1,9]  LB[1,9,1]  -53
+    delta[1,9]  UB[1,9,0]  -94
+    delta[1,9]  UB[1,9,1]  147
+    delta[1,9]  PM[1,9,0]  350
+    delta[1,9]  PM[1,9,1]  -350
+    delta[1,9]  McCormick1[1,9]  1
+    delta[1,9]  McCormick1[9,1]  1
+    delta[1,9]  McCormick2[1,9]  1
+    delta[1,9]  McCormick3[9,1]  1
+    delta[1,10]  LB[1,10,0]  59
+    delta[1,10]  LB[1,10,1]  -53
+    delta[1,10]  UB[1,10,0]  -31
+    delta[1,10]  UB[1,10,1]  12
+    delta[1,10]  PM[1,10,0]  350
+    delta[1,10]  PM[1,10,1]  -350
+    delta[1,10]  McCormick1[1,10]  1
+    delta[1,10]  McCormick1[10,1]  1
+    delta[1,10]  McCormick2[1,10]  1
+    delta[1,10]  McCormick3[10,1]  1
+    delta[1,11]  LB[1,11,0]  59
+    delta[1,11]  LB[1,11,1]  -53
+    delta[1,11]  UB[1,11,0]  -234
+    delta[1,11]  UB[1,11,1]  55
+    delta[1,11]  PM[1,11,0]  350
+    delta[1,11]  PM[1,11,1]  -350
+    delta[1,11]  McCormick1[1,11]  1
+    delta[1,11]  McCormick1[11,1]  1
+    delta[1,11]  McCormick2[1,11]  1
+    delta[1,11]  McCormick3[11,1]  1
+    delta[1,12]  LB[1,12,0]  59
+    delta[1,12]  LB[1,12,1]  -53
+    delta[1,12]  UB[1,12,0]  -94
+    delta[1,12]  UB[1,12,1]  143
+    delta[1,12]  PM[1,12,0]  350
+    delta[1,12]  PM[1,12,1]  -350
+    delta[1,12]  McCormick1[1,12]  1
+    delta[1,12]  McCormick1[12,1]  1
+    delta[1,12]  McCormick2[1,12]  1
+    delta[1,12]  McCormick3[12,1]  1
+    delta[1,13]  LB[1,13,0]  59
+    delta[1,13]  LB[1,13,1]  -53
+    delta[1,13]  UB[1,13,0]  -90
+    delta[1,13]  UB[1,13,1]  97
+    delta[1,13]  PM[1,13,0]  350
+    delta[1,13]  PM[1,13,1]  -350
+    delta[1,13]  McCormick1[1,13]  1
+    delta[1,13]  McCormick1[13,1]  1
+    delta[1,13]  McCormick2[1,13]  1
+    delta[1,13]  McCormick3[13,1]  1
+    delta[1,14]  LB[1,14,0]  59
+    delta[1,14]  LB[1,14,1]  -53
+    delta[1,14]  UB[1,14,0]  -26
+    delta[1,14]  UB[1,14,1]  14
+    delta[1,14]  PM[1,14,0]  350
+    delta[1,14]  PM[1,14,1]  -350
+    delta[1,14]  McCormick1[1,14]  1
+    delta[1,14]  McCormick1[14,1]  1
+    delta[1,14]  McCormick2[1,14]  1
+    delta[1,14]  McCormick3[14,1]  1
+    delta[1,15]  LB[1,15,0]  59
+    delta[1,15]  LB[1,15,1]  -53
+    delta[1,15]  UB[1,15,0]  -85
+    delta[1,15]  UB[1,15,1]  175
+    delta[1,15]  PM[1,15,0]  350
+    delta[1,15]  PM[1,15,1]  -350
+    delta[1,15]  McCormick1[1,15]  1
+    delta[1,15]  McCormick1[15,1]  1
+    delta[1,15]  McCormick2[1,15]  1
+    delta[1,15]  McCormick3[15,1]  1
+    delta[1,16]  LB[1,16,0]  59
+    delta[1,16]  LB[1,16,1]  -53
+    delta[1,16]  UB[1,16,0]  -132
+    delta[1,16]  UB[1,16,1]  123
+    delta[1,16]  PM[1,16,0]  350
+    delta[1,16]  PM[1,16,1]  -350
+    delta[1,16]  McCormick1[1,16]  1
+    delta[1,16]  McCormick1[16,1]  1
+    delta[1,16]  McCormick2[1,16]  1
+    delta[1,16]  McCormick3[16,1]  1
+    delta[1,17]  LB[1,17,0]  59
+    delta[1,17]  LB[1,17,1]  -53
+    delta[1,17]  UB[1,17,0]  -153
+    delta[1,17]  UB[1,17,1]  142
+    delta[1,17]  PM[1,17,0]  350
+    delta[1,17]  PM[1,17,1]  -350
+    delta[1,17]  McCormick1[1,17]  1
+    delta[1,17]  McCormick1[17,1]  1
+    delta[1,17]  McCormick2[1,17]  1
+    delta[1,17]  McCormick3[17,1]  1
+    delta[1,18]  LB[1,18,0]  59
+    delta[1,18]  LB[1,18,1]  -53
+    delta[1,18]  UB[1,18,0]  -12
+    delta[1,18]  UB[1,18,1]  10
+    delta[1,18]  PM[1,18,0]  350
+    delta[1,18]  PM[1,18,1]  -350
+    delta[1,18]  McCormick1[1,18]  1
+    delta[1,18]  McCormick1[18,1]  1
+    delta[1,18]  McCormick2[1,18]  1
+    delta[1,18]  McCormick3[18,1]  1
+    delta[2,0]  LB[0,2,0]  15
+    delta[2,0]  LB[2,0,1]  -56
+    delta[2,0]  UB[0,2,0]  -93
+    delta[2,0]  UB[2,0,1]  16
+    delta[2,0]  PM[0,2,0]  344
+    delta[2,0]  PM[2,0,1]  -350
+    delta[2,0]  McCormick1[0,2]  1
+    delta[2,0]  McCormick1[2,0]  1
+    delta[2,0]  McCormick2[2,0]  1
+    delta[2,0]  McCormick3[0,2]  1
+    delta[2,1]  LB[1,2,0]  59
+    delta[2,1]  LB[2,1,1]  -56
+    delta[2,1]  UB[1,2,0]  -99
+    delta[2,1]  UB[2,1,1]  53
+    delta[2,1]  PM[1,2,0]  350
+    delta[2,1]  PM[2,1,1]  -350
+    delta[2,1]  McCormick1[1,2]  1
+    delta[2,1]  McCormick1[2,1]  1
+    delta[2,1]  McCormick2[2,1]  1
+    delta[2,1]  McCormick3[1,2]  1
+    delta[2,3]  LB[2,3,0]  99
+    delta[2,3]  LB[2,3,1]  -56
+    delta[2,3]  UB[2,3,0]  -44
+    delta[2,3]  UB[2,3,1]  56
+    delta[2,3]  PM[2,3,0]  350
+    delta[2,3]  PM[2,3,1]  -350
+    delta[2,3]  McCormick1[2,3]  1
+    delta[2,3]  McCormick1[3,2]  1
+    delta[2,3]  McCormick2[2,3]  1
+    delta[2,3]  McCormick3[3,2]  1
+    delta[2,4]  LB[2,4,0]  86
+    delta[2,4]  LB[2,4,1]  -56
+    delta[2,4]  UB[2,4,0]  -10
+    delta[2,4]  UB[2,4,1]  16
+    delta[2,4]  PM[2,4,0]  337
+    delta[2,4]  PM[2,4,1]  -350
+    delta[2,4]  McCormick1[2,4]  1
+    delta[2,4]  McCormick1[4,2]  1
+    delta[2,4]  McCormick2[2,4]  1
+    delta[2,4]  McCormick3[4,2]  1
+    delta[2,5]  LB[2,5,0]  83
+    delta[2,5]  LB[2,5,1]  -56
+    delta[2,5]  UB[2,5,0]  -61
+    delta[2,5]  UB[2,5,1]  50
+    delta[2,5]  PM[2,5,0]  334
+    delta[2,5]  PM[2,5,1]  -350
+    delta[2,5]  McCormick1[2,5]  1
+    delta[2,5]  McCormick1[5,2]  1
+    delta[2,5]  McCormick2[2,5]  1
+    delta[2,5]  McCormick3[5,2]  1
+    delta[2,6]  LB[2,6,0]  83
+    delta[2,6]  LB[2,6,1]  -56
+    delta[2,6]  UB[2,6,0]  -107
+    delta[2,6]  UB[2,6,1]  118
+    delta[2,6]  PM[2,6,0]  334
+    delta[2,6]  PM[2,6,1]  -350
+    delta[2,6]  McCormick1[2,6]  1
+    delta[2,6]  McCormick1[6,2]  1
+    delta[2,6]  McCormick2[2,6]  1
+    delta[2,6]  McCormick3[6,2]  1
+    delta[2,7]  LB[2,7,0]  86
+    delta[2,7]  LB[2,7,1]  -56
+    delta[2,7]  UB[2,7,0]  -17
+    delta[2,7]  UB[2,7,1]  33
+    delta[2,7]  PM[2,7,0]  337
+    delta[2,7]  PM[2,7,1]  -350
+    delta[2,7]  McCormick1[2,7]  1
+    delta[2,7]  McCormick1[7,2]  1
+    delta[2,7]  McCormick2[2,7]  1
+    delta[2,7]  McCormick3[7,2]  1
+    delta[2,8]  LB[2,8,0]  99
+    delta[2,8]  LB[2,8,1]  -56
+    delta[2,8]  UB[2,8,0]  -118
+    delta[2,8]  UB[2,8,1]  41
+    delta[2,8]  PM[2,8,0]  350
+    delta[2,8]  PM[2,8,1]  -350
+    delta[2,8]  McCormick1[2,8]  1
+    delta[2,8]  McCormick1[8,2]  1
+    delta[2,8]  McCormick2[2,8]  1
+    delta[2,8]  McCormick3[8,2]  1
+    delta[2,9]  LB[2,9,0]  83
+    delta[2,9]  LB[2,9,1]  -56
+    delta[2,9]  UB[2,9,0]  -78
+    delta[2,9]  UB[2,9,1]  147
+    delta[2,9]  PM[2,9,0]  334
+    delta[2,9]  PM[2,9,1]  -350
+    delta[2,9]  McCormick1[2,9]  1
+    delta[2,9]  McCormick1[9,2]  1
+    delta[2,9]  McCormick2[2,9]  1
+    delta[2,9]  McCormick3[9,2]  1
+    delta[2,10]  LB[2,10,1]  -56
+    delta[2,10]  LB[10,2,0]  31
+    delta[2,10]  UB[2,10,1]  12
+    delta[2,10]  UB[10,2,0]  -99
+    delta[2,10]  PM[2,10,1]  -350
+    delta[2,10]  PM[10,2,0]  350
+    delta[2,10]  McCormick1[2,10]  1
+    delta[2,10]  McCormick1[10,2]  1
+    delta[2,10]  McCormick2[2,10]  1
+    delta[2,10]  McCormick3[10,2]  1
+    delta[2,11]  LB[2,11,1]  -56
+    delta[2,11]  LB[11,2,0]  210
+    delta[2,11]  UB[2,11,1]  55
+    delta[2,11]  UB[11,2,0]  -75
+    delta[2,11]  PM[2,11,1]  -350
+    delta[2,11]  PM[11,2,0]  326
+    delta[2,11]  McCormick1[2,11]  1
+    delta[2,11]  McCormick1[11,2]  1
+    delta[2,11]  McCormick2[2,11]  1
+    delta[2,11]  McCormick3[11,2]  1
+    delta[2,12]  LB[2,12,1]  -56
+    delta[2,12]  LB[12,2,0]  70
+    delta[2,12]  UB[2,12,1]  143
+    delta[2,12]  UB[12,2,0]  -75
+    delta[2,12]  PM[2,12,1]  -350
+    delta[2,12]  PM[12,2,0]  326
+    delta[2,12]  McCormick1[2,12]  1
+    delta[2,12]  McCormick1[12,2]  1
+    delta[2,12]  McCormick2[2,12]  1
+    delta[2,12]  McCormick3[12,2]  1
+    delta[2,13]  LB[2,13,1]  -56
+    delta[2,13]  LB[13,2,0]  66
+    delta[2,13]  UB[2,13,1]  97
+    delta[2,13]  UB[13,2,0]  -75
+    delta[2,13]  PM[2,13,1]  -350
+    delta[2,13]  PM[13,2,0]  326
+    delta[2,13]  McCormick1[2,13]  1
+    delta[2,13]  McCormick1[13,2]  1
+    delta[2,13]  McCormick2[2,13]  1
+    delta[2,13]  McCormick3[13,2]  1
+    delta[2,14]  LB[2,14,1]  -56
+    delta[2,14]  LB[14,2,0]  26
+    delta[2,14]  UB[2,14,1]  14
+    delta[2,14]  UB[14,2,0]  -99
+    delta[2,14]  PM[2,14,1]  -350
+    delta[2,14]  PM[14,2,0]  350
+    delta[2,14]  McCormick1[2,14]  1
+    delta[2,14]  McCormick1[14,2]  1
+    delta[2,14]  McCormick2[2,14]  1
+    delta[2,14]  McCormick3[14,2]  1
+    delta[2,15]  LB[2,15,1]  -56
+    delta[2,15]  LB[15,2,0]  61
+    delta[2,15]  UB[2,15,1]  175
+    delta[2,15]  UB[15,2,0]  -75
+    delta[2,15]  PM[2,15,1]  -350
+    delta[2,15]  PM[15,2,0]  326
+    delta[2,15]  McCormick1[2,15]  1
+    delta[2,15]  McCormick1[15,2]  1
+    delta[2,15]  McCormick2[2,15]  1
+    delta[2,15]  McCormick3[15,2]  1
+    delta[2,16]  LB[2,16,1]  -56
+    delta[2,16]  LB[16,2,0]  108
+    delta[2,16]  UB[2,16,1]  123
+    delta[2,16]  UB[16,2,0]  -75
+    delta[2,16]  PM[2,16,1]  -350
+    delta[2,16]  PM[16,2,0]  326
+    delta[2,16]  McCormick1[2,16]  1
+    delta[2,16]  McCormick1[16,2]  1
+    delta[2,16]  McCormick2[2,16]  1
+    delta[2,16]  McCormick3[16,2]  1
+    delta[2,17]  LB[2,17,1]  -56
+    delta[2,17]  LB[17,2,0]  129
+    delta[2,17]  UB[2,17,1]  142
+    delta[2,17]  UB[17,2,0]  -75
+    delta[2,17]  PM[2,17,1]  -350
+    delta[2,17]  PM[17,2,0]  326
+    delta[2,17]  McCormick1[2,17]  1
+    delta[2,17]  McCormick1[17,2]  1
+    delta[2,17]  McCormick2[2,17]  1
+    delta[2,17]  McCormick3[17,2]  1
+    delta[2,18]  LB[2,18,1]  -56
+    delta[2,18]  LB[18,2,0]  12
+    delta[2,18]  UB[2,18,1]  10
+    delta[2,18]  UB[18,2,0]  -99
+    delta[2,18]  PM[2,18,1]  -350
+    delta[2,18]  PM[18,2,0]  350
+    delta[2,18]  McCormick1[2,18]  1
+    delta[2,18]  McCormick1[18,2]  1
+    delta[2,18]  McCormick2[2,18]  1
+    delta[2,18]  McCormick3[18,2]  1
+    delta[3,0]  LB[0,3,0]  21
+    delta[3,0]  LB[3,0,1]  -56
+    delta[3,0]  UB[0,3,0]  -44
+    delta[3,0]  UB[3,0,1]  16
+    delta[3,0]  PM[0,3,0]  350
+    delta[3,0]  PM[3,0,1]  -350
+    delta[3,0]  McCormick1[0,3]  1
+    delta[3,0]  McCormick1[3,0]  1
+    delta[3,0]  McCormick2[3,0]  1
+    delta[3,0]  McCormick3[0,3]  1
+    delta[3,1]  LB[1,3,0]  59
+    delta[3,1]  LB[3,1,1]  -56
+    delta[3,1]  UB[1,3,0]  -44
+    delta[3,1]  UB[3,1,1]  53
+    delta[3,1]  PM[1,3,0]  350
+    delta[3,1]  PM[3,1,1]  -350
+    delta[3,1]  McCormick1[1,3]  1
+    delta[3,1]  McCormick1[3,1]  1
+    delta[3,1]  McCormick2[3,1]  1
+    delta[3,1]  McCormick3[1,3]  1
+    delta[3,2]  LB[2,3,0]  99
+    delta[3,2]  LB[3,2,1]  -56
+    delta[3,2]  UB[2,3,0]  -44
+    delta[3,2]  UB[3,2,1]  56
+    delta[3,2]  PM[2,3,0]  350
+    delta[3,2]  PM[3,2,1]  -350
+    delta[3,2]  McCormick1[2,3]  1
+    delta[3,2]  McCormick1[3,2]  1
+    delta[3,2]  McCormick2[3,2]  1
+    delta[3,2]  McCormick3[2,3]  1
+    delta[3,4]  LB[3,4,0]  31
+    delta[3,4]  LB[3,4,1]  -56
+    delta[3,4]  UB[3,4,0]  -10
+    delta[3,4]  UB[3,4,1]  16
+    delta[3,4]  PM[3,4,0]  337
+    delta[3,4]  PM[3,4,1]  -350
+    delta[3,4]  McCormick1[3,4]  1
+    delta[3,4]  McCormick1[4,3]  1
+    delta[3,4]  McCormick2[3,4]  1
+    delta[3,4]  McCormick3[4,3]  1
+    delta[3,5]  LB[3,5,0]  16
+    delta[3,5]  LB[3,5,1]  -56
+    delta[3,5]  UB[3,5,0]  -49
+    delta[3,5]  UB[3,5,1]  50
+    delta[3,5]  PM[3,5,0]  322
+    delta[3,5]  PM[3,5,1]  -350
+    delta[3,5]  McCormick1[3,5]  1
+    delta[3,5]  McCormick1[5,3]  1
+    delta[3,5]  McCormick2[3,5]  1
+    delta[3,5]  McCormick3[5,3]  1
+    delta[3,6]  LB[3,6,0]  16
+    delta[3,6]  LB[3,6,1]  -56
+    delta[3,6]  UB[3,6,0]  -95
+    delta[3,6]  UB[3,6,1]  118
+    delta[3,6]  PM[3,6,0]  322
+    delta[3,6]  PM[3,6,1]  -350
+    delta[3,6]  McCormick1[3,6]  1
+    delta[3,6]  McCormick1[6,3]  1
+    delta[3,6]  McCormick2[3,6]  1
+    delta[3,6]  McCormick3[6,3]  1
+    delta[3,7]  LB[3,7,0]  31
+    delta[3,7]  LB[3,7,1]  -56
+    delta[3,7]  UB[3,7,0]  -17
+    delta[3,7]  UB[3,7,1]  33
+    delta[3,7]  PM[3,7,0]  337
+    delta[3,7]  PM[3,7,1]  -350
+    delta[3,7]  McCormick1[3,7]  1
+    delta[3,7]  McCormick1[7,3]  1
+    delta[3,7]  McCormick2[3,7]  1
+    delta[3,7]  McCormick3[7,3]  1
+    delta[3,8]  LB[3,8,0]  44
+    delta[3,8]  LB[3,8,1]  -56
+    delta[3,8]  UB[3,8,0]  -118
+    delta[3,8]  UB[3,8,1]  41
+    delta[3,8]  PM[3,8,0]  350
+    delta[3,8]  PM[3,8,1]  -350
+    delta[3,8]  McCormick1[3,8]  1
+    delta[3,8]  McCormick1[8,3]  1
+    delta[3,8]  McCormick2[3,8]  1
+    delta[3,8]  McCormick3[8,3]  1
+    delta[3,9]  LB[3,9,0]  16
+    delta[3,9]  LB[3,9,1]  -56
+    delta[3,9]  UB[3,9,0]  -66
+    delta[3,9]  UB[3,9,1]  147
+    delta[3,9]  PM[3,9,0]  322
+    delta[3,9]  PM[3,9,1]  -350
+    delta[3,9]  McCormick1[3,9]  1
+    delta[3,9]  McCormick1[9,3]  1
+    delta[3,9]  McCormick2[3,9]  1
+    delta[3,9]  McCormick3[9,3]  1
+    delta[3,10]  LB[3,10,1]  -56
+    delta[3,10]  LB[10,3,0]  31
+    delta[3,10]  UB[3,10,1]  12
+    delta[3,10]  UB[10,3,0]  -44
+    delta[3,10]  PM[3,10,1]  -350
+    delta[3,10]  PM[10,3,0]  350
+    delta[3,10]  McCormick1[3,10]  1
+    delta[3,10]  McCormick1[10,3]  1
+    delta[3,10]  McCormick2[3,10]  1
+    delta[3,10]  McCormick3[10,3]  1
+    delta[3,11]  LB[3,11,1]  -56
+    delta[3,11]  LB[11,3,0]  234
+    delta[3,11]  UB[3,11,1]  55
+    delta[3,11]  UB[11,3,0]  -44
+    delta[3,11]  PM[3,11,1]  -350
+    delta[3,11]  PM[11,3,0]  350
+    delta[3,11]  McCormick1[3,11]  1
+    delta[3,11]  McCormick1[11,3]  1
+    delta[3,11]  McCormick2[3,11]  1
+    delta[3,11]  McCormick3[11,3]  1
+    delta[3,12]  LB[3,12,1]  -56
+    delta[3,12]  LB[12,3,0]  94
+    delta[3,12]  UB[3,12,1]  143
+    delta[3,12]  UB[12,3,0]  -44
+    delta[3,12]  PM[3,12,1]  -350
+    delta[3,12]  PM[12,3,0]  350
+    delta[3,12]  McCormick1[3,12]  1
+    delta[3,12]  McCormick1[12,3]  1
+    delta[3,12]  McCormick2[3,12]  1
+    delta[3,12]  McCormick3[12,3]  1
+    delta[3,13]  LB[3,13,1]  -56
+    delta[3,13]  LB[13,3,0]  90
+    delta[3,13]  UB[3,13,1]  97
+    delta[3,13]  UB[13,3,0]  -44
+    delta[3,13]  PM[3,13,1]  -350
+    delta[3,13]  PM[13,3,0]  350
+    delta[3,13]  McCormick1[3,13]  1
+    delta[3,13]  McCormick1[13,3]  1
+    delta[3,13]  McCormick2[3,13]  1
+    delta[3,13]  McCormick3[13,3]  1
+    delta[3,14]  LB[3,14,1]  -56
+    delta[3,14]  LB[14,3,0]  26
+    delta[3,14]  UB[3,14,1]  14
+    delta[3,14]  UB[14,3,0]  -44
+    delta[3,14]  PM[3,14,1]  -350
+    delta[3,14]  PM[14,3,0]  350
+    delta[3,14]  McCormick1[3,14]  1
+    delta[3,14]  McCormick1[14,3]  1
+    delta[3,14]  McCormick2[3,14]  1
+    delta[3,14]  McCormick3[14,3]  1
+    delta[3,15]  LB[3,15,1]  -56
+    delta[3,15]  LB[15,3,0]  85
+    delta[3,15]  UB[3,15,1]  175
+    delta[3,15]  UB[15,3,0]  -44
+    delta[3,15]  PM[3,15,1]  -350
+    delta[3,15]  PM[15,3,0]  350
+    delta[3,15]  McCormick1[3,15]  1
+    delta[3,15]  McCormick1[15,3]  1
+    delta[3,15]  McCormick2[3,15]  1
+    delta[3,15]  McCormick3[15,3]  1
+    delta[3,16]  LB[3,16,1]  -56
+    delta[3,16]  LB[16,3,0]  132
+    delta[3,16]  UB[3,16,1]  123
+    delta[3,16]  UB[16,3,0]  -44
+    delta[3,16]  PM[3,16,1]  -350
+    delta[3,16]  PM[16,3,0]  350
+    delta[3,16]  McCormick1[3,16]  1
+    delta[3,16]  McCormick1[16,3]  1
+    delta[3,16]  McCormick2[3,16]  1
+    delta[3,16]  McCormick3[16,3]  1
+    delta[3,17]  LB[3,17,1]  -56
+    delta[3,17]  LB[17,3,0]  153
+    delta[3,17]  UB[3,17,1]  142
+    delta[3,17]  UB[17,3,0]  -44
+    delta[3,17]  PM[3,17,1]  -350
+    delta[3,17]  PM[17,3,0]  350
+    delta[3,17]  McCormick1[3,17]  1
+    delta[3,17]  McCormick1[17,3]  1
+    delta[3,17]  McCormick2[3,17]  1
+    delta[3,17]  McCormick3[17,3]  1
+    delta[3,18]  LB[3,18,1]  -56
+    delta[3,18]  LB[18,3,0]  12
+    delta[3,18]  UB[3,18,1]  10
+    delta[3,18]  UB[18,3,0]  -44
+    delta[3,18]  PM[3,18,1]  -350
+    delta[3,18]  PM[18,3,0]  350
+    delta[3,18]  McCormick1[3,18]  1
+    delta[3,18]  McCormick1[18,3]  1
+    delta[3,18]  McCormick2[3,18]  1
+    delta[3,18]  McCormick3[18,3]  1
+    delta[4,0]  LB[0,4,0]  15
+    delta[4,0]  LB[4,0,1]  -16
+    delta[4,0]  UB[0,4,0]  -17
+    delta[4,0]  UB[4,0,1]  16
+    delta[4,0]  PM[0,4,0]  344
+    delta[4,0]  PM[4,0,1]  -350
+    delta[4,0]  McCormick1[0,4]  1
+    delta[4,0]  McCormick1[4,0]  1
+    delta[4,0]  McCormick2[4,0]  1
+    delta[4,0]  McCormick3[0,4]  1
+    delta[4,1]  LB[1,4,0]  59
+    delta[4,1]  LB[4,1,1]  -16
+    delta[4,1]  UB[1,4,0]  -23
+    delta[4,1]  UB[4,1,1]  53
+    delta[4,1]  PM[1,4,0]  350
+    delta[4,1]  PM[4,1,1]  -350
+    delta[4,1]  McCormick1[1,4]  1
+    delta[4,1]  McCormick1[4,1]  1
+    delta[4,1]  McCormick2[4,1]  1
+    delta[4,1]  McCormick3[1,4]  1
+    delta[4,2]  LB[2,4,0]  86
+    delta[4,2]  LB[4,2,1]  -16
+    delta[4,2]  UB[2,4,0]  -10
+    delta[4,2]  UB[4,2,1]  56
+    delta[4,2]  PM[2,4,0]  337
+    delta[4,2]  PM[4,2,1]  -350
+    delta[4,2]  McCormick1[2,4]  1
+    delta[4,2]  McCormick1[4,2]  1
+    delta[4,2]  McCormick2[4,2]  1
+    delta[4,2]  McCormick3[2,4]  1
+    delta[4,3]  LB[3,4,0]  31
+    delta[4,3]  LB[4,3,1]  -16
+    delta[4,3]  UB[3,4,0]  -10
+    delta[4,3]  UB[4,3,1]  56
+    delta[4,3]  PM[3,4,0]  337
+    delta[4,3]  PM[4,3,1]  -350
+    delta[4,3]  McCormick1[3,4]  1
+    delta[4,3]  McCormick1[4,3]  1
+    delta[4,3]  McCormick2[4,3]  1
+    delta[4,3]  McCormick3[3,4]  1
+    delta[4,5]  LB[4,5,0]  23
+    delta[4,5]  LB[4,5,1]  -16
+    delta[4,5]  UB[4,5,0]  -77
+    delta[4,5]  UB[4,5,1]  50
+    delta[4,5]  PM[4,5,0]  350
+    delta[4,5]  PM[4,5,1]  -350
+    delta[4,5]  McCormick1[4,5]  1
+    delta[4,5]  McCormick1[5,4]  1
+    delta[4,5]  McCormick2[4,5]  1
+    delta[4,5]  McCormick3[5,4]  1
+    delta[4,6]  LB[4,6,0]  23
+    delta[4,6]  LB[4,6,1]  -16
+    delta[4,6]  UB[4,6,0]  -123
+    delta[4,6]  UB[4,6,1]  118
+    delta[4,6]  PM[4,6,0]  350
+    delta[4,6]  PM[4,6,1]  -350
+    delta[4,6]  McCormick1[4,6]  1
+    delta[4,6]  McCormick1[6,4]  1
+    delta[4,6]  McCormick2[4,6]  1
+    delta[4,6]  McCormick3[6,4]  1
+    delta[4,7]  LB[4,7,0]  23
+    delta[4,7]  LB[4,7,1]  -16
+    delta[4,7]  UB[4,7,0]  -30
+    delta[4,7]  UB[4,7,1]  33
+    delta[4,7]  PM[4,7,0]  350
+    delta[4,7]  PM[4,7,1]  -350
+    delta[4,7]  McCormick1[4,7]  1
+    delta[4,7]  McCormick1[7,4]  1
+    delta[4,7]  McCormick2[4,7]  1
+    delta[4,7]  McCormick3[7,4]  1
+    delta[4,8]  LB[4,8,0]  23
+    delta[4,8]  LB[4,8,1]  -16
+    delta[4,8]  UB[4,8,0]  -118
+    delta[4,8]  UB[4,8,1]  41
+    delta[4,8]  PM[4,8,0]  350
+    delta[4,8]  PM[4,8,1]  -350
+    delta[4,8]  McCormick1[4,8]  1
+    delta[4,8]  McCormick1[8,4]  1
+    delta[4,8]  McCormick2[4,8]  1
+    delta[4,8]  McCormick3[8,4]  1
+    delta[4,9]  LB[4,9,0]  23
+    delta[4,9]  LB[4,9,1]  -16
+    delta[4,9]  UB[4,9,0]  -94
+    delta[4,9]  UB[4,9,1]  147
+    delta[4,9]  PM[4,9,0]  350
+    delta[4,9]  PM[4,9,1]  -350
+    delta[4,9]  McCormick1[4,9]  1
+    delta[4,9]  McCormick1[9,4]  1
+    delta[4,9]  McCormick2[4,9]  1
+    delta[4,9]  McCormick3[9,4]  1
+    delta[4,10]  LB[4,10,1]  -16
+    delta[4,10]  LB[10,4,0]  31
+    delta[4,10]  UB[4,10,1]  12
+    delta[4,10]  UB[10,4,0]  -23
+    delta[4,10]  PM[4,10,1]  -350
+    delta[4,10]  PM[10,4,0]  350
+    delta[4,10]  McCormick1[4,10]  1
+    delta[4,10]  McCormick1[10,4]  1
+    delta[4,10]  McCormick2[4,10]  1
+    delta[4,10]  McCormick3[10,4]  1
+    delta[4,11]  LB[4,11,1]  -16
+    delta[4,11]  LB[11,4,0]  221
+    delta[4,11]  UB[4,11,1]  55
+    delta[4,11]  UB[11,4,0]  -10
+    delta[4,11]  PM[4,11,1]  -350
+    delta[4,11]  PM[11,4,0]  337
+    delta[4,11]  McCormick1[4,11]  1
+    delta[4,11]  McCormick1[11,4]  1
+    delta[4,11]  McCormick2[4,11]  1
+    delta[4,11]  McCormick3[11,4]  1
+    delta[4,12]  LB[4,12,1]  -16
+    delta[4,12]  LB[12,4,0]  81
+    delta[4,12]  UB[4,12,1]  143
+    delta[4,12]  UB[12,4,0]  -10
+    delta[4,12]  PM[4,12,1]  -350
+    delta[4,12]  PM[12,4,0]  337
+    delta[4,12]  McCormick1[4,12]  1
+    delta[4,12]  McCormick1[12,4]  1
+    delta[4,12]  McCormick2[4,12]  1
+    delta[4,12]  McCormick3[12,4]  1
+    delta[4,13]  LB[4,13,1]  -16
+    delta[4,13]  LB[13,4,0]  77
+    delta[4,13]  UB[4,13,1]  97
+    delta[4,13]  UB[13,4,0]  -10
+    delta[4,13]  PM[4,13,1]  -350
+    delta[4,13]  PM[13,4,0]  337
+    delta[4,13]  McCormick1[4,13]  1
+    delta[4,13]  McCormick1[13,4]  1
+    delta[4,13]  McCormick2[4,13]  1
+    delta[4,13]  McCormick3[13,4]  1
+    delta[4,14]  LB[4,14,1]  -16
+    delta[4,14]  LB[14,4,0]  26
+    delta[4,14]  UB[4,14,1]  14
+    delta[4,14]  UB[14,4,0]  -23
+    delta[4,14]  PM[4,14,1]  -350
+    delta[4,14]  PM[14,4,0]  350
+    delta[4,14]  McCormick1[4,14]  1
+    delta[4,14]  McCormick1[14,4]  1
+    delta[4,14]  McCormick2[4,14]  1
+    delta[4,14]  McCormick3[14,4]  1
+    delta[4,15]  LB[4,15,1]  -16
+    delta[4,15]  LB[15,4,0]  72
+    delta[4,15]  UB[4,15,1]  175
+    delta[4,15]  UB[15,4,0]  -10
+    delta[4,15]  PM[4,15,1]  -350
+    delta[4,15]  PM[15,4,0]  337
+    delta[4,15]  McCormick1[4,15]  1
+    delta[4,15]  McCormick1[15,4]  1
+    delta[4,15]  McCormick2[4,15]  1
+    delta[4,15]  McCormick3[15,4]  1
+    delta[4,16]  LB[4,16,1]  -16
+    delta[4,16]  LB[16,4,0]  119
+    delta[4,16]  UB[4,16,1]  123
+    delta[4,16]  UB[16,4,0]  -10
+    delta[4,16]  PM[4,16,1]  -350
+    delta[4,16]  PM[16,4,0]  337
+    delta[4,16]  McCormick1[4,16]  1
+    delta[4,16]  McCormick1[16,4]  1
+    delta[4,16]  McCormick2[4,16]  1
+    delta[4,16]  McCormick3[16,4]  1
+    delta[4,17]  LB[4,17,1]  -16
+    delta[4,17]  LB[17,4,0]  140
+    delta[4,17]  UB[4,17,1]  142
+    delta[4,17]  UB[17,4,0]  -10
+    delta[4,17]  PM[4,17,1]  -350
+    delta[4,17]  PM[17,4,0]  337
+    delta[4,17]  McCormick1[4,17]  1
+    delta[4,17]  McCormick1[17,4]  1
+    delta[4,17]  McCormick2[4,17]  1
+    delta[4,17]  McCormick3[17,4]  1
+    delta[4,18]  LB[4,18,1]  -16
+    delta[4,18]  LB[18,4,0]  12
+    delta[4,18]  UB[4,18,1]  10
+    delta[4,18]  UB[18,4,0]  -23
+    delta[4,18]  PM[4,18,1]  -350
+    delta[4,18]  PM[18,4,0]  350
+    delta[4,18]  McCormick1[4,18]  1
+    delta[4,18]  McCormick1[18,4]  1
+    delta[4,18]  McCormick2[4,18]  1
+    delta[4,18]  McCormick3[18,4]  1
+    delta[5,0]  LB[0,5,0]  15
+    delta[5,0]  LB[5,0,1]  -45
+    delta[5,0]  UB[0,5,0]  -71
+    delta[5,0]  UB[5,0,1]  11
+    delta[5,0]  PM[0,5,0]  344
+    delta[5,0]  PM[5,0,1]  -345
+    delta[5,0]  McCormick1[0,5]  1
+    delta[5,0]  McCormick1[5,0]  1
+    delta[5,0]  McCormick2[5,0]  1
+    delta[5,0]  McCormick3[0,5]  1
+    delta[5,1]  LB[1,5,0]  59
+    delta[5,1]  LB[5,1,1]  -30
+    delta[5,1]  UB[1,5,0]  -77
+    delta[5,1]  UB[5,1,1]  33
+    delta[5,1]  PM[1,5,0]  350
+    delta[5,1]  PM[5,1,1]  -330
+    delta[5,1]  McCormick1[1,5]  1
+    delta[5,1]  McCormick1[5,1]  1
+    delta[5,1]  McCormick2[5,1]  1
+    delta[5,1]  McCormick3[1,5]  1
+    delta[5,2]  LB[2,5,0]  83
+    delta[5,2]  LB[5,2,1]  -32
+    delta[5,2]  UB[2,5,0]  -61
+    delta[5,2]  UB[5,2,1]  38
+    delta[5,2]  PM[2,5,0]  334
+    delta[5,2]  PM[5,2,1]  -332
+    delta[5,2]  McCormick1[2,5]  1
+    delta[5,2]  McCormick1[5,2]  1
+    delta[5,2]  McCormick2[5,2]  1
+    delta[5,2]  McCormick3[2,5]  1
+    delta[5,3]  LB[3,5,0]  16
+    delta[5,3]  LB[5,3,1]  -30
+    delta[5,3]  UB[3,5,0]  -49
+    delta[5,3]  UB[5,3,1]  36
+    delta[5,3]  PM[3,5,0]  322
+    delta[5,3]  PM[5,3,1]  -330
+    delta[5,3]  McCormick1[3,5]  1
+    delta[5,3]  McCormick1[5,3]  1
+    delta[5,3]  McCormick2[5,3]  1
+    delta[5,3]  McCormick3[3,5]  1
+    delta[5,4]  LB[4,5,0]  23
+    delta[5,4]  LB[5,4,1]  -50
+    delta[5,4]  UB[4,5,0]  -77
+    delta[5,4]  UB[5,4,1]  16
+    delta[5,4]  PM[4,5,0]  350
+    delta[5,4]  PM[5,4,1]  -350
+    delta[5,4]  McCormick1[4,5]  1
+    delta[5,4]  McCormick1[5,4]  1
+    delta[5,4]  McCormick2[5,4]  1
+    delta[5,4]  McCormick3[4,5]  1
+    delta[5,6]  LB[5,6,0]  77
+    delta[5,6]  LB[5,6,1]  -50
+    delta[5,6]  UB[5,6,0]  -123
+    delta[5,6]  UB[5,6,1]  118
+    delta[5,6]  PM[5,6,0]  350
+    delta[5,6]  PM[5,6,1]  -350
+    delta[5,6]  McCormick1[5,6]  1
+    delta[5,6]  McCormick1[6,5]  1
+    delta[5,6]  McCormick2[5,6]  1
+    delta[5,6]  McCormick3[6,5]  1
+    delta[5,7]  LB[5,7,0]  77
+    delta[5,7]  LB[5,7,1]  -38
+    delta[5,7]  UB[5,7,0]  -30
+    delta[5,7]  UB[5,7,1]  21
+    delta[5,7]  PM[5,7,0]  350
+    delta[5,7]  PM[5,7,1]  -338
+    delta[5,7]  McCormick1[5,7]  1
+    delta[5,7]  McCormick1[7,5]  1
+    delta[5,7]  McCormick2[5,7]  1
+    delta[5,7]  McCormick3[7,5]  1
+    delta[5,8]  LB[5,8,0]  77
+    delta[5,8]  LB[5,8,1]  -50
+    delta[5,8]  UB[5,8,0]  -118
+    delta[5,8]  UB[5,8,1]  41
+    delta[5,8]  PM[5,8,0]  350
+    delta[5,8]  PM[5,8,1]  -350
+    delta[5,8]  McCormick1[5,8]  1
+    delta[5,8]  McCormick1[8,5]  1
+    delta[5,8]  McCormick2[5,8]  1
+    delta[5,8]  McCormick3[8,5]  1
+    delta[5,9]  LB[5,9,0]  77
+    delta[5,9]  LB[5,9,1]  -30
+    delta[5,9]  UB[5,9,0]  -94
+    delta[5,9]  UB[5,9,1]  127
+    delta[5,9]  PM[5,9,0]  350
+    delta[5,9]  PM[5,9,1]  -330
+    delta[5,9]  McCormick1[5,9]  1
+    delta[5,9]  McCormick1[9,5]  1
+    delta[5,9]  McCormick2[5,9]  1
+    delta[5,9]  McCormick3[9,5]  1
+    delta[5,10]  LB[5,10,1]  -50
+    delta[5,10]  LB[10,5,0]  31
+    delta[5,10]  UB[5,10,1]  12
+    delta[5,10]  UB[10,5,0]  -77
+    delta[5,10]  PM[5,10,1]  -350
+    delta[5,10]  PM[10,5,0]  350
+    delta[5,10]  McCormick1[5,10]  1
+    delta[5,10]  McCormick1[10,5]  1
+    delta[5,10]  McCormick2[5,10]  1
+    delta[5,10]  McCormick3[10,5]  1
+    delta[5,11]  LB[5,11,1]  -50
+    delta[5,11]  LB[11,5,0]  205
+    delta[5,11]  UB[5,11,1]  55
+    delta[5,11]  UB[11,5,0]  -48
+    delta[5,11]  PM[5,11,1]  -350
+    delta[5,11]  PM[11,5,0]  321
+    delta[5,11]  McCormick1[5,11]  1
+    delta[5,11]  McCormick1[11,5]  1
+    delta[5,11]  McCormick2[5,11]  1
+    delta[5,11]  McCormick3[11,5]  1
+    delta[5,12]  LB[5,12,1]  -30
+    delta[5,12]  LB[12,5,0]  65
+    delta[5,12]  UB[5,12,1]  123
+    delta[5,12]  UB[12,5,0]  -48
+    delta[5,12]  PM[5,12,1]  -330
+    delta[5,12]  PM[12,5,0]  321
+    delta[5,12]  McCormick1[5,12]  1
+    delta[5,12]  McCormick1[12,5]  1
+    delta[5,12]  McCormick2[5,12]  1
+    delta[5,12]  McCormick3[12,5]  1
+    delta[5,13]  LB[5,13,1]  -50
+    delta[5,13]  LB[13,5,0]  61
+    delta[5,13]  UB[5,13,1]  97
+    delta[5,13]  UB[13,5,0]  -48
+    delta[5,13]  PM[5,13,1]  -350
+    delta[5,13]  PM[13,5,0]  321
+    delta[5,13]  McCormick1[5,13]  1
+    delta[5,13]  McCormick1[13,5]  1
+    delta[5,13]  McCormick2[5,13]  1
+    delta[5,13]  McCormick3[13,5]  1
+    delta[5,14]  LB[5,14,1]  -50
+    delta[5,14]  LB[14,5,0]  26
+    delta[5,14]  UB[5,14,1]  14
+    delta[5,14]  UB[14,5,0]  -77
+    delta[5,14]  PM[5,14,1]  -350
+    delta[5,14]  PM[14,5,0]  350
+    delta[5,14]  McCormick1[5,14]  1
+    delta[5,14]  McCormick1[14,5]  1
+    delta[5,14]  McCormick2[5,14]  1
+    delta[5,14]  McCormick3[14,5]  1
+    delta[5,15]  LB[5,15,1]  -30
+    delta[5,15]  LB[15,5,0]  56
+    delta[5,15]  UB[5,15,1]  155
+    delta[5,15]  UB[15,5,0]  -48
+    delta[5,15]  PM[5,15,1]  -330
+    delta[5,15]  PM[15,5,0]  321
+    delta[5,15]  McCormick1[5,15]  1
+    delta[5,15]  McCormick1[15,5]  1
+    delta[5,15]  McCormick2[5,15]  1
+    delta[5,15]  McCormick3[15,5]  1
+    delta[5,16]  LB[5,16,1]  -50
+    delta[5,16]  LB[16,5,0]  103
+    delta[5,16]  UB[5,16,1]  123
+    delta[5,16]  UB[16,5,0]  -48
+    delta[5,16]  PM[5,16,1]  -350
+    delta[5,16]  PM[16,5,0]  321
+    delta[5,16]  McCormick1[5,16]  1
+    delta[5,16]  McCormick1[16,5]  1
+    delta[5,16]  McCormick2[5,16]  1
+    delta[5,16]  McCormick3[16,5]  1
+    delta[5,17]  LB[5,17,1]  -30
+    delta[5,17]  LB[17,5,0]  124
+    delta[5,17]  UB[5,17,1]  122
+    delta[5,17]  UB[17,5,0]  -48
+    delta[5,17]  PM[5,17,1]  -330
+    delta[5,17]  PM[17,5,0]  321
+    delta[5,17]  McCormick1[5,17]  1
+    delta[5,17]  McCormick1[17,5]  1
+    delta[5,17]  McCormick2[5,17]  1
+    delta[5,17]  McCormick3[17,5]  1
+    delta[5,18]  LB[5,18,1]  -50
+    delta[5,18]  LB[18,5,0]  12
+    delta[5,18]  UB[5,18,1]  10
+    delta[5,18]  UB[18,5,0]  -77
+    delta[5,18]  PM[5,18,1]  -350
+    delta[5,18]  PM[18,5,0]  350
+    delta[5,18]  McCormick1[5,18]  1
+    delta[5,18]  McCormick1[18,5]  1
+    delta[5,18]  McCormick2[5,18]  1
+    delta[5,18]  McCormick3[18,5]  1
+    delta[6,0]  LB[0,6,0]  15
+    delta[6,0]  LB[6,0,1]  -118
+    delta[6,0]  UB[0,6,0]  -117
+    delta[6,0]  UB[6,0,1]  16
+    delta[6,0]  PM[0,6,0]  344
+    delta[6,0]  PM[6,0,1]  -350
+    delta[6,0]  McCormick1[0,6]  1
+    delta[6,0]  McCormick1[6,0]  1
+    delta[6,0]  McCormick2[6,0]  1
+    delta[6,0]  McCormick3[0,6]  1
+    delta[6,1]  LB[1,6,0]  59
+    delta[6,1]  LB[6,1,1]  -118
+    delta[6,1]  UB[1,6,0]  -123
+    delta[6,1]  UB[6,1,1]  53
+    delta[6,1]  PM[1,6,0]  350
+    delta[6,1]  PM[6,1,1]  -350
+    delta[6,1]  McCormick1[1,6]  1
+    delta[6,1]  McCormick1[6,1]  1
+    delta[6,1]  McCormick2[6,1]  1
+    delta[6,1]  McCormick3[1,6]  1
+    delta[6,2]  LB[2,6,0]  83
+    delta[6,2]  LB[6,2,1]  -118
+    delta[6,2]  UB[2,6,0]  -107
+    delta[6,2]  UB[6,2,1]  56
+    delta[6,2]  PM[2,6,0]  334
+    delta[6,2]  PM[6,2,1]  -350
+    delta[6,2]  McCormick1[2,6]  1
+    delta[6,2]  McCormick1[6,2]  1
+    delta[6,2]  McCormick2[6,2]  1
+    delta[6,2]  McCormick3[2,6]  1
+    delta[6,3]  LB[3,6,0]  16
+    delta[6,3]  LB[6,3,1]  -118
+    delta[6,3]  UB[3,6,0]  -95
+    delta[6,3]  UB[6,3,1]  56
+    delta[6,3]  PM[3,6,0]  322
+    delta[6,3]  PM[6,3,1]  -350
+    delta[6,3]  McCormick1[3,6]  1
+    delta[6,3]  McCormick1[6,3]  1
+    delta[6,3]  McCormick2[6,3]  1
+    delta[6,3]  McCormick3[3,6]  1
+    delta[6,4]  LB[4,6,0]  23
+    delta[6,4]  LB[6,4,1]  -118
+    delta[6,4]  UB[4,6,0]  -123
+    delta[6,4]  UB[6,4,1]  16
+    delta[6,4]  PM[4,6,0]  350
+    delta[6,4]  PM[6,4,1]  -350
+    delta[6,4]  McCormick1[4,6]  1
+    delta[6,4]  McCormick1[6,4]  1
+    delta[6,4]  McCormick2[6,4]  1
+    delta[6,4]  McCormick3[4,6]  1
+    delta[6,5]  LB[5,6,0]  77
+    delta[6,5]  LB[6,5,1]  -118
+    delta[6,5]  UB[5,6,0]  -123
+    delta[6,5]  UB[6,5,1]  50
+    delta[6,5]  PM[5,6,0]  350
+    delta[6,5]  PM[6,5,1]  -350
+    delta[6,5]  McCormick1[5,6]  1
+    delta[6,5]  McCormick1[6,5]  1
+    delta[6,5]  McCormick2[6,5]  1
+    delta[6,5]  McCormick3[5,6]  1
+    delta[6,7]  LB[6,7,0]  123
+    delta[6,7]  LB[6,7,1]  -118
+    delta[6,7]  UB[6,7,0]  -30
+    delta[6,7]  UB[6,7,1]  33
+    delta[6,7]  PM[6,7,0]  350
+    delta[6,7]  PM[6,7,1]  -350
+    delta[6,7]  McCormick1[6,7]  1
+    delta[6,7]  McCormick1[7,6]  1
+    delta[6,7]  McCormick2[6,7]  1
+    delta[6,7]  McCormick3[7,6]  1
+    delta[6,8]  LB[6,8,0]  123
+    delta[6,8]  LB[6,8,1]  -118
+    delta[6,8]  UB[6,8,0]  -118
+    delta[6,8]  UB[6,8,1]  41
+    delta[6,8]  PM[6,8,0]  350
+    delta[6,8]  PM[6,8,1]  -350
+    delta[6,8]  McCormick1[6,8]  1
+    delta[6,8]  McCormick1[8,6]  1
+    delta[6,8]  McCormick2[6,8]  1
+    delta[6,8]  McCormick3[8,6]  1
+    delta[6,9]  LB[6,9,0]  123
+    delta[6,9]  LB[6,9,1]  -118
+    delta[6,9]  UB[6,9,0]  -94
+    delta[6,9]  UB[6,9,1]  147
+    delta[6,9]  PM[6,9,0]  350
+    delta[6,9]  PM[6,9,1]  -350
+    delta[6,9]  McCormick1[6,9]  1
+    delta[6,9]  McCormick1[9,6]  1
+    delta[6,9]  McCormick2[6,9]  1
+    delta[6,9]  McCormick3[9,6]  1
+    delta[6,10]  LB[6,10,1]  -118
+    delta[6,10]  LB[10,6,0]  31
+    delta[6,10]  UB[6,10,1]  12
+    delta[6,10]  UB[10,6,0]  -123
+    delta[6,10]  PM[6,10,1]  -350
+    delta[6,10]  PM[10,6,0]  350
+    delta[6,10]  McCormick1[6,10]  1
+    delta[6,10]  McCormick1[10,6]  1
+    delta[6,10]  McCormick2[6,10]  1
+    delta[6,10]  McCormick3[10,6]  1
+    delta[6,11]  LB[6,11,1]  -118
+    delta[6,11]  LB[11,6,0]  175
+    delta[6,11]  UB[6,11,1]  55
+    delta[6,11]  UB[11,6,0]  -64
+    delta[6,11]  PM[6,11,1]  -350
+    delta[6,11]  PM[11,6,0]  291
+    delta[6,11]  McCormick1[6,11]  1
+    delta[6,11]  McCormick1[11,6]  1
+    delta[6,11]  McCormick2[6,11]  1
+    delta[6,11]  McCormick3[11,6]  1
+    delta[6,12]  LB[6,12,1]  -118
+    delta[6,12]  LB[12,6,0]  53
+    delta[6,12]  UB[6,12,1]  143
+    delta[6,12]  UB[12,6,0]  -82
+    delta[6,12]  PM[6,12,1]  -350
+    delta[6,12]  PM[12,6,0]  309
+    delta[6,12]  McCormick1[6,12]  1
+    delta[6,12]  McCormick1[12,6]  1
+    delta[6,12]  McCormick2[6,12]  1
+    delta[6,12]  McCormick3[12,6]  1
+    delta[6,13]  LB[6,13,1]  -118
+    delta[6,13]  LB[13,6,0]  51
+    delta[6,13]  UB[6,13,1]  97
+    delta[6,13]  UB[13,6,0]  -84
+    delta[6,13]  PM[6,13,1]  -350
+    delta[6,13]  PM[13,6,0]  311
+    delta[6,13]  McCormick1[6,13]  1
+    delta[6,13]  McCormick1[13,6]  1
+    delta[6,13]  McCormick2[6,13]  1
+    delta[6,13]  McCormick3[13,6]  1
+    delta[6,14]  LB[6,14,1]  -118
+    delta[6,14]  LB[14,6,0]  26
+    delta[6,14]  UB[6,14,1]  14
+    delta[6,14]  UB[14,6,0]  -123
+    delta[6,14]  PM[6,14,1]  -350
+    delta[6,14]  PM[14,6,0]  350
+    delta[6,14]  McCormick1[6,14]  1
+    delta[6,14]  McCormick1[14,6]  1
+    delta[6,14]  McCormick2[6,14]  1
+    delta[6,14]  McCormick3[14,6]  1
+    delta[6,15]  LB[6,15,1]  -118
+    delta[6,15]  LB[15,6,0]  43
+    delta[6,15]  UB[6,15,1]  175
+    delta[6,15]  UB[15,6,0]  -81
+    delta[6,15]  PM[6,15,1]  -350
+    delta[6,15]  PM[15,6,0]  308
+    delta[6,15]  McCormick1[6,15]  1
+    delta[6,15]  McCormick1[15,6]  1
+    delta[6,15]  McCormick2[6,15]  1
+    delta[6,15]  McCormick3[15,6]  1
+    delta[6,16]  LB[6,16,1]  -118
+    delta[6,16]  LB[16,6,0]  96
+    delta[6,16]  UB[6,16,1]  123
+    delta[6,16]  UB[16,6,0]  -87
+    delta[6,16]  PM[6,16,1]  -350
+    delta[6,16]  PM[16,6,0]  314
+    delta[6,16]  McCormick1[6,16]  1
+    delta[6,16]  McCormick1[16,6]  1
+    delta[6,16]  McCormick2[6,16]  1
+    delta[6,16]  McCormick3[16,6]  1
+    delta[6,17]  LB[6,17,1]  -118
+    delta[6,17]  LB[17,6,0]  96
+    delta[6,17]  UB[6,17,1]  142
+    delta[6,17]  UB[17,6,0]  -66
+    delta[6,17]  PM[6,17,1]  -350
+    delta[6,17]  PM[17,6,0]  293
+    delta[6,17]  McCormick1[6,17]  1
+    delta[6,17]  McCormick1[17,6]  1
+    delta[6,17]  McCormick2[6,17]  1
+    delta[6,17]  McCormick3[17,6]  1
+    delta[6,18]  LB[6,18,1]  -118
+    delta[6,18]  LB[18,6,0]  12
+    delta[6,18]  UB[6,18,1]  10
+    delta[6,18]  UB[18,6,0]  -123
+    delta[6,18]  PM[6,18,1]  -350
+    delta[6,18]  PM[18,6,0]  350
+    delta[6,18]  McCormick1[6,18]  1
+    delta[6,18]  McCormick1[18,6]  1
+    delta[6,18]  McCormick2[6,18]  1
+    delta[6,18]  McCormick3[18,6]  1
+    delta[7,0]  LB[0,7,0]  15
+    delta[7,0]  LB[7,0,1]  -28
+    delta[7,0]  UB[0,7,0]  -24
+    delta[7,0]  UB[7,0,1]  11
+    delta[7,0]  PM[0,7,0]  344
+    delta[7,0]  PM[7,0,1]  -345
+    delta[7,0]  McCormick1[0,7]  1
+    delta[7,0]  McCormick1[7,0]  1
+    delta[7,0]  McCormick2[7,0]  1
+    delta[7,0]  McCormick3[0,7]  1
+    delta[7,1]  LB[1,7,0]  59
+    delta[7,1]  LB[7,1,1]  -21
+    delta[7,1]  UB[1,7,0]  -30
+    delta[7,1]  UB[7,1,1]  41
+    delta[7,1]  PM[1,7,0]  350
+    delta[7,1]  PM[7,1,1]  -338
+    delta[7,1]  McCormick1[1,7]  1
+    delta[7,1]  McCormick1[7,1]  1
+    delta[7,1]  McCormick2[7,1]  1
+    delta[7,1]  McCormick3[1,7]  1
+    delta[7,2]  LB[2,7,0]  86
+    delta[7,2]  LB[7,2,1]  -21
+    delta[7,2]  UB[2,7,0]  -17
+    delta[7,2]  UB[7,2,1]  44
+    delta[7,2]  PM[2,7,0]  337
+    delta[7,2]  PM[7,2,1]  -338
+    delta[7,2]  McCormick1[2,7]  1
+    delta[7,2]  McCormick1[7,2]  1
+    delta[7,2]  McCormick2[7,2]  1
+    delta[7,2]  McCormick3[2,7]  1
+    delta[7,3]  LB[3,7,0]  31
+    delta[7,3]  LB[7,3,1]  -21
+    delta[7,3]  UB[3,7,0]  -17
+    delta[7,3]  UB[7,3,1]  44
+    delta[7,3]  PM[3,7,0]  337
+    delta[7,3]  PM[7,3,1]  -338
+    delta[7,3]  McCormick1[3,7]  1
+    delta[7,3]  McCormick1[7,3]  1
+    delta[7,3]  McCormick2[7,3]  1
+    delta[7,3]  McCormick3[3,7]  1
+    delta[7,4]  LB[4,7,0]  23
+    delta[7,4]  LB[7,4,1]  -33
+    delta[7,4]  UB[4,7,0]  -30
+    delta[7,4]  UB[7,4,1]  16
+    delta[7,4]  PM[4,7,0]  350
+    delta[7,4]  PM[7,4,1]  -350
+    delta[7,4]  McCormick1[4,7]  1
+    delta[7,4]  McCormick1[7,4]  1
+    delta[7,4]  McCormick2[7,4]  1
+    delta[7,4]  McCormick3[4,7]  1
+    delta[7,5]  LB[5,7,0]  77
+    delta[7,5]  LB[7,5,1]  -33
+    delta[7,5]  UB[5,7,0]  -30
+    delta[7,5]  UB[7,5,1]  50
+    delta[7,5]  PM[5,7,0]  350
+    delta[7,5]  PM[7,5,1]  -350
+    delta[7,5]  McCormick1[5,7]  1
+    delta[7,5]  McCormick1[7,5]  1
+    delta[7,5]  McCormick2[7,5]  1
+    delta[7,5]  McCormick3[5,7]  1
+    delta[7,6]  LB[6,7,0]  123
+    delta[7,6]  LB[7,6,1]  -33
+    delta[7,6]  UB[6,7,0]  -30
+    delta[7,6]  UB[7,6,1]  118
+    delta[7,6]  PM[6,7,0]  350
+    delta[7,6]  PM[7,6,1]  -350
+    delta[7,6]  McCormick1[6,7]  1
+    delta[7,6]  McCormick1[7,6]  1
+    delta[7,6]  McCormick2[7,6]  1
+    delta[7,6]  McCormick3[6,7]  1
+    delta[7,8]  LB[7,8,0]  30
+    delta[7,8]  LB[7,8,1]  -33
+    delta[7,8]  UB[7,8,0]  -118
+    delta[7,8]  UB[7,8,1]  41
+    delta[7,8]  PM[7,8,0]  350
+    delta[7,8]  PM[7,8,1]  -350
+    delta[7,8]  McCormick1[7,8]  1
+    delta[7,8]  McCormick1[8,7]  1
+    delta[7,8]  McCormick2[7,8]  1
+    delta[7,8]  McCormick3[8,7]  1
+    delta[7,9]  LB[7,9,0]  30
+    delta[7,9]  LB[7,9,1]  -21
+    delta[7,9]  UB[7,9,0]  -94
+    delta[7,9]  UB[7,9,1]  135
+    delta[7,9]  PM[7,9,0]  350
+    delta[7,9]  PM[7,9,1]  -338
+    delta[7,9]  McCormick1[7,9]  1
+    delta[7,9]  McCormick1[9,7]  1
+    delta[7,9]  McCormick2[7,9]  1
+    delta[7,9]  McCormick3[9,7]  1
+    delta[7,10]  LB[7,10,1]  -33
+    delta[7,10]  LB[10,7,0]  31
+    delta[7,10]  UB[7,10,1]  12
+    delta[7,10]  UB[10,7,0]  -30
+    delta[7,10]  PM[7,10,1]  -350
+    delta[7,10]  PM[10,7,0]  350
+    delta[7,10]  McCormick1[7,10]  1
+    delta[7,10]  McCormick1[10,7]  1
+    delta[7,10]  McCormick2[7,10]  1
+    delta[7,10]  McCormick3[10,7]  1
+    delta[7,11]  LB[7,11,1]  -33
+    delta[7,11]  LB[11,7,0]  221
+    delta[7,11]  UB[7,11,1]  55
+    delta[7,11]  UB[11,7,0]  -17
+    delta[7,11]  PM[7,11,1]  -350
+    delta[7,11]  PM[11,7,0]  337
+    delta[7,11]  McCormick1[7,11]  1
+    delta[7,11]  McCormick1[11,7]  1
+    delta[7,11]  McCormick2[7,11]  1
+    delta[7,11]  McCormick3[11,7]  1
+    delta[7,12]  LB[7,12,1]  -21
+    delta[7,12]  LB[12,7,0]  81
+    delta[7,12]  UB[7,12,1]  131
+    delta[7,12]  UB[12,7,0]  -17
+    delta[7,12]  PM[7,12,1]  -338
+    delta[7,12]  PM[12,7,0]  337
+    delta[7,12]  McCormick1[7,12]  1
+    delta[7,12]  McCormick1[12,7]  1
+    delta[7,12]  McCormick2[7,12]  1
+    delta[7,12]  McCormick3[12,7]  1
+    delta[7,13]  LB[7,13,1]  -33
+    delta[7,13]  LB[13,7,0]  77
+    delta[7,13]  UB[7,13,1]  97
+    delta[7,13]  UB[13,7,0]  -17
+    delta[7,13]  PM[7,13,1]  -350
+    delta[7,13]  PM[13,7,0]  337
+    delta[7,13]  McCormick1[7,13]  1
+    delta[7,13]  McCormick1[13,7]  1
+    delta[7,13]  McCormick2[7,13]  1
+    delta[7,13]  McCormick3[13,7]  1
+    delta[7,14]  LB[7,14,1]  -33
+    delta[7,14]  LB[14,7,0]  26
+    delta[7,14]  UB[7,14,1]  14
+    delta[7,14]  UB[14,7,0]  -30
+    delta[7,14]  PM[7,14,1]  -350
+    delta[7,14]  PM[14,7,0]  350
+    delta[7,14]  McCormick1[7,14]  1
+    delta[7,14]  McCormick1[14,7]  1
+    delta[7,14]  McCormick2[7,14]  1
+    delta[7,14]  McCormick3[14,7]  1
+    delta[7,15]  LB[7,15,1]  -21
+    delta[7,15]  LB[15,7,0]  72
+    delta[7,15]  UB[7,15,1]  163
+    delta[7,15]  UB[15,7,0]  -17
+    delta[7,15]  PM[7,15,1]  -338
+    delta[7,15]  PM[15,7,0]  337
+    delta[7,15]  McCormick1[7,15]  1
+    delta[7,15]  McCormick1[15,7]  1
+    delta[7,15]  McCormick2[7,15]  1
+    delta[7,15]  McCormick3[15,7]  1
+    delta[7,16]  LB[7,16,1]  -33
+    delta[7,16]  LB[16,7,0]  119
+    delta[7,16]  UB[7,16,1]  123
+    delta[7,16]  UB[16,7,0]  -17
+    delta[7,16]  PM[7,16,1]  -350
+    delta[7,16]  PM[16,7,0]  337
+    delta[7,16]  McCormick1[7,16]  1
+    delta[7,16]  McCormick1[16,7]  1
+    delta[7,16]  McCormick2[7,16]  1
+    delta[7,16]  McCormick3[16,7]  1
+    delta[7,17]  LB[7,17,1]  -21
+    delta[7,17]  LB[17,7,0]  140
+    delta[7,17]  UB[7,17,1]  130
+    delta[7,17]  UB[17,7,0]  -17
+    delta[7,17]  PM[7,17,1]  -338
+    delta[7,17]  PM[17,7,0]  337
+    delta[7,17]  McCormick1[7,17]  1
+    delta[7,17]  McCormick1[17,7]  1
+    delta[7,17]  McCormick2[7,17]  1
+    delta[7,17]  McCormick3[17,7]  1
+    delta[7,18]  LB[7,18,1]  -33
+    delta[7,18]  LB[18,7,0]  12
+    delta[7,18]  UB[7,18,1]  10
+    delta[7,18]  UB[18,7,0]  -30
+    delta[7,18]  PM[7,18,1]  -350
+    delta[7,18]  PM[18,7,0]  350
+    delta[7,18]  McCormick1[7,18]  1
+    delta[7,18]  McCormick1[18,7]  1
+    delta[7,18]  McCormick2[7,18]  1
+    delta[7,18]  McCormick3[18,7]  1
+    delta[8,0]  LB[0,8,0]  21
+    delta[8,0]  LB[8,0,1]  -41
+    delta[8,0]  UB[0,8,0]  -118
+    delta[8,0]  UB[8,0,1]  16
+    delta[8,0]  PM[0,8,0]  350
+    delta[8,0]  PM[8,0,1]  -350
+    delta[8,0]  McCormick1[0,8]  1
+    delta[8,0]  McCormick1[8,0]  1
+    delta[8,0]  McCormick2[8,0]  1
+    delta[8,0]  McCormick3[0,8]  1
+    delta[8,1]  LB[1,8,0]  59
+    delta[8,1]  LB[8,1,1]  -41
+    delta[8,1]  UB[1,8,0]  -118
+    delta[8,1]  UB[8,1,1]  53
+    delta[8,1]  PM[1,8,0]  350
+    delta[8,1]  PM[8,1,1]  -350
+    delta[8,1]  McCormick1[1,8]  1
+    delta[8,1]  McCormick1[8,1]  1
+    delta[8,1]  McCormick2[8,1]  1
+    delta[8,1]  McCormick3[1,8]  1
+    delta[8,2]  LB[2,8,0]  99
+    delta[8,2]  LB[8,2,1]  -41
+    delta[8,2]  UB[2,8,0]  -118
+    delta[8,2]  UB[8,2,1]  56
+    delta[8,2]  PM[2,8,0]  350
+    delta[8,2]  PM[8,2,1]  -350
+    delta[8,2]  McCormick1[2,8]  1
+    delta[8,2]  McCormick1[8,2]  1
+    delta[8,2]  McCormick2[8,2]  1
+    delta[8,2]  McCormick3[2,8]  1
+    delta[8,3]  LB[3,8,0]  44
+    delta[8,3]  LB[8,3,1]  -41
+    delta[8,3]  UB[3,8,0]  -118
+    delta[8,3]  UB[8,3,1]  56
+    delta[8,3]  PM[3,8,0]  350
+    delta[8,3]  PM[8,3,1]  -350
+    delta[8,3]  McCormick1[3,8]  1
+    delta[8,3]  McCormick1[8,3]  1
+    delta[8,3]  McCormick2[8,3]  1
+    delta[8,3]  McCormick3[3,8]  1
+    delta[8,4]  LB[4,8,0]  23
+    delta[8,4]  LB[8,4,1]  -41
+    delta[8,4]  UB[4,8,0]  -118
+    delta[8,4]  UB[8,4,1]  16
+    delta[8,4]  PM[4,8,0]  350
+    delta[8,4]  PM[8,4,1]  -350
+    delta[8,4]  McCormick1[4,8]  1
+    delta[8,4]  McCormick1[8,4]  1
+    delta[8,4]  McCormick2[8,4]  1
+    delta[8,4]  McCormick3[4,8]  1
+    delta[8,5]  LB[5,8,0]  77
+    delta[8,5]  LB[8,5,1]  -41
+    delta[8,5]  UB[5,8,0]  -118
+    delta[8,5]  UB[8,5,1]  50
+    delta[8,5]  PM[5,8,0]  350
+    delta[8,5]  PM[8,5,1]  -350
+    delta[8,5]  McCormick1[5,8]  1
+    delta[8,5]  McCormick1[8,5]  1
+    delta[8,5]  McCormick2[8,5]  1
+    delta[8,5]  McCormick3[5,8]  1
+    delta[8,6]  LB[6,8,0]  123
+    delta[8,6]  LB[8,6,1]  -41
+    delta[8,6]  UB[6,8,0]  -118
+    delta[8,6]  UB[8,6,1]  118
+    delta[8,6]  PM[6,8,0]  350
+    delta[8,6]  PM[8,6,1]  -350
+    delta[8,6]  McCormick1[6,8]  1
+    delta[8,6]  McCormick1[8,6]  1
+    delta[8,6]  McCormick2[8,6]  1
+    delta[8,6]  McCormick3[6,8]  1
+    delta[8,7]  LB[7,8,0]  30
+    delta[8,7]  LB[8,7,1]  -41
+    delta[8,7]  UB[7,8,0]  -118
+    delta[8,7]  UB[8,7,1]  33
+    delta[8,7]  PM[7,8,0]  350
+    delta[8,7]  PM[8,7,1]  -350
+    delta[8,7]  McCormick1[7,8]  1
+    delta[8,7]  McCormick1[8,7]  1
+    delta[8,7]  McCormick2[8,7]  1
+    delta[8,7]  McCormick3[7,8]  1
+    delta[8,9]  LB[8,9,0]  118
+    delta[8,9]  LB[8,9,1]  -41
+    delta[8,9]  UB[8,9,0]  -94
+    delta[8,9]  UB[8,9,1]  147
+    delta[8,9]  PM[8,9,0]  350
+    delta[8,9]  PM[8,9,1]  -350
+    delta[8,9]  McCormick1[8,9]  1
+    delta[8,9]  McCormick1[9,8]  1
+    delta[8,9]  McCormick2[8,9]  1
+    delta[8,9]  McCormick3[9,8]  1
+    delta[8,10]  LB[8,10,1]  -41
+    delta[8,10]  LB[10,8,0]  31
+    delta[8,10]  UB[8,10,1]  12
+    delta[8,10]  UB[10,8,0]  -118
+    delta[8,10]  PM[8,10,1]  -350
+    delta[8,10]  PM[10,8,0]  350
+    delta[8,10]  McCormick1[8,10]  1
+    delta[8,10]  McCormick1[10,8]  1
+    delta[8,10]  McCormick2[8,10]  1
+    delta[8,10]  McCormick3[10,8]  1
+    delta[8,11]  LB[8,11,1]  -41
+    delta[8,11]  LB[11,8,0]  234
+    delta[8,11]  UB[8,11,1]  55
+    delta[8,11]  UB[11,8,0]  -118
+    delta[8,11]  PM[8,11,1]  -350
+    delta[8,11]  PM[11,8,0]  350
+    delta[8,11]  McCormick1[8,11]  1
+    delta[8,11]  McCormick1[11,8]  1
+    delta[8,11]  McCormick2[8,11]  1
+    delta[8,11]  McCormick3[11,8]  1
+    delta[8,12]  LB[8,12,1]  -41
+    delta[8,12]  LB[12,8,0]  94
+    delta[8,12]  UB[8,12,1]  143
+    delta[8,12]  UB[12,8,0]  -118
+    delta[8,12]  PM[8,12,1]  -350
+    delta[8,12]  PM[12,8,0]  350
+    delta[8,12]  McCormick1[8,12]  1
+    delta[8,12]  McCormick1[12,8]  1
+    delta[8,12]  McCormick2[8,12]  1
+    delta[8,12]  McCormick3[12,8]  1
+    delta[8,13]  LB[8,13,1]  -41
+    delta[8,13]  LB[13,8,0]  90
+    delta[8,13]  UB[8,13,1]  97
+    delta[8,13]  UB[13,8,0]  -118
+    delta[8,13]  PM[8,13,1]  -350
+    delta[8,13]  PM[13,8,0]  350
+    delta[8,13]  McCormick1[8,13]  1
+    delta[8,13]  McCormick1[13,8]  1
+    delta[8,13]  McCormick2[8,13]  1
+    delta[8,13]  McCormick3[13,8]  1
+    delta[8,14]  LB[8,14,1]  -41
+    delta[8,14]  LB[14,8,0]  26
+    delta[8,14]  UB[8,14,1]  14
+    delta[8,14]  UB[14,8,0]  -118
+    delta[8,14]  PM[8,14,1]  -350
+    delta[8,14]  PM[14,8,0]  350
+    delta[8,14]  McCormick1[8,14]  1
+    delta[8,14]  McCormick1[14,8]  1
+    delta[8,14]  McCormick2[8,14]  1
+    delta[8,14]  McCormick3[14,8]  1
+    delta[8,15]  LB[8,15,1]  -41
+    delta[8,15]  LB[15,8,0]  85
+    delta[8,15]  UB[8,15,1]  175
+    delta[8,15]  UB[15,8,0]  -118
+    delta[8,15]  PM[8,15,1]  -350
+    delta[8,15]  PM[15,8,0]  350
+    delta[8,15]  McCormick1[8,15]  1
+    delta[8,15]  McCormick1[15,8]  1
+    delta[8,15]  McCormick2[8,15]  1
+    delta[8,15]  McCormick3[15,8]  1
+    delta[8,16]  LB[8,16,1]  -41
+    delta[8,16]  LB[16,8,0]  132
+    delta[8,16]  UB[8,16,1]  123
+    delta[8,16]  UB[16,8,0]  -118
+    delta[8,16]  PM[8,16,1]  -350
+    delta[8,16]  PM[16,8,0]  350
+    delta[8,16]  McCormick1[8,16]  1
+    delta[8,16]  McCormick1[16,8]  1
+    delta[8,16]  McCormick2[8,16]  1
+    delta[8,16]  McCormick3[16,8]  1
+    delta[8,17]  LB[8,17,1]  -41
+    delta[8,17]  LB[17,8,0]  153
+    delta[8,17]  UB[8,17,1]  142
+    delta[8,17]  UB[17,8,0]  -118
+    delta[8,17]  PM[8,17,1]  -350
+    delta[8,17]  PM[17,8,0]  350
+    delta[8,17]  McCormick1[8,17]  1
+    delta[8,17]  McCormick1[17,8]  1
+    delta[8,17]  McCormick2[8,17]  1
+    delta[8,17]  McCormick3[17,8]  1
+    delta[8,18]  LB[8,18,1]  -41
+    delta[8,18]  LB[18,8,0]  12
+    delta[8,18]  UB[8,18,1]  10
+    delta[8,18]  UB[18,8,0]  -118
+    delta[8,18]  PM[8,18,1]  -350
+    delta[8,18]  PM[18,8,0]  350
+    delta[8,18]  McCormick1[8,18]  1
+    delta[8,18]  McCormick1[18,8]  1
+    delta[8,18]  McCormick2[8,18]  1
+    delta[8,18]  McCormick3[18,8]  1
+    delta[9,0]  LB[0,9,0]  15
+    delta[9,0]  LB[9,0,1]  -142
+    delta[9,0]  UB[0,9,0]  -88
+    delta[9,0]  UB[9,0,1]  11
+    delta[9,0]  PM[0,9,0]  344
+    delta[9,0]  PM[9,0,1]  -345
+    delta[9,0]  McCormick1[0,9]  1
+    delta[9,0]  McCormick1[9,0]  1
+    delta[9,0]  McCormick2[9,0]  1
+    delta[9,0]  McCormick3[0,9]  1
+    delta[9,1]  LB[1,9,0]  59
+    delta[9,1]  LB[9,1,1]  -122
+    delta[9,1]  UB[1,9,0]  -94
+    delta[9,1]  UB[9,1,1]  28
+    delta[9,1]  PM[1,9,0]  350
+    delta[9,1]  PM[9,1,1]  -325
+    delta[9,1]  McCormick1[1,9]  1
+    delta[9,1]  McCormick1[9,1]  1
+    delta[9,1]  McCormick2[9,1]  1
+    delta[9,1]  McCormick3[1,9]  1
+    delta[9,2]  LB[2,9,0]  83
+    delta[9,2]  LB[9,2,1]  -129
+    delta[9,2]  UB[2,9,0]  -78
+    delta[9,2]  UB[9,2,1]  38
+    delta[9,2]  PM[2,9,0]  334
+    delta[9,2]  PM[9,2,1]  -332
+    delta[9,2]  McCormick1[2,9]  1
+    delta[9,2]  McCormick1[9,2]  1
+    delta[9,2]  McCormick2[9,2]  1
+    delta[9,2]  McCormick3[2,9]  1
+    delta[9,3]  LB[3,9,0]  16
+    delta[9,3]  LB[9,3,1]  -123
+    delta[9,3]  UB[3,9,0]  -66
+    delta[9,3]  UB[9,3,1]  32
+    delta[9,3]  PM[3,9,0]  322
+    delta[9,3]  PM[9,3,1]  -326
+    delta[9,3]  McCormick1[3,9]  1
+    delta[9,3]  McCormick1[9,3]  1
+    delta[9,3]  McCormick2[9,3]  1
+    delta[9,3]  McCormick3[3,9]  1
+    delta[9,4]  LB[4,9,0]  23
+    delta[9,4]  LB[9,4,1]  -147
+    delta[9,4]  UB[4,9,0]  -94
+    delta[9,4]  UB[9,4,1]  16
+    delta[9,4]  PM[4,9,0]  350
+    delta[9,4]  PM[9,4,1]  -350
+    delta[9,4]  McCormick1[4,9]  1
+    delta[9,4]  McCormick1[9,4]  1
+    delta[9,4]  McCormick2[9,4]  1
+    delta[9,4]  McCormick3[4,9]  1
+    delta[9,5]  LB[5,9,0]  77
+    delta[9,5]  LB[9,5,1]  -147
+    delta[9,5]  UB[5,9,0]  -94
+    delta[9,5]  UB[9,5,1]  50
+    delta[9,5]  PM[5,9,0]  350
+    delta[9,5]  PM[9,5,1]  -350
+    delta[9,5]  McCormick1[5,9]  1
+    delta[9,5]  McCormick1[9,5]  1
+    delta[9,5]  McCormick2[9,5]  1
+    delta[9,5]  McCormick3[5,9]  1
+    delta[9,6]  LB[6,9,0]  123
+    delta[9,6]  LB[9,6,1]  -147
+    delta[9,6]  UB[6,9,0]  -94
+    delta[9,6]  UB[9,6,1]  118
+    delta[9,6]  PM[6,9,0]  350
+    delta[9,6]  PM[9,6,1]  -350
+    delta[9,6]  McCormick1[6,9]  1
+    delta[9,6]  McCormick1[9,6]  1
+    delta[9,6]  McCormick2[9,6]  1
+    delta[9,6]  McCormick3[6,9]  1
+    delta[9,7]  LB[7,9,0]  30
+    delta[9,7]  LB[9,7,1]  -135
+    delta[9,7]  UB[7,9,0]  -94
+    delta[9,7]  UB[9,7,1]  21
+    delta[9,7]  PM[7,9,0]  350
+    delta[9,7]  PM[9,7,1]  -338
+    delta[9,7]  McCormick1[7,9]  1
+    delta[9,7]  McCormick1[9,7]  1
+    delta[9,7]  McCormick2[9,7]  1
+    delta[9,7]  McCormick3[7,9]  1
+    delta[9,8]  LB[8,9,0]  118
+    delta[9,8]  LB[9,8,1]  -147
+    delta[9,8]  UB[8,9,0]  -94
+    delta[9,8]  UB[9,8,1]  41
+    delta[9,8]  PM[8,9,0]  350
+    delta[9,8]  PM[9,8,1]  -350
+    delta[9,8]  McCormick1[8,9]  1
+    delta[9,8]  McCormick1[9,8]  1
+    delta[9,8]  McCormick2[9,8]  1
+    delta[9,8]  McCormick3[8,9]  1
+    delta[9,10]  LB[9,10,1]  -147
+    delta[9,10]  LB[10,9,0]  31
+    delta[9,10]  UB[9,10,1]  12
+    delta[9,10]  UB[10,9,0]  -94
+    delta[9,10]  PM[9,10,1]  -350
+    delta[9,10]  PM[10,9,0]  350
+    delta[9,10]  McCormick1[9,10]  1
+    delta[9,10]  McCormick1[10,9]  1
+    delta[9,10]  McCormick2[9,10]  1
+    delta[9,10]  McCormick3[10,9]  1
+    delta[9,11]  LB[9,11,1]  -147
+    delta[9,11]  LB[11,9,0]  175
+    delta[9,11]  UB[9,11,1]  55
+    delta[9,11]  UB[11,9,0]  -35
+    delta[9,11]  PM[9,11,1]  -350
+    delta[9,11]  PM[11,9,0]  291
+    delta[9,11]  McCormick1[9,11]  1
+    delta[9,11]  McCormick1[11,9]  1
+    delta[9,11]  McCormick2[9,11]  1
+    delta[9,11]  McCormick3[11,9]  1
+    delta[9,12]  LB[9,12,1]  -103
+    delta[9,12]  LB[12,9,0]  53
+    delta[9,12]  UB[9,12,1]  99
+    delta[9,12]  UB[12,9,0]  -53
+    delta[9,12]  PM[9,12,1]  -306
+    delta[9,12]  PM[12,9,0]  309
+    delta[9,12]  McCormick1[9,12]  1
+    delta[9,12]  McCormick1[12,9]  1
+    delta[9,12]  McCormick2[9,12]  1
+    delta[9,12]  McCormick3[12,9]  1
+    delta[9,13]  LB[9,13,1]  -147
+    delta[9,13]  LB[13,9,0]  51
+    delta[9,13]  UB[9,13,1]  97
+    delta[9,13]  UB[13,9,0]  -55
+    delta[9,13]  PM[9,13,1]  -350
+    delta[9,13]  PM[13,9,0]  311
+    delta[9,13]  McCormick1[9,13]  1
+    delta[9,13]  McCormick1[13,9]  1
+    delta[9,13]  McCormick2[9,13]  1
+    delta[9,13]  McCormick3[13,9]  1
+    delta[9,14]  LB[9,14,1]  -147
+    delta[9,14]  LB[14,9,0]  26
+    delta[9,14]  UB[9,14,1]  14
+    delta[9,14]  UB[14,9,0]  -94
+    delta[9,14]  PM[9,14,1]  -350
+    delta[9,14]  PM[14,9,0]  350
+    delta[9,14]  McCormick1[9,14]  1
+    delta[9,14]  McCormick1[14,9]  1
+    delta[9,14]  McCormick2[9,14]  1
+    delta[9,14]  McCormick3[14,9]  1
+    delta[9,15]  LB[9,15,1]  -99
+    delta[9,15]  LB[15,9,0]  43
+    delta[9,15]  UB[9,15,1]  127
+    delta[9,15]  UB[15,9,0]  -52
+    delta[9,15]  PM[9,15,1]  -302
+    delta[9,15]  PM[15,9,0]  308
+    delta[9,15]  McCormick1[9,15]  1
+    delta[9,15]  McCormick1[15,9]  1
+    delta[9,15]  McCormick2[9,15]  1
+    delta[9,15]  McCormick3[15,9]  1
+    delta[9,16]  LB[9,16,1]  -147
+    delta[9,16]  LB[16,9,0]  96
+    delta[9,16]  UB[9,16,1]  123
+    delta[9,16]  UB[16,9,0]  -58
+    delta[9,16]  PM[9,16,1]  -350
+    delta[9,16]  PM[16,9,0]  314
+    delta[9,16]  McCormick1[9,16]  1
+    delta[9,16]  McCormick1[16,9]  1
+    delta[9,16]  McCormick2[9,16]  1
+    delta[9,16]  McCormick3[16,9]  1
+    delta[9,17]  LB[9,17,1]  -111
+    delta[9,17]  LB[17,9,0]  96
+    delta[9,17]  UB[9,17,1]  106
+    delta[9,17]  UB[17,9,0]  -37
+    delta[9,17]  PM[9,17,1]  -314
+    delta[9,17]  PM[17,9,0]  293
+    delta[9,17]  McCormick1[9,17]  1
+    delta[9,17]  McCormick1[17,9]  1
+    delta[9,17]  McCormick2[9,17]  1
+    delta[9,17]  McCormick3[17,9]  1
+    delta[9,18]  LB[9,18,1]  -147
+    delta[9,18]  LB[18,9,0]  12
+    delta[9,18]  UB[9,18,1]  10
+    delta[9,18]  UB[18,9,0]  -94
+    delta[9,18]  PM[9,18,1]  -350
+    delta[9,18]  PM[18,9,0]  350
+    delta[9,18]  McCormick1[9,18]  1
+    delta[9,18]  McCormick1[18,9]  1
+    delta[9,18]  McCormick2[9,18]  1
+    delta[9,18]  McCormick3[18,9]  1
+    delta[10,0]  LB[0,10,0]  15
+    delta[10,0]  LB[10,0,1]  -12
+    delta[10,0]  UB[0,10,0]  -25
+    delta[10,0]  UB[10,0,1]  16
+    delta[10,0]  PM[0,10,0]  344
+    delta[10,0]  PM[10,0,1]  -350
+    delta[10,0]  McCormick1[0,10]  1
+    delta[10,0]  McCormick1[10,0]  1
+    delta[10,0]  McCormick2[10,0]  1
+    delta[10,0]  McCormick3[0,10]  1
+    delta[10,1]  LB[1,10,0]  59
+    delta[10,1]  LB[10,1,1]  -12
+    delta[10,1]  UB[1,10,0]  -31
+    delta[10,1]  UB[10,1,1]  53
+    delta[10,1]  PM[1,10,0]  350
+    delta[10,1]  PM[10,1,1]  -350
+    delta[10,1]  McCormick1[1,10]  1
+    delta[10,1]  McCormick1[10,1]  1
+    delta[10,1]  McCormick2[10,1]  1
+    delta[10,1]  McCormick3[1,10]  1
+    delta[10,2]  LB[10,2,0]  31
+    delta[10,2]  LB[10,2,1]  -12
+    delta[10,2]  UB[10,2,0]  -99
+    delta[10,2]  UB[10,2,1]  56
+    delta[10,2]  PM[10,2,0]  350
+    delta[10,2]  PM[10,2,1]  -350
+    delta[10,2]  McCormick1[2,10]  1
+    delta[10,2]  McCormick1[10,2]  1
+    delta[10,2]  McCormick2[10,2]  1
+    delta[10,2]  McCormick3[2,10]  1
+    delta[10,3]  LB[10,3,0]  31
+    delta[10,3]  LB[10,3,1]  -12
+    delta[10,3]  UB[10,3,0]  -44
+    delta[10,3]  UB[10,3,1]  56
+    delta[10,3]  PM[10,3,0]  350
+    delta[10,3]  PM[10,3,1]  -350
+    delta[10,3]  McCormick1[3,10]  1
+    delta[10,3]  McCormick1[10,3]  1
+    delta[10,3]  McCormick2[10,3]  1
+    delta[10,3]  McCormick3[3,10]  1
+    delta[10,4]  LB[10,4,0]  31
+    delta[10,4]  LB[10,4,1]  -12
+    delta[10,4]  UB[10,4,0]  -23
+    delta[10,4]  UB[10,4,1]  16
+    delta[10,4]  PM[10,4,0]  350
+    delta[10,4]  PM[10,4,1]  -350
+    delta[10,4]  McCormick1[4,10]  1
+    delta[10,4]  McCormick1[10,4]  1
+    delta[10,4]  McCormick2[10,4]  1
+    delta[10,4]  McCormick3[4,10]  1
+    delta[10,5]  LB[10,5,0]  31
+    delta[10,5]  LB[10,5,1]  -12
+    delta[10,5]  UB[10,5,0]  -77
+    delta[10,5]  UB[10,5,1]  50
+    delta[10,5]  PM[10,5,0]  350
+    delta[10,5]  PM[10,5,1]  -350
+    delta[10,5]  McCormick1[5,10]  1
+    delta[10,5]  McCormick1[10,5]  1
+    delta[10,5]  McCormick2[10,5]  1
+    delta[10,5]  McCormick3[5,10]  1
+    delta[10,6]  LB[10,6,0]  31
+    delta[10,6]  LB[10,6,1]  -12
+    delta[10,6]  UB[10,6,0]  -123
+    delta[10,6]  UB[10,6,1]  118
+    delta[10,6]  PM[10,6,0]  350
+    delta[10,6]  PM[10,6,1]  -350
+    delta[10,6]  McCormick1[6,10]  1
+    delta[10,6]  McCormick1[10,6]  1
+    delta[10,6]  McCormick2[10,6]  1
+    delta[10,6]  McCormick3[6,10]  1
+    delta[10,7]  LB[10,7,0]  31
+    delta[10,7]  LB[10,7,1]  -12
+    delta[10,7]  UB[10,7,0]  -30
+    delta[10,7]  UB[10,7,1]  33
+    delta[10,7]  PM[10,7,0]  350
+    delta[10,7]  PM[10,7,1]  -350
+    delta[10,7]  McCormick1[7,10]  1
+    delta[10,7]  McCormick1[10,7]  1
+    delta[10,7]  McCormick2[10,7]  1
+    delta[10,7]  McCormick3[7,10]  1
+    delta[10,8]  LB[10,8,0]  31
+    delta[10,8]  LB[10,8,1]  -12
+    delta[10,8]  UB[10,8,0]  -118
+    delta[10,8]  UB[10,8,1]  41
+    delta[10,8]  PM[10,8,0]  350
+    delta[10,8]  PM[10,8,1]  -350
+    delta[10,8]  McCormick1[8,10]  1
+    delta[10,8]  McCormick1[10,8]  1
+    delta[10,8]  McCormick2[10,8]  1
+    delta[10,8]  McCormick3[8,10]  1
+    delta[10,9]  LB[10,9,0]  31
+    delta[10,9]  LB[10,9,1]  -12
+    delta[10,9]  UB[10,9,0]  -94
+    delta[10,9]  UB[10,9,1]  147
+    delta[10,9]  PM[10,9,0]  350
+    delta[10,9]  PM[10,9,1]  -350
+    delta[10,9]  McCormick1[9,10]  1
+    delta[10,9]  McCormick1[10,9]  1
+    delta[10,9]  McCormick2[10,9]  1
+    delta[10,9]  McCormick3[9,10]  1
+    delta[10,11]  LB[10,11,0]  31
+    delta[10,11]  LB[10,11,1]  -12
+    delta[10,11]  UB[10,11,0]  -234
+    delta[10,11]  UB[10,11,1]  55
+    delta[10,11]  PM[10,11,0]  350
+    delta[10,11]  PM[10,11,1]  -350
+    delta[10,11]  McCormick1[10,11]  1
+    delta[10,11]  McCormick1[11,10]  1
+    delta[10,11]  McCormick2[10,11]  1
+    delta[10,11]  McCormick3[11,10]  1
+    delta[10,12]  LB[10,12,0]  31
+    delta[10,12]  LB[10,12,1]  -12
+    delta[10,12]  UB[10,12,0]  -94
+    delta[10,12]  UB[10,12,1]  143
+    delta[10,12]  PM[10,12,0]  350
+    delta[10,12]  PM[10,12,1]  -350
+    delta[10,12]  McCormick1[10,12]  1
+    delta[10,12]  McCormick1[12,10]  1
+    delta[10,12]  McCormick2[10,12]  1
+    delta[10,12]  McCormick3[12,10]  1
+    delta[10,13]  LB[10,13,0]  31
+    delta[10,13]  LB[10,13,1]  -12
+    delta[10,13]  UB[10,13,0]  -90
+    delta[10,13]  UB[10,13,1]  97
+    delta[10,13]  PM[10,13,0]  350
+    delta[10,13]  PM[10,13,1]  -350
+    delta[10,13]  McCormick1[10,13]  1
+    delta[10,13]  McCormick1[13,10]  1
+    delta[10,13]  McCormick2[10,13]  1
+    delta[10,13]  McCormick3[13,10]  1
+    delta[10,14]  LB[10,14,0]  31
+    delta[10,14]  LB[10,14,1]  -12
+    delta[10,14]  UB[10,14,0]  -26
+    delta[10,14]  UB[10,14,1]  14
+    delta[10,14]  PM[10,14,0]  350
+    delta[10,14]  PM[10,14,1]  -350
+    delta[10,14]  McCormick1[10,14]  1
+    delta[10,14]  McCormick1[14,10]  1
+    delta[10,14]  McCormick2[10,14]  1
+    delta[10,14]  McCormick3[14,10]  1
+    delta[10,15]  LB[10,15,0]  31
+    delta[10,15]  LB[10,15,1]  -12
+    delta[10,15]  UB[10,15,0]  -85
+    delta[10,15]  UB[10,15,1]  175
+    delta[10,15]  PM[10,15,0]  350
+    delta[10,15]  PM[10,15,1]  -350
+    delta[10,15]  McCormick1[10,15]  1
+    delta[10,15]  McCormick1[15,10]  1
+    delta[10,15]  McCormick2[10,15]  1
+    delta[10,15]  McCormick3[15,10]  1
+    delta[10,16]  LB[10,16,0]  31
+    delta[10,16]  LB[10,16,1]  -12
+    delta[10,16]  UB[10,16,0]  -132
+    delta[10,16]  UB[10,16,1]  123
+    delta[10,16]  PM[10,16,0]  350
+    delta[10,16]  PM[10,16,1]  -350
+    delta[10,16]  McCormick1[10,16]  1
+    delta[10,16]  McCormick1[16,10]  1
+    delta[10,16]  McCormick2[10,16]  1
+    delta[10,16]  McCormick3[16,10]  1
+    delta[10,17]  LB[10,17,0]  31
+    delta[10,17]  LB[10,17,1]  -12
+    delta[10,17]  UB[10,17,0]  -153
+    delta[10,17]  UB[10,17,1]  142
+    delta[10,17]  PM[10,17,0]  350
+    delta[10,17]  PM[10,17,1]  -350
+    delta[10,17]  McCormick1[10,17]  1
+    delta[10,17]  McCormick1[17,10]  1
+    delta[10,17]  McCormick2[10,17]  1
+    delta[10,17]  McCormick3[17,10]  1
+    delta[10,18]  LB[10,18,0]  31
+    delta[10,18]  LB[10,18,1]  -12
+    delta[10,18]  UB[10,18,0]  -12
+    delta[10,18]  UB[10,18,1]  10
+    delta[10,18]  PM[10,18,0]  350
+    delta[10,18]  PM[10,18,1]  -350
+    delta[10,18]  McCormick1[10,18]  1
+    delta[10,18]  McCormick1[18,10]  1
+    delta[10,18]  McCormick2[10,18]  1
+    delta[10,18]  McCormick3[18,10]  1
+    delta[11,0]  LB[0,11,0]  15
+    delta[11,0]  LB[11,0,1]  -55
+    delta[11,0]  UB[0,11,0]  -228
+    delta[11,0]  UB[11,0,1]  16
+    delta[11,0]  PM[0,11,0]  344
+    delta[11,0]  PM[11,0,1]  -350
+    delta[11,0]  McCormick1[0,11]  1
+    delta[11,0]  McCormick1[11,0]  1
+    delta[11,0]  McCormick2[11,0]  1
+    delta[11,0]  McCormick3[0,11]  1
+    delta[11,1]  LB[1,11,0]  59
+    delta[11,1]  LB[11,1,1]  -55
+    delta[11,1]  UB[1,11,0]  -234
+    delta[11,1]  UB[11,1,1]  53
+    delta[11,1]  PM[1,11,0]  350
+    delta[11,1]  PM[11,1,1]  -350
+    delta[11,1]  McCormick1[1,11]  1
+    delta[11,1]  McCormick1[11,1]  1
+    delta[11,1]  McCormick2[11,1]  1
+    delta[11,1]  McCormick3[1,11]  1
+    delta[11,2]  LB[11,2,0]  210
+    delta[11,2]  LB[11,2,1]  -55
+    delta[11,2]  UB[11,2,0]  -75
+    delta[11,2]  UB[11,2,1]  56
+    delta[11,2]  PM[11,2,0]  326
+    delta[11,2]  PM[11,2,1]  -350
+    delta[11,2]  McCormick1[2,11]  1
+    delta[11,2]  McCormick1[11,2]  1
+    delta[11,2]  McCormick2[11,2]  1
+    delta[11,2]  McCormick3[2,11]  1
+    delta[11,3]  LB[11,3,0]  234
+    delta[11,3]  LB[11,3,1]  -55
+    delta[11,3]  UB[11,3,0]  -44
+    delta[11,3]  UB[11,3,1]  56
+    delta[11,3]  PM[11,3,0]  350
+    delta[11,3]  PM[11,3,1]  -350
+    delta[11,3]  McCormick1[3,11]  1
+    delta[11,3]  McCormick1[11,3]  1
+    delta[11,3]  McCormick2[11,3]  1
+    delta[11,3]  McCormick3[3,11]  1
+    delta[11,4]  LB[11,4,0]  221
+    delta[11,4]  LB[11,4,1]  -55
+    delta[11,4]  UB[11,4,0]  -10
+    delta[11,4]  UB[11,4,1]  16
+    delta[11,4]  PM[11,4,0]  337
+    delta[11,4]  PM[11,4,1]  -350
+    delta[11,4]  McCormick1[4,11]  1
+    delta[11,4]  McCormick1[11,4]  1
+    delta[11,4]  McCormick2[11,4]  1
+    delta[11,4]  McCormick3[4,11]  1
+    delta[11,5]  LB[11,5,0]  205
+    delta[11,5]  LB[11,5,1]  -55
+    delta[11,5]  UB[11,5,0]  -48
+    delta[11,5]  UB[11,5,1]  50
+    delta[11,5]  PM[11,5,0]  321
+    delta[11,5]  PM[11,5,1]  -350
+    delta[11,5]  McCormick1[5,11]  1
+    delta[11,5]  McCormick1[11,5]  1
+    delta[11,5]  McCormick2[11,5]  1
+    delta[11,5]  McCormick3[5,11]  1
+    delta[11,6]  LB[11,6,0]  175
+    delta[11,6]  LB[11,6,1]  -55
+    delta[11,6]  UB[11,6,0]  -64
+    delta[11,6]  UB[11,6,1]  118
+    delta[11,6]  PM[11,6,0]  291
+    delta[11,6]  PM[11,6,1]  -350
+    delta[11,6]  McCormick1[6,11]  1
+    delta[11,6]  McCormick1[11,6]  1
+    delta[11,6]  McCormick2[11,6]  1
+    delta[11,6]  McCormick3[6,11]  1
+    delta[11,7]  LB[11,7,0]  221
+    delta[11,7]  LB[11,7,1]  -55
+    delta[11,7]  UB[11,7,0]  -17
+    delta[11,7]  UB[11,7,1]  33
+    delta[11,7]  PM[11,7,0]  337
+    delta[11,7]  PM[11,7,1]  -350
+    delta[11,7]  McCormick1[7,11]  1
+    delta[11,7]  McCormick1[11,7]  1
+    delta[11,7]  McCormick2[11,7]  1
+    delta[11,7]  McCormick3[7,11]  1
+    delta[11,8]  LB[11,8,0]  234
+    delta[11,8]  LB[11,8,1]  -55
+    delta[11,8]  UB[11,8,0]  -118
+    delta[11,8]  UB[11,8,1]  41
+    delta[11,8]  PM[11,8,0]  350
+    delta[11,8]  PM[11,8,1]  -350
+    delta[11,8]  McCormick1[8,11]  1
+    delta[11,8]  McCormick1[11,8]  1
+    delta[11,8]  McCormick2[11,8]  1
+    delta[11,8]  McCormick3[8,11]  1
+    delta[11,9]  LB[11,9,0]  175
+    delta[11,9]  LB[11,9,1]  -55
+    delta[11,9]  UB[11,9,0]  -35
+    delta[11,9]  UB[11,9,1]  147
+    delta[11,9]  PM[11,9,0]  291
+    delta[11,9]  PM[11,9,1]  -350
+    delta[11,9]  McCormick1[9,11]  1
+    delta[11,9]  McCormick1[11,9]  1
+    delta[11,9]  McCormick2[11,9]  1
+    delta[11,9]  McCormick3[9,11]  1
+    delta[11,10]  LB[10,11,0]  31
+    delta[11,10]  LB[11,10,1]  -55
+    delta[11,10]  UB[10,11,0]  -234
+    delta[11,10]  UB[11,10,1]  12
+    delta[11,10]  PM[10,11,0]  350
+    delta[11,10]  PM[11,10,1]  -350
+    delta[11,10]  McCormick1[10,11]  1
+    delta[11,10]  McCormick1[11,10]  1
+    delta[11,10]  McCormick2[11,10]  1
+    delta[11,10]  McCormick3[10,11]  1
+    delta[11,12]  LB[11,12,0]  234
+    delta[11,12]  LB[11,12,1]  -55
+    delta[11,12]  UB[11,12,0]  -94
+    delta[11,12]  UB[11,12,1]  143
+    delta[11,12]  PM[11,12,0]  350
+    delta[11,12]  PM[11,12,1]  -350
+    delta[11,12]  McCormick1[11,12]  1
+    delta[11,12]  McCormick1[12,11]  1
+    delta[11,12]  McCormick2[11,12]  1
+    delta[11,12]  McCormick3[12,11]  1
+    delta[11,13]  LB[11,13,0]  234
+    delta[11,13]  LB[11,13,1]  -55
+    delta[11,13]  UB[11,13,0]  -90
+    delta[11,13]  UB[11,13,1]  97
+    delta[11,13]  PM[11,13,0]  350
+    delta[11,13]  PM[11,13,1]  -350
+    delta[11,13]  McCormick1[11,13]  1
+    delta[11,13]  McCormick1[13,11]  1
+    delta[11,13]  McCormick2[11,13]  1
+    delta[11,13]  McCormick3[13,11]  1
+    delta[11,14]  LB[11,14,0]  226
+    delta[11,14]  LB[11,14,1]  -55
+    delta[11,14]  UB[11,14,0]  -18
+    delta[11,14]  UB[11,14,1]  14
+    delta[11,14]  PM[11,14,0]  342
+    delta[11,14]  PM[11,14,1]  -350
+    delta[11,14]  McCormick1[11,14]  1
+    delta[11,14]  McCormick1[14,11]  1
+    delta[11,14]  McCormick2[11,14]  1
+    delta[11,14]  McCormick3[14,11]  1
+    delta[11,15]  LB[11,15,0]  234
+    delta[11,15]  LB[11,15,1]  -55
+    delta[11,15]  UB[11,15,0]  -85
+    delta[11,15]  UB[11,15,1]  175
+    delta[11,15]  PM[11,15,0]  350
+    delta[11,15]  PM[11,15,1]  -350
+    delta[11,15]  McCormick1[11,15]  1
+    delta[11,15]  McCormick1[15,11]  1
+    delta[11,15]  McCormick2[11,15]  1
+    delta[11,15]  McCormick3[15,11]  1
+    delta[11,16]  LB[11,16,0]  234
+    delta[11,16]  LB[11,16,1]  -55
+    delta[11,16]  UB[11,16,0]  -132
+    delta[11,16]  UB[11,16,1]  123
+    delta[11,16]  PM[11,16,0]  350
+    delta[11,16]  PM[11,16,1]  -350
+    delta[11,16]  McCormick1[11,16]  1
+    delta[11,16]  McCormick1[16,11]  1
+    delta[11,16]  McCormick2[11,16]  1
+    delta[11,16]  McCormick3[16,11]  1
+    delta[11,17]  LB[11,17,0]  234
+    delta[11,17]  LB[11,17,1]  -55
+    delta[11,17]  UB[11,17,0]  -153
+    delta[11,17]  UB[11,17,1]  142
+    delta[11,17]  PM[11,17,0]  350
+    delta[11,17]  PM[11,17,1]  -350
+    delta[11,17]  McCormick1[11,17]  1
+    delta[11,17]  McCormick1[17,11]  1
+    delta[11,17]  McCormick2[11,17]  1
+    delta[11,17]  McCormick3[17,11]  1
+    delta[11,18]  LB[11,18,0]  234
+    delta[11,18]  LB[11,18,1]  -55
+    delta[11,18]  UB[11,18,0]  -12
+    delta[11,18]  UB[11,18,1]  10
+    delta[11,18]  PM[11,18,0]  350
+    delta[11,18]  PM[11,18,1]  -350
+    delta[11,18]  McCormick1[11,18]  1
+    delta[11,18]  McCormick1[18,11]  1
+    delta[11,18]  McCormick2[11,18]  1
+    delta[11,18]  McCormick3[18,11]  1
+    delta[12,0]  LB[0,12,0]  21
+    delta[12,0]  LB[12,0,1]  -138
+    delta[12,0]  UB[0,12,0]  -94
+    delta[12,0]  UB[12,0,1]  11
+    delta[12,0]  PM[0,12,0]  350
+    delta[12,0]  PM[12,0,1]  -345
+    delta[12,0]  McCormick1[0,12]  1
+    delta[12,0]  McCormick1[12,0]  1
+    delta[12,0]  McCormick2[12,0]  1
+    delta[12,0]  McCormick3[0,12]  1
+    delta[12,1]  LB[1,12,0]  59
+    delta[12,1]  LB[12,1,1]  -118
+    delta[12,1]  UB[1,12,0]  -94
+    delta[12,1]  UB[12,1,1]  28
+    delta[12,1]  PM[1,12,0]  350
+    delta[12,1]  PM[12,1,1]  -325
+    delta[12,1]  McCormick1[1,12]  1
+    delta[12,1]  McCormick1[12,1]  1
+    delta[12,1]  McCormick2[12,1]  1
+    delta[12,1]  McCormick3[1,12]  1
+    delta[12,2]  LB[12,2,0]  70
+    delta[12,2]  LB[12,2,1]  -125
+    delta[12,2]  UB[12,2,0]  -75
+    delta[12,2]  UB[12,2,1]  38
+    delta[12,2]  PM[12,2,0]  326
+    delta[12,2]  PM[12,2,1]  -332
+    delta[12,2]  McCormick1[2,12]  1
+    delta[12,2]  McCormick1[12,2]  1
+    delta[12,2]  McCormick2[12,2]  1
+    delta[12,2]  McCormick3[2,12]  1
+    delta[12,3]  LB[12,3,0]  94
+    delta[12,3]  LB[12,3,1]  -119
+    delta[12,3]  UB[12,3,0]  -44
+    delta[12,3]  UB[12,3,1]  32
+    delta[12,3]  PM[12,3,0]  350
+    delta[12,3]  PM[12,3,1]  -326
+    delta[12,3]  McCormick1[3,12]  1
+    delta[12,3]  McCormick1[12,3]  1
+    delta[12,3]  McCormick2[12,3]  1
+    delta[12,3]  McCormick3[3,12]  1
+    delta[12,4]  LB[12,4,0]  81
+    delta[12,4]  LB[12,4,1]  -143
+    delta[12,4]  UB[12,4,0]  -10
+    delta[12,4]  UB[12,4,1]  16
+    delta[12,4]  PM[12,4,0]  337
+    delta[12,4]  PM[12,4,1]  -350
+    delta[12,4]  McCormick1[4,12]  1
+    delta[12,4]  McCormick1[12,4]  1
+    delta[12,4]  McCormick2[12,4]  1
+    delta[12,4]  McCormick3[4,12]  1
+    delta[12,5]  LB[12,5,0]  65
+    delta[12,5]  LB[12,5,1]  -143
+    delta[12,5]  UB[12,5,0]  -48
+    delta[12,5]  UB[12,5,1]  50
+    delta[12,5]  PM[12,5,0]  321
+    delta[12,5]  PM[12,5,1]  -350
+    delta[12,5]  McCormick1[5,12]  1
+    delta[12,5]  McCormick1[12,5]  1
+    delta[12,5]  McCormick2[12,5]  1
+    delta[12,5]  McCormick3[5,12]  1
+    delta[12,6]  LB[12,6,0]  53
+    delta[12,6]  LB[12,6,1]  -143
+    delta[12,6]  UB[12,6,0]  -82
+    delta[12,6]  UB[12,6,1]  118
+    delta[12,6]  PM[12,6,0]  309
+    delta[12,6]  PM[12,6,1]  -350
+    delta[12,6]  McCormick1[6,12]  1
+    delta[12,6]  McCormick1[12,6]  1
+    delta[12,6]  McCormick2[12,6]  1
+    delta[12,6]  McCormick3[6,12]  1
+    delta[12,7]  LB[12,7,0]  81
+    delta[12,7]  LB[12,7,1]  -131
+    delta[12,7]  UB[12,7,0]  -17
+    delta[12,7]  UB[12,7,1]  21
+    delta[12,7]  PM[12,7,0]  337
+    delta[12,7]  PM[12,7,1]  -338
+    delta[12,7]  McCormick1[7,12]  1
+    delta[12,7]  McCormick1[12,7]  1
+    delta[12,7]  McCormick2[12,7]  1
+    delta[12,7]  McCormick3[7,12]  1
+    delta[12,8]  LB[12,8,0]  94
+    delta[12,8]  LB[12,8,1]  -143
+    delta[12,8]  UB[12,8,0]  -118
+    delta[12,8]  UB[12,8,1]  41
+    delta[12,8]  PM[12,8,0]  350
+    delta[12,8]  PM[12,8,1]  -350
+    delta[12,8]  McCormick1[8,12]  1
+    delta[12,8]  McCormick1[12,8]  1
+    delta[12,8]  McCormick2[12,8]  1
+    delta[12,8]  McCormick3[8,12]  1
+    delta[12,9]  LB[12,9,0]  53
+    delta[12,9]  LB[12,9,1]  -108
+    delta[12,9]  UB[12,9,0]  -53
+    delta[12,9]  UB[12,9,1]  112
+    delta[12,9]  PM[12,9,0]  309
+    delta[12,9]  PM[12,9,1]  -315
+    delta[12,9]  McCormick1[9,12]  1
+    delta[12,9]  McCormick1[12,9]  1
+    delta[12,9]  McCormick2[12,9]  1
+    delta[12,9]  McCormick3[9,12]  1
+    delta[12,10]  LB[10,12,0]  31
+    delta[12,10]  LB[12,10,1]  -143
+    delta[12,10]  UB[10,12,0]  -94
+    delta[12,10]  UB[12,10,1]  12
+    delta[12,10]  PM[10,12,0]  350
+    delta[12,10]  PM[12,10,1]  -350
+    delta[12,10]  McCormick1[10,12]  1
+    delta[12,10]  McCormick1[12,10]  1
+    delta[12,10]  McCormick2[12,10]  1
+    delta[12,10]  McCormick3[10,12]  1
+    delta[12,11]  LB[11,12,0]  234
+    delta[12,11]  LB[12,11,1]  -143
+    delta[12,11]  UB[11,12,0]  -94
+    delta[12,11]  UB[12,11,1]  55
+    delta[12,11]  PM[11,12,0]  350
+    delta[12,11]  PM[12,11,1]  -350
+    delta[12,11]  McCormick1[11,12]  1
+    delta[12,11]  McCormick1[12,11]  1
+    delta[12,11]  McCormick2[12,11]  1
+    delta[12,11]  McCormick3[11,12]  1
+    delta[12,13]  LB[12,13,0]  94
+    delta[12,13]  LB[12,13,1]  -143
+    delta[12,13]  UB[12,13,0]  -90
+    delta[12,13]  UB[12,13,1]  97
+    delta[12,13]  PM[12,13,0]  350
+    delta[12,13]  PM[12,13,1]  -350
+    delta[12,13]  McCormick1[12,13]  1
+    delta[12,13]  McCormick1[13,12]  1
+    delta[12,13]  McCormick2[12,13]  1
+    delta[12,13]  McCormick3[13,12]  1
+    delta[12,14]  LB[12,14,0]  86
+    delta[12,14]  LB[12,14,1]  -143
+    delta[12,14]  UB[12,14,0]  -18
+    delta[12,14]  UB[12,14,1]  14
+    delta[12,14]  PM[12,14,0]  342
+    delta[12,14]  PM[12,14,1]  -350
+    delta[12,14]  McCormick1[12,14]  1
+    delta[12,14]  McCormick1[14,12]  1
+    delta[12,14]  McCormick2[12,14]  1
+    delta[12,14]  McCormick3[14,12]  1
+    delta[12,15]  LB[12,15,0]  94
+    delta[12,15]  LB[12,15,1]  -108
+    delta[12,15]  UB[12,15,0]  -85
+    delta[12,15]  UB[12,15,1]  140
+    delta[12,15]  PM[12,15,0]  350
+    delta[12,15]  PM[12,15,1]  -315
+    delta[12,15]  McCormick1[12,15]  1
+    delta[12,15]  McCormick1[15,12]  1
+    delta[12,15]  McCormick2[12,15]  1
+    delta[12,15]  McCormick3[15,12]  1
+    delta[12,16]  LB[12,16,0]  94
+    delta[12,16]  LB[12,16,1]  -143
+    delta[12,16]  UB[12,16,0]  -132
+    delta[12,16]  UB[12,16,1]  123
+    delta[12,16]  PM[12,16,0]  350
+    delta[12,16]  PM[12,16,1]  -350
+    delta[12,16]  McCormick1[12,16]  1
+    delta[12,16]  McCormick1[16,12]  1
+    delta[12,16]  McCormick2[12,16]  1
+    delta[12,16]  McCormick3[16,12]  1
+    delta[12,17]  LB[12,17,0]  94
+    delta[12,17]  LB[12,17,1]  -108
+    delta[12,17]  UB[12,17,0]  -153
+    delta[12,17]  UB[12,17,1]  107
+    delta[12,17]  PM[12,17,0]  350
+    delta[12,17]  PM[12,17,1]  -315
+    delta[12,17]  McCormick1[12,17]  1
+    delta[12,17]  McCormick1[17,12]  1
+    delta[12,17]  McCormick2[12,17]  1
+    delta[12,17]  McCormick3[17,12]  1
+    delta[12,18]  LB[12,18,0]  94
+    delta[12,18]  LB[12,18,1]  -143
+    delta[12,18]  UB[12,18,0]  -12
+    delta[12,18]  UB[12,18,1]  10
+    delta[12,18]  PM[12,18,0]  350
+    delta[12,18]  PM[12,18,1]  -350
+    delta[12,18]  McCormick1[12,18]  1
+    delta[12,18]  McCormick1[18,12]  1
+    delta[12,18]  McCormick2[12,18]  1
+    delta[12,18]  McCormick3[18,12]  1
+    delta[13,0]  LB[0,13,0]  21
+    delta[13,0]  LB[13,0,1]  -92
+    delta[13,0]  UB[0,13,0]  -90
+    delta[13,0]  UB[13,0,1]  11
+    delta[13,0]  PM[0,13,0]  350
+    delta[13,0]  PM[13,0,1]  -345
+    delta[13,0]  McCormick1[0,13]  1
+    delta[13,0]  McCormick1[13,0]  1
+    delta[13,0]  McCormick2[13,0]  1
+    delta[13,0]  McCormick3[0,13]  1
+    delta[13,1]  LB[1,13,0]  59
+    delta[13,1]  LB[13,1,1]  -72
+    delta[13,1]  UB[1,13,0]  -90
+    delta[13,1]  UB[13,1,1]  28
+    delta[13,1]  PM[1,13,0]  350
+    delta[13,1]  PM[13,1,1]  -325
+    delta[13,1]  McCormick1[1,13]  1
+    delta[13,1]  McCormick1[13,1]  1
+    delta[13,1]  McCormick2[13,1]  1
+    delta[13,1]  McCormick3[1,13]  1
+    delta[13,2]  LB[13,2,0]  66
+    delta[13,2]  LB[13,2,1]  -79
+    delta[13,2]  UB[13,2,0]  -75
+    delta[13,2]  UB[13,2,1]  38
+    delta[13,2]  PM[13,2,0]  326
+    delta[13,2]  PM[13,2,1]  -332
+    delta[13,2]  McCormick1[2,13]  1
+    delta[13,2]  McCormick1[13,2]  1
+    delta[13,2]  McCormick2[13,2]  1
+    delta[13,2]  McCormick3[2,13]  1
+    delta[13,3]  LB[13,3,0]  90
+    delta[13,3]  LB[13,3,1]  -73
+    delta[13,3]  UB[13,3,0]  -44
+    delta[13,3]  UB[13,3,1]  32
+    delta[13,3]  PM[13,3,0]  350
+    delta[13,3]  PM[13,3,1]  -326
+    delta[13,3]  McCormick1[3,13]  1
+    delta[13,3]  McCormick1[13,3]  1
+    delta[13,3]  McCormick2[13,3]  1
+    delta[13,3]  McCormick3[3,13]  1
+    delta[13,4]  LB[13,4,0]  77
+    delta[13,4]  LB[13,4,1]  -97
+    delta[13,4]  UB[13,4,0]  -10
+    delta[13,4]  UB[13,4,1]  16
+    delta[13,4]  PM[13,4,0]  337
+    delta[13,4]  PM[13,4,1]  -350
+    delta[13,4]  McCormick1[4,13]  1
+    delta[13,4]  McCormick1[13,4]  1
+    delta[13,4]  McCormick2[13,4]  1
+    delta[13,4]  McCormick3[4,13]  1
+    delta[13,5]  LB[13,5,0]  61
+    delta[13,5]  LB[13,5,1]  -97
+    delta[13,5]  UB[13,5,0]  -48
+    delta[13,5]  UB[13,5,1]  50
+    delta[13,5]  PM[13,5,0]  321
+    delta[13,5]  PM[13,5,1]  -350
+    delta[13,5]  McCormick1[5,13]  1
+    delta[13,5]  McCormick1[13,5]  1
+    delta[13,5]  McCormick2[13,5]  1
+    delta[13,5]  McCormick3[5,13]  1
+    delta[13,6]  LB[13,6,0]  51
+    delta[13,6]  LB[13,6,1]  -97
+    delta[13,6]  UB[13,6,0]  -84
+    delta[13,6]  UB[13,6,1]  118
+    delta[13,6]  PM[13,6,0]  311
+    delta[13,6]  PM[13,6,1]  -350
+    delta[13,6]  McCormick1[6,13]  1
+    delta[13,6]  McCormick1[13,6]  1
+    delta[13,6]  McCormick2[13,6]  1
+    delta[13,6]  McCormick3[6,13]  1
+    delta[13,7]  LB[13,7,0]  77
+    delta[13,7]  LB[13,7,1]  -85
+    delta[13,7]  UB[13,7,0]  -17
+    delta[13,7]  UB[13,7,1]  21
+    delta[13,7]  PM[13,7,0]  337
+    delta[13,7]  PM[13,7,1]  -338
+    delta[13,7]  McCormick1[7,13]  1
+    delta[13,7]  McCormick1[13,7]  1
+    delta[13,7]  McCormick2[13,7]  1
+    delta[13,7]  McCormick3[7,13]  1
+    delta[13,8]  LB[13,8,0]  90
+    delta[13,8]  LB[13,8,1]  -97
+    delta[13,8]  UB[13,8,0]  -118
+    delta[13,8]  UB[13,8,1]  41
+    delta[13,8]  PM[13,8,0]  350
+    delta[13,8]  PM[13,8,1]  -350
+    delta[13,8]  McCormick1[8,13]  1
+    delta[13,8]  McCormick1[13,8]  1
+    delta[13,8]  McCormick2[13,8]  1
+    delta[13,8]  McCormick3[8,13]  1
+    delta[13,9]  LB[13,9,0]  51
+    delta[13,9]  LB[13,9,1]  -64
+    delta[13,9]  UB[13,9,0]  -55
+    delta[13,9]  UB[13,9,1]  114
+    delta[13,9]  PM[13,9,0]  311
+    delta[13,9]  PM[13,9,1]  -317
+    delta[13,9]  McCormick1[9,13]  1
+    delta[13,9]  McCormick1[13,9]  1
+    delta[13,9]  McCormick2[13,9]  1
+    delta[13,9]  McCormick3[9,13]  1
+    delta[13,10]  LB[10,13,0]  31
+    delta[13,10]  LB[13,10,1]  -97
+    delta[13,10]  UB[10,13,0]  -90
+    delta[13,10]  UB[13,10,1]  12
+    delta[13,10]  PM[10,13,0]  350
+    delta[13,10]  PM[13,10,1]  -350
+    delta[13,10]  McCormick1[10,13]  1
+    delta[13,10]  McCormick1[13,10]  1
+    delta[13,10]  McCormick2[13,10]  1
+    delta[13,10]  McCormick3[10,13]  1
+    delta[13,11]  LB[11,13,0]  234
+    delta[13,11]  LB[13,11,1]  -97
+    delta[13,11]  UB[11,13,0]  -90
+    delta[13,11]  UB[13,11,1]  55
+    delta[13,11]  PM[11,13,0]  350
+    delta[13,11]  PM[13,11,1]  -350
+    delta[13,11]  McCormick1[11,13]  1
+    delta[13,11]  McCormick1[13,11]  1
+    delta[13,11]  McCormick2[13,11]  1
+    delta[13,11]  McCormick3[11,13]  1
+    delta[13,12]  LB[12,13,0]  94
+    delta[13,12]  LB[13,12,1]  -64
+    delta[13,12]  UB[12,13,0]  -90
+    delta[13,12]  UB[13,12,1]  110
+    delta[13,12]  PM[12,13,0]  350
+    delta[13,12]  PM[13,12,1]  -317
+    delta[13,12]  McCormick1[12,13]  1
+    delta[13,12]  McCormick1[13,12]  1
+    delta[13,12]  McCormick2[13,12]  1
+    delta[13,12]  McCormick3[12,13]  1
+    delta[13,14]  LB[13,14,0]  82
+    delta[13,14]  LB[13,14,1]  -97
+    delta[13,14]  UB[13,14,0]  -18
+    delta[13,14]  UB[13,14,1]  14
+    delta[13,14]  PM[13,14,0]  342
+    delta[13,14]  PM[13,14,1]  -350
+    delta[13,14]  McCormick1[13,14]  1
+    delta[13,14]  McCormick1[14,13]  1
+    delta[13,14]  McCormick2[13,14]  1
+    delta[13,14]  McCormick3[14,13]  1
+    delta[13,15]  LB[13,15,0]  90
+    delta[13,15]  LB[13,15,1]  -64
+    delta[13,15]  UB[13,15,0]  -85
+    delta[13,15]  UB[13,15,1]  142
+    delta[13,15]  PM[13,15,0]  350
+    delta[13,15]  PM[13,15,1]  -317
+    delta[13,15]  McCormick1[13,15]  1
+    delta[13,15]  McCormick1[15,13]  1
+    delta[13,15]  McCormick2[13,15]  1
+    delta[13,15]  McCormick3[15,13]  1
+    delta[13,16]  LB[13,16,0]  90
+    delta[13,16]  LB[13,16,1]  -97
+    delta[13,16]  UB[13,16,0]  -132
+    delta[13,16]  UB[13,16,1]  123
+    delta[13,16]  PM[13,16,0]  350
+    delta[13,16]  PM[13,16,1]  -350
+    delta[13,16]  McCormick1[13,16]  1
+    delta[13,16]  McCormick1[16,13]  1
+    delta[13,16]  McCormick2[13,16]  1
+    delta[13,16]  McCormick3[16,13]  1
+    delta[13,17]  LB[13,17,0]  90
+    delta[13,17]  LB[13,17,1]  -64
+    delta[13,17]  UB[13,17,0]  -153
+    delta[13,17]  UB[13,17,1]  109
+    delta[13,17]  PM[13,17,0]  350
+    delta[13,17]  PM[13,17,1]  -317
+    delta[13,17]  McCormick1[13,17]  1
+    delta[13,17]  McCormick1[17,13]  1
+    delta[13,17]  McCormick2[13,17]  1
+    delta[13,17]  McCormick3[17,13]  1
+    delta[13,18]  LB[13,18,0]  90
+    delta[13,18]  LB[13,18,1]  -97
+    delta[13,18]  UB[13,18,0]  -12
+    delta[13,18]  UB[13,18,1]  10
+    delta[13,18]  PM[13,18,0]  350
+    delta[13,18]  PM[13,18,1]  -350
+    delta[13,18]  McCormick1[13,18]  1
+    delta[13,18]  McCormick1[18,13]  1
+    delta[13,18]  McCormick2[13,18]  1
+    delta[13,18]  McCormick3[18,13]  1
+    delta[14,0]  LB[0,14,0]  15
+    delta[14,0]  LB[14,0,1]  -14
+    delta[14,0]  UB[0,14,0]  -20
+    delta[14,0]  UB[14,0,1]  16
+    delta[14,0]  PM[0,14,0]  344
+    delta[14,0]  PM[14,0,1]  -350
+    delta[14,0]  McCormick1[0,14]  1
+    delta[14,0]  McCormick1[14,0]  1
+    delta[14,0]  McCormick2[14,0]  1
+    delta[14,0]  McCormick3[0,14]  1
+    delta[14,1]  LB[1,14,0]  59
+    delta[14,1]  LB[14,1,1]  -14
+    delta[14,1]  UB[1,14,0]  -26
+    delta[14,1]  UB[14,1,1]  53
+    delta[14,1]  PM[1,14,0]  350
+    delta[14,1]  PM[14,1,1]  -350
+    delta[14,1]  McCormick1[1,14]  1
+    delta[14,1]  McCormick1[14,1]  1
+    delta[14,1]  McCormick2[14,1]  1
+    delta[14,1]  McCormick3[1,14]  1
+    delta[14,2]  LB[14,2,0]  26
+    delta[14,2]  LB[14,2,1]  -14
+    delta[14,2]  UB[14,2,0]  -99
+    delta[14,2]  UB[14,2,1]  56
+    delta[14,2]  PM[14,2,0]  350
+    delta[14,2]  PM[14,2,1]  -350
+    delta[14,2]  McCormick1[2,14]  1
+    delta[14,2]  McCormick1[14,2]  1
+    delta[14,2]  McCormick2[14,2]  1
+    delta[14,2]  McCormick3[2,14]  1
+    delta[14,3]  LB[14,3,0]  26
+    delta[14,3]  LB[14,3,1]  -14
+    delta[14,3]  UB[14,3,0]  -44
+    delta[14,3]  UB[14,3,1]  56
+    delta[14,3]  PM[14,3,0]  350
+    delta[14,3]  PM[14,3,1]  -350
+    delta[14,3]  McCormick1[3,14]  1
+    delta[14,3]  McCormick1[14,3]  1
+    delta[14,3]  McCormick2[14,3]  1
+    delta[14,3]  McCormick3[3,14]  1
+    delta[14,4]  LB[14,4,0]  26
+    delta[14,4]  LB[14,4,1]  -14
+    delta[14,4]  UB[14,4,0]  -23
+    delta[14,4]  UB[14,4,1]  16
+    delta[14,4]  PM[14,4,0]  350
+    delta[14,4]  PM[14,4,1]  -350
+    delta[14,4]  McCormick1[4,14]  1
+    delta[14,4]  McCormick1[14,4]  1
+    delta[14,4]  McCormick2[14,4]  1
+    delta[14,4]  McCormick3[4,14]  1
+    delta[14,5]  LB[14,5,0]  26
+    delta[14,5]  LB[14,5,1]  -14
+    delta[14,5]  UB[14,5,0]  -77
+    delta[14,5]  UB[14,5,1]  50
+    delta[14,5]  PM[14,5,0]  350
+    delta[14,5]  PM[14,5,1]  -350
+    delta[14,5]  McCormick1[5,14]  1
+    delta[14,5]  McCormick1[14,5]  1
+    delta[14,5]  McCormick2[14,5]  1
+    delta[14,5]  McCormick3[5,14]  1
+    delta[14,6]  LB[14,6,0]  26
+    delta[14,6]  LB[14,6,1]  -14
+    delta[14,6]  UB[14,6,0]  -123
+    delta[14,6]  UB[14,6,1]  118
+    delta[14,6]  PM[14,6,0]  350
+    delta[14,6]  PM[14,6,1]  -350
+    delta[14,6]  McCormick1[6,14]  1
+    delta[14,6]  McCormick1[14,6]  1
+    delta[14,6]  McCormick2[14,6]  1
+    delta[14,6]  McCormick3[6,14]  1
+    delta[14,7]  LB[14,7,0]  26
+    delta[14,7]  LB[14,7,1]  -14
+    delta[14,7]  UB[14,7,0]  -30
+    delta[14,7]  UB[14,7,1]  33
+    delta[14,7]  PM[14,7,0]  350
+    delta[14,7]  PM[14,7,1]  -350
+    delta[14,7]  McCormick1[7,14]  1
+    delta[14,7]  McCormick1[14,7]  1
+    delta[14,7]  McCormick2[14,7]  1
+    delta[14,7]  McCormick3[7,14]  1
+    delta[14,8]  LB[14,8,0]  26
+    delta[14,8]  LB[14,8,1]  -14
+    delta[14,8]  UB[14,8,0]  -118
+    delta[14,8]  UB[14,8,1]  41
+    delta[14,8]  PM[14,8,0]  350
+    delta[14,8]  PM[14,8,1]  -350
+    delta[14,8]  McCormick1[8,14]  1
+    delta[14,8]  McCormick1[14,8]  1
+    delta[14,8]  McCormick2[14,8]  1
+    delta[14,8]  McCormick3[8,14]  1
+    delta[14,9]  LB[14,9,0]  26
+    delta[14,9]  LB[14,9,1]  -14
+    delta[14,9]  UB[14,9,0]  -94
+    delta[14,9]  UB[14,9,1]  147
+    delta[14,9]  PM[14,9,0]  350
+    delta[14,9]  PM[14,9,1]  -350
+    delta[14,9]  McCormick1[9,14]  1
+    delta[14,9]  McCormick1[14,9]  1
+    delta[14,9]  McCormick2[14,9]  1
+    delta[14,9]  McCormick3[9,14]  1
+    delta[14,10]  LB[10,14,0]  31
+    delta[14,10]  LB[14,10,1]  -14
+    delta[14,10]  UB[10,14,0]  -26
+    delta[14,10]  UB[14,10,1]  12
+    delta[14,10]  PM[10,14,0]  350
+    delta[14,10]  PM[14,10,1]  -350
+    delta[14,10]  McCormick1[10,14]  1
+    delta[14,10]  McCormick1[14,10]  1
+    delta[14,10]  McCormick2[14,10]  1
+    delta[14,10]  McCormick3[10,14]  1
+    delta[14,11]  LB[11,14,0]  226
+    delta[14,11]  LB[14,11,1]  -14
+    delta[14,11]  UB[11,14,0]  -18
+    delta[14,11]  UB[14,11,1]  55
+    delta[14,11]  PM[11,14,0]  342
+    delta[14,11]  PM[14,11,1]  -350
+    delta[14,11]  McCormick1[11,14]  1
+    delta[14,11]  McCormick1[14,11]  1
+    delta[14,11]  McCormick2[14,11]  1
+    delta[14,11]  McCormick3[11,14]  1
+    delta[14,12]  LB[12,14,0]  86
+    delta[14,12]  LB[14,12,1]  -14
+    delta[14,12]  UB[12,14,0]  -18
+    delta[14,12]  UB[14,12,1]  143
+    delta[14,12]  PM[12,14,0]  342
+    delta[14,12]  PM[14,12,1]  -350
+    delta[14,12]  McCormick1[12,14]  1
+    delta[14,12]  McCormick1[14,12]  1
+    delta[14,12]  McCormick2[14,12]  1
+    delta[14,12]  McCormick3[12,14]  1
+    delta[14,13]  LB[13,14,0]  82
+    delta[14,13]  LB[14,13,1]  -14
+    delta[14,13]  UB[13,14,0]  -18
+    delta[14,13]  UB[14,13,1]  97
+    delta[14,13]  PM[13,14,0]  342
+    delta[14,13]  PM[14,13,1]  -350
+    delta[14,13]  McCormick1[13,14]  1
+    delta[14,13]  McCormick1[14,13]  1
+    delta[14,13]  McCormick2[14,13]  1
+    delta[14,13]  McCormick3[13,14]  1
+    delta[14,15]  LB[14,15,0]  26
+    delta[14,15]  LB[14,15,1]  -14
+    delta[14,15]  UB[14,15,0]  -85
+    delta[14,15]  UB[14,15,1]  175
+    delta[14,15]  PM[14,15,0]  350
+    delta[14,15]  PM[14,15,1]  -350
+    delta[14,15]  McCormick1[14,15]  1
+    delta[14,15]  McCormick1[15,14]  1
+    delta[14,15]  McCormick2[14,15]  1
+    delta[14,15]  McCormick3[15,14]  1
+    delta[14,16]  LB[14,16,0]  26
+    delta[14,16]  LB[14,16,1]  -14
+    delta[14,16]  UB[14,16,0]  -132
+    delta[14,16]  UB[14,16,1]  123
+    delta[14,16]  PM[14,16,0]  350
+    delta[14,16]  PM[14,16,1]  -350
+    delta[14,16]  McCormick1[14,16]  1
+    delta[14,16]  McCormick1[16,14]  1
+    delta[14,16]  McCormick2[14,16]  1
+    delta[14,16]  McCormick3[16,14]  1
+    delta[14,17]  LB[14,17,0]  26
+    delta[14,17]  LB[14,17,1]  -14
+    delta[14,17]  UB[14,17,0]  -153
+    delta[14,17]  UB[14,17,1]  142
+    delta[14,17]  PM[14,17,0]  350
+    delta[14,17]  PM[14,17,1]  -350
+    delta[14,17]  McCormick1[14,17]  1
+    delta[14,17]  McCormick1[17,14]  1
+    delta[14,17]  McCormick2[14,17]  1
+    delta[14,17]  McCormick3[17,14]  1
+    delta[14,18]  LB[14,18,0]  26
+    delta[14,18]  LB[14,18,1]  -14
+    delta[14,18]  UB[14,18,0]  -12
+    delta[14,18]  UB[14,18,1]  10
+    delta[14,18]  PM[14,18,0]  350
+    delta[14,18]  PM[14,18,1]  -350
+    delta[14,18]  McCormick1[14,18]  1
+    delta[14,18]  McCormick1[18,14]  1
+    delta[14,18]  McCormick2[14,18]  1
+    delta[14,18]  McCormick3[18,14]  1
+    delta[15,0]  LB[0,15,0]  21
+    delta[15,0]  LB[15,0,1]  -170
+    delta[15,0]  UB[0,15,0]  -85
+    delta[15,0]  UB[15,0,1]  11
+    delta[15,0]  PM[0,15,0]  350
+    delta[15,0]  PM[15,0,1]  -345
+    delta[15,0]  McCormick1[0,15]  1
+    delta[15,0]  McCormick1[15,0]  1
+    delta[15,0]  McCormick2[15,0]  1
+    delta[15,0]  McCormick3[0,15]  1
+    delta[15,1]  LB[1,15,0]  59
+    delta[15,1]  LB[15,1,1]  -150
+    delta[15,1]  UB[1,15,0]  -85
+    delta[15,1]  UB[15,1,1]  28
+    delta[15,1]  PM[1,15,0]  350
+    delta[15,1]  PM[15,1,1]  -325
+    delta[15,1]  McCormick1[1,15]  1
+    delta[15,1]  McCormick1[15,1]  1
+    delta[15,1]  McCormick2[15,1]  1
+    delta[15,1]  McCormick3[1,15]  1
+    delta[15,2]  LB[15,2,0]  61
+    delta[15,2]  LB[15,2,1]  -157
+    delta[15,2]  UB[15,2,0]  -75
+    delta[15,2]  UB[15,2,1]  38
+    delta[15,2]  PM[15,2,0]  326
+    delta[15,2]  PM[15,2,1]  -332
+    delta[15,2]  McCormick1[2,15]  1
+    delta[15,2]  McCormick1[15,2]  1
+    delta[15,2]  McCormick2[15,2]  1
+    delta[15,2]  McCormick3[2,15]  1
+    delta[15,3]  LB[15,3,0]  85
+    delta[15,3]  LB[15,3,1]  -151
+    delta[15,3]  UB[15,3,0]  -44
+    delta[15,3]  UB[15,3,1]  32
+    delta[15,3]  PM[15,3,0]  350
+    delta[15,3]  PM[15,3,1]  -326
+    delta[15,3]  McCormick1[3,15]  1
+    delta[15,3]  McCormick1[15,3]  1
+    delta[15,3]  McCormick2[15,3]  1
+    delta[15,3]  McCormick3[3,15]  1
+    delta[15,4]  LB[15,4,0]  72
+    delta[15,4]  LB[15,4,1]  -175
+    delta[15,4]  UB[15,4,0]  -10
+    delta[15,4]  UB[15,4,1]  16
+    delta[15,4]  PM[15,4,0]  337
+    delta[15,4]  PM[15,4,1]  -350
+    delta[15,4]  McCormick1[4,15]  1
+    delta[15,4]  McCormick1[15,4]  1
+    delta[15,4]  McCormick2[15,4]  1
+    delta[15,4]  McCormick3[4,15]  1
+    delta[15,5]  LB[15,5,0]  56
+    delta[15,5]  LB[15,5,1]  -175
+    delta[15,5]  UB[15,5,0]  -48
+    delta[15,5]  UB[15,5,1]  50
+    delta[15,5]  PM[15,5,0]  321
+    delta[15,5]  PM[15,5,1]  -350
+    delta[15,5]  McCormick1[5,15]  1
+    delta[15,5]  McCormick1[15,5]  1
+    delta[15,5]  McCormick2[15,5]  1
+    delta[15,5]  McCormick3[5,15]  1
+    delta[15,6]  LB[15,6,0]  43
+    delta[15,6]  LB[15,6,1]  -175
+    delta[15,6]  UB[15,6,0]  -81
+    delta[15,6]  UB[15,6,1]  118
+    delta[15,6]  PM[15,6,0]  308
+    delta[15,6]  PM[15,6,1]  -350
+    delta[15,6]  McCormick1[6,15]  1
+    delta[15,6]  McCormick1[15,6]  1
+    delta[15,6]  McCormick2[15,6]  1
+    delta[15,6]  McCormick3[6,15]  1
+    delta[15,7]  LB[15,7,0]  72
+    delta[15,7]  LB[15,7,1]  -163
+    delta[15,7]  UB[15,7,0]  -17
+    delta[15,7]  UB[15,7,1]  21
+    delta[15,7]  PM[15,7,0]  337
+    delta[15,7]  PM[15,7,1]  -338
+    delta[15,7]  McCormick1[7,15]  1
+    delta[15,7]  McCormick1[15,7]  1
+    delta[15,7]  McCormick2[15,7]  1
+    delta[15,7]  McCormick3[7,15]  1
+    delta[15,8]  LB[15,8,0]  85
+    delta[15,8]  LB[15,8,1]  -175
+    delta[15,8]  UB[15,8,0]  -118
+    delta[15,8]  UB[15,8,1]  41
+    delta[15,8]  PM[15,8,0]  350
+    delta[15,8]  PM[15,8,1]  -350
+    delta[15,8]  McCormick1[8,15]  1
+    delta[15,8]  McCormick1[15,8]  1
+    delta[15,8]  McCormick2[15,8]  1
+    delta[15,8]  McCormick3[8,15]  1
+    delta[15,9]  LB[15,9,0]  43
+    delta[15,9]  LB[15,9,1]  -140
+    delta[15,9]  UB[15,9,0]  -52
+    delta[15,9]  UB[15,9,1]  112
+    delta[15,9]  PM[15,9,0]  308
+    delta[15,9]  PM[15,9,1]  -315
+    delta[15,9]  McCormick1[9,15]  1
+    delta[15,9]  McCormick1[15,9]  1
+    delta[15,9]  McCormick2[15,9]  1
+    delta[15,9]  McCormick3[9,15]  1
+    delta[15,10]  LB[10,15,0]  31
+    delta[15,10]  LB[15,10,1]  -175
+    delta[15,10]  UB[10,15,0]  -85
+    delta[15,10]  UB[15,10,1]  12
+    delta[15,10]  PM[10,15,0]  350
+    delta[15,10]  PM[15,10,1]  -350
+    delta[15,10]  McCormick1[10,15]  1
+    delta[15,10]  McCormick1[15,10]  1
+    delta[15,10]  McCormick2[15,10]  1
+    delta[15,10]  McCormick3[10,15]  1
+    delta[15,11]  LB[11,15,0]  234
+    delta[15,11]  LB[15,11,1]  -175
+    delta[15,11]  UB[11,15,0]  -85
+    delta[15,11]  UB[15,11,1]  55
+    delta[15,11]  PM[11,15,0]  350
+    delta[15,11]  PM[15,11,1]  -350
+    delta[15,11]  McCormick1[11,15]  1
+    delta[15,11]  McCormick1[15,11]  1
+    delta[15,11]  McCormick2[15,11]  1
+    delta[15,11]  McCormick3[11,15]  1
+    delta[15,12]  LB[12,15,0]  94
+    delta[15,12]  LB[15,12,1]  -131
+    delta[15,12]  UB[12,15,0]  -85
+    delta[15,12]  UB[15,12,1]  99
+    delta[15,12]  PM[12,15,0]  350
+    delta[15,12]  PM[15,12,1]  -306
+    delta[15,12]  McCormick1[12,15]  1
+    delta[15,12]  McCormick1[15,12]  1
+    delta[15,12]  McCormick2[15,12]  1
+    delta[15,12]  McCormick3[12,15]  1
+    delta[15,13]  LB[13,15,0]  90
+    delta[15,13]  LB[15,13,1]  -175
+    delta[15,13]  UB[13,15,0]  -85
+    delta[15,13]  UB[15,13,1]  97
+    delta[15,13]  PM[13,15,0]  350
+    delta[15,13]  PM[15,13,1]  -350
+    delta[15,13]  McCormick1[13,15]  1
+    delta[15,13]  McCormick1[15,13]  1
+    delta[15,13]  McCormick2[15,13]  1
+    delta[15,13]  McCormick3[13,15]  1
+    delta[15,14]  LB[14,15,0]  26
+    delta[15,14]  LB[15,14,1]  -175
+    delta[15,14]  UB[14,15,0]  -85
+    delta[15,14]  UB[15,14,1]  14
+    delta[15,14]  PM[14,15,0]  350
+    delta[15,14]  PM[15,14,1]  -350
+    delta[15,14]  McCormick1[14,15]  1
+    delta[15,14]  McCormick1[15,14]  1
+    delta[15,14]  McCormick2[15,14]  1
+    delta[15,14]  McCormick3[14,15]  1
+    delta[15,16]  LB[15,16,0]  85
+    delta[15,16]  LB[15,16,1]  -175
+    delta[15,16]  UB[15,16,0]  -132
+    delta[15,16]  UB[15,16,1]  123
+    delta[15,16]  PM[15,16,0]  350
+    delta[15,16]  PM[15,16,1]  -350
+    delta[15,16]  McCormick1[15,16]  1
+    delta[15,16]  McCormick1[16,15]  1
+    delta[15,16]  McCormick2[15,16]  1
+    delta[15,16]  McCormick3[16,15]  1
+    delta[15,17]  LB[15,17,0]  85
+    delta[15,17]  LB[15,17,1]  -139
+    delta[15,17]  UB[15,17,0]  -153
+    delta[15,17]  UB[15,17,1]  106
+    delta[15,17]  PM[15,17,0]  350
+    delta[15,17]  PM[15,17,1]  -314
+    delta[15,17]  McCormick1[15,17]  1
+    delta[15,17]  McCormick1[17,15]  1
+    delta[15,17]  McCormick2[15,17]  1
+    delta[15,17]  McCormick3[17,15]  1
+    delta[15,18]  LB[15,18,0]  85
+    delta[15,18]  LB[15,18,1]  -175
+    delta[15,18]  UB[15,18,0]  -12
+    delta[15,18]  UB[15,18,1]  10
+    delta[15,18]  PM[15,18,0]  350
+    delta[15,18]  PM[15,18,1]  -350
+    delta[15,18]  McCormick1[15,18]  1
+    delta[15,18]  McCormick1[18,15]  1
+    delta[15,18]  McCormick2[15,18]  1
+    delta[15,18]  McCormick3[18,15]  1
+    delta[16,0]  LB[0,16,0]  21
+    delta[16,0]  LB[16,0,1]  -123
+    delta[16,0]  UB[0,16,0]  -132
+    delta[16,0]  UB[16,0,1]  16
+    delta[16,0]  PM[0,16,0]  350
+    delta[16,0]  PM[16,0,1]  -350
+    delta[16,0]  McCormick1[0,16]  1
+    delta[16,0]  McCormick1[16,0]  1
+    delta[16,0]  McCormick2[16,0]  1
+    delta[16,0]  McCormick3[0,16]  1
+    delta[16,1]  LB[1,16,0]  59
+    delta[16,1]  LB[16,1,1]  -123
+    delta[16,1]  UB[1,16,0]  -132
+    delta[16,1]  UB[16,1,1]  53
+    delta[16,1]  PM[1,16,0]  350
+    delta[16,1]  PM[16,1,1]  -350
+    delta[16,1]  McCormick1[1,16]  1
+    delta[16,1]  McCormick1[16,1]  1
+    delta[16,1]  McCormick2[16,1]  1
+    delta[16,1]  McCormick3[1,16]  1
+    delta[16,2]  LB[16,2,0]  108
+    delta[16,2]  LB[16,2,1]  -123
+    delta[16,2]  UB[16,2,0]  -75
+    delta[16,2]  UB[16,2,1]  56
+    delta[16,2]  PM[16,2,0]  326
+    delta[16,2]  PM[16,2,1]  -350
+    delta[16,2]  McCormick1[2,16]  1
+    delta[16,2]  McCormick1[16,2]  1
+    delta[16,2]  McCormick2[16,2]  1
+    delta[16,2]  McCormick3[2,16]  1
+    delta[16,3]  LB[16,3,0]  132
+    delta[16,3]  LB[16,3,1]  -123
+    delta[16,3]  UB[16,3,0]  -44
+    delta[16,3]  UB[16,3,1]  56
+    delta[16,3]  PM[16,3,0]  350
+    delta[16,3]  PM[16,3,1]  -350
+    delta[16,3]  McCormick1[3,16]  1
+    delta[16,3]  McCormick1[16,3]  1
+    delta[16,3]  McCormick2[16,3]  1
+    delta[16,3]  McCormick3[3,16]  1
+    delta[16,4]  LB[16,4,0]  119
+    delta[16,4]  LB[16,4,1]  -123
+    delta[16,4]  UB[16,4,0]  -10
+    delta[16,4]  UB[16,4,1]  16
+    delta[16,4]  PM[16,4,0]  337
+    delta[16,4]  PM[16,4,1]  -350
+    delta[16,4]  McCormick1[4,16]  1
+    delta[16,4]  McCormick1[16,4]  1
+    delta[16,4]  McCormick2[16,4]  1
+    delta[16,4]  McCormick3[4,16]  1
+    delta[16,5]  LB[16,5,0]  103
+    delta[16,5]  LB[16,5,1]  -123
+    delta[16,5]  UB[16,5,0]  -48
+    delta[16,5]  UB[16,5,1]  50
+    delta[16,5]  PM[16,5,0]  321
+    delta[16,5]  PM[16,5,1]  -350
+    delta[16,5]  McCormick1[5,16]  1
+    delta[16,5]  McCormick1[16,5]  1
+    delta[16,5]  McCormick2[16,5]  1
+    delta[16,5]  McCormick3[5,16]  1
+    delta[16,6]  LB[16,6,0]  96
+    delta[16,6]  LB[16,6,1]  -123
+    delta[16,6]  UB[16,6,0]  -87
+    delta[16,6]  UB[16,6,1]  118
+    delta[16,6]  PM[16,6,0]  314
+    delta[16,6]  PM[16,6,1]  -350
+    delta[16,6]  McCormick1[6,16]  1
+    delta[16,6]  McCormick1[16,6]  1
+    delta[16,6]  McCormick2[16,6]  1
+    delta[16,6]  McCormick3[6,16]  1
+    delta[16,7]  LB[16,7,0]  119
+    delta[16,7]  LB[16,7,1]  -123
+    delta[16,7]  UB[16,7,0]  -17
+    delta[16,7]  UB[16,7,1]  33
+    delta[16,7]  PM[16,7,0]  337
+    delta[16,7]  PM[16,7,1]  -350
+    delta[16,7]  McCormick1[7,16]  1
+    delta[16,7]  McCormick1[16,7]  1
+    delta[16,7]  McCormick2[16,7]  1
+    delta[16,7]  McCormick3[7,16]  1
+    delta[16,8]  LB[16,8,0]  132
+    delta[16,8]  LB[16,8,1]  -123
+    delta[16,8]  UB[16,8,0]  -118
+    delta[16,8]  UB[16,8,1]  41
+    delta[16,8]  PM[16,8,0]  350
+    delta[16,8]  PM[16,8,1]  -350
+    delta[16,8]  McCormick1[8,16]  1
+    delta[16,8]  McCormick1[16,8]  1
+    delta[16,8]  McCormick2[16,8]  1
+    delta[16,8]  McCormick3[8,16]  1
+    delta[16,9]  LB[16,9,0]  96
+    delta[16,9]  LB[16,9,1]  -123
+    delta[16,9]  UB[16,9,0]  -58
+    delta[16,9]  UB[16,9,1]  147
+    delta[16,9]  PM[16,9,0]  314
+    delta[16,9]  PM[16,9,1]  -350
+    delta[16,9]  McCormick1[9,16]  1
+    delta[16,9]  McCormick1[16,9]  1
+    delta[16,9]  McCormick2[16,9]  1
+    delta[16,9]  McCormick3[9,16]  1
+    delta[16,10]  LB[10,16,0]  31
+    delta[16,10]  LB[16,10,1]  -123
+    delta[16,10]  UB[10,16,0]  -132
+    delta[16,10]  UB[16,10,1]  12
+    delta[16,10]  PM[10,16,0]  350
+    delta[16,10]  PM[16,10,1]  -350
+    delta[16,10]  McCormick1[10,16]  1
+    delta[16,10]  McCormick1[16,10]  1
+    delta[16,10]  McCormick2[16,10]  1
+    delta[16,10]  McCormick3[10,16]  1
+    delta[16,11]  LB[11,16,0]  234
+    delta[16,11]  LB[16,11,1]  -123
+    delta[16,11]  UB[11,16,0]  -132
+    delta[16,11]  UB[16,11,1]  55
+    delta[16,11]  PM[11,16,0]  350
+    delta[16,11]  PM[16,11,1]  -350
+    delta[16,11]  McCormick1[11,16]  1
+    delta[16,11]  McCormick1[16,11]  1
+    delta[16,11]  McCormick2[16,11]  1
+    delta[16,11]  McCormick3[11,16]  1
+    delta[16,12]  LB[12,16,0]  94
+    delta[16,12]  LB[16,12,1]  -123
+    delta[16,12]  UB[12,16,0]  -132
+    delta[16,12]  UB[16,12,1]  143
+    delta[16,12]  PM[12,16,0]  350
+    delta[16,12]  PM[16,12,1]  -350
+    delta[16,12]  McCormick1[12,16]  1
+    delta[16,12]  McCormick1[16,12]  1
+    delta[16,12]  McCormick2[16,12]  1
+    delta[16,12]  McCormick3[12,16]  1
+    delta[16,13]  LB[13,16,0]  90
+    delta[16,13]  LB[16,13,1]  -123
+    delta[16,13]  UB[13,16,0]  -132
+    delta[16,13]  UB[16,13,1]  97
+    delta[16,13]  PM[13,16,0]  350
+    delta[16,13]  PM[16,13,1]  -350
+    delta[16,13]  McCormick1[13,16]  1
+    delta[16,13]  McCormick1[16,13]  1
+    delta[16,13]  McCormick2[16,13]  1
+    delta[16,13]  McCormick3[13,16]  1
+    delta[16,14]  LB[14,16,0]  26
+    delta[16,14]  LB[16,14,1]  -123
+    delta[16,14]  UB[14,16,0]  -132
+    delta[16,14]  UB[16,14,1]  14
+    delta[16,14]  PM[14,16,0]  350
+    delta[16,14]  PM[16,14,1]  -350
+    delta[16,14]  McCormick1[14,16]  1
+    delta[16,14]  McCormick1[16,14]  1
+    delta[16,14]  McCormick2[16,14]  1
+    delta[16,14]  McCormick3[14,16]  1
+    delta[16,15]  LB[15,16,0]  85
+    delta[16,15]  LB[16,15,1]  -123
+    delta[16,15]  UB[15,16,0]  -132
+    delta[16,15]  UB[16,15,1]  175
+    delta[16,15]  PM[15,16,0]  350
+    delta[16,15]  PM[16,15,1]  -350
+    delta[16,15]  McCormick1[15,16]  1
+    delta[16,15]  McCormick1[16,15]  1
+    delta[16,15]  McCormick2[16,15]  1
+    delta[16,15]  McCormick3[15,16]  1
+    delta[16,17]  LB[16,17,0]  132
+    delta[16,17]  LB[16,17,1]  -123
+    delta[16,17]  UB[16,17,0]  -153
+    delta[16,17]  UB[16,17,1]  142
+    delta[16,17]  PM[16,17,0]  350
+    delta[16,17]  PM[16,17,1]  -350
+    delta[16,17]  McCormick1[16,17]  1
+    delta[16,17]  McCormick1[17,16]  1
+    delta[16,17]  McCormick2[16,17]  1
+    delta[16,17]  McCormick3[17,16]  1
+    delta[16,18]  LB[16,18,0]  132
+    delta[16,18]  LB[16,18,1]  -123
+    delta[16,18]  UB[16,18,0]  -12
+    delta[16,18]  UB[16,18,1]  10
+    delta[16,18]  PM[16,18,0]  350
+    delta[16,18]  PM[16,18,1]  -350
+    delta[16,18]  McCormick1[16,18]  1
+    delta[16,18]  McCormick1[18,16]  1
+    delta[16,18]  McCormick2[16,18]  1
+    delta[16,18]  McCormick3[18,16]  1
+    delta[17,0]  LB[0,17,0]  21
+    delta[17,0]  LB[17,0,1]  -137
+    delta[17,0]  UB[0,17,0]  -153
+    delta[17,0]  UB[17,0,1]  11
+    delta[17,0]  PM[0,17,0]  350
+    delta[17,0]  PM[17,0,1]  -345
+    delta[17,0]  McCormick1[0,17]  1
+    delta[17,0]  McCormick1[17,0]  1
+    delta[17,0]  McCormick2[17,0]  1
+    delta[17,0]  McCormick3[0,17]  1
+    delta[17,1]  LB[1,17,0]  59
+    delta[17,1]  LB[17,1,1]  -117
+    delta[17,1]  UB[1,17,0]  -153
+    delta[17,1]  UB[17,1,1]  28
+    delta[17,1]  PM[1,17,0]  350
+    delta[17,1]  PM[17,1,1]  -325
+    delta[17,1]  McCormick1[1,17]  1
+    delta[17,1]  McCormick1[17,1]  1
+    delta[17,1]  McCormick2[17,1]  1
+    delta[17,1]  McCormick3[1,17]  1
+    delta[17,2]  LB[17,2,0]  129
+    delta[17,2]  LB[17,2,1]  -124
+    delta[17,2]  UB[17,2,0]  -75
+    delta[17,2]  UB[17,2,1]  38
+    delta[17,2]  PM[17,2,0]  326
+    delta[17,2]  PM[17,2,1]  -332
+    delta[17,2]  McCormick1[2,17]  1
+    delta[17,2]  McCormick1[17,2]  1
+    delta[17,2]  McCormick2[17,2]  1
+    delta[17,2]  McCormick3[2,17]  1
+    delta[17,3]  LB[17,3,0]  153
+    delta[17,3]  LB[17,3,1]  -118
+    delta[17,3]  UB[17,3,0]  -44
+    delta[17,3]  UB[17,3,1]  32
+    delta[17,3]  PM[17,3,0]  350
+    delta[17,3]  PM[17,3,1]  -326
+    delta[17,3]  McCormick1[3,17]  1
+    delta[17,3]  McCormick1[17,3]  1
+    delta[17,3]  McCormick2[17,3]  1
+    delta[17,3]  McCormick3[3,17]  1
+    delta[17,4]  LB[17,4,0]  140
+    delta[17,4]  LB[17,4,1]  -142
+    delta[17,4]  UB[17,4,0]  -10
+    delta[17,4]  UB[17,4,1]  16
+    delta[17,4]  PM[17,4,0]  337
+    delta[17,4]  PM[17,4,1]  -350
+    delta[17,4]  McCormick1[4,17]  1
+    delta[17,4]  McCormick1[17,4]  1
+    delta[17,4]  McCormick2[17,4]  1
+    delta[17,4]  McCormick3[4,17]  1
+    delta[17,5]  LB[17,5,0]  124
+    delta[17,5]  LB[17,5,1]  -142
+    delta[17,5]  UB[17,5,0]  -48
+    delta[17,5]  UB[17,5,1]  50
+    delta[17,5]  PM[17,5,0]  321
+    delta[17,5]  PM[17,5,1]  -350
+    delta[17,5]  McCormick1[5,17]  1
+    delta[17,5]  McCormick1[17,5]  1
+    delta[17,5]  McCormick2[17,5]  1
+    delta[17,5]  McCormick3[5,17]  1
+    delta[17,6]  LB[17,6,0]  96
+    delta[17,6]  LB[17,6,1]  -142
+    delta[17,6]  UB[17,6,0]  -66
+    delta[17,6]  UB[17,6,1]  118
+    delta[17,6]  PM[17,6,0]  293
+    delta[17,6]  PM[17,6,1]  -350
+    delta[17,6]  McCormick1[6,17]  1
+    delta[17,6]  McCormick1[17,6]  1
+    delta[17,6]  McCormick2[17,6]  1
+    delta[17,6]  McCormick3[6,17]  1
+    delta[17,7]  LB[17,7,0]  140
+    delta[17,7]  LB[17,7,1]  -130
+    delta[17,7]  UB[17,7,0]  -17
+    delta[17,7]  UB[17,7,1]  21
+    delta[17,7]  PM[17,7,0]  337
+    delta[17,7]  PM[17,7,1]  -338
+    delta[17,7]  McCormick1[7,17]  1
+    delta[17,7]  McCormick1[17,7]  1
+    delta[17,7]  McCormick2[17,7]  1
+    delta[17,7]  McCormick3[7,17]  1
+    delta[17,8]  LB[17,8,0]  153
+    delta[17,8]  LB[17,8,1]  -142
+    delta[17,8]  UB[17,8,0]  -118
+    delta[17,8]  UB[17,8,1]  41
+    delta[17,8]  PM[17,8,0]  350
+    delta[17,8]  PM[17,8,1]  -350
+    delta[17,8]  McCormick1[8,17]  1
+    delta[17,8]  McCormick1[17,8]  1
+    delta[17,8]  McCormick2[17,8]  1
+    delta[17,8]  McCormick3[8,17]  1
+    delta[17,9]  LB[17,9,0]  96
+    delta[17,9]  LB[17,9,1]  -107
+    delta[17,9]  UB[17,9,0]  -37
+    delta[17,9]  UB[17,9,1]  112
+    delta[17,9]  PM[17,9,0]  293
+    delta[17,9]  PM[17,9,1]  -315
+    delta[17,9]  McCormick1[9,17]  1
+    delta[17,9]  McCormick1[17,9]  1
+    delta[17,9]  McCormick2[17,9]  1
+    delta[17,9]  McCormick3[9,17]  1
+    delta[17,10]  LB[10,17,0]  31
+    delta[17,10]  LB[17,10,1]  -142
+    delta[17,10]  UB[10,17,0]  -153
+    delta[17,10]  UB[17,10,1]  12
+    delta[17,10]  PM[10,17,0]  350
+    delta[17,10]  PM[17,10,1]  -350
+    delta[17,10]  McCormick1[10,17]  1
+    delta[17,10]  McCormick1[17,10]  1
+    delta[17,10]  McCormick2[17,10]  1
+    delta[17,10]  McCormick3[10,17]  1
+    delta[17,11]  LB[11,17,0]  234
+    delta[17,11]  LB[17,11,1]  -142
+    delta[17,11]  UB[11,17,0]  -153
+    delta[17,11]  UB[17,11,1]  55
+    delta[17,11]  PM[11,17,0]  350
+    delta[17,11]  PM[17,11,1]  -350
+    delta[17,11]  McCormick1[11,17]  1
+    delta[17,11]  McCormick1[17,11]  1
+    delta[17,11]  McCormick2[17,11]  1
+    delta[17,11]  McCormick3[11,17]  1
+    delta[17,12]  LB[12,17,0]  94
+    delta[17,12]  LB[17,12,1]  -98
+    delta[17,12]  UB[12,17,0]  -153
+    delta[17,12]  UB[17,12,1]  99
+    delta[17,12]  PM[12,17,0]  350
+    delta[17,12]  PM[17,12,1]  -306
+    delta[17,12]  McCormick1[12,17]  1
+    delta[17,12]  McCormick1[17,12]  1
+    delta[17,12]  McCormick2[17,12]  1
+    delta[17,12]  McCormick3[12,17]  1
+    delta[17,13]  LB[13,17,0]  90
+    delta[17,13]  LB[17,13,1]  -142
+    delta[17,13]  UB[13,17,0]  -153
+    delta[17,13]  UB[17,13,1]  97
+    delta[17,13]  PM[13,17,0]  350
+    delta[17,13]  PM[17,13,1]  -350
+    delta[17,13]  McCormick1[13,17]  1
+    delta[17,13]  McCormick1[17,13]  1
+    delta[17,13]  McCormick2[17,13]  1
+    delta[17,13]  McCormick3[13,17]  1
+    delta[17,14]  LB[14,17,0]  26
+    delta[17,14]  LB[17,14,1]  -142
+    delta[17,14]  UB[14,17,0]  -153
+    delta[17,14]  UB[17,14,1]  14
+    delta[17,14]  PM[14,17,0]  350
+    delta[17,14]  PM[17,14,1]  -350
+    delta[17,14]  McCormick1[14,17]  1
+    delta[17,14]  McCormick1[17,14]  1
+    delta[17,14]  McCormick2[17,14]  1
+    delta[17,14]  McCormick3[14,17]  1
+    delta[17,15]  LB[15,17,0]  85
+    delta[17,15]  LB[17,15,1]  -95
+    delta[17,15]  UB[15,17,0]  -153
+    delta[17,15]  UB[17,15,1]  128
+    delta[17,15]  PM[15,17,0]  350
+    delta[17,15]  PM[17,15,1]  -303
+    delta[17,15]  McCormick1[15,17]  1
+    delta[17,15]  McCormick1[17,15]  1
+    delta[17,15]  McCormick2[17,15]  1
+    delta[17,15]  McCormick3[15,17]  1
+    delta[17,16]  LB[16,17,0]  132
+    delta[17,16]  LB[17,16,1]  -142
+    delta[17,16]  UB[16,17,0]  -153
+    delta[17,16]  UB[17,16,1]  123
+    delta[17,16]  PM[16,17,0]  350
+    delta[17,16]  PM[17,16,1]  -350
+    delta[17,16]  McCormick1[16,17]  1
+    delta[17,16]  McCormick1[17,16]  1
+    delta[17,16]  McCormick2[17,16]  1
+    delta[17,16]  McCormick3[16,17]  1
+    delta[17,18]  LB[17,18,0]  153
+    delta[17,18]  LB[17,18,1]  -142
+    delta[17,18]  UB[17,18,0]  -12
+    delta[17,18]  UB[17,18,1]  10
+    delta[17,18]  PM[17,18,0]  350
+    delta[17,18]  PM[17,18,1]  -350
+    delta[17,18]  McCormick1[17,18]  1
+    delta[17,18]  McCormick1[18,17]  1
+    delta[17,18]  McCormick2[17,18]  1
+    delta[17,18]  McCormick3[18,17]  1
+    delta[18,0]  LB[0,18,0]  21
+    delta[18,0]  LB[18,0,1]  -5
+    delta[18,0]  UB[0,18,0]  -12
+    delta[18,0]  UB[18,0,1]  11
+    delta[18,0]  PM[0,18,0]  350
+    delta[18,0]  PM[18,0,1]  -345
+    delta[18,0]  McCormick1[0,18]  1
+    delta[18,0]  McCormick1[18,0]  1
+    delta[18,0]  McCormick2[18,0]  1
+    delta[18,0]  McCormick3[0,18]  1
+    delta[18,1]  LB[1,18,0]  59
+    delta[18,1]  LB[18,1,1]  -4
+    delta[18,1]  UB[1,18,0]  -12
+    delta[18,1]  UB[18,1,1]  47
+    delta[18,1]  PM[1,18,0]  350
+    delta[18,1]  PM[18,1,1]  -344
+    delta[18,1]  McCormick1[1,18]  1
+    delta[18,1]  McCormick1[18,1]  1
+    delta[18,1]  McCormick2[18,1]  1
+    delta[18,1]  McCormick3[1,18]  1
+    delta[18,2]  LB[18,2,0]  12
+    delta[18,2]  LB[18,2,1]  -4
+    delta[18,2]  UB[18,2,0]  -99
+    delta[18,2]  UB[18,2,1]  50
+    delta[18,2]  PM[18,2,0]  350
+    delta[18,2]  PM[18,2,1]  -344
+    delta[18,2]  McCormick1[2,18]  1
+    delta[18,2]  McCormick1[18,2]  1
+    delta[18,2]  McCormick2[18,2]  1
+    delta[18,2]  McCormick3[2,18]  1
+    delta[18,3]  LB[18,3,0]  12
+    delta[18,3]  LB[18,3,1]  -4
+    delta[18,3]  UB[18,3,0]  -44
+    delta[18,3]  UB[18,3,1]  50
+    delta[18,3]  PM[18,3,0]  350
+    delta[18,3]  PM[18,3,1]  -344
+    delta[18,3]  McCormick1[3,18]  1
+    delta[18,3]  McCormick1[18,3]  1
+    delta[18,3]  McCormick2[18,3]  1
+    delta[18,3]  McCormick3[3,18]  1
+    delta[18,4]  LB[18,4,0]  12
+    delta[18,4]  LB[18,4,1]  -10
+    delta[18,4]  UB[18,4,0]  -23
+    delta[18,4]  UB[18,4,1]  16
+    delta[18,4]  PM[18,4,0]  350
+    delta[18,4]  PM[18,4,1]  -350
+    delta[18,4]  McCormick1[4,18]  1
+    delta[18,4]  McCormick1[18,4]  1
+    delta[18,4]  McCormick2[18,4]  1
+    delta[18,4]  McCormick3[4,18]  1
+    delta[18,5]  LB[18,5,0]  12
+    delta[18,5]  LB[18,5,1]  -10
+    delta[18,5]  UB[18,5,0]  -77
+    delta[18,5]  UB[18,5,1]  50
+    delta[18,5]  PM[18,5,0]  350
+    delta[18,5]  PM[18,5,1]  -350
+    delta[18,5]  McCormick1[5,18]  1
+    delta[18,5]  McCormick1[18,5]  1
+    delta[18,5]  McCormick2[18,5]  1
+    delta[18,5]  McCormick3[5,18]  1
+    delta[18,6]  LB[18,6,0]  12
+    delta[18,6]  LB[18,6,1]  -10
+    delta[18,6]  UB[18,6,0]  -123
+    delta[18,6]  UB[18,6,1]  118
+    delta[18,6]  PM[18,6,0]  350
+    delta[18,6]  PM[18,6,1]  -350
+    delta[18,6]  McCormick1[6,18]  1
+    delta[18,6]  McCormick1[18,6]  1
+    delta[18,6]  McCormick2[18,6]  1
+    delta[18,6]  McCormick3[6,18]  1
+    delta[18,7]  LB[18,7,0]  12
+    delta[18,7]  LB[18,7,1]  -4
+    delta[18,7]  UB[18,7,0]  -30
+    delta[18,7]  UB[18,7,1]  27
+    delta[18,7]  PM[18,7,0]  350
+    delta[18,7]  PM[18,7,1]  -344
+    delta[18,7]  McCormick1[7,18]  1
+    delta[18,7]  McCormick1[18,7]  1
+    delta[18,7]  McCormick2[18,7]  1
+    delta[18,7]  McCormick3[7,18]  1
+    delta[18,8]  LB[18,8,0]  12
+    delta[18,8]  LB[18,8,1]  -10
+    delta[18,8]  UB[18,8,0]  -118
+    delta[18,8]  UB[18,8,1]  41
+    delta[18,8]  PM[18,8,0]  350
+    delta[18,8]  PM[18,8,1]  -350
+    delta[18,8]  McCormick1[8,18]  1
+    delta[18,8]  McCormick1[18,8]  1
+    delta[18,8]  McCormick2[18,8]  1
+    delta[18,8]  McCormick3[8,18]  1
+    delta[18,9]  LB[18,9,0]  12
+    delta[18,9]  LB[18,9,1]  -4
+    delta[18,9]  UB[18,9,0]  -94
+    delta[18,9]  UB[18,9,1]  141
+    delta[18,9]  PM[18,9,0]  350
+    delta[18,9]  PM[18,9,1]  -344
+    delta[18,9]  McCormick1[9,18]  1
+    delta[18,9]  McCormick1[18,9]  1
+    delta[18,9]  McCormick2[18,9]  1
+    delta[18,9]  McCormick3[9,18]  1
+    delta[18,10]  LB[10,18,0]  31
+    delta[18,10]  LB[18,10,1]  -10
+    delta[18,10]  UB[10,18,0]  -12
+    delta[18,10]  UB[18,10,1]  12
+    delta[18,10]  PM[10,18,0]  350
+    delta[18,10]  PM[18,10,1]  -350
+    delta[18,10]  McCormick1[10,18]  1
+    delta[18,10]  McCormick1[18,10]  1
+    delta[18,10]  McCormick2[18,10]  1
+    delta[18,10]  McCormick3[10,18]  1
+    delta[18,11]  LB[11,18,0]  234
+    delta[18,11]  LB[18,11,1]  -10
+    delta[18,11]  UB[11,18,0]  -12
+    delta[18,11]  UB[18,11,1]  55
+    delta[18,11]  PM[11,18,0]  350
+    delta[18,11]  PM[18,11,1]  -350
+    delta[18,11]  McCormick1[11,18]  1
+    delta[18,11]  McCormick1[18,11]  1
+    delta[18,11]  McCormick2[18,11]  1
+    delta[18,11]  McCormick3[11,18]  1
+    delta[18,12]  LB[12,18,0]  94
+    delta[18,12]  LB[18,12,1]  -4
+    delta[18,12]  UB[12,18,0]  -12
+    delta[18,12]  UB[18,12,1]  137
+    delta[18,12]  PM[12,18,0]  350
+    delta[18,12]  PM[18,12,1]  -344
+    delta[18,12]  McCormick1[12,18]  1
+    delta[18,12]  McCormick1[18,12]  1
+    delta[18,12]  McCormick2[18,12]  1
+    delta[18,12]  McCormick3[12,18]  1
+    delta[18,13]  LB[13,18,0]  90
+    delta[18,13]  LB[18,13,1]  -10
+    delta[18,13]  UB[13,18,0]  -12
+    delta[18,13]  UB[18,13,1]  97
+    delta[18,13]  PM[13,18,0]  350
+    delta[18,13]  PM[18,13,1]  -350
+    delta[18,13]  McCormick1[13,18]  1
+    delta[18,13]  McCormick1[18,13]  1
+    delta[18,13]  McCormick2[18,13]  1
+    delta[18,13]  McCormick3[13,18]  1
+    delta[18,14]  LB[14,18,0]  26
+    delta[18,14]  LB[18,14,1]  -10
+    delta[18,14]  UB[14,18,0]  -12
+    delta[18,14]  UB[18,14,1]  14
+    delta[18,14]  PM[14,18,0]  350
+    delta[18,14]  PM[18,14,1]  -350
+    delta[18,14]  McCormick1[14,18]  1
+    delta[18,14]  McCormick1[18,14]  1
+    delta[18,14]  McCormick2[18,14]  1
+    delta[18,14]  McCormick3[14,18]  1
+    delta[18,15]  LB[15,18,0]  85
+    delta[18,15]  LB[18,15,1]  -4
+    delta[18,15]  UB[15,18,0]  -12
+    delta[18,15]  UB[18,15,1]  169
+    delta[18,15]  PM[15,18,0]  350
+    delta[18,15]  PM[18,15,1]  -344
+    delta[18,15]  McCormick1[15,18]  1
+    delta[18,15]  McCormick1[18,15]  1
+    delta[18,15]  McCormick2[18,15]  1
+    delta[18,15]  McCormick3[15,18]  1
+    delta[18,16]  LB[16,18,0]  132
+    delta[18,16]  LB[18,16,1]  -10
+    delta[18,16]  UB[16,18,0]  -12
+    delta[18,16]  UB[18,16,1]  123
+    delta[18,16]  PM[16,18,0]  350
+    delta[18,16]  PM[18,16,1]  -350
+    delta[18,16]  McCormick1[16,18]  1
+    delta[18,16]  McCormick1[18,16]  1
+    delta[18,16]  McCormick2[18,16]  1
+    delta[18,16]  McCormick3[16,18]  1
+    delta[18,17]  LB[17,18,0]  153
+    delta[18,17]  LB[18,17,1]  -4
+    delta[18,17]  UB[17,18,0]  -12
+    delta[18,17]  UB[18,17,1]  136
+    delta[18,17]  PM[17,18,0]  350
+    delta[18,17]  PM[18,17,1]  -344
+    delta[18,17]  McCormick1[17,18]  1
+    delta[18,17]  McCormick1[18,17]  1
+    delta[18,17]  McCormick2[18,17]  1
+    delta[18,17]  McCormick3[17,18]  1
+    MARKER    'MARKER'                 'INTEND'
+    DELTA[0,1]  LB[0,1,0]  -21
+    DELTA[0,1]  LB[0,1,1]  12
+    DELTA[0,1]  LB[1,0,0]  -59
+    DELTA[0,1]  LB[1,0,1]  53
+    DELTA[0,1]  UB[0,1,0]  59
+    DELTA[0,1]  UB[0,1,1]  -49
+    DELTA[0,1]  UB[1,0,0]  21
+    DELTA[0,1]  UB[1,0,1]  -16
+    DELTA[0,1]  PM[0,1,0]  -350
+    DELTA[0,1]  PM[0,1,1]  346
+    DELTA[0,1]  PM[1,0,0]  -350
+    DELTA[0,1]  PM[1,0,1]  350
+    DELTA[0,1]  McCormick1[0,1]  -1
+    DELTA[0,1]  McCormick1[1,0]  -1
+    DELTA[0,1]  McCormick2[0,1]  -1
+    DELTA[0,1]  McCormick2[1,0]  -1
+    DELTA[0,1]  McCormick3[0,1]  -1
+    DELTA[0,1]  McCormick3[1,0]  -1
+    DELTA[0,2]  LB[0,2,0]  -15
+    DELTA[0,2]  LB[0,2,1]  12
+    DELTA[0,2]  LB[2,0,0]  -94
+    DELTA[0,2]  LB[2,0,1]  56
+    DELTA[0,2]  UB[0,2,0]  93
+    DELTA[0,2]  UB[0,2,1]  -52
+    DELTA[0,2]  UB[2,0,0]  16
+    DELTA[0,2]  UB[2,0,1]  -16
+    DELTA[0,2]  PM[0,2,0]  -344
+    DELTA[0,2]  PM[0,2,1]  346
+    DELTA[0,2]  PM[2,0,0]  -345
+    DELTA[0,2]  PM[2,0,1]  350
+    DELTA[0,2]  McCormick1[0,2]  -1
+    DELTA[0,2]  McCormick1[2,0]  -1
+    DELTA[0,2]  McCormick2[0,2]  -1
+    DELTA[0,2]  McCormick2[2,0]  -1
+    DELTA[0,2]  McCormick3[0,2]  -1
+    DELTA[0,2]  McCormick3[2,0]  -1
+    DELTA[0,3]  LB[0,3,0]  -21
+    DELTA[0,3]  LB[0,3,1]  12
+    DELTA[0,3]  LB[3,0,0]  -39
+    DELTA[0,3]  LB[3,0,1]  56
+    DELTA[0,3]  UB[0,3,0]  44
+    DELTA[0,3]  UB[0,3,1]  -52
+    DELTA[0,3]  UB[3,0,0]  16
+    DELTA[0,3]  UB[3,0,1]  -16
+    DELTA[0,3]  PM[0,3,0]  -350
+    DELTA[0,3]  PM[0,3,1]  346
+    DELTA[0,3]  PM[3,0,0]  -345
+    DELTA[0,3]  PM[3,0,1]  350
+    DELTA[0,3]  McCormick1[0,3]  -1
+    DELTA[0,3]  McCormick1[3,0]  -1
+    DELTA[0,3]  McCormick2[0,3]  -1
+    DELTA[0,3]  McCormick2[3,0]  -1
+    DELTA[0,3]  McCormick3[0,3]  -1
+    DELTA[0,3]  McCormick3[3,0]  -1
+    DELTA[0,4]  LB[0,4,0]  -15
+    DELTA[0,4]  LB[0,4,1]  16
+    DELTA[0,4]  LB[4,0,0]  -23
+    DELTA[0,4]  LB[4,0,1]  16
+    DELTA[0,4]  UB[0,4,0]  17
+    DELTA[0,4]  UB[0,4,1]  -16
+    DELTA[0,4]  UB[4,0,0]  21
+    DELTA[0,4]  UB[4,0,1]  -16
+    DELTA[0,4]  PM[0,4,0]  -344
+    DELTA[0,4]  PM[0,4,1]  350
+    DELTA[0,4]  PM[4,0,0]  -350
+    DELTA[0,4]  PM[4,0,1]  350
+    DELTA[0,4]  McCormick1[0,4]  -1
+    DELTA[0,4]  McCormick1[4,0]  -1
+    DELTA[0,4]  McCormick2[0,4]  -1
+    DELTA[0,4]  McCormick2[4,0]  -1
+    DELTA[0,4]  McCormick3[0,4]  -1
+    DELTA[0,4]  McCormick3[4,0]  -1
+    DELTA[0,5]  LB[0,5,0]  -15
+    DELTA[0,5]  LB[0,5,1]  16
+    DELTA[0,5]  LB[5,0,0]  -77
+    DELTA[0,5]  LB[5,0,1]  45
+    DELTA[0,5]  UB[0,5,0]  71
+    DELTA[0,5]  UB[0,5,1]  -50
+    DELTA[0,5]  UB[5,0,0]  21
+    DELTA[0,5]  UB[5,0,1]  -11
+    DELTA[0,5]  PM[0,5,0]  -344
+    DELTA[0,5]  PM[0,5,1]  350
+    DELTA[0,5]  PM[5,0,0]  -350
+    DELTA[0,5]  PM[5,0,1]  345
+    DELTA[0,5]  McCormick1[0,5]  -1
+    DELTA[0,5]  McCormick1[5,0]  -1
+    DELTA[0,5]  McCormick2[0,5]  -1
+    DELTA[0,5]  McCormick2[5,0]  -1
+    DELTA[0,5]  McCormick3[0,5]  -1
+    DELTA[0,5]  McCormick3[5,0]  -1
+    DELTA[0,6]  LB[0,6,0]  -15
+    DELTA[0,6]  LB[0,6,1]  16
+    DELTA[0,6]  LB[6,0,0]  -123
+    DELTA[0,6]  LB[6,0,1]  118
+    DELTA[0,6]  UB[0,6,0]  117
+    DELTA[0,6]  UB[0,6,1]  -118
+    DELTA[0,6]  UB[6,0,0]  21
+    DELTA[0,6]  UB[6,0,1]  -16
+    DELTA[0,6]  PM[0,6,0]  -344
+    DELTA[0,6]  PM[0,6,1]  350
+    DELTA[0,6]  PM[6,0,0]  -350
+    DELTA[0,6]  PM[6,0,1]  350
+    DELTA[0,6]  McCormick1[0,6]  -1
+    DELTA[0,6]  McCormick1[6,0]  -1
+    DELTA[0,6]  McCormick2[0,6]  -1
+    DELTA[0,6]  McCormick2[6,0]  -1
+    DELTA[0,6]  McCormick3[0,6]  -1
+    DELTA[0,6]  McCormick3[6,0]  -1
+    DELTA[0,7]  LB[0,7,0]  -15
+    DELTA[0,7]  LB[0,7,1]  12
+    DELTA[0,7]  LB[7,0,0]  -30
+    DELTA[0,7]  LB[7,0,1]  28
+    DELTA[0,7]  UB[0,7,0]  24
+    DELTA[0,7]  UB[0,7,1]  -29
+    DELTA[0,7]  UB[7,0,0]  21
+    DELTA[0,7]  UB[7,0,1]  -11
+    DELTA[0,7]  PM[0,7,0]  -344
+    DELTA[0,7]  PM[0,7,1]  346
+    DELTA[0,7]  PM[7,0,0]  -350
+    DELTA[0,7]  PM[7,0,1]  345
+    DELTA[0,7]  McCormick1[0,7]  -1
+    DELTA[0,7]  McCormick1[7,0]  -1
+    DELTA[0,7]  McCormick2[0,7]  -1
+    DELTA[0,7]  McCormick2[7,0]  -1
+    DELTA[0,7]  McCormick3[0,7]  -1
+    DELTA[0,7]  McCormick3[7,0]  -1
+    DELTA[0,8]  LB[0,8,0]  -21
+    DELTA[0,8]  LB[0,8,1]  16
+    DELTA[0,8]  LB[8,0,0]  -118
+    DELTA[0,8]  LB[8,0,1]  41
+    DELTA[0,8]  UB[0,8,0]  118
+    DELTA[0,8]  UB[0,8,1]  -41
+    DELTA[0,8]  UB[8,0,0]  21
+    DELTA[0,8]  UB[8,0,1]  -16
+    DELTA[0,8]  PM[0,8,0]  -350
+    DELTA[0,8]  PM[0,8,1]  350
+    DELTA[0,8]  PM[8,0,0]  -350
+    DELTA[0,8]  PM[8,0,1]  350
+    DELTA[0,8]  McCormick1[0,8]  -1
+    DELTA[0,8]  McCormick1[8,0]  -1
+    DELTA[0,8]  McCormick2[0,8]  -1
+    DELTA[0,8]  McCormick2[8,0]  -1
+    DELTA[0,8]  McCormick3[0,8]  -1
+    DELTA[0,8]  McCormick3[8,0]  -1
+    DELTA[0,9]  LB[0,9,0]  -15
+    DELTA[0,9]  LB[0,9,1]  12
+    DELTA[0,9]  LB[9,0,0]  -94
+    DELTA[0,9]  LB[9,0,1]  142
+    DELTA[0,9]  UB[0,9,0]  88
+    DELTA[0,9]  UB[0,9,1]  -143
+    DELTA[0,9]  UB[9,0,0]  21
+    DELTA[0,9]  UB[9,0,1]  -11
+    DELTA[0,9]  PM[0,9,0]  -344
+    DELTA[0,9]  PM[0,9,1]  346
+    DELTA[0,9]  PM[9,0,0]  -350
+    DELTA[0,9]  PM[9,0,1]  345
+    DELTA[0,9]  McCormick1[0,9]  -1
+    DELTA[0,9]  McCormick1[9,0]  -1
+    DELTA[0,9]  McCormick2[0,9]  -1
+    DELTA[0,9]  McCormick2[9,0]  -1
+    DELTA[0,9]  McCormick3[0,9]  -1
+    DELTA[0,9]  McCormick3[9,0]  -1
+    DELTA[0,10]  LB[0,10,0]  -15
+    DELTA[0,10]  LB[0,10,1]  16
+    DELTA[0,10]  LB[10,0,0]  -31
+    DELTA[0,10]  LB[10,0,1]  12
+    DELTA[0,10]  UB[0,10,0]  25
+    DELTA[0,10]  UB[0,10,1]  -12
+    DELTA[0,10]  UB[10,0,0]  21
+    DELTA[0,10]  UB[10,0,1]  -16
+    DELTA[0,10]  PM[0,10,0]  -344
+    DELTA[0,10]  PM[0,10,1]  350
+    DELTA[0,10]  PM[10,0,0]  -350
+    DELTA[0,10]  PM[10,0,1]  350
+    DELTA[0,10]  McCormick1[0,10]  -1
+    DELTA[0,10]  McCormick1[10,0]  -1
+    DELTA[0,10]  McCormick2[0,10]  -1
+    DELTA[0,10]  McCormick2[10,0]  -1
+    DELTA[0,10]  McCormick3[0,10]  -1
+    DELTA[0,10]  McCormick3[10,0]  -1
+    DELTA[0,11]  LB[0,11,0]  -15
+    DELTA[0,11]  LB[0,11,1]  16
+    DELTA[0,11]  LB[11,0,0]  -229
+    DELTA[0,11]  LB[11,0,1]  55
+    DELTA[0,11]  UB[0,11,0]  228
+    DELTA[0,11]  UB[0,11,1]  -55
+    DELTA[0,11]  UB[11,0,0]  16
+    DELTA[0,11]  UB[11,0,1]  -16
+    DELTA[0,11]  PM[0,11,0]  -344
+    DELTA[0,11]  PM[0,11,1]  350
+    DELTA[0,11]  PM[11,0,0]  -345
+    DELTA[0,11]  PM[11,0,1]  350
+    DELTA[0,11]  McCormick1[0,11]  -1
+    DELTA[0,11]  McCormick1[11,0]  -1
+    DELTA[0,11]  McCormick2[0,11]  -1
+    DELTA[0,11]  McCormick2[11,0]  -1
+    DELTA[0,11]  McCormick3[0,11]  -1
+    DELTA[0,11]  McCormick3[11,0]  -1
+    DELTA[0,12]  LB[0,12,0]  -21
+    DELTA[0,12]  LB[0,12,1]  12
+    DELTA[0,12]  LB[12,0,0]  -89
+    DELTA[0,12]  LB[12,0,1]  138
+    DELTA[0,12]  UB[0,12,0]  94
+    DELTA[0,12]  UB[0,12,1]  -139
+    DELTA[0,12]  UB[12,0,0]  16
+    DELTA[0,12]  UB[12,0,1]  -11
+    DELTA[0,12]  PM[0,12,0]  -350
+    DELTA[0,12]  PM[0,12,1]  346
+    DELTA[0,12]  PM[12,0,0]  -345
+    DELTA[0,12]  PM[12,0,1]  345
+    DELTA[0,12]  McCormick1[0,12]  -1
+    DELTA[0,12]  McCormick1[12,0]  -1
+    DELTA[0,12]  McCormick2[0,12]  -1
+    DELTA[0,12]  McCormick2[12,0]  -1
+    DELTA[0,12]  McCormick3[0,12]  -1
+    DELTA[0,12]  McCormick3[12,0]  -1
+    DELTA[0,13]  LB[0,13,0]  -21
+    DELTA[0,13]  LB[0,13,1]  16
+    DELTA[0,13]  LB[13,0,0]  -85
+    DELTA[0,13]  LB[13,0,1]  92
+    DELTA[0,13]  UB[0,13,0]  90
+    DELTA[0,13]  UB[0,13,1]  -97
+    DELTA[0,13]  UB[13,0,0]  16
+    DELTA[0,13]  UB[13,0,1]  -11
+    DELTA[0,13]  PM[0,13,0]  -350
+    DELTA[0,13]  PM[0,13,1]  350
+    DELTA[0,13]  PM[13,0,0]  -345
+    DELTA[0,13]  PM[13,0,1]  345
+    DELTA[0,13]  McCormick1[0,13]  -1
+    DELTA[0,13]  McCormick1[13,0]  -1
+    DELTA[0,13]  McCormick2[0,13]  -1
+    DELTA[0,13]  McCormick2[13,0]  -1
+    DELTA[0,13]  McCormick3[0,13]  -1
+    DELTA[0,13]  McCormick3[13,0]  -1
+    DELTA[0,14]  LB[0,14,0]  -15
+    DELTA[0,14]  LB[0,14,1]  16
+    DELTA[0,14]  LB[14,0,0]  -26
+    DELTA[0,14]  LB[14,0,1]  14
+    DELTA[0,14]  UB[0,14,0]  20
+    DELTA[0,14]  UB[0,14,1]  -14
+    DELTA[0,14]  UB[14,0,0]  21
+    DELTA[0,14]  UB[14,0,1]  -16
+    DELTA[0,14]  PM[0,14,0]  -344
+    DELTA[0,14]  PM[0,14,1]  350
+    DELTA[0,14]  PM[14,0,0]  -350
+    DELTA[0,14]  PM[14,0,1]  350
+    DELTA[0,14]  McCormick1[0,14]  -1
+    DELTA[0,14]  McCormick1[14,0]  -1
+    DELTA[0,14]  McCormick2[0,14]  -1
+    DELTA[0,14]  McCormick2[14,0]  -1
+    DELTA[0,14]  McCormick3[0,14]  -1
+    DELTA[0,14]  McCormick3[14,0]  -1
+    DELTA[0,15]  LB[0,15,0]  -21
+    DELTA[0,15]  LB[0,15,1]  12
+    DELTA[0,15]  LB[15,0,0]  -80
+    DELTA[0,15]  LB[15,0,1]  170
+    DELTA[0,15]  UB[0,15,0]  85
+    DELTA[0,15]  UB[0,15,1]  -171
+    DELTA[0,15]  UB[15,0,0]  16
+    DELTA[0,15]  UB[15,0,1]  -11
+    DELTA[0,15]  PM[0,15,0]  -350
+    DELTA[0,15]  PM[0,15,1]  346
+    DELTA[0,15]  PM[15,0,0]  -345
+    DELTA[0,15]  PM[15,0,1]  345
+    DELTA[0,15]  McCormick1[0,15]  -1
+    DELTA[0,15]  McCormick1[15,0]  -1
+    DELTA[0,15]  McCormick2[0,15]  -1
+    DELTA[0,15]  McCormick2[15,0]  -1
+    DELTA[0,15]  McCormick3[0,15]  -1
+    DELTA[0,15]  McCormick3[15,0]  -1
+    DELTA[0,16]  LB[0,16,0]  -21
+    DELTA[0,16]  LB[0,16,1]  16
+    DELTA[0,16]  LB[16,0,0]  -127
+    DELTA[0,16]  LB[16,0,1]  123
+    DELTA[0,16]  UB[0,16,0]  132
+    DELTA[0,16]  UB[0,16,1]  -123
+    DELTA[0,16]  UB[16,0,0]  16
+    DELTA[0,16]  UB[16,0,1]  -16
+    DELTA[0,16]  PM[0,16,0]  -350
+    DELTA[0,16]  PM[0,16,1]  350
+    DELTA[0,16]  PM[16,0,0]  -345
+    DELTA[0,16]  PM[16,0,1]  350
+    DELTA[0,16]  McCormick1[0,16]  -1
+    DELTA[0,16]  McCormick1[16,0]  -1
+    DELTA[0,16]  McCormick2[0,16]  -1
+    DELTA[0,16]  McCormick2[16,0]  -1
+    DELTA[0,16]  McCormick3[0,16]  -1
+    DELTA[0,16]  McCormick3[16,0]  -1
+    DELTA[0,17]  LB[0,17,0]  -21
+    DELTA[0,17]  LB[0,17,1]  12
+    DELTA[0,17]  LB[17,0,0]  -148
+    DELTA[0,17]  LB[17,0,1]  137
+    DELTA[0,17]  UB[0,17,0]  153
+    DELTA[0,17]  UB[0,17,1]  -138
+    DELTA[0,17]  UB[17,0,0]  16
+    DELTA[0,17]  UB[17,0,1]  -11
+    DELTA[0,17]  PM[0,17,0]  -350
+    DELTA[0,17]  PM[0,17,1]  346
+    DELTA[0,17]  PM[17,0,0]  -345
+    DELTA[0,17]  PM[17,0,1]  345
+    DELTA[0,17]  McCormick1[0,17]  -1
+    DELTA[0,17]  McCormick1[17,0]  -1
+    DELTA[0,17]  McCormick2[0,17]  -1
+    DELTA[0,17]  McCormick2[17,0]  -1
+    DELTA[0,17]  McCormick3[0,17]  -1
+    DELTA[0,17]  McCormick3[17,0]  -1
+    DELTA[0,18]  LB[0,18,0]  -21
+    DELTA[0,18]  LB[0,18,1]  16
+    DELTA[0,18]  LB[18,0,0]  -12
+    DELTA[0,18]  LB[18,0,1]  5
+    DELTA[0,18]  UB[0,18,0]  12
+    DELTA[0,18]  UB[0,18,1]  -10
+    DELTA[0,18]  UB[18,0,0]  21
+    DELTA[0,18]  UB[18,0,1]  -11
+    DELTA[0,18]  PM[0,18,0]  -350
+    DELTA[0,18]  PM[0,18,1]  350
+    DELTA[0,18]  PM[18,0,0]  -350
+    DELTA[0,18]  PM[18,0,1]  345
+    DELTA[0,18]  McCormick1[0,18]  -1
+    DELTA[0,18]  McCormick1[18,0]  -1
+    DELTA[0,18]  McCormick2[0,18]  -1
+    DELTA[0,18]  McCormick2[18,0]  -1
+    DELTA[0,18]  McCormick3[0,18]  -1
+    DELTA[0,18]  McCormick3[18,0]  -1
+    DELTA[1,2]  LB[1,2,0]  -59
+    DELTA[1,2]  LB[1,2,1]  53
+    DELTA[1,2]  LB[2,1,0]  -99
+    DELTA[1,2]  LB[2,1,1]  56
+    DELTA[1,2]  UB[1,2,0]  99
+    DELTA[1,2]  UB[1,2,1]  -56
+    DELTA[1,2]  UB[2,1,0]  59
+    DELTA[1,2]  UB[2,1,1]  -53
+    DELTA[1,2]  PM[1,2,0]  -350
+    DELTA[1,2]  PM[1,2,1]  350
+    DELTA[1,2]  PM[2,1,0]  -350
+    DELTA[1,2]  PM[2,1,1]  350
+    DELTA[1,2]  McCormick1[1,2]  -1
+    DELTA[1,2]  McCormick1[2,1]  -1
+    DELTA[1,2]  McCormick2[1,2]  -1
+    DELTA[1,2]  McCormick2[2,1]  -1
+    DELTA[1,2]  McCormick3[1,2]  -1
+    DELTA[1,2]  McCormick3[2,1]  -1
+    DELTA[1,3]  LB[1,3,0]  -59
+    DELTA[1,3]  LB[1,3,1]  53
+    DELTA[1,3]  LB[3,1,0]  -44
+    DELTA[1,3]  LB[3,1,1]  56
+    DELTA[1,3]  UB[1,3,0]  44
+    DELTA[1,3]  UB[1,3,1]  -56
+    DELTA[1,3]  UB[3,1,0]  59
+    DELTA[1,3]  UB[3,1,1]  -53
+    DELTA[1,3]  PM[1,3,0]  -350
+    DELTA[1,3]  PM[1,3,1]  350
+    DELTA[1,3]  PM[3,1,0]  -350
+    DELTA[1,3]  PM[3,1,1]  350
+    DELTA[1,3]  McCormick1[1,3]  -1
+    DELTA[1,3]  McCormick1[3,1]  -1
+    DELTA[1,3]  McCormick2[1,3]  -1
+    DELTA[1,3]  McCormick2[3,1]  -1
+    DELTA[1,3]  McCormick3[1,3]  -1
+    DELTA[1,3]  McCormick3[3,1]  -1
+    DELTA[1,4]  LB[1,4,0]  -59
+    DELTA[1,4]  LB[1,4,1]  53
+    DELTA[1,4]  LB[4,1,0]  -23
+    DELTA[1,4]  LB[4,1,1]  16
+    DELTA[1,4]  UB[1,4,0]  23
+    DELTA[1,4]  UB[1,4,1]  -16
+    DELTA[1,4]  UB[4,1,0]  59
+    DELTA[1,4]  UB[4,1,1]  -53
+    DELTA[1,4]  PM[1,4,0]  -350
+    DELTA[1,4]  PM[1,4,1]  350
+    DELTA[1,4]  PM[4,1,0]  -350
+    DELTA[1,4]  PM[4,1,1]  350
+    DELTA[1,4]  McCormick1[1,4]  -1
+    DELTA[1,4]  McCormick1[4,1]  -1
+    DELTA[1,4]  McCormick2[1,4]  -1
+    DELTA[1,4]  McCormick2[4,1]  -1
+    DELTA[1,4]  McCormick3[1,4]  -1
+    DELTA[1,4]  McCormick3[4,1]  -1
+    DELTA[1,5]  LB[1,5,0]  -59
+    DELTA[1,5]  LB[1,5,1]  53
+    DELTA[1,5]  LB[5,1,0]  -77
+    DELTA[1,5]  LB[5,1,1]  30
+    DELTA[1,5]  UB[1,5,0]  77
+    DELTA[1,5]  UB[1,5,1]  -50
+    DELTA[1,5]  UB[5,1,0]  59
+    DELTA[1,5]  UB[5,1,1]  -33
+    DELTA[1,5]  PM[1,5,0]  -350
+    DELTA[1,5]  PM[1,5,1]  350
+    DELTA[1,5]  PM[5,1,0]  -350
+    DELTA[1,5]  PM[5,1,1]  330
+    DELTA[1,5]  McCormick1[1,5]  -1
+    DELTA[1,5]  McCormick1[5,1]  -1
+    DELTA[1,5]  McCormick2[1,5]  -1
+    DELTA[1,5]  McCormick2[5,1]  -1
+    DELTA[1,5]  McCormick3[1,5]  -1
+    DELTA[1,5]  McCormick3[5,1]  -1
+    DELTA[1,6]  LB[1,6,0]  -59
+    DELTA[1,6]  LB[1,6,1]  53
+    DELTA[1,6]  LB[6,1,0]  -123
+    DELTA[1,6]  LB[6,1,1]  118
+    DELTA[1,6]  UB[1,6,0]  123
+    DELTA[1,6]  UB[1,6,1]  -118
+    DELTA[1,6]  UB[6,1,0]  59
+    DELTA[1,6]  UB[6,1,1]  -53
+    DELTA[1,6]  PM[1,6,0]  -350
+    DELTA[1,6]  PM[1,6,1]  350
+    DELTA[1,6]  PM[6,1,0]  -350
+    DELTA[1,6]  PM[6,1,1]  350
+    DELTA[1,6]  McCormick1[1,6]  -1
+    DELTA[1,6]  McCormick1[6,1]  -1
+    DELTA[1,6]  McCormick2[1,6]  -1
+    DELTA[1,6]  McCormick2[6,1]  -1
+    DELTA[1,6]  McCormick3[1,6]  -1
+    DELTA[1,6]  McCormick3[6,1]  -1
+    DELTA[1,7]  LB[1,7,0]  -59
+    DELTA[1,7]  LB[1,7,1]  53
+    DELTA[1,7]  LB[7,1,0]  -30
+    DELTA[1,7]  LB[7,1,1]  21
+    DELTA[1,7]  UB[1,7,0]  30
+    DELTA[1,7]  UB[1,7,1]  -33
+    DELTA[1,7]  UB[7,1,0]  59
+    DELTA[1,7]  UB[7,1,1]  -41
+    DELTA[1,7]  PM[1,7,0]  -350
+    DELTA[1,7]  PM[1,7,1]  350
+    DELTA[1,7]  PM[7,1,0]  -350
+    DELTA[1,7]  PM[7,1,1]  338
+    DELTA[1,7]  McCormick1[1,7]  -1
+    DELTA[1,7]  McCormick1[7,1]  -1
+    DELTA[1,7]  McCormick2[1,7]  -1
+    DELTA[1,7]  McCormick2[7,1]  -1
+    DELTA[1,7]  McCormick3[1,7]  -1
+    DELTA[1,7]  McCormick3[7,1]  -1
+    DELTA[1,8]  LB[1,8,0]  -59
+    DELTA[1,8]  LB[1,8,1]  53
+    DELTA[1,8]  LB[8,1,0]  -118
+    DELTA[1,8]  LB[8,1,1]  41
+    DELTA[1,8]  UB[1,8,0]  118
+    DELTA[1,8]  UB[1,8,1]  -41
+    DELTA[1,8]  UB[8,1,0]  59
+    DELTA[1,8]  UB[8,1,1]  -53
+    DELTA[1,8]  PM[1,8,0]  -350
+    DELTA[1,8]  PM[1,8,1]  350
+    DELTA[1,8]  PM[8,1,0]  -350
+    DELTA[1,8]  PM[8,1,1]  350
+    DELTA[1,8]  McCormick1[1,8]  -1
+    DELTA[1,8]  McCormick1[8,1]  -1
+    DELTA[1,8]  McCormick2[1,8]  -1
+    DELTA[1,8]  McCormick2[8,1]  -1
+    DELTA[1,8]  McCormick3[1,8]  -1
+    DELTA[1,8]  McCormick3[8,1]  -1
+    DELTA[1,9]  LB[1,9,0]  -59
+    DELTA[1,9]  LB[1,9,1]  53
+    DELTA[1,9]  LB[9,1,0]  -94
+    DELTA[1,9]  LB[9,1,1]  122
+    DELTA[1,9]  UB[1,9,0]  94
+    DELTA[1,9]  UB[1,9,1]  -147
+    DELTA[1,9]  UB[9,1,0]  59
+    DELTA[1,9]  UB[9,1,1]  -28
+    DELTA[1,9]  PM[1,9,0]  -350
+    DELTA[1,9]  PM[1,9,1]  350
+    DELTA[1,9]  PM[9,1,0]  -350
+    DELTA[1,9]  PM[9,1,1]  325
+    DELTA[1,9]  McCormick1[1,9]  -1
+    DELTA[1,9]  McCormick1[9,1]  -1
+    DELTA[1,9]  McCormick2[1,9]  -1
+    DELTA[1,9]  McCormick2[9,1]  -1
+    DELTA[1,9]  McCormick3[1,9]  -1
+    DELTA[1,9]  McCormick3[9,1]  -1
+    DELTA[1,10]  LB[1,10,0]  -59
+    DELTA[1,10]  LB[1,10,1]  53
+    DELTA[1,10]  LB[10,1,0]  -31
+    DELTA[1,10]  LB[10,1,1]  12
+    DELTA[1,10]  UB[1,10,0]  31
+    DELTA[1,10]  UB[1,10,1]  -12
+    DELTA[1,10]  UB[10,1,0]  59
+    DELTA[1,10]  UB[10,1,1]  -53
+    DELTA[1,10]  PM[1,10,0]  -350
+    DELTA[1,10]  PM[1,10,1]  350
+    DELTA[1,10]  PM[10,1,0]  -350
+    DELTA[1,10]  PM[10,1,1]  350
+    DELTA[1,10]  McCormick1[1,10]  -1
+    DELTA[1,10]  McCormick1[10,1]  -1
+    DELTA[1,10]  McCormick2[1,10]  -1
+    DELTA[1,10]  McCormick2[10,1]  -1
+    DELTA[1,10]  McCormick3[1,10]  -1
+    DELTA[1,10]  McCormick3[10,1]  -1
+    DELTA[1,11]  LB[1,11,0]  -59
+    DELTA[1,11]  LB[1,11,1]  53
+    DELTA[1,11]  LB[11,1,0]  -234
+    DELTA[1,11]  LB[11,1,1]  55
+    DELTA[1,11]  UB[1,11,0]  234
+    DELTA[1,11]  UB[1,11,1]  -55
+    DELTA[1,11]  UB[11,1,0]  59
+    DELTA[1,11]  UB[11,1,1]  -53
+    DELTA[1,11]  PM[1,11,0]  -350
+    DELTA[1,11]  PM[1,11,1]  350
+    DELTA[1,11]  PM[11,1,0]  -350
+    DELTA[1,11]  PM[11,1,1]  350
+    DELTA[1,11]  McCormick1[1,11]  -1
+    DELTA[1,11]  McCormick1[11,1]  -1
+    DELTA[1,11]  McCormick2[1,11]  -1
+    DELTA[1,11]  McCormick2[11,1]  -1
+    DELTA[1,11]  McCormick3[1,11]  -1
+    DELTA[1,11]  McCormick3[11,1]  -1
+    DELTA[1,12]  LB[1,12,0]  -59
+    DELTA[1,12]  LB[1,12,1]  53
+    DELTA[1,12]  LB[12,1,0]  -94
+    DELTA[1,12]  LB[12,1,1]  118
+    DELTA[1,12]  UB[1,12,0]  94
+    DELTA[1,12]  UB[1,12,1]  -143
+    DELTA[1,12]  UB[12,1,0]  59
+    DELTA[1,12]  UB[12,1,1]  -28
+    DELTA[1,12]  PM[1,12,0]  -350
+    DELTA[1,12]  PM[1,12,1]  350
+    DELTA[1,12]  PM[12,1,0]  -350
+    DELTA[1,12]  PM[12,1,1]  325
+    DELTA[1,12]  McCormick1[1,12]  -1
+    DELTA[1,12]  McCormick1[12,1]  -1
+    DELTA[1,12]  McCormick2[1,12]  -1
+    DELTA[1,12]  McCormick2[12,1]  -1
+    DELTA[1,12]  McCormick3[1,12]  -1
+    DELTA[1,12]  McCormick3[12,1]  -1
+    DELTA[1,13]  LB[1,13,0]  -59
+    DELTA[1,13]  LB[1,13,1]  53
+    DELTA[1,13]  LB[13,1,0]  -90
+    DELTA[1,13]  LB[13,1,1]  72
+    DELTA[1,13]  UB[1,13,0]  90
+    DELTA[1,13]  UB[1,13,1]  -97
+    DELTA[1,13]  UB[13,1,0]  59
+    DELTA[1,13]  UB[13,1,1]  -28
+    DELTA[1,13]  PM[1,13,0]  -350
+    DELTA[1,13]  PM[1,13,1]  350
+    DELTA[1,13]  PM[13,1,0]  -350
+    DELTA[1,13]  PM[13,1,1]  325
+    DELTA[1,13]  McCormick1[1,13]  -1
+    DELTA[1,13]  McCormick1[13,1]  -1
+    DELTA[1,13]  McCormick2[1,13]  -1
+    DELTA[1,13]  McCormick2[13,1]  -1
+    DELTA[1,13]  McCormick3[1,13]  -1
+    DELTA[1,13]  McCormick3[13,1]  -1
+    DELTA[1,14]  LB[1,14,0]  -59
+    DELTA[1,14]  LB[1,14,1]  53
+    DELTA[1,14]  LB[14,1,0]  -26
+    DELTA[1,14]  LB[14,1,1]  14
+    DELTA[1,14]  UB[1,14,0]  26
+    DELTA[1,14]  UB[1,14,1]  -14
+    DELTA[1,14]  UB[14,1,0]  59
+    DELTA[1,14]  UB[14,1,1]  -53
+    DELTA[1,14]  PM[1,14,0]  -350
+    DELTA[1,14]  PM[1,14,1]  350
+    DELTA[1,14]  PM[14,1,0]  -350
+    DELTA[1,14]  PM[14,1,1]  350
+    DELTA[1,14]  McCormick1[1,14]  -1
+    DELTA[1,14]  McCormick1[14,1]  -1
+    DELTA[1,14]  McCormick2[1,14]  -1
+    DELTA[1,14]  McCormick2[14,1]  -1
+    DELTA[1,14]  McCormick3[1,14]  -1
+    DELTA[1,14]  McCormick3[14,1]  -1
+    DELTA[1,15]  LB[1,15,0]  -59
+    DELTA[1,15]  LB[1,15,1]  53
+    DELTA[1,15]  LB[15,1,0]  -85
+    DELTA[1,15]  LB[15,1,1]  150
+    DELTA[1,15]  UB[1,15,0]  85
+    DELTA[1,15]  UB[1,15,1]  -175
+    DELTA[1,15]  UB[15,1,0]  59
+    DELTA[1,15]  UB[15,1,1]  -28
+    DELTA[1,15]  PM[1,15,0]  -350
+    DELTA[1,15]  PM[1,15,1]  350
+    DELTA[1,15]  PM[15,1,0]  -350
+    DELTA[1,15]  PM[15,1,1]  325
+    DELTA[1,15]  McCormick1[1,15]  -1
+    DELTA[1,15]  McCormick1[15,1]  -1
+    DELTA[1,15]  McCormick2[1,15]  -1
+    DELTA[1,15]  McCormick2[15,1]  -1
+    DELTA[1,15]  McCormick3[1,15]  -1
+    DELTA[1,15]  McCormick3[15,1]  -1
+    DELTA[1,16]  LB[1,16,0]  -59
+    DELTA[1,16]  LB[1,16,1]  53
+    DELTA[1,16]  LB[16,1,0]  -132
+    DELTA[1,16]  LB[16,1,1]  123
+    DELTA[1,16]  UB[1,16,0]  132
+    DELTA[1,16]  UB[1,16,1]  -123
+    DELTA[1,16]  UB[16,1,0]  59
+    DELTA[1,16]  UB[16,1,1]  -53
+    DELTA[1,16]  PM[1,16,0]  -350
+    DELTA[1,16]  PM[1,16,1]  350
+    DELTA[1,16]  PM[16,1,0]  -350
+    DELTA[1,16]  PM[16,1,1]  350
+    DELTA[1,16]  McCormick1[1,16]  -1
+    DELTA[1,16]  McCormick1[16,1]  -1
+    DELTA[1,16]  McCormick2[1,16]  -1
+    DELTA[1,16]  McCormick2[16,1]  -1
+    DELTA[1,16]  McCormick3[1,16]  -1
+    DELTA[1,16]  McCormick3[16,1]  -1
+    DELTA[1,17]  LB[1,17,0]  -59
+    DELTA[1,17]  LB[1,17,1]  53
+    DELTA[1,17]  LB[17,1,0]  -153
+    DELTA[1,17]  LB[17,1,1]  117
+    DELTA[1,17]  UB[1,17,0]  153
+    DELTA[1,17]  UB[1,17,1]  -142
+    DELTA[1,17]  UB[17,1,0]  59
+    DELTA[1,17]  UB[17,1,1]  -28
+    DELTA[1,17]  PM[1,17,0]  -350
+    DELTA[1,17]  PM[1,17,1]  350
+    DELTA[1,17]  PM[17,1,0]  -350
+    DELTA[1,17]  PM[17,1,1]  325
+    DELTA[1,17]  McCormick1[1,17]  -1
+    DELTA[1,17]  McCormick1[17,1]  -1
+    DELTA[1,17]  McCormick2[1,17]  -1
+    DELTA[1,17]  McCormick2[17,1]  -1
+    DELTA[1,17]  McCormick3[1,17]  -1
+    DELTA[1,17]  McCormick3[17,1]  -1
+    DELTA[1,18]  LB[1,18,0]  -59
+    DELTA[1,18]  LB[1,18,1]  53
+    DELTA[1,18]  LB[18,1,0]  -12
+    DELTA[1,18]  LB[18,1,1]  4
+    DELTA[1,18]  UB[1,18,0]  12
+    DELTA[1,18]  UB[1,18,1]  -10
+    DELTA[1,18]  UB[18,1,0]  59
+    DELTA[1,18]  UB[18,1,1]  -47
+    DELTA[1,18]  PM[1,18,0]  -350
+    DELTA[1,18]  PM[1,18,1]  350
+    DELTA[1,18]  PM[18,1,0]  -350
+    DELTA[1,18]  PM[18,1,1]  344
+    DELTA[1,18]  McCormick1[1,18]  -1
+    DELTA[1,18]  McCormick1[18,1]  -1
+    DELTA[1,18]  McCormick2[1,18]  -1
+    DELTA[1,18]  McCormick2[18,1]  -1
+    DELTA[1,18]  McCormick3[1,18]  -1
+    DELTA[1,18]  McCormick3[18,1]  -1
+    DELTA[2,3]  LB[2,3,0]  -99
+    DELTA[2,3]  LB[2,3,1]  56
+    DELTA[2,3]  LB[3,2,0]  -20
+    DELTA[2,3]  LB[3,2,1]  56
+    DELTA[2,3]  UB[2,3,0]  44
+    DELTA[2,3]  UB[2,3,1]  -56
+    DELTA[2,3]  UB[3,2,0]  75
+    DELTA[2,3]  UB[3,2,1]  -56
+    DELTA[2,3]  PM[2,3,0]  -350
+    DELTA[2,3]  PM[2,3,1]  350
+    DELTA[2,3]  PM[3,2,0]  -326
+    DELTA[2,3]  PM[3,2,1]  350
+    DELTA[2,3]  McCormick1[2,3]  -1
+    DELTA[2,3]  McCormick1[3,2]  -1
+    DELTA[2,3]  McCormick2[2,3]  -1
+    DELTA[2,3]  McCormick2[3,2]  -1
+    DELTA[2,3]  McCormick3[2,3]  -1
+    DELTA[2,3]  McCormick3[3,2]  -1
+    DELTA[2,4]  LB[2,4,0]  -86
+    DELTA[2,4]  LB[2,4,1]  56
+    DELTA[2,4]  LB[4,2,0]  -23
+    DELTA[2,4]  LB[4,2,1]  16
+    DELTA[2,4]  UB[2,4,0]  10
+    DELTA[2,4]  UB[2,4,1]  -16
+    DELTA[2,4]  UB[4,2,0]  99
+    DELTA[2,4]  UB[4,2,1]  -56
+    DELTA[2,4]  PM[2,4,0]  -337
+    DELTA[2,4]  PM[2,4,1]  350
+    DELTA[2,4]  PM[4,2,0]  -350
+    DELTA[2,4]  PM[4,2,1]  350
+    DELTA[2,4]  McCormick1[2,4]  -1
+    DELTA[2,4]  McCormick1[4,2]  -1
+    DELTA[2,4]  McCormick2[2,4]  -1
+    DELTA[2,4]  McCormick2[4,2]  -1
+    DELTA[2,4]  McCormick3[2,4]  -1
+    DELTA[2,4]  McCormick3[4,2]  -1
+    DELTA[2,5]  LB[2,5,0]  -83
+    DELTA[2,5]  LB[2,5,1]  56
+    DELTA[2,5]  LB[5,2,0]  -77
+    DELTA[2,5]  LB[5,2,1]  32
+    DELTA[2,5]  UB[2,5,0]  61
+    DELTA[2,5]  UB[2,5,1]  -50
+    DELTA[2,5]  UB[5,2,0]  99
+    DELTA[2,5]  UB[5,2,1]  -38
+    DELTA[2,5]  PM[2,5,0]  -334
+    DELTA[2,5]  PM[2,5,1]  350
+    DELTA[2,5]  PM[5,2,0]  -350
+    DELTA[2,5]  PM[5,2,1]  332
+    DELTA[2,5]  McCormick1[2,5]  -1
+    DELTA[2,5]  McCormick1[5,2]  -1
+    DELTA[2,5]  McCormick2[2,5]  -1
+    DELTA[2,5]  McCormick2[5,2]  -1
+    DELTA[2,5]  McCormick3[2,5]  -1
+    DELTA[2,5]  McCormick3[5,2]  -1
+    DELTA[2,6]  LB[2,6,0]  -83
+    DELTA[2,6]  LB[2,6,1]  56
+    DELTA[2,6]  LB[6,2,0]  -123
+    DELTA[2,6]  LB[6,2,1]  118
+    DELTA[2,6]  UB[2,6,0]  107
+    DELTA[2,6]  UB[2,6,1]  -118
+    DELTA[2,6]  UB[6,2,0]  99
+    DELTA[2,6]  UB[6,2,1]  -56
+    DELTA[2,6]  PM[2,6,0]  -334
+    DELTA[2,6]  PM[2,6,1]  350
+    DELTA[2,6]  PM[6,2,0]  -350
+    DELTA[2,6]  PM[6,2,1]  350
+    DELTA[2,6]  McCormick1[2,6]  -1
+    DELTA[2,6]  McCormick1[6,2]  -1
+    DELTA[2,6]  McCormick2[2,6]  -1
+    DELTA[2,6]  McCormick2[6,2]  -1
+    DELTA[2,6]  McCormick3[2,6]  -1
+    DELTA[2,6]  McCormick3[6,2]  -1
+    DELTA[2,7]  LB[2,7,0]  -86
+    DELTA[2,7]  LB[2,7,1]  56
+    DELTA[2,7]  LB[7,2,0]  -30
+    DELTA[2,7]  LB[7,2,1]  21
+    DELTA[2,7]  UB[2,7,0]  17
+    DELTA[2,7]  UB[2,7,1]  -33
+    DELTA[2,7]  UB[7,2,0]  99
+    DELTA[2,7]  UB[7,2,1]  -44
+    DELTA[2,7]  PM[2,7,0]  -337
+    DELTA[2,7]  PM[2,7,1]  350
+    DELTA[2,7]  PM[7,2,0]  -350
+    DELTA[2,7]  PM[7,2,1]  338
+    DELTA[2,7]  McCormick1[2,7]  -1
+    DELTA[2,7]  McCormick1[7,2]  -1
+    DELTA[2,7]  McCormick2[2,7]  -1
+    DELTA[2,7]  McCormick2[7,2]  -1
+    DELTA[2,7]  McCormick3[2,7]  -1
+    DELTA[2,7]  McCormick3[7,2]  -1
+    DELTA[2,8]  LB[2,8,0]  -99
+    DELTA[2,8]  LB[2,8,1]  56
+    DELTA[2,8]  LB[8,2,0]  -118
+    DELTA[2,8]  LB[8,2,1]  41
+    DELTA[2,8]  UB[2,8,0]  118
+    DELTA[2,8]  UB[2,8,1]  -41
+    DELTA[2,8]  UB[8,2,0]  99
+    DELTA[2,8]  UB[8,2,1]  -56
+    DELTA[2,8]  PM[2,8,0]  -350
+    DELTA[2,8]  PM[2,8,1]  350
+    DELTA[2,8]  PM[8,2,0]  -350
+    DELTA[2,8]  PM[8,2,1]  350
+    DELTA[2,8]  McCormick1[2,8]  -1
+    DELTA[2,8]  McCormick1[8,2]  -1
+    DELTA[2,8]  McCormick2[2,8]  -1
+    DELTA[2,8]  McCormick2[8,2]  -1
+    DELTA[2,8]  McCormick3[2,8]  -1
+    DELTA[2,8]  McCormick3[8,2]  -1
+    DELTA[2,9]  LB[2,9,0]  -83
+    DELTA[2,9]  LB[2,9,1]  56
+    DELTA[2,9]  LB[9,2,0]  -94
+    DELTA[2,9]  LB[9,2,1]  129
+    DELTA[2,9]  UB[2,9,0]  78
+    DELTA[2,9]  UB[2,9,1]  -147
+    DELTA[2,9]  UB[9,2,0]  99
+    DELTA[2,9]  UB[9,2,1]  -38
+    DELTA[2,9]  PM[2,9,0]  -334
+    DELTA[2,9]  PM[2,9,1]  350
+    DELTA[2,9]  PM[9,2,0]  -350
+    DELTA[2,9]  PM[9,2,1]  332
+    DELTA[2,9]  McCormick1[2,9]  -1
+    DELTA[2,9]  McCormick1[9,2]  -1
+    DELTA[2,9]  McCormick2[2,9]  -1
+    DELTA[2,9]  McCormick2[9,2]  -1
+    DELTA[2,9]  McCormick3[2,9]  -1
+    DELTA[2,9]  McCormick3[9,2]  -1
+    DELTA[2,10]  LB[2,10,0]  -88
+    DELTA[2,10]  LB[2,10,1]  56
+    DELTA[2,10]  LB[10,2,0]  -31
+    DELTA[2,10]  LB[10,2,1]  12
+    DELTA[2,10]  UB[2,10,0]  20
+    DELTA[2,10]  UB[2,10,1]  -12
+    DELTA[2,10]  UB[10,2,0]  99
+    DELTA[2,10]  UB[10,2,1]  -56
+    DELTA[2,10]  PM[2,10,0]  -339
+    DELTA[2,10]  PM[2,10,1]  350
+    DELTA[2,10]  PM[10,2,0]  -350
+    DELTA[2,10]  PM[10,2,1]  350
+    DELTA[2,10]  McCormick1[2,10]  -1
+    DELTA[2,10]  McCormick1[10,2]  -1
+    DELTA[2,10]  McCormick2[2,10]  -1
+    DELTA[2,10]  McCormick2[10,2]  -1
+    DELTA[2,10]  McCormick3[2,10]  -1
+    DELTA[2,10]  McCormick3[10,2]  -1
+    DELTA[2,11]  LB[2,11,0]  -83
+    DELTA[2,11]  LB[2,11,1]  56
+    DELTA[2,11]  LB[11,2,0]  -210
+    DELTA[2,11]  LB[11,2,1]  55
+    DELTA[2,11]  UB[2,11,0]  218
+    DELTA[2,11]  UB[2,11,1]  -55
+    DELTA[2,11]  UB[11,2,0]  75
+    DELTA[2,11]  UB[11,2,1]  -56
+    DELTA[2,11]  PM[2,11,0]  -334
+    DELTA[2,11]  PM[2,11,1]  350
+    DELTA[2,11]  PM[11,2,0]  -326
+    DELTA[2,11]  PM[11,2,1]  350
+    DELTA[2,11]  McCormick1[2,11]  -1
+    DELTA[2,11]  McCormick1[11,2]  -1
+    DELTA[2,11]  McCormick2[2,11]  -1
+    DELTA[2,11]  McCormick2[11,2]  -1
+    DELTA[2,11]  McCormick3[2,11]  -1
+    DELTA[2,11]  McCormick3[11,2]  -1
+    DELTA[2,12]  LB[2,12,0]  -99
+    DELTA[2,12]  LB[2,12,1]  56
+    DELTA[2,12]  LB[12,2,0]  -70
+    DELTA[2,12]  LB[12,2,1]  125
+    DELTA[2,12]  UB[2,12,0]  94
+    DELTA[2,12]  UB[2,12,1]  -143
+    DELTA[2,12]  UB[12,2,0]  75
+    DELTA[2,12]  UB[12,2,1]  -38
+    DELTA[2,12]  PM[2,12,0]  -350
+    DELTA[2,12]  PM[2,12,1]  350
+    DELTA[2,12]  PM[12,2,0]  -326
+    DELTA[2,12]  PM[12,2,1]  332
+    DELTA[2,12]  McCormick1[2,12]  -1
+    DELTA[2,12]  McCormick1[12,2]  -1
+    DELTA[2,12]  McCormick2[2,12]  -1
+    DELTA[2,12]  McCormick2[12,2]  -1
+    DELTA[2,12]  McCormick3[2,12]  -1
+    DELTA[2,12]  McCormick3[12,2]  -1
+    DELTA[2,13]  LB[2,13,0]  -99
+    DELTA[2,13]  LB[2,13,1]  56
+    DELTA[2,13]  LB[13,2,0]  -66
+    DELTA[2,13]  LB[13,2,1]  79
+    DELTA[2,13]  UB[2,13,0]  90
+    DELTA[2,13]  UB[2,13,1]  -97
+    DELTA[2,13]  UB[13,2,0]  75
+    DELTA[2,13]  UB[13,2,1]  -38
+    DELTA[2,13]  PM[2,13,0]  -350
+    DELTA[2,13]  PM[2,13,1]  350
+    DELTA[2,13]  PM[13,2,0]  -326
+    DELTA[2,13]  PM[13,2,1]  332
+    DELTA[2,13]  McCormick1[2,13]  -1
+    DELTA[2,13]  McCormick1[13,2]  -1
+    DELTA[2,13]  McCormick2[2,13]  -1
+    DELTA[2,13]  McCormick2[13,2]  -1
+    DELTA[2,13]  McCormick3[2,13]  -1
+    DELTA[2,13]  McCormick3[13,2]  -1
+    DELTA[2,14]  LB[2,14,0]  -91
+    DELTA[2,14]  LB[2,14,1]  56
+    DELTA[2,14]  LB[14,2,0]  -26
+    DELTA[2,14]  LB[14,2,1]  14
+    DELTA[2,14]  UB[2,14,0]  18
+    DELTA[2,14]  UB[2,14,1]  -14
+    DELTA[2,14]  UB[14,2,0]  99
+    DELTA[2,14]  UB[14,2,1]  -56
+    DELTA[2,14]  PM[2,14,0]  -342
+    DELTA[2,14]  PM[2,14,1]  350
+    DELTA[2,14]  PM[14,2,0]  -350
+    DELTA[2,14]  PM[14,2,1]  350
+    DELTA[2,14]  McCormick1[2,14]  -1
+    DELTA[2,14]  McCormick1[14,2]  -1
+    DELTA[2,14]  McCormick2[2,14]  -1
+    DELTA[2,14]  McCormick2[14,2]  -1
+    DELTA[2,14]  McCormick3[2,14]  -1
+    DELTA[2,14]  McCormick3[14,2]  -1
+    DELTA[2,15]  LB[2,15,0]  -99
+    DELTA[2,15]  LB[2,15,1]  56
+    DELTA[2,15]  LB[15,2,0]  -61
+    DELTA[2,15]  LB[15,2,1]  157
+    DELTA[2,15]  UB[2,15,0]  85
+    DELTA[2,15]  UB[2,15,1]  -175
+    DELTA[2,15]  UB[15,2,0]  75
+    DELTA[2,15]  UB[15,2,1]  -38
+    DELTA[2,15]  PM[2,15,0]  -350
+    DELTA[2,15]  PM[2,15,1]  350
+    DELTA[2,15]  PM[15,2,0]  -326
+    DELTA[2,15]  PM[15,2,1]  332
+    DELTA[2,15]  McCormick1[2,15]  -1
+    DELTA[2,15]  McCormick1[15,2]  -1
+    DELTA[2,15]  McCormick2[2,15]  -1
+    DELTA[2,15]  McCormick2[15,2]  -1
+    DELTA[2,15]  McCormick3[2,15]  -1
+    DELTA[2,15]  McCormick3[15,2]  -1
+    DELTA[2,16]  LB[2,16,0]  -99
+    DELTA[2,16]  LB[2,16,1]  56
+    DELTA[2,16]  LB[16,2,0]  -108
+    DELTA[2,16]  LB[16,2,1]  123
+    DELTA[2,16]  UB[2,16,0]  132
+    DELTA[2,16]  UB[2,16,1]  -123
+    DELTA[2,16]  UB[16,2,0]  75
+    DELTA[2,16]  UB[16,2,1]  -56
+    DELTA[2,16]  PM[2,16,0]  -350
+    DELTA[2,16]  PM[2,16,1]  350
+    DELTA[2,16]  PM[16,2,0]  -326
+    DELTA[2,16]  PM[16,2,1]  350
+    DELTA[2,16]  McCormick1[2,16]  -1
+    DELTA[2,16]  McCormick1[16,2]  -1
+    DELTA[2,16]  McCormick2[2,16]  -1
+    DELTA[2,16]  McCormick2[16,2]  -1
+    DELTA[2,16]  McCormick3[2,16]  -1
+    DELTA[2,16]  McCormick3[16,2]  -1
+    DELTA[2,17]  LB[2,17,0]  -99
+    DELTA[2,17]  LB[2,17,1]  56
+    DELTA[2,17]  LB[17,2,0]  -129
+    DELTA[2,17]  LB[17,2,1]  124
+    DELTA[2,17]  UB[2,17,0]  153
+    DELTA[2,17]  UB[2,17,1]  -142
+    DELTA[2,17]  UB[17,2,0]  75
+    DELTA[2,17]  UB[17,2,1]  -38
+    DELTA[2,17]  PM[2,17,0]  -350
+    DELTA[2,17]  PM[2,17,1]  350
+    DELTA[2,17]  PM[17,2,0]  -326
+    DELTA[2,17]  PM[17,2,1]  332
+    DELTA[2,17]  McCormick1[2,17]  -1
+    DELTA[2,17]  McCormick1[17,2]  -1
+    DELTA[2,17]  McCormick2[2,17]  -1
+    DELTA[2,17]  McCormick2[17,2]  -1
+    DELTA[2,17]  McCormick3[2,17]  -1
+    DELTA[2,17]  McCormick3[17,2]  -1
+    DELTA[2,18]  LB[2,18,0]  -99
+    DELTA[2,18]  LB[2,18,1]  56
+    DELTA[2,18]  LB[18,2,0]  -12
+    DELTA[2,18]  LB[18,2,1]  4
+    DELTA[2,18]  UB[2,18,0]  12
+    DELTA[2,18]  UB[2,18,1]  -10
+    DELTA[2,18]  UB[18,2,0]  99
+    DELTA[2,18]  UB[18,2,1]  -50
+    DELTA[2,18]  PM[2,18,0]  -350
+    DELTA[2,18]  PM[2,18,1]  350
+    DELTA[2,18]  PM[18,2,0]  -350
+    DELTA[2,18]  PM[18,2,1]  344
+    DELTA[2,18]  McCormick1[2,18]  -1
+    DELTA[2,18]  McCormick1[18,2]  -1
+    DELTA[2,18]  McCormick2[2,18]  -1
+    DELTA[2,18]  McCormick2[18,2]  -1
+    DELTA[2,18]  McCormick3[2,18]  -1
+    DELTA[2,18]  McCormick3[18,2]  -1
+    DELTA[3,4]  LB[3,4,0]  -31
+    DELTA[3,4]  LB[3,4,1]  56
+    DELTA[3,4]  LB[4,3,0]  -23
+    DELTA[3,4]  LB[4,3,1]  16
+    DELTA[3,4]  UB[3,4,0]  10
+    DELTA[3,4]  UB[3,4,1]  -16
+    DELTA[3,4]  UB[4,3,0]  44
+    DELTA[3,4]  UB[4,3,1]  -56
+    DELTA[3,4]  PM[3,4,0]  -337
+    DELTA[3,4]  PM[3,4,1]  350
+    DELTA[3,4]  PM[4,3,0]  -350
+    DELTA[3,4]  PM[4,3,1]  350
+    DELTA[3,4]  McCormick1[3,4]  -1
+    DELTA[3,4]  McCormick1[4,3]  -1
+    DELTA[3,4]  McCormick2[3,4]  -1
+    DELTA[3,4]  McCormick2[4,3]  -1
+    DELTA[3,4]  McCormick3[3,4]  -1
+    DELTA[3,4]  McCormick3[4,3]  -1
+    DELTA[3,5]  LB[3,5,0]  -16
+    DELTA[3,5]  LB[3,5,1]  56
+    DELTA[3,5]  LB[5,3,0]  -77
+    DELTA[3,5]  LB[5,3,1]  30
+    DELTA[3,5]  UB[3,5,0]  49
+    DELTA[3,5]  UB[3,5,1]  -50
+    DELTA[3,5]  UB[5,3,0]  44
+    DELTA[3,5]  UB[5,3,1]  -36
+    DELTA[3,5]  PM[3,5,0]  -322
+    DELTA[3,5]  PM[3,5,1]  350
+    DELTA[3,5]  PM[5,3,0]  -350
+    DELTA[3,5]  PM[5,3,1]  330
+    DELTA[3,5]  McCormick1[3,5]  -1
+    DELTA[3,5]  McCormick1[5,3]  -1
+    DELTA[3,5]  McCormick2[3,5]  -1
+    DELTA[3,5]  McCormick2[5,3]  -1
+    DELTA[3,5]  McCormick3[3,5]  -1
+    DELTA[3,5]  McCormick3[5,3]  -1
+    DELTA[3,6]  LB[3,6,0]  -16
+    DELTA[3,6]  LB[3,6,1]  56
+    DELTA[3,6]  LB[6,3,0]  -123
+    DELTA[3,6]  LB[6,3,1]  118
+    DELTA[3,6]  UB[3,6,0]  95
+    DELTA[3,6]  UB[3,6,1]  -118
+    DELTA[3,6]  UB[6,3,0]  44
+    DELTA[3,6]  UB[6,3,1]  -56
+    DELTA[3,6]  PM[3,6,0]  -322
+    DELTA[3,6]  PM[3,6,1]  350
+    DELTA[3,6]  PM[6,3,0]  -350
+    DELTA[3,6]  PM[6,3,1]  350
+    DELTA[3,6]  McCormick1[3,6]  -1
+    DELTA[3,6]  McCormick1[6,3]  -1
+    DELTA[3,6]  McCormick2[3,6]  -1
+    DELTA[3,6]  McCormick2[6,3]  -1
+    DELTA[3,6]  McCormick3[3,6]  -1
+    DELTA[3,6]  McCormick3[6,3]  -1
+    DELTA[3,7]  LB[3,7,0]  -31
+    DELTA[3,7]  LB[3,7,1]  56
+    DELTA[3,7]  LB[7,3,0]  -30
+    DELTA[3,7]  LB[7,3,1]  21
+    DELTA[3,7]  UB[3,7,0]  17
+    DELTA[3,7]  UB[3,7,1]  -33
+    DELTA[3,7]  UB[7,3,0]  44
+    DELTA[3,7]  UB[7,3,1]  -44
+    DELTA[3,7]  PM[3,7,0]  -337
+    DELTA[3,7]  PM[3,7,1]  350
+    DELTA[3,7]  PM[7,3,0]  -350
+    DELTA[3,7]  PM[7,3,1]  338
+    DELTA[3,7]  McCormick1[3,7]  -1
+    DELTA[3,7]  McCormick1[7,3]  -1
+    DELTA[3,7]  McCormick2[3,7]  -1
+    DELTA[3,7]  McCormick2[7,3]  -1
+    DELTA[3,7]  McCormick3[3,7]  -1
+    DELTA[3,7]  McCormick3[7,3]  -1
+    DELTA[3,8]  LB[3,8,0]  -44
+    DELTA[3,8]  LB[3,8,1]  56
+    DELTA[3,8]  LB[8,3,0]  -118
+    DELTA[3,8]  LB[8,3,1]  41
+    DELTA[3,8]  UB[3,8,0]  118
+    DELTA[3,8]  UB[3,8,1]  -41
+    DELTA[3,8]  UB[8,3,0]  44
+    DELTA[3,8]  UB[8,3,1]  -56
+    DELTA[3,8]  PM[3,8,0]  -350
+    DELTA[3,8]  PM[3,8,1]  350
+    DELTA[3,8]  PM[8,3,0]  -350
+    DELTA[3,8]  PM[8,3,1]  350
+    DELTA[3,8]  McCormick1[3,8]  -1
+    DELTA[3,8]  McCormick1[8,3]  -1
+    DELTA[3,8]  McCormick2[3,8]  -1
+    DELTA[3,8]  McCormick2[8,3]  -1
+    DELTA[3,8]  McCormick3[3,8]  -1
+    DELTA[3,8]  McCormick3[8,3]  -1
+    DELTA[3,9]  LB[3,9,0]  -16
+    DELTA[3,9]  LB[3,9,1]  56
+    DELTA[3,9]  LB[9,3,0]  -94
+    DELTA[3,9]  LB[9,3,1]  123
+    DELTA[3,9]  UB[3,9,0]  66
+    DELTA[3,9]  UB[3,9,1]  -147
+    DELTA[3,9]  UB[9,3,0]  44
+    DELTA[3,9]  UB[9,3,1]  -32
+    DELTA[3,9]  PM[3,9,0]  -322
+    DELTA[3,9]  PM[3,9,1]  350
+    DELTA[3,9]  PM[9,3,0]  -350
+    DELTA[3,9]  PM[9,3,1]  326
+    DELTA[3,9]  McCormick1[3,9]  -1
+    DELTA[3,9]  McCormick1[9,3]  -1
+    DELTA[3,9]  McCormick2[3,9]  -1
+    DELTA[3,9]  McCormick2[9,3]  -1
+    DELTA[3,9]  McCormick3[3,9]  -1
+    DELTA[3,9]  McCormick3[9,3]  -1
+    DELTA[3,10]  LB[3,10,0]  -33
+    DELTA[3,10]  LB[3,10,1]  56
+    DELTA[3,10]  LB[10,3,0]  -31
+    DELTA[3,10]  LB[10,3,1]  12
+    DELTA[3,10]  UB[3,10,0]  20
+    DELTA[3,10]  UB[3,10,1]  -12
+    DELTA[3,10]  UB[10,3,0]  44
+    DELTA[3,10]  UB[10,3,1]  -56
+    DELTA[3,10]  PM[3,10,0]  -339
+    DELTA[3,10]  PM[3,10,1]  350
+    DELTA[3,10]  PM[10,3,0]  -350
+    DELTA[3,10]  PM[10,3,1]  350
+    DELTA[3,10]  McCormick1[3,10]  -1
+    DELTA[3,10]  McCormick1[10,3]  -1
+    DELTA[3,10]  McCormick2[3,10]  -1
+    DELTA[3,10]  McCormick2[10,3]  -1
+    DELTA[3,10]  McCormick3[3,10]  -1
+    DELTA[3,10]  McCormick3[10,3]  -1
+    DELTA[3,11]  LB[3,11,0]  -16
+    DELTA[3,11]  LB[3,11,1]  56
+    DELTA[3,11]  LB[11,3,0]  -234
+    DELTA[3,11]  LB[11,3,1]  55
+    DELTA[3,11]  UB[3,11,0]  206
+    DELTA[3,11]  UB[3,11,1]  -55
+    DELTA[3,11]  UB[11,3,0]  44
+    DELTA[3,11]  UB[11,3,1]  -56
+    DELTA[3,11]  PM[3,11,0]  -322
+    DELTA[3,11]  PM[3,11,1]  350
+    DELTA[3,11]  PM[11,3,0]  -350
+    DELTA[3,11]  PM[11,3,1]  350
+    DELTA[3,11]  McCormick1[3,11]  -1
+    DELTA[3,11]  McCormick1[11,3]  -1
+    DELTA[3,11]  McCormick2[3,11]  -1
+    DELTA[3,11]  McCormick2[11,3]  -1
+    DELTA[3,11]  McCormick3[3,11]  -1
+    DELTA[3,11]  McCormick3[11,3]  -1
+    DELTA[3,12]  LB[3,12,0]  -44
+    DELTA[3,12]  LB[3,12,1]  56
+    DELTA[3,12]  LB[12,3,0]  -94
+    DELTA[3,12]  LB[12,3,1]  119
+    DELTA[3,12]  UB[3,12,0]  94
+    DELTA[3,12]  UB[3,12,1]  -143
+    DELTA[3,12]  UB[12,3,0]  44
+    DELTA[3,12]  UB[12,3,1]  -32
+    DELTA[3,12]  PM[3,12,0]  -350
+    DELTA[3,12]  PM[3,12,1]  350
+    DELTA[3,12]  PM[12,3,0]  -350
+    DELTA[3,12]  PM[12,3,1]  326
+    DELTA[3,12]  McCormick1[3,12]  -1
+    DELTA[3,12]  McCormick1[12,3]  -1
+    DELTA[3,12]  McCormick2[3,12]  -1
+    DELTA[3,12]  McCormick2[12,3]  -1
+    DELTA[3,12]  McCormick3[3,12]  -1
+    DELTA[3,12]  McCormick3[12,3]  -1
+    DELTA[3,13]  LB[3,13,0]  -44
+    DELTA[3,13]  LB[3,13,1]  56
+    DELTA[3,13]  LB[13,3,0]  -90
+    DELTA[3,13]  LB[13,3,1]  73
+    DELTA[3,13]  UB[3,13,0]  90
+    DELTA[3,13]  UB[3,13,1]  -97
+    DELTA[3,13]  UB[13,3,0]  44
+    DELTA[3,13]  UB[13,3,1]  -32
+    DELTA[3,13]  PM[3,13,0]  -350
+    DELTA[3,13]  PM[3,13,1]  350
+    DELTA[3,13]  PM[13,3,0]  -350
+    DELTA[3,13]  PM[13,3,1]  326
+    DELTA[3,13]  McCormick1[3,13]  -1
+    DELTA[3,13]  McCormick1[13,3]  -1
+    DELTA[3,13]  McCormick2[3,13]  -1
+    DELTA[3,13]  McCormick2[13,3]  -1
+    DELTA[3,13]  McCormick3[3,13]  -1
+    DELTA[3,13]  McCormick3[13,3]  -1
+    DELTA[3,14]  LB[3,14,0]  -36
+    DELTA[3,14]  LB[3,14,1]  56
+    DELTA[3,14]  LB[14,3,0]  -26
+    DELTA[3,14]  LB[14,3,1]  14
+    DELTA[3,14]  UB[3,14,0]  18
+    DELTA[3,14]  UB[3,14,1]  -14
+    DELTA[3,14]  UB[14,3,0]  44
+    DELTA[3,14]  UB[14,3,1]  -56
+    DELTA[3,14]  PM[3,14,0]  -342
+    DELTA[3,14]  PM[3,14,1]  350
+    DELTA[3,14]  PM[14,3,0]  -350
+    DELTA[3,14]  PM[14,3,1]  350
+    DELTA[3,14]  McCormick1[3,14]  -1
+    DELTA[3,14]  McCormick1[14,3]  -1
+    DELTA[3,14]  McCormick2[3,14]  -1
+    DELTA[3,14]  McCormick2[14,3]  -1
+    DELTA[3,14]  McCormick3[3,14]  -1
+    DELTA[3,14]  McCormick3[14,3]  -1
+    DELTA[3,15]  LB[3,15,0]  -44
+    DELTA[3,15]  LB[3,15,1]  56
+    DELTA[3,15]  LB[15,3,0]  -85
+    DELTA[3,15]  LB[15,3,1]  151
+    DELTA[3,15]  UB[3,15,0]  85
+    DELTA[3,15]  UB[3,15,1]  -175
+    DELTA[3,15]  UB[15,3,0]  44
+    DELTA[3,15]  UB[15,3,1]  -32
+    DELTA[3,15]  PM[3,15,0]  -350
+    DELTA[3,15]  PM[3,15,1]  350
+    DELTA[3,15]  PM[15,3,0]  -350
+    DELTA[3,15]  PM[15,3,1]  326
+    DELTA[3,15]  McCormick1[3,15]  -1
+    DELTA[3,15]  McCormick1[15,3]  -1
+    DELTA[3,15]  McCormick2[3,15]  -1
+    DELTA[3,15]  McCormick2[15,3]  -1
+    DELTA[3,15]  McCormick3[3,15]  -1
+    DELTA[3,15]  McCormick3[15,3]  -1
+    DELTA[3,16]  LB[3,16,0]  -44
+    DELTA[3,16]  LB[3,16,1]  56
+    DELTA[3,16]  LB[16,3,0]  -132
+    DELTA[3,16]  LB[16,3,1]  123
+    DELTA[3,16]  UB[3,16,0]  132
+    DELTA[3,16]  UB[3,16,1]  -123
+    DELTA[3,16]  UB[16,3,0]  44
+    DELTA[3,16]  UB[16,3,1]  -56
+    DELTA[3,16]  PM[3,16,0]  -350
+    DELTA[3,16]  PM[3,16,1]  350
+    DELTA[3,16]  PM[16,3,0]  -350
+    DELTA[3,16]  PM[16,3,1]  350
+    DELTA[3,16]  McCormick1[3,16]  -1
+    DELTA[3,16]  McCormick1[16,3]  -1
+    DELTA[3,16]  McCormick2[3,16]  -1
+    DELTA[3,16]  McCormick2[16,3]  -1
+    DELTA[3,16]  McCormick3[3,16]  -1
+    DELTA[3,16]  McCormick3[16,3]  -1
+    DELTA[3,17]  LB[3,17,0]  -44
+    DELTA[3,17]  LB[3,17,1]  56
+    DELTA[3,17]  LB[17,3,0]  -153
+    DELTA[3,17]  LB[17,3,1]  118
+    DELTA[3,17]  UB[3,17,0]  153
+    DELTA[3,17]  UB[3,17,1]  -142
+    DELTA[3,17]  UB[17,3,0]  44
+    DELTA[3,17]  UB[17,3,1]  -32
+    DELTA[3,17]  PM[3,17,0]  -350
+    DELTA[3,17]  PM[3,17,1]  350
+    DELTA[3,17]  PM[17,3,0]  -350
+    DELTA[3,17]  PM[17,3,1]  326
+    DELTA[3,17]  McCormick1[3,17]  -1
+    DELTA[3,17]  McCormick1[17,3]  -1
+    DELTA[3,17]  McCormick2[3,17]  -1
+    DELTA[3,17]  McCormick2[17,3]  -1
+    DELTA[3,17]  McCormick3[3,17]  -1
+    DELTA[3,17]  McCormick3[17,3]  -1
+    DELTA[3,18]  LB[3,18,0]  -44
+    DELTA[3,18]  LB[3,18,1]  56
+    DELTA[3,18]  LB[18,3,0]  -12
+    DELTA[3,18]  LB[18,3,1]  4
+    DELTA[3,18]  UB[3,18,0]  12
+    DELTA[3,18]  UB[3,18,1]  -10
+    DELTA[3,18]  UB[18,3,0]  44
+    DELTA[3,18]  UB[18,3,1]  -50
+    DELTA[3,18]  PM[3,18,0]  -350
+    DELTA[3,18]  PM[3,18,1]  350
+    DELTA[3,18]  PM[18,3,0]  -350
+    DELTA[3,18]  PM[18,3,1]  344
+    DELTA[3,18]  McCormick1[3,18]  -1
+    DELTA[3,18]  McCormick1[18,3]  -1
+    DELTA[3,18]  McCormick2[3,18]  -1
+    DELTA[3,18]  McCormick2[18,3]  -1
+    DELTA[3,18]  McCormick3[3,18]  -1
+    DELTA[3,18]  McCormick3[18,3]  -1
+    DELTA[4,5]  LB[4,5,0]  -23
+    DELTA[4,5]  LB[4,5,1]  16
+    DELTA[4,5]  LB[5,4,0]  -77
+    DELTA[4,5]  LB[5,4,1]  50
+    DELTA[4,5]  UB[4,5,0]  77
+    DELTA[4,5]  UB[4,5,1]  -50
+    DELTA[4,5]  UB[5,4,0]  23
+    DELTA[4,5]  UB[5,4,1]  -16
+    DELTA[4,5]  PM[4,5,0]  -350
+    DELTA[4,5]  PM[4,5,1]  350
+    DELTA[4,5]  PM[5,4,0]  -350
+    DELTA[4,5]  PM[5,4,1]  350
+    DELTA[4,5]  McCormick1[4,5]  -1
+    DELTA[4,5]  McCormick1[5,4]  -1
+    DELTA[4,5]  McCormick2[4,5]  -1
+    DELTA[4,5]  McCormick2[5,4]  -1
+    DELTA[4,5]  McCormick3[4,5]  -1
+    DELTA[4,5]  McCormick3[5,4]  -1
+    DELTA[4,6]  LB[4,6,0]  -23
+    DELTA[4,6]  LB[4,6,1]  16
+    DELTA[4,6]  LB[6,4,0]  -123
+    DELTA[4,6]  LB[6,4,1]  118
+    DELTA[4,6]  UB[4,6,0]  123
+    DELTA[4,6]  UB[4,6,1]  -118
+    DELTA[4,6]  UB[6,4,0]  23
+    DELTA[4,6]  UB[6,4,1]  -16
+    DELTA[4,6]  PM[4,6,0]  -350
+    DELTA[4,6]  PM[4,6,1]  350
+    DELTA[4,6]  PM[6,4,0]  -350
+    DELTA[4,6]  PM[6,4,1]  350
+    DELTA[4,6]  McCormick1[4,6]  -1
+    DELTA[4,6]  McCormick1[6,4]  -1
+    DELTA[4,6]  McCormick2[4,6]  -1
+    DELTA[4,6]  McCormick2[6,4]  -1
+    DELTA[4,6]  McCormick3[4,6]  -1
+    DELTA[4,6]  McCormick3[6,4]  -1
+    DELTA[4,7]  LB[4,7,0]  -23
+    DELTA[4,7]  LB[4,7,1]  16
+    DELTA[4,7]  LB[7,4,0]  -30
+    DELTA[4,7]  LB[7,4,1]  33
+    DELTA[4,7]  UB[4,7,0]  30
+    DELTA[4,7]  UB[4,7,1]  -33
+    DELTA[4,7]  UB[7,4,0]  23
+    DELTA[4,7]  UB[7,4,1]  -16
+    DELTA[4,7]  PM[4,7,0]  -350
+    DELTA[4,7]  PM[4,7,1]  350
+    DELTA[4,7]  PM[7,4,0]  -350
+    DELTA[4,7]  PM[7,4,1]  350
+    DELTA[4,7]  McCormick1[4,7]  -1
+    DELTA[4,7]  McCormick1[7,4]  -1
+    DELTA[4,7]  McCormick2[4,7]  -1
+    DELTA[4,7]  McCormick2[7,4]  -1
+    DELTA[4,7]  McCormick3[4,7]  -1
+    DELTA[4,7]  McCormick3[7,4]  -1
+    DELTA[4,8]  LB[4,8,0]  -23
+    DELTA[4,8]  LB[4,8,1]  16
+    DELTA[4,8]  LB[8,4,0]  -118
+    DELTA[4,8]  LB[8,4,1]  41
+    DELTA[4,8]  UB[4,8,0]  118
+    DELTA[4,8]  UB[4,8,1]  -41
+    DELTA[4,8]  UB[8,4,0]  23
+    DELTA[4,8]  UB[8,4,1]  -16
+    DELTA[4,8]  PM[4,8,0]  -350
+    DELTA[4,8]  PM[4,8,1]  350
+    DELTA[4,8]  PM[8,4,0]  -350
+    DELTA[4,8]  PM[8,4,1]  350
+    DELTA[4,8]  McCormick1[4,8]  -1
+    DELTA[4,8]  McCormick1[8,4]  -1
+    DELTA[4,8]  McCormick2[4,8]  -1
+    DELTA[4,8]  McCormick2[8,4]  -1
+    DELTA[4,8]  McCormick3[4,8]  -1
+    DELTA[4,8]  McCormick3[8,4]  -1
+    DELTA[4,9]  LB[4,9,0]  -23
+    DELTA[4,9]  LB[4,9,1]  16
+    DELTA[4,9]  LB[9,4,0]  -94
+    DELTA[4,9]  LB[9,4,1]  147
+    DELTA[4,9]  UB[4,9,0]  94
+    DELTA[4,9]  UB[4,9,1]  -147
+    DELTA[4,9]  UB[9,4,0]  23
+    DELTA[4,9]  UB[9,4,1]  -16
+    DELTA[4,9]  PM[4,9,0]  -350
+    DELTA[4,9]  PM[4,9,1]  350
+    DELTA[4,9]  PM[9,4,0]  -350
+    DELTA[4,9]  PM[9,4,1]  350
+    DELTA[4,9]  McCormick1[4,9]  -1
+    DELTA[4,9]  McCormick1[9,4]  -1
+    DELTA[4,9]  McCormick2[4,9]  -1
+    DELTA[4,9]  McCormick2[9,4]  -1
+    DELTA[4,9]  McCormick3[4,9]  -1
+    DELTA[4,9]  McCormick3[9,4]  -1
+    DELTA[4,10]  LB[4,10,0]  -23
+    DELTA[4,10]  LB[4,10,1]  16
+    DELTA[4,10]  LB[10,4,0]  -31
+    DELTA[4,10]  LB[10,4,1]  12
+    DELTA[4,10]  UB[4,10,0]  31
+    DELTA[4,10]  UB[4,10,1]  -12
+    DELTA[4,10]  UB[10,4,0]  23
+    DELTA[4,10]  UB[10,4,1]  -16
+    DELTA[4,10]  PM[4,10,0]  -350
+    DELTA[4,10]  PM[4,10,1]  350
+    DELTA[4,10]  PM[10,4,0]  -350
+    DELTA[4,10]  PM[10,4,1]  350
+    DELTA[4,10]  McCormick1[4,10]  -1
+    DELTA[4,10]  McCormick1[10,4]  -1
+    DELTA[4,10]  McCormick2[4,10]  -1
+    DELTA[4,10]  McCormick2[10,4]  -1
+    DELTA[4,10]  McCormick3[4,10]  -1
+    DELTA[4,10]  McCormick3[10,4]  -1
+    DELTA[4,11]  LB[4,11,0]  -23
+    DELTA[4,11]  LB[4,11,1]  16
+    DELTA[4,11]  LB[11,4,0]  -221
+    DELTA[4,11]  LB[11,4,1]  55
+    DELTA[4,11]  UB[4,11,0]  234
+    DELTA[4,11]  UB[4,11,1]  -55
+    DELTA[4,11]  UB[11,4,0]  10
+    DELTA[4,11]  UB[11,4,1]  -16
+    DELTA[4,11]  PM[4,11,0]  -350
+    DELTA[4,11]  PM[4,11,1]  350
+    DELTA[4,11]  PM[11,4,0]  -337
+    DELTA[4,11]  PM[11,4,1]  350
+    DELTA[4,11]  McCormick1[4,11]  -1
+    DELTA[4,11]  McCormick1[11,4]  -1
+    DELTA[4,11]  McCormick2[4,11]  -1
+    DELTA[4,11]  McCormick2[11,4]  -1
+    DELTA[4,11]  McCormick3[4,11]  -1
+    DELTA[4,11]  McCormick3[11,4]  -1
+    DELTA[4,12]  LB[4,12,0]  -23
+    DELTA[4,12]  LB[4,12,1]  16
+    DELTA[4,12]  LB[12,4,0]  -81
+    DELTA[4,12]  LB[12,4,1]  143
+    DELTA[4,12]  UB[4,12,0]  94
+    DELTA[4,12]  UB[4,12,1]  -143
+    DELTA[4,12]  UB[12,4,0]  10
+    DELTA[4,12]  UB[12,4,1]  -16
+    DELTA[4,12]  PM[4,12,0]  -350
+    DELTA[4,12]  PM[4,12,1]  350
+    DELTA[4,12]  PM[12,4,0]  -337
+    DELTA[4,12]  PM[12,4,1]  350
+    DELTA[4,12]  McCormick1[4,12]  -1
+    DELTA[4,12]  McCormick1[12,4]  -1
+    DELTA[4,12]  McCormick2[4,12]  -1
+    DELTA[4,12]  McCormick2[12,4]  -1
+    DELTA[4,12]  McCormick3[4,12]  -1
+    DELTA[4,12]  McCormick3[12,4]  -1
+    DELTA[4,13]  LB[4,13,0]  -23
+    DELTA[4,13]  LB[4,13,1]  16
+    DELTA[4,13]  LB[13,4,0]  -77
+    DELTA[4,13]  LB[13,4,1]  97
+    DELTA[4,13]  UB[4,13,0]  90
+    DELTA[4,13]  UB[4,13,1]  -97
+    DELTA[4,13]  UB[13,4,0]  10
+    DELTA[4,13]  UB[13,4,1]  -16
+    DELTA[4,13]  PM[4,13,0]  -350
+    DELTA[4,13]  PM[4,13,1]  350
+    DELTA[4,13]  PM[13,4,0]  -337
+    DELTA[4,13]  PM[13,4,1]  350
+    DELTA[4,13]  McCormick1[4,13]  -1
+    DELTA[4,13]  McCormick1[13,4]  -1
+    DELTA[4,13]  McCormick2[4,13]  -1
+    DELTA[4,13]  McCormick2[13,4]  -1
+    DELTA[4,13]  McCormick3[4,13]  -1
+    DELTA[4,13]  McCormick3[13,4]  -1
+    DELTA[4,14]  LB[4,14,0]  -23
+    DELTA[4,14]  LB[4,14,1]  16
+    DELTA[4,14]  LB[14,4,0]  -26
+    DELTA[4,14]  LB[14,4,1]  14
+    DELTA[4,14]  UB[4,14,0]  26
+    DELTA[4,14]  UB[4,14,1]  -14
+    DELTA[4,14]  UB[14,4,0]  23
+    DELTA[4,14]  UB[14,4,1]  -16
+    DELTA[4,14]  PM[4,14,0]  -350
+    DELTA[4,14]  PM[4,14,1]  350
+    DELTA[4,14]  PM[14,4,0]  -350
+    DELTA[4,14]  PM[14,4,1]  350
+    DELTA[4,14]  McCormick1[4,14]  -1
+    DELTA[4,14]  McCormick1[14,4]  -1
+    DELTA[4,14]  McCormick2[4,14]  -1
+    DELTA[4,14]  McCormick2[14,4]  -1
+    DELTA[4,14]  McCormick3[4,14]  -1
+    DELTA[4,14]  McCormick3[14,4]  -1
+    DELTA[4,15]  LB[4,15,0]  -23
+    DELTA[4,15]  LB[4,15,1]  16
+    DELTA[4,15]  LB[15,4,0]  -72
+    DELTA[4,15]  LB[15,4,1]  175
+    DELTA[4,15]  UB[4,15,0]  85
+    DELTA[4,15]  UB[4,15,1]  -175
+    DELTA[4,15]  UB[15,4,0]  10
+    DELTA[4,15]  UB[15,4,1]  -16
+    DELTA[4,15]  PM[4,15,0]  -350
+    DELTA[4,15]  PM[4,15,1]  350
+    DELTA[4,15]  PM[15,4,0]  -337
+    DELTA[4,15]  PM[15,4,1]  350
+    DELTA[4,15]  McCormick1[4,15]  -1
+    DELTA[4,15]  McCormick1[15,4]  -1
+    DELTA[4,15]  McCormick2[4,15]  -1
+    DELTA[4,15]  McCormick2[15,4]  -1
+    DELTA[4,15]  McCormick3[4,15]  -1
+    DELTA[4,15]  McCormick3[15,4]  -1
+    DELTA[4,16]  LB[4,16,0]  -23
+    DELTA[4,16]  LB[4,16,1]  16
+    DELTA[4,16]  LB[16,4,0]  -119
+    DELTA[4,16]  LB[16,4,1]  123
+    DELTA[4,16]  UB[4,16,0]  132
+    DELTA[4,16]  UB[4,16,1]  -123
+    DELTA[4,16]  UB[16,4,0]  10
+    DELTA[4,16]  UB[16,4,1]  -16
+    DELTA[4,16]  PM[4,16,0]  -350
+    DELTA[4,16]  PM[4,16,1]  350
+    DELTA[4,16]  PM[16,4,0]  -337
+    DELTA[4,16]  PM[16,4,1]  350
+    DELTA[4,16]  McCormick1[4,16]  -1
+    DELTA[4,16]  McCormick1[16,4]  -1
+    DELTA[4,16]  McCormick2[4,16]  -1
+    DELTA[4,16]  McCormick2[16,4]  -1
+    DELTA[4,16]  McCormick3[4,16]  -1
+    DELTA[4,16]  McCormick3[16,4]  -1
+    DELTA[4,17]  LB[4,17,0]  -23
+    DELTA[4,17]  LB[4,17,1]  16
+    DELTA[4,17]  LB[17,4,0]  -140
+    DELTA[4,17]  LB[17,4,1]  142
+    DELTA[4,17]  UB[4,17,0]  153
+    DELTA[4,17]  UB[4,17,1]  -142
+    DELTA[4,17]  UB[17,4,0]  10
+    DELTA[4,17]  UB[17,4,1]  -16
+    DELTA[4,17]  PM[4,17,0]  -350
+    DELTA[4,17]  PM[4,17,1]  350
+    DELTA[4,17]  PM[17,4,0]  -337
+    DELTA[4,17]  PM[17,4,1]  350
+    DELTA[4,17]  McCormick1[4,17]  -1
+    DELTA[4,17]  McCormick1[17,4]  -1
+    DELTA[4,17]  McCormick2[4,17]  -1
+    DELTA[4,17]  McCormick2[17,4]  -1
+    DELTA[4,17]  McCormick3[4,17]  -1
+    DELTA[4,17]  McCormick3[17,4]  -1
+    DELTA[4,18]  LB[4,18,0]  -23
+    DELTA[4,18]  LB[4,18,1]  16
+    DELTA[4,18]  LB[18,4,0]  -12
+    DELTA[4,18]  LB[18,4,1]  10
+    DELTA[4,18]  UB[4,18,0]  12
+    DELTA[4,18]  UB[4,18,1]  -10
+    DELTA[4,18]  UB[18,4,0]  23
+    DELTA[4,18]  UB[18,4,1]  -16
+    DELTA[4,18]  PM[4,18,0]  -350
+    DELTA[4,18]  PM[4,18,1]  350
+    DELTA[4,18]  PM[18,4,0]  -350
+    DELTA[4,18]  PM[18,4,1]  350
+    DELTA[4,18]  McCormick1[4,18]  -1
+    DELTA[4,18]  McCormick1[18,4]  -1
+    DELTA[4,18]  McCormick2[4,18]  -1
+    DELTA[4,18]  McCormick2[18,4]  -1
+    DELTA[4,18]  McCormick3[4,18]  -1
+    DELTA[4,18]  McCormick3[18,4]  -1
+    DELTA[5,6]  LB[5,6,0]  -77
+    DELTA[5,6]  LB[5,6,1]  50
+    DELTA[5,6]  LB[6,5,0]  -123
+    DELTA[5,6]  LB[6,5,1]  118
+    DELTA[5,6]  UB[5,6,0]  123
+    DELTA[5,6]  UB[5,6,1]  -118
+    DELTA[5,6]  UB[6,5,0]  77
+    DELTA[5,6]  UB[6,5,1]  -50
+    DELTA[5,6]  PM[5,6,0]  -350
+    DELTA[5,6]  PM[5,6,1]  350
+    DELTA[5,6]  PM[6,5,0]  -350
+    DELTA[5,6]  PM[6,5,1]  350
+    DELTA[5,6]  McCormick1[5,6]  -1
+    DELTA[5,6]  McCormick1[6,5]  -1
+    DELTA[5,6]  McCormick2[5,6]  -1
+    DELTA[5,6]  McCormick2[6,5]  -1
+    DELTA[5,6]  McCormick3[5,6]  -1
+    DELTA[5,6]  McCormick3[6,5]  -1
+    DELTA[5,7]  LB[5,7,0]  -77
+    DELTA[5,7]  LB[5,7,1]  38
+    DELTA[5,7]  LB[7,5,0]  -30
+    DELTA[5,7]  LB[7,5,1]  33
+    DELTA[5,7]  UB[5,7,0]  30
+    DELTA[5,7]  UB[5,7,1]  -21
+    DELTA[5,7]  UB[7,5,0]  77
+    DELTA[5,7]  UB[7,5,1]  -50
+    DELTA[5,7]  PM[5,7,0]  -350
+    DELTA[5,7]  PM[5,7,1]  338
+    DELTA[5,7]  PM[7,5,0]  -350
+    DELTA[5,7]  PM[7,5,1]  350
+    DELTA[5,7]  McCormick1[5,7]  -1
+    DELTA[5,7]  McCormick1[7,5]  -1
+    DELTA[5,7]  McCormick2[5,7]  -1
+    DELTA[5,7]  McCormick2[7,5]  -1
+    DELTA[5,7]  McCormick3[5,7]  -1
+    DELTA[5,7]  McCormick3[7,5]  -1
+    DELTA[5,8]  LB[5,8,0]  -77
+    DELTA[5,8]  LB[5,8,1]  50
+    DELTA[5,8]  LB[8,5,0]  -118
+    DELTA[5,8]  LB[8,5,1]  41
+    DELTA[5,8]  UB[5,8,0]  118
+    DELTA[5,8]  UB[5,8,1]  -41
+    DELTA[5,8]  UB[8,5,0]  77
+    DELTA[5,8]  UB[8,5,1]  -50
+    DELTA[5,8]  PM[5,8,0]  -350
+    DELTA[5,8]  PM[5,8,1]  350
+    DELTA[5,8]  PM[8,5,0]  -350
+    DELTA[5,8]  PM[8,5,1]  350
+    DELTA[5,8]  McCormick1[5,8]  -1
+    DELTA[5,8]  McCormick1[8,5]  -1
+    DELTA[5,8]  McCormick2[5,8]  -1
+    DELTA[5,8]  McCormick2[8,5]  -1
+    DELTA[5,8]  McCormick3[5,8]  -1
+    DELTA[5,8]  McCormick3[8,5]  -1
+    DELTA[5,9]  LB[5,9,0]  -77
+    DELTA[5,9]  LB[5,9,1]  30
+    DELTA[5,9]  LB[9,5,0]  -94
+    DELTA[5,9]  LB[9,5,1]  147
+    DELTA[5,9]  UB[5,9,0]  94
+    DELTA[5,9]  UB[5,9,1]  -127
+    DELTA[5,9]  UB[9,5,0]  77
+    DELTA[5,9]  UB[9,5,1]  -50
+    DELTA[5,9]  PM[5,9,0]  -350
+    DELTA[5,9]  PM[5,9,1]  330
+    DELTA[5,9]  PM[9,5,0]  -350
+    DELTA[5,9]  PM[9,5,1]  350
+    DELTA[5,9]  McCormick1[5,9]  -1
+    DELTA[5,9]  McCormick1[9,5]  -1
+    DELTA[5,9]  McCormick2[5,9]  -1
+    DELTA[5,9]  McCormick2[9,5]  -1
+    DELTA[5,9]  McCormick3[5,9]  -1
+    DELTA[5,9]  McCormick3[9,5]  -1
+    DELTA[5,10]  LB[5,10,0]  -77
+    DELTA[5,10]  LB[5,10,1]  50
+    DELTA[5,10]  LB[10,5,0]  -31
+    DELTA[5,10]  LB[10,5,1]  12
+    DELTA[5,10]  UB[5,10,0]  31
+    DELTA[5,10]  UB[5,10,1]  -12
+    DELTA[5,10]  UB[10,5,0]  77
+    DELTA[5,10]  UB[10,5,1]  -50
+    DELTA[5,10]  PM[5,10,0]  -350
+    DELTA[5,10]  PM[5,10,1]  350
+    DELTA[5,10]  PM[10,5,0]  -350
+    DELTA[5,10]  PM[10,5,1]  350
+    DELTA[5,10]  McCormick1[5,10]  -1
+    DELTA[5,10]  McCormick1[10,5]  -1
+    DELTA[5,10]  McCormick2[5,10]  -1
+    DELTA[5,10]  McCormick2[10,5]  -1
+    DELTA[5,10]  McCormick3[5,10]  -1
+    DELTA[5,10]  McCormick3[10,5]  -1
+    DELTA[5,11]  LB[5,11,0]  -77
+    DELTA[5,11]  LB[5,11,1]  50
+    DELTA[5,11]  LB[11,5,0]  -205
+    DELTA[5,11]  LB[11,5,1]  55
+    DELTA[5,11]  UB[5,11,0]  234
+    DELTA[5,11]  UB[5,11,1]  -55
+    DELTA[5,11]  UB[11,5,0]  48
+    DELTA[5,11]  UB[11,5,1]  -50
+    DELTA[5,11]  PM[5,11,0]  -350
+    DELTA[5,11]  PM[5,11,1]  350
+    DELTA[5,11]  PM[11,5,0]  -321
+    DELTA[5,11]  PM[11,5,1]  350
+    DELTA[5,11]  McCormick1[5,11]  -1
+    DELTA[5,11]  McCormick1[11,5]  -1
+    DELTA[5,11]  McCormick2[5,11]  -1
+    DELTA[5,11]  McCormick2[11,5]  -1
+    DELTA[5,11]  McCormick3[5,11]  -1
+    DELTA[5,11]  McCormick3[11,5]  -1
+    DELTA[5,12]  LB[5,12,0]  -77
+    DELTA[5,12]  LB[5,12,1]  30
+    DELTA[5,12]  LB[12,5,0]  -65
+    DELTA[5,12]  LB[12,5,1]  143
+    DELTA[5,12]  UB[5,12,0]  94
+    DELTA[5,12]  UB[5,12,1]  -123
+    DELTA[5,12]  UB[12,5,0]  48
+    DELTA[5,12]  UB[12,5,1]  -50
+    DELTA[5,12]  PM[5,12,0]  -350
+    DELTA[5,12]  PM[5,12,1]  330
+    DELTA[5,12]  PM[12,5,0]  -321
+    DELTA[5,12]  PM[12,5,1]  350
+    DELTA[5,12]  McCormick1[5,12]  -1
+    DELTA[5,12]  McCormick1[12,5]  -1
+    DELTA[5,12]  McCormick2[5,12]  -1
+    DELTA[5,12]  McCormick2[12,5]  -1
+    DELTA[5,12]  McCormick3[5,12]  -1
+    DELTA[5,12]  McCormick3[12,5]  -1
+    DELTA[5,13]  LB[5,13,0]  -77
+    DELTA[5,13]  LB[5,13,1]  50
+    DELTA[5,13]  LB[13,5,0]  -61
+    DELTA[5,13]  LB[13,5,1]  97
+    DELTA[5,13]  UB[5,13,0]  90
+    DELTA[5,13]  UB[5,13,1]  -97
+    DELTA[5,13]  UB[13,5,0]  48
+    DELTA[5,13]  UB[13,5,1]  -50
+    DELTA[5,13]  PM[5,13,0]  -350
+    DELTA[5,13]  PM[5,13,1]  350
+    DELTA[5,13]  PM[13,5,0]  -321
+    DELTA[5,13]  PM[13,5,1]  350
+    DELTA[5,13]  McCormick1[5,13]  -1
+    DELTA[5,13]  McCormick1[13,5]  -1
+    DELTA[5,13]  McCormick2[5,13]  -1
+    DELTA[5,13]  McCormick2[13,5]  -1
+    DELTA[5,13]  McCormick3[5,13]  -1
+    DELTA[5,13]  McCormick3[13,5]  -1
+    DELTA[5,14]  LB[5,14,0]  -77
+    DELTA[5,14]  LB[5,14,1]  50
+    DELTA[5,14]  LB[14,5,0]  -26
+    DELTA[5,14]  LB[14,5,1]  14
+    DELTA[5,14]  UB[5,14,0]  26
+    DELTA[5,14]  UB[5,14,1]  -14
+    DELTA[5,14]  UB[14,5,0]  77
+    DELTA[5,14]  UB[14,5,1]  -50
+    DELTA[5,14]  PM[5,14,0]  -350
+    DELTA[5,14]  PM[5,14,1]  350
+    DELTA[5,14]  PM[14,5,0]  -350
+    DELTA[5,14]  PM[14,5,1]  350
+    DELTA[5,14]  McCormick1[5,14]  -1
+    DELTA[5,14]  McCormick1[14,5]  -1
+    DELTA[5,14]  McCormick2[5,14]  -1
+    DELTA[5,14]  McCormick2[14,5]  -1
+    DELTA[5,14]  McCormick3[5,14]  -1
+    DELTA[5,14]  McCormick3[14,5]  -1
+    DELTA[5,15]  LB[5,15,0]  -77
+    DELTA[5,15]  LB[5,15,1]  30
+    DELTA[5,15]  LB[15,5,0]  -56
+    DELTA[5,15]  LB[15,5,1]  175
+    DELTA[5,15]  UB[5,15,0]  85
+    DELTA[5,15]  UB[5,15,1]  -155
+    DELTA[5,15]  UB[15,5,0]  48
+    DELTA[5,15]  UB[15,5,1]  -50
+    DELTA[5,15]  PM[5,15,0]  -350
+    DELTA[5,15]  PM[5,15,1]  330
+    DELTA[5,15]  PM[15,5,0]  -321
+    DELTA[5,15]  PM[15,5,1]  350
+    DELTA[5,15]  McCormick1[5,15]  -1
+    DELTA[5,15]  McCormick1[15,5]  -1
+    DELTA[5,15]  McCormick2[5,15]  -1
+    DELTA[5,15]  McCormick2[15,5]  -1
+    DELTA[5,15]  McCormick3[5,15]  -1
+    DELTA[5,15]  McCormick3[15,5]  -1
+    DELTA[5,16]  LB[5,16,0]  -77
+    DELTA[5,16]  LB[5,16,1]  50
+    DELTA[5,16]  LB[16,5,0]  -103
+    DELTA[5,16]  LB[16,5,1]  123
+    DELTA[5,16]  UB[5,16,0]  132
+    DELTA[5,16]  UB[5,16,1]  -123
+    DELTA[5,16]  UB[16,5,0]  48
+    DELTA[5,16]  UB[16,5,1]  -50
+    DELTA[5,16]  PM[5,16,0]  -350
+    DELTA[5,16]  PM[5,16,1]  350
+    DELTA[5,16]  PM[16,5,0]  -321
+    DELTA[5,16]  PM[16,5,1]  350
+    DELTA[5,16]  McCormick1[5,16]  -1
+    DELTA[5,16]  McCormick1[16,5]  -1
+    DELTA[5,16]  McCormick2[5,16]  -1
+    DELTA[5,16]  McCormick2[16,5]  -1
+    DELTA[5,16]  McCormick3[5,16]  -1
+    DELTA[5,16]  McCormick3[16,5]  -1
+    DELTA[5,17]  LB[5,17,0]  -77
+    DELTA[5,17]  LB[5,17,1]  30
+    DELTA[5,17]  LB[17,5,0]  -124
+    DELTA[5,17]  LB[17,5,1]  142
+    DELTA[5,17]  UB[5,17,0]  153
+    DELTA[5,17]  UB[5,17,1]  -122
+    DELTA[5,17]  UB[17,5,0]  48
+    DELTA[5,17]  UB[17,5,1]  -50
+    DELTA[5,17]  PM[5,17,0]  -350
+    DELTA[5,17]  PM[5,17,1]  330
+    DELTA[5,17]  PM[17,5,0]  -321
+    DELTA[5,17]  PM[17,5,1]  350
+    DELTA[5,17]  McCormick1[5,17]  -1
+    DELTA[5,17]  McCormick1[17,5]  -1
+    DELTA[5,17]  McCormick2[5,17]  -1
+    DELTA[5,17]  McCormick2[17,5]  -1
+    DELTA[5,17]  McCormick3[5,17]  -1
+    DELTA[5,17]  McCormick3[17,5]  -1
+    DELTA[5,18]  LB[5,18,0]  -77
+    DELTA[5,18]  LB[5,18,1]  50
+    DELTA[5,18]  LB[18,5,0]  -12
+    DELTA[5,18]  LB[18,5,1]  10
+    DELTA[5,18]  UB[5,18,0]  12
+    DELTA[5,18]  UB[5,18,1]  -10
+    DELTA[5,18]  UB[18,5,0]  77
+    DELTA[5,18]  UB[18,5,1]  -50
+    DELTA[5,18]  PM[5,18,0]  -350
+    DELTA[5,18]  PM[5,18,1]  350
+    DELTA[5,18]  PM[18,5,0]  -350
+    DELTA[5,18]  PM[18,5,1]  350
+    DELTA[5,18]  McCormick1[5,18]  -1
+    DELTA[5,18]  McCormick1[18,5]  -1
+    DELTA[5,18]  McCormick2[5,18]  -1
+    DELTA[5,18]  McCormick2[18,5]  -1
+    DELTA[5,18]  McCormick3[5,18]  -1
+    DELTA[5,18]  McCormick3[18,5]  -1
+    DELTA[6,7]  LB[6,7,0]  -123
+    DELTA[6,7]  LB[6,7,1]  118
+    DELTA[6,7]  LB[7,6,0]  -30
+    DELTA[6,7]  LB[7,6,1]  33
+    DELTA[6,7]  UB[6,7,0]  30
+    DELTA[6,7]  UB[6,7,1]  -33
+    DELTA[6,7]  UB[7,6,0]  123
+    DELTA[6,7]  UB[7,6,1]  -118
+    DELTA[6,7]  PM[6,7,0]  -350
+    DELTA[6,7]  PM[6,7,1]  350
+    DELTA[6,7]  PM[7,6,0]  -350
+    DELTA[6,7]  PM[7,6,1]  350
+    DELTA[6,7]  McCormick1[6,7]  -1
+    DELTA[6,7]  McCormick1[7,6]  -1
+    DELTA[6,7]  McCormick2[6,7]  -1
+    DELTA[6,7]  McCormick2[7,6]  -1
+    DELTA[6,7]  McCormick3[6,7]  -1
+    DELTA[6,7]  McCormick3[7,6]  -1
+    DELTA[6,8]  LB[6,8,0]  -123
+    DELTA[6,8]  LB[6,8,1]  118
+    DELTA[6,8]  LB[8,6,0]  -118
+    DELTA[6,8]  LB[8,6,1]  41
+    DELTA[6,8]  UB[6,8,0]  118
+    DELTA[6,8]  UB[6,8,1]  -41
+    DELTA[6,8]  UB[8,6,0]  123
+    DELTA[6,8]  UB[8,6,1]  -118
+    DELTA[6,8]  PM[6,8,0]  -350
+    DELTA[6,8]  PM[6,8,1]  350
+    DELTA[6,8]  PM[8,6,0]  -350
+    DELTA[6,8]  PM[8,6,1]  350
+    DELTA[6,8]  McCormick1[6,8]  -1
+    DELTA[6,8]  McCormick1[8,6]  -1
+    DELTA[6,8]  McCormick2[6,8]  -1
+    DELTA[6,8]  McCormick2[8,6]  -1
+    DELTA[6,8]  McCormick3[6,8]  -1
+    DELTA[6,8]  McCormick3[8,6]  -1
+    DELTA[6,9]  LB[6,9,0]  -123
+    DELTA[6,9]  LB[6,9,1]  118
+    DELTA[6,9]  LB[9,6,0]  -94
+    DELTA[6,9]  LB[9,6,1]  147
+    DELTA[6,9]  UB[6,9,0]  94
+    DELTA[6,9]  UB[6,9,1]  -147
+    DELTA[6,9]  UB[9,6,0]  123
+    DELTA[6,9]  UB[9,6,1]  -118
+    DELTA[6,9]  PM[6,9,0]  -350
+    DELTA[6,9]  PM[6,9,1]  350
+    DELTA[6,9]  PM[9,6,0]  -350
+    DELTA[6,9]  PM[9,6,1]  350
+    DELTA[6,9]  McCormick1[6,9]  -1
+    DELTA[6,9]  McCormick1[9,6]  -1
+    DELTA[6,9]  McCormick2[6,9]  -1
+    DELTA[6,9]  McCormick2[9,6]  -1
+    DELTA[6,9]  McCormick3[6,9]  -1
+    DELTA[6,9]  McCormick3[9,6]  -1
+    DELTA[6,10]  LB[6,10,0]  -123
+    DELTA[6,10]  LB[6,10,1]  118
+    DELTA[6,10]  LB[10,6,0]  -31
+    DELTA[6,10]  LB[10,6,1]  12
+    DELTA[6,10]  UB[6,10,0]  31
+    DELTA[6,10]  UB[6,10,1]  -12
+    DELTA[6,10]  UB[10,6,0]  123
+    DELTA[6,10]  UB[10,6,1]  -118
+    DELTA[6,10]  PM[6,10,0]  -350
+    DELTA[6,10]  PM[6,10,1]  350
+    DELTA[6,10]  PM[10,6,0]  -350
+    DELTA[6,10]  PM[10,6,1]  350
+    DELTA[6,10]  McCormick1[6,10]  -1
+    DELTA[6,10]  McCormick1[10,6]  -1
+    DELTA[6,10]  McCormick2[6,10]  -1
+    DELTA[6,10]  McCormick2[10,6]  -1
+    DELTA[6,10]  McCormick3[6,10]  -1
+    DELTA[6,10]  McCormick3[10,6]  -1
+    DELTA[6,11]  LB[6,11,0]  -123
+    DELTA[6,11]  LB[6,11,1]  118
+    DELTA[6,11]  LB[11,6,0]  -175
+    DELTA[6,11]  LB[11,6,1]  55
+    DELTA[6,11]  UB[6,11,0]  234
+    DELTA[6,11]  UB[6,11,1]  -55
+    DELTA[6,11]  UB[11,6,0]  64
+    DELTA[6,11]  UB[11,6,1]  -118
+    DELTA[6,11]  PM[6,11,0]  -350
+    DELTA[6,11]  PM[6,11,1]  350
+    DELTA[6,11]  PM[11,6,0]  -291
+    DELTA[6,11]  PM[11,6,1]  350
+    DELTA[6,11]  McCormick1[6,11]  -1
+    DELTA[6,11]  McCormick1[11,6]  -1
+    DELTA[6,11]  McCormick2[6,11]  -1
+    DELTA[6,11]  McCormick2[11,6]  -1
+    DELTA[6,11]  McCormick3[6,11]  -1
+    DELTA[6,11]  McCormick3[11,6]  -1
+    DELTA[6,12]  LB[6,12,0]  -123
+    DELTA[6,12]  LB[6,12,1]  118
+    DELTA[6,12]  LB[12,6,0]  -53
+    DELTA[6,12]  LB[12,6,1]  143
+    DELTA[6,12]  UB[6,12,0]  94
+    DELTA[6,12]  UB[6,12,1]  -143
+    DELTA[6,12]  UB[12,6,0]  82
+    DELTA[6,12]  UB[12,6,1]  -118
+    DELTA[6,12]  PM[6,12,0]  -350
+    DELTA[6,12]  PM[6,12,1]  350
+    DELTA[6,12]  PM[12,6,0]  -309
+    DELTA[6,12]  PM[12,6,1]  350
+    DELTA[6,12]  McCormick1[6,12]  -1
+    DELTA[6,12]  McCormick1[12,6]  -1
+    DELTA[6,12]  McCormick2[6,12]  -1
+    DELTA[6,12]  McCormick2[12,6]  -1
+    DELTA[6,12]  McCormick3[6,12]  -1
+    DELTA[6,12]  McCormick3[12,6]  -1
+    DELTA[6,13]  LB[6,13,0]  -123
+    DELTA[6,13]  LB[6,13,1]  118
+    DELTA[6,13]  LB[13,6,0]  -51
+    DELTA[6,13]  LB[13,6,1]  97
+    DELTA[6,13]  UB[6,13,0]  90
+    DELTA[6,13]  UB[6,13,1]  -97
+    DELTA[6,13]  UB[13,6,0]  84
+    DELTA[6,13]  UB[13,6,1]  -118
+    DELTA[6,13]  PM[6,13,0]  -350
+    DELTA[6,13]  PM[6,13,1]  350
+    DELTA[6,13]  PM[13,6,0]  -311
+    DELTA[6,13]  PM[13,6,1]  350
+    DELTA[6,13]  McCormick1[6,13]  -1
+    DELTA[6,13]  McCormick1[13,6]  -1
+    DELTA[6,13]  McCormick2[6,13]  -1
+    DELTA[6,13]  McCormick2[13,6]  -1
+    DELTA[6,13]  McCormick3[6,13]  -1
+    DELTA[6,13]  McCormick3[13,6]  -1
+    DELTA[6,14]  LB[6,14,0]  -123
+    DELTA[6,14]  LB[6,14,1]  118
+    DELTA[6,14]  LB[14,6,0]  -26
+    DELTA[6,14]  LB[14,6,1]  14
+    DELTA[6,14]  UB[6,14,0]  26
+    DELTA[6,14]  UB[6,14,1]  -14
+    DELTA[6,14]  UB[14,6,0]  123
+    DELTA[6,14]  UB[14,6,1]  -118
+    DELTA[6,14]  PM[6,14,0]  -350
+    DELTA[6,14]  PM[6,14,1]  350
+    DELTA[6,14]  PM[14,6,0]  -350
+    DELTA[6,14]  PM[14,6,1]  350
+    DELTA[6,14]  McCormick1[6,14]  -1
+    DELTA[6,14]  McCormick1[14,6]  -1
+    DELTA[6,14]  McCormick2[6,14]  -1
+    DELTA[6,14]  McCormick2[14,6]  -1
+    DELTA[6,14]  McCormick3[6,14]  -1
+    DELTA[6,14]  McCormick3[14,6]  -1
+    DELTA[6,15]  LB[6,15,0]  -123
+    DELTA[6,15]  LB[6,15,1]  118
+    DELTA[6,15]  LB[15,6,0]  -43
+    DELTA[6,15]  LB[15,6,1]  175
+    DELTA[6,15]  UB[6,15,0]  85
+    DELTA[6,15]  UB[6,15,1]  -175
+    DELTA[6,15]  UB[15,6,0]  81
+    DELTA[6,15]  UB[15,6,1]  -118
+    DELTA[6,15]  PM[6,15,0]  -350
+    DELTA[6,15]  PM[6,15,1]  350
+    DELTA[6,15]  PM[15,6,0]  -308
+    DELTA[6,15]  PM[15,6,1]  350
+    DELTA[6,15]  McCormick1[6,15]  -1
+    DELTA[6,15]  McCormick1[15,6]  -1
+    DELTA[6,15]  McCormick2[6,15]  -1
+    DELTA[6,15]  McCormick2[15,6]  -1
+    DELTA[6,15]  McCormick3[6,15]  -1
+    DELTA[6,15]  McCormick3[15,6]  -1
+    DELTA[6,16]  LB[6,16,0]  -123
+    DELTA[6,16]  LB[6,16,1]  118
+    DELTA[6,16]  LB[16,6,0]  -96
+    DELTA[6,16]  LB[16,6,1]  123
+    DELTA[6,16]  UB[6,16,0]  132
+    DELTA[6,16]  UB[6,16,1]  -123
+    DELTA[6,16]  UB[16,6,0]  87
+    DELTA[6,16]  UB[16,6,1]  -118
+    DELTA[6,16]  PM[6,16,0]  -350
+    DELTA[6,16]  PM[6,16,1]  350
+    DELTA[6,16]  PM[16,6,0]  -314
+    DELTA[6,16]  PM[16,6,1]  350
+    DELTA[6,16]  McCormick1[6,16]  -1
+    DELTA[6,16]  McCormick1[16,6]  -1
+    DELTA[6,16]  McCormick2[6,16]  -1
+    DELTA[6,16]  McCormick2[16,6]  -1
+    DELTA[6,16]  McCormick3[6,16]  -1
+    DELTA[6,16]  McCormick3[16,6]  -1
+    DELTA[6,17]  LB[6,17,0]  -123
+    DELTA[6,17]  LB[6,17,1]  118
+    DELTA[6,17]  LB[17,6,0]  -96
+    DELTA[6,17]  LB[17,6,1]  142
+    DELTA[6,17]  UB[6,17,0]  153
+    DELTA[6,17]  UB[6,17,1]  -142
+    DELTA[6,17]  UB[17,6,0]  66
+    DELTA[6,17]  UB[17,6,1]  -118
+    DELTA[6,17]  PM[6,17,0]  -350
+    DELTA[6,17]  PM[6,17,1]  350
+    DELTA[6,17]  PM[17,6,0]  -293
+    DELTA[6,17]  PM[17,6,1]  350
+    DELTA[6,17]  McCormick1[6,17]  -1
+    DELTA[6,17]  McCormick1[17,6]  -1
+    DELTA[6,17]  McCormick2[6,17]  -1
+    DELTA[6,17]  McCormick2[17,6]  -1
+    DELTA[6,17]  McCormick3[6,17]  -1
+    DELTA[6,17]  McCormick3[17,6]  -1
+    DELTA[6,18]  LB[6,18,0]  -123
+    DELTA[6,18]  LB[6,18,1]  118
+    DELTA[6,18]  LB[18,6,0]  -12
+    DELTA[6,18]  LB[18,6,1]  10
+    DELTA[6,18]  UB[6,18,0]  12
+    DELTA[6,18]  UB[6,18,1]  -10
+    DELTA[6,18]  UB[18,6,0]  123
+    DELTA[6,18]  UB[18,6,1]  -118
+    DELTA[6,18]  PM[6,18,0]  -350
+    DELTA[6,18]  PM[6,18,1]  350
+    DELTA[6,18]  PM[18,6,0]  -350
+    DELTA[6,18]  PM[18,6,1]  350
+    DELTA[6,18]  McCormick1[6,18]  -1
+    DELTA[6,18]  McCormick1[18,6]  -1
+    DELTA[6,18]  McCormick2[6,18]  -1
+    DELTA[6,18]  McCormick2[18,6]  -1
+    DELTA[6,18]  McCormick3[6,18]  -1
+    DELTA[6,18]  McCormick3[18,6]  -1
+    DELTA[7,8]  LB[7,8,0]  -30
+    DELTA[7,8]  LB[7,8,1]  33
+    DELTA[7,8]  LB[8,7,0]  -118
+    DELTA[7,8]  LB[8,7,1]  41
+    DELTA[7,8]  UB[7,8,0]  118
+    DELTA[7,8]  UB[7,8,1]  -41
+    DELTA[7,8]  UB[8,7,0]  30
+    DELTA[7,8]  UB[8,7,1]  -33
+    DELTA[7,8]  PM[7,8,0]  -350
+    DELTA[7,8]  PM[7,8,1]  350
+    DELTA[7,8]  PM[8,7,0]  -350
+    DELTA[7,8]  PM[8,7,1]  350
+    DELTA[7,8]  McCormick1[7,8]  -1
+    DELTA[7,8]  McCormick1[8,7]  -1
+    DELTA[7,8]  McCormick2[7,8]  -1
+    DELTA[7,8]  McCormick2[8,7]  -1
+    DELTA[7,8]  McCormick3[7,8]  -1
+    DELTA[7,8]  McCormick3[8,7]  -1
+    DELTA[7,9]  LB[7,9,0]  -30
+    DELTA[7,9]  LB[7,9,1]  21
+    DELTA[7,9]  LB[9,7,0]  -94
+    DELTA[7,9]  LB[9,7,1]  135
+    DELTA[7,9]  UB[7,9,0]  94
+    DELTA[7,9]  UB[7,9,1]  -135
+    DELTA[7,9]  UB[9,7,0]  30
+    DELTA[7,9]  UB[9,7,1]  -21
+    DELTA[7,9]  PM[7,9,0]  -350
+    DELTA[7,9]  PM[7,9,1]  338
+    DELTA[7,9]  PM[9,7,0]  -350
+    DELTA[7,9]  PM[9,7,1]  338
+    DELTA[7,9]  McCormick1[7,9]  -1
+    DELTA[7,9]  McCormick1[9,7]  -1
+    DELTA[7,9]  McCormick2[7,9]  -1
+    DELTA[7,9]  McCormick2[9,7]  -1
+    DELTA[7,9]  McCormick3[7,9]  -1
+    DELTA[7,9]  McCormick3[9,7]  -1
+    DELTA[7,10]  LB[7,10,0]  -30
+    DELTA[7,10]  LB[7,10,1]  33
+    DELTA[7,10]  LB[10,7,0]  -31
+    DELTA[7,10]  LB[10,7,1]  12
+    DELTA[7,10]  UB[7,10,0]  31
+    DELTA[7,10]  UB[7,10,1]  -12
+    DELTA[7,10]  UB[10,7,0]  30
+    DELTA[7,10]  UB[10,7,1]  -33
+    DELTA[7,10]  PM[7,10,0]  -350
+    DELTA[7,10]  PM[7,10,1]  350
+    DELTA[7,10]  PM[10,7,0]  -350
+    DELTA[7,10]  PM[10,7,1]  350
+    DELTA[7,10]  McCormick1[7,10]  -1
+    DELTA[7,10]  McCormick1[10,7]  -1
+    DELTA[7,10]  McCormick2[7,10]  -1
+    DELTA[7,10]  McCormick2[10,7]  -1
+    DELTA[7,10]  McCormick3[7,10]  -1
+    DELTA[7,10]  McCormick3[10,7]  -1
+    DELTA[7,11]  LB[7,11,0]  -30
+    DELTA[7,11]  LB[7,11,1]  33
+    DELTA[7,11]  LB[11,7,0]  -221
+    DELTA[7,11]  LB[11,7,1]  55
+    DELTA[7,11]  UB[7,11,0]  234
+    DELTA[7,11]  UB[7,11,1]  -55
+    DELTA[7,11]  UB[11,7,0]  17
+    DELTA[7,11]  UB[11,7,1]  -33
+    DELTA[7,11]  PM[7,11,0]  -350
+    DELTA[7,11]  PM[7,11,1]  350
+    DELTA[7,11]  PM[11,7,0]  -337
+    DELTA[7,11]  PM[11,7,1]  350
+    DELTA[7,11]  McCormick1[7,11]  -1
+    DELTA[7,11]  McCormick1[11,7]  -1
+    DELTA[7,11]  McCormick2[7,11]  -1
+    DELTA[7,11]  McCormick2[11,7]  -1
+    DELTA[7,11]  McCormick3[7,11]  -1
+    DELTA[7,11]  McCormick3[11,7]  -1
+    DELTA[7,12]  LB[7,12,0]  -30
+    DELTA[7,12]  LB[7,12,1]  21
+    DELTA[7,12]  LB[12,7,0]  -81
+    DELTA[7,12]  LB[12,7,1]  131
+    DELTA[7,12]  UB[7,12,0]  94
+    DELTA[7,12]  UB[7,12,1]  -131
+    DELTA[7,12]  UB[12,7,0]  17
+    DELTA[7,12]  UB[12,7,1]  -21
+    DELTA[7,12]  PM[7,12,0]  -350
+    DELTA[7,12]  PM[7,12,1]  338
+    DELTA[7,12]  PM[12,7,0]  -337
+    DELTA[7,12]  PM[12,7,1]  338
+    DELTA[7,12]  McCormick1[7,12]  -1
+    DELTA[7,12]  McCormick1[12,7]  -1
+    DELTA[7,12]  McCormick2[7,12]  -1
+    DELTA[7,12]  McCormick2[12,7]  -1
+    DELTA[7,12]  McCormick3[7,12]  -1
+    DELTA[7,12]  McCormick3[12,7]  -1
+    DELTA[7,13]  LB[7,13,0]  -30
+    DELTA[7,13]  LB[7,13,1]  33
+    DELTA[7,13]  LB[13,7,0]  -77
+    DELTA[7,13]  LB[13,7,1]  85
+    DELTA[7,13]  UB[7,13,0]  90
+    DELTA[7,13]  UB[7,13,1]  -97
+    DELTA[7,13]  UB[13,7,0]  17
+    DELTA[7,13]  UB[13,7,1]  -21
+    DELTA[7,13]  PM[7,13,0]  -350
+    DELTA[7,13]  PM[7,13,1]  350
+    DELTA[7,13]  PM[13,7,0]  -337
+    DELTA[7,13]  PM[13,7,1]  338
+    DELTA[7,13]  McCormick1[7,13]  -1
+    DELTA[7,13]  McCormick1[13,7]  -1
+    DELTA[7,13]  McCormick2[7,13]  -1
+    DELTA[7,13]  McCormick2[13,7]  -1
+    DELTA[7,13]  McCormick3[7,13]  -1
+    DELTA[7,13]  McCormick3[13,7]  -1
+    DELTA[7,14]  LB[7,14,0]  -30
+    DELTA[7,14]  LB[7,14,1]  33
+    DELTA[7,14]  LB[14,7,0]  -26
+    DELTA[7,14]  LB[14,7,1]  14
+    DELTA[7,14]  UB[7,14,0]  26
+    DELTA[7,14]  UB[7,14,1]  -14
+    DELTA[7,14]  UB[14,7,0]  30
+    DELTA[7,14]  UB[14,7,1]  -33
+    DELTA[7,14]  PM[7,14,0]  -350
+    DELTA[7,14]  PM[7,14,1]  350
+    DELTA[7,14]  PM[14,7,0]  -350
+    DELTA[7,14]  PM[14,7,1]  350
+    DELTA[7,14]  McCormick1[7,14]  -1
+    DELTA[7,14]  McCormick1[14,7]  -1
+    DELTA[7,14]  McCormick2[7,14]  -1
+    DELTA[7,14]  McCormick2[14,7]  -1
+    DELTA[7,14]  McCormick3[7,14]  -1
+    DELTA[7,14]  McCormick3[14,7]  -1
+    DELTA[7,15]  LB[7,15,0]  -30
+    DELTA[7,15]  LB[7,15,1]  21
+    DELTA[7,15]  LB[15,7,0]  -72
+    DELTA[7,15]  LB[15,7,1]  163
+    DELTA[7,15]  UB[7,15,0]  85
+    DELTA[7,15]  UB[7,15,1]  -163
+    DELTA[7,15]  UB[15,7,0]  17
+    DELTA[7,15]  UB[15,7,1]  -21
+    DELTA[7,15]  PM[7,15,0]  -350
+    DELTA[7,15]  PM[7,15,1]  338
+    DELTA[7,15]  PM[15,7,0]  -337
+    DELTA[7,15]  PM[15,7,1]  338
+    DELTA[7,15]  McCormick1[7,15]  -1
+    DELTA[7,15]  McCormick1[15,7]  -1
+    DELTA[7,15]  McCormick2[7,15]  -1
+    DELTA[7,15]  McCormick2[15,7]  -1
+    DELTA[7,15]  McCormick3[7,15]  -1
+    DELTA[7,15]  McCormick3[15,7]  -1
+    DELTA[7,16]  LB[7,16,0]  -30
+    DELTA[7,16]  LB[7,16,1]  33
+    DELTA[7,16]  LB[16,7,0]  -119
+    DELTA[7,16]  LB[16,7,1]  123
+    DELTA[7,16]  UB[7,16,0]  132
+    DELTA[7,16]  UB[7,16,1]  -123
+    DELTA[7,16]  UB[16,7,0]  17
+    DELTA[7,16]  UB[16,7,1]  -33
+    DELTA[7,16]  PM[7,16,0]  -350
+    DELTA[7,16]  PM[7,16,1]  350
+    DELTA[7,16]  PM[16,7,0]  -337
+    DELTA[7,16]  PM[16,7,1]  350
+    DELTA[7,16]  McCormick1[7,16]  -1
+    DELTA[7,16]  McCormick1[16,7]  -1
+    DELTA[7,16]  McCormick2[7,16]  -1
+    DELTA[7,16]  McCormick2[16,7]  -1
+    DELTA[7,16]  McCormick3[7,16]  -1
+    DELTA[7,16]  McCormick3[16,7]  -1
+    DELTA[7,17]  LB[7,17,0]  -30
+    DELTA[7,17]  LB[7,17,1]  21
+    DELTA[7,17]  LB[17,7,0]  -140
+    DELTA[7,17]  LB[17,7,1]  130
+    DELTA[7,17]  UB[7,17,0]  153
+    DELTA[7,17]  UB[7,17,1]  -130
+    DELTA[7,17]  UB[17,7,0]  17
+    DELTA[7,17]  UB[17,7,1]  -21
+    DELTA[7,17]  PM[7,17,0]  -350
+    DELTA[7,17]  PM[7,17,1]  338
+    DELTA[7,17]  PM[17,7,0]  -337
+    DELTA[7,17]  PM[17,7,1]  338
+    DELTA[7,17]  McCormick1[7,17]  -1
+    DELTA[7,17]  McCormick1[17,7]  -1
+    DELTA[7,17]  McCormick2[7,17]  -1
+    DELTA[7,17]  McCormick2[17,7]  -1
+    DELTA[7,17]  McCormick3[7,17]  -1
+    DELTA[7,17]  McCormick3[17,7]  -1
+    DELTA[7,18]  LB[7,18,0]  -30
+    DELTA[7,18]  LB[7,18,1]  33
+    DELTA[7,18]  LB[18,7,0]  -12
+    DELTA[7,18]  LB[18,7,1]  4
+    DELTA[7,18]  UB[7,18,0]  12
+    DELTA[7,18]  UB[7,18,1]  -10
+    DELTA[7,18]  UB[18,7,0]  30
+    DELTA[7,18]  UB[18,7,1]  -27
+    DELTA[7,18]  PM[7,18,0]  -350
+    DELTA[7,18]  PM[7,18,1]  350
+    DELTA[7,18]  PM[18,7,0]  -350
+    DELTA[7,18]  PM[18,7,1]  344
+    DELTA[7,18]  McCormick1[7,18]  -1
+    DELTA[7,18]  McCormick1[18,7]  -1
+    DELTA[7,18]  McCormick2[7,18]  -1
+    DELTA[7,18]  McCormick2[18,7]  -1
+    DELTA[7,18]  McCormick3[7,18]  -1
+    DELTA[7,18]  McCormick3[18,7]  -1
+    DELTA[8,9]  LB[8,9,0]  -118
+    DELTA[8,9]  LB[8,9,1]  41
+    DELTA[8,9]  LB[9,8,0]  -94
+    DELTA[8,9]  LB[9,8,1]  147
+    DELTA[8,9]  UB[8,9,0]  94
+    DELTA[8,9]  UB[8,9,1]  -147
+    DELTA[8,9]  UB[9,8,0]  118
+    DELTA[8,9]  UB[9,8,1]  -41
+    DELTA[8,9]  PM[8,9,0]  -350
+    DELTA[8,9]  PM[8,9,1]  350
+    DELTA[8,9]  PM[9,8,0]  -350
+    DELTA[8,9]  PM[9,8,1]  350
+    DELTA[8,9]  McCormick1[8,9]  -1
+    DELTA[8,9]  McCormick1[9,8]  -1
+    DELTA[8,9]  McCormick2[8,9]  -1
+    DELTA[8,9]  McCormick2[9,8]  -1
+    DELTA[8,9]  McCormick3[8,9]  -1
+    DELTA[8,9]  McCormick3[9,8]  -1
+    DELTA[8,10]  LB[8,10,0]  -118
+    DELTA[8,10]  LB[8,10,1]  41
+    DELTA[8,10]  LB[10,8,0]  -31
+    DELTA[8,10]  LB[10,8,1]  12
+    DELTA[8,10]  UB[8,10,0]  31
+    DELTA[8,10]  UB[8,10,1]  -12
+    DELTA[8,10]  UB[10,8,0]  118
+    DELTA[8,10]  UB[10,8,1]  -41
+    DELTA[8,10]  PM[8,10,0]  -350
+    DELTA[8,10]  PM[8,10,1]  350
+    DELTA[8,10]  PM[10,8,0]  -350
+    DELTA[8,10]  PM[10,8,1]  350
+    DELTA[8,10]  McCormick1[8,10]  -1
+    DELTA[8,10]  McCormick1[10,8]  -1
+    DELTA[8,10]  McCormick2[8,10]  -1
+    DELTA[8,10]  McCormick2[10,8]  -1
+    DELTA[8,10]  McCormick3[8,10]  -1
+    DELTA[8,10]  McCormick3[10,8]  -1
+    DELTA[8,11]  LB[8,11,0]  -118
+    DELTA[8,11]  LB[8,11,1]  41
+    DELTA[8,11]  LB[11,8,0]  -234
+    DELTA[8,11]  LB[11,8,1]  55
+    DELTA[8,11]  UB[8,11,0]  234
+    DELTA[8,11]  UB[8,11,1]  -55
+    DELTA[8,11]  UB[11,8,0]  118
+    DELTA[8,11]  UB[11,8,1]  -41
+    DELTA[8,11]  PM[8,11,0]  -350
+    DELTA[8,11]  PM[8,11,1]  350
+    DELTA[8,11]  PM[11,8,0]  -350
+    DELTA[8,11]  PM[11,8,1]  350
+    DELTA[8,11]  McCormick1[8,11]  -1
+    DELTA[8,11]  McCormick1[11,8]  -1
+    DELTA[8,11]  McCormick2[8,11]  -1
+    DELTA[8,11]  McCormick2[11,8]  -1
+    DELTA[8,11]  McCormick3[8,11]  -1
+    DELTA[8,11]  McCormick3[11,8]  -1
+    DELTA[8,12]  LB[8,12,0]  -118
+    DELTA[8,12]  LB[8,12,1]  41
+    DELTA[8,12]  LB[12,8,0]  -94
+    DELTA[8,12]  LB[12,8,1]  143
+    DELTA[8,12]  UB[8,12,0]  94
+    DELTA[8,12]  UB[8,12,1]  -143
+    DELTA[8,12]  UB[12,8,0]  118
+    DELTA[8,12]  UB[12,8,1]  -41
+    DELTA[8,12]  PM[8,12,0]  -350
+    DELTA[8,12]  PM[8,12,1]  350
+    DELTA[8,12]  PM[12,8,0]  -350
+    DELTA[8,12]  PM[12,8,1]  350
+    DELTA[8,12]  McCormick1[8,12]  -1
+    DELTA[8,12]  McCormick1[12,8]  -1
+    DELTA[8,12]  McCormick2[8,12]  -1
+    DELTA[8,12]  McCormick2[12,8]  -1
+    DELTA[8,12]  McCormick3[8,12]  -1
+    DELTA[8,12]  McCormick3[12,8]  -1
+    DELTA[8,13]  LB[8,13,0]  -118
+    DELTA[8,13]  LB[8,13,1]  41
+    DELTA[8,13]  LB[13,8,0]  -90
+    DELTA[8,13]  LB[13,8,1]  97
+    DELTA[8,13]  UB[8,13,0]  90
+    DELTA[8,13]  UB[8,13,1]  -97
+    DELTA[8,13]  UB[13,8,0]  118
+    DELTA[8,13]  UB[13,8,1]  -41
+    DELTA[8,13]  PM[8,13,0]  -350
+    DELTA[8,13]  PM[8,13,1]  350
+    DELTA[8,13]  PM[13,8,0]  -350
+    DELTA[8,13]  PM[13,8,1]  350
+    DELTA[8,13]  McCormick1[8,13]  -1
+    DELTA[8,13]  McCormick1[13,8]  -1
+    DELTA[8,13]  McCormick2[8,13]  -1
+    DELTA[8,13]  McCormick2[13,8]  -1
+    DELTA[8,13]  McCormick3[8,13]  -1
+    DELTA[8,13]  McCormick3[13,8]  -1
+    DELTA[8,14]  LB[8,14,0]  -118
+    DELTA[8,14]  LB[8,14,1]  41
+    DELTA[8,14]  LB[14,8,0]  -26
+    DELTA[8,14]  LB[14,8,1]  14
+    DELTA[8,14]  UB[8,14,0]  26
+    DELTA[8,14]  UB[8,14,1]  -14
+    DELTA[8,14]  UB[14,8,0]  118
+    DELTA[8,14]  UB[14,8,1]  -41
+    DELTA[8,14]  PM[8,14,0]  -350
+    DELTA[8,14]  PM[8,14,1]  350
+    DELTA[8,14]  PM[14,8,0]  -350
+    DELTA[8,14]  PM[14,8,1]  350
+    DELTA[8,14]  McCormick1[8,14]  -1
+    DELTA[8,14]  McCormick1[14,8]  -1
+    DELTA[8,14]  McCormick2[8,14]  -1
+    DELTA[8,14]  McCormick2[14,8]  -1
+    DELTA[8,14]  McCormick3[8,14]  -1
+    DELTA[8,14]  McCormick3[14,8]  -1
+    DELTA[8,15]  LB[8,15,0]  -118
+    DELTA[8,15]  LB[8,15,1]  41
+    DELTA[8,15]  LB[15,8,0]  -85
+    DELTA[8,15]  LB[15,8,1]  175
+    DELTA[8,15]  UB[8,15,0]  85
+    DELTA[8,15]  UB[8,15,1]  -175
+    DELTA[8,15]  UB[15,8,0]  118
+    DELTA[8,15]  UB[15,8,1]  -41
+    DELTA[8,15]  PM[8,15,0]  -350
+    DELTA[8,15]  PM[8,15,1]  350
+    DELTA[8,15]  PM[15,8,0]  -350
+    DELTA[8,15]  PM[15,8,1]  350
+    DELTA[8,15]  McCormick1[8,15]  -1
+    DELTA[8,15]  McCormick1[15,8]  -1
+    DELTA[8,15]  McCormick2[8,15]  -1
+    DELTA[8,15]  McCormick2[15,8]  -1
+    DELTA[8,15]  McCormick3[8,15]  -1
+    DELTA[8,15]  McCormick3[15,8]  -1
+    DELTA[8,16]  LB[8,16,0]  -118
+    DELTA[8,16]  LB[8,16,1]  41
+    DELTA[8,16]  LB[16,8,0]  -132
+    DELTA[8,16]  LB[16,8,1]  123
+    DELTA[8,16]  UB[8,16,0]  132
+    DELTA[8,16]  UB[8,16,1]  -123
+    DELTA[8,16]  UB[16,8,0]  118
+    DELTA[8,16]  UB[16,8,1]  -41
+    DELTA[8,16]  PM[8,16,0]  -350
+    DELTA[8,16]  PM[8,16,1]  350
+    DELTA[8,16]  PM[16,8,0]  -350
+    DELTA[8,16]  PM[16,8,1]  350
+    DELTA[8,16]  McCormick1[8,16]  -1
+    DELTA[8,16]  McCormick1[16,8]  -1
+    DELTA[8,16]  McCormick2[8,16]  -1
+    DELTA[8,16]  McCormick2[16,8]  -1
+    DELTA[8,16]  McCormick3[8,16]  -1
+    DELTA[8,16]  McCormick3[16,8]  -1
+    DELTA[8,17]  LB[8,17,0]  -118
+    DELTA[8,17]  LB[8,17,1]  41
+    DELTA[8,17]  LB[17,8,0]  -153
+    DELTA[8,17]  LB[17,8,1]  142
+    DELTA[8,17]  UB[8,17,0]  153
+    DELTA[8,17]  UB[8,17,1]  -142
+    DELTA[8,17]  UB[17,8,0]  118
+    DELTA[8,17]  UB[17,8,1]  -41
+    DELTA[8,17]  PM[8,17,0]  -350
+    DELTA[8,17]  PM[8,17,1]  350
+    DELTA[8,17]  PM[17,8,0]  -350
+    DELTA[8,17]  PM[17,8,1]  350
+    DELTA[8,17]  McCormick1[8,17]  -1
+    DELTA[8,17]  McCormick1[17,8]  -1
+    DELTA[8,17]  McCormick2[8,17]  -1
+    DELTA[8,17]  McCormick2[17,8]  -1
+    DELTA[8,17]  McCormick3[8,17]  -1
+    DELTA[8,17]  McCormick3[17,8]  -1
+    DELTA[8,18]  LB[8,18,0]  -118
+    DELTA[8,18]  LB[8,18,1]  41
+    DELTA[8,18]  LB[18,8,0]  -12
+    DELTA[8,18]  LB[18,8,1]  10
+    DELTA[8,18]  UB[8,18,0]  12
+    DELTA[8,18]  UB[8,18,1]  -10
+    DELTA[8,18]  UB[18,8,0]  118
+    DELTA[8,18]  UB[18,8,1]  -41
+    DELTA[8,18]  PM[8,18,0]  -350
+    DELTA[8,18]  PM[8,18,1]  350
+    DELTA[8,18]  PM[18,8,0]  -350
+    DELTA[8,18]  PM[18,8,1]  350
+    DELTA[8,18]  McCormick1[8,18]  -1
+    DELTA[8,18]  McCormick1[18,8]  -1
+    DELTA[8,18]  McCormick2[8,18]  -1
+    DELTA[8,18]  McCormick2[18,8]  -1
+    DELTA[8,18]  McCormick3[8,18]  -1
+    DELTA[8,18]  McCormick3[18,8]  -1
+    DELTA[9,10]  LB[9,10,0]  -94
+    DELTA[9,10]  LB[9,10,1]  147
+    DELTA[9,10]  LB[10,9,0]  -31
+    DELTA[9,10]  LB[10,9,1]  12
+    DELTA[9,10]  UB[9,10,0]  31
+    DELTA[9,10]  UB[9,10,1]  -12
+    DELTA[9,10]  UB[10,9,0]  94
+    DELTA[9,10]  UB[10,9,1]  -147
+    DELTA[9,10]  PM[9,10,0]  -350
+    DELTA[9,10]  PM[9,10,1]  350
+    DELTA[9,10]  PM[10,9,0]  -350
+    DELTA[9,10]  PM[10,9,1]  350
+    DELTA[9,10]  McCormick1[9,10]  -1
+    DELTA[9,10]  McCormick1[10,9]  -1
+    DELTA[9,10]  McCormick2[9,10]  -1
+    DELTA[9,10]  McCormick2[10,9]  -1
+    DELTA[9,10]  McCormick3[9,10]  -1
+    DELTA[9,10]  McCormick3[10,9]  -1
+    DELTA[9,11]  LB[9,11,0]  -94
+    DELTA[9,11]  LB[9,11,1]  147
+    DELTA[9,11]  LB[11,9,0]  -175
+    DELTA[9,11]  LB[11,9,1]  55
+    DELTA[9,11]  UB[9,11,0]  234
+    DELTA[9,11]  UB[9,11,1]  -55
+    DELTA[9,11]  UB[11,9,0]  35
+    DELTA[9,11]  UB[11,9,1]  -147
+    DELTA[9,11]  PM[9,11,0]  -350
+    DELTA[9,11]  PM[9,11,1]  350
+    DELTA[9,11]  PM[11,9,0]  -291
+    DELTA[9,11]  PM[11,9,1]  350
+    DELTA[9,11]  McCormick1[9,11]  -1
+    DELTA[9,11]  McCormick1[11,9]  -1
+    DELTA[9,11]  McCormick2[9,11]  -1
+    DELTA[9,11]  McCormick2[11,9]  -1
+    DELTA[9,11]  McCormick3[9,11]  -1
+    DELTA[9,11]  McCormick3[11,9]  -1
+    DELTA[9,12]  LB[9,12,0]  -94
+    DELTA[9,12]  LB[9,12,1]  103
+    DELTA[9,12]  LB[12,9,0]  -53
+    DELTA[9,12]  LB[12,9,1]  108
+    DELTA[9,12]  UB[9,12,0]  94
+    DELTA[9,12]  UB[9,12,1]  -99
+    DELTA[9,12]  UB[12,9,0]  53
+    DELTA[9,12]  UB[12,9,1]  -112
+    DELTA[9,12]  PM[9,12,0]  -350
+    DELTA[9,12]  PM[9,12,1]  306
+    DELTA[9,12]  PM[12,9,0]  -309
+    DELTA[9,12]  PM[12,9,1]  315
+    DELTA[9,12]  McCormick1[9,12]  -1
+    DELTA[9,12]  McCormick1[12,9]  -1
+    DELTA[9,12]  McCormick2[9,12]  -1
+    DELTA[9,12]  McCormick2[12,9]  -1
+    DELTA[9,12]  McCormick3[9,12]  -1
+    DELTA[9,12]  McCormick3[12,9]  -1
+    DELTA[9,13]  LB[9,13,0]  -94
+    DELTA[9,13]  LB[9,13,1]  147
+    DELTA[9,13]  LB[13,9,0]  -51
+    DELTA[9,13]  LB[13,9,1]  64
+    DELTA[9,13]  UB[9,13,0]  90
+    DELTA[9,13]  UB[9,13,1]  -97
+    DELTA[9,13]  UB[13,9,0]  55
+    DELTA[9,13]  UB[13,9,1]  -114
+    DELTA[9,13]  PM[9,13,0]  -350
+    DELTA[9,13]  PM[9,13,1]  350
+    DELTA[9,13]  PM[13,9,0]  -311
+    DELTA[9,13]  PM[13,9,1]  317
+    DELTA[9,13]  McCormick1[9,13]  -1
+    DELTA[9,13]  McCormick1[13,9]  -1
+    DELTA[9,13]  McCormick2[9,13]  -1
+    DELTA[9,13]  McCormick2[13,9]  -1
+    DELTA[9,13]  McCormick3[9,13]  -1
+    DELTA[9,13]  McCormick3[13,9]  -1
+    DELTA[9,14]  LB[9,14,0]  -94
+    DELTA[9,14]  LB[9,14,1]  147
+    DELTA[9,14]  LB[14,9,0]  -26
+    DELTA[9,14]  LB[14,9,1]  14
+    DELTA[9,14]  UB[9,14,0]  26
+    DELTA[9,14]  UB[9,14,1]  -14
+    DELTA[9,14]  UB[14,9,0]  94
+    DELTA[9,14]  UB[14,9,1]  -147
+    DELTA[9,14]  PM[9,14,0]  -350
+    DELTA[9,14]  PM[9,14,1]  350
+    DELTA[9,14]  PM[14,9,0]  -350
+    DELTA[9,14]  PM[14,9,1]  350
+    DELTA[9,14]  McCormick1[9,14]  -1
+    DELTA[9,14]  McCormick1[14,9]  -1
+    DELTA[9,14]  McCormick2[9,14]  -1
+    DELTA[9,14]  McCormick2[14,9]  -1
+    DELTA[9,14]  McCormick3[9,14]  -1
+    DELTA[9,14]  McCormick3[14,9]  -1
+    DELTA[9,15]  LB[9,15,0]  -94
+    DELTA[9,15]  LB[9,15,1]  99
+    DELTA[9,15]  LB[15,9,0]  -43
+    DELTA[9,15]  LB[15,9,1]  140
+    DELTA[9,15]  UB[9,15,0]  85
+    DELTA[9,15]  UB[9,15,1]  -127
+    DELTA[9,15]  UB[15,9,0]  52
+    DELTA[9,15]  UB[15,9,1]  -112
+    DELTA[9,15]  PM[9,15,0]  -350
+    DELTA[9,15]  PM[9,15,1]  302
+    DELTA[9,15]  PM[15,9,0]  -308
+    DELTA[9,15]  PM[15,9,1]  315
+    DELTA[9,15]  McCormick1[9,15]  -1
+    DELTA[9,15]  McCormick1[15,9]  -1
+    DELTA[9,15]  McCormick2[9,15]  -1
+    DELTA[9,15]  McCormick2[15,9]  -1
+    DELTA[9,15]  McCormick3[9,15]  -1
+    DELTA[9,15]  McCormick3[15,9]  -1
+    DELTA[9,16]  LB[9,16,0]  -94
+    DELTA[9,16]  LB[9,16,1]  147
+    DELTA[9,16]  LB[16,9,0]  -96
+    DELTA[9,16]  LB[16,9,1]  123
+    DELTA[9,16]  UB[9,16,0]  132
+    DELTA[9,16]  UB[9,16,1]  -123
+    DELTA[9,16]  UB[16,9,0]  58
+    DELTA[9,16]  UB[16,9,1]  -147
+    DELTA[9,16]  PM[9,16,0]  -350
+    DELTA[9,16]  PM[9,16,1]  350
+    DELTA[9,16]  PM[16,9,0]  -314
+    DELTA[9,16]  PM[16,9,1]  350
+    DELTA[9,16]  McCormick1[9,16]  -1
+    DELTA[9,16]  McCormick1[16,9]  -1
+    DELTA[9,16]  McCormick2[9,16]  -1
+    DELTA[9,16]  McCormick2[16,9]  -1
+    DELTA[9,16]  McCormick3[9,16]  -1
+    DELTA[9,16]  McCormick3[16,9]  -1
+    DELTA[9,17]  LB[9,17,0]  -94
+    DELTA[9,17]  LB[9,17,1]  111
+    DELTA[9,17]  LB[17,9,0]  -96
+    DELTA[9,17]  LB[17,9,1]  107
+    DELTA[9,17]  UB[9,17,0]  153
+    DELTA[9,17]  UB[9,17,1]  -106
+    DELTA[9,17]  UB[17,9,0]  37
+    DELTA[9,17]  UB[17,9,1]  -112
+    DELTA[9,17]  PM[9,17,0]  -350
+    DELTA[9,17]  PM[9,17,1]  314
+    DELTA[9,17]  PM[17,9,0]  -293
+    DELTA[9,17]  PM[17,9,1]  315
+    DELTA[9,17]  McCormick1[9,17]  -1
+    DELTA[9,17]  McCormick1[17,9]  -1
+    DELTA[9,17]  McCormick2[9,17]  -1
+    DELTA[9,17]  McCormick2[17,9]  -1
+    DELTA[9,17]  McCormick3[9,17]  -1
+    DELTA[9,17]  McCormick3[17,9]  -1
+    DELTA[9,18]  LB[9,18,0]  -94
+    DELTA[9,18]  LB[9,18,1]  147
+    DELTA[9,18]  LB[18,9,0]  -12
+    DELTA[9,18]  LB[18,9,1]  4
+    DELTA[9,18]  UB[9,18,0]  12
+    DELTA[9,18]  UB[9,18,1]  -10
+    DELTA[9,18]  UB[18,9,0]  94
+    DELTA[9,18]  UB[18,9,1]  -141
+    DELTA[9,18]  PM[9,18,0]  -350
+    DELTA[9,18]  PM[9,18,1]  350
+    DELTA[9,18]  PM[18,9,0]  -350
+    DELTA[9,18]  PM[18,9,1]  344
+    DELTA[9,18]  McCormick1[9,18]  -1
+    DELTA[9,18]  McCormick1[18,9]  -1
+    DELTA[9,18]  McCormick2[9,18]  -1
+    DELTA[9,18]  McCormick2[18,9]  -1
+    DELTA[9,18]  McCormick3[9,18]  -1
+    DELTA[9,18]  McCormick3[18,9]  -1
+    DELTA[10,11]  LB[10,11,0]  -31
+    DELTA[10,11]  LB[10,11,1]  12
+    DELTA[10,11]  LB[11,10,0]  -223
+    DELTA[10,11]  LB[11,10,1]  55
+    DELTA[10,11]  UB[10,11,0]  234
+    DELTA[10,11]  UB[10,11,1]  -55
+    DELTA[10,11]  UB[11,10,0]  20
+    DELTA[10,11]  UB[11,10,1]  -12
+    DELTA[10,11]  PM[10,11,0]  -350
+    DELTA[10,11]  PM[10,11,1]  350
+    DELTA[10,11]  PM[11,10,0]  -339
+    DELTA[10,11]  PM[11,10,1]  350
+    DELTA[10,11]  McCormick1[10,11]  -1
+    DELTA[10,11]  McCormick1[11,10]  -1
+    DELTA[10,11]  McCormick2[10,11]  -1
+    DELTA[10,11]  McCormick2[11,10]  -1
+    DELTA[10,11]  McCormick3[10,11]  -1
+    DELTA[10,11]  McCormick3[11,10]  -1
+    DELTA[10,12]  LB[10,12,0]  -31
+    DELTA[10,12]  LB[10,12,1]  12
+    DELTA[10,12]  LB[12,10,0]  -83
+    DELTA[10,12]  LB[12,10,1]  143
+    DELTA[10,12]  UB[10,12,0]  94
+    DELTA[10,12]  UB[10,12,1]  -143
+    DELTA[10,12]  UB[12,10,0]  20
+    DELTA[10,12]  UB[12,10,1]  -12
+    DELTA[10,12]  PM[10,12,0]  -350
+    DELTA[10,12]  PM[10,12,1]  350
+    DELTA[10,12]  PM[12,10,0]  -339
+    DELTA[10,12]  PM[12,10,1]  350
+    DELTA[10,12]  McCormick1[10,12]  -1
+    DELTA[10,12]  McCormick1[12,10]  -1
+    DELTA[10,12]  McCormick2[10,12]  -1
+    DELTA[10,12]  McCormick2[12,10]  -1
+    DELTA[10,12]  McCormick3[10,12]  -1
+    DELTA[10,12]  McCormick3[12,10]  -1
+    DELTA[10,13]  LB[10,13,0]  -31
+    DELTA[10,13]  LB[10,13,1]  12
+    DELTA[10,13]  LB[13,10,0]  -79
+    DELTA[10,13]  LB[13,10,1]  97
+    DELTA[10,13]  UB[10,13,0]  90
+    DELTA[10,13]  UB[10,13,1]  -97
+    DELTA[10,13]  UB[13,10,0]  20
+    DELTA[10,13]  UB[13,10,1]  -12
+    DELTA[10,13]  PM[10,13,0]  -350
+    DELTA[10,13]  PM[10,13,1]  350
+    DELTA[10,13]  PM[13,10,0]  -339
+    DELTA[10,13]  PM[13,10,1]  350
+    DELTA[10,13]  McCormick1[10,13]  -1
+    DELTA[10,13]  McCormick1[13,10]  -1
+    DELTA[10,13]  McCormick2[10,13]  -1
+    DELTA[10,13]  McCormick2[13,10]  -1
+    DELTA[10,13]  McCormick3[10,13]  -1
+    DELTA[10,13]  McCormick3[13,10]  -1
+    DELTA[10,14]  LB[10,14,0]  -31
+    DELTA[10,14]  LB[10,14,1]  12
+    DELTA[10,14]  LB[14,10,0]  -26
+    DELTA[10,14]  LB[14,10,1]  14
+    DELTA[10,14]  UB[10,14,0]  26
+    DELTA[10,14]  UB[10,14,1]  -14
+    DELTA[10,14]  UB[14,10,0]  31
+    DELTA[10,14]  UB[14,10,1]  -12
+    DELTA[10,14]  PM[10,14,0]  -350
+    DELTA[10,14]  PM[10,14,1]  350
+    DELTA[10,14]  PM[14,10,0]  -350
+    DELTA[10,14]  PM[14,10,1]  350
+    DELTA[10,14]  McCormick1[10,14]  -1
+    DELTA[10,14]  McCormick1[14,10]  -1
+    DELTA[10,14]  McCormick2[10,14]  -1
+    DELTA[10,14]  McCormick2[14,10]  -1
+    DELTA[10,14]  McCormick3[10,14]  -1
+    DELTA[10,14]  McCormick3[14,10]  -1
+    DELTA[10,15]  LB[10,15,0]  -31
+    DELTA[10,15]  LB[10,15,1]  12
+    DELTA[10,15]  LB[15,10,0]  -74
+    DELTA[10,15]  LB[15,10,1]  175
+    DELTA[10,15]  UB[10,15,0]  85
+    DELTA[10,15]  UB[10,15,1]  -175
+    DELTA[10,15]  UB[15,10,0]  20
+    DELTA[10,15]  UB[15,10,1]  -12
+    DELTA[10,15]  PM[10,15,0]  -350
+    DELTA[10,15]  PM[10,15,1]  350
+    DELTA[10,15]  PM[15,10,0]  -339
+    DELTA[10,15]  PM[15,10,1]  350
+    DELTA[10,15]  McCormick1[10,15]  -1
+    DELTA[10,15]  McCormick1[15,10]  -1
+    DELTA[10,15]  McCormick2[10,15]  -1
+    DELTA[10,15]  McCormick2[15,10]  -1
+    DELTA[10,15]  McCormick3[10,15]  -1
+    DELTA[10,15]  McCormick3[15,10]  -1
+    DELTA[10,16]  LB[10,16,0]  -31
+    DELTA[10,16]  LB[10,16,1]  12
+    DELTA[10,16]  LB[16,10,0]  -121
+    DELTA[10,16]  LB[16,10,1]  123
+    DELTA[10,16]  UB[10,16,0]  132
+    DELTA[10,16]  UB[10,16,1]  -123
+    DELTA[10,16]  UB[16,10,0]  20
+    DELTA[10,16]  UB[16,10,1]  -12
+    DELTA[10,16]  PM[10,16,0]  -350
+    DELTA[10,16]  PM[10,16,1]  350
+    DELTA[10,16]  PM[16,10,0]  -339
+    DELTA[10,16]  PM[16,10,1]  350
+    DELTA[10,16]  McCormick1[10,16]  -1
+    DELTA[10,16]  McCormick1[16,10]  -1
+    DELTA[10,16]  McCormick2[10,16]  -1
+    DELTA[10,16]  McCormick2[16,10]  -1
+    DELTA[10,16]  McCormick3[10,16]  -1
+    DELTA[10,16]  McCormick3[16,10]  -1
+    DELTA[10,17]  LB[10,17,0]  -31
+    DELTA[10,17]  LB[10,17,1]  12
+    DELTA[10,17]  LB[17,10,0]  -142
+    DELTA[10,17]  LB[17,10,1]  142
+    DELTA[10,17]  UB[10,17,0]  153
+    DELTA[10,17]  UB[10,17,1]  -142
+    DELTA[10,17]  UB[17,10,0]  20
+    DELTA[10,17]  UB[17,10,1]  -12
+    DELTA[10,17]  PM[10,17,0]  -350
+    DELTA[10,17]  PM[10,17,1]  350
+    DELTA[10,17]  PM[17,10,0]  -339
+    DELTA[10,17]  PM[17,10,1]  350
+    DELTA[10,17]  McCormick1[10,17]  -1
+    DELTA[10,17]  McCormick1[17,10]  -1
+    DELTA[10,17]  McCormick2[10,17]  -1
+    DELTA[10,17]  McCormick2[17,10]  -1
+    DELTA[10,17]  McCormick3[10,17]  -1
+    DELTA[10,17]  McCormick3[17,10]  -1
+    DELTA[10,18]  LB[10,18,0]  -31
+    DELTA[10,18]  LB[10,18,1]  12
+    DELTA[10,18]  LB[18,10,0]  -12
+    DELTA[10,18]  LB[18,10,1]  10
+    DELTA[10,18]  UB[10,18,0]  12
+    DELTA[10,18]  UB[10,18,1]  -10
+    DELTA[10,18]  UB[18,10,0]  31
+    DELTA[10,18]  UB[18,10,1]  -12
+    DELTA[10,18]  PM[10,18,0]  -350
+    DELTA[10,18]  PM[10,18,1]  350
+    DELTA[10,18]  PM[18,10,0]  -350
+    DELTA[10,18]  PM[18,10,1]  350
+    DELTA[10,18]  McCormick1[10,18]  -1
+    DELTA[10,18]  McCormick1[18,10]  -1
+    DELTA[10,18]  McCormick2[10,18]  -1
+    DELTA[10,18]  McCormick2[18,10]  -1
+    DELTA[10,18]  McCormick3[10,18]  -1
+    DELTA[10,18]  McCormick3[18,10]  -1
+    DELTA[11,12]  LB[11,12,0]  -234
+    DELTA[11,12]  LB[11,12,1]  55
+    DELTA[11,12]  LB[12,11,0]  -53
+    DELTA[11,12]  LB[12,11,1]  143
+    DELTA[11,12]  UB[11,12,0]  94
+    DELTA[11,12]  UB[11,12,1]  -143
+    DELTA[11,12]  UB[12,11,0]  193
+    DELTA[11,12]  UB[12,11,1]  -55
+    DELTA[11,12]  PM[11,12,0]  -350
+    DELTA[11,12]  PM[11,12,1]  350
+    DELTA[11,12]  PM[12,11,0]  -309
+    DELTA[11,12]  PM[12,11,1]  350
+    DELTA[11,12]  McCormick1[11,12]  -1
+    DELTA[11,12]  McCormick1[12,11]  -1
+    DELTA[11,12]  McCormick2[11,12]  -1
+    DELTA[11,12]  McCormick2[12,11]  -1
+    DELTA[11,12]  McCormick3[11,12]  -1
+    DELTA[11,12]  McCormick3[12,11]  -1
+    DELTA[11,13]  LB[11,13,0]  -234
+    DELTA[11,13]  LB[11,13,1]  55
+    DELTA[11,13]  LB[13,11,0]  -51
+    DELTA[11,13]  LB[13,11,1]  97
+    DELTA[11,13]  UB[11,13,0]  90
+    DELTA[11,13]  UB[11,13,1]  -97
+    DELTA[11,13]  UB[13,11,0]  195
+    DELTA[11,13]  UB[13,11,1]  -55
+    DELTA[11,13]  PM[11,13,0]  -350
+    DELTA[11,13]  PM[11,13,1]  350
+    DELTA[11,13]  PM[13,11,0]  -311
+    DELTA[11,13]  PM[13,11,1]  350
+    DELTA[11,13]  McCormick1[11,13]  -1
+    DELTA[11,13]  McCormick1[13,11]  -1
+    DELTA[11,13]  McCormick2[11,13]  -1
+    DELTA[11,13]  McCormick2[13,11]  -1
+    DELTA[11,13]  McCormick3[11,13]  -1
+    DELTA[11,13]  McCormick3[13,11]  -1
+    DELTA[11,14]  LB[11,14,0]  -226
+    DELTA[11,14]  LB[11,14,1]  55
+    DELTA[11,14]  LB[14,11,0]  -26
+    DELTA[11,14]  LB[14,11,1]  14
+    DELTA[11,14]  UB[11,14,0]  18
+    DELTA[11,14]  UB[11,14,1]  -14
+    DELTA[11,14]  UB[14,11,0]  234
+    DELTA[11,14]  UB[14,11,1]  -55
+    DELTA[11,14]  PM[11,14,0]  -342
+    DELTA[11,14]  PM[11,14,1]  350
+    DELTA[11,14]  PM[14,11,0]  -350
+    DELTA[11,14]  PM[14,11,1]  350
+    DELTA[11,14]  McCormick1[11,14]  -1
+    DELTA[11,14]  McCormick1[14,11]  -1
+    DELTA[11,14]  McCormick2[11,14]  -1
+    DELTA[11,14]  McCormick2[14,11]  -1
+    DELTA[11,14]  McCormick3[11,14]  -1
+    DELTA[11,14]  McCormick3[14,11]  -1
+    DELTA[11,15]  LB[11,15,0]  -234
+    DELTA[11,15]  LB[11,15,1]  55
+    DELTA[11,15]  LB[15,11,0]  -43
+    DELTA[11,15]  LB[15,11,1]  175
+    DELTA[11,15]  UB[11,15,0]  85
+    DELTA[11,15]  UB[11,15,1]  -175
+    DELTA[11,15]  UB[15,11,0]  192
+    DELTA[11,15]  UB[15,11,1]  -55
+    DELTA[11,15]  PM[11,15,0]  -350
+    DELTA[11,15]  PM[11,15,1]  350
+    DELTA[11,15]  PM[15,11,0]  -308
+    DELTA[11,15]  PM[15,11,1]  350
+    DELTA[11,15]  McCormick1[11,15]  -1
+    DELTA[11,15]  McCormick1[15,11]  -1
+    DELTA[11,15]  McCormick2[11,15]  -1
+    DELTA[11,15]  McCormick2[15,11]  -1
+    DELTA[11,15]  McCormick3[11,15]  -1
+    DELTA[11,15]  McCormick3[15,11]  -1
+    DELTA[11,16]  LB[11,16,0]  -234
+    DELTA[11,16]  LB[11,16,1]  55
+    DELTA[11,16]  LB[16,11,0]  -96
+    DELTA[11,16]  LB[16,11,1]  123
+    DELTA[11,16]  UB[11,16,0]  132
+    DELTA[11,16]  UB[11,16,1]  -123
+    DELTA[11,16]  UB[16,11,0]  198
+    DELTA[11,16]  UB[16,11,1]  -55
+    DELTA[11,16]  PM[11,16,0]  -350
+    DELTA[11,16]  PM[11,16,1]  350
+    DELTA[11,16]  PM[16,11,0]  -314
+    DELTA[11,16]  PM[16,11,1]  350
+    DELTA[11,16]  McCormick1[11,16]  -1
+    DELTA[11,16]  McCormick1[16,11]  -1
+    DELTA[11,16]  McCormick2[11,16]  -1
+    DELTA[11,16]  McCormick2[16,11]  -1
+    DELTA[11,16]  McCormick3[11,16]  -1
+    DELTA[11,16]  McCormick3[16,11]  -1
+    DELTA[11,17]  LB[11,17,0]  -234
+    DELTA[11,17]  LB[11,17,1]  55
+    DELTA[11,17]  LB[17,11,0]  -96
+    DELTA[11,17]  LB[17,11,1]  142
+    DELTA[11,17]  UB[11,17,0]  153
+    DELTA[11,17]  UB[11,17,1]  -142
+    DELTA[11,17]  UB[17,11,0]  177
+    DELTA[11,17]  UB[17,11,1]  -55
+    DELTA[11,17]  PM[11,17,0]  -350
+    DELTA[11,17]  PM[11,17,1]  350
+    DELTA[11,17]  PM[17,11,0]  -293
+    DELTA[11,17]  PM[17,11,1]  350
+    DELTA[11,17]  McCormick1[11,17]  -1
+    DELTA[11,17]  McCormick1[17,11]  -1
+    DELTA[11,17]  McCormick2[11,17]  -1
+    DELTA[11,17]  McCormick2[17,11]  -1
+    DELTA[11,17]  McCormick3[11,17]  -1
+    DELTA[11,17]  McCormick3[17,11]  -1
+    DELTA[11,18]  LB[11,18,0]  -234
+    DELTA[11,18]  LB[11,18,1]  55
+    DELTA[11,18]  LB[18,11,0]  -12
+    DELTA[11,18]  LB[18,11,1]  10
+    DELTA[11,18]  UB[11,18,0]  12
+    DELTA[11,18]  UB[11,18,1]  -10
+    DELTA[11,18]  UB[18,11,0]  234
+    DELTA[11,18]  UB[18,11,1]  -55
+    DELTA[11,18]  PM[11,18,0]  -350
+    DELTA[11,18]  PM[11,18,1]  350
+    DELTA[11,18]  PM[18,11,0]  -350
+    DELTA[11,18]  PM[18,11,1]  350
+    DELTA[11,18]  McCormick1[11,18]  -1
+    DELTA[11,18]  McCormick1[18,11]  -1
+    DELTA[11,18]  McCormick2[11,18]  -1
+    DELTA[11,18]  McCormick2[18,11]  -1
+    DELTA[11,18]  McCormick3[11,18]  -1
+    DELTA[11,18]  McCormick3[18,11]  -1
+    DELTA[12,13]  LB[12,13,0]  -94
+    DELTA[12,13]  LB[12,13,1]  143
+    DELTA[12,13]  LB[13,12,0]  -90
+    DELTA[12,13]  LB[13,12,1]  64
+    DELTA[12,13]  UB[12,13,0]  90
+    DELTA[12,13]  UB[12,13,1]  -97
+    DELTA[12,13]  UB[13,12,0]  94
+    DELTA[12,13]  UB[13,12,1]  -110
+    DELTA[12,13]  PM[12,13,0]  -350
+    DELTA[12,13]  PM[12,13,1]  350
+    DELTA[12,13]  PM[13,12,0]  -350
+    DELTA[12,13]  PM[13,12,1]  317
+    DELTA[12,13]  McCormick1[12,13]  -1
+    DELTA[12,13]  McCormick1[13,12]  -1
+    DELTA[12,13]  McCormick2[12,13]  -1
+    DELTA[12,13]  McCormick2[13,12]  -1
+    DELTA[12,13]  McCormick3[12,13]  -1
+    DELTA[12,13]  McCormick3[13,12]  -1
+    DELTA[12,14]  LB[12,14,0]  -86
+    DELTA[12,14]  LB[12,14,1]  143
+    DELTA[12,14]  LB[14,12,0]  -26
+    DELTA[12,14]  LB[14,12,1]  14
+    DELTA[12,14]  UB[12,14,0]  18
+    DELTA[12,14]  UB[12,14,1]  -14
+    DELTA[12,14]  UB[14,12,0]  94
+    DELTA[12,14]  UB[14,12,1]  -143
+    DELTA[12,14]  PM[12,14,0]  -342
+    DELTA[12,14]  PM[12,14,1]  350
+    DELTA[12,14]  PM[14,12,0]  -350
+    DELTA[12,14]  PM[14,12,1]  350
+    DELTA[12,14]  McCormick1[12,14]  -1
+    DELTA[12,14]  McCormick1[14,12]  -1
+    DELTA[12,14]  McCormick2[12,14]  -1
+    DELTA[12,14]  McCormick2[14,12]  -1
+    DELTA[12,14]  McCormick3[12,14]  -1
+    DELTA[12,14]  McCormick3[14,12]  -1
+    DELTA[12,15]  LB[12,15,0]  -94
+    DELTA[12,15]  LB[12,15,1]  108
+    DELTA[12,15]  LB[15,12,0]  -85
+    DELTA[12,15]  LB[15,12,1]  131
+    DELTA[12,15]  UB[12,15,0]  85
+    DELTA[12,15]  UB[12,15,1]  -140
+    DELTA[12,15]  UB[15,12,0]  94
+    DELTA[12,15]  UB[15,12,1]  -99
+    DELTA[12,15]  PM[12,15,0]  -350
+    DELTA[12,15]  PM[12,15,1]  315
+    DELTA[12,15]  PM[15,12,0]  -350
+    DELTA[12,15]  PM[15,12,1]  306
+    DELTA[12,15]  McCormick1[12,15]  -1
+    DELTA[12,15]  McCormick1[15,12]  -1
+    DELTA[12,15]  McCormick2[12,15]  -1
+    DELTA[12,15]  McCormick2[15,12]  -1
+    DELTA[12,15]  McCormick3[12,15]  -1
+    DELTA[12,15]  McCormick3[15,12]  -1
+    DELTA[12,16]  LB[12,16,0]  -94
+    DELTA[12,16]  LB[12,16,1]  143
+    DELTA[12,16]  LB[16,12,0]  -132
+    DELTA[12,16]  LB[16,12,1]  123
+    DELTA[12,16]  UB[12,16,0]  132
+    DELTA[12,16]  UB[12,16,1]  -123
+    DELTA[12,16]  UB[16,12,0]  94
+    DELTA[12,16]  UB[16,12,1]  -143
+    DELTA[12,16]  PM[12,16,0]  -350
+    DELTA[12,16]  PM[12,16,1]  350
+    DELTA[12,16]  PM[16,12,0]  -350
+    DELTA[12,16]  PM[16,12,1]  350
+    DELTA[12,16]  McCormick1[12,16]  -1
+    DELTA[12,16]  McCormick1[16,12]  -1
+    DELTA[12,16]  McCormick2[12,16]  -1
+    DELTA[12,16]  McCormick2[16,12]  -1
+    DELTA[12,16]  McCormick3[12,16]  -1
+    DELTA[12,16]  McCormick3[16,12]  -1
+    DELTA[12,17]  LB[12,17,0]  -94
+    DELTA[12,17]  LB[12,17,1]  108
+    DELTA[12,17]  LB[17,12,0]  -153
+    DELTA[12,17]  LB[17,12,1]  98
+    DELTA[12,17]  UB[12,17,0]  153
+    DELTA[12,17]  UB[12,17,1]  -107
+    DELTA[12,17]  UB[17,12,0]  94
+    DELTA[12,17]  UB[17,12,1]  -99
+    DELTA[12,17]  PM[12,17,0]  -350
+    DELTA[12,17]  PM[12,17,1]  315
+    DELTA[12,17]  PM[17,12,0]  -350
+    DELTA[12,17]  PM[17,12,1]  306
+    DELTA[12,17]  McCormick1[12,17]  -1
+    DELTA[12,17]  McCormick1[17,12]  -1
+    DELTA[12,17]  McCormick2[12,17]  -1
+    DELTA[12,17]  McCormick2[17,12]  -1
+    DELTA[12,17]  McCormick3[12,17]  -1
+    DELTA[12,17]  McCormick3[17,12]  -1
+    DELTA[12,18]  LB[12,18,0]  -94
+    DELTA[12,18]  LB[12,18,1]  143
+    DELTA[12,18]  LB[18,12,0]  -12
+    DELTA[12,18]  LB[18,12,1]  4
+    DELTA[12,18]  UB[12,18,0]  12
+    DELTA[12,18]  UB[12,18,1]  -10
+    DELTA[12,18]  UB[18,12,0]  94
+    DELTA[12,18]  UB[18,12,1]  -137
+    DELTA[12,18]  PM[12,18,0]  -350
+    DELTA[12,18]  PM[12,18,1]  350
+    DELTA[12,18]  PM[18,12,0]  -350
+    DELTA[12,18]  PM[18,12,1]  344
+    DELTA[12,18]  McCormick1[12,18]  -1
+    DELTA[12,18]  McCormick1[18,12]  -1
+    DELTA[12,18]  McCormick2[12,18]  -1
+    DELTA[12,18]  McCormick2[18,12]  -1
+    DELTA[12,18]  McCormick3[12,18]  -1
+    DELTA[12,18]  McCormick3[18,12]  -1
+    DELTA[13,14]  LB[13,14,0]  -82
+    DELTA[13,14]  LB[13,14,1]  97
+    DELTA[13,14]  LB[14,13,0]  -26
+    DELTA[13,14]  LB[14,13,1]  14
+    DELTA[13,14]  UB[13,14,0]  18
+    DELTA[13,14]  UB[13,14,1]  -14
+    DELTA[13,14]  UB[14,13,0]  90
+    DELTA[13,14]  UB[14,13,1]  -97
+    DELTA[13,14]  PM[13,14,0]  -342
+    DELTA[13,14]  PM[13,14,1]  350
+    DELTA[13,14]  PM[14,13,0]  -350
+    DELTA[13,14]  PM[14,13,1]  350
+    DELTA[13,14]  McCormick1[13,14]  -1
+    DELTA[13,14]  McCormick1[14,13]  -1
+    DELTA[13,14]  McCormick2[13,14]  -1
+    DELTA[13,14]  McCormick2[14,13]  -1
+    DELTA[13,14]  McCormick3[13,14]  -1
+    DELTA[13,14]  McCormick3[14,13]  -1
+    DELTA[13,15]  LB[13,15,0]  -90
+    DELTA[13,15]  LB[13,15,1]  64
+    DELTA[13,15]  LB[15,13,0]  -85
+    DELTA[13,15]  LB[15,13,1]  175
+    DELTA[13,15]  UB[13,15,0]  85
+    DELTA[13,15]  UB[13,15,1]  -142
+    DELTA[13,15]  UB[15,13,0]  90
+    DELTA[13,15]  UB[15,13,1]  -97
+    DELTA[13,15]  PM[13,15,0]  -350
+    DELTA[13,15]  PM[13,15,1]  317
+    DELTA[13,15]  PM[15,13,0]  -350
+    DELTA[13,15]  PM[15,13,1]  350
+    DELTA[13,15]  McCormick1[13,15]  -1
+    DELTA[13,15]  McCormick1[15,13]  -1
+    DELTA[13,15]  McCormick2[13,15]  -1
+    DELTA[13,15]  McCormick2[15,13]  -1
+    DELTA[13,15]  McCormick3[13,15]  -1
+    DELTA[13,15]  McCormick3[15,13]  -1
+    DELTA[13,16]  LB[13,16,0]  -90
+    DELTA[13,16]  LB[13,16,1]  97
+    DELTA[13,16]  LB[16,13,0]  -132
+    DELTA[13,16]  LB[16,13,1]  123
+    DELTA[13,16]  UB[13,16,0]  132
+    DELTA[13,16]  UB[13,16,1]  -123
+    DELTA[13,16]  UB[16,13,0]  90
+    DELTA[13,16]  UB[16,13,1]  -97
+    DELTA[13,16]  PM[13,16,0]  -350
+    DELTA[13,16]  PM[13,16,1]  350
+    DELTA[13,16]  PM[16,13,0]  -350
+    DELTA[13,16]  PM[16,13,1]  350
+    DELTA[13,16]  McCormick1[13,16]  -1
+    DELTA[13,16]  McCormick1[16,13]  -1
+    DELTA[13,16]  McCormick2[13,16]  -1
+    DELTA[13,16]  McCormick2[16,13]  -1
+    DELTA[13,16]  McCormick3[13,16]  -1
+    DELTA[13,16]  McCormick3[16,13]  -1
+    DELTA[13,17]  LB[13,17,0]  -90
+    DELTA[13,17]  LB[13,17,1]  64
+    DELTA[13,17]  LB[17,13,0]  -153
+    DELTA[13,17]  LB[17,13,1]  142
+    DELTA[13,17]  UB[13,17,0]  153
+    DELTA[13,17]  UB[13,17,1]  -109
+    DELTA[13,17]  UB[17,13,0]  90
+    DELTA[13,17]  UB[17,13,1]  -97
+    DELTA[13,17]  PM[13,17,0]  -350
+    DELTA[13,17]  PM[13,17,1]  317
+    DELTA[13,17]  PM[17,13,0]  -350
+    DELTA[13,17]  PM[17,13,1]  350
+    DELTA[13,17]  McCormick1[13,17]  -1
+    DELTA[13,17]  McCormick1[17,13]  -1
+    DELTA[13,17]  McCormick2[13,17]  -1
+    DELTA[13,17]  McCormick2[17,13]  -1
+    DELTA[13,17]  McCormick3[13,17]  -1
+    DELTA[13,17]  McCormick3[17,13]  -1
+    DELTA[13,18]  LB[13,18,0]  -90
+    DELTA[13,18]  LB[13,18,1]  97
+    DELTA[13,18]  LB[18,13,0]  -12
+    DELTA[13,18]  LB[18,13,1]  10
+    DELTA[13,18]  UB[13,18,0]  12
+    DELTA[13,18]  UB[13,18,1]  -10
+    DELTA[13,18]  UB[18,13,0]  90
+    DELTA[13,18]  UB[18,13,1]  -97
+    DELTA[13,18]  PM[13,18,0]  -350
+    DELTA[13,18]  PM[13,18,1]  350
+    DELTA[13,18]  PM[18,13,0]  -350
+    DELTA[13,18]  PM[18,13,1]  350
+    DELTA[13,18]  McCormick1[13,18]  -1
+    DELTA[13,18]  McCormick1[18,13]  -1
+    DELTA[13,18]  McCormick2[13,18]  -1
+    DELTA[13,18]  McCormick2[18,13]  -1
+    DELTA[13,18]  McCormick3[13,18]  -1
+    DELTA[13,18]  McCormick3[18,13]  -1
+    DELTA[14,15]  LB[14,15,0]  -26
+    DELTA[14,15]  LB[14,15,1]  14
+    DELTA[14,15]  LB[15,14,0]  -77
+    DELTA[14,15]  LB[15,14,1]  175
+    DELTA[14,15]  UB[14,15,0]  85
+    DELTA[14,15]  UB[14,15,1]  -175
+    DELTA[14,15]  UB[15,14,0]  18
+    DELTA[14,15]  UB[15,14,1]  -14
+    DELTA[14,15]  PM[14,15,0]  -350
+    DELTA[14,15]  PM[14,15,1]  350
+    DELTA[14,15]  PM[15,14,0]  -342
+    DELTA[14,15]  PM[15,14,1]  350
+    DELTA[14,15]  McCormick1[14,15]  -1
+    DELTA[14,15]  McCormick1[15,14]  -1
+    DELTA[14,15]  McCormick2[14,15]  -1
+    DELTA[14,15]  McCormick2[15,14]  -1
+    DELTA[14,15]  McCormick3[14,15]  -1
+    DELTA[14,15]  McCormick3[15,14]  -1
+    DELTA[14,16]  LB[14,16,0]  -26
+    DELTA[14,16]  LB[14,16,1]  14
+    DELTA[14,16]  LB[16,14,0]  -124
+    DELTA[14,16]  LB[16,14,1]  123
+    DELTA[14,16]  UB[14,16,0]  132
+    DELTA[14,16]  UB[14,16,1]  -123
+    DELTA[14,16]  UB[16,14,0]  18
+    DELTA[14,16]  UB[16,14,1]  -14
+    DELTA[14,16]  PM[14,16,0]  -350
+    DELTA[14,16]  PM[14,16,1]  350
+    DELTA[14,16]  PM[16,14,0]  -342
+    DELTA[14,16]  PM[16,14,1]  350
+    DELTA[14,16]  McCormick1[14,16]  -1
+    DELTA[14,16]  McCormick1[16,14]  -1
+    DELTA[14,16]  McCormick2[14,16]  -1
+    DELTA[14,16]  McCormick2[16,14]  -1
+    DELTA[14,16]  McCormick3[14,16]  -1
+    DELTA[14,16]  McCormick3[16,14]  -1
+    DELTA[14,17]  LB[14,17,0]  -26
+    DELTA[14,17]  LB[14,17,1]  14
+    DELTA[14,17]  LB[17,14,0]  -145
+    DELTA[14,17]  LB[17,14,1]  142
+    DELTA[14,17]  UB[14,17,0]  153
+    DELTA[14,17]  UB[14,17,1]  -142
+    DELTA[14,17]  UB[17,14,0]  18
+    DELTA[14,17]  UB[17,14,1]  -14
+    DELTA[14,17]  PM[14,17,0]  -350
+    DELTA[14,17]  PM[14,17,1]  350
+    DELTA[14,17]  PM[17,14,0]  -342
+    DELTA[14,17]  PM[17,14,1]  350
+    DELTA[14,17]  McCormick1[14,17]  -1
+    DELTA[14,17]  McCormick1[17,14]  -1
+    DELTA[14,17]  McCormick2[14,17]  -1
+    DELTA[14,17]  McCormick2[17,14]  -1
+    DELTA[14,17]  McCormick3[14,17]  -1
+    DELTA[14,17]  McCormick3[17,14]  -1
+    DELTA[14,18]  LB[14,18,0]  -26
+    DELTA[14,18]  LB[14,18,1]  14
+    DELTA[14,18]  LB[18,14,0]  -12
+    DELTA[14,18]  LB[18,14,1]  10
+    DELTA[14,18]  UB[14,18,0]  12
+    DELTA[14,18]  UB[14,18,1]  -10
+    DELTA[14,18]  UB[18,14,0]  26
+    DELTA[14,18]  UB[18,14,1]  -14
+    DELTA[14,18]  PM[14,18,0]  -350
+    DELTA[14,18]  PM[14,18,1]  350
+    DELTA[14,18]  PM[18,14,0]  -350
+    DELTA[14,18]  PM[18,14,1]  350
+    DELTA[14,18]  McCormick1[14,18]  -1
+    DELTA[14,18]  McCormick1[18,14]  -1
+    DELTA[14,18]  McCormick2[14,18]  -1
+    DELTA[14,18]  McCormick2[18,14]  -1
+    DELTA[14,18]  McCormick3[14,18]  -1
+    DELTA[14,18]  McCormick3[18,14]  -1
+    DELTA[15,16]  LB[15,16,0]  -85
+    DELTA[15,16]  LB[15,16,1]  175
+    DELTA[15,16]  LB[16,15,0]  -132
+    DELTA[15,16]  LB[16,15,1]  123
+    DELTA[15,16]  UB[15,16,0]  132
+    DELTA[15,16]  UB[15,16,1]  -123
+    DELTA[15,16]  UB[16,15,0]  85
+    DELTA[15,16]  UB[16,15,1]  -175
+    DELTA[15,16]  PM[15,16,0]  -350
+    DELTA[15,16]  PM[15,16,1]  350
+    DELTA[15,16]  PM[16,15,0]  -350
+    DELTA[15,16]  PM[16,15,1]  350
+    DELTA[15,16]  McCormick1[15,16]  -1
+    DELTA[15,16]  McCormick1[16,15]  -1
+    DELTA[15,16]  McCormick2[15,16]  -1
+    DELTA[15,16]  McCormick2[16,15]  -1
+    DELTA[15,16]  McCormick3[15,16]  -1
+    DELTA[15,16]  McCormick3[16,15]  -1
+    DELTA[15,17]  LB[15,17,0]  -85
+    DELTA[15,17]  LB[15,17,1]  139
+    DELTA[15,17]  LB[17,15,0]  -153
+    DELTA[15,17]  LB[17,15,1]  95
+    DELTA[15,17]  UB[15,17,0]  153
+    DELTA[15,17]  UB[15,17,1]  -106
+    DELTA[15,17]  UB[17,15,0]  85
+    DELTA[15,17]  UB[17,15,1]  -128
+    DELTA[15,17]  PM[15,17,0]  -350
+    DELTA[15,17]  PM[15,17,1]  314
+    DELTA[15,17]  PM[17,15,0]  -350
+    DELTA[15,17]  PM[17,15,1]  303
+    DELTA[15,17]  McCormick1[15,17]  -1
+    DELTA[15,17]  McCormick1[17,15]  -1
+    DELTA[15,17]  McCormick2[15,17]  -1
+    DELTA[15,17]  McCormick2[17,15]  -1
+    DELTA[15,17]  McCormick3[15,17]  -1
+    DELTA[15,17]  McCormick3[17,15]  -1
+    DELTA[15,18]  LB[15,18,0]  -85
+    DELTA[15,18]  LB[15,18,1]  175
+    DELTA[15,18]  LB[18,15,0]  -12
+    DELTA[15,18]  LB[18,15,1]  4
+    DELTA[15,18]  UB[15,18,0]  12
+    DELTA[15,18]  UB[15,18,1]  -10
+    DELTA[15,18]  UB[18,15,0]  85
+    DELTA[15,18]  UB[18,15,1]  -169
+    DELTA[15,18]  PM[15,18,0]  -350
+    DELTA[15,18]  PM[15,18,1]  350
+    DELTA[15,18]  PM[18,15,0]  -350
+    DELTA[15,18]  PM[18,15,1]  344
+    DELTA[15,18]  McCormick1[15,18]  -1
+    DELTA[15,18]  McCormick1[18,15]  -1
+    DELTA[15,18]  McCormick2[15,18]  -1
+    DELTA[15,18]  McCormick2[18,15]  -1
+    DELTA[15,18]  McCormick3[15,18]  -1
+    DELTA[15,18]  McCormick3[18,15]  -1
+    DELTA[16,17]  LB[16,17,0]  -132
+    DELTA[16,17]  LB[16,17,1]  123
+    DELTA[16,17]  LB[17,16,0]  -153
+    DELTA[16,17]  LB[17,16,1]  142
+    DELTA[16,17]  UB[16,17,0]  153
+    DELTA[16,17]  UB[16,17,1]  -142
+    DELTA[16,17]  UB[17,16,0]  132
+    DELTA[16,17]  UB[17,16,1]  -123
+    DELTA[16,17]  PM[16,17,0]  -350
+    DELTA[16,17]  PM[16,17,1]  350
+    DELTA[16,17]  PM[17,16,0]  -350
+    DELTA[16,17]  PM[17,16,1]  350
+    DELTA[16,17]  McCormick1[16,17]  -1
+    DELTA[16,17]  McCormick1[17,16]  -1
+    DELTA[16,17]  McCormick2[16,17]  -1
+    DELTA[16,17]  McCormick2[17,16]  -1
+    DELTA[16,17]  McCormick3[16,17]  -1
+    DELTA[16,17]  McCormick3[17,16]  -1
+    DELTA[16,18]  LB[16,18,0]  -132
+    DELTA[16,18]  LB[16,18,1]  123
+    DELTA[16,18]  LB[18,16,0]  -12
+    DELTA[16,18]  LB[18,16,1]  10
+    DELTA[16,18]  UB[16,18,0]  12
+    DELTA[16,18]  UB[16,18,1]  -10
+    DELTA[16,18]  UB[18,16,0]  132
+    DELTA[16,18]  UB[18,16,1]  -123
+    DELTA[16,18]  PM[16,18,0]  -350
+    DELTA[16,18]  PM[16,18,1]  350
+    DELTA[16,18]  PM[18,16,0]  -350
+    DELTA[16,18]  PM[18,16,1]  350
+    DELTA[16,18]  McCormick1[16,18]  -1
+    DELTA[16,18]  McCormick1[18,16]  -1
+    DELTA[16,18]  McCormick2[16,18]  -1
+    DELTA[16,18]  McCormick2[18,16]  -1
+    DELTA[16,18]  McCormick3[16,18]  -1
+    DELTA[16,18]  McCormick3[18,16]  -1
+    DELTA[17,18]  LB[17,18,0]  -153
+    DELTA[17,18]  LB[17,18,1]  142
+    DELTA[17,18]  LB[18,17,0]  -12
+    DELTA[17,18]  LB[18,17,1]  4
+    DELTA[17,18]  UB[17,18,0]  12
+    DELTA[17,18]  UB[17,18,1]  -10
+    DELTA[17,18]  UB[18,17,0]  153
+    DELTA[17,18]  UB[18,17,1]  -136
+    DELTA[17,18]  PM[17,18,0]  -350
+    DELTA[17,18]  PM[17,18,1]  350
+    DELTA[17,18]  PM[18,17,0]  -350
+    DELTA[17,18]  PM[18,17,1]  344
+    DELTA[17,18]  McCormick1[17,18]  -1
+    DELTA[17,18]  McCormick1[18,17]  -1
+    DELTA[17,18]  McCormick2[17,18]  -1
+    DELTA[17,18]  McCormick2[18,17]  -1
+    DELTA[17,18]  McCormick3[17,18]  -1
+    DELTA[17,18]  McCormick3[18,17]  -1
+RHS
+    RHS1      Height[0]  7.5
+    RHS1      Height[1]  14
+    RHS1      Height[2]  19
+    RHS1      Height[3]  16
+    RHS1      Height[4]  8
+    RHS1      Height[5]  35
+    RHS1      Height[6]  59
+    RHS1      Height[7]  16.5
+    RHS1      Height[8]  20.5
+    RHS1      Height[9]  80
+    RHS1      Height[10]  6
+    RHS1      Height[11]  27.5
+    RHS1      Height[12]  67
+    RHS1      Height[13]  65
+    RHS1      Height[14]  7
+    RHS1      Height[15]  93
+    RHS1      Height[16]  61.5
+    RHS1      Height[17]  76.5
+    RHS1      Height[18]  8
+    RHS1      LB[0,1,0]  50.5
+    RHS1      LB[0,1,1]  39
+    RHS1      LB[0,2,0]  68.5
+    RHS1      LB[0,2,1]  37
+    RHS1      LB[0,3,0]  29
+    RHS1      LB[0,3,1]  40
+    RHS1      LB[0,4,0]  33
+    RHS1      LB[0,4,1]  8
+    RHS1      LB[0,5,0]  68
+    RHS1      LB[0,5,1]  15
+    RHS1      LB[0,6,0]  106
+    RHS1      LB[0,6,1]  59
+    RHS1      LB[0,7,0]  36.5
+    RHS1      LB[0,7,1]  16.5
+    RHS1      LB[0,8,0]  80
+    RHS1      LB[0,8,1]  20.5
+    RHS1      LB[0,9,0]  92.5
+    RHS1      LB[0,9,1]  67
+    RHS1      LB[0,10,0]  36
+    RHS1      LB[0,10,1]  6
+    RHS1      LB[0,11,0]  131.5
+    RHS1      LB[0,11,1]  27.5
+    RHS1      LB[0,12,0]  47.5
+    RHS1      LB[0,12,1]  76
+    RHS1      LB[0,13,0]  46.5
+    RHS1      LB[0,13,1]  32
+    RHS1      LB[0,14,0]  32
+    RHS1      LB[0,14,1]  7
+    RHS1      LB[0,15,0]  42.5
+    RHS1      LB[0,15,1]  82
+    RHS1      LB[0,16,0]  69
+    RHS1      LB[0,16,1]  61.5
+    RHS1      LB[0,17,0]  69
+    RHS1      LB[0,17,1]  65.5
+    RHS1      LB[0,18,0]  27
+    RHS1      LB[0,18,1]  2
+    RHS1      LB[1,0,0]  10
+    RHS1      LB[1,0,1]  8.5
+    RHS1      LB[1,2,0]  112.5
+    RHS1      LB[1,2,1]  37
+    RHS1      LB[1,3,0]  67
+    RHS1      LB[1,3,1]  40
+    RHS1      LB[1,4,0]  77
+    RHS1      LB[1,4,1]  8
+    RHS1      LB[1,5,0]  112
+    RHS1      LB[1,5,1]  15
+    RHS1      LB[1,6,0]  150
+    RHS1      LB[1,6,1]  59
+    RHS1      LB[1,7,0]  80.5
+    RHS1      LB[1,7,1]  16.5
+    RHS1      LB[1,8,0]  118
+    RHS1      LB[1,8,1]  20.5
+    RHS1      LB[1,9,0]  136.5
+    RHS1      LB[1,9,1]  67
+    RHS1      LB[1,10,0]  80
+    RHS1      LB[1,10,1]  6
+    RHS1      LB[1,11,0]  175.5
+    RHS1      LB[1,11,1]  27.5
+    RHS1      LB[1,12,0]  85.5
+    RHS1      LB[1,12,1]  76
+    RHS1      LB[1,13,0]  84.5
+    RHS1      LB[1,13,1]  32
+    RHS1      LB[1,14,0]  76
+    RHS1      LB[1,14,1]  7
+    RHS1      LB[1,15,0]  80.5
+    RHS1      LB[1,15,1]  82
+    RHS1      LB[1,16,0]  107
+    RHS1      LB[1,16,1]  61.5
+    RHS1      LB[1,17,0]  107
+    RHS1      LB[1,17,1]  65.5
+    RHS1      LB[1,18,0]  65
+    RHS1      LB[1,18,1]  2
+    RHS1      LB[2,0,0]  10
+    RHS1      LB[2,0,1]  8.5
+    RHS1      LB[2,1,0]  29.5
+    RHS1      LB[2,1,1]  39
+    RHS1      LB[2,3,0]  107
+    RHS1      LB[2,3,1]  40
+    RHS1      LB[2,4,0]  104
+    RHS1      LB[2,4,1]  8
+    RHS1      LB[2,5,0]  136
+    RHS1      LB[2,5,1]  15
+    RHS1      LB[2,6,0]  174
+    RHS1      LB[2,6,1]  59
+    RHS1      LB[2,7,0]  107.5
+    RHS1      LB[2,7,1]  16.5
+    RHS1      LB[2,8,0]  158
+    RHS1      LB[2,8,1]  20.5
+    RHS1      LB[2,9,0]  160.5
+    RHS1      LB[2,9,1]  67
+    RHS1      LB[2,10,0]  21
+    RHS1      LB[2,10,1]  6
+    RHS1      LB[2,11,0]  116.5
+    RHS1      LB[2,11,1]  27.5
+    RHS1      LB[2,12,0]  26.5
+    RHS1      LB[2,12,1]  76
+    RHS1      LB[2,13,0]  25.5
+    RHS1      LB[2,13,1]  32
+    RHS1      LB[2,14,0]  17
+    RHS1      LB[2,14,1]  7
+    RHS1      LB[2,15,0]  21.5
+    RHS1      LB[2,15,1]  82
+    RHS1      LB[2,16,0]  48
+    RHS1      LB[2,16,1]  61.5
+    RHS1      LB[2,17,0]  48
+    RHS1      LB[2,17,1]  65.5
+    RHS1      LB[2,18,0]  6
+    RHS1      LB[2,18,1]  2
+    RHS1      LB[3,0,0]  10
+    RHS1      LB[3,0,1]  8.5
+    RHS1      LB[3,1,0]  29.5
+    RHS1      LB[3,1,1]  39
+    RHS1      LB[3,2,0]  53.5
+    RHS1      LB[3,2,1]  37
+    RHS1      LB[3,4,0]  49
+    RHS1      LB[3,4,1]  8
+    RHS1      LB[3,5,0]  69
+    RHS1      LB[3,5,1]  15
+    RHS1      LB[3,6,0]  107
+    RHS1      LB[3,6,1]  59
+    RHS1      LB[3,7,0]  52.5
+    RHS1      LB[3,7,1]  16.5
+    RHS1      LB[3,8,0]  103
+    RHS1      LB[3,8,1]  20.5
+    RHS1      LB[3,9,0]  93.5
+    RHS1      LB[3,9,1]  67
+    RHS1      LB[3,10,0]  21
+    RHS1      LB[3,10,1]  6
+    RHS1      LB[3,11,0]  116.5
+    RHS1      LB[3,11,1]  27.5
+    RHS1      LB[3,12,0]  26.5
+    RHS1      LB[3,12,1]  76
+    RHS1      LB[3,13,0]  25.5
+    RHS1      LB[3,13,1]  32
+    RHS1      LB[3,14,0]  17
+    RHS1      LB[3,14,1]  7
+    RHS1      LB[3,15,0]  21.5
+    RHS1      LB[3,15,1]  82
+    RHS1      LB[3,16,0]  48
+    RHS1      LB[3,16,1]  61.5
+    RHS1      LB[3,17,0]  48
+    RHS1      LB[3,17,1]  65.5
+    RHS1      LB[3,18,0]  6
+    RHS1      LB[3,18,1]  2
+    RHS1      LB[4,0,0]  10
+    RHS1      LB[4,0,1]  8.5
+    RHS1      LB[4,1,0]  29.5
+    RHS1      LB[4,1,1]  39
+    RHS1      LB[4,2,0]  53.5
+    RHS1      LB[4,2,1]  37
+    RHS1      LB[4,3,0]  8
+    RHS1      LB[4,3,1]  40
+    RHS1      LB[4,5,0]  76
+    RHS1      LB[4,5,1]  15
+    RHS1      LB[4,6,0]  114
+    RHS1      LB[4,6,1]  59
+    RHS1      LB[4,7,0]  44.5
+    RHS1      LB[4,7,1]  16.5
+    RHS1      LB[4,8,0]  82
+    RHS1      LB[4,8,1]  20.5
+    RHS1      LB[4,9,0]  100.5
+    RHS1      LB[4,9,1]  67
+    RHS1      LB[4,10,0]  21
+    RHS1      LB[4,10,1]  6
+    RHS1      LB[4,11,0]  116.5
+    RHS1      LB[4,11,1]  27.5
+    RHS1      LB[4,12,0]  26.5
+    RHS1      LB[4,12,1]  76
+    RHS1      LB[4,13,0]  25.5
+    RHS1      LB[4,13,1]  32
+    RHS1      LB[4,14,0]  17
+    RHS1      LB[4,14,1]  7
+    RHS1      LB[4,15,0]  21.5
+    RHS1      LB[4,15,1]  82
+    RHS1      LB[4,16,0]  48
+    RHS1      LB[4,16,1]  61.5
+    RHS1      LB[4,17,0]  48
+    RHS1      LB[4,17,1]  65.5
+    RHS1      LB[4,18,0]  6
+    RHS1      LB[4,18,1]  2
+    RHS1      LB[5,0,0]  10
+    RHS1      LB[5,0,1]  8.5
+    RHS1      LB[5,1,0]  29.5
+    RHS1      LB[5,1,1]  39
+    RHS1      LB[5,2,0]  53.5
+    RHS1      LB[5,2,1]  37
+    RHS1      LB[5,3,0]  8
+    RHS1      LB[5,3,1]  40
+    RHS1      LB[5,4,0]  18
+    RHS1      LB[5,4,1]  8
+    RHS1      LB[5,6,0]  168
+    RHS1      LB[5,6,1]  59
+    RHS1      LB[5,7,0]  98.5
+    RHS1      LB[5,7,1]  16.5
+    RHS1      LB[5,8,0]  136
+    RHS1      LB[5,8,1]  20.5
+    RHS1      LB[5,9,0]  154.5
+    RHS1      LB[5,9,1]  67
+    RHS1      LB[5,10,0]  21
+    RHS1      LB[5,10,1]  6
+    RHS1      LB[5,11,0]  116.5
+    RHS1      LB[5,11,1]  27.5
+    RHS1      LB[5,12,0]  26.5
+    RHS1      LB[5,12,1]  76
+    RHS1      LB[5,13,0]  25.5
+    RHS1      LB[5,13,1]  32
+    RHS1      LB[5,14,0]  17
+    RHS1      LB[5,14,1]  7
+    RHS1      LB[5,15,0]  21.5
+    RHS1      LB[5,15,1]  82
+    RHS1      LB[5,16,0]  48
+    RHS1      LB[5,16,1]  61.5
+    RHS1      LB[5,17,0]  48
+    RHS1      LB[5,17,1]  65.5
+    RHS1      LB[5,18,0]  6
+    RHS1      LB[5,18,1]  2
+    RHS1      LB[6,0,0]  10
+    RHS1      LB[6,0,1]  8.5
+    RHS1      LB[6,1,0]  29.5
+    RHS1      LB[6,1,1]  39
+    RHS1      LB[6,2,0]  53.5
+    RHS1      LB[6,2,1]  37
+    RHS1      LB[6,3,0]  8
+    RHS1      LB[6,3,1]  40
+    RHS1      LB[6,4,0]  18
+    RHS1      LB[6,4,1]  8
+    RHS1      LB[6,5,0]  53
+    RHS1      LB[6,5,1]  15
+    RHS1      LB[6,7,0]  144.5
+    RHS1      LB[6,7,1]  16.5
+    RHS1      LB[6,8,0]  182
+    RHS1      LB[6,8,1]  20.5
+    RHS1      LB[6,9,0]  200.5
+    RHS1      LB[6,9,1]  67
+    RHS1      LB[6,10,0]  21
+    RHS1      LB[6,10,1]  6
+    RHS1      LB[6,11,0]  116.5
+    RHS1      LB[6,11,1]  27.5
+    RHS1      LB[6,12,0]  26.5
+    RHS1      LB[6,12,1]  76
+    RHS1      LB[6,13,0]  25.5
+    RHS1      LB[6,13,1]  32
+    RHS1      LB[6,14,0]  17
+    RHS1      LB[6,14,1]  7
+    RHS1      LB[6,15,0]  21.5
+    RHS1      LB[6,15,1]  82
+    RHS1      LB[6,16,0]  48
+    RHS1      LB[6,16,1]  61.5
+    RHS1      LB[6,17,0]  48
+    RHS1      LB[6,17,1]  65.5
+    RHS1      LB[6,18,0]  6
+    RHS1      LB[6,18,1]  2
+    RHS1      LB[7,0,0]  10
+    RHS1      LB[7,0,1]  8.5
+    RHS1      LB[7,1,0]  29.5
+    RHS1      LB[7,1,1]  39
+    RHS1      LB[7,2,0]  53.5
+    RHS1      LB[7,2,1]  37
+    RHS1      LB[7,3,0]  8
+    RHS1      LB[7,3,1]  40
+    RHS1      LB[7,4,0]  18
+    RHS1      LB[7,4,1]  8
+    RHS1      LB[7,5,0]  53
+    RHS1      LB[7,5,1]  15
+    RHS1      LB[7,6,0]  91
+    RHS1      LB[7,6,1]  59
+    RHS1      LB[7,8,0]  89
+    RHS1      LB[7,8,1]  20.5
+    RHS1      LB[7,9,0]  107.5
+    RHS1      LB[7,9,1]  67
+    RHS1      LB[7,10,0]  21
+    RHS1      LB[7,10,1]  6
+    RHS1      LB[7,11,0]  116.5
+    RHS1      LB[7,11,1]  27.5
+    RHS1      LB[7,12,0]  26.5
+    RHS1      LB[7,12,1]  76
+    RHS1      LB[7,13,0]  25.5
+    RHS1      LB[7,13,1]  32
+    RHS1      LB[7,14,0]  17
+    RHS1      LB[7,14,1]  7
+    RHS1      LB[7,15,0]  21.5
+    RHS1      LB[7,15,1]  82
+    RHS1      LB[7,16,0]  48
+    RHS1      LB[7,16,1]  61.5
+    RHS1      LB[7,17,0]  48
+    RHS1      LB[7,17,1]  65.5
+    RHS1      LB[7,18,0]  6
+    RHS1      LB[7,18,1]  2
+    RHS1      LB[8,0,0]  10
+    RHS1      LB[8,0,1]  8.5
+    RHS1      LB[8,1,0]  29.5
+    RHS1      LB[8,1,1]  39
+    RHS1      LB[8,2,0]  53.5
+    RHS1      LB[8,2,1]  37
+    RHS1      LB[8,3,0]  8
+    RHS1      LB[8,3,1]  40
+    RHS1      LB[8,4,0]  18
+    RHS1      LB[8,4,1]  8
+    RHS1      LB[8,5,0]  53
+    RHS1      LB[8,5,1]  15
+    RHS1      LB[8,6,0]  91
+    RHS1      LB[8,6,1]  59
+    RHS1      LB[8,7,0]  21.5
+    RHS1      LB[8,7,1]  16.5
+    RHS1      LB[8,9,0]  195.5
+    RHS1      LB[8,9,1]  67
+    RHS1      LB[8,10,0]  21
+    RHS1      LB[8,10,1]  6
+    RHS1      LB[8,11,0]  116.5
+    RHS1      LB[8,11,1]  27.5
+    RHS1      LB[8,12,0]  26.5
+    RHS1      LB[8,12,1]  76
+    RHS1      LB[8,13,0]  25.5
+    RHS1      LB[8,13,1]  32
+    RHS1      LB[8,14,0]  17
+    RHS1      LB[8,14,1]  7
+    RHS1      LB[8,15,0]  21.5
+    RHS1      LB[8,15,1]  82
+    RHS1      LB[8,16,0]  48
+    RHS1      LB[8,16,1]  61.5
+    RHS1      LB[8,17,0]  48
+    RHS1      LB[8,17,1]  65.5
+    RHS1      LB[8,18,0]  6
+    RHS1      LB[8,18,1]  2
+    RHS1      LB[9,0,0]  10
+    RHS1      LB[9,0,1]  8.5
+    RHS1      LB[9,1,0]  29.5
+    RHS1      LB[9,1,1]  39
+    RHS1      LB[9,2,0]  53.5
+    RHS1      LB[9,2,1]  37
+    RHS1      LB[9,3,0]  8
+    RHS1      LB[9,3,1]  40
+    RHS1      LB[9,4,0]  18
+    RHS1      LB[9,4,1]  8
+    RHS1      LB[9,5,0]  53
+    RHS1      LB[9,5,1]  15
+    RHS1      LB[9,6,0]  91
+    RHS1      LB[9,6,1]  59
+    RHS1      LB[9,7,0]  21.5
+    RHS1      LB[9,7,1]  16.5
+    RHS1      LB[9,8,0]  59
+    RHS1      LB[9,8,1]  20.5
+    RHS1      LB[9,10,0]  21
+    RHS1      LB[9,10,1]  6
+    RHS1      LB[9,11,0]  116.5
+    RHS1      LB[9,11,1]  27.5
+    RHS1      LB[9,12,0]  26.5
+    RHS1      LB[9,12,1]  76
+    RHS1      LB[9,13,0]  25.5
+    RHS1      LB[9,13,1]  32
+    RHS1      LB[9,14,0]  17
+    RHS1      LB[9,14,1]  7
+    RHS1      LB[9,15,0]  21.5
+    RHS1      LB[9,15,1]  82
+    RHS1      LB[9,16,0]  48
+    RHS1      LB[9,16,1]  61.5
+    RHS1      LB[9,17,0]  48
+    RHS1      LB[9,17,1]  65.5
+    RHS1      LB[9,18,0]  6
+    RHS1      LB[9,18,1]  2
+    RHS1      LB[10,0,0]  10
+    RHS1      LB[10,0,1]  8.5
+    RHS1      LB[10,1,0]  29.5
+    RHS1      LB[10,1,1]  39
+    RHS1      LB[10,2,0]  84.5
+    RHS1      LB[10,2,1]  37
+    RHS1      LB[10,3,0]  39
+    RHS1      LB[10,3,1]  40
+    RHS1      LB[10,4,0]  49
+    RHS1      LB[10,4,1]  8
+    RHS1      LB[10,5,0]  84
+    RHS1      LB[10,5,1]  15
+    RHS1      LB[10,6,0]  122
+    RHS1      LB[10,6,1]  59
+    RHS1      LB[10,7,0]  52.5
+    RHS1      LB[10,7,1]  16.5
+    RHS1      LB[10,8,0]  90
+    RHS1      LB[10,8,1]  20.5
+    RHS1      LB[10,9,0]  108.5
+    RHS1      LB[10,9,1]  67
+    RHS1      LB[10,11,0]  147.5
+    RHS1      LB[10,11,1]  27.5
+    RHS1      LB[10,12,0]  57.5
+    RHS1      LB[10,12,1]  76
+    RHS1      LB[10,13,0]  56.5
+    RHS1      LB[10,13,1]  32
+    RHS1      LB[10,14,0]  48
+    RHS1      LB[10,14,1]  7
+    RHS1      LB[10,15,0]  52.5
+    RHS1      LB[10,15,1]  82
+    RHS1      LB[10,16,0]  79
+    RHS1      LB[10,16,1]  61.5
+    RHS1      LB[10,17,0]  79
+    RHS1      LB[10,17,1]  65.5
+    RHS1      LB[10,18,0]  37
+    RHS1      LB[10,18,1]  2
+    RHS1      LB[11,0,0]  10
+    RHS1      LB[11,0,1]  8.5
+    RHS1      LB[11,1,0]  29.5
+    RHS1      LB[11,1,1]  39
+    RHS1      LB[11,2,0]  263.5
+    RHS1      LB[11,2,1]  37
+    RHS1      LB[11,3,0]  242
+    RHS1      LB[11,3,1]  40
+    RHS1      LB[11,4,0]  239
+    RHS1      LB[11,4,1]  8
+    RHS1      LB[11,5,0]  258
+    RHS1      LB[11,5,1]  15
+    RHS1      LB[11,6,0]  266
+    RHS1      LB[11,6,1]  59
+    RHS1      LB[11,7,0]  242.5
+    RHS1      LB[11,7,1]  16.5
+    RHS1      LB[11,8,0]  293
+    RHS1      LB[11,8,1]  20.5
+    RHS1      LB[11,9,0]  252.5
+    RHS1      LB[11,9,1]  67
+    RHS1      LB[11,10,0]  21
+    RHS1      LB[11,10,1]  6
+    RHS1      LB[11,12,0]  260.5
+    RHS1      LB[11,12,1]  76
+    RHS1      LB[11,13,0]  259.5
+    RHS1      LB[11,13,1]  32
+    RHS1      LB[11,14,0]  243
+    RHS1      LB[11,14,1]  7
+    RHS1      LB[11,15,0]  255.5
+    RHS1      LB[11,15,1]  82
+    RHS1      LB[11,16,0]  282
+    RHS1      LB[11,16,1]  61.5
+    RHS1      LB[11,17,0]  282
+    RHS1      LB[11,17,1]  65.5
+    RHS1      LB[11,18,0]  240
+    RHS1      LB[11,18,1]  2
+    RHS1      LB[12,0,0]  10
+    RHS1      LB[12,0,1]  8.5
+    RHS1      LB[12,1,0]  29.5
+    RHS1      LB[12,1,1]  39
+    RHS1      LB[12,2,0]  123.5
+    RHS1      LB[12,2,1]  37
+    RHS1      LB[12,3,0]  102
+    RHS1      LB[12,3,1]  40
+    RHS1      LB[12,4,0]  99
+    RHS1      LB[12,4,1]  8
+    RHS1      LB[12,5,0]  118
+    RHS1      LB[12,5,1]  15
+    RHS1      LB[12,6,0]  144
+    RHS1      LB[12,6,1]  59
+    RHS1      LB[12,7,0]  102.5
+    RHS1      LB[12,7,1]  16.5
+    RHS1      LB[12,8,0]  153
+    RHS1      LB[12,8,1]  20.5
+    RHS1      LB[12,9,0]  130.5
+    RHS1      LB[12,9,1]  67
+    RHS1      LB[12,10,0]  21
+    RHS1      LB[12,10,1]  6
+    RHS1      LB[12,11,0]  116.5
+    RHS1      LB[12,11,1]  27.5
+    RHS1      LB[12,13,0]  119.5
+    RHS1      LB[12,13,1]  32
+    RHS1      LB[12,14,0]  103
+    RHS1      LB[12,14,1]  7
+    RHS1      LB[12,15,0]  115.5
+    RHS1      LB[12,15,1]  82
+    RHS1      LB[12,16,0]  142
+    RHS1      LB[12,16,1]  61.5
+    RHS1      LB[12,17,0]  142
+    RHS1      LB[12,17,1]  65.5
+    RHS1      LB[12,18,0]  100
+    RHS1      LB[12,18,1]  2
+    RHS1      LB[13,0,0]  10
+    RHS1      LB[13,0,1]  8.5
+    RHS1      LB[13,1,0]  29.5
+    RHS1      LB[13,1,1]  39
+    RHS1      LB[13,2,0]  119.5
+    RHS1      LB[13,2,1]  37
+    RHS1      LB[13,3,0]  98
+    RHS1      LB[13,3,1]  40
+    RHS1      LB[13,4,0]  95
+    RHS1      LB[13,4,1]  8
+    RHS1      LB[13,5,0]  114
+    RHS1      LB[13,5,1]  15
+    RHS1      LB[13,6,0]  142
+    RHS1      LB[13,6,1]  59
+    RHS1      LB[13,7,0]  98.5
+    RHS1      LB[13,7,1]  16.5
+    RHS1      LB[13,8,0]  149
+    RHS1      LB[13,8,1]  20.5
+    RHS1      LB[13,9,0]  128.5
+    RHS1      LB[13,9,1]  67
+    RHS1      LB[13,10,0]  21
+    RHS1      LB[13,10,1]  6
+    RHS1      LB[13,11,0]  116.5
+    RHS1      LB[13,11,1]  27.5
+    RHS1      LB[13,12,0]  26.5
+    RHS1      LB[13,12,1]  76
+    RHS1      LB[13,14,0]  99
+    RHS1      LB[13,14,1]  7
+    RHS1      LB[13,15,0]  111.5
+    RHS1      LB[13,15,1]  82
+    RHS1      LB[13,16,0]  138
+    RHS1      LB[13,16,1]  61.5
+    RHS1      LB[13,17,0]  138
+    RHS1      LB[13,17,1]  65.5
+    RHS1      LB[13,18,0]  96
+    RHS1      LB[13,18,1]  2
+    RHS1      LB[14,0,0]  10
+    RHS1      LB[14,0,1]  8.5
+    RHS1      LB[14,1,0]  29.5
+    RHS1      LB[14,1,1]  39
+    RHS1      LB[14,2,0]  79.5
+    RHS1      LB[14,2,1]  37
+    RHS1      LB[14,3,0]  34
+    RHS1      LB[14,3,1]  40
+    RHS1      LB[14,4,0]  44
+    RHS1      LB[14,4,1]  8
+    RHS1      LB[14,5,0]  79
+    RHS1      LB[14,5,1]  15
+    RHS1      LB[14,6,0]  117
+    RHS1      LB[14,6,1]  59
+    RHS1      LB[14,7,0]  47.5
+    RHS1      LB[14,7,1]  16.5
+    RHS1      LB[14,8,0]  85
+    RHS1      LB[14,8,1]  20.5
+    RHS1      LB[14,9,0]  103.5
+    RHS1      LB[14,9,1]  67
+    RHS1      LB[14,10,0]  21
+    RHS1      LB[14,10,1]  6
+    RHS1      LB[14,11,0]  116.5
+    RHS1      LB[14,11,1]  27.5
+    RHS1      LB[14,12,0]  26.5
+    RHS1      LB[14,12,1]  76
+    RHS1      LB[14,13,0]  25.5
+    RHS1      LB[14,13,1]  32
+    RHS1      LB[14,15,0]  47.5
+    RHS1      LB[14,15,1]  82
+    RHS1      LB[14,16,0]  74
+    RHS1      LB[14,16,1]  61.5
+    RHS1      LB[14,17,0]  74
+    RHS1      LB[14,17,1]  65.5
+    RHS1      LB[14,18,0]  32
+    RHS1      LB[14,18,1]  2
+    RHS1      LB[15,0,0]  10
+    RHS1      LB[15,0,1]  8.5
+    RHS1      LB[15,1,0]  29.5
+    RHS1      LB[15,1,1]  39
+    RHS1      LB[15,2,0]  114.5
+    RHS1      LB[15,2,1]  37
+    RHS1      LB[15,3,0]  93
+    RHS1      LB[15,3,1]  40
+    RHS1      LB[15,4,0]  90
+    RHS1      LB[15,4,1]  8
+    RHS1      LB[15,5,0]  109
+    RHS1      LB[15,5,1]  15
+    RHS1      LB[15,6,0]  134
+    RHS1      LB[15,6,1]  59
+    RHS1      LB[15,7,0]  93.5
+    RHS1      LB[15,7,1]  16.5
+    RHS1      LB[15,8,0]  144
+    RHS1      LB[15,8,1]  20.5
+    RHS1      LB[15,9,0]  120.5
+    RHS1      LB[15,9,1]  67
+    RHS1      LB[15,10,0]  21
+    RHS1      LB[15,10,1]  6
+    RHS1      LB[15,11,0]  116.5
+    RHS1      LB[15,11,1]  27.5
+    RHS1      LB[15,12,0]  26.5
+    RHS1      LB[15,12,1]  76
+    RHS1      LB[15,13,0]  25.5
+    RHS1      LB[15,13,1]  32
+    RHS1      LB[15,14,0]  17
+    RHS1      LB[15,14,1]  7
+    RHS1      LB[15,16,0]  133
+    RHS1      LB[15,16,1]  61.5
+    RHS1      LB[15,17,0]  133
+    RHS1      LB[15,17,1]  65.5
+    RHS1      LB[15,18,0]  91
+    RHS1      LB[15,18,1]  2
+    RHS1      LB[16,0,0]  10
+    RHS1      LB[16,0,1]  8.5
+    RHS1      LB[16,1,0]  29.5
+    RHS1      LB[16,1,1]  39
+    RHS1      LB[16,2,0]  161.5
+    RHS1      LB[16,2,1]  37
+    RHS1      LB[16,3,0]  140
+    RHS1      LB[16,3,1]  40
+    RHS1      LB[16,4,0]  137
+    RHS1      LB[16,4,1]  8
+    RHS1      LB[16,5,0]  156
+    RHS1      LB[16,5,1]  15
+    RHS1      LB[16,6,0]  187
+    RHS1      LB[16,6,1]  59
+    RHS1      LB[16,7,0]  140.5
+    RHS1      LB[16,7,1]  16.5
+    RHS1      LB[16,8,0]  191
+    RHS1      LB[16,8,1]  20.5
+    RHS1      LB[16,9,0]  173.5
+    RHS1      LB[16,9,1]  67
+    RHS1      LB[16,10,0]  21
+    RHS1      LB[16,10,1]  6
+    RHS1      LB[16,11,0]  116.5
+    RHS1      LB[16,11,1]  27.5
+    RHS1      LB[16,12,0]  26.5
+    RHS1      LB[16,12,1]  76
+    RHS1      LB[16,13,0]  25.5
+    RHS1      LB[16,13,1]  32
+    RHS1      LB[16,14,0]  17
+    RHS1      LB[16,14,1]  7
+    RHS1      LB[16,15,0]  21.5
+    RHS1      LB[16,15,1]  82
+    RHS1      LB[16,17,0]  180
+    RHS1      LB[16,17,1]  65.5
+    RHS1      LB[16,18,0]  138
+    RHS1      LB[16,18,1]  2
+    RHS1      LB[17,0,0]  10
+    RHS1      LB[17,0,1]  8.5
+    RHS1      LB[17,1,0]  29.5
+    RHS1      LB[17,1,1]  39
+    RHS1      LB[17,2,0]  182.5
+    RHS1      LB[17,2,1]  37
+    RHS1      LB[17,3,0]  161
+    RHS1      LB[17,3,1]  40
+    RHS1      LB[17,4,0]  158
+    RHS1      LB[17,4,1]  8
+    RHS1      LB[17,5,0]  177
+    RHS1      LB[17,5,1]  15
+    RHS1      LB[17,6,0]  187
+    RHS1      LB[17,6,1]  59
+    RHS1      LB[17,7,0]  161.5
+    RHS1      LB[17,7,1]  16.5
+    RHS1      LB[17,8,0]  212
+    RHS1      LB[17,8,1]  20.5
+    RHS1      LB[17,9,0]  173.5
+    RHS1      LB[17,9,1]  67
+    RHS1      LB[17,10,0]  21
+    RHS1      LB[17,10,1]  6
+    RHS1      LB[17,11,0]  116.5
+    RHS1      LB[17,11,1]  27.5
+    RHS1      LB[17,12,0]  26.5
+    RHS1      LB[17,12,1]  76
+    RHS1      LB[17,13,0]  25.5
+    RHS1      LB[17,13,1]  32
+    RHS1      LB[17,14,0]  17
+    RHS1      LB[17,14,1]  7
+    RHS1      LB[17,15,0]  21.5
+    RHS1      LB[17,15,1]  82
+    RHS1      LB[17,16,0]  48
+    RHS1      LB[17,16,1]  61.5
+    RHS1      LB[17,18,0]  159
+    RHS1      LB[17,18,1]  2
+    RHS1      LB[18,0,0]  10
+    RHS1      LB[18,0,1]  8.5
+    RHS1      LB[18,1,0]  29.5
+    RHS1      LB[18,1,1]  39
+    RHS1      LB[18,2,0]  65.5
+    RHS1      LB[18,2,1]  37
+    RHS1      LB[18,3,0]  20
+    RHS1      LB[18,3,1]  40
+    RHS1      LB[18,4,0]  30
+    RHS1      LB[18,4,1]  8
+    RHS1      LB[18,5,0]  65
+    RHS1      LB[18,5,1]  15
+    RHS1      LB[18,6,0]  103
+    RHS1      LB[18,6,1]  59
+    RHS1      LB[18,7,0]  33.5
+    RHS1      LB[18,7,1]  16.5
+    RHS1      LB[18,8,0]  71
+    RHS1      LB[18,8,1]  20.5
+    RHS1      LB[18,9,0]  89.5
+    RHS1      LB[18,9,1]  67
+    RHS1      LB[18,10,0]  21
+    RHS1      LB[18,10,1]  6
+    RHS1      LB[18,11,0]  116.5
+    RHS1      LB[18,11,1]  27.5
+    RHS1      LB[18,12,0]  26.5
+    RHS1      LB[18,12,1]  76
+    RHS1      LB[18,13,0]  25.5
+    RHS1      LB[18,13,1]  32
+    RHS1      LB[18,14,0]  17
+    RHS1      LB[18,14,1]  7
+    RHS1      LB[18,15,0]  21.5
+    RHS1      LB[18,15,1]  82
+    RHS1      LB[18,16,0]  48
+    RHS1      LB[18,16,1]  61.5
+    RHS1      LB[18,17,0]  48
+    RHS1      LB[18,17,1]  65.5
+    RHS1      UB[0,1,0]  280
+    RHS1      UB[0,1,1]  342.5
+    RHS1      UB[0,2,0]  246
+    RHS1      UB[0,2,1]  342.5
+    RHS1      UB[0,3,0]  295
+    RHS1      UB[0,3,1]  342.5
+    RHS1      UB[0,4,0]  322
+    RHS1      UB[0,4,1]  342.5
+    RHS1      UB[0,5,0]  268
+    RHS1      UB[0,5,1]  342.5
+    RHS1      UB[0,6,0]  222
+    RHS1      UB[0,6,1]  342.5
+    RHS1      UB[0,7,0]  315
+    RHS1      UB[0,7,1]  342.5
+    RHS1      UB[0,8,0]  221
+    RHS1      UB[0,8,1]  342.5
+    RHS1      UB[0,9,0]  251
+    RHS1      UB[0,9,1]  342.5
+    RHS1      UB[0,10,0]  314
+    RHS1      UB[0,10,1]  342.5
+    RHS1      UB[0,11,0]  111
+    RHS1      UB[0,11,1]  342.5
+    RHS1      UB[0,12,0]  245
+    RHS1      UB[0,12,1]  342.5
+    RHS1      UB[0,13,0]  249
+    RHS1      UB[0,13,1]  342.5
+    RHS1      UB[0,14,0]  319
+    RHS1      UB[0,14,1]  342.5
+    RHS1      UB[0,15,0]  254
+    RHS1      UB[0,15,1]  342.5
+    RHS1      UB[0,16,0]  207
+    RHS1      UB[0,16,1]  342.5
+    RHS1      UB[0,17,0]  186
+    RHS1      UB[0,17,1]  342.5
+    RHS1      UB[0,18,0]  327
+    RHS1      UB[0,18,1]  342.5
+    RHS1      UB[1,0,0]  320.5
+    RHS1      UB[1,0,1]  336
+    RHS1      UB[1,2,0]  221.5
+    RHS1      UB[1,2,1]  336
+    RHS1      UB[1,3,0]  276.5
+    RHS1      UB[1,3,1]  336
+    RHS1      UB[1,4,0]  297.5
+    RHS1      UB[1,4,1]  336
+    RHS1      UB[1,5,0]  243.5
+    RHS1      UB[1,5,1]  336
+    RHS1      UB[1,6,0]  197.5
+    RHS1      UB[1,6,1]  336
+    RHS1      UB[1,7,0]  290.5
+    RHS1      UB[1,7,1]  336
+    RHS1      UB[1,8,0]  202.5
+    RHS1      UB[1,8,1]  336
+    RHS1      UB[1,9,0]  226.5
+    RHS1      UB[1,9,1]  336
+    RHS1      UB[1,10,0]  289.5
+    RHS1      UB[1,10,1]  336
+    RHS1      UB[1,11,0]  86.5
+    RHS1      UB[1,11,1]  336
+    RHS1      UB[1,12,0]  226.5
+    RHS1      UB[1,12,1]  336
+    RHS1      UB[1,13,0]  230.5
+    RHS1      UB[1,13,1]  336
+    RHS1      UB[1,14,0]  294.5
+    RHS1      UB[1,14,1]  336
+    RHS1      UB[1,15,0]  235.5
+    RHS1      UB[1,15,1]  336
+    RHS1      UB[1,16,0]  188.5
+    RHS1      UB[1,16,1]  336
+    RHS1      UB[1,17,0]  167.5
+    RHS1      UB[1,17,1]  336
+    RHS1      UB[1,18,0]  308.5
+    RHS1      UB[1,18,1]  336
+    RHS1      UB[2,0,0]  304.5
+    RHS1      UB[2,0,1]  331
+    RHS1      UB[2,1,0]  304.5
+    RHS1      UB[2,1,1]  331
+    RHS1      UB[2,3,0]  260.5
+    RHS1      UB[2,3,1]  331
+    RHS1      UB[2,4,0]  294.5
+    RHS1      UB[2,4,1]  331
+    RHS1      UB[2,5,0]  243.5
+    RHS1      UB[2,5,1]  331
+    RHS1      UB[2,6,0]  197.5
+    RHS1      UB[2,6,1]  331
+    RHS1      UB[2,7,0]  287.5
+    RHS1      UB[2,7,1]  331
+    RHS1      UB[2,8,0]  186.5
+    RHS1      UB[2,8,1]  331
+    RHS1      UB[2,9,0]  226.5
+    RHS1      UB[2,9,1]  331
+    RHS1      UB[2,10,0]  304.5
+    RHS1      UB[2,10,1]  331
+    RHS1      UB[2,11,0]  304.5
+    RHS1      UB[2,11,1]  331
+    RHS1      UB[2,12,0]  304.5
+    RHS1      UB[2,12,1]  331
+    RHS1      UB[2,13,0]  304.5
+    RHS1      UB[2,13,1]  331
+    RHS1      UB[2,14,0]  304.5
+    RHS1      UB[2,14,1]  331
+    RHS1      UB[2,15,0]  304.5
+    RHS1      UB[2,15,1]  331
+    RHS1      UB[2,16,0]  304.5
+    RHS1      UB[2,16,1]  331
+    RHS1      UB[2,17,0]  304.5
+    RHS1      UB[2,17,1]  331
+    RHS1      UB[2,18,0]  304.5
+    RHS1      UB[2,18,1]  331
+    RHS1      UB[3,0,0]  314
+    RHS1      UB[3,0,1]  334
+    RHS1      UB[3,1,0]  314
+    RHS1      UB[3,1,1]  334
+    RHS1      UB[3,2,0]  314
+    RHS1      UB[3,2,1]  334
+    RHS1      UB[3,4,0]  304
+    RHS1      UB[3,4,1]  334
+    RHS1      UB[3,5,0]  265
+    RHS1      UB[3,5,1]  334
+    RHS1      UB[3,6,0]  219
+    RHS1      UB[3,6,1]  334
+    RHS1      UB[3,7,0]  297
+    RHS1      UB[3,7,1]  334
+    RHS1      UB[3,8,0]  196
+    RHS1      UB[3,8,1]  334
+    RHS1      UB[3,9,0]  248
+    RHS1      UB[3,9,1]  334
+    RHS1      UB[3,10,0]  314
+    RHS1      UB[3,10,1]  334
+    RHS1      UB[3,11,0]  314
+    RHS1      UB[3,11,1]  334
+    RHS1      UB[3,12,0]  314
+    RHS1      UB[3,12,1]  334
+    RHS1      UB[3,13,0]  314
+    RHS1      UB[3,13,1]  334
+    RHS1      UB[3,14,0]  314
+    RHS1      UB[3,14,1]  334
+    RHS1      UB[3,15,0]  314
+    RHS1      UB[3,15,1]  334
+    RHS1      UB[3,16,0]  314
+    RHS1      UB[3,16,1]  334
+    RHS1      UB[3,17,0]  314
+    RHS1      UB[3,17,1]  334
+    RHS1      UB[3,18,0]  314
+    RHS1      UB[3,18,1]  334
+    RHS1      UB[4,0,0]  345
+    RHS1      UB[4,0,1]  342
+    RHS1      UB[4,1,0]  345
+    RHS1      UB[4,1,1]  342
+    RHS1      UB[4,2,0]  345
+    RHS1      UB[4,2,1]  342
+    RHS1      UB[4,3,0]  345
+    RHS1      UB[4,3,1]  342
+    RHS1      UB[4,5,0]  268
+    RHS1      UB[4,5,1]  342
+    RHS1      UB[4,6,0]  222
+    RHS1      UB[4,6,1]  342
+    RHS1      UB[4,7,0]  315
+    RHS1      UB[4,7,1]  342
+    RHS1      UB[4,8,0]  227
+    RHS1      UB[4,8,1]  342
+    RHS1      UB[4,9,0]  251
+    RHS1      UB[4,9,1]  342
+    RHS1      UB[4,10,0]  345
+    RHS1      UB[4,10,1]  342
+    RHS1      UB[4,11,0]  345
+    RHS1      UB[4,11,1]  342
+    RHS1      UB[4,12,0]  345
+    RHS1      UB[4,12,1]  342
+    RHS1      UB[4,13,0]  345
+    RHS1      UB[4,13,1]  342
+    RHS1      UB[4,14,0]  345
+    RHS1      UB[4,14,1]  342
+    RHS1      UB[4,15,0]  345
+    RHS1      UB[4,15,1]  342
+    RHS1      UB[4,16,0]  345
+    RHS1      UB[4,16,1]  342
+    RHS1      UB[4,17,0]  345
+    RHS1      UB[4,17,1]  342
+    RHS1      UB[4,18,0]  345
+    RHS1      UB[4,18,1]  342
+    RHS1      UB[5,0,0]  326
+    RHS1      UB[5,0,1]  315
+    RHS1      UB[5,1,0]  326
+    RHS1      UB[5,1,1]  315
+    RHS1      UB[5,2,0]  326
+    RHS1      UB[5,2,1]  315
+    RHS1      UB[5,3,0]  326
+    RHS1      UB[5,3,1]  315
+    RHS1      UB[5,4,0]  326
+    RHS1      UB[5,4,1]  315
+    RHS1      UB[5,6,0]  203
+    RHS1      UB[5,6,1]  315
+    RHS1      UB[5,7,0]  296
+    RHS1      UB[5,7,1]  315
+    RHS1      UB[5,8,0]  208
+    RHS1      UB[5,8,1]  315
+    RHS1      UB[5,9,0]  232
+    RHS1      UB[5,9,1]  315
+    RHS1      UB[5,10,0]  326
+    RHS1      UB[5,10,1]  315
+    RHS1      UB[5,11,0]  326
+    RHS1      UB[5,11,1]  315
+    RHS1      UB[5,12,0]  326
+    RHS1      UB[5,12,1]  315
+    RHS1      UB[5,13,0]  326
+    RHS1      UB[5,13,1]  315
+    RHS1      UB[5,14,0]  326
+    RHS1      UB[5,14,1]  315
+    RHS1      UB[5,15,0]  326
+    RHS1      UB[5,15,1]  315
+    RHS1      UB[5,16,0]  326
+    RHS1      UB[5,16,1]  315
+    RHS1      UB[5,17,0]  326
+    RHS1      UB[5,17,1]  315
+    RHS1      UB[5,18,0]  326
+    RHS1      UB[5,18,1]  315
+    RHS1      UB[6,0,0]  318
+    RHS1      UB[6,0,1]  291
+    RHS1      UB[6,1,0]  318
+    RHS1      UB[6,1,1]  291
+    RHS1      UB[6,2,0]  318
+    RHS1      UB[6,2,1]  291
+    RHS1      UB[6,3,0]  318
+    RHS1      UB[6,3,1]  291
+    RHS1      UB[6,4,0]  318
+    RHS1      UB[6,4,1]  291
+    RHS1      UB[6,5,0]  318
+    RHS1      UB[6,5,1]  291
+    RHS1      UB[6,7,0]  288
+    RHS1      UB[6,7,1]  291
+    RHS1      UB[6,8,0]  200
+    RHS1      UB[6,8,1]  291
+    RHS1      UB[6,9,0]  224
+    RHS1      UB[6,9,1]  291
+    RHS1      UB[6,10,0]  318
+    RHS1      UB[6,10,1]  291
+    RHS1      UB[6,11,0]  318
+    RHS1      UB[6,11,1]  291
+    RHS1      UB[6,12,0]  318
+    RHS1      UB[6,12,1]  291
+    RHS1      UB[6,13,0]  318
+    RHS1      UB[6,13,1]  291
+    RHS1      UB[6,14,0]  318
+    RHS1      UB[6,14,1]  291
+    RHS1      UB[6,15,0]  318
+    RHS1      UB[6,15,1]  291
+    RHS1      UB[6,16,0]  318
+    RHS1      UB[6,16,1]  291
+    RHS1      UB[6,17,0]  318
+    RHS1      UB[6,17,1]  291
+    RHS1      UB[6,18,0]  318
+    RHS1      UB[6,18,1]  291
+    RHS1      UB[7,0,0]  341.5
+    RHS1      UB[7,0,1]  333.5
+    RHS1      UB[7,1,0]  341.5
+    RHS1      UB[7,1,1]  333.5
+    RHS1      UB[7,2,0]  341.5
+    RHS1      UB[7,2,1]  333.5
+    RHS1      UB[7,3,0]  341.5
+    RHS1      UB[7,3,1]  333.5
+    RHS1      UB[7,4,0]  341.5
+    RHS1      UB[7,4,1]  333.5
+    RHS1      UB[7,5,0]  341.5
+    RHS1      UB[7,5,1]  333.5
+    RHS1      UB[7,6,0]  341.5
+    RHS1      UB[7,6,1]  333.5
+    RHS1      UB[7,8,0]  223.5
+    RHS1      UB[7,8,1]  333.5
+    RHS1      UB[7,9,0]  247.5
+    RHS1      UB[7,9,1]  333.5
+    RHS1      UB[7,10,0]  341.5
+    RHS1      UB[7,10,1]  333.5
+    RHS1      UB[7,11,0]  341.5
+    RHS1      UB[7,11,1]  333.5
+    RHS1      UB[7,12,0]  341.5
+    RHS1      UB[7,12,1]  333.5
+    RHS1      UB[7,13,0]  341.5
+    RHS1      UB[7,13,1]  333.5
+    RHS1      UB[7,14,0]  341.5
+    RHS1      UB[7,14,1]  333.5
+    RHS1      UB[7,15,0]  341.5
+    RHS1      UB[7,15,1]  333.5
+    RHS1      UB[7,16,0]  341.5
+    RHS1      UB[7,16,1]  333.5
+    RHS1      UB[7,17,0]  341.5
+    RHS1      UB[7,17,1]  333.5
+    RHS1      UB[7,18,0]  341.5
+    RHS1      UB[7,18,1]  333.5
+    RHS1      UB[8,0,0]  291
+    RHS1      UB[8,0,1]  329.5
+    RHS1      UB[8,1,0]  291
+    RHS1      UB[8,1,1]  329.5
+    RHS1      UB[8,2,0]  291
+    RHS1      UB[8,2,1]  329.5
+    RHS1      UB[8,3,0]  291
+    RHS1      UB[8,3,1]  329.5
+    RHS1      UB[8,4,0]  291
+    RHS1      UB[8,4,1]  329.5
+    RHS1      UB[8,5,0]  291
+    RHS1      UB[8,5,1]  329.5
+    RHS1      UB[8,6,0]  291
+    RHS1      UB[8,6,1]  329.5
+    RHS1      UB[8,7,0]  291
+    RHS1      UB[8,7,1]  329.5
+    RHS1      UB[8,9,0]  197
+    RHS1      UB[8,9,1]  329.5
+    RHS1      UB[8,10,0]  291
+    RHS1      UB[8,10,1]  329.5
+    RHS1      UB[8,11,0]  291
+    RHS1      UB[8,11,1]  329.5
+    RHS1      UB[8,12,0]  291
+    RHS1      UB[8,12,1]  329.5
+    RHS1      UB[8,13,0]  291
+    RHS1      UB[8,13,1]  329.5
+    RHS1      UB[8,14,0]  291
+    RHS1      UB[8,14,1]  329.5
+    RHS1      UB[8,15,0]  291
+    RHS1      UB[8,15,1]  329.5
+    RHS1      UB[8,16,0]  291
+    RHS1      UB[8,16,1]  329.5
+    RHS1      UB[8,17,0]  291
+    RHS1      UB[8,17,1]  329.5
+    RHS1      UB[8,18,0]  291
+    RHS1      UB[8,18,1]  329.5
+    RHS1      UB[9,0,0]  333.5
+    RHS1      UB[9,0,1]  270
+    RHS1      UB[9,1,0]  333.5
+    RHS1      UB[9,1,1]  270
+    RHS1      UB[9,2,0]  333.5
+    RHS1      UB[9,2,1]  270
+    RHS1      UB[9,3,0]  333.5
+    RHS1      UB[9,3,1]  270
+    RHS1      UB[9,4,0]  333.5
+    RHS1      UB[9,4,1]  270
+    RHS1      UB[9,5,0]  333.5
+    RHS1      UB[9,5,1]  270
+    RHS1      UB[9,6,0]  333.5
+    RHS1      UB[9,6,1]  270
+    RHS1      UB[9,7,0]  333.5
+    RHS1      UB[9,7,1]  270
+    RHS1      UB[9,8,0]  333.5
+    RHS1      UB[9,8,1]  270
+    RHS1      UB[9,10,0]  333.5
+    RHS1      UB[9,10,1]  270
+    RHS1      UB[9,11,0]  333.5
+    RHS1      UB[9,11,1]  270
+    RHS1      UB[9,12,0]  333.5
+    RHS1      UB[9,12,1]  270
+    RHS1      UB[9,13,0]  333.5
+    RHS1      UB[9,13,1]  270
+    RHS1      UB[9,14,0]  333.5
+    RHS1      UB[9,14,1]  270
+    RHS1      UB[9,15,0]  333.5
+    RHS1      UB[9,15,1]  270
+    RHS1      UB[9,16,0]  333.5
+    RHS1      UB[9,16,1]  270
+    RHS1      UB[9,17,0]  333.5
+    RHS1      UB[9,17,1]  270
+    RHS1      UB[9,18,0]  333.5
+    RHS1      UB[9,18,1]  270
+    RHS1      UB[10,0,0]  340
+    RHS1      UB[10,0,1]  344
+    RHS1      UB[10,1,0]  340
+    RHS1      UB[10,1,1]  344
+    RHS1      UB[10,2,0]  241
+    RHS1      UB[10,2,1]  344
+    RHS1      UB[10,3,0]  296
+    RHS1      UB[10,3,1]  344
+    RHS1      UB[10,4,0]  317
+    RHS1      UB[10,4,1]  344
+    RHS1      UB[10,5,0]  263
+    RHS1      UB[10,5,1]  344
+    RHS1      UB[10,6,0]  217
+    RHS1      UB[10,6,1]  344
+    RHS1      UB[10,7,0]  310
+    RHS1      UB[10,7,1]  344
+    RHS1      UB[10,8,0]  222
+    RHS1      UB[10,8,1]  344
+    RHS1      UB[10,9,0]  246
+    RHS1      UB[10,9,1]  344
+    RHS1      UB[10,11,0]  106
+    RHS1      UB[10,11,1]  344
+    RHS1      UB[10,12,0]  246
+    RHS1      UB[10,12,1]  344
+    RHS1      UB[10,13,0]  250
+    RHS1      UB[10,13,1]  344
+    RHS1      UB[10,14,0]  314
+    RHS1      UB[10,14,1]  344
+    RHS1      UB[10,15,0]  255
+    RHS1      UB[10,15,1]  344
+    RHS1      UB[10,16,0]  208
+    RHS1      UB[10,16,1]  344
+    RHS1      UB[10,17,0]  187
+    RHS1      UB[10,17,1]  344
+    RHS1      UB[10,18,0]  328
+    RHS1      UB[10,18,1]  344
+    RHS1      UB[11,0,0]  232.5
+    RHS1      UB[11,0,1]  322.5
+    RHS1      UB[11,1,0]  232.5
+    RHS1      UB[11,1,1]  322.5
+    RHS1      UB[11,2,0]  157.5
+    RHS1      UB[11,2,1]  322.5
+    RHS1      UB[11,3,0]  188.5
+    RHS1      UB[11,3,1]  322.5
+    RHS1      UB[11,4,0]  222.5
+    RHS1      UB[11,4,1]  322.5
+    RHS1      UB[11,5,0]  184.5
+    RHS1      UB[11,5,1]  322.5
+    RHS1      UB[11,6,0]  168.5
+    RHS1      UB[11,6,1]  322.5
+    RHS1      UB[11,7,0]  215.5
+    RHS1      UB[11,7,1]  322.5
+    RHS1      UB[11,8,0]  114.5
+    RHS1      UB[11,8,1]  322.5
+    RHS1      UB[11,9,0]  197.5
+    RHS1      UB[11,9,1]  322.5
+    RHS1      UB[11,10,0]  232.5
+    RHS1      UB[11,10,1]  322.5
+    RHS1      UB[11,12,0]  138.5
+    RHS1      UB[11,12,1]  322.5
+    RHS1      UB[11,13,0]  142.5
+    RHS1      UB[11,13,1]  322.5
+    RHS1      UB[11,14,0]  214.5
+    RHS1      UB[11,14,1]  322.5
+    RHS1      UB[11,15,0]  147.5
+    RHS1      UB[11,15,1]  322.5
+    RHS1      UB[11,16,0]  100.5
+    RHS1      UB[11,16,1]  322.5
+    RHS1      UB[11,17,0]  79.5
+    RHS1      UB[11,17,1]  322.5
+    RHS1      UB[11,18,0]  220.5
+    RHS1      UB[11,18,1]  322.5
+    RHS1      UB[12,0,0]  282.5
+    RHS1      UB[12,0,1]  283
+    RHS1      UB[12,1,0]  282.5
+    RHS1      UB[12,1,1]  283
+    RHS1      UB[12,2,0]  207.5
+    RHS1      UB[12,2,1]  283
+    RHS1      UB[12,3,0]  238.5
+    RHS1      UB[12,3,1]  283
+    RHS1      UB[12,4,0]  272.5
+    RHS1      UB[12,4,1]  283
+    RHS1      UB[12,5,0]  234.5
+    RHS1      UB[12,5,1]  283
+    RHS1      UB[12,6,0]  200.5
+    RHS1      UB[12,6,1]  283
+    RHS1      UB[12,7,0]  265.5
+    RHS1      UB[12,7,1]  283
+    RHS1      UB[12,8,0]  164.5
+    RHS1      UB[12,8,1]  283
+    RHS1      UB[12,9,0]  229.5
+    RHS1      UB[12,9,1]  283
+    RHS1      UB[12,10,0]  282.5
+    RHS1      UB[12,10,1]  283
+    RHS1      UB[12,11,0]  282.5
+    RHS1      UB[12,11,1]  283
+    RHS1      UB[12,13,0]  192.5
+    RHS1      UB[12,13,1]  283
+    RHS1      UB[12,14,0]  264.5
+    RHS1      UB[12,14,1]  283
+    RHS1      UB[12,15,0]  197.5
+    RHS1      UB[12,15,1]  283
+    RHS1      UB[12,16,0]  150.5
+    RHS1      UB[12,16,1]  283
+    RHS1      UB[12,17,0]  129.5
+    RHS1      UB[12,17,1]  283
+    RHS1      UB[12,18,0]  270.5
+    RHS1      UB[12,18,1]  283
+    RHS1      UB[13,0,0]  285.5
+    RHS1      UB[13,0,1]  285
+    RHS1      UB[13,1,0]  285.5
+    RHS1      UB[13,1,1]  285
+    RHS1      UB[13,2,0]  210.5
+    RHS1      UB[13,2,1]  285
+    RHS1      UB[13,3,0]  241.5
+    RHS1      UB[13,3,1]  285
+    RHS1      UB[13,4,0]  275.5
+    RHS1      UB[13,4,1]  285
+    RHS1      UB[13,5,0]  237.5
+    RHS1      UB[13,5,1]  285
+    RHS1      UB[13,6,0]  201.5
+    RHS1      UB[13,6,1]  285
+    RHS1      UB[13,7,0]  268.5
+    RHS1      UB[13,7,1]  285
+    RHS1      UB[13,8,0]  167.5
+    RHS1      UB[13,8,1]  285
+    RHS1      UB[13,9,0]  230.5
+    RHS1      UB[13,9,1]  285
+    RHS1      UB[13,10,0]  285.5
+    RHS1      UB[13,10,1]  285
+    RHS1      UB[13,11,0]  285.5
+    RHS1      UB[13,11,1]  285
+    RHS1      UB[13,12,0]  285.5
+    RHS1      UB[13,12,1]  285
+    RHS1      UB[13,14,0]  267.5
+    RHS1      UB[13,14,1]  285
+    RHS1      UB[13,15,0]  200.5
+    RHS1      UB[13,15,1]  285
+    RHS1      UB[13,16,0]  153.5
+    RHS1      UB[13,16,1]  285
+    RHS1      UB[13,17,0]  132.5
+    RHS1      UB[13,17,1]  285
+    RHS1      UB[13,18,0]  273.5
+    RHS1      UB[13,18,1]  285
+    RHS1      UB[14,0,0]  341
+    RHS1      UB[14,0,1]  343
+    RHS1      UB[14,1,0]  341
+    RHS1      UB[14,1,1]  343
+    RHS1      UB[14,2,0]  242
+    RHS1      UB[14,2,1]  343
+    RHS1      UB[14,3,0]  297
+    RHS1      UB[14,3,1]  343
+    RHS1      UB[14,4,0]  318
+    RHS1      UB[14,4,1]  343
+    RHS1      UB[14,5,0]  264
+    RHS1      UB[14,5,1]  343
+    RHS1      UB[14,6,0]  218
+    RHS1      UB[14,6,1]  343
+    RHS1      UB[14,7,0]  311
+    RHS1      UB[14,7,1]  343
+    RHS1      UB[14,8,0]  223
+    RHS1      UB[14,8,1]  343
+    RHS1      UB[14,9,0]  247
+    RHS1      UB[14,9,1]  343
+    RHS1      UB[14,10,0]  341
+    RHS1      UB[14,10,1]  343
+    RHS1      UB[14,11,0]  341
+    RHS1      UB[14,11,1]  343
+    RHS1      UB[14,12,0]  341
+    RHS1      UB[14,12,1]  343
+    RHS1      UB[14,13,0]  341
+    RHS1      UB[14,13,1]  343
+    RHS1      UB[14,15,0]  256
+    RHS1      UB[14,15,1]  343
+    RHS1      UB[14,16,0]  209
+    RHS1      UB[14,16,1]  343
+    RHS1      UB[14,17,0]  188
+    RHS1      UB[14,17,1]  343
+    RHS1      UB[14,18,0]  329
+    RHS1      UB[14,18,1]  343
+    RHS1      UB[15,0,0]  286.5
+    RHS1      UB[15,0,1]  257
+    RHS1      UB[15,1,0]  286.5
+    RHS1      UB[15,1,1]  257
+    RHS1      UB[15,2,0]  211.5
+    RHS1      UB[15,2,1]  257
+    RHS1      UB[15,3,0]  242.5
+    RHS1      UB[15,3,1]  257
+    RHS1      UB[15,4,0]  276.5
+    RHS1      UB[15,4,1]  257
+    RHS1      UB[15,5,0]  238.5
+    RHS1      UB[15,5,1]  257
+    RHS1      UB[15,6,0]  205.5
+    RHS1      UB[15,6,1]  257
+    RHS1      UB[15,7,0]  269.5
+    RHS1      UB[15,7,1]  257
+    RHS1      UB[15,8,0]  168.5
+    RHS1      UB[15,8,1]  257
+    RHS1      UB[15,9,0]  234.5
+    RHS1      UB[15,9,1]  257
+    RHS1      UB[15,10,0]  286.5
+    RHS1      UB[15,10,1]  257
+    RHS1      UB[15,11,0]  286.5
+    RHS1      UB[15,11,1]  257
+    RHS1      UB[15,12,0]  286.5
+    RHS1      UB[15,12,1]  257
+    RHS1      UB[15,13,0]  286.5
+    RHS1      UB[15,13,1]  257
+    RHS1      UB[15,14,0]  286.5
+    RHS1      UB[15,14,1]  257
+    RHS1      UB[15,16,0]  154.5
+    RHS1      UB[15,16,1]  257
+    RHS1      UB[15,17,0]  133.5
+    RHS1      UB[15,17,1]  257
+    RHS1      UB[15,18,0]  274.5
+    RHS1      UB[15,18,1]  257
+    RHS1      UB[16,0,0]  266
+    RHS1      UB[16,0,1]  288.5
+    RHS1      UB[16,1,0]  266
+    RHS1      UB[16,1,1]  288.5
+    RHS1      UB[16,2,0]  191
+    RHS1      UB[16,2,1]  288.5
+    RHS1      UB[16,3,0]  222
+    RHS1      UB[16,3,1]  288.5
+    RHS1      UB[16,4,0]  256
+    RHS1      UB[16,4,1]  288.5
+    RHS1      UB[16,5,0]  218
+    RHS1      UB[16,5,1]  288.5
+    RHS1      UB[16,6,0]  179
+    RHS1      UB[16,6,1]  288.5
+    RHS1      UB[16,7,0]  249
+    RHS1      UB[16,7,1]  288.5
+    RHS1      UB[16,8,0]  148
+    RHS1      UB[16,8,1]  288.5
+    RHS1      UB[16,9,0]  208
+    RHS1      UB[16,9,1]  288.5
+    RHS1      UB[16,10,0]  266
+    RHS1      UB[16,10,1]  288.5
+    RHS1      UB[16,11,0]  266
+    RHS1      UB[16,11,1]  288.5
+    RHS1      UB[16,12,0]  266
+    RHS1      UB[16,12,1]  288.5
+    RHS1      UB[16,13,0]  266
+    RHS1      UB[16,13,1]  288.5
+    RHS1      UB[16,14,0]  266
+    RHS1      UB[16,14,1]  288.5
+    RHS1      UB[16,15,0]  266
+    RHS1      UB[16,15,1]  288.5
+    RHS1      UB[16,17,0]  113
+    RHS1      UB[16,17,1]  288.5
+    RHS1      UB[16,18,0]  254
+    RHS1      UB[16,18,1]  288.5
+    RHS1      UB[17,0,0]  245
+    RHS1      UB[17,0,1]  273.5
+    RHS1      UB[17,1,0]  245
+    RHS1      UB[17,1,1]  273.5
+    RHS1      UB[17,2,0]  170
+    RHS1      UB[17,2,1]  273.5
+    RHS1      UB[17,3,0]  201
+    RHS1      UB[17,3,1]  273.5
+    RHS1      UB[17,4,0]  235
+    RHS1      UB[17,4,1]  273.5
+    RHS1      UB[17,5,0]  197
+    RHS1      UB[17,5,1]  273.5
+    RHS1      UB[17,6,0]  179
+    RHS1      UB[17,6,1]  273.5
+    RHS1      UB[17,7,0]  228
+    RHS1      UB[17,7,1]  273.5
+    RHS1      UB[17,8,0]  127
+    RHS1      UB[17,8,1]  273.5
+    RHS1      UB[17,9,0]  208
+    RHS1      UB[17,9,1]  273.5
+    RHS1      UB[17,10,0]  245
+    RHS1      UB[17,10,1]  273.5
+    RHS1      UB[17,11,0]  245
+    RHS1      UB[17,11,1]  273.5
+    RHS1      UB[17,12,0]  245
+    RHS1      UB[17,12,1]  273.5
+    RHS1      UB[17,13,0]  245
+    RHS1      UB[17,13,1]  273.5
+    RHS1      UB[17,14,0]  245
+    RHS1      UB[17,14,1]  273.5
+    RHS1      UB[17,15,0]  245
+    RHS1      UB[17,15,1]  273.5
+    RHS1      UB[17,16,0]  245
+    RHS1      UB[17,16,1]  273.5
+    RHS1      UB[17,18,0]  233
+    RHS1      UB[17,18,1]  273.5
+    RHS1      UB[18,0,0]  344
+    RHS1      UB[18,0,1]  342
+    RHS1      UB[18,1,0]  344
+    RHS1      UB[18,1,1]  342
+    RHS1      UB[18,2,0]  245
+    RHS1      UB[18,2,1]  342
+    RHS1      UB[18,3,0]  300
+    RHS1      UB[18,3,1]  342
+    RHS1      UB[18,4,0]  321
+    RHS1      UB[18,4,1]  342
+    RHS1      UB[18,5,0]  267
+    RHS1      UB[18,5,1]  342
+    RHS1      UB[18,6,0]  221
+    RHS1      UB[18,6,1]  342
+    RHS1      UB[18,7,0]  314
+    RHS1      UB[18,7,1]  342
+    RHS1      UB[18,8,0]  226
+    RHS1      UB[18,8,1]  342
+    RHS1      UB[18,9,0]  250
+    RHS1      UB[18,9,1]  342
+    RHS1      UB[18,10,0]  344
+    RHS1      UB[18,10,1]  342
+    RHS1      UB[18,11,0]  344
+    RHS1      UB[18,11,1]  342
+    RHS1      UB[18,12,0]  344
+    RHS1      UB[18,12,1]  342
+    RHS1      UB[18,13,0]  344
+    RHS1      UB[18,13,1]  342
+    RHS1      UB[18,14,0]  344
+    RHS1      UB[18,14,1]  342
+    RHS1      UB[18,15,0]  344
+    RHS1      UB[18,15,1]  342
+    RHS1      UB[18,16,0]  344
+    RHS1      UB[18,16,1]  342
+    RHS1      UB[18,17,0]  344
+    RHS1      UB[18,17,1]  342
+    RHS1      PM[0,1,0]  40.5
+    RHS1      PM[0,1,1]  -303.5
+    RHS1      PM[0,2,0]  58.5
+    RHS1      PM[0,2,1]  -305.5
+    RHS1      PM[0,3,0]  19
+    RHS1      PM[0,3,1]  -302.5
+    RHS1      PM[0,4,0]  23
+    RHS1      PM[0,4,1]  -334.5
+    RHS1      PM[0,5,0]  58
+    RHS1      PM[0,5,1]  -327.5
+    RHS1      PM[0,6,0]  96
+    RHS1      PM[0,6,1]  -283.5
+    RHS1      PM[0,7,0]  26.5
+    RHS1      PM[0,7,1]  -326
+    RHS1      PM[0,8,0]  70
+    RHS1      PM[0,8,1]  -322
+    RHS1      PM[0,9,0]  82.5
+    RHS1      PM[0,9,1]  -275.5
+    RHS1      PM[0,10,0]  26
+    RHS1      PM[0,10,1]  -336.5
+    RHS1      PM[0,11,0]  121.5
+    RHS1      PM[0,11,1]  -315
+    RHS1      PM[0,12,0]  37.5
+    RHS1      PM[0,12,1]  -266.5
+    RHS1      PM[0,13,0]  36.5
+    RHS1      PM[0,13,1]  -310.5
+    RHS1      PM[0,14,0]  22
+    RHS1      PM[0,14,1]  -335.5
+    RHS1      PM[0,15,0]  32.5
+    RHS1      PM[0,15,1]  -260.5
+    RHS1      PM[0,16,0]  59
+    RHS1      PM[0,16,1]  -281
+    RHS1      PM[0,17,0]  59
+    RHS1      PM[0,17,1]  -277
+    RHS1      PM[0,18,0]  17
+    RHS1      PM[0,18,1]  -340.5
+    RHS1      PM[1,0,0]  -310.5
+    RHS1      PM[1,0,1]  -327.5
+    RHS1      PM[1,2,0]  83
+    RHS1      PM[1,2,1]  -299
+    RHS1      PM[1,3,0]  37.5
+    RHS1      PM[1,3,1]  -296
+    RHS1      PM[1,4,0]  47.5
+    RHS1      PM[1,4,1]  -328
+    RHS1      PM[1,5,0]  82.5
+    RHS1      PM[1,5,1]  -321
+    RHS1      PM[1,6,0]  120.5
+    RHS1      PM[1,6,1]  -277
+    RHS1      PM[1,7,0]  51
+    RHS1      PM[1,7,1]  -319.5
+    RHS1      PM[1,8,0]  88.5
+    RHS1      PM[1,8,1]  -315.5
+    RHS1      PM[1,9,0]  107
+    RHS1      PM[1,9,1]  -269
+    RHS1      PM[1,10,0]  50.5
+    RHS1      PM[1,10,1]  -330
+    RHS1      PM[1,11,0]  146
+    RHS1      PM[1,11,1]  -308.5
+    RHS1      PM[1,12,0]  56
+    RHS1      PM[1,12,1]  -260
+    RHS1      PM[1,13,0]  55
+    RHS1      PM[1,13,1]  -304
+    RHS1      PM[1,14,0]  46.5
+    RHS1      PM[1,14,1]  -329
+    RHS1      PM[1,15,0]  51
+    RHS1      PM[1,15,1]  -254
+    RHS1      PM[1,16,0]  77.5
+    RHS1      PM[1,16,1]  -274.5
+    RHS1      PM[1,17,0]  77.5
+    RHS1      PM[1,17,1]  -270.5
+    RHS1      PM[1,18,0]  35.5
+    RHS1      PM[1,18,1]  -334
+    RHS1      PM[2,0,0]  -294.5
+    RHS1      PM[2,0,1]  -322.5
+    RHS1      PM[2,1,0]  -275
+    RHS1      PM[2,1,1]  -292
+    RHS1      PM[2,3,0]  53.5
+    RHS1      PM[2,3,1]  -291
+    RHS1      PM[2,4,0]  50.5
+    RHS1      PM[2,4,1]  -323
+    RHS1      PM[2,5,0]  82.5
+    RHS1      PM[2,5,1]  -316
+    RHS1      PM[2,6,0]  120.5
+    RHS1      PM[2,6,1]  -272
+    RHS1      PM[2,7,0]  54
+    RHS1      PM[2,7,1]  -314.5
+    RHS1      PM[2,8,0]  104.5
+    RHS1      PM[2,8,1]  -310.5
+    RHS1      PM[2,9,0]  107
+    RHS1      PM[2,9,1]  -264
+    RHS1      PM[2,10,0]  -283.5
+    RHS1      PM[2,10,1]  -325
+    RHS1      PM[2,11,0]  -188
+    RHS1      PM[2,11,1]  -303.5
+    RHS1      PM[2,12,0]  -278
+    RHS1      PM[2,12,1]  -255
+    RHS1      PM[2,13,0]  -279
+    RHS1      PM[2,13,1]  -299
+    RHS1      PM[2,14,0]  -287.5
+    RHS1      PM[2,14,1]  -324
+    RHS1      PM[2,15,0]  -283
+    RHS1      PM[2,15,1]  -249
+    RHS1      PM[2,16,0]  -256.5
+    RHS1      PM[2,16,1]  -269.5
+    RHS1      PM[2,17,0]  -256.5
+    RHS1      PM[2,17,1]  -265.5
+    RHS1      PM[2,18,0]  -298.5
+    RHS1      PM[2,18,1]  -329
+    RHS1      PM[3,0,0]  -304
+    RHS1      PM[3,0,1]  -325.5
+    RHS1      PM[3,1,0]  -284.5
+    RHS1      PM[3,1,1]  -295
+    RHS1      PM[3,2,0]  -260.5
+    RHS1      PM[3,2,1]  -297
+    RHS1      PM[3,4,0]  41
+    RHS1      PM[3,4,1]  -326
+    RHS1      PM[3,5,0]  61
+    RHS1      PM[3,5,1]  -319
+    RHS1      PM[3,6,0]  99
+    RHS1      PM[3,6,1]  -275
+    RHS1      PM[3,7,0]  44.5
+    RHS1      PM[3,7,1]  -317.5
+    RHS1      PM[3,8,0]  95
+    RHS1      PM[3,8,1]  -313.5
+    RHS1      PM[3,9,0]  85.5
+    RHS1      PM[3,9,1]  -267
+    RHS1      PM[3,10,0]  -293
+    RHS1      PM[3,10,1]  -328
+    RHS1      PM[3,11,0]  -197.5
+    RHS1      PM[3,11,1]  -306.5
+    RHS1      PM[3,12,0]  -287.5
+    RHS1      PM[3,12,1]  -258
+    RHS1      PM[3,13,0]  -288.5
+    RHS1      PM[3,13,1]  -302
+    RHS1      PM[3,14,0]  -297
+    RHS1      PM[3,14,1]  -327
+    RHS1      PM[3,15,0]  -292.5
+    RHS1      PM[3,15,1]  -252
+    RHS1      PM[3,16,0]  -266
+    RHS1      PM[3,16,1]  -272.5
+    RHS1      PM[3,17,0]  -266
+    RHS1      PM[3,17,1]  -268.5
+    RHS1      PM[3,18,0]  -308
+    RHS1      PM[3,18,1]  -332
+    RHS1      PM[4,0,0]  -335
+    RHS1      PM[4,0,1]  -333.5
+    RHS1      PM[4,1,0]  -315.5
+    RHS1      PM[4,1,1]  -303
+    RHS1      PM[4,2,0]  -291.5
+    RHS1      PM[4,2,1]  -305
+    RHS1      PM[4,3,0]  -337
+    RHS1      PM[4,3,1]  -302
+    RHS1      PM[4,5,0]  58
+    RHS1      PM[4,5,1]  -327
+    RHS1      PM[4,6,0]  96
+    RHS1      PM[4,6,1]  -283
+    RHS1      PM[4,7,0]  26.5
+    RHS1      PM[4,7,1]  -325.5
+    RHS1      PM[4,8,0]  64
+    RHS1      PM[4,8,1]  -321.5
+    RHS1      PM[4,9,0]  82.5
+    RHS1      PM[4,9,1]  -275
+    RHS1      PM[4,10,0]  -324
+    RHS1      PM[4,10,1]  -336
+    RHS1      PM[4,11,0]  -228.5
+    RHS1      PM[4,11,1]  -314.5
+    RHS1      PM[4,12,0]  -318.5
+    RHS1      PM[4,12,1]  -266
+    RHS1      PM[4,13,0]  -319.5
+    RHS1      PM[4,13,1]  -310
+    RHS1      PM[4,14,0]  -328
+    RHS1      PM[4,14,1]  -335
+    RHS1      PM[4,15,0]  -323.5
+    RHS1      PM[4,15,1]  -260
+    RHS1      PM[4,16,0]  -297
+    RHS1      PM[4,16,1]  -280.5
+    RHS1      PM[4,17,0]  -297
+    RHS1      PM[4,17,1]  -276.5
+    RHS1      PM[4,18,0]  -339
+    RHS1      PM[4,18,1]  -340
+    RHS1      PM[5,0,0]  -316
+    RHS1      PM[5,0,1]  -306.5
+    RHS1      PM[5,1,0]  -296.5
+    RHS1      PM[5,1,1]  -276
+    RHS1      PM[5,2,0]  -272.5
+    RHS1      PM[5,2,1]  -278
+    RHS1      PM[5,3,0]  -318
+    RHS1      PM[5,3,1]  -275
+    RHS1      PM[5,4,0]  -308
+    RHS1      PM[5,4,1]  -307
+    RHS1      PM[5,6,0]  115
+    RHS1      PM[5,6,1]  -256
+    RHS1      PM[5,7,0]  45.5
+    RHS1      PM[5,7,1]  -298.5
+    RHS1      PM[5,8,0]  83
+    RHS1      PM[5,8,1]  -294.5
+    RHS1      PM[5,9,0]  101.5
+    RHS1      PM[5,9,1]  -248
+    RHS1      PM[5,10,0]  -305
+    RHS1      PM[5,10,1]  -309
+    RHS1      PM[5,11,0]  -209.5
+    RHS1      PM[5,11,1]  -287.5
+    RHS1      PM[5,12,0]  -299.5
+    RHS1      PM[5,12,1]  -239
+    RHS1      PM[5,13,0]  -300.5
+    RHS1      PM[5,13,1]  -283
+    RHS1      PM[5,14,0]  -309
+    RHS1      PM[5,14,1]  -308
+    RHS1      PM[5,15,0]  -304.5
+    RHS1      PM[5,15,1]  -233
+    RHS1      PM[5,16,0]  -278
+    RHS1      PM[5,16,1]  -253.5
+    RHS1      PM[5,17,0]  -278
+    RHS1      PM[5,17,1]  -249.5
+    RHS1      PM[5,18,0]  -320
+    RHS1      PM[5,18,1]  -313
+    RHS1      PM[6,0,0]  -308
+    RHS1      PM[6,0,1]  -282.5
+    RHS1      PM[6,1,0]  -288.5
+    RHS1      PM[6,1,1]  -252
+    RHS1      PM[6,2,0]  -264.5
+    RHS1      PM[6,2,1]  -254
+    RHS1      PM[6,3,0]  -310
+    RHS1      PM[6,3,1]  -251
+    RHS1      PM[6,4,0]  -300
+    RHS1      PM[6,4,1]  -283
+    RHS1      PM[6,5,0]  -265
+    RHS1      PM[6,5,1]  -276
+    RHS1      PM[6,7,0]  53.5
+    RHS1      PM[6,7,1]  -274.5
+    RHS1      PM[6,8,0]  91
+    RHS1      PM[6,8,1]  -270.5
+    RHS1      PM[6,9,0]  109.5
+    RHS1      PM[6,9,1]  -224
+    RHS1      PM[6,10,0]  -297
+    RHS1      PM[6,10,1]  -285
+    RHS1      PM[6,11,0]  -201.5
+    RHS1      PM[6,11,1]  -263.5
+    RHS1      PM[6,12,0]  -291.5
+    RHS1      PM[6,12,1]  -215
+    RHS1      PM[6,13,0]  -292.5
+    RHS1      PM[6,13,1]  -259
+    RHS1      PM[6,14,0]  -301
+    RHS1      PM[6,14,1]  -284
+    RHS1      PM[6,15,0]  -296.5
+    RHS1      PM[6,15,1]  -209
+    RHS1      PM[6,16,0]  -270
+    RHS1      PM[6,16,1]  -229.5
+    RHS1      PM[6,17,0]  -270
+    RHS1      PM[6,17,1]  -225.5
+    RHS1      PM[6,18,0]  -312
+    RHS1      PM[6,18,1]  -289
+    RHS1      PM[7,0,0]  -331.5
+    RHS1      PM[7,0,1]  -325
+    RHS1      PM[7,1,0]  -312
+    RHS1      PM[7,1,1]  -294.5
+    RHS1      PM[7,2,0]  -288
+    RHS1      PM[7,2,1]  -296.5
+    RHS1      PM[7,3,0]  -333.5
+    RHS1      PM[7,3,1]  -293.5
+    RHS1      PM[7,4,0]  -323.5
+    RHS1      PM[7,4,1]  -325.5
+    RHS1      PM[7,5,0]  -288.5
+    RHS1      PM[7,5,1]  -318.5
+    RHS1      PM[7,6,0]  -250.5
+    RHS1      PM[7,6,1]  -274.5
+    RHS1      PM[7,8,0]  67.5
+    RHS1      PM[7,8,1]  -313
+    RHS1      PM[7,9,0]  86
+    RHS1      PM[7,9,1]  -266.5
+    RHS1      PM[7,10,0]  -320.5
+    RHS1      PM[7,10,1]  -327.5
+    RHS1      PM[7,11,0]  -225
+    RHS1      PM[7,11,1]  -306
+    RHS1      PM[7,12,0]  -315
+    RHS1      PM[7,12,1]  -257.5
+    RHS1      PM[7,13,0]  -316
+    RHS1      PM[7,13,1]  -301.5
+    RHS1      PM[7,14,0]  -324.5
+    RHS1      PM[7,14,1]  -326.5
+    RHS1      PM[7,15,0]  -320
+    RHS1      PM[7,15,1]  -251.5
+    RHS1      PM[7,16,0]  -293.5
+    RHS1      PM[7,16,1]  -272
+    RHS1      PM[7,17,0]  -293.5
+    RHS1      PM[7,17,1]  -268
+    RHS1      PM[7,18,0]  -335.5
+    RHS1      PM[7,18,1]  -331.5
+    RHS1      PM[8,0,0]  -281
+    RHS1      PM[8,0,1]  -321
+    RHS1      PM[8,1,0]  -261.5
+    RHS1      PM[8,1,1]  -290.5
+    RHS1      PM[8,2,0]  -237.5
+    RHS1      PM[8,2,1]  -292.5
+    RHS1      PM[8,3,0]  -283
+    RHS1      PM[8,3,1]  -289.5
+    RHS1      PM[8,4,0]  -273
+    RHS1      PM[8,4,1]  -321.5
+    RHS1      PM[8,5,0]  -238
+    RHS1      PM[8,5,1]  -314.5
+    RHS1      PM[8,6,0]  -200
+    RHS1      PM[8,6,1]  -270.5
+    RHS1      PM[8,7,0]  -269.5
+    RHS1      PM[8,7,1]  -313
+    RHS1      PM[8,9,0]  136.5
+    RHS1      PM[8,9,1]  -262.5
+    RHS1      PM[8,10,0]  -270
+    RHS1      PM[8,10,1]  -323.5
+    RHS1      PM[8,11,0]  -174.5
+    RHS1      PM[8,11,1]  -302
+    RHS1      PM[8,12,0]  -264.5
+    RHS1      PM[8,12,1]  -253.5
+    RHS1      PM[8,13,0]  -265.5
+    RHS1      PM[8,13,1]  -297.5
+    RHS1      PM[8,14,0]  -274
+    RHS1      PM[8,14,1]  -322.5
+    RHS1      PM[8,15,0]  -269.5
+    RHS1      PM[8,15,1]  -247.5
+    RHS1      PM[8,16,0]  -243
+    RHS1      PM[8,16,1]  -268
+    RHS1      PM[8,17,0]  -243
+    RHS1      PM[8,17,1]  -264
+    RHS1      PM[8,18,0]  -285
+    RHS1      PM[8,18,1]  -327.5
+    RHS1      PM[9,0,0]  -323.5
+    RHS1      PM[9,0,1]  -261.5
+    RHS1      PM[9,1,0]  -304
+    RHS1      PM[9,1,1]  -231
+    RHS1      PM[9,2,0]  -280
+    RHS1      PM[9,2,1]  -233
+    RHS1      PM[9,3,0]  -325.5
+    RHS1      PM[9,3,1]  -230
+    RHS1      PM[9,4,0]  -315.5
+    RHS1      PM[9,4,1]  -262
+    RHS1      PM[9,5,0]  -280.5
+    RHS1      PM[9,5,1]  -255
+    RHS1      PM[9,6,0]  -242.5
+    RHS1      PM[9,6,1]  -211
+    RHS1      PM[9,7,0]  -312
+    RHS1      PM[9,7,1]  -253.5
+    RHS1      PM[9,8,0]  -274.5
+    RHS1      PM[9,8,1]  -249.5
+    RHS1      PM[9,10,0]  -312.5
+    RHS1      PM[9,10,1]  -264
+    RHS1      PM[9,11,0]  -217
+    RHS1      PM[9,11,1]  -242.5
+    RHS1      PM[9,12,0]  -307
+    RHS1      PM[9,12,1]  -194
+    RHS1      PM[9,13,0]  -308
+    RHS1      PM[9,13,1]  -238
+    RHS1      PM[9,14,0]  -316.5
+    RHS1      PM[9,14,1]  -263
+    RHS1      PM[9,15,0]  -312
+    RHS1      PM[9,15,1]  -188
+    RHS1      PM[9,16,0]  -285.5
+    RHS1      PM[9,16,1]  -208.5
+    RHS1      PM[9,17,0]  -285.5
+    RHS1      PM[9,17,1]  -204.5
+    RHS1      PM[9,18,0]  -327.5
+    RHS1      PM[9,18,1]  -268
+    RHS1      PM[10,0,0]  -330
+    RHS1      PM[10,0,1]  -335.5
+    RHS1      PM[10,1,0]  -310.5
+    RHS1      PM[10,1,1]  -305
+    RHS1      PM[10,2,0]  63.5
+    RHS1      PM[10,2,1]  -307
+    RHS1      PM[10,3,0]  18
+    RHS1      PM[10,3,1]  -304
+    RHS1      PM[10,4,0]  28
+    RHS1      PM[10,4,1]  -336
+    RHS1      PM[10,5,0]  63
+    RHS1      PM[10,5,1]  -329
+    RHS1      PM[10,6,0]  101
+    RHS1      PM[10,6,1]  -285
+    RHS1      PM[10,7,0]  31.5
+    RHS1      PM[10,7,1]  -327.5
+    RHS1      PM[10,8,0]  69
+    RHS1      PM[10,8,1]  -323.5
+    RHS1      PM[10,9,0]  87.5
+    RHS1      PM[10,9,1]  -277
+    RHS1      PM[10,11,0]  126.5
+    RHS1      PM[10,11,1]  -316.5
+    RHS1      PM[10,12,0]  36.5
+    RHS1      PM[10,12,1]  -268
+    RHS1      PM[10,13,0]  35.5
+    RHS1      PM[10,13,1]  -312
+    RHS1      PM[10,14,0]  27
+    RHS1      PM[10,14,1]  -337
+    RHS1      PM[10,15,0]  31.5
+    RHS1      PM[10,15,1]  -262
+    RHS1      PM[10,16,0]  58
+    RHS1      PM[10,16,1]  -282.5
+    RHS1      PM[10,17,0]  58
+    RHS1      PM[10,17,1]  -278.5
+    RHS1      PM[10,18,0]  16
+    RHS1      PM[10,18,1]  -342
+    RHS1      PM[11,0,0]  -222.5
+    RHS1      PM[11,0,1]  -314
+    RHS1      PM[11,1,0]  -203
+    RHS1      PM[11,1,1]  -283.5
+    RHS1      PM[11,2,0]  147
+    RHS1      PM[11,2,1]  -285.5
+    RHS1      PM[11,3,0]  125.5
+    RHS1      PM[11,3,1]  -282.5
+    RHS1      PM[11,4,0]  122.5
+    RHS1      PM[11,4,1]  -314.5
+    RHS1      PM[11,5,0]  141.5
+    RHS1      PM[11,5,1]  -307.5
+    RHS1      PM[11,6,0]  149.5
+    RHS1      PM[11,6,1]  -263.5
+    RHS1      PM[11,7,0]  126
+    RHS1      PM[11,7,1]  -306
+    RHS1      PM[11,8,0]  176.5
+    RHS1      PM[11,8,1]  -302
+    RHS1      PM[11,9,0]  136
+    RHS1      PM[11,9,1]  -255.5
+    RHS1      PM[11,10,0]  -211.5
+    RHS1      PM[11,10,1]  -316.5
+    RHS1      PM[11,12,0]  144
+    RHS1      PM[11,12,1]  -246.5
+    RHS1      PM[11,13,0]  143
+    RHS1      PM[11,13,1]  -290.5
+    RHS1      PM[11,14,0]  126.5
+    RHS1      PM[11,14,1]  -315.5
+    RHS1      PM[11,15,0]  139
+    RHS1      PM[11,15,1]  -240.5
+    RHS1      PM[11,16,0]  165.5
+    RHS1      PM[11,16,1]  -261
+    RHS1      PM[11,17,0]  165.5
+    RHS1      PM[11,17,1]  -257
+    RHS1      PM[11,18,0]  123.5
+    RHS1      PM[11,18,1]  -320.5
+    RHS1      PM[12,0,0]  -272.5
+    RHS1      PM[12,0,1]  -274.5
+    RHS1      PM[12,1,0]  -253
+    RHS1      PM[12,1,1]  -244
+    RHS1      PM[12,2,0]  97
+    RHS1      PM[12,2,1]  -246
+    RHS1      PM[12,3,0]  75.5
+    RHS1      PM[12,3,1]  -243
+    RHS1      PM[12,4,0]  72.5
+    RHS1      PM[12,4,1]  -275
+    RHS1      PM[12,5,0]  91.5
+    RHS1      PM[12,5,1]  -268
+    RHS1      PM[12,6,0]  117.5
+    RHS1      PM[12,6,1]  -224
+    RHS1      PM[12,7,0]  76
+    RHS1      PM[12,7,1]  -266.5
+    RHS1      PM[12,8,0]  126.5
+    RHS1      PM[12,8,1]  -262.5
+    RHS1      PM[12,9,0]  104
+    RHS1      PM[12,9,1]  -216
+    RHS1      PM[12,10,0]  -261.5
+    RHS1      PM[12,10,1]  -277
+    RHS1      PM[12,11,0]  -166
+    RHS1      PM[12,11,1]  -255.5
+    RHS1      PM[12,13,0]  93
+    RHS1      PM[12,13,1]  -251
+    RHS1      PM[12,14,0]  76.5
+    RHS1      PM[12,14,1]  -276
+    RHS1      PM[12,15,0]  89
+    RHS1      PM[12,15,1]  -201
+    RHS1      PM[12,16,0]  115.5
+    RHS1      PM[12,16,1]  -221.5
+    RHS1      PM[12,17,0]  115.5
+    RHS1      PM[12,17,1]  -217.5
+    RHS1      PM[12,18,0]  73.5
+    RHS1      PM[12,18,1]  -281
+    RHS1      PM[13,0,0]  -275.5
+    RHS1      PM[13,0,1]  -276.5
+    RHS1      PM[13,1,0]  -256
+    RHS1      PM[13,1,1]  -246
+    RHS1      PM[13,2,0]  94
+    RHS1      PM[13,2,1]  -248
+    RHS1      PM[13,3,0]  72.5
+    RHS1      PM[13,3,1]  -245
+    RHS1      PM[13,4,0]  69.5
+    RHS1      PM[13,4,1]  -277
+    RHS1      PM[13,5,0]  88.5
+    RHS1      PM[13,5,1]  -270
+    RHS1      PM[13,6,0]  116.5
+    RHS1      PM[13,6,1]  -226
+    RHS1      PM[13,7,0]  73
+    RHS1      PM[13,7,1]  -268.5
+    RHS1      PM[13,8,0]  123.5
+    RHS1      PM[13,8,1]  -264.5
+    RHS1      PM[13,9,0]  103
+    RHS1      PM[13,9,1]  -218
+    RHS1      PM[13,10,0]  -264.5
+    RHS1      PM[13,10,1]  -279
+    RHS1      PM[13,11,0]  -169
+    RHS1      PM[13,11,1]  -257.5
+    RHS1      PM[13,12,0]  -259
+    RHS1      PM[13,12,1]  -209
+    RHS1      PM[13,14,0]  73.5
+    RHS1      PM[13,14,1]  -278
+    RHS1      PM[13,15,0]  86
+    RHS1      PM[13,15,1]  -203
+    RHS1      PM[13,16,0]  112.5
+    RHS1      PM[13,16,1]  -223.5
+    RHS1      PM[13,17,0]  112.5
+    RHS1      PM[13,17,1]  -219.5
+    RHS1      PM[13,18,0]  70.5
+    RHS1      PM[13,18,1]  -283
+    RHS1      PM[14,0,0]  -331
+    RHS1      PM[14,0,1]  -334.5
+    RHS1      PM[14,1,0]  -311.5
+    RHS1      PM[14,1,1]  -304
+    RHS1      PM[14,2,0]  62.5
+    RHS1      PM[14,2,1]  -306
+    RHS1      PM[14,3,0]  17
+    RHS1      PM[14,3,1]  -303
+    RHS1      PM[14,4,0]  27
+    RHS1      PM[14,4,1]  -335
+    RHS1      PM[14,5,0]  62
+    RHS1      PM[14,5,1]  -328
+    RHS1      PM[14,6,0]  100
+    RHS1      PM[14,6,1]  -284
+    RHS1      PM[14,7,0]  30.5
+    RHS1      PM[14,7,1]  -326.5
+    RHS1      PM[14,8,0]  68
+    RHS1      PM[14,8,1]  -322.5
+    RHS1      PM[14,9,0]  86.5
+    RHS1      PM[14,9,1]  -276
+    RHS1      PM[14,10,0]  -320
+    RHS1      PM[14,10,1]  -337
+    RHS1      PM[14,11,0]  -224.5
+    RHS1      PM[14,11,1]  -315.5
+    RHS1      PM[14,12,0]  -314.5
+    RHS1      PM[14,12,1]  -267
+    RHS1      PM[14,13,0]  -315.5
+    RHS1      PM[14,13,1]  -311
+    RHS1      PM[14,15,0]  30.5
+    RHS1      PM[14,15,1]  -261
+    RHS1      PM[14,16,0]  57
+    RHS1      PM[14,16,1]  -281.5
+    RHS1      PM[14,17,0]  57
+    RHS1      PM[14,17,1]  -277.5
+    RHS1      PM[14,18,0]  15
+    RHS1      PM[14,18,1]  -341
+    RHS1      PM[15,0,0]  -276.5
+    RHS1      PM[15,0,1]  -248.5
+    RHS1      PM[15,1,0]  -257
+    RHS1      PM[15,1,1]  -218
+    RHS1      PM[15,2,0]  93
+    RHS1      PM[15,2,1]  -220
+    RHS1      PM[15,3,0]  71.5
+    RHS1      PM[15,3,1]  -217
+    RHS1      PM[15,4,0]  68.5
+    RHS1      PM[15,4,1]  -249
+    RHS1      PM[15,5,0]  87.5
+    RHS1      PM[15,5,1]  -242
+    RHS1      PM[15,6,0]  112.5
+    RHS1      PM[15,6,1]  -198
+    RHS1      PM[15,7,0]  72
+    RHS1      PM[15,7,1]  -240.5
+    RHS1      PM[15,8,0]  122.5
+    RHS1      PM[15,8,1]  -236.5
+    RHS1      PM[15,9,0]  99
+    RHS1      PM[15,9,1]  -190
+    RHS1      PM[15,10,0]  -265.5
+    RHS1      PM[15,10,1]  -251
+    RHS1      PM[15,11,0]  -170
+    RHS1      PM[15,11,1]  -229.5
+    RHS1      PM[15,12,0]  -260
+    RHS1      PM[15,12,1]  -181
+    RHS1      PM[15,13,0]  -261
+    RHS1      PM[15,13,1]  -225
+    RHS1      PM[15,14,0]  -269.5
+    RHS1      PM[15,14,1]  -250
+    RHS1      PM[15,16,0]  111.5
+    RHS1      PM[15,16,1]  -195.5
+    RHS1      PM[15,17,0]  111.5
+    RHS1      PM[15,17,1]  -191.5
+    RHS1      PM[15,18,0]  69.5
+    RHS1      PM[15,18,1]  -255
+    RHS1      PM[16,0,0]  -256
+    RHS1      PM[16,0,1]  -280
+    RHS1      PM[16,1,0]  -236.5
+    RHS1      PM[16,1,1]  -249.5
+    RHS1      PM[16,2,0]  113.5
+    RHS1      PM[16,2,1]  -251.5
+    RHS1      PM[16,3,0]  92
+    RHS1      PM[16,3,1]  -248.5
+    RHS1      PM[16,4,0]  89
+    RHS1      PM[16,4,1]  -280.5
+    RHS1      PM[16,5,0]  108
+    RHS1      PM[16,5,1]  -273.5
+    RHS1      PM[16,6,0]  139
+    RHS1      PM[16,6,1]  -229.5
+    RHS1      PM[16,7,0]  92.5
+    RHS1      PM[16,7,1]  -272
+    RHS1      PM[16,8,0]  143
+    RHS1      PM[16,8,1]  -268
+    RHS1      PM[16,9,0]  125.5
+    RHS1      PM[16,9,1]  -221.5
+    RHS1      PM[16,10,0]  -245
+    RHS1      PM[16,10,1]  -282.5
+    RHS1      PM[16,11,0]  -149.5
+    RHS1      PM[16,11,1]  -261
+    RHS1      PM[16,12,0]  -239.5
+    RHS1      PM[16,12,1]  -212.5
+    RHS1      PM[16,13,0]  -240.5
+    RHS1      PM[16,13,1]  -256.5
+    RHS1      PM[16,14,0]  -249
+    RHS1      PM[16,14,1]  -281.5
+    RHS1      PM[16,15,0]  -244.5
+    RHS1      PM[16,15,1]  -206.5
+    RHS1      PM[16,17,0]  132
+    RHS1      PM[16,17,1]  -223
+    RHS1      PM[16,18,0]  90
+    RHS1      PM[16,18,1]  -286.5
+    RHS1      PM[17,0,0]  -235
+    RHS1      PM[17,0,1]  -265
+    RHS1      PM[17,1,0]  -215.5
+    RHS1      PM[17,1,1]  -234.5
+    RHS1      PM[17,2,0]  134.5
+    RHS1      PM[17,2,1]  -236.5
+    RHS1      PM[17,3,0]  113
+    RHS1      PM[17,3,1]  -233.5
+    RHS1      PM[17,4,0]  110
+    RHS1      PM[17,4,1]  -265.5
+    RHS1      PM[17,5,0]  129
+    RHS1      PM[17,5,1]  -258.5
+    RHS1      PM[17,6,0]  139
+    RHS1      PM[17,6,1]  -214.5
+    RHS1      PM[17,7,0]  113.5
+    RHS1      PM[17,7,1]  -257
+    RHS1      PM[17,8,0]  164
+    RHS1      PM[17,8,1]  -253
+    RHS1      PM[17,9,0]  125.5
+    RHS1      PM[17,9,1]  -206.5
+    RHS1      PM[17,10,0]  -224
+    RHS1      PM[17,10,1]  -267.5
+    RHS1      PM[17,11,0]  -128.5
+    RHS1      PM[17,11,1]  -246
+    RHS1      PM[17,12,0]  -218.5
+    RHS1      PM[17,12,1]  -197.5
+    RHS1      PM[17,13,0]  -219.5
+    RHS1      PM[17,13,1]  -241.5
+    RHS1      PM[17,14,0]  -228
+    RHS1      PM[17,14,1]  -266.5
+    RHS1      PM[17,15,0]  -223.5
+    RHS1      PM[17,15,1]  -191.5
+    RHS1      PM[17,16,0]  -197
+    RHS1      PM[17,16,1]  -212
+    RHS1      PM[17,18,0]  111
+    RHS1      PM[17,18,1]  -271.5
+    RHS1      PM[18,0,0]  -334
+    RHS1      PM[18,0,1]  -333.5
+    RHS1      PM[18,1,0]  -314.5
+    RHS1      PM[18,1,1]  -303
+    RHS1      PM[18,2,0]  59.5
+    RHS1      PM[18,2,1]  -305
+    RHS1      PM[18,3,0]  14
+    RHS1      PM[18,3,1]  -302
+    RHS1      PM[18,4,0]  24
+    RHS1      PM[18,4,1]  -334
+    RHS1      PM[18,5,0]  59
+    RHS1      PM[18,5,1]  -327
+    RHS1      PM[18,6,0]  97
+    RHS1      PM[18,6,1]  -283
+    RHS1      PM[18,7,0]  27.5
+    RHS1      PM[18,7,1]  -325.5
+    RHS1      PM[18,8,0]  65
+    RHS1      PM[18,8,1]  -321.5
+    RHS1      PM[18,9,0]  83.5
+    RHS1      PM[18,9,1]  -275
+    RHS1      PM[18,10,0]  -323
+    RHS1      PM[18,10,1]  -336
+    RHS1      PM[18,11,0]  -227.5
+    RHS1      PM[18,11,1]  -314.5
+    RHS1      PM[18,12,0]  -317.5
+    RHS1      PM[18,12,1]  -266
+    RHS1      PM[18,13,0]  -318.5
+    RHS1      PM[18,13,1]  -310
+    RHS1      PM[18,14,0]  -327
+    RHS1      PM[18,14,1]  -335
+    RHS1      PM[18,15,0]  -322.5
+    RHS1      PM[18,15,1]  -260
+    RHS1      PM[18,16,0]  -296
+    RHS1      PM[18,16,1]  -280.5
+    RHS1      PM[18,17,0]  -296
+    RHS1      PM[18,17,1]  -276.5
+    RHS1      McCormick1[0,1]  1
+    RHS1      McCormick1[0,2]  1
+    RHS1      McCormick1[0,3]  1
+    RHS1      McCormick1[0,4]  1
+    RHS1      McCormick1[0,5]  1
+    RHS1      McCormick1[0,6]  1
+    RHS1      McCormick1[0,7]  1
+    RHS1      McCormick1[0,8]  1
+    RHS1      McCormick1[0,9]  1
+    RHS1      McCormick1[0,10]  1
+    RHS1      McCormick1[0,11]  1
+    RHS1      McCormick1[0,12]  1
+    RHS1      McCormick1[0,13]  1
+    RHS1      McCormick1[0,14]  1
+    RHS1      McCormick1[0,15]  1
+    RHS1      McCormick1[0,16]  1
+    RHS1      McCormick1[0,17]  1
+    RHS1      McCormick1[0,18]  1
+    RHS1      McCormick1[1,0]  1
+    RHS1      McCormick1[1,2]  1
+    RHS1      McCormick1[1,3]  1
+    RHS1      McCormick1[1,4]  1
+    RHS1      McCormick1[1,5]  1
+    RHS1      McCormick1[1,6]  1
+    RHS1      McCormick1[1,7]  1
+    RHS1      McCormick1[1,8]  1
+    RHS1      McCormick1[1,9]  1
+    RHS1      McCormick1[1,10]  1
+    RHS1      McCormick1[1,11]  1
+    RHS1      McCormick1[1,12]  1
+    RHS1      McCormick1[1,13]  1
+    RHS1      McCormick1[1,14]  1
+    RHS1      McCormick1[1,15]  1
+    RHS1      McCormick1[1,16]  1
+    RHS1      McCormick1[1,17]  1
+    RHS1      McCormick1[1,18]  1
+    RHS1      McCormick1[2,0]  1
+    RHS1      McCormick1[2,1]  1
+    RHS1      McCormick1[2,3]  1
+    RHS1      McCormick1[2,4]  1
+    RHS1      McCormick1[2,5]  1
+    RHS1      McCormick1[2,6]  1
+    RHS1      McCormick1[2,7]  1
+    RHS1      McCormick1[2,8]  1
+    RHS1      McCormick1[2,9]  1
+    RHS1      McCormick1[2,10]  1
+    RHS1      McCormick1[2,11]  1
+    RHS1      McCormick1[2,12]  1
+    RHS1      McCormick1[2,13]  1
+    RHS1      McCormick1[2,14]  1
+    RHS1      McCormick1[2,15]  1
+    RHS1      McCormick1[2,16]  1
+    RHS1      McCormick1[2,17]  1
+    RHS1      McCormick1[2,18]  1
+    RHS1      McCormick1[3,0]  1
+    RHS1      McCormick1[3,1]  1
+    RHS1      McCormick1[3,2]  1
+    RHS1      McCormick1[3,4]  1
+    RHS1      McCormick1[3,5]  1
+    RHS1      McCormick1[3,6]  1
+    RHS1      McCormick1[3,7]  1
+    RHS1      McCormick1[3,8]  1
+    RHS1      McCormick1[3,9]  1
+    RHS1      McCormick1[3,10]  1
+    RHS1      McCormick1[3,11]  1
+    RHS1      McCormick1[3,12]  1
+    RHS1      McCormick1[3,13]  1
+    RHS1      McCormick1[3,14]  1
+    RHS1      McCormick1[3,15]  1
+    RHS1      McCormick1[3,16]  1
+    RHS1      McCormick1[3,17]  1
+    RHS1      McCormick1[3,18]  1
+    RHS1      McCormick1[4,0]  1
+    RHS1      McCormick1[4,1]  1
+    RHS1      McCormick1[4,2]  1
+    RHS1      McCormick1[4,3]  1
+    RHS1      McCormick1[4,5]  1
+    RHS1      McCormick1[4,6]  1
+    RHS1      McCormick1[4,7]  1
+    RHS1      McCormick1[4,8]  1
+    RHS1      McCormick1[4,9]  1
+    RHS1      McCormick1[4,10]  1
+    RHS1      McCormick1[4,11]  1
+    RHS1      McCormick1[4,12]  1
+    RHS1      McCormick1[4,13]  1
+    RHS1      McCormick1[4,14]  1
+    RHS1      McCormick1[4,15]  1
+    RHS1      McCormick1[4,16]  1
+    RHS1      McCormick1[4,17]  1
+    RHS1      McCormick1[4,18]  1
+    RHS1      McCormick1[5,0]  1
+    RHS1      McCormick1[5,1]  1
+    RHS1      McCormick1[5,2]  1
+    RHS1      McCormick1[5,3]  1
+    RHS1      McCormick1[5,4]  1
+    RHS1      McCormick1[5,6]  1
+    RHS1      McCormick1[5,7]  1
+    RHS1      McCormick1[5,8]  1
+    RHS1      McCormick1[5,9]  1
+    RHS1      McCormick1[5,10]  1
+    RHS1      McCormick1[5,11]  1
+    RHS1      McCormick1[5,12]  1
+    RHS1      McCormick1[5,13]  1
+    RHS1      McCormick1[5,14]  1
+    RHS1      McCormick1[5,15]  1
+    RHS1      McCormick1[5,16]  1
+    RHS1      McCormick1[5,17]  1
+    RHS1      McCormick1[5,18]  1
+    RHS1      McCormick1[6,0]  1
+    RHS1      McCormick1[6,1]  1
+    RHS1      McCormick1[6,2]  1
+    RHS1      McCormick1[6,3]  1
+    RHS1      McCormick1[6,4]  1
+    RHS1      McCormick1[6,5]  1
+    RHS1      McCormick1[6,7]  1
+    RHS1      McCormick1[6,8]  1
+    RHS1      McCormick1[6,9]  1
+    RHS1      McCormick1[6,10]  1
+    RHS1      McCormick1[6,11]  1
+    RHS1      McCormick1[6,12]  1
+    RHS1      McCormick1[6,13]  1
+    RHS1      McCormick1[6,14]  1
+    RHS1      McCormick1[6,15]  1
+    RHS1      McCormick1[6,16]  1
+    RHS1      McCormick1[6,17]  1
+    RHS1      McCormick1[6,18]  1
+    RHS1      McCormick1[7,0]  1
+    RHS1      McCormick1[7,1]  1
+    RHS1      McCormick1[7,2]  1
+    RHS1      McCormick1[7,3]  1
+    RHS1      McCormick1[7,4]  1
+    RHS1      McCormick1[7,5]  1
+    RHS1      McCormick1[7,6]  1
+    RHS1      McCormick1[7,8]  1
+    RHS1      McCormick1[7,9]  1
+    RHS1      McCormick1[7,10]  1
+    RHS1      McCormick1[7,11]  1
+    RHS1      McCormick1[7,12]  1
+    RHS1      McCormick1[7,13]  1
+    RHS1      McCormick1[7,14]  1
+    RHS1      McCormick1[7,15]  1
+    RHS1      McCormick1[7,16]  1
+    RHS1      McCormick1[7,17]  1
+    RHS1      McCormick1[7,18]  1
+    RHS1      McCormick1[8,0]  1
+    RHS1      McCormick1[8,1]  1
+    RHS1      McCormick1[8,2]  1
+    RHS1      McCormick1[8,3]  1
+    RHS1      McCormick1[8,4]  1
+    RHS1      McCormick1[8,5]  1
+    RHS1      McCormick1[8,6]  1
+    RHS1      McCormick1[8,7]  1
+    RHS1      McCormick1[8,9]  1
+    RHS1      McCormick1[8,10]  1
+    RHS1      McCormick1[8,11]  1
+    RHS1      McCormick1[8,12]  1
+    RHS1      McCormick1[8,13]  1
+    RHS1      McCormick1[8,14]  1
+    RHS1      McCormick1[8,15]  1
+    RHS1      McCormick1[8,16]  1
+    RHS1      McCormick1[8,17]  1
+    RHS1      McCormick1[8,18]  1
+    RHS1      McCormick1[9,0]  1
+    RHS1      McCormick1[9,1]  1
+    RHS1      McCormick1[9,2]  1
+    RHS1      McCormick1[9,3]  1
+    RHS1      McCormick1[9,4]  1
+    RHS1      McCormick1[9,5]  1
+    RHS1      McCormick1[9,6]  1
+    RHS1      McCormick1[9,7]  1
+    RHS1      McCormick1[9,8]  1
+    RHS1      McCormick1[9,10]  1
+    RHS1      McCormick1[9,11]  1
+    RHS1      McCormick1[9,12]  1
+    RHS1      McCormick1[9,13]  1
+    RHS1      McCormick1[9,14]  1
+    RHS1      McCormick1[9,15]  1
+    RHS1      McCormick1[9,16]  1
+    RHS1      McCormick1[9,17]  1
+    RHS1      McCormick1[9,18]  1
+    RHS1      McCormick1[10,0]  1
+    RHS1      McCormick1[10,1]  1
+    RHS1      McCormick1[10,2]  1
+    RHS1      McCormick1[10,3]  1
+    RHS1      McCormick1[10,4]  1
+    RHS1      McCormick1[10,5]  1
+    RHS1      McCormick1[10,6]  1
+    RHS1      McCormick1[10,7]  1
+    RHS1      McCormick1[10,8]  1
+    RHS1      McCormick1[10,9]  1
+    RHS1      McCormick1[10,11]  1
+    RHS1      McCormick1[10,12]  1
+    RHS1      McCormick1[10,13]  1
+    RHS1      McCormick1[10,14]  1
+    RHS1      McCormick1[10,15]  1
+    RHS1      McCormick1[10,16]  1
+    RHS1      McCormick1[10,17]  1
+    RHS1      McCormick1[10,18]  1
+    RHS1      McCormick1[11,0]  1
+    RHS1      McCormick1[11,1]  1
+    RHS1      McCormick1[11,2]  1
+    RHS1      McCormick1[11,3]  1
+    RHS1      McCormick1[11,4]  1
+    RHS1      McCormick1[11,5]  1
+    RHS1      McCormick1[11,6]  1
+    RHS1      McCormick1[11,7]  1
+    RHS1      McCormick1[11,8]  1
+    RHS1      McCormick1[11,9]  1
+    RHS1      McCormick1[11,10]  1
+    RHS1      McCormick1[11,12]  1
+    RHS1      McCormick1[11,13]  1
+    RHS1      McCormick1[11,14]  1
+    RHS1      McCormick1[11,15]  1
+    RHS1      McCormick1[11,16]  1
+    RHS1      McCormick1[11,17]  1
+    RHS1      McCormick1[11,18]  1
+    RHS1      McCormick1[12,0]  1
+    RHS1      McCormick1[12,1]  1
+    RHS1      McCormick1[12,2]  1
+    RHS1      McCormick1[12,3]  1
+    RHS1      McCormick1[12,4]  1
+    RHS1      McCormick1[12,5]  1
+    RHS1      McCormick1[12,6]  1
+    RHS1      McCormick1[12,7]  1
+    RHS1      McCormick1[12,8]  1
+    RHS1      McCormick1[12,9]  1
+    RHS1      McCormick1[12,10]  1
+    RHS1      McCormick1[12,11]  1
+    RHS1      McCormick1[12,13]  1
+    RHS1      McCormick1[12,14]  1
+    RHS1      McCormick1[12,15]  1
+    RHS1      McCormick1[12,16]  1
+    RHS1      McCormick1[12,17]  1
+    RHS1      McCormick1[12,18]  1
+    RHS1      McCormick1[13,0]  1
+    RHS1      McCormick1[13,1]  1
+    RHS1      McCormick1[13,2]  1
+    RHS1      McCormick1[13,3]  1
+    RHS1      McCormick1[13,4]  1
+    RHS1      McCormick1[13,5]  1
+    RHS1      McCormick1[13,6]  1
+    RHS1      McCormick1[13,7]  1
+    RHS1      McCormick1[13,8]  1
+    RHS1      McCormick1[13,9]  1
+    RHS1      McCormick1[13,10]  1
+    RHS1      McCormick1[13,11]  1
+    RHS1      McCormick1[13,12]  1
+    RHS1      McCormick1[13,14]  1
+    RHS1      McCormick1[13,15]  1
+    RHS1      McCormick1[13,16]  1
+    RHS1      McCormick1[13,17]  1
+    RHS1      McCormick1[13,18]  1
+    RHS1      McCormick1[14,0]  1
+    RHS1      McCormick1[14,1]  1
+    RHS1      McCormick1[14,2]  1
+    RHS1      McCormick1[14,3]  1
+    RHS1      McCormick1[14,4]  1
+    RHS1      McCormick1[14,5]  1
+    RHS1      McCormick1[14,6]  1
+    RHS1      McCormick1[14,7]  1
+    RHS1      McCormick1[14,8]  1
+    RHS1      McCormick1[14,9]  1
+    RHS1      McCormick1[14,10]  1
+    RHS1      McCormick1[14,11]  1
+    RHS1      McCormick1[14,12]  1
+    RHS1      McCormick1[14,13]  1
+    RHS1      McCormick1[14,15]  1
+    RHS1      McCormick1[14,16]  1
+    RHS1      McCormick1[14,17]  1
+    RHS1      McCormick1[14,18]  1
+    RHS1      McCormick1[15,0]  1
+    RHS1      McCormick1[15,1]  1
+    RHS1      McCormick1[15,2]  1
+    RHS1      McCormick1[15,3]  1
+    RHS1      McCormick1[15,4]  1
+    RHS1      McCormick1[15,5]  1
+    RHS1      McCormick1[15,6]  1
+    RHS1      McCormick1[15,7]  1
+    RHS1      McCormick1[15,8]  1
+    RHS1      McCormick1[15,9]  1
+    RHS1      McCormick1[15,10]  1
+    RHS1      McCormick1[15,11]  1
+    RHS1      McCormick1[15,12]  1
+    RHS1      McCormick1[15,13]  1
+    RHS1      McCormick1[15,14]  1
+    RHS1      McCormick1[15,16]  1
+    RHS1      McCormick1[15,17]  1
+    RHS1      McCormick1[15,18]  1
+    RHS1      McCormick1[16,0]  1
+    RHS1      McCormick1[16,1]  1
+    RHS1      McCormick1[16,2]  1
+    RHS1      McCormick1[16,3]  1
+    RHS1      McCormick1[16,4]  1
+    RHS1      McCormick1[16,5]  1
+    RHS1      McCormick1[16,6]  1
+    RHS1      McCormick1[16,7]  1
+    RHS1      McCormick1[16,8]  1
+    RHS1      McCormick1[16,9]  1
+    RHS1      McCormick1[16,10]  1
+    RHS1      McCormick1[16,11]  1
+    RHS1      McCormick1[16,12]  1
+    RHS1      McCormick1[16,13]  1
+    RHS1      McCormick1[16,14]  1
+    RHS1      McCormick1[16,15]  1
+    RHS1      McCormick1[16,17]  1
+    RHS1      McCormick1[16,18]  1
+    RHS1      McCormick1[17,0]  1
+    RHS1      McCormick1[17,1]  1
+    RHS1      McCormick1[17,2]  1
+    RHS1      McCormick1[17,3]  1
+    RHS1      McCormick1[17,4]  1
+    RHS1      McCormick1[17,5]  1
+    RHS1      McCormick1[17,6]  1
+    RHS1      McCormick1[17,7]  1
+    RHS1      McCormick1[17,8]  1
+    RHS1      McCormick1[17,9]  1
+    RHS1      McCormick1[17,10]  1
+    RHS1      McCormick1[17,11]  1
+    RHS1      McCormick1[17,12]  1
+    RHS1      McCormick1[17,13]  1
+    RHS1      McCormick1[17,14]  1
+    RHS1      McCormick1[17,15]  1
+    RHS1      McCormick1[17,16]  1
+    RHS1      McCormick1[17,18]  1
+    RHS1      McCormick1[18,0]  1
+    RHS1      McCormick1[18,1]  1
+    RHS1      McCormick1[18,2]  1
+    RHS1      McCormick1[18,3]  1
+    RHS1      McCormick1[18,4]  1
+    RHS1      McCormick1[18,5]  1
+    RHS1      McCormick1[18,6]  1
+    RHS1      McCormick1[18,7]  1
+    RHS1      McCormick1[18,8]  1
+    RHS1      McCormick1[18,9]  1
+    RHS1      McCormick1[18,10]  1
+    RHS1      McCormick1[18,11]  1
+    RHS1      McCormick1[18,12]  1
+    RHS1      McCormick1[18,13]  1
+    RHS1      McCormick1[18,14]  1
+    RHS1      McCormick1[18,15]  1
+    RHS1      McCormick1[18,16]  1
+    RHS1      McCormick1[18,17]  1
+BOUNDS
+ LO BND1      c[0,0]    10
+ UP BND1      c[0,0]    339
+ LO BND1      c[0,1]    8.5
+ UP BND1      c[0,1]    342.5
+ LO BND1      c[1,0]    29.5
+ UP BND1      c[1,0]    320.5
+ LO BND1      c[1,1]    39
+ UP BND1      c[1,1]    336
+ LO BND1      c[2,0]    53.5
+ UP BND1      c[2,0]    304.5
+ LO BND1      c[2,1]    37
+ UP BND1      c[2,1]    331
+ LO BND1      c[3,0]    8
+ UP BND1      c[3,0]    314
+ LO BND1      c[3,1]    40
+ UP BND1      c[3,1]    334
+ LO BND1      c[4,0]    18
+ UP BND1      c[4,0]    345
+ LO BND1      c[4,1]    8
+ UP BND1      c[4,1]    342
+ LO BND1      c[5,0]    53
+ UP BND1      c[5,0]    326
+ LO BND1      c[5,1]    15
+ UP BND1      c[5,1]    315
+ LO BND1      c[6,0]    91
+ UP BND1      c[6,0]    318
+ LO BND1      c[6,1]    59
+ UP BND1      c[6,1]    291
+ LO BND1      c[7,0]    21.5
+ UP BND1      c[7,0]    341.5
+ LO BND1      c[7,1]    16.5
+ UP BND1      c[7,1]    333.5
+ LO BND1      c[8,0]    59
+ UP BND1      c[8,0]    291
+ LO BND1      c[8,1]    20.5
+ UP BND1      c[8,1]    329.5
+ LO BND1      c[9,0]    77.5
+ UP BND1      c[9,0]    333.5
+ LO BND1      c[9,1]    67
+ UP BND1      c[9,1]    270
+ LO BND1      c[10,0]   21
+ UP BND1      c[10,0]   340
+ LO BND1      c[10,1]   6
+ UP BND1      c[10,1]   344
+ LO BND1      c[11,0]   116.5
+ UP BND1      c[11,0]   232.5
+ LO BND1      c[11,1]   27.5
+ UP BND1      c[11,1]   322.5
+ LO BND1      c[12,0]   26.5
+ UP BND1      c[12,0]   282.5
+ LO BND1      c[12,1]   76
+ UP BND1      c[12,1]   283
+ LO BND1      c[13,0]   25.5
+ UP BND1      c[13,0]   285.5
+ LO BND1      c[13,1]   32
+ UP BND1      c[13,1]   285
+ LO BND1      c[14,0]   17
+ UP BND1      c[14,0]   341
+ LO BND1      c[14,1]   7
+ UP BND1      c[14,1]   343
+ LO BND1      c[15,0]   21.5
+ UP BND1      c[15,0]   286.5
+ LO BND1      c[15,1]   82
+ UP BND1      c[15,1]   257
+ LO BND1      c[16,0]   48
+ UP BND1      c[16,0]   266
+ LO BND1      c[16,1]   61.5
+ UP BND1      c[16,1]   288.5
+ LO BND1      c[17,0]   48
+ UP BND1      c[17,0]   245
+ LO BND1      c[17,1]   65.5
+ UP BND1      c[17,1]   273.5
+ LO BND1      c[18,0]   6
+ UP BND1      c[18,0]   344
+ LO BND1      c[18,1]   2
+ UP BND1      c[18,1]   342
+ LO BND1      h         143
+ UP BND1      h         350
+ BV BND1      delta[0,1]
+ BV BND1      delta[0,2]
+ BV BND1      delta[0,3]
+ BV BND1      delta[0,4]
+ BV BND1      delta[0,5]
+ BV BND1      delta[0,6]
+ BV BND1      delta[0,7]
+ BV BND1      delta[0,8]
+ BV BND1      delta[0,9]
+ BV BND1      delta[0,10]
+ BV BND1      delta[0,11]
+ BV BND1      delta[0,12]
+ BV BND1      delta[0,13]
+ BV BND1      delta[0,14]
+ BV BND1      delta[0,15]
+ BV BND1      delta[0,16]
+ BV BND1      delta[0,17]
+ BV BND1      delta[0,18]
+ BV BND1      delta[1,0]
+ BV BND1      delta[1,2]
+ BV BND1      delta[1,3]
+ BV BND1      delta[1,4]
+ BV BND1      delta[1,5]
+ BV BND1      delta[1,6]
+ BV BND1      delta[1,7]
+ BV BND1      delta[1,8]
+ BV BND1      delta[1,9]
+ BV BND1      delta[1,10]
+ BV BND1      delta[1,11]
+ BV BND1      delta[1,12]
+ BV BND1      delta[1,13]
+ BV BND1      delta[1,14]
+ BV BND1      delta[1,15]
+ BV BND1      delta[1,16]
+ BV BND1      delta[1,17]
+ BV BND1      delta[1,18]
+ BV BND1      delta[2,0]
+ BV BND1      delta[2,1]
+ BV BND1      delta[2,3]
+ BV BND1      delta[2,4]
+ BV BND1      delta[2,5]
+ BV BND1      delta[2,6]
+ BV BND1      delta[2,7]
+ BV BND1      delta[2,8]
+ BV BND1      delta[2,9]
+ BV BND1      delta[2,10]
+ BV BND1      delta[2,11]
+ BV BND1      delta[2,12]
+ BV BND1      delta[2,13]
+ BV BND1      delta[2,14]
+ BV BND1      delta[2,15]
+ BV BND1      delta[2,16]
+ BV BND1      delta[2,17]
+ BV BND1      delta[2,18]
+ BV BND1      delta[3,0]
+ BV BND1      delta[3,1]
+ BV BND1      delta[3,2]
+ BV BND1      delta[3,4]
+ BV BND1      delta[3,5]
+ BV BND1      delta[3,6]
+ BV BND1      delta[3,7]
+ BV BND1      delta[3,8]
+ BV BND1      delta[3,9]
+ BV BND1      delta[3,10]
+ BV BND1      delta[3,11]
+ BV BND1      delta[3,12]
+ BV BND1      delta[3,13]
+ BV BND1      delta[3,14]
+ BV BND1      delta[3,15]
+ BV BND1      delta[3,16]
+ BV BND1      delta[3,17]
+ BV BND1      delta[3,18]
+ BV BND1      delta[4,0]
+ BV BND1      delta[4,1]
+ BV BND1      delta[4,2]
+ BV BND1      delta[4,3]
+ BV BND1      delta[4,5]
+ BV BND1      delta[4,6]
+ BV BND1      delta[4,7]
+ BV BND1      delta[4,8]
+ BV BND1      delta[4,9]
+ BV BND1      delta[4,10]
+ BV BND1      delta[4,11]
+ BV BND1      delta[4,12]
+ BV BND1      delta[4,13]
+ BV BND1      delta[4,14]
+ BV BND1      delta[4,15]
+ BV BND1      delta[4,16]
+ BV BND1      delta[4,17]
+ BV BND1      delta[4,18]
+ BV BND1      delta[5,0]
+ BV BND1      delta[5,1]
+ BV BND1      delta[5,2]
+ BV BND1      delta[5,3]
+ BV BND1      delta[5,4]
+ BV BND1      delta[5,6]
+ BV BND1      delta[5,7]
+ BV BND1      delta[5,8]
+ BV BND1      delta[5,9]
+ BV BND1      delta[5,10]
+ BV BND1      delta[5,11]
+ BV BND1      delta[5,12]
+ BV BND1      delta[5,13]
+ BV BND1      delta[5,14]
+ BV BND1      delta[5,15]
+ BV BND1      delta[5,16]
+ BV BND1      delta[5,17]
+ BV BND1      delta[5,18]
+ BV BND1      delta[6,0]
+ BV BND1      delta[6,1]
+ BV BND1      delta[6,2]
+ BV BND1      delta[6,3]
+ BV BND1      delta[6,4]
+ BV BND1      delta[6,5]
+ BV BND1      delta[6,7]
+ BV BND1      delta[6,8]
+ BV BND1      delta[6,9]
+ BV BND1      delta[6,10]
+ BV BND1      delta[6,11]
+ BV BND1      delta[6,12]
+ BV BND1      delta[6,13]
+ BV BND1      delta[6,14]
+ BV BND1      delta[6,15]
+ BV BND1      delta[6,16]
+ BV BND1      delta[6,17]
+ BV BND1      delta[6,18]
+ BV BND1      delta[7,0]
+ BV BND1      delta[7,1]
+ BV BND1      delta[7,2]
+ BV BND1      delta[7,3]
+ BV BND1      delta[7,4]
+ BV BND1      delta[7,5]
+ BV BND1      delta[7,6]
+ BV BND1      delta[7,8]
+ BV BND1      delta[7,9]
+ BV BND1      delta[7,10]
+ BV BND1      delta[7,11]
+ BV BND1      delta[7,12]
+ BV BND1      delta[7,13]
+ BV BND1      delta[7,14]
+ BV BND1      delta[7,15]
+ BV BND1      delta[7,16]
+ BV BND1      delta[7,17]
+ BV BND1      delta[7,18]
+ BV BND1      delta[8,0]
+ BV BND1      delta[8,1]
+ BV BND1      delta[8,2]
+ BV BND1      delta[8,3]
+ BV BND1      delta[8,4]
+ BV BND1      delta[8,5]
+ BV BND1      delta[8,6]
+ BV BND1      delta[8,7]
+ BV BND1      delta[8,9]
+ BV BND1      delta[8,10]
+ BV BND1      delta[8,11]
+ BV BND1      delta[8,12]
+ BV BND1      delta[8,13]
+ BV BND1      delta[8,14]
+ BV BND1      delta[8,15]
+ BV BND1      delta[8,16]
+ BV BND1      delta[8,17]
+ BV BND1      delta[8,18]
+ BV BND1      delta[9,0]
+ BV BND1      delta[9,1]
+ BV BND1      delta[9,2]
+ BV BND1      delta[9,3]
+ BV BND1      delta[9,4]
+ BV BND1      delta[9,5]
+ BV BND1      delta[9,6]
+ BV BND1      delta[9,7]
+ BV BND1      delta[9,8]
+ BV BND1      delta[9,10]
+ BV BND1      delta[9,11]
+ BV BND1      delta[9,12]
+ BV BND1      delta[9,13]
+ BV BND1      delta[9,14]
+ BV BND1      delta[9,15]
+ BV BND1      delta[9,16]
+ BV BND1      delta[9,17]
+ BV BND1      delta[9,18]
+ BV BND1      delta[10,0]
+ BV BND1      delta[10,1]
+ BV BND1      delta[10,2]
+ BV BND1      delta[10,3]
+ BV BND1      delta[10,4]
+ BV BND1      delta[10,5]
+ BV BND1      delta[10,6]
+ BV BND1      delta[10,7]
+ BV BND1      delta[10,8]
+ BV BND1      delta[10,9]
+ BV BND1      delta[10,11]
+ BV BND1      delta[10,12]
+ BV BND1      delta[10,13]
+ BV BND1      delta[10,14]
+ BV BND1      delta[10,15]
+ BV BND1      delta[10,16]
+ BV BND1      delta[10,17]
+ BV BND1      delta[10,18]
+ BV BND1      delta[11,0]
+ BV BND1      delta[11,1]
+ BV BND1      delta[11,2]
+ BV BND1      delta[11,3]
+ BV BND1      delta[11,4]
+ BV BND1      delta[11,5]
+ BV BND1      delta[11,6]
+ BV BND1      delta[11,7]
+ BV BND1      delta[11,8]
+ BV BND1      delta[11,9]
+ BV BND1      delta[11,10]
+ BV BND1      delta[11,12]
+ BV BND1      delta[11,13]
+ BV BND1      delta[11,14]
+ BV BND1      delta[11,15]
+ BV BND1      delta[11,16]
+ BV BND1      delta[11,17]
+ BV BND1      delta[11,18]
+ BV BND1      delta[12,0]
+ BV BND1      delta[12,1]
+ BV BND1      delta[12,2]
+ BV BND1      delta[12,3]
+ BV BND1      delta[12,4]
+ BV BND1      delta[12,5]
+ BV BND1      delta[12,6]
+ BV BND1      delta[12,7]
+ BV BND1      delta[12,8]
+ BV BND1      delta[12,9]
+ BV BND1      delta[12,10]
+ BV BND1      delta[12,11]
+ BV BND1      delta[12,13]
+ BV BND1      delta[12,14]
+ BV BND1      delta[12,15]
+ BV BND1      delta[12,16]
+ BV BND1      delta[12,17]
+ BV BND1      delta[12,18]
+ BV BND1      delta[13,0]
+ BV BND1      delta[13,1]
+ BV BND1      delta[13,2]
+ BV BND1      delta[13,3]
+ BV BND1      delta[13,4]
+ BV BND1      delta[13,5]
+ BV BND1      delta[13,6]
+ BV BND1      delta[13,7]
+ BV BND1      delta[13,8]
+ BV BND1      delta[13,9]
+ BV BND1      delta[13,10]
+ BV BND1      delta[13,11]
+ BV BND1      delta[13,12]
+ BV BND1      delta[13,14]
+ BV BND1      delta[13,15]
+ BV BND1      delta[13,16]
+ BV BND1      delta[13,17]
+ BV BND1      delta[13,18]
+ BV BND1      delta[14,0]
+ BV BND1      delta[14,1]
+ BV BND1      delta[14,2]
+ BV BND1      delta[14,3]
+ BV BND1      delta[14,4]
+ BV BND1      delta[14,5]
+ BV BND1      delta[14,6]
+ BV BND1      delta[14,7]
+ BV BND1      delta[14,8]
+ BV BND1      delta[14,9]
+ BV BND1      delta[14,10]
+ BV BND1      delta[14,11]
+ BV BND1      delta[14,12]
+ BV BND1      delta[14,13]
+ BV BND1      delta[14,15]
+ BV BND1      delta[14,16]
+ BV BND1      delta[14,17]
+ BV BND1      delta[14,18]
+ BV BND1      delta[15,0]
+ BV BND1      delta[15,1]
+ BV BND1      delta[15,2]
+ BV BND1      delta[15,3]
+ BV BND1      delta[15,4]
+ BV BND1      delta[15,5]
+ BV BND1      delta[15,6]
+ BV BND1      delta[15,7]
+ BV BND1      delta[15,8]
+ BV BND1      delta[15,9]
+ BV BND1      delta[15,10]
+ BV BND1      delta[15,11]
+ BV BND1      delta[15,12]
+ BV BND1      delta[15,13]
+ BV BND1      delta[15,14]
+ BV BND1      delta[15,16]
+ BV BND1      delta[15,17]
+ BV BND1      delta[15,18]
+ BV BND1      delta[16,0]
+ BV BND1      delta[16,1]
+ BV BND1      delta[16,2]
+ BV BND1      delta[16,3]
+ BV BND1      delta[16,4]
+ BV BND1      delta[16,5]
+ BV BND1      delta[16,6]
+ BV BND1      delta[16,7]
+ BV BND1      delta[16,8]
+ BV BND1      delta[16,9]
+ BV BND1      delta[16,10]
+ BV BND1      delta[16,11]
+ BV BND1      delta[16,12]
+ BV BND1      delta[16,13]
+ BV BND1      delta[16,14]
+ BV BND1      delta[16,15]
+ BV BND1      delta[16,17]
+ BV BND1      delta[16,18]
+ BV BND1      delta[17,0]
+ BV BND1      delta[17,1]
+ BV BND1      delta[17,2]
+ BV BND1      delta[17,3]
+ BV BND1      delta[17,4]
+ BV BND1      delta[17,5]
+ BV BND1      delta[17,6]
+ BV BND1      delta[17,7]
+ BV BND1      delta[17,8]
+ BV BND1      delta[17,9]
+ BV BND1      delta[17,10]
+ BV BND1      delta[17,11]
+ BV BND1      delta[17,12]
+ BV BND1      delta[17,13]
+ BV BND1      delta[17,14]
+ BV BND1      delta[17,15]
+ BV BND1      delta[17,16]
+ BV BND1      delta[17,18]
+ BV BND1      delta[18,0]
+ BV BND1      delta[18,1]
+ BV BND1      delta[18,2]
+ BV BND1      delta[18,3]
+ BV BND1      delta[18,4]
+ BV BND1      delta[18,5]
+ BV BND1      delta[18,6]
+ BV BND1      delta[18,7]
+ BV BND1      delta[18,8]
+ BV BND1      delta[18,9]
+ BV BND1      delta[18,10]
+ BV BND1      delta[18,11]
+ BV BND1      delta[18,12]
+ BV BND1      delta[18,13]
+ BV BND1      delta[18,14]
+ BV BND1      delta[18,15]
+ BV BND1      delta[18,16]
+ BV BND1      delta[18,17]
+ UP BND1      DELTA[0,1]  1
+ UP BND1      DELTA[0,2]  1
+ UP BND1      DELTA[0,3]  1
+ UP BND1      DELTA[0,4]  1
+ UP BND1      DELTA[0,5]  1
+ UP BND1      DELTA[0,6]  1
+ UP BND1      DELTA[0,7]  1
+ UP BND1      DELTA[0,8]  1
+ UP BND1      DELTA[0,9]  1
+ UP BND1      DELTA[0,10]  1
+ UP BND1      DELTA[0,11]  1
+ UP BND1      DELTA[0,12]  1
+ UP BND1      DELTA[0,13]  1
+ UP BND1      DELTA[0,14]  1
+ UP BND1      DELTA[0,15]  1
+ UP BND1      DELTA[0,16]  1
+ UP BND1      DELTA[0,17]  1
+ UP BND1      DELTA[0,18]  1
+ UP BND1      DELTA[1,2]  1
+ UP BND1      DELTA[1,3]  1
+ UP BND1      DELTA[1,4]  1
+ UP BND1      DELTA[1,5]  1
+ UP BND1      DELTA[1,6]  1
+ UP BND1      DELTA[1,7]  1
+ UP BND1      DELTA[1,8]  1
+ UP BND1      DELTA[1,9]  1
+ UP BND1      DELTA[1,10]  1
+ UP BND1      DELTA[1,11]  1
+ UP BND1      DELTA[1,12]  1
+ UP BND1      DELTA[1,13]  1
+ UP BND1      DELTA[1,14]  1
+ UP BND1      DELTA[1,15]  1
+ UP BND1      DELTA[1,16]  1
+ UP BND1      DELTA[1,17]  1
+ UP BND1      DELTA[1,18]  1
+ UP BND1      DELTA[2,3]  1
+ UP BND1      DELTA[2,4]  1
+ UP BND1      DELTA[2,5]  1
+ UP BND1      DELTA[2,6]  1
+ UP BND1      DELTA[2,7]  1
+ UP BND1      DELTA[2,8]  1
+ UP BND1      DELTA[2,9]  1
+ UP BND1      DELTA[2,10]  1
+ UP BND1      DELTA[2,11]  1
+ UP BND1      DELTA[2,12]  1
+ UP BND1      DELTA[2,13]  1
+ UP BND1      DELTA[2,14]  1
+ UP BND1      DELTA[2,15]  1
+ UP BND1      DELTA[2,16]  1
+ UP BND1      DELTA[2,17]  1
+ UP BND1      DELTA[2,18]  1
+ UP BND1      DELTA[3,4]  1
+ UP BND1      DELTA[3,5]  1
+ UP BND1      DELTA[3,6]  1
+ UP BND1      DELTA[3,7]  1
+ UP BND1      DELTA[3,8]  1
+ UP BND1      DELTA[3,9]  1
+ UP BND1      DELTA[3,10]  1
+ UP BND1      DELTA[3,11]  1
+ UP BND1      DELTA[3,12]  1
+ UP BND1      DELTA[3,13]  1
+ UP BND1      DELTA[3,14]  1
+ UP BND1      DELTA[3,15]  1
+ UP BND1      DELTA[3,16]  1
+ UP BND1      DELTA[3,17]  1
+ UP BND1      DELTA[3,18]  1
+ UP BND1      DELTA[4,5]  1
+ UP BND1      DELTA[4,6]  1
+ UP BND1      DELTA[4,7]  1
+ UP BND1      DELTA[4,8]  1
+ UP BND1      DELTA[4,9]  1
+ UP BND1      DELTA[4,10]  1
+ UP BND1      DELTA[4,11]  1
+ UP BND1      DELTA[4,12]  1
+ UP BND1      DELTA[4,13]  1
+ UP BND1      DELTA[4,14]  1
+ UP BND1      DELTA[4,15]  1
+ UP BND1      DELTA[4,16]  1
+ UP BND1      DELTA[4,17]  1
+ UP BND1      DELTA[4,18]  1
+ UP BND1      DELTA[5,6]  1
+ UP BND1      DELTA[5,7]  1
+ UP BND1      DELTA[5,8]  1
+ UP BND1      DELTA[5,9]  1
+ UP BND1      DELTA[5,10]  1
+ UP BND1      DELTA[5,11]  1
+ UP BND1      DELTA[5,12]  1
+ UP BND1      DELTA[5,13]  1
+ UP BND1      DELTA[5,14]  1
+ UP BND1      DELTA[5,15]  1
+ UP BND1      DELTA[5,16]  1
+ UP BND1      DELTA[5,17]  1
+ UP BND1      DELTA[5,18]  1
+ UP BND1      DELTA[6,7]  1
+ UP BND1      DELTA[6,8]  1
+ UP BND1      DELTA[6,9]  1
+ UP BND1      DELTA[6,10]  1
+ UP BND1      DELTA[6,11]  1
+ UP BND1      DELTA[6,12]  1
+ UP BND1      DELTA[6,13]  1
+ UP BND1      DELTA[6,14]  1
+ UP BND1      DELTA[6,15]  1
+ UP BND1      DELTA[6,16]  1
+ UP BND1      DELTA[6,17]  1
+ UP BND1      DELTA[6,18]  1
+ UP BND1      DELTA[7,8]  1
+ UP BND1      DELTA[7,9]  1
+ UP BND1      DELTA[7,10]  1
+ UP BND1      DELTA[7,11]  1
+ UP BND1      DELTA[7,12]  1
+ UP BND1      DELTA[7,13]  1
+ UP BND1      DELTA[7,14]  1
+ UP BND1      DELTA[7,15]  1
+ UP BND1      DELTA[7,16]  1
+ UP BND1      DELTA[7,17]  1
+ UP BND1      DELTA[7,18]  1
+ UP BND1      DELTA[8,9]  1
+ UP BND1      DELTA[8,10]  1
+ UP BND1      DELTA[8,11]  1
+ UP BND1      DELTA[8,12]  1
+ UP BND1      DELTA[8,13]  1
+ UP BND1      DELTA[8,14]  1
+ UP BND1      DELTA[8,15]  1
+ UP BND1      DELTA[8,16]  1
+ UP BND1      DELTA[8,17]  1
+ UP BND1      DELTA[8,18]  1
+ UP BND1      DELTA[9,10]  1
+ UP BND1      DELTA[9,11]  1
+ UP BND1      DELTA[9,12]  1
+ UP BND1      DELTA[9,13]  1
+ UP BND1      DELTA[9,14]  1
+ UP BND1      DELTA[9,15]  1
+ UP BND1      DELTA[9,16]  1
+ UP BND1      DELTA[9,17]  1
+ UP BND1      DELTA[9,18]  1
+ UP BND1      DELTA[10,11]  1
+ UP BND1      DELTA[10,12]  1
+ UP BND1      DELTA[10,13]  1
+ UP BND1      DELTA[10,14]  1
+ UP BND1      DELTA[10,15]  1
+ UP BND1      DELTA[10,16]  1
+ UP BND1      DELTA[10,17]  1
+ UP BND1      DELTA[10,18]  1
+ UP BND1      DELTA[11,12]  1
+ UP BND1      DELTA[11,13]  1
+ UP BND1      DELTA[11,14]  1
+ UP BND1      DELTA[11,15]  1
+ UP BND1      DELTA[11,16]  1
+ UP BND1      DELTA[11,17]  1
+ UP BND1      DELTA[11,18]  1
+ UP BND1      DELTA[12,13]  1
+ UP BND1      DELTA[12,14]  1
+ UP BND1      DELTA[12,15]  1
+ UP BND1      DELTA[12,16]  1
+ UP BND1      DELTA[12,17]  1
+ UP BND1      DELTA[12,18]  1
+ UP BND1      DELTA[13,14]  1
+ UP BND1      DELTA[13,15]  1
+ UP BND1      DELTA[13,16]  1
+ UP BND1      DELTA[13,17]  1
+ UP BND1      DELTA[13,18]  1
+ UP BND1      DELTA[14,15]  1
+ UP BND1      DELTA[14,16]  1
+ UP BND1      DELTA[14,17]  1
+ UP BND1      DELTA[14,18]  1
+ UP BND1      DELTA[15,16]  1
+ UP BND1      DELTA[15,17]  1
+ UP BND1      DELTA[15,18]  1
+ UP BND1      DELTA[16,17]  1
+ UP BND1      DELTA[16,18]  1
+ UP BND1      DELTA[17,18]  1
+ENDATA

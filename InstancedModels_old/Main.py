@@ -23,8 +23,8 @@ def parse_arguments():
     )
 
     parser.add_argument(
-        "ConfigName",
-        default=None,
+        "config-name",
+        required=True,
         help="Name of the configuration (without path or extensions). "
              "Script expects Results/<ConfigName>/cfg-<ConfigName>.json."
     )
@@ -84,13 +84,13 @@ def parse_arguments():
 ###############################################################################
 args = parse_arguments()
 
-ConfigName   = args.ConfigName
-TimeLimit    = args.MaxRT
-LogToConsole = args.LogToConsole
-Plotting     = args.Plot
-PlotLabels   = args.PlotLabel
-PlotTitles   = args.PlotTitle
-WarmStart    = args.WarmStart
+ConfigName   = args.config_name
+TimeLimit    = args.time_limit
+LogToConsole = args.log_to_console
+Plotting     = args.plotting
+PlotLabels   = args.plot_labels
+PlotTitles   = args.plot_titles
+WarmStart    = args.warm_start
 
 path = f'./Results/{ConfigName}/'
 
@@ -116,24 +116,43 @@ prevM = configs[0]['Model']
 
 
 
+
+
+
+
+## Config Inputs and Setup ####################################################   
+
+ConfigName = 'StripPacking-ManyRuns' #Name of the config to be run
+TimeLimit = 1*60*60 #Time limit per config
+LogToConsole = 0 #Turns off gurobi's console logging (significant speed increase sometimes)
+Plotting = 0 #Do or do not plot each best found soltion
+PlotLabels = 0 #Turns off object labels in solution plots
+PlotTitles = 0 #Turns off titles in solution plots
+WarmStart = 1 #Adds a 'dense' intial feasible solution via a greedy heuristic
+
+
+path = f'./Results/{ConfigName}/' #Directory for results
+with open(path + f'cfg-{ConfigName}.json') as config: #Open and read the config file
+     configs = json.load(config)
+resultKeys = ['Name', 'Date', '', 
+              'Model', 'Objective', 'Subobjective', 'N', 'Instance', '',
+              'Cuts', 'Presolve', 'Heuristics', 'Runtime', '',
+              'Value', 'Bound', 'MIP Gap', 'Sol Count', 'Node Count']
+with open(path + f'results-{ConfigName}.csv', 'a', newline='\n') as resultCSV: #Open and write headers on the results csv
+    dw = DictWriter(resultCSV, fieldnames=resultKeys)
+    dw.writeheader()
+resultDict = dict.fromkeys(resultKeys) #Prepare the results dictionary
+del resultDict[''] 
+prevN = configs[0]['N'] #Sets prevN for adding blank lines in the results csv
+prevM = configs[0]['Model'] #Sets prevM for adding blank lines in the results csv
+
+
+
+
 ## Main Loop ##################################################################
 for config in configs: #For each individual config in the file
     resultDict.update(config)
-    if 'Instance' in config:
-        resultDict['Name'] = (
-            f"{config['Model']}-"
-            f"{config['Cuts']}{config['Presolve']}{config['Heuristics']}-"
-            f"{config['Objective']}-"
-            f"{config['N']}-"
-            f"{config['Instance']}"
-        )
-    else:
-        resultDict['Name'] = (
-            f"{config['Model']}-"
-            f"{config['Cuts']}{config['Presolve']}{config['Heuristics']}-"
-            f"{config['Objective']}-"
-            f"{config['N']}"
-        )
+    resultDict['Name'] = config['Model'] + '-' + str(config['Cuts']) + str(config['Presolve']) + str(config['Heuristics']) + '-' + config['Objective'] + '-' + str(config['N']) + '-' + str(config['Instance']) #Name the problem based on the config
     resultDict['Date'] = date.today().strftime("%m/%d/%Y") #Record the date
     m = gp.Model(resultDict['Name']) #Generate the gurobi model
     m.setParam("LogToConsole", 0) #Turn off gurobi's console logging for now
@@ -147,10 +166,7 @@ for config in configs: #For each individual config in the file
     if config['Objective'] == 'LandscapeClearing': #Open the appropriate data file
         with open('./Data/LandscapeClearing-' + str(config['N']) + '.json') as data: [m._bounds,m._objects,m._emplacements] = json.load(data)
     elif config['Objective'] == 'StripPacking':
-        if 'Instance' in config:
-            with open('./Data/StripPacking-' + str(config['N']) + '-' + str(config['Instance']) + '.json') as data: [m._bounds,m._objects] = json.load(data)
-        else:
-            with open('./Data/StripPacking-' + str(config['N']) + '.json') as data: [m._bounds,m._objects] = json.load(data)
+        with open('./Data/StripPacking-' + str(config['N']) + '-' + str(config['Instance']) + '.json') as data: [m._bounds,m._objects] = json.load(data)
     elif config['Objective'] == 'FreeArea':
         with open('./Data/FreeArea-' + str(config['N']) + '.json') as data: [m._bounds,m._objects] = json.load(data)
     else: print('!Error! Objective Mismatch in config ' + resultDict['Name']); break
