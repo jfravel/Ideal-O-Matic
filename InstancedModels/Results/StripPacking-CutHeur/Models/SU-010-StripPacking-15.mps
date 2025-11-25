@@ -1,4 +1,4 @@
-* Signature: 0x1525af8cce2d9ba3
+* Signature: 0x1525af8cce2d96f1
 NAME SU-010-StripPacking-15
 ROWS
  N  OBJ

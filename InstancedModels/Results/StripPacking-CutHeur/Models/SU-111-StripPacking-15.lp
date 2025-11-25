@@ -1,6 +1,6 @@
 \ Model SU-111-StripPacking-15
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-\ Signature: 0x1525af8cce2d9ba3
+\ Signature: 0x1525af8cce2d96f1
 Minimize
   h
 Subject To

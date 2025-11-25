@@ -4,60 +4,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 10,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "SU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 10,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "RU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 10,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "HU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 10,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "SBL",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 10,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "SBM",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 10,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "NU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 10,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -67,6 +14,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 10,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -76,6 +24,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 10,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -85,6 +34,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 10,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -94,6 +44,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 10,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -103,6 +54,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 10,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -111,7 +63,8 @@
   "Model": "NU",
   "Objective": "StripPacking",
   "Subobjective": "",
-  "N": 15,
+  "N": 10,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -120,7 +73,8 @@
   "Model": "SU",
   "Objective": "StripPacking",
   "Subobjective": "",
-  "N": 15,
+  "N": 10,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -129,7 +83,8 @@
   "Model": "RU",
   "Objective": "StripPacking",
   "Subobjective": "",
-  "N": 15,
+  "N": 10,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -138,7 +93,8 @@
   "Model": "HU",
   "Objective": "StripPacking",
   "Subobjective": "",
-  "N": 15,
+  "N": 10,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -147,7 +103,8 @@
   "Model": "SBL",
   "Objective": "StripPacking",
   "Subobjective": "",
-  "N": 15,
+  "N": 10,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -156,7 +113,8 @@
   "Model": "SBM",
   "Objective": "StripPacking",
   "Subobjective": "",
-  "N": 15,
+  "N": 10,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -166,6 +124,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 15,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -175,6 +134,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 15,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -184,6 +144,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 15,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -193,6 +154,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 15,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -202,6 +164,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 15,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -211,6 +174,247 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 15,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "NU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 15,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 15,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "RU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 15,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "HU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 15,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SBL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 15,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SBM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 15,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "NU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "RU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "HU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "NU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "RU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "HU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SBL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SBM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 20,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "NU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 25,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 25,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "RU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 25,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "HU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 25,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 25,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 25,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -220,6 +424,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 25,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -229,6 +434,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 25,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -238,6 +444,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 25,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -247,6 +454,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 25,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -256,6 +464,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 25,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -265,114 +474,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 25,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "NU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 25,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "SU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 25,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "RU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 25,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "HU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 25,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "SBL",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 25,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "SBM",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 25,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "NU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 35,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "SU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 35,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "RU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 35,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "HU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 35,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "SBL",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 35,
-  "Cuts": 1,
-  "Presolve": 1,
-  "Heuristics": 1
- },
- {
-  "Model": "SBM",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 35,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -382,6 +484,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 35,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -391,6 +494,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 35,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -400,6 +504,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 35,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -409,6 +514,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 35,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -418,6 +524,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 35,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -427,6 +534,127 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 35,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "NU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 35,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 35,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "RU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 35,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "HU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 35,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SBL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 35,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "SBM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 35,
+  "Instance": 0,
+  "Cuts": 1,
+  "Presolve": 1,
+  "Heuristics": 1
+ },
+ {
+  "Model": "NU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 50,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 50,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "RU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 50,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "HU",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 50,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBL",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 50,
+  "Instance": 0,
+  "Cuts": 0,
+  "Presolve": 1,
+  "Heuristics": 0
+ },
+ {
+  "Model": "SBM",
+  "Objective": "StripPacking",
+  "Subobjective": "",
+  "N": 50,
+  "Instance": 0,
   "Cuts": 0,
   "Presolve": 1,
   "Heuristics": 0
@@ -436,6 +664,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 50,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -445,6 +674,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 50,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -454,6 +684,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 50,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -463,6 +694,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 50,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -472,6 +704,7 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 50,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
@@ -481,62 +714,9 @@
   "Objective": "StripPacking",
   "Subobjective": "",
   "N": 50,
+  "Instance": 0,
   "Cuts": 1,
   "Presolve": 1,
   "Heuristics": 1
- },
- {
-  "Model": "NU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 50,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "SU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 50,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "RU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 50,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "HU",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 50,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "SBL",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 50,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
- },
- {
-  "Model": "SBM",
-  "Objective": "StripPacking",
-  "Subobjective": "",
-  "N": 50,
-  "Cuts": 0,
-  "Presolve": 1,
-  "Heuristics": 0
  }
 ]

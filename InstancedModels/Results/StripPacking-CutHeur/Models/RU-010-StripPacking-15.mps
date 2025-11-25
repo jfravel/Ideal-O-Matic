@@ -1,4 +1,4 @@
-* Signature: 0x88758d72c2988b70
+* Signature: 0x88758d72c29886be
 NAME RU-010-StripPacking-15
 ROWS
  N  OBJ

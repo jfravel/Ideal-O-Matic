@@ -2,43 +2,30 @@ import json
 import os
 
 
-name = 'StripPacking-BranchSP'
+name = 'StripPacking-CutHeur'
 
-M = ["NU", "SU", "RU", "HU", "SBL", "SBM",      "NUb", "SUb", "RUb", "HUb", "SBbL", "SBbM",      "NUsp", "SUsp", "RUsp", "HUsp", "SBspL", "SBspM",      "NUspb", "SUspb", "RUspb", "HUspb", "SBspbL", "SBspbM"]
-#M = ["NU", "SU", "RU", "HU", "SBL", "SBM"]
+#M = ["NU", "SU", "RU", "HU", "SBL", "SBM",      "NUb", "SUb", "RUb", "HUb", "SBbL", "SBbM",      "NUsp", "SUsp", "RUsp", "HUsp", "SBspL", "SBspM",      "NUspb", "SUspb", "RUspb", "HUspb", "SBspbL", "SBspbM"]
+M = ["NU", "SU", "RU", "HU", "SBL", "SBM"]
 
 
-# S = [10, 15, 20, 25, 30, 40, 50, 60, 70]
-N = [10, 15, 25, 35, 50]
+N = [10, 15, 20, 25, 35, 50]
+# N = [10, 15, 20, 25, 35, 50]
 
 # D = [(1,1,1), (1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (0,1,1), (0,0,0)]
-D = [(0,1,0)] #Cuts, Presolve, Heuristics
+D = [(0,1,0), (1,1,1)] #Cuts, Presolve, Heuristics
 
-#I = [0, 1, 2, 3]
-I = None
+I = [0]
 
-
-if I == None:
-    configs = [{
-        "Model"        : m,
-        "Objective"    : "StripPacking",
-        "Subobjective" : "",
-        "N"            : n,
-        "Cuts"         : d[0],
-        "Presolve"     : d[1],
-        "Heuristics"   : d[2]
-        }  for n in N  for d in D  for m in M]
-else:
-    configs = [{
-        "Model"        : m,
-        "Objective"    : "StripPacking",
-        "Subobjective" : "",
-        "N"            : n,
-        "Instance"     : i,
-        "Cuts"         : d[0],
-        "Presolve"     : d[1],
-        "Heuristics"   : d[2]
-        }  for n in N  for d in D  for m in M  for i in I]
+configs = [{
+   "Model"        : m,
+   "Objective"    : "StripPacking",
+   "Subobjective" : "",
+   "N"            : n,
+   "Instance"     : i,
+   "Cuts"         : d[0],
+   "Presolve"     : d[1],
+   "Heuristics"   : d[2]
+   }  for n in N  for d in D  for m in M  for i in I]
 
 path = f'./Results/{name}/cfg-{name}.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
