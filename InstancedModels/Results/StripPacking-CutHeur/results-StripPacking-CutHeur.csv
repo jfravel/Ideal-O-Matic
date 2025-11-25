@@ -30,3 +30,241 @@ RU-010-StripPacking-15,11/19/2025,,RU,StripPacking,,15,,,0,1,0,0.154419183731079
 ,,,,,,,,,,,,,,,,,,
 Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
 SBL-010-StripPacking-15,11/19/2025,,SBL,StripPacking,,15,,,0,1,0,0.4693276882171631,,55.0,37.0,0.32727272727272727,10,8114.0
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-111-StripPacking-10,11/20/2025,,NU,StripPacking,,10,,,1,1,1,1.3782997131347656,,38.99999999599999,38.99999999599999,0.0,7,5032.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-111-StripPacking-10,11/20/2025,,SU,StripPacking,,10,,,1,1,1,1.8426573276519775,,38.99999999599999,38.99999999599999,0.0,5,3606.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-111-StripPacking-10,11/20/2025,,RU,StripPacking,,10,,,1,1,1,2.8795583248138428,,38.99999999599999,38.99999999599999,0.0,8,5143.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-111-StripPacking-10,11/20/2025,,HU,StripPacking,,10,,,1,1,1,6.5266852378845215,,38.99999999599999,38.99999999599999,0.0,10,8243.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-111-StripPacking-10,11/20/2025,,SBL,StripPacking,,10,,,1,1,1,10.934614181518555,,39.0,39.0,0.0,5,17596.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-111-StripPacking-10,11/20/2025,,SBM,StripPacking,,10,,,1,1,1,19.437519550323486,,38.999999995978506,38.999999995978506,0.0,8,25606.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-010-StripPacking-10,11/20/2025,,NU,StripPacking,,10,,,0,1,0,0.23707795143127441,,39.0,39.0,0.0,10,11360.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-010-StripPacking-10,11/20/2025,,SU,StripPacking,,10,,,0,1,0,0.733910322189331,,39.0,39.0,0.0,10,31724.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-010-StripPacking-10,11/20/2025,,RU,StripPacking,,10,,,0,1,0,0.78999924659729,,39.0,39.0,0.0,7,24961.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-010-StripPacking-10,11/20/2025,,HU,StripPacking,,10,,,0,1,0,0.3639333248138428,,39.0,39.0,0.0,8,6516.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-010-StripPacking-10,11/20/2025,,SBL,StripPacking,,10,,,0,1,0,0.3031117916107178,,38.99999999599997,38.99999999599997,0.0,8,12685.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-010-StripPacking-10,11/20/2025,,SBM,StripPacking,,10,,,0,1,0,0.8191492557525635,,39.0,39.0,0.0,8,8685.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-111-StripPacking-15,11/20/2025,,NU,StripPacking,,15,,,1,1,1,621.6850051879883,,47.0,47.0,0.0,10,184118.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-111-StripPacking-15,11/20/2025,,SU,StripPacking,,15,,,1,1,1,730.1834979057312,,47.0,47.0,0.0,10,127926.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-111-StripPacking-15,11/20/2025,,RU,StripPacking,,15,,,1,1,1,604.6182425022125,,47.0,47.0,0.0,10,70106.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-111-StripPacking-15,11/20/2025,,HU,StripPacking,,15,,,1,1,1,434.084184885025,,47.0,47.0,0.0,10,36254.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-111-StripPacking-15,11/20/2025,,SBL,StripPacking,,15,,,1,1,1,2126.727190732956,,47.0,47.0,0.0,10,423759.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-111-StripPacking-15,11/20/2025,,SBM,StripPacking,,15,,,1,1,1,3562.6998946666718,,47.0,47.0,0.0,10,1418183.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-010-StripPacking-15,11/20/2025,,NU,StripPacking,,15,,,0,1,0,565.3419165611267,,47.0,47.0,0.0,10,9289938.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-010-StripPacking-15,11/20/2025,,SU,StripPacking,,15,,,0,1,0,199.13847732543945,,47.0,47.0,0.0,10,1167376.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-010-StripPacking-15,11/20/2025,,RU,StripPacking,,15,,,0,1,0,182.30313086509705,,47.0,47.0,0.0,10,370837.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-010-StripPacking-15,11/20/2025,,HU,StripPacking,,15,,,0,1,0,265.1921372413635,,47.0,47.0,0.0,10,394614.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-010-StripPacking-15,11/20/2025,,SBL,StripPacking,,15,,,0,1,0,427.18063044548035,,47.0,47.0,0.0,10,1987034.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-010-StripPacking-15,11/20/2025,,SBM,StripPacking,,15,,,0,1,0,3600.0442349910736,,47.0,46.0,0.02127659574468085,10,14840590.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-111-StripPacking-25,11/20/2025,,NU,StripPacking,,25,,,1,1,1,3600.107344865799,,76.99999999219997,35.0,0.5454545454085005,10,657817.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-111-StripPacking-25,11/20/2025,,SU,StripPacking,,25,,,1,1,1,3600.278463125229,,75.99999999229999,35.00000000000001,0.5394736841638675,10,522336.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-111-StripPacking-25,11/20/2025,,RU,StripPacking,,25,,,1,1,1,3600.2445209026337,,77.9999999841999,35.0,0.5512820511911566,10,276918.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-111-StripPacking-25,11/20/2025,,HU,StripPacking,,25,,,1,1,1,3600.1801743507385,,75.99999999229999,35.0,0.5394736841638677,10,156631.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-111-StripPacking-25,11/20/2025,,SBL,StripPacking,,25,,,1,1,1,3600.1226048469543,,77.99999999209999,35.0,0.5512820512366041,10,430072.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-111-StripPacking-25,11/20/2025,,SBM,StripPacking,,25,,,1,1,1,3600.676997423172,,76.99999999219999,35.0,0.5454545454085005,10,542013.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-010-StripPacking-25,11/20/2025,,NU,StripPacking,,25,,,0,1,0,3600.0579578876495,,79.0,39.999999999999986,0.49367088607594956,10,33689968.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-010-StripPacking-25,11/20/2025,,SU,StripPacking,,25,,,0,1,0,3600.0934665203094,,77.0,45.0,0.4155844155844156,10,14651340.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-010-StripPacking-25,11/20/2025,,RU,StripPacking,,25,,,0,1,0,3600.088305711746,,78.0,43.0,0.44871794871794873,10,5247277.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-010-StripPacking-25,11/20/2025,,HU,StripPacking,,25,,,0,1,0,3600.126476049423,,77.0,38.99999999999994,0.4935064935064942,10,2650758.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-010-StripPacking-25,11/21/2025,,SBL,StripPacking,,25,,,0,1,0,3600.076602458954,,78.0,44.0,0.4358974358974359,10,9731580.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-010-StripPacking-25,11/21/2025,,SBM,StripPacking,,25,,,0,1,0,3600.089812517166,,79.0,35.0,0.5569620253164557,10,5436809.0
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-010-StripPacking-10-0,11/24/2025,,NU,StripPacking,,10,0,,0,1,0,0.24123406410217285,,39.0,39.0,0.0,10,11360.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-010-StripPacking-10-0,11/24/2025,,SU,StripPacking,,10,0,,0,1,0,0.7852494716644287,,39.0,39.0,0.0,10,31724.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-010-StripPacking-10-0,11/24/2025,,RU,StripPacking,,10,0,,0,1,0,0.8611421585083008,,39.0,39.0,0.0,7,24961.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-010-StripPacking-10-0,11/24/2025,,HU,StripPacking,,10,0,,0,1,0,0.36167216300964355,,39.0,39.0,0.0,8,6516.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-010-StripPacking-10-0,11/24/2025,,SBL,StripPacking,,10,0,,0,1,0,0.31766510009765625,,38.99999999599997,38.99999999599997,0.0,8,12685.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-010-StripPacking-10-0,11/24/2025,,SBM,StripPacking,,10,0,,0,1,0,0.8793759346008301,,39.0,39.0,0.0,8,8685.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-111-StripPacking-10-0,11/24/2025,,NU,StripPacking,,10,0,,1,1,1,1.4445736408233643,,38.99999999599999,38.99999999599999,0.0,7,5032.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-111-StripPacking-10-0,11/24/2025,,SU,StripPacking,,10,0,,1,1,1,1.8725697994232178,,38.99999999599999,38.99999999599999,0.0,5,3606.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-111-StripPacking-10-0,11/24/2025,,RU,StripPacking,,10,0,,1,1,1,2.944257974624634,,38.99999999599999,38.99999999599999,0.0,8,5143.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-111-StripPacking-10-0,11/24/2025,,HU,StripPacking,,10,0,,1,1,1,6.460464715957642,,38.99999999599999,38.99999999599999,0.0,10,8243.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-111-StripPacking-10-0,11/24/2025,,SBL,StripPacking,,10,0,,1,1,1,10.929558277130127,,39.0,39.0,0.0,5,17596.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-111-StripPacking-10-0,11/24/2025,,SBM,StripPacking,,10,0,,1,1,1,20.61710000038147,,38.999999995978506,38.999999995978506,0.0,8,25606.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-010-StripPacking-15-0,11/24/2025,,NU,StripPacking,,15,0,,0,1,0,500.71086621284485,,45.0,44.99999999539999,1.022224675277054e-10,10,7150556.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-010-StripPacking-15-0,11/24/2025,,SU,StripPacking,,15,0,,0,1,0,188.29295134544373,,45.0,45.0,0.0,10,764170.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-010-StripPacking-15-0,11/24/2025,,RU,StripPacking,,15,0,,0,1,0,32.98261260986328,,45.0,45.0,0.0,10,65868.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-010-StripPacking-15-0,11/24/2025,,HU,StripPacking,,15,0,,0,1,0,140.07681226730347,,45.0,44.9999999954,1.0222215173093395e-10,10,200756.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-010-StripPacking-15-0,11/24/2025,,SBL,StripPacking,,15,0,,0,1,0,160.43660974502563,,45.0,45.0,0.0,9,715117.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-010-StripPacking-15-0,11/24/2025,,SBM,StripPacking,,15,0,,0,1,0,2215.1273317337036,,45.0,44.999999995399996,1.0222230962931967e-10,10,8396456.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-111-StripPacking-15-0,11/24/2025,,NU,StripPacking,,15,0,,1,1,1,412.46992111206055,,45.0,45.0,0.0,10,67594.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-111-StripPacking-15-0,11/24/2025,,SU,StripPacking,,15,0,,1,1,1,451.58838844299316,,45.0,45.0,0.0,10,56670.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-111-StripPacking-15-0,11/24/2025,,RU,StripPacking,,15,0,,1,1,1,187.63157486915588,,45.0,45.0,0.0,10,22482.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-111-StripPacking-15-0,11/24/2025,,HU,StripPacking,,15,0,,1,1,1,442.70009088516235,,45.0,45.0,0.0,10,33956.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-111-StripPacking-15-0,11/24/2025,,SBL,StripPacking,,15,0,,1,1,1,1001.6574990749359,,45.0,45.0,0.0,10,184050.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-111-StripPacking-15-0,11/24/2025,,SBM,StripPacking,,15,0,,1,1,1,1856.3276178836823,,45.0,45.0,0.0,10,575016.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-010-StripPacking-20-0,11/24/2025,,NU,StripPacking,,20,0,,0,1,0,3601.131884098053,,79.0,47.99999999999984,0.39240506329114133,10,32083773.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-010-StripPacking-20-0,11/24/2025,,SU,StripPacking,,20,0,,0,1,0,3600.051761865616,,77.0,50.0,0.35064935064935066,10,14442358.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-010-StripPacking-20-0,11/24/2025,,RU,StripPacking,,20,0,,0,1,0,3600.1030728816986,,78.0,49.0,0.3717948717948718,10,5554324.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-010-StripPacking-20-0,11/24/2025,,HU,StripPacking,,20,0,,0,1,0,3600.1630687713623,,77.0,48.0,0.37662337662337664,10,2705958.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-010-StripPacking-20-0,11/24/2025,,SBL,StripPacking,,20,0,,0,1,0,3600.120254278183,,79.0,50.0,0.3670886075949367,10,10299714.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-010-StripPacking-20-0,11/24/2025,,SBM,StripPacking,,20,0,,0,1,0,3600.086963415146,,81.0,45.0,0.4444444444444444,10,7138090.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-111-StripPacking-20-0,11/24/2025,,NU,StripPacking,,20,0,,1,1,1,3600.0859010219574,,77.99999999209997,45.99999999999984,0.4102564101966817,10,808481.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-111-StripPacking-20-0,11/24/2025,,SU,StripPacking,,20,0,,1,1,1,3600.1206636428833,,76.99999999219999,45.99999999999994,0.40259740253688714,10,591190.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-111-StripPacking-20-0,11/24/2025,,RU,StripPacking,,20,0,,1,1,1,3601.245265007019,,79.99999999189998,45.99999999999995,0.4249999999417817,10,447597.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-111-StripPacking-20-0,11/24/2025,,HU,StripPacking,,20,0,,1,1,1,3600.3723163604736,,77.99999998419997,47.99999999999989,0.38461538449073096,10,164372.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-111-StripPacking-20-0,11/24/2025,,SBL,StripPacking,,20,0,,1,1,1,3600.1803274154663,,78.99999999199999,46.0,0.4177215189283768,10,628767.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-111-StripPacking-20-0,11/25/2025,,SBM,StripPacking,,20,0,,1,1,1,3600.0816702842712,,79.99999999189998,41.00000000000001,0.48749999994810916,10,920245.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-010-StripPacking-25-0,11/25/2025,,NU,StripPacking,,25,0,,0,1,0,3600.0942192077637,,71.0,35.9999999999999,0.49295774647887464,10,35882668.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-010-StripPacking-25-0,11/25/2025,,SU,StripPacking,,25,0,,0,1,0,3600.1116938591003,,71.0,36.0,0.49295774647887325,10,14465173.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-010-StripPacking-25-0,11/25/2025,,RU,StripPacking,,25,0,,0,1,0,3600.132733821869,,71.0,34.0,0.5211267605633803,10,5601386.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+HU-010-StripPacking-25-0,11/25/2025,,HU,StripPacking,,25,0,,0,1,0,3600.163309574127,,70.0,34.0,0.5142857142857142,10,2415871.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBL-010-StripPacking-25-0,11/25/2025,,SBL,StripPacking,,25,0,,0,1,0,3600.099719285965,,72.0,34.0,0.5277777777777778,10,9168123.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SBM-010-StripPacking-25-0,11/25/2025,,SBM,StripPacking,,25,0,,0,1,0,3600.1695668697357,,72.0,34.0,0.5277777777777778,10,6254614.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+NU-111-StripPacking-25-0,11/25/2025,,NU,StripPacking,,25,0,,1,1,1,3600.081011533737,,69.99999999289999,34.0,0.5142857142364489,10,711561.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+SU-111-StripPacking-25-0,11/25/2025,,SU,StripPacking,,25,0,,1,1,1,3600.6023547649384,,69.99999998579995,34.00000000000001,0.5142857141871832,10,464098.0

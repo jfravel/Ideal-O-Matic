@@ -1,4 +1,4 @@
-* Signature: 0xf306ce6a8a6983f7
+* Signature: 0xf306ce6a8a697f45
 NAME SBM-111-StripPacking-15
 ROWS
  N  OBJ

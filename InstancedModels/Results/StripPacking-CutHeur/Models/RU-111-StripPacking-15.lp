@@ -1,6 +1,6 @@
 \ Model RU-111-StripPacking-15
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-\ Signature: 0x88758d72c2988b70
+\ Signature: 0x88758d72c29886be
 Minimize
   h
 Subject To
