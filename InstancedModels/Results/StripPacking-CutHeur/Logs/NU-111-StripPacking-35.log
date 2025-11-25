@@ -1,9 +1,0 @@
-
-Gurobi 13.0.0 (linux64) logging started Fri Nov 21 02:32:58 2025
-
-Set parameter LogFile to value "./Results/StripPacking-CutHeur/Logs/NU-111-StripPacking-35.log"
-Set parameter TimeLimit to value 3600
-Set parameter Cuts to value 1
-Set parameter Presolve to value 1
-Set parameter Heuristics to value 1
-Set parameter LogToConsole to value 0
