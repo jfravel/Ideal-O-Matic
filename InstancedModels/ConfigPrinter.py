@@ -27,7 +27,7 @@ configs = [{
    "Heuristics"   : d[2]
    }  for n in N  for d in D  for m in M  for i in I]
 
-path = f'./Results/{name}/cfg-{name}.json'
+path = f'./Results/{fullname}/cfg-{fullname}.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w', encoding='utf-8') as f:
     json.dump(configs, f, ensure_ascii=False, indent=1)
