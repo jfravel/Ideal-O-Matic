@@ -268,3 +268,6 @@ NU-111-StripPacking-25-0,11/25/2025,,NU,StripPacking,,25,0,,1,1,1,3600.081011533
 ,,,,,,,,,,,,,,,,,,
 Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
 SU-111-StripPacking-25-0,11/25/2025,,SU,StripPacking,,25,0,,1,1,1,3600.6023547649384,,69.99999998579995,34.00000000000001,0.5142857141871832,10,464098.0
+,,,,,,,,,,,,,,,,,,
+Name,Date,,Model,Objective,Subobjective,N,Instance,,Cuts,Presolve,Heuristics,Runtime,,Value,Bound,MIP Gap,Sol Count,Node Count
+RU-111-StripPacking-25-0,11/25/2025,,RU,StripPacking,,25,0,,1,1,1,3600.337010383606,,70.99999999279997,34.0,0.5211267605148183,10,291570.0
