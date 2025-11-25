@@ -1,0 +1,99 @@
+
+Gurobi 13.0.0 (linux64) logging started Mon Nov 24 12:03:53 2025
+
+Set parameter LogFile to value "./Results/StripPacking-CutHeur/Logs/SBL-010-StripPacking-15-0.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 0
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 0
+Set parameter LogToConsole to value 0
+Set parameter LPWarmStart to value 2
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Debian GNU/Linux 12 (bookworm)")
+
+CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
+
+Non-default parameters:
+TimeLimit  3600
+LPWarmStart  2
+Heuristics  0
+Cuts  0
+LogToConsole  0
+Presolve  1
+
+Optimize a model with 1275 rows, 241 columns and 4230 nonzeros (Min)
+Model fingerprint: 0xaf25fd54
+Model has 1 linear objective coefficients
+Variable types: 31 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [5e-01, 1e+04]
+
+Warning: Completing partial solution with 210 unfixed non-continuous variables out of 210
+User MIP start produced solution with objective 62.1 (0.00s)
+User MIP start produced solution with objective 62.1 (0.00s)
+Loaded user MIP start with objective 62.1
+
+Presolve removed 210 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 1065 rows, 241 columns, 3600 nonzeros
+Variable types: 31 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 3.200000e+01, 129 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   32.00000    0   24   62.10000   32.00000  48.5%     -    0s
+     0     0   32.00000    0   24   62.10000   32.00000  48.5%     -    0s
+     0     0   32.00000    0   12   62.10000   32.00000  48.5%     -    0s
+     0     2   32.00000    0   12   62.10000   32.00000  48.5%     -    0s
+*  818   876              45      61.0000000   32.00000  47.5%   8.7    0s
+* 1625  1065              67      53.0000000   32.00000  39.6%   8.1    0s
+* 4531  2552              53      51.0000000   32.00000  37.3%  12.3    1s
+* 6183  2495              72      50.0000000   32.00000  36.0%  15.4    1s
+*11281  4149              70      49.0000000   32.00000  34.7%  18.5    2s
+*18079  4637              70      47.0000000   32.00000  31.9%  20.5    4s
+ 19381  5137 infeasible   32        47.00000   32.00000  31.9%  21.0    5s
+*27067  4401              60      45.0000000   32.00000  28.9%  23.2    6s
+ 37449  5991 infeasible   40        45.00000   34.00000  24.4%  27.3   10s
+ 54307  8428   37.00000   32   27   45.00000   34.00000  24.4%  30.5   15s
+ 71892 10441     cutoff   32        45.00000   38.00000  15.6%  31.5   20s
+ 90209 12102   38.00000   27   28   45.00000   38.00000  15.6%  32.2   25s
+ 110634 13836 infeasible   38        45.00000   39.00000  13.3%  32.8   30s
+ 128245 15490   42.00000   36   28   45.00000   39.00000  13.3%  33.0   35s
+ 151376 17174   41.00000   44   12   45.00000   39.00000  13.3%  33.1   40s
+ 168890 15978   41.00000   47   21   45.00000   39.00000  13.3%  33.0   45s
+ 189593 12013   41.00000   49   13   45.00000   39.00000  13.3%  33.0   50s
+ 211286 10029   41.00000   49   18   45.00000   39.00000  13.3%  32.9   55s
+ 231093 12131 infeasible   54        45.00000   39.00000  13.3%  33.0   60s
+ 253945 14236   43.00000   48   17   45.00000   40.00000  11.1%  33.0   65s
+ 272944 15890   40.00000   47   16   45.00000   40.00000  11.1%  33.1   70s
+ 297586 16257   41.00000   46   16   45.00000   41.00000  8.89%  32.8   75s
+ 321756 16231 infeasible   55        45.00000   41.00000  8.89%  32.6   80s
+ 341566 15694 infeasible   45        45.00000   41.00000  8.89%  32.5   85s
+ 365772 15315     cutoff   59        45.00000   41.00000  8.89%  32.4   90s
+ 388337 14864   42.00000   52   17   45.00000   41.00000  8.89%  32.4   95s
+ 409014 14824 infeasible   59        45.00000   41.00000  8.89%  32.3  100s
+ 437264 12501 infeasible   51        45.00000   42.00000  6.67%  32.0  105s
+ 461659 11184 infeasible   56        45.00000   42.00000  6.67%  31.7  110s
+ 486189 10789   44.00000   54   13   45.00000   43.00000  4.44%  31.3  115s
+ 516170 10253 infeasible   66        45.00000   43.00000  4.44%  31.0  120s
+ 542520  9311 infeasible   60        45.00000   43.00000  4.44%  30.8  125s
+ 565823  8329   43.00000   47   19   45.00000   43.00000  4.44%  30.7  130s
+ 592077  7262   43.00000   57   18   45.00000   43.00000  4.44%  30.6  135s
+ 615343  6038   43.00000   49   16   45.00000   43.00000  4.44%  30.5  140s
+ 638404  5167 infeasible   43        45.00000   43.00000  4.44%  30.5  145s
+ 662053  4175   43.00000   68   27   45.00000   43.00000  4.44%  30.4  150s
+ 685505  3079   43.00000   50   19   45.00000   43.00000  4.44%  30.3  155s
+ 713796    11 infeasible   54        45.00000   44.00000  2.22%  30.1  160s
+
+Explored 715117 nodes (21523906 simplex iterations) in 160.43 seconds (35.62 work units)
+Thread count was 32 (of 32 available processors)
+
+Solution count 9: 45 45 47 ... 62.1
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.500000000000e+01, best bound 4.500000000000e+01, gap 0.0000%
