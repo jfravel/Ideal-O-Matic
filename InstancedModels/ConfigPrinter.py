@@ -2,10 +2,10 @@ import json
 import os
 
 
-name = 'StripPacking-CutHeur'
+name = 'StripPacking-BranchSP'
 
 #M = ["NU", "SU", "RU", "HU", "SBL", "SBM",      "NUb", "SUb", "RUb", "HUb", "SBbL", "SBbM",      "NUsp", "SUsp", "RUsp", "HUsp", "SBspL", "SBspM",      "NUspb", "SUspb", "RUspb", "HUspb", "SBspbL", "SBspbM"]
-M = ["NU", "SU", "RU", "HU", "SBL", "SBM"]
+M = ["NUspb", "SUspb", "RUspb", "HUspb", "SBspbL", "SBspbM"]
 
 
 N = [10, 15, 20, 25, 35, 50]
@@ -25,9 +25,9 @@ configs = [{
    "Cuts"         : d[0],
    "Presolve"     : d[1],
    "Heuristics"   : d[2]
-   }  for n in N  for d in D  for m in M  for i in I]
+   }  for m in M  for n in N   for d in D  for i in I]
 
-path = f'./Results/{fullname}/cfg-{fullname}.json'
+path = f'./Results/{name}/cfg-{name}.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w', encoding='utf-8') as f:
     json.dump(configs, f, ensure_ascii=False, indent=1)
