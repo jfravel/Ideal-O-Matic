@@ -1,0 +1,82 @@
+
+Gurobi 13.0.0 (linux64) logging started Fri Nov 28 00:01:47 2025
+
+Set parameter LogFile to value "./Results/StripPacking-BranchSP/Logs/SBspbL-010-StripPacking-15-0.log"
+Set parameter TimeLimit to value 3600
+Set parameter Cuts to value 0
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 0
+Set parameter LogToConsole to value 0
+Set parameter LPWarmStart to value 2
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Debian GNU/Linux 12 (bookworm)")
+
+CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
+
+Non-default parameters:
+TimeLimit  3600
+LPWarmStart  2
+Heuristics  0
+Cuts  0
+LogToConsole  0
+Presolve  1
+
+Optimize a model with 3095 rows, 241 columns and 9690 nonzeros (Min)
+Model fingerprint: 0x2c00276a
+Model has 1 linear objective coefficients
+Variable types: 31 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [5e-01, 1e+04]
+Using branch priorities.
+
+Warning: Completing partial solution with 210 unfixed non-continuous variables out of 210
+User MIP start did not produce a new incumbent solution
+
+Presolve removed 210 rows and 0 columns
+Presolve time: 0.01s
+Presolved: 2885 rows, 241 columns, 9060 nonzeros
+Variable types: 31 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 3.200000e+01, 358 iterations, 0.02 seconds (0.02 work units)
+Another try with MIP start
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      79.0000000   32.00000  59.5%     -    0s
+H    0     0                      78.0000000   32.00000  59.0%     -    0s
+     0     0   32.00000    0   49   78.00000   32.00000  59.0%     -    0s
+     0     0   32.00000    0   49   78.00000   32.00000  59.0%     -    0s
+     0     0   32.00000    0   24   78.00000   32.00000  59.0%     -    0s
+     0     2   32.00000    0   22   78.00000   32.00000  59.0%     -    0s
+*  819   803              37      66.0000000   32.00000  51.5%  32.8    0s
+* 1166   923              53      62.0000000   32.00000  48.4%  29.9    0s
+* 1269   948              57      61.0000000   32.00000  47.5%  30.1    0s
+* 1562   927              49      60.0000000   32.00000  46.7%  29.9    0s
+* 1840   933              33      59.0000000   32.00000  45.8%  30.0    0s
+* 3999  1738              36      56.0000000   32.00000  42.9%  34.6    3s
+* 4536  1630              44      55.0000000   32.00000  41.8%  36.5    3s
+* 4922  1570              35      54.0000000   32.00000  40.7%  38.7    4s
+  5221  1545   50.00000   28   37   54.00000   32.00000  40.7%  40.3    5s
+* 5511  1422              38      53.0000000   32.00000  39.6%  41.3    5s
+* 5579  1337              37      52.0000000   32.00000  38.5%  41.7    5s
+* 5748  1281              35      51.0000000   32.00000  37.3%  43.0    5s
+* 8322  1481              43      50.0000000   40.00000  20.0%  49.5    8s
+  9809  1535 infeasible   28        50.00000   43.00000  14.0%  52.1   10s
+ 14136  1525 infeasible   36        50.00000   45.00000  10.0%  58.1   15s
+ 19972  1734   48.00000   27   32   50.00000   47.00000  6.00%  58.6   20s
+ 27383  1728   47.00000   38   18   50.00000   47.00000  6.00%  58.7   25s
+ 40964  1381 infeasible   36        50.00000   48.00000  4.00%  49.4   30s
+ 51620  1400 infeasible   36        50.00000   48.00000  4.00%  46.5   35s
+*53583  1463              46      48.0000000   48.00000  0.00%  46.3   35s
+
+Explored 54968 nodes (2544640 simplex iterations) in 35.92 seconds (9.02 work units)
+Thread count was 32 (of 32 available processors)
+
+Solution count 10: 48 48 50 ... 59
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.800000000000e+01, best bound 4.800000000000e+01, gap 0.0000%
