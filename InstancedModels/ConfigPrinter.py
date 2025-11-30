@@ -2,17 +2,17 @@ import json
 import os
 
 
-name = 'StripPacking-BranchSP'
+name = 'StripPacking-SCIPBnB'
 
 #M = ["NU", "SU", "RU", "HU", "SBL", "SBM",      "NUb", "SUb", "RUb", "HUb", "SBbL", "SBbM",      "NUsp", "SUsp", "RUsp", "HUsp", "SBspL", "SBspM",      "NUspb", "SUspb", "RUspb", "HUspb", "SBspbL", "SBspbM"]
-M = ["NUspb", "SUspb", "RUspb", "HUspb", "SBspbL", "SBspbM"]
+M = ["NU", "SU", "RU", "HU", "SBL", "SBM"]
 
 
+#N = [10]
 N = [10, 15, 20, 25, 35, 50]
-# N = [10, 15, 20, 25, 35, 50]
 
 # D = [(1,1,1), (1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (0,1,1), (0,0,0)]
-D = [(0,1,0), (1,1,1)] #Cuts, Presolve, Heuristics
+D = [(1,1,1)] #Cuts, Presolve, Heuristics
 
 I = [0]
 

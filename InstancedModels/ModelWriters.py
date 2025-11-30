@@ -398,3 +398,59 @@ def WarmStart_StripPacking(m): #Packs objects in order of decreasing height.
         if m._objects[j]['clr'][3] > Marg:
             m._c[j,1].start = FlorH + m._objects[j]['clr'][3] + m._objects[j]['dim'][1]/2
         else: m._c[j,1].start = FlorM + m._objects[j]['dim'][1]/2
+
+import json
+
+def WarmStartSCIP(
+    m,
+    json_solution_path
+):
+
+    # ---------------------------
+    # 2. Load Gurobi solution
+    # ---------------------------
+    print(f"Loading Gurobi solution from {json_solution_path}")
+    with open(json_solution_path, "r") as f:
+        gvals = json.load(f)
+
+    # gvals maps string var names → float values
+
+    # ---------------------------
+    # 3. Create partial SCIP solution
+    # ---------------------------
+    partialSol = m.createPartialSol()
+    var_dict = {v.name: v for v in m.getVars()}
+
+    assigned = 0
+    skipped_missing = 0
+
+    # ---------------------------
+    # 4. Assign values
+    # ---------------------------
+    for name, value in gvals.items():
+
+        if name not in var_dict:
+            skipped_missing += 1
+            continue
+
+        scip_var = var_dict[name]
+
+        # Assign
+        m.setSolVal(partialSol, scip_var, value)
+        assigned += 1
+
+    # ---------------------------
+    # 5. Add solution to SCIP
+    # ---------------------------
+    # check=False = allow partial assignments
+    m.addSol(partialSol)
+
+    print("-----------------------------------------------------")
+    print("  Partial warm start inserted into SCIP.")
+    print(f"  Variables assigned       : {assigned}")
+    print(f"  Missing variables skipped: {skipped_missing}")
+    print(f"  Total SCIP variables     : {len(var_dict)}")
+    print("-----------------------------------------------------")
+
+    return m, partialSol
+
