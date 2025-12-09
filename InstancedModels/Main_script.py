@@ -17,8 +17,8 @@ import gc #For preventing memory leakage
 
 ## Config Inputs and Setup ####################################################   
 
-ConfigName = 'StripPacking-ManyRuns' #Name of the config to be run
-TimeLimit = 1*60*60 #Time limit per config
+ConfigName = 'StripPacking-Spfix' #Name of the config to be run
+TimeLimit = 20 #Time limit per config
 LogToConsole = 0 #Turns off gurobi's console logging (significant speed increase sometimes)
 Plotting = 0 #Do or do not plot each best found soltion
 PlotLabels = 0 #Turns off object labels in solution plots

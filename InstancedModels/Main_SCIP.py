@@ -94,8 +94,7 @@ for config in configs: #For each individual config in the file
         )
     resultDict['Date'] = date.today().strftime("%m/%d/%Y") #Record the date
     
-    MPSPath = './Results/StripPacking-CutHeur/Models/'
-    MPSFile = f"{MPSPath}{resultDict['Name']}.mps"    
+    MPSFile = f"{path}/Models/{resultDict['Name']}.mps"    
     
     m=Model()
     m.readProblem(filename=MPSFile)

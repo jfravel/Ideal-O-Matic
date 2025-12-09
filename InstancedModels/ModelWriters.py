@@ -266,11 +266,13 @@ def SBspL_StripPacking(m): #"" SB-L under the strip packing objective with seque
     m.addConstrs((             m._c[j,s]  >=  m._LB[i,s] + m._PM[i,j,s] - (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*h(i,j,s)  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
     m.addConstrs((             m._c[i,s]  <=  m._UB[j,s] - m._PM[i,j,s] - (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[j,s] - m._c[i,s]  >=  m._PM[i,j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLF')
-    m.addConstrs(( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUF')
-    m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLR')
-    m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUR')
-    
+    for a,b,c in combinations(m._objects,3):
+        (i,j,k) = sorted((a,b,c))
+        m.addConstr( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  >=  0, name='SeqPairLF')
+        m.addConstr( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  <=  1, name='SeqPairUF')
+        m.addConstr( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0, name='SeqPairLR')
+        m.addConstr( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1, name='SeqPairUR')
+
 def SBspbL_StripPacking(m): #"" SB-L under the strip packing objective with custom branching and sequence-pair inequalities.
     clears = {i : m._objects[i]['clr'][0] + m._objects[i]['clr'][2] + m._objects[i]['clr'][1] + m._objects[i]['clr'][3]  for i in m._objects}
     cmax = max([clears[i]  for i in m._objects])
@@ -286,10 +288,12 @@ def SBspbL_StripPacking(m): #"" SB-L under the strip packing objective with cust
     m.addConstrs((             m._c[j,s]  >=  m._LB[i,s] + m._PM[i,j,s] - (m._LB[i,s] + m._PM[i,j,s] - m._LB[j,s])*h(i,j,s)  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='LB')
     m.addConstrs((             m._c[i,s]  <=  m._UB[j,s] - m._PM[i,j,s] - (m._UB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)  for i,j in permutations(m._objects,2)  for s in [0,1] ), name='UB')
     m.addConstrs(( m._c[j,s] - m._c[i,s]  >=  m._PM[i,j,s] + (m._LB[j,s] - m._PM[i,j,s] - m._UB[i,s])*h(i,j,s)               for i,j in permutations(m._objects,2)  for s in [0,1] ), name='PM')
-    m.addConstrs(( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLF')
-    m.addConstrs(( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUF')
-    m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLR')
-    m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUR')
+    for a,b,c in combinations(m._objects,3):
+        (i,j,k) = sorted((a,b,c))
+        m.addConstr( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  >=  0, name='SeqPairLF')
+        m.addConstr( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  <=  1, name='SeqPairUF')
+        m.addConstr( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0, name='SeqPairLR')
+        m.addConstr( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1, name='SeqPairUR')
 
 
 
@@ -344,10 +348,12 @@ def SBspM_StripPacking(m): #"" SB-M under the strip packing objective with seque
     m.addConstrs(( m._delt[i,j] + m._delt[j,i] - m._DELT[mysort(i,j)]  <=  1  for i,j in permutations(m._objects,2) ), name='McCormick1')
     m.addConstrs((                m._delt[i,j] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick2')
     m.addConstrs((                m._delt[j,i] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick3')
-    m.addConstrs(( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLF')
-    m.addConstrs(( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUF')
-    m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLR')
-    m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUR')
+    for a,b,c in combinations(m._objects,3):
+        (i,j,k) = sorted((a,b,c))
+        m.addConstr( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  >=  0, name='SeqPairLF')
+        m.addConstr( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  <=  1, name='SeqPairUF')
+        m.addConstr( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0, name='SeqPairLR')
+        m.addConstr( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1, name='SeqPairUR')
 
 def SBspbM_StripPacking(m): #"" SB-M under the strip packing objective with custom branching and sequence-pair inequalities.
     clears = {i : m._objects[i]['clr'][0] + m._objects[i]['clr'][2] + m._objects[i]['clr'][1] + m._objects[i]['clr'][3]  for i in m._objects}
@@ -369,10 +375,12 @@ def SBspbM_StripPacking(m): #"" SB-M under the strip packing objective with cust
     m.addConstrs(( m._delt[i,j] + m._delt[j,i] - m._DELT[mysort(i,j)]  <=  1  for i,j in permutations(m._objects,2) ), name='McCormick1')
     m.addConstrs((                m._delt[i,j] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick2')
     m.addConstrs((                m._delt[j,i] - m._DELT[mysort(i,j)]  >=  0  for i,j in permutations(m._objects,2) ), name='McCormick3')
-    m.addConstrs(( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLF')
-    m.addConstrs(( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUF')
-    m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0  for i,j,k in combinations(m._objects,3) ), name='SeqPairLR')
-    m.addConstrs(( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1  for i,j,k in combinations(m._objects,3) ), name='SeqPairUR')
+    for a,b,c in combinations(m._objects,3):
+        (i,j,k) = sorted((a,b,c))
+        m.addConstr( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  >=  0, name='SeqPairLF')
+        m.addConstr( m._delt[i,j] + m._delt[j,k] - m._delt[i,k]  <=  1, name='SeqPairUF')
+        m.addConstr( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  >=  0, name='SeqPairLR')
+        m.addConstr( m._delt[j,i] + m._delt[k,j] - m._delt[k,i]  <=  1, name='SeqPairUR')
 
 
 

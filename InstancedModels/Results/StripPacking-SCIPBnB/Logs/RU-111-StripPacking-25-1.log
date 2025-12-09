@@ -1,0 +1,92 @@
+
+Gurobi 13.0.0 (win64) logging started Tue Dec  9 16:13:06 2025
+
+Set parameter LogFile to value "./Results/StripPacking-SCIPBnB/Logs/RU-111-StripPacking-25-1.log"
+Set parameter TimeLimit to value 5
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Set parameter LogToConsole to value 0
+Set parameter LPWarmStart to value 2
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  5
+LPWarmStart  2
+Heuristics  1
+Cuts  1
+LogToConsole  0
+Presolve  1
+
+Optimize a model with 4525 rows, 1251 columns and 12050 nonzeros (Min)
+Model fingerprint: 0x7615cb02
+Model has 1 linear objective coefficients
+Variable types: 51 continuous, 1200 integer (1200 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+
+Warning: Completing partial solution with 1200 unfixed non-continuous variables out of 1200
+User MIP start produced solution with objective 99.2 (0.00s)
+Loaded user MIP start with objective 99.2
+
+Presolve removed 600 rows and 0 columns
+Presolve time: 0.01s
+Presolved: 3925 rows, 1251 columns, 10850 nonzeros
+Variable types: 51 continuous, 1200 integer (1200 binary)
+
+Root relaxation: objective 4.300000e+01, 671 iterations, 0.02 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   43.00000    0   81   99.20000   43.00000  56.7%     -    0s
+H    0     0                      98.2000000   43.00000  56.2%     -    0s
+H    0     0                      97.0000000   43.00000  55.7%     -    0s
+H    0     0                      96.0000000   43.00000  55.2%     -    0s
+     0     0   43.00000    0  127   96.00000   43.00000  55.2%     -    0s
+     0     0   43.00000    0  124   96.00000   43.00000  55.2%     -    0s
+     0     0   43.00000    0  147   96.00000   43.00000  55.2%     -    0s
+     0     0   43.00000    0   52   96.00000   43.00000  55.2%     -    0s
+H    0     0                      92.0000000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   79   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0  110   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   55   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   67   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0  129   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   68   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   76   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0  116   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   55   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   69   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0  131   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   54   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   54   92.00000   43.00000  53.3%     -    0s
+     0     0   43.00000    0   48   92.00000   43.00000  53.3%     -    0s
+     0     2   43.00000    0   46   92.00000   43.00000  53.3%     -    0s
+H   71    76                      92.0000000   43.00000  53.3%  50.0    1s
+H   78    99                      91.0000000   43.00000  52.7%  53.0    1s
+H   98   487                      87.0000000   43.00000  50.6%  53.2    1s
+H  568   586                      87.0000000   43.00000  50.6%  48.2    4s
+   600  1668   43.00000   27  108   87.00000   43.00000  50.6%  47.6    5s
+
+Cutting planes:
+  Learned: 68
+  Gomory: 2
+  MIR: 40
+  RLT: 8
+  Relax-and-lift: 2
+  PSD: 1
+
+Explored 1827 nodes (78581 simplex iterations) in 5.06 seconds (6.26 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 8: 87 87 91 ... 98.2
+
+Time limit reached
+Best objective 8.699999999120e+01, best bound 4.300000000000e+01, gap 50.5747%

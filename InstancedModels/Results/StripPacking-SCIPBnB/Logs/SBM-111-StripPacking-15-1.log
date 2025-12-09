@@ -1,0 +1,90 @@
+
+Gurobi 13.0.0 (win64) logging started Tue Dec  9 16:14:40 2025
+
+Set parameter LogFile to value "./Results/StripPacking-SCIPBnB/Logs/SBM-111-StripPacking-15-1.log"
+Set parameter TimeLimit to value 5
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Set parameter LogToConsole to value 0
+Set parameter LPWarmStart to value 2
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: AMD Ryzen AI 9 365 w/ Radeon 880M, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 10 physical cores, 20 logical processors, using up to 20 threads
+
+Non-default parameters:
+TimeLimit  5
+LPWarmStart  2
+Heuristics  1
+Cuts  1
+LogToConsole  0
+Presolve  1
+
+Optimize a model with 1905 rows, 346 columns and 5700 nonzeros (Min)
+Model fingerprint: 0x18caa649
+Model has 1 linear objective coefficients
+Variable types: 136 continuous, 210 integer (210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+
+Warning: Completing partial solution with 210 unfixed non-continuous variables out of 210
+User MIP start produced solution with objective 77 (0.00s)
+User MIP start produced solution with objective 77 (0.00s)
+Loaded user MIP start with objective 77
+
+Presolve removed 525 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 1380 rows, 346 columns, 4335 nonzeros
+Variable types: 136 continuous, 210 integer (210 binary)
+
+Root relaxation: objective 5.000000e+01, 112 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   50.00000    0    4   77.00000   50.00000  35.1%     -    0s
+H    0     0                      67.0000000   50.00000  25.4%     -    0s
+H    0     0                      58.0000000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    7   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    8   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    6   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    7   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0   10   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    3   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    4   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0   14   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    7   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    7   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0   12   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    5   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0   10   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    8   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    5   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    7   58.00000   50.00000  13.8%     -    0s
+     0     0   50.00000    0    7   58.00000   50.00000  13.8%     -    0s
+     0     2   50.00000    0    7   58.00000   50.00000  13.8%     -    0s
+H  327   310                      58.0000000   50.00000  13.8%  10.0    0s
+H  351   322                      56.0000000   50.00000  10.7%  10.1    0s
+H  710   568                      55.0000000   50.00000  9.09%   8.6    0s
+H  971   925                      51.0000000   50.00000  1.96%   7.8    0s
+H 1342   725                      51.0000000   50.00000  1.96%   7.4    0s
+H 1450   678                      50.0000000   50.00000  0.00%   7.4    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 2
+  MIR: 4
+  Flow cover: 31
+  RLT: 2
+
+Explored 1572 nodes (12700 simplex iterations) in 0.58 seconds (0.42 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 9: 50 51 51 ... 77
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+01, best bound 5.000000000000e+01, gap 0.0000%
