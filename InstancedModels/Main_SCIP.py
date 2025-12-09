@@ -95,8 +95,7 @@ for config in configs: #For each individual config in the file
     resultDict['Date'] = date.today().strftime("%m/%d/%Y") #Record the date
     
     MPSPath = './Results/StripPacking-CutHeur/Models/'
-    MPSFile = f'{MPSPath}{resultDict['Name']}.mps'
-    
+    MPSFile = f"{MPSPath}{resultDict['Name']}.mps"    
     
     m=Model()
     m.readProblem(filename=MPSFile)
@@ -144,7 +143,7 @@ for config in configs: #For each individual config in the file
     print(datetime.now().strftime('%H:%M:%S'))
     print('Optimizing ' + resultDict['Name']) #Print an update to the console
     
-    ModelWriters.WarmStartSCIP(m, f'./Data/{config['Model']}-StripPacking-' + str(config['N']) + '-' + str(config['Instance']) + '-sol.json')
+    ModelWriters.WarmStartSCIP(m, f"./Data/{config['Model']}-StripPacking-" + str(config['N']) + '-' + str(config['Instance']) + '-sol.json')
         
     starttime = time() #Record the start time
     m.optimize() #Optimize the model
