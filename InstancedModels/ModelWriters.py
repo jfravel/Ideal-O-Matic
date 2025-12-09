@@ -418,7 +418,7 @@ def WarmStartSCIP(
     # ---------------------------
     # 3. Create partial SCIP solution
     # ---------------------------
-    partialSol = m.createPartialSol()
+    Sol = m.createSol()
     var_dict = {v.name: v for v in m.getVars()}
 
     assigned = 0
@@ -436,14 +436,14 @@ def WarmStartSCIP(
         scip_var = var_dict[name]
 
         # Assign
-        m.setSolVal(partialSol, scip_var, value)
+        m.setSolVal(Sol, scip_var, value)
         assigned += 1
 
     # ---------------------------
     # 5. Add solution to SCIP
     # ---------------------------
     # check=False = allow partial assignments
-    m.addSol(partialSol)
+    m.addSol(Sol)
 
     print("-----------------------------------------------------")
     print("  Partial warm start inserted into SCIP.")
@@ -452,5 +452,5 @@ def WarmStartSCIP(
     print(f"  Total SCIP variables     : {len(var_dict)}")
     print("-----------------------------------------------------")
 
-    return m, partialSol
+    return m, Sol
 
