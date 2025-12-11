@@ -1,26 +1,26 @@
 # Solution for model SBspbL-111-StripPacking-10-0
-# Objective value = 3.8999999995999588e+01
+# Objective value = 39
 c[B0,0] 5
-c[B0,1] 2.0999999995999588e+01
-c[B1,0] 23
+c[B0,1] 21
+c[B1,0] 34
 c[B1,1] 5.5
-c[B2,0] 38.5
+c[B2,0] 7.5
 c[B2,1] 6.5
 c[B3,0] 39.5
-c[B3,1] 3.5999999995999588e+01
+c[B3,1] 36
 c[B4,0] 77
-c[B4,1] 1.3999999995999588e+01
+c[B4,1] 10
 c[B5,0] 17
 c[B5,1] 21.5
 c[B6,0] 93
-c[B6,1] 2.6999999995999588e+01
+c[B6,1] 27
 c[B7,0] 36
-c[B7,1] 1.4499999998499602e+01
+c[B7,1] 29.5
 c[B8,0] 33
-c[B8,1] 28.4999999959996
+c[B8,1] 21.5
 c[B9,0] 46
 c[B9,1] 13
-h 3.8999999995999588e+01
+h 39
 delta[B0,B1] 0
 delta[B0,B2] 0
 delta[B0,B3] 0
@@ -30,8 +30,8 @@ delta[B0,B6] 0
 delta[B0,B7] 0
 delta[B0,B8] 0
 delta[B0,B9] 0
-delta[B1,B0] 1
-delta[B1,B2] 0
+delta[B1,B0] 0
+delta[B1,B2] 1
 delta[B1,B3] 1
 delta[B1,B4] 0
 delta[B1,B5] 1
@@ -39,8 +39,8 @@ delta[B1,B6] 0
 delta[B1,B7] 1
 delta[B1,B8] 1
 delta[B1,B9] 0
-delta[B2,B0] 0
-delta[B2,B1] 0
+delta[B2,B0] 1
+delta[B2,B1] 1
 delta[B2,B3] 1
 delta[B2,B4] 0
 delta[B2,B5] 1
@@ -91,7 +91,7 @@ delta[B7,B3] 1
 delta[B7,B4] 1
 delta[B7,B5] 0
 delta[B7,B6] 1
-delta[B7,B8] 1
+delta[B7,B8] 0
 delta[B7,B9] 0
 delta[B8,B0] 0
 delta[B8,B1] 0
@@ -100,7 +100,7 @@ delta[B8,B3] 1
 delta[B8,B4] 1
 delta[B8,B5] 0
 delta[B8,B6] 1
-delta[B8,B7] 0
+delta[B8,B7] 1
 delta[B8,B9] 0
 delta[B9,B0] 0
 delta[B9,B1] 0

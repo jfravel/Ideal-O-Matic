@@ -2,7 +2,7 @@ from xpress import problem
 import os
 import sys
 
-model="RU"
+model="SBM"
 PMFlag="((0, 0), (0, 0))"
 DP="P"
 
@@ -50,6 +50,8 @@ m=problem()
 m.read(f"Instances/{Name}.mps")
 
 m.addcbmessage(xpress_message_callback, None, 0)
+
+m.controls.timelimit = 4.5*60*60
 
 m.controls.HEUREMPHASIS=0
 
