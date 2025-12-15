@@ -1,0 +1,89 @@
+
+Gurobi 13.0.0 (linux64) logging started Fri Dec 12 09:32:31 2025
+
+Set parameter LogFile to value "./Results/StripPacking-SCIPBnB/Logs/SBM-111-StripPacking-25-0.log"
+Set parameter TimeLimit to value 5
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Set parameter LogToConsole to value 0
+Set parameter LPWarmStart to value 2
+Warning: linear constraint 25 and linear constraint 27 have the same name "LB[0]"
+Warning: linear constraint 25 and linear constraint 27 have the same name "LB[0]"
+Warning: default constraint names used to write mps file
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Debian GNU/Linux 13 (trixie)")
+
+CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
+
+Non-default parameters:
+TimeLimit  5
+LPWarmStart  2
+Heuristics  1
+Cuts  1
+LogToConsole  0
+Presolve  1
+
+Optimize a model with 5425 rows, 951 columns and 16250 nonzeros (Min)
+Model fingerprint: 0x2251ab3b
+Model has 1 linear objective coefficients
+Variable types: 351 continuous, 600 integer (600 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+
+Warning: Completing partial solution with 600 unfixed non-continuous variables out of 600
+User MIP start produced solution with objective 106.2 (0.01s)
+User MIP start produced solution with objective 106.2 (0.01s)
+Loaded user MIP start with objective 106.2
+
+Presolve removed 1500 rows and 0 columns
+Presolve time: 0.02s
+Presolved: 3925 rows, 951 columns, 12350 nonzeros
+Variable types: 351 continuous, 600 integer (600 binary)
+
+Root relaxation: objective 3.400000e+01, 493 iterations, 0.02 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   34.00000    0   74  106.20000   34.00000  68.0%     -    0s
+H    0     0                     104.0000000   34.00000  67.3%     -    0s
+     0     0   34.00000    0  147  104.00000   34.00000  67.3%     -    0s
+     0     0   34.00000    0  128  104.00000   34.00000  67.3%     -    0s
+     0     0   34.00000    0  149  104.00000   34.00000  67.3%     -    0s
+     0     0   34.00000    0   85  104.00000   34.00000  67.3%     -    0s
+     0     0   34.00000    0   89  104.00000   34.00000  67.3%     -    0s
+     0     0   34.00000    0  152  104.00000   34.00000  67.3%     -    0s
+     0     0   34.00000    0   80  104.00000   34.00000  67.3%     -    0s
+H    0     0                     101.0000000   34.00000  66.3%     -    0s
+H    0     0                     100.0000000   34.00000  66.0%     -    0s
+     0     0   34.00000    0   80  100.00000   34.00000  66.0%     -    0s
+     0     0   34.00000    0  137  100.00000   34.00000  66.0%     -    0s
+     0     0   34.00000    0   91  100.00000   34.00000  66.0%     -    0s
+H    0     0                      88.0000000   34.00000  61.4%     -    0s
+     0     0   34.00000    0  102   88.00000   34.00000  61.4%     -    0s
+     0     0   34.00000    0  139   88.00000   34.00000  61.4%     -    0s
+     0     0   34.00000    0  107   88.00000   34.00000  61.4%     -    0s
+     0     0   34.00000    0  107   88.00000   34.00000  61.4%     -    0s
+     0     0   34.00000    0   72   88.00000   34.00000  61.4%     -    1s
+     0     2   34.00000    0   72   88.00000   34.00000  61.4%     -    1s
+H   91    96                      88.0000000   34.00000  61.4%  75.5    3s
+H  163   509                      87.0000000   34.00000  60.9%  66.8    4s
+H  478   509                      84.0000000   34.00000  59.5%  62.4    4s
+  2268  2137 infeasible  103        84.00000   34.00000  59.5%  47.2    5s
+
+Cutting planes:
+  MIR: 55
+  Flow cover: 231
+  RLT: 22
+
+Explored 2288 nodes (120370 simplex iterations) in 5.01 seconds (4.59 work units)
+Thread count was 32 (of 32 available processors)
+
+Solution count 8: 84 87 88 ... 106.2
+
+Time limit reached
+Best objective 8.400000000000e+01, best bound 3.400000000000e+01, gap 59.5238%

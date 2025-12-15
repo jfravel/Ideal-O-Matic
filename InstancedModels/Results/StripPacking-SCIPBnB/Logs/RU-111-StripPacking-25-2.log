@@ -1,0 +1,92 @@
+
+Gurobi 13.0.0 (linux64) logging started Fri Dec 12 09:30:51 2025
+
+Set parameter LogFile to value "./Results/StripPacking-SCIPBnB/Logs/RU-111-StripPacking-25-2.log"
+Set parameter TimeLimit to value 5
+Set parameter Cuts to value 1
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 1
+Set parameter LogToConsole to value 0
+Set parameter LPWarmStart to value 2
+Warning: linear constraint 25 and linear constraint 27 have the same name "LB[0]"
+Warning: linear constraint 25 and linear constraint 27 have the same name "LB[0]"
+Warning: default constraint names used to write mps file
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (linux64 - "Debian GNU/Linux 13 (trixie)")
+
+CPU model: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 32 logical processors, using up to 32 threads
+
+Non-default parameters:
+TimeLimit  5
+LPWarmStart  2
+Heuristics  1
+Cuts  1
+LogToConsole  0
+Presolve  1
+
+Optimize a model with 4525 rows, 1251 columns and 12050 nonzeros (Min)
+Model fingerprint: 0x4cb624d8
+Model has 1 linear objective coefficients
+Variable types: 51 continuous, 1200 integer (1200 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+
+Warning: Completing partial solution with 1200 unfixed non-continuous variables out of 1200
+User MIP start produced solution with objective 97.9 (0.00s)
+Loaded user MIP start with objective 97.9
+
+Presolve removed 600 rows and 0 columns
+Presolve time: 0.02s
+Presolved: 3925 rows, 1251 columns, 10850 nonzeros
+Variable types: 51 continuous, 1200 integer (1200 binary)
+
+Root relaxation: objective 4.100000e+01, 737 iterations, 0.02 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   41.00000    0   84   97.90000   41.00000  58.1%     -    0s
+H    0     0                      96.0000000   41.00000  57.3%     -    0s
+     0     0   41.00000    0  110   96.00000   41.00000  57.3%     -    0s
+     0     0   41.00000    0  125   96.00000   41.00000  57.3%     -    0s
+H    0     0                      91.0000000   41.00000  54.9%     -    0s
+     0     0   41.00000    0  139   91.00000   41.00000  54.9%     -    0s
+     0     0   41.00000    0   91   91.00000   41.00000  54.9%     -    0s
+     0     0   41.00000    0   93   91.00000   41.00000  54.9%     -    0s
+     0     0   41.00000    0  104   91.00000   41.00000  54.9%     -    0s
+     0     0   41.00000    0   60   91.00000   41.00000  54.9%     -    0s
+     0     0   41.00000    0   56   91.00000   41.00000  54.9%     -    0s
+H    0     0                      89.0000000   41.00000  53.9%     -    0s
+     0     0   41.00000    0  138   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0   61   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0   98   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0  148   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0   57   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0   84   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0  118   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0  101   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0  101   89.00000   41.00000  53.9%     -    0s
+     0     0   41.00000    0  101   89.00000   41.00000  53.9%     -    0s
+H    0     0                      87.0000000   41.00000  52.9%     -    1s
+     0     2   41.00000    0   86   87.00000   41.00000  52.9%     -    1s
+H  138   149                      86.0000000   41.00000  52.3%  46.9    2s
+H  211   219                      85.0000000   41.00000  51.8%  44.8    2s
+  1040  1053   47.60000   45  140   85.00000   41.00000  51.8%  40.0    5s
+
+Cutting planes:
+  Learned: 69
+  Gomory: 1
+  MIR: 45
+  RLT: 5
+  Relax-and-lift: 9
+
+Explored 1064 nodes (50824 simplex iterations) in 5.01 seconds (4.46 work units)
+Thread count was 32 (of 32 available processors)
+
+Solution count 7: 85 86 87 ... 97.9
+
+Time limit reached
+Best objective 8.500000000000e+01, best bound 4.100000000000e+01, gap 51.7647%
