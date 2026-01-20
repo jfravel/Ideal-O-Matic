@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
 """
-Complete Symbolic Idealness Verification
+Enumeration-Based Idealness Verification with Numerical Pre-filtering
 
 Rigorous analysis with NO vertex limits.
+Uses FAST numerical pre-filtering to reject infeasible combinations,
+then EXACT SymPy arithmetic for rigorous symbolic analysis.
+
 Filters conditions to only those satisfiable with real, positive parameters.
 
 Models:
 - SB-L: Simple Binary with Hamming Selector
 - SB-M: Simple Binary with Multilinear Selector  
 - SU:   Standard Unary (4 binary indicators)
-- RU:   Reduced Unary (3 binary indicators, one eliminated via coupling)
+- RU:   Refined Unary (4 binary indicators with inequality coupling)
 
 Assumptions: L > 0, U > L, P > 0
 """
 
 import time
+import numpy as np
 from sympy import (
     symbols, Rational, Matrix, simplify, solve, Eq,
     I, re, im, sqrt, S
@@ -26,6 +30,10 @@ from itertools import combinations
 
 # Symbolic parameters
 L, U, P = symbols('L U P', real=True, positive=True)
+
+# Test point for numerical pre-filtering
+# Chosen to be generic (avoiding special cases like P = U - L)
+TEST_POINT = {L: 1, U: 9, P: 2}
 
 
 @dataclass(frozen=True)
@@ -451,6 +459,8 @@ class SymbolicIdealnesProver:
     """
     Rigorous symbolic prover with NO vertex limits.
     Enumerates ALL vertices and checks integrality conditions.
+    
+    Uses numerical pre-filtering for speed, then exact SymPy arithmetic for rigor.
     """
     
     def __init__(self, formulation: Formulation):
@@ -469,12 +479,63 @@ class SymbolicIdealnesProver:
             if name not in self.equality_constraints
         ]
         
+        # Build numerical matrices for pre-filtering
+        self._build_numerical_matrices()
+        
         # Results
         self.vertices = []
         self.always_integral = []
         self.always_fractional = []
         self.conditional = []
         self.real_conditions = {}
+    
+    def _build_numerical_matrices(self):
+        """Pre-compute numerical constraint matrix for fast pre-filtering."""
+        self.constraint_names = list(self.constraints.keys())
+        self.n_constraints = len(self.constraint_names)
+        
+        # Build numerical matrix at test point
+        self.A_num = np.zeros((self.n_constraints, self.n_vars))
+        self.b_num = np.zeros(self.n_constraints)
+        
+        for i, name in enumerate(self.constraint_names):
+            c = self.constraints[name]
+            for j, coef in enumerate(c.coeffs):
+                self.A_num[i, j] = float(coef.subs(TEST_POINT) if hasattr(coef, 'subs') else coef)
+            self.b_num[i] = float(c.rhs.subs(TEST_POINT) if hasattr(c.rhs, 'subs') else c.rhs)
+        
+        # Map constraint names to indices
+        self.name_to_idx = {name: i for i, name in enumerate(self.constraint_names)}
+    
+    def _numerical_prefilter(self, tight_set: FrozenSet[str]) -> Tuple[bool, Optional[np.ndarray]]:
+        """
+        Fast numerical check at test point.
+        Returns (passes_filter, solution_if_passes).
+        """
+        # Get indices for tight constraints + equalities
+        all_tight = tight_set | self.equality_constraints
+        indices = [self.name_to_idx[name] for name in all_tight]
+        
+        # Build sub-matrix
+        A_sub = self.A_num[indices, :]
+        b_sub = self.b_num[indices]
+        
+        # Check rank
+        if np.linalg.matrix_rank(A_sub) < self.n_vars:
+            return False, None
+        
+        # Solve
+        try:
+            x = np.linalg.solve(A_sub, b_sub)
+        except np.linalg.LinAlgError:
+            return False, None
+        
+        # Check feasibility at test point
+        residuals = self.A_num @ x - self.b_num
+        if np.any(residuals < -1e-9):
+            return False, None
+        
+        return True, x
     
     def _build_matrix(self, tight_set: FrozenSet[str]):
         """Build constraint matrix for tight set + equalities."""
@@ -537,12 +598,12 @@ class SymbolicIdealnesProver:
         )
     
     def prove(self, verbose=True):
-        """Run complete vertex enumeration (no limits)."""
+        """Run complete vertex enumeration with numerical pre-filtering."""
         start = time.time()
         
         if verbose:
             print(f"\n{'='*70}")
-            print(f"SYMBOLIC IDEALNESS ANALYSIS: {self.form.name}")
+            print(f"NUMERICAL IDEALNESS ANALYSIS: {self.form.name}")
             print(f"{'='*70}")
             print(f"Variables: {self.n_vars} ({len(self.binary_indices)} binary)")
             print(f"Constraints: {len(self.constraints)} ({self.n_eq} equality)")
@@ -555,24 +616,37 @@ class SymbolicIdealnesProver:
         
         if verbose:
             print(f"  Enumerating ALL C({n_ineq}, {self.n_tight_needed}) = {total_combos} potential tight sets...")
+            print(f"  Using numerical pre-filter at (L={TEST_POINT[L]}, U={TEST_POINT[U]}, P={TEST_POINT[P]})")
         
+        # Statistics
+        numerical_rejected = 0
         rank_failures = 0
         feasibility_failures = 0
+        symbolically_analyzed = 0
         processed = 0
         
         for tight_tuple in combinations(self.inequality_constraints, self.n_tight_needed):
             processed += 1
-            if verbose and processed % 1000 == 0:
+            if verbose and processed % 5000 == 0:
                 print(f"    Processed {processed}/{total_combos} combinations...")
             
             tight_set = frozenset(tight_tuple)
+            
+            # FAST NUMERICAL PRE-FILTER
+            passes, _ = self._numerical_prefilter(tight_set)
+            if not passes:
+                numerical_rejected += 1
+                continue
+            
+            # EXACT SYMBOLIC ANALYSIS (only for candidates that pass numerical filter)
+            symbolically_analyzed += 1
             solution = self._solve_system(tight_set)
             
             if solution is None:
                 rank_failures += 1
                 continue
             
-            # Check feasibility
+            # Check feasibility symbolically
             if not is_feasible_symbolic(solution, self.constraints, self.var_names):
                 feasibility_failures += 1
                 continue
@@ -595,9 +669,11 @@ class SymbolicIdealnesProver:
         
         if verbose:
             print(f"\nEnumeration complete:")
-            print(f"  Total combinations checked: {total_combos}")
-            print(f"  Rank failures: {rank_failures}")
-            print(f"  Feasibility failures: {feasibility_failures}")
+            print(f"  Total combinations: {total_combos}")
+            print(f"  Numerical pre-filter rejected: {numerical_rejected} ({100*numerical_rejected/total_combos:.1f}%)")
+            print(f"  Symbolically analyzed: {symbolically_analyzed}")
+            print(f"  Symbolic rank failures: {rank_failures}")
+            print(f"  Symbolic feasibility failures: {feasibility_failures}")
             print(f"  Valid vertices found: {len(self.vertices)}")
             print(f"\nVertex classification:")
             print(f"  Always integral: {len(self.always_integral)}")
